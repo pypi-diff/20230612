@@ -1127,3 +1127,84 @@
 [2023-06-12 01:33:26] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.3.tar.gz]
 [2023-06-12 01:33:26] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
 [2023-06-12 01:33:26] INFO root fetch - main [MainThread]: Store serial: [18461832]
+[2023-06-12 01:38:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461832]
+[2023-06-12 01:38:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crackerjack
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: corgy
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmcv-tools
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crossplane-ng
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thendisnever
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brain-radiodensity-feature-extractor
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonce
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: six-python
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jinja2-async-environment
+[2023-06-12 01:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: argcomplete
+[2023-06-12 01:38:36] INFO root fetch - processPackages [corgy]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-06-12 01:38:36] INFO root fetch - processPackages [lmcv-tools]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 01:38:36] WARNING root fetch - processPackages [crossplane-ng]: Skipping, unable to determine old version
+[2023-06-12 01:38:36] INFO root fetch - main [MainThread]: End processing [crossplane-ng] error
+[2023-06-12 01:38:36] INFO root fetch - processPackages [thendisnever]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-12 01:38:36] INFO root fetch - processPackages [six-python]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-12 01:38:36] INFO root fetch - processPackages [crackerjack]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-12 01:38:36] WARNING root fetch - processPackages [brain-radiodensity-feature-extractor]: Skipping, unable to determine old version
+[2023-06-12 01:38:36] INFO root fetch - main [MainThread]: End processing [brain-radiodensity-feature-extractor] error
+[2023-06-12 01:38:36] INFO root fetch - processPackages [pythonce]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 01:38:36] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/fe/d5/2a6dd667c54453a0ae4e4250c1bde8e4fe906696122ec5146aab54806847/crackerjack-0.2.7.tar.gz
+[2023-06-12 01:38:36] INFO root fetch - processPackages [thendisnever]: Downloading https://files.pythonhosted.org/packages/03/0a/081721856915571e7d221778f6fdcaa48f8e6133d30cfcd6a3ebfdb2fb49/thendisnever-0.5.0.tar.gz
+[2023-06-12 01:38:36] INFO root fetch - processPackages [six-python]: Downloading https://files.pythonhosted.org/packages/6e/4f/04252710569d19779163d7261c483c073e8aea4285baceeb727edee7be61/six-python-0.1.tar.gz
+[2023-06-12 01:38:36] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/45/65/26df3c4e3b6d074bd44718616e02d7d259cc9e7e09d0e7f2c9913447b4c2/pythonce-0.0.4.tar.gz
+[2023-06-12 01:38:36] INFO root fetch - processPackages [jinja2-async-environment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-12 01:38:36] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/a6/77/b25220b7a62d77723ed90a9c73cf91d8f81a486de7b8b2b8fe50c62e0428/corgy-9.1.4.tar.gz
+[2023-06-12 01:38:36] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/72/27/98e391399fcb0939ae9d9bba59ed7815a313d4c58dc77a4ea036e352880d/jinja2_async_environment-0.1.6.tar.gz
+[2023-06-12 01:38:36] INFO root fetch - processPackages [lmcv-tools]: Downloading https://files.pythonhosted.org/packages/ea/68/b2875f860bbf9efacf928551122ed55824ddacae305c935a10beaf2655c8/lmcv_tools-0.0.7.tar.gz
+[2023-06-12 01:38:36] INFO root fetch - processPackages [argcomplete]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-12 01:38:37] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/89/9e/e7135de38637d0509e72fd08e0baa3c9cb241b454ffbb7a338af3394d094/crackerjack-0.2.8.tar.gz
+[2023-06-12 01:38:37] INFO root fetch - processPackages [thendisnever]: Downloading https://files.pythonhosted.org/packages/a2/bd/55ced66003b2f72e91cff1a2960ab7ea92931e777956bedf64c1bd250e0f/thendisnever-0.6.0.tar.gz
+[2023-06-12 01:38:37] INFO root fetch - processPackages [six-python]: Downloading https://files.pythonhosted.org/packages/c0/be/4513f142323c2556630a44cd1877825c5fd8fc3c53ed47f3f3b044061c7d/six-python-0.1.1.tar.gz
+[2023-06-12 01:38:37] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-12 01:38:37] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.2.7.tar.gz tmp/crackerjack-0.2.8.tar.gz --markdown 20230612/c/crackerjack/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-12 01:38:37] INFO root fetch - processPackages [argcomplete]: Downloading https://files.pythonhosted.org/packages/43/30/09472981132ae3783d43367cbda65abec3e04aa233593877bc9e8982ff41/argcomplete-3.1.0.tar.gz
+[2023-06-12 01:38:37] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/8d/05/678e32ee665a892fb1b1a945ca1efa788dcfc6fe90c169f645b6bffc6c75/jinja2_async_environment-0.1.7.tar.gz
+[2023-06-12 01:38:37] INFO root fetch - processPackages [thendisnever]: executing diffoscope
+[2023-06-12 01:38:37] INFO root fetch - processPackages [thendisnever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thendisnever-0.5.0.tar.gz tmp/thendisnever-0.6.0.tar.gz --markdown 20230612/t/thendisnever/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-12 01:38:37] INFO root fetch - processPackages [lmcv-tools]: Downloading https://files.pythonhosted.org/packages/6c/a8/be5c371f9d09c0df28407c5486d7568c34fd32b1015d0a79d25e11db0bff/lmcv_tools-0.0.8.tar.gz
+[2023-06-12 01:38:37] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/22/c3/c7d4e88df1b9cddffaf8341c201577a26ea7196d2e20f0eedbb55f28e0ee/corgy-9.1.5.tar.gz
+[2023-06-12 01:38:37] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/98/2f/371735c261a66ae41ce59d962b247d77abc3c29aa663a0c34143053f148e/pythonce-0.0.5.tar.gz
+[2023-06-12 01:38:37] INFO root fetch - processPackages [six-python]: executing diffoscope
+[2023-06-12 01:38:37] INFO root fetch - processPackages [six-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/six-python-0.1.tar.gz tmp/six-python-0.1.1.tar.gz --markdown 20230612/s/six-python/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 01:38:37] INFO root fetch - processPackages [jinja2-async-environment]: executing diffoscope
+[2023-06-12 01:38:37] INFO root fetch - processPackages [jinja2-async-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_async_environment-0.1.6.tar.gz tmp/jinja2_async_environment-0.1.7.tar.gz --markdown 20230612/j/jinja2-async-environment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-12 01:38:37] INFO root fetch - processPackages [lmcv-tools]: executing diffoscope
+[2023-06-12 01:38:37] INFO root fetch - processPackages [lmcv-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcv_tools-0.0.7.tar.gz tmp/lmcv_tools-0.0.8.tar.gz --markdown 20230612/l/lmcv-tools/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 01:38:37] INFO root fetch - processPackages [corgy]: executing diffoscope
+[2023-06-12 01:38:37] INFO root fetch - processPackages [corgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corgy-9.1.4.tar.gz tmp/corgy-9.1.5.tar.gz --markdown 20230612/c/corgy/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-06-12 01:38:37] INFO root fetch - processPackages [argcomplete]: Downloading https://files.pythonhosted.org/packages/54/c9/41c4dfde7623e053cbc37ac8bc7ca03b28093748340871d4e7f1630780c4/argcomplete-3.1.1.tar.gz
+[2023-06-12 01:38:37] INFO root fetch - processPackages [pythonce]: executing diffoscope
+[2023-06-12 01:38:37] INFO root fetch - processPackages [pythonce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonce-0.0.4.tar.gz tmp/pythonce-0.0.5.tar.gz --markdown 20230612/p/pythonce/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 01:38:37] INFO root fetch - processPackages [argcomplete]: executing diffoscope
+[2023-06-12 01:38:37] INFO root fetch - processPackages [argcomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argcomplete-3.1.0.tar.gz tmp/argcomplete-3.1.1.tar.gz --markdown 20230612/a/argcomplete/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-12 01:38:38] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.7.tar.gz]
+[2023-06-12 01:38:38] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.8.tar.gz]
+[2023-06-12 01:38:38] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-06-12 01:38:38] INFO root fetch - processPackages [jinja2-async-environment]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_async_environment-0.1.6.tar.gz]
+[2023-06-12 01:38:38] INFO root fetch - processPackages [jinja2-async-environment]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_async_environment-0.1.7.tar.gz]
+[2023-06-12 01:38:38] INFO root fetch - main [MainThread]: End processing [jinja2-async-environment]: success
+[2023-06-12 01:38:38] INFO root fetch - processPackages [thendisnever]: Remove: archive file [/home/abi/fetcher/tmp/thendisnever-0.5.0.tar.gz]
+[2023-06-12 01:38:38] INFO root fetch - processPackages [thendisnever]: Remove: archive file [/home/abi/fetcher/tmp/thendisnever-0.6.0.tar.gz]
+[2023-06-12 01:38:38] INFO root fetch - main [MainThread]: End processing [thendisnever]: success
+[2023-06-12 01:38:38] INFO root fetch - processPackages [six-python]: Remove: archive file [/home/abi/fetcher/tmp/six-python-0.1.tar.gz]
+[2023-06-12 01:38:38] INFO root fetch - processPackages [six-python]: Remove: archive file [/home/abi/fetcher/tmp/six-python-0.1.1.tar.gz]
+[2023-06-12 01:38:38] INFO root fetch - main [MainThread]: End processing [six-python]: success
+[2023-06-12 01:38:39] INFO root fetch - processPackages [argcomplete]: Remove: archive file [/home/abi/fetcher/tmp/argcomplete-3.1.0.tar.gz]
+[2023-06-12 01:38:39] INFO root fetch - processPackages [argcomplete]: Remove: archive file [/home/abi/fetcher/tmp/argcomplete-3.1.1.tar.gz]
+[2023-06-12 01:38:39] INFO root fetch - main [MainThread]: End processing [argcomplete]: success
+[2023-06-12 01:38:39] INFO root fetch - processPackages [lmcv-tools]: Remove: archive file [/home/abi/fetcher/tmp/lmcv_tools-0.0.7.tar.gz]
+[2023-06-12 01:38:39] INFO root fetch - processPackages [lmcv-tools]: Remove: archive file [/home/abi/fetcher/tmp/lmcv_tools-0.0.8.tar.gz]
+[2023-06-12 01:38:39] INFO root fetch - main [MainThread]: End processing [lmcv-tools]: success
+[2023-06-12 01:38:39] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.4.tar.gz]
+[2023-06-12 01:38:39] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.5.tar.gz]
+[2023-06-12 01:38:39] INFO root fetch - main [MainThread]: End processing [corgy]: success
+[2023-06-12 01:38:49] INFO root fetch - processPackages [pythonce]: Remove: archive file [/home/abi/fetcher/tmp/pythonce-0.0.4.tar.gz]
+[2023-06-12 01:38:49] INFO root fetch - processPackages [pythonce]: Remove: archive file [/home/abi/fetcher/tmp/pythonce-0.0.5.tar.gz]
+[2023-06-12 01:38:49] INFO root fetch - main [MainThread]: End processing [pythonce]: success
+[2023-06-12 01:38:49] INFO root fetch - main [MainThread]: Store serial: [18461868]
