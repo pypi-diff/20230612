@@ -192,3 +192,90 @@
 [2023-06-12 00:15:46] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-12 00:15:46] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-12 00:15:46] INFO root fetch - main [MainThread]: Store serial: [18461393]
+[2023-06-12 00:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461393]
+[2023-06-12 00:20:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yetl-framework
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: focalnet-tf
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyequations
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aorta-sirius-dev
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typeapi
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stim
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stimcirq
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sinter
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyfaust
+[2023-06-12 00:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libretrofuzz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [yetl-framework]: New version: [1.5.0.dev2] Old Version: [1.5.0.dev1]
+[2023-06-12 00:20:55] WARNING root fetch - processPackages [focalnet-tf]: Skipping, unable to determine old version
+[2023-06-12 00:20:55] INFO root fetch - main [MainThread]: End processing [focalnet-tf] error
+[2023-06-12 00:20:55] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-12 00:20:55] INFO root fetch - processPackages [pyequations]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 00:20:55] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 00:20:55] INFO root fetch - processPackages [typeapi]: New version: [2.0.0] Old Version: [1.5.1]
+[2023-06-12 00:20:55] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 00:20:55] INFO root fetch - processPackages [libretrofuzz]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-12 00:20:55] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 00:20:55] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/12/43/f378b46d469f852472c78477065b7fe38feb8aaa4cdca0d775852a2209d5/libretrofuzz-3.1.0.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/d9/1b/922c411f0fd4ad1562cd944a5ba7a2473d3d53accb23ef4ded9318dd77f3/typeapi-1.5.1.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-12 00:20:55] INFO root fetch - processPackages [pyequations]: Downloading https://files.pythonhosted.org/packages/3d/b1/c92c5f99f2c26c5982b24673dd5499bf7fa8bc83f28d1014b7320d24d4f2/pyequations-0.1.1.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/51/4b/14e7436e219cd95ee7e0ec547bab738e67200177725679df961762849669/yetl-framework-1.5.0.dev1.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/b0/fd/32ffd05248eff84c284b7ad3ce45f0df066a3af59849ed040f11bf29a9eb/libretrofuzz-3.1.1.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2023-06-12 00:20:55] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/6d/d1/e4b94e36cd5830a16287d055ac84052506a48460a842edb265cd37c4e146/typeapi-2.0.0.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-12 00:20:55] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230612/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 00:20:55] INFO root fetch - processPackages [pyequations]: Downloading https://files.pythonhosted.org/packages/05/fd/675d44ec55fdee060c8d51e5186cadb58b7e5a15b9656a3bddc71a8ff131/pyequations-0.1.2.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-12 00:20:55] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230612/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-12 00:20:55] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/37/19/27d54e4ffe8b19cd5b5af0de32e083a40b414b7326a055f26d98ef84d568/yetl-framework-1.5.0.dev2.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [typeapi]: executing diffoscope
+[2023-06-12 00:20:55] INFO root fetch - processPackages [typeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeapi-1.5.1.tar.gz tmp/typeapi-2.0.0.tar.gz --markdown 20230612/t/typeapi/1.5.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-12 00:20:55] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-12 00:20:55] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.1.0.tar.gz tmp/libretrofuzz-3.1.1.tar.gz --markdown 20230612/l/libretrofuzz/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-12 00:20:55] INFO root fetch - processPackages [pyequations]: executing diffoscope
+[2023-06-12 00:20:55] INFO root fetch - processPackages [pyequations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyequations-0.1.1.tar.gz tmp/pyequations-0.1.2.tar.gz --markdown 20230612/p/pyequations/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 00:20:55] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-06-12 00:20:55] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.5.0.dev1.tar.gz tmp/yetl-framework-1.5.0.dev2.tar.gz --markdown 20230612/y/yetl-framework/1.5.0.dev1-1.5.0.dev2/diff.md --exclude *.pyd
+[2023-06-12 00:20:55] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-12 00:20:55] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-12 00:20:55] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230612/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 00:20:56] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-12 00:20:56] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230612/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 00:20:56] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-12 00:20:56] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-12 00:20:56] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-12 00:20:57] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-12 00:20:57] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-12 00:20:57] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-12 00:20:57] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.5.0.dev1.tar.gz]
+[2023-06-12 00:20:57] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.5.0.dev2.tar.gz]
+[2023-06-12 00:20:57] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-06-12 00:20:57] INFO root fetch - processPackages [typeapi]: Remove: archive file [/home/abi/fetcher/tmp/typeapi-1.5.1.tar.gz]
+[2023-06-12 00:20:57] INFO root fetch - processPackages [typeapi]: Remove: archive file [/home/abi/fetcher/tmp/typeapi-2.0.0.tar.gz]
+[2023-06-12 00:20:57] INFO root fetch - main [MainThread]: End processing [typeapi]: success
+[2023-06-12 00:20:57] INFO root fetch - processPackages [pyequations]: Remove: archive file [/home/abi/fetcher/tmp/pyequations-0.1.1.tar.gz]
+[2023-06-12 00:20:57] INFO root fetch - processPackages [pyequations]: Remove: archive file [/home/abi/fetcher/tmp/pyequations-0.1.2.tar.gz]
+[2023-06-12 00:20:57] INFO root fetch - main [MainThread]: End processing [pyequations]: success
+[2023-06-12 00:20:57] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2023-06-12 00:20:59] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-12 00:20:59] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-12 00:20:59] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-12 00:21:00] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-06-12 00:21:00] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230612/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-12 00:21:02] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-12 00:21:02] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-12 00:21:02] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-12 00:21:37] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 00:21:37] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 00:21:37] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-06-12 00:21:51] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.1.0.tar.gz]
+[2023-06-12 00:21:51] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.1.1.tar.gz]
+[2023-06-12 00:21:51] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-12 00:21:51] INFO root fetch - main [MainThread]: Store serial: [18461451]
