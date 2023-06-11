@@ -582,3 +582,51 @@
 [2023-06-12 00:44:22] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
 [2023-06-12 00:44:22] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
 [2023-06-12 00:44:22] INFO root fetch - main [MainThread]: Store serial: [18461582]
+[2023-06-12 00:49:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461582]
+[2023-06-12 00:49:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-12 00:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hummuspy
+[2023-06-12 00:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dockery
+[2023-06-12 00:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fleet-sdk
+[2023-06-12 00:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crackerjack
+[2023-06-12 00:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: regenbib
+[2023-06-12 00:49:31] INFO root fetch - processPackages [fleet-sdk]: New version: [0.5.5.1] Old Version: [0.5.5]
+[2023-06-12 00:49:31] INFO root fetch - processPackages [dockery]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-12 00:49:31] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 00:49:31] INFO root fetch - processPackages [regenbib]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-06-12 00:49:31] INFO root fetch - processPackages [crackerjack]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-12 00:49:31] INFO root fetch - processPackages [fleet-sdk]: Downloading https://files.pythonhosted.org/packages/03/07/d9d6e322bb0dd21589f5894c8abd7992427757caa7a0a60a143d8d8453e7/fleet_sdk-0.5.5.tar.gz
+[2023-06-12 00:49:31] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/2d/52/aab0b0b9aae35c9f3eaba74997719eee2a55dfb9a46b50a651f66920370c/dockery-0.1.1.tar.gz
+[2023-06-12 00:49:31] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/fe/d5/2a6dd667c54453a0ae4e4250c1bde8e4fe906696122ec5146aab54806847/crackerjack-0.2.7.tar.gz
+[2023-06-12 00:49:31] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-06-12 00:49:32] INFO root fetch - processPackages [regenbib]: Downloading https://files.pythonhosted.org/packages/0f/6c/4d7bc925f1039293a8f6ab287d5487753abc52c7804d086fb30a3b66ba09/regenbib-0.0.2.tar.gz
+[2023-06-12 00:49:32] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-06-12 00:49:32] INFO root fetch - processPackages [fleet-sdk]: Downloading https://files.pythonhosted.org/packages/89/b7/ff1fc44da574875088d9233d0d45e99a5f6fc6752354de73023b39ed1231/fleet_sdk-0.5.5.1.tar.gz
+[2023-06-12 00:49:32] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/ab/15/4211ed680642725f582e43b5d50fdd2d74ba2cd73a2abed79041466dcbb2/dockery-0.2.0.tar.gz
+[2023-06-12 00:49:32] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/89/9e/e7135de38637d0509e72fd08e0baa3c9cb241b454ffbb7a338af3394d094/crackerjack-0.2.8.tar.gz
+[2023-06-12 00:49:32] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-06-12 00:49:32] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230612/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 00:49:32] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-12 00:49:32] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.2.7.tar.gz tmp/crackerjack-0.2.8.tar.gz --markdown 20230612/c/crackerjack/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-12 00:49:32] INFO root fetch - processPackages [fleet-sdk]: executing diffoscope
+[2023-06-12 00:49:32] INFO root fetch - processPackages [fleet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleet_sdk-0.5.5.tar.gz tmp/fleet_sdk-0.5.5.1.tar.gz --markdown 20230612/f/fleet-sdk/0.5.5-0.5.5.1/diff.md --exclude *.pyd
+[2023-06-12 00:49:32] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-06-12 00:49:32] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.1.1.tar.gz tmp/dockery-0.2.0.tar.gz --markdown 20230612/d/dockery/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 00:49:32] INFO root fetch - processPackages [regenbib]: Downloading https://files.pythonhosted.org/packages/72/fb/784beb0684e10df3550621c9e80b2b4a719e520bb94daca5bd1932e8ec9a/regenbib-0.0.5.tar.gz
+[2023-06-12 00:49:32] ERROR root fetch - processPackages [crackerjack]: Diffoscope failed: Error: error creating container storage: the container name "admiring_bassi" is already in use by "7f7fe6cbbf063327b54adf09b09a212d9f53372e2b5e7e5985587df02bc781bc". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-12 00:49:32] INFO root fetch - main [MainThread]: End processing [crackerjack] error
+[2023-06-12 00:49:32] INFO root fetch - processPackages [regenbib]: executing diffoscope
+[2023-06-12 00:49:32] INFO root fetch - processPackages [regenbib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regenbib-0.0.2.tar.gz tmp/regenbib-0.0.5.tar.gz --markdown 20230612/r/regenbib/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 00:49:33] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-06-12 00:49:33] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-06-12 00:49:33] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-06-12 00:49:33] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.1.1.tar.gz]
+[2023-06-12 00:49:33] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.2.0.tar.gz]
+[2023-06-12 00:49:33] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-06-12 00:49:33] INFO root fetch - processPackages [fleet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fleet_sdk-0.5.5.tar.gz]
+[2023-06-12 00:49:33] INFO root fetch - processPackages [fleet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fleet_sdk-0.5.5.1.tar.gz]
+[2023-06-12 00:49:33] INFO root fetch - main [MainThread]: End processing [fleet-sdk]: success
+[2023-06-12 00:49:33] INFO root fetch - processPackages [regenbib]: Remove: archive file [/home/abi/fetcher/tmp/regenbib-0.0.2.tar.gz]
+[2023-06-12 00:49:33] INFO root fetch - processPackages [regenbib]: Remove: archive file [/home/abi/fetcher/tmp/regenbib-0.0.5.tar.gz]
+[2023-06-12 00:49:33] INFO root fetch - main [MainThread]: End processing [regenbib]: success
+[2023-06-12 00:49:33] INFO root fetch - main [MainThread]: Store serial: [18461598]
