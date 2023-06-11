@@ -815,3 +815,70 @@
 [2023-06-12 01:05:38] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.1.3.tar.gz]
 [2023-06-12 01:05:38] INFO root fetch - main [MainThread]: End processing [alpaca-eval]: success
 [2023-06-12 01:05:38] INFO root fetch - main [MainThread]: Store serial: [18461673]
+[2023-06-12 01:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461673]
+[2023-06-12 01:10:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-12 01:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stim
+[2023-06-12 01:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NikGapps
+[2023-06-12 01:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stimcirq
+[2023-06-12 01:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sinter
+[2023-06-12 01:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: payok.io
+[2023-06-12 01:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NikGapps
+[2023-06-12 01:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psychicapi
+[2023-06-12 01:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: propeller-design-tools
+[2023-06-12 01:10:47] INFO root fetch - processPackages [NikGapps]: New version: [1.37] Old Version: [1.36]
+[2023-06-12 01:10:47] INFO root fetch - processPackages [NikGapps]: New version: [1.37] Old Version: [1.36]
+[2023-06-12 01:10:47] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.3.2] Old Version: [0.2.9]
+[2023-06-12 01:10:47] INFO root fetch - processPackages [psychicapi]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 01:10:47] INFO root fetch - processPackages [payok.io]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-12 01:10:47] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [payok.io]: Downloading https://files.pythonhosted.org/packages/dc/1c/d5b924c66f2cdf13482738d4bf91e3e100fc711149f91577064321ebcac3/payok.io-1.0.4.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/e5/2f/c9e55b48f92576fcd0818035cc46cd798cd9235d81dffe684b5448508c03/NikGapps-1.36.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/e5/2f/c9e55b48f92576fcd0818035cc46cd798cd9235d81dffe684b5448508c03/NikGapps-1.36.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/ad/ff/e462b7d67c54ca8ab6346849582964500f5c09724a4127f1ac8866cfbce1/propeller_design_tools-0.2.9.tar.gz
+[2023-06-12 01:10:47] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41562537>=10485760
+[2023-06-12 01:10:47] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-12 01:10:47] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/fc/9f/de9d7669f08f4eb7ca19bce0d0360a08d50b5799c0e7144ea25a82ca3611/psychicapi-0.7.2.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-12 01:10:47] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41562537>=10485760
+[2023-06-12 01:10:47] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-12 01:10:47] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230612/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-12 01:10:47] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230612/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-12 01:10:47] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230612/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 01:10:47] INFO root fetch - processPackages [payok.io]: Downloading https://files.pythonhosted.org/packages/22/3c/9d84ac66cac12284d0b5160d73f16e54ce965184d90f0c8317599e2aa058/payok.io-1.0.5.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/fb/0f/955a203686d4307e33c7dc8c42ce768aa93e6a6fe0403304700439c41bcd/psychicapi-0.7.3.tar.gz
+[2023-06-12 01:10:47] INFO root fetch - processPackages [psychicapi]: executing diffoscope
+[2023-06-12 01:10:47] INFO root fetch - processPackages [psychicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychicapi-0.7.2.tar.gz tmp/psychicapi-0.7.3.tar.gz --markdown 20230612/p/psychicapi/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-12 01:10:47] INFO root fetch - processPackages [payok.io]: executing diffoscope
+[2023-06-12 01:10:47] INFO root fetch - processPackages [payok.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payok.io-1.0.4.tar.gz tmp/payok.io-1.0.5.tar.gz --markdown 20230612/p/payok.io/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-12 01:10:48] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/d2/d8/b4131fc0c82787c20585a54c43ade0ecc6bb357f47b4c39b34a019c92662/propeller_design_tools-0.3.2.tar.gz
+[2023-06-12 01:10:48] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-12 01:10:48] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.2.9.tar.gz tmp/propeller_design_tools-0.3.2.tar.gz --markdown 20230612/p/propeller-design-tools/0.2.9-0.3.2/diff.md --exclude *.pyd
+[2023-06-12 01:10:48] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.7.2.tar.gz]
+[2023-06-12 01:10:48] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.7.3.tar.gz]
+[2023-06-12 01:10:48] INFO root fetch - main [MainThread]: End processing [psychicapi]: success
+[2023-06-12 01:10:48] INFO root fetch - processPackages [payok.io]: Remove: archive file [/home/abi/fetcher/tmp/payok.io-1.0.4.tar.gz]
+[2023-06-12 01:10:48] INFO root fetch - processPackages [payok.io]: Remove: archive file [/home/abi/fetcher/tmp/payok.io-1.0.5.tar.gz]
+[2023-06-12 01:10:48] INFO root fetch - main [MainThread]: End processing [payok.io]: success
+[2023-06-12 01:10:49] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-12 01:10:49] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-12 01:10:49] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-12 01:10:50] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-12 01:10:50] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-12 01:10:50] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-12 01:10:51] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.2.9.tar.gz]
+[2023-06-12 01:10:51] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.2.tar.gz]
+[2023-06-12 01:10:51] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-12 01:11:44] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-12 01:11:44] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-12 01:11:44] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-12 01:11:44] INFO root fetch - main [MainThread]: Store serial: [18461720]
