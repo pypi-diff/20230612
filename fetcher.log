@@ -136,3 +136,59 @@
 [2023-06-12 00:10:05] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.99.tar.gz]
 [2023-06-12 00:10:05] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
 [2023-06-12 00:10:05] INFO root fetch - main [MainThread]: Store serial: [18461367]
+[2023-06-12 00:15:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461367]
+[2023-06-12 00:15:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 00:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-apple
+[2023-06-12 00:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypi-python-translator
+[2023-06-12 00:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-hexagonal-adapters
+[2023-06-12 00:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: handykapp-analysis
+[2023-06-12 00:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-06-12 00:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: custom-numbers
+[2023-06-12 00:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KapoorLabs-Lightning
+[2023-06-12 00:15:14] INFO root fetch - processPackages [aws-hexagonal-adapters]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-12 00:15:14] INFO root fetch - processPackages [pypi-python-translator]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-12 00:15:14] INFO root fetch - processPackages [custom-numbers]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-06-12 00:15:14] INFO root fetch - processPackages [napari-apple]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 00:15:14] WARNING root fetch - processPackages [handykapp-analysis]: Skipping, unable to determine old version
+[2023-06-12 00:15:14] INFO root fetch - main [MainThread]: End processing [handykapp-analysis] error
+[2023-06-12 00:15:14] INFO root fetch - processPackages [KapoorLabs-Lightning]: New version: [5.2.3] Old Version: [5.2.2]
+[2023-06-12 00:15:14] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-12 00:15:14] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/30/32/36f0048bbc5333dde12bae395c66eb4ccb2c600e04ab73d9ffc4676dc555/pypi_python_translator-2.0.3.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/e5/1a/8b7d858fb6956556f3a17480cb2340401d2ee4b57cf6d67021bef181683a/KapoorLabs-Lightning-5.2.2.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [custom-numbers]: Downloading https://files.pythonhosted.org/packages/27/65/e2d77b9391828ff9e7d4d46bd53185b2d9188da02985790b67315cc9db3b/custom_numbers-1.1.3.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [aws-hexagonal-adapters]: Downloading https://files.pythonhosted.org/packages/29/da/88e77eb5ec759d11d3fd6ec8f18a0706a18cd89fe4adc7dcfda33afbf629/aws_hexagonal_adapters-1.0.1.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/80/82/542ea47a387ea8f2f720bccc80ad518b506c2b1af928d55e7528a1cb5deb/pypi_python_translator-2.0.4.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [napari-apple]: Downloading https://files.pythonhosted.org/packages/11/4e/262e9219892522ff79ae69d82ebc3b50dff3c351e91ccc2a78f5de2a0132/napari-apple-0.0.2.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-12 00:15:14] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230612/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-12 00:15:14] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/34/cf/1a854c2bf2abaf7c10d60e4b28d87c1caf7879c5cedabbb730914b35c837/KapoorLabs-Lightning-5.2.3.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [custom-numbers]: Downloading https://files.pythonhosted.org/packages/e8/48/ad19c246ac1f39ec81d88528debb70f374cb0a67aaeb4c512b93d4c98478/custom_numbers-1.2.0.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [pypi-python-translator]: executing diffoscope
+[2023-06-12 00:15:14] INFO root fetch - processPackages [pypi-python-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_python_translator-2.0.3.tar.gz tmp/pypi_python_translator-2.0.4.tar.gz --markdown 20230612/p/pypi-python-translator/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-12 00:15:14] INFO root fetch - processPackages [aws-hexagonal-adapters]: Downloading https://files.pythonhosted.org/packages/9d/71/cf8ad1e09ef23c7b5e3be62775357daf0f36a131cd8e8dff41505cacf795/aws_hexagonal_adapters-1.1.0.tar.gz
+[2023-06-12 00:15:14] INFO root fetch - processPackages [KapoorLabs-Lightning]: executing diffoscope
+[2023-06-12 00:15:14] INFO root fetch - processPackages [KapoorLabs-Lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KapoorLabs-Lightning-5.2.2.tar.gz tmp/KapoorLabs-Lightning-5.2.3.tar.gz --markdown 20230612/K/KapoorLabs-Lightning/5.2.2-5.2.3/diff.md --exclude *.pyd
+[2023-06-12 00:15:14] INFO root fetch - processPackages [custom-numbers]: executing diffoscope
+[2023-06-12 00:15:14] INFO root fetch - processPackages [custom-numbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_numbers-1.1.3.tar.gz tmp/custom_numbers-1.2.0.tar.gz --markdown 20230612/c/custom-numbers/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-06-12 00:15:14] WARNING root fetch - processPackages [napari-apple]: Skipping package: exceeds size limit 23548010>=10485760
+[2023-06-12 00:15:14] INFO root fetch - main [MainThread]: End processing [napari-apple] error
+[2023-06-12 00:15:14] INFO root fetch - processPackages [aws-hexagonal-adapters]: executing diffoscope
+[2023-06-12 00:15:14] INFO root fetch - processPackages [aws-hexagonal-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_hexagonal_adapters-1.0.1.tar.gz tmp/aws_hexagonal_adapters-1.1.0.tar.gz --markdown 20230612/a/aws-hexagonal-adapters/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 00:15:15] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-2.0.3.tar.gz]
+[2023-06-12 00:15:15] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-2.0.4.tar.gz]
+[2023-06-12 00:15:15] INFO root fetch - main [MainThread]: End processing [pypi-python-translator]: success
+[2023-06-12 00:15:15] INFO root fetch - processPackages [aws-hexagonal-adapters]: Remove: archive file [/home/abi/fetcher/tmp/aws_hexagonal_adapters-1.0.1.tar.gz]
+[2023-06-12 00:15:15] INFO root fetch - processPackages [aws-hexagonal-adapters]: Remove: archive file [/home/abi/fetcher/tmp/aws_hexagonal_adapters-1.1.0.tar.gz]
+[2023-06-12 00:15:15] INFO root fetch - main [MainThread]: End processing [aws-hexagonal-adapters]: success
+[2023-06-12 00:15:15] INFO root fetch - processPackages [custom-numbers]: Remove: archive file [/home/abi/fetcher/tmp/custom_numbers-1.1.3.tar.gz]
+[2023-06-12 00:15:15] INFO root fetch - processPackages [custom-numbers]: Remove: archive file [/home/abi/fetcher/tmp/custom_numbers-1.2.0.tar.gz]
+[2023-06-12 00:15:15] INFO root fetch - main [MainThread]: End processing [custom-numbers]: success
+[2023-06-12 00:15:15] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.2.2.tar.gz]
+[2023-06-12 00:15:15] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.2.3.tar.gz]
+[2023-06-12 00:15:15] INFO root fetch - main [MainThread]: End processing [KapoorLabs-Lightning]: success
+[2023-06-12 00:15:46] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-12 00:15:46] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-12 00:15:46] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-12 00:15:46] INFO root fetch - main [MainThread]: Store serial: [18461393]
