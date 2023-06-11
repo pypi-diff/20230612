@@ -1273,3 +1273,87 @@
 [2023-06-12 01:49:25] INFO root fetch - processPackages [bcsfe-discord]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-discord-2.7.9.tar.gz]
 [2023-06-12 01:49:25] INFO root fetch - main [MainThread]: End processing [bcsfe-discord]: success
 [2023-06-12 01:49:25] INFO root fetch - main [MainThread]: Store serial: [18461929]
+[2023-06-12 01:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461929]
+[2023-06-12 01:54:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ripandtear
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starlette-async-jinja
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KTensors
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terminal-typing-tutor
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coconut-develop
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabric-message-bus
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabric_cf
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nutorious
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fabric-am-handlers
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ripandtear]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-12 01:54:34] INFO root fetch - processPackages [starlette-async-jinja]: New version: [1.2.2] Old Version: [1.2.0]
+[2023-06-12 01:54:34] INFO root fetch - processPackages [KTensors]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-06-12 01:54:34] INFO root fetch - processPackages [terminal-typing-tutor]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-12 01:54:34] INFO root fetch - processPackages [nutorious]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-12 01:54:34] INFO root fetch - processPackages [fabric_cf]: New version: [1.5.0b5] Old Version: [1.5.0b4]
+[2023-06-12 01:54:34] INFO root fetch - processPackages [fabric-message-bus]: New version: [1.5.0b6] Old Version: [1.5.0b5]
+[2023-06-12 01:54:34] INFO root fetch - processPackages [fabric-am-handlers]: New version: [1rc3] Old Version: [1.5.0b9]
+[2023-06-12 01:54:34] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev7] Old Version: [3.0.2.post0.dev6]
+[2023-06-12 01:54:34] INFO root fetch - processPackages [terminal-typing-tutor]: Downloading https://files.pythonhosted.org/packages/8c/0f/03cf02d502fe9854bf22ae92acd79dcf8e4cc0a25ad3bf67b0783a28b049/terminal_typing_tutor-0.2.0.tar.gz
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/2c/f3/43638a223c6f10c616bb47ef002fae28efb23437b272b531a8027e24e54f/ripandtear-0.9.7.tar.gz
+[2023-06-12 01:54:34] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/54/0c/f0d4eb493874a935cef2e7af46f939a1608374020e42054e0a7b41c0f710/nutorious-0.1.5.tar.gz
+[2023-06-12 01:54:34] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/a9/c5/d40c64cc379f8ea5b851c1adfea6b6ba315a3ee6cb1fe4070dbdf01ce800/starlette_async_jinja-1.2.0.tar.gz
+[2023-06-12 01:54:34] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/d7/86/b01e3ec30c1cd408e72e50bde57a9bd6c2eb13be304aae9f3b5982736547/KTensors-0.0.6.tar.gz
+[2023-06-12 01:54:34] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/70/d4/a265cadc51c5d94206cc460075a2c7d309a4c5ec383817ee265f888be925/fabric-am-handlers-1.5.0b9.tar.gz
+[2023-06-12 01:54:34] INFO root fetch - processPackages [fabric_cf]: Downloading https://files.pythonhosted.org/packages/8d/2d/621a5d42859eff3f088b39296c51e28d78ebfea986c5b9a2cc498e3bbae8/fabric_cf-1.5.0b4.tar.gz
+[2023-06-12 01:54:34] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/34/91/bb157e5d9ca05f04f616242003eb132369ab3ad8d3b59873d5074fe64552/coconut-develop-3.0.2.post0.dev6.tar.gz
+[2023-06-12 01:54:34] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/8b/65/822fb2d772c3edc5356a8b4de5722e7df72f20b7819419570c7827a9ce78/fabric-message-bus-1.5.0b5.tar.gz
+[2023-06-12 01:54:34] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/bb/33/c3d19a2184a3997ddbec798a026fd98fd336119a50b23ebe1c0233e31aea/ripandtear-0.9.9.tar.gz
+[2023-06-12 01:54:35] INFO root fetch - processPackages [terminal-typing-tutor]: Downloading https://files.pythonhosted.org/packages/fd/8b/61fd9dd5b7854770a5d19106ddc4335cfe333c00b1544f93268cc306b61d/terminal_typing_tutor-0.3.0.tar.gz
+[2023-06-12 01:54:35] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/c9/d5/292e8edb0eaf936350dae69a927b94c22b5d7c3e2181fd43bf97414e5344/nutorious-0.1.6.tar.gz
+[2023-06-12 01:54:35] INFO root fetch - processPackages [ripandtear]: executing diffoscope
+[2023-06-12 01:54:35] INFO root fetch - processPackages [ripandtear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripandtear-0.9.7.tar.gz tmp/ripandtear-0.9.9.tar.gz --markdown 20230612/r/ripandtear/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 01:54:35] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/3e/cf/a8a4078230369453aaafa4d7caa4a8731ddde3cbba8158dbc3c89c5b0d29/KTensors-0.0.8.tar.gz
+[2023-06-12 01:54:35] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/95/fd/5989a4e7b955374f83a339d5b7bb5b046031d451e13fa868379852606d79/fabric-am-handlers-1rc3.tar.gz
+[2023-06-12 01:54:35] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-12 01:54:35] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.0.6.tar.gz tmp/KTensors-0.0.8.tar.gz --markdown 20230612/K/KTensors/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 01:54:35] INFO root fetch - processPackages [nutorious]: executing diffoscope
+[2023-06-12 01:54:35] INFO root fetch - processPackages [nutorious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutorious-0.1.5.tar.gz tmp/nutorious-0.1.6.tar.gz --markdown 20230612/n/nutorious/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-12 01:54:35] INFO root fetch - processPackages [fabric-am-handlers]: executing diffoscope
+[2023-06-12 01:54:35] INFO root fetch - processPackages [fabric-am-handlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-am-handlers-1.5.0b9.tar.gz tmp/fabric-am-handlers-1rc3.tar.gz --markdown 20230612/f/fabric-am-handlers/1.5.0b9-1rc3/diff.md --exclude *.pyd
+[2023-06-12 01:54:35] INFO root fetch - processPackages [terminal-typing-tutor]: executing diffoscope
+[2023-06-12 01:54:35] INFO root fetch - processPackages [terminal-typing-tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_typing_tutor-0.2.0.tar.gz tmp/terminal_typing_tutor-0.3.0.tar.gz --markdown 20230612/t/terminal-typing-tutor/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-12 01:54:35] INFO root fetch - processPackages [fabric_cf]: Downloading https://files.pythonhosted.org/packages/29/a5/48e335cff7de908469d836e1c5de3959ce1c6b30aa29ae880635bebedd4d/fabric_cf-1.5.0b5.tar.gz
+[2023-06-12 01:54:35] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/98/c1/402f2d6dc88e4d0b04a6b096f8e55d878670994c25f93741bb50e16e4faf/coconut-develop-3.0.2.post0.dev7.tar.gz
+[2023-06-12 01:54:35] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/eb/20/2776b7137903eab7ff67605e3e9ef06f7aa1763b2d245550b4e84bb3d9d3/starlette_async_jinja-1.2.2.tar.gz
+[2023-06-12 01:54:35] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-06-12 01:54:35] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev6.tar.gz tmp/coconut-develop-3.0.2.post0.dev7.tar.gz --markdown 20230612/c/coconut-develop/3.0.2.post0.dev6-3.0.2.post0.dev7/diff.md --exclude *.pyd
+[2023-06-12 01:54:35] INFO root fetch - processPackages [fabric_cf]: executing diffoscope
+[2023-06-12 01:54:35] INFO root fetch - processPackages [fabric_cf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_cf-1.5.0b4.tar.gz tmp/fabric_cf-1.5.0b5.tar.gz --markdown 20230612/f/fabric_cf/1.5.0b4-1.5.0b5/diff.md --exclude *.pyd
+[2023-06-12 01:54:35] INFO root fetch - processPackages [starlette-async-jinja]: executing diffoscope
+[2023-06-12 01:54:35] INFO root fetch - processPackages [starlette-async-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_async_jinja-1.2.0.tar.gz tmp/starlette_async_jinja-1.2.2.tar.gz --markdown 20230612/s/starlette-async-jinja/1.2.0-1.2.2/diff.md --exclude *.pyd
+[2023-06-12 01:54:35] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/91/e4/0be10f89fe9984b5cc4ad80d6f13625f2f3ad770b9ad65e72af66c27e45c/fabric-message-bus-1.5.0b6.tar.gz
+[2023-06-12 01:54:35] INFO root fetch - processPackages [fabric-message-bus]: executing diffoscope
+[2023-06-12 01:54:35] INFO root fetch - processPackages [fabric-message-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-message-bus-1.5.0b5.tar.gz tmp/fabric-message-bus-1.5.0b6.tar.gz --markdown 20230612/f/fabric-message-bus/1.5.0b5-1.5.0b6/diff.md --exclude *.pyd
+[2023-06-12 01:54:36] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.0.6.tar.gz]
+[2023-06-12 01:54:36] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.0.8.tar.gz]
+[2023-06-12 01:54:36] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-12 01:54:36] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.5.tar.gz]
+[2023-06-12 01:54:36] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.6.tar.gz]
+[2023-06-12 01:54:36] INFO root fetch - main [MainThread]: End processing [nutorious]: success
+[2023-06-12 01:54:36] INFO root fetch - processPackages [starlette-async-jinja]: Remove: archive file [/home/abi/fetcher/tmp/starlette_async_jinja-1.2.0.tar.gz]
+[2023-06-12 01:54:36] INFO root fetch - processPackages [starlette-async-jinja]: Remove: archive file [/home/abi/fetcher/tmp/starlette_async_jinja-1.2.2.tar.gz]
+[2023-06-12 01:54:36] INFO root fetch - main [MainThread]: End processing [starlette-async-jinja]: success
+[2023-06-12 01:54:36] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1.5.0b9.tar.gz]
+[2023-06-12 01:54:36] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1rc3.tar.gz]
+[2023-06-12 01:54:36] INFO root fetch - main [MainThread]: End processing [fabric-am-handlers]: success
+[2023-06-12 01:54:37] INFO root fetch - processPackages [terminal-typing-tutor]: Remove: archive file [/home/abi/fetcher/tmp/terminal_typing_tutor-0.2.0.tar.gz]
+[2023-06-12 01:54:37] INFO root fetch - processPackages [terminal-typing-tutor]: Remove: archive file [/home/abi/fetcher/tmp/terminal_typing_tutor-0.3.0.tar.gz]
+[2023-06-12 01:54:37] INFO root fetch - main [MainThread]: End processing [terminal-typing-tutor]: success
+[2023-06-12 01:54:37] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.5.0b5.tar.gz]
+[2023-06-12 01:54:37] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.5.0b6.tar.gz]
+[2023-06-12 01:54:37] INFO root fetch - main [MainThread]: End processing [fabric-message-bus]: success
+[2023-06-12 01:54:37] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.7.tar.gz]
+[2023-06-12 01:54:37] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.9.tar.gz]
+[2023-06-12 01:54:37] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
+[2023-06-12 01:54:39] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev6.tar.gz]
+[2023-06-12 01:54:39] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev7.tar.gz]
+[2023-06-12 01:54:39] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-06-12 01:54:42] INFO root fetch - processPackages [fabric_cf]: Remove: archive file [/home/abi/fetcher/tmp/fabric_cf-1.5.0b4.tar.gz]
+[2023-06-12 01:54:42] INFO root fetch - processPackages [fabric_cf]: Remove: archive file [/home/abi/fetcher/tmp/fabric_cf-1.5.0b5.tar.gz]
+[2023-06-12 01:54:42] INFO root fetch - main [MainThread]: End processing [fabric_cf]: success
+[2023-06-12 01:54:42] INFO root fetch - main [MainThread]: Store serial: [18461957]
