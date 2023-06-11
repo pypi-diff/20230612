@@ -882,3 +882,65 @@
 [2023-06-12 01:11:44] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
 [2023-06-12 01:11:44] INFO root fetch - main [MainThread]: End processing [sinter]: success
 [2023-06-12 01:11:44] INFO root fetch - main [MainThread]: Store serial: [18461720]
+[2023-06-12 01:16:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461720]
+[2023-06-12 01:16:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kkutils
+[2023-06-12 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: six-python
+[2023-06-12 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kk
+[2023-06-12 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openapi-spec-validator
+[2023-06-12 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikGapps
+[2023-06-12 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KTensors
+[2023-06-12 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-flight-analysis
+[2023-06-12 01:16:52] INFO root fetch - processPackages [kkutils]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-12 01:16:52] INFO root fetch - processPackages [six-python]: New version: [0.1] Old Version: [0.0.3]
+[2023-06-12 01:16:52] INFO root fetch - processPackages [kk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-12 01:16:52] INFO root fetch - processPackages [openapi-spec-validator]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-12 01:16:52] INFO root fetch - processPackages [NikGapps]: New version: [1.38] Old Version: [1.37]
+[2023-06-12 01:16:52] INFO root fetch - processPackages [google-flight-analysis]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-12 01:16:52] INFO root fetch - processPackages [KTensors]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-12 01:16:53] INFO root fetch - processPackages [six-python]: Downloading https://files.pythonhosted.org/packages/2c/28/f21f5e72bdf70c98e4dd45c267b855e874881706dd0353751de3f1f5002b/six-python-0.0.3.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/05/a9/0f1fa8a4854bc433613680ee1efabfed7674c37bd9ccd9988873a18d011c/KTensors-0.0.5.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [openapi-spec-validator]: Downloading https://files.pythonhosted.org/packages/95/aa/2d7e69a06bf8680b358df0c2ad9f4a757bbd388ef5b8f249576457b5a171/openapi_spec_validator-0.5.6.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [kkutils]: Downloading https://files.pythonhosted.org/packages/7d/2d/f8f4f3aad906eb549afac74a2375de55ca9bd4554d4c5440e1634a6c6d74/kkutils-1.6.4.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/61/0f/ddc99467d9c88092065f9120b05adfcaf06635cb079733850e6e2ccb4d3c/kk-0.9.0.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/6a/5d/bd577ddd136830d9f66f9cefd972aef8783a97cd9c6eda919d70b074bc83/NikGapps-1.37.tar.gz
+[2023-06-12 01:16:53] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41562613>=10485760
+[2023-06-12 01:16:53] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-12 01:16:53] INFO root fetch - processPackages [google-flight-analysis]: Downloading https://files.pythonhosted.org/packages/dd/a7/1454d28d6fa7021602d0274575d512deae424fa88a108a9c361e03181ad7/google-flight-analysis-1.1.0.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [six-python]: Downloading https://files.pythonhosted.org/packages/6e/4f/04252710569d19779163d7261c483c073e8aea4285baceeb727edee7be61/six-python-0.1.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [openapi-spec-validator]: Downloading https://files.pythonhosted.org/packages/27/e5/9fe67dfd403777d500abb5cd650c16ef9d4918a6c12e87731c3a4feeb4ff/openapi_spec_validator-0.5.7.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/d7/86/b01e3ec30c1cd408e72e50bde57a9bd6c2eb13be304aae9f3b5982736547/KTensors-0.0.6.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [kkutils]: Downloading https://files.pythonhosted.org/packages/e9/1f/27be83e59f30583bbf54b25f2c3d1379192ba878cd3e994049f49497bdf0/kkutils-1.6.5.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [openapi-spec-validator]: executing diffoscope
+[2023-06-12 01:16:53] INFO root fetch - processPackages [openapi-spec-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_spec_validator-0.5.6.tar.gz tmp/openapi_spec_validator-0.5.7.tar.gz --markdown 20230612/o/openapi-spec-validator/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-12 01:16:53] INFO root fetch - processPackages [six-python]: executing diffoscope
+[2023-06-12 01:16:53] INFO root fetch - processPackages [six-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/six-python-0.0.3.tar.gz tmp/six-python-0.1.tar.gz --markdown 20230612/s/six-python/0.0.3-0.1/diff.md --exclude *.pyd
+[2023-06-12 01:16:53] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-12 01:16:53] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.0.5.tar.gz tmp/KTensors-0.0.6.tar.gz --markdown 20230612/K/KTensors/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-12 01:16:53] INFO root fetch - processPackages [kkutils]: executing diffoscope
+[2023-06-12 01:16:53] INFO root fetch - processPackages [kkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkutils-1.6.4.tar.gz tmp/kkutils-1.6.5.tar.gz --markdown 20230612/k/kkutils/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-12 01:16:53] INFO root fetch - processPackages [google-flight-analysis]: Downloading https://files.pythonhosted.org/packages/37/3b/53cd6b7b1492f102ee5bb4c8735cf35fe0bd49d9132094fa1dcaa265462e/google-flight-analysis-1.2.0.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/c4/62/350626fca2aab8d192bab7ce2ae99075aba6756c4ac4d9a57c24b0fce739/kk-0.9.1.tar.gz
+[2023-06-12 01:16:53] INFO root fetch - processPackages [google-flight-analysis]: executing diffoscope
+[2023-06-12 01:16:53] INFO root fetch - processPackages [google-flight-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-flight-analysis-1.1.0.tar.gz tmp/google-flight-analysis-1.2.0.tar.gz --markdown 20230612/g/google-flight-analysis/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-12 01:16:53] INFO root fetch - processPackages [kk]: executing diffoscope
+[2023-06-12 01:16:53] INFO root fetch - processPackages [kk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kk-0.9.0.tar.gz tmp/kk-0.9.1.tar.gz --markdown 20230612/k/kk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-12 01:16:54] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.0.5.tar.gz]
+[2023-06-12 01:16:54] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.0.6.tar.gz]
+[2023-06-12 01:16:54] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-12 01:16:54] INFO root fetch - processPackages [six-python]: Remove: archive file [/home/abi/fetcher/tmp/six-python-0.0.3.tar.gz]
+[2023-06-12 01:16:54] INFO root fetch - processPackages [six-python]: Remove: archive file [/home/abi/fetcher/tmp/six-python-0.1.tar.gz]
+[2023-06-12 01:16:54] INFO root fetch - main [MainThread]: End processing [six-python]: success
+[2023-06-12 01:16:54] INFO root fetch - processPackages [openapi-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_spec_validator-0.5.6.tar.gz]
+[2023-06-12 01:16:54] INFO root fetch - processPackages [openapi-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_spec_validator-0.5.7.tar.gz]
+[2023-06-12 01:16:54] INFO root fetch - main [MainThread]: End processing [openapi-spec-validator]: success
+[2023-06-12 01:16:54] INFO root fetch - processPackages [kkutils]: Remove: archive file [/home/abi/fetcher/tmp/kkutils-1.6.4.tar.gz]
+[2023-06-12 01:16:54] INFO root fetch - processPackages [kkutils]: Remove: archive file [/home/abi/fetcher/tmp/kkutils-1.6.5.tar.gz]
+[2023-06-12 01:16:54] INFO root fetch - main [MainThread]: End processing [kkutils]: success
+[2023-06-12 01:16:55] INFO root fetch - processPackages [google-flight-analysis]: Remove: archive file [/home/abi/fetcher/tmp/google-flight-analysis-1.1.0.tar.gz]
+[2023-06-12 01:16:55] INFO root fetch - processPackages [google-flight-analysis]: Remove: archive file [/home/abi/fetcher/tmp/google-flight-analysis-1.2.0.tar.gz]
+[2023-06-12 01:16:55] INFO root fetch - main [MainThread]: End processing [google-flight-analysis]: success
+[2023-06-12 01:16:57] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.0.tar.gz]
+[2023-06-12 01:16:57] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.1.tar.gz]
+[2023-06-12 01:16:57] INFO root fetch - main [MainThread]: End processing [kk]: success
+[2023-06-12 01:16:57] INFO root fetch - main [MainThread]: Store serial: [18461740]
