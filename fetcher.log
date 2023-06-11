@@ -1208,3 +1208,47 @@
 [2023-06-12 01:38:49] INFO root fetch - processPackages [pythonce]: Remove: archive file [/home/abi/fetcher/tmp/pythonce-0.0.5.tar.gz]
 [2023-06-12 01:38:49] INFO root fetch - main [MainThread]: End processing [pythonce]: success
 [2023-06-12 01:38:49] INFO root fetch - main [MainThread]: Store serial: [18461868]
+[2023-06-12 01:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461868]
+[2023-06-12 01:43:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-12 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terminal-typing-tutor
+[2023-06-12 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dss-python-backend
+[2023-06-12 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corgy
+[2023-06-12 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zrb
+[2023-06-12 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seabreeze
+[2023-06-12 01:43:57] INFO root fetch - processPackages [terminal-typing-tutor]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-12 01:43:57] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 01:43:57] INFO root fetch - processPackages [dss-python-backend]: New version: [0.13.3rc2] Old Version: [0.13.3rc1]
+[2023-06-12 01:43:57] INFO root fetch - processPackages [corgy]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-06-12 01:43:58] INFO root fetch - processPackages [seabreeze]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-06-12 01:43:58] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-12 01:43:58] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/22/c3/c7d4e88df1b9cddffaf8341c201577a26ea7196d2e20f0eedbb55f28e0ee/corgy-9.1.5.tar.gz
+[2023-06-12 01:43:58] INFO root fetch - processPackages [seabreeze]: Downloading https://files.pythonhosted.org/packages/63/d6/269cfca1c54663e8aa181331147c77fc3df5f8fbb26d1ae129b27d25fb25/seabreeze-2.3.0.tar.gz
+[2023-06-12 01:43:58] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-12 01:43:58] INFO root fetch - processPackages [terminal-typing-tutor]: Downloading https://files.pythonhosted.org/packages/94/f8/c1673768a878fda7d736d05a234e188b00337d5d4795281446996f44bd44/terminal_typing_tutor-0.1.0.tar.gz
+[2023-06-12 01:43:58] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-12 01:43:58] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230612/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 01:43:58] INFO root fetch - processPackages [dss-python-backend]: Downloading https://files.pythonhosted.org/packages/1c/71/74c406c2d2222c1681c8853f8a04c1275d408c1a6865deb970dd073ff0cc/dss_python_backend-0.13.3rc1-cp37-abi3-win_amd64.whl
+[2023-06-12 01:43:58] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/e2/75/2f562292bcd7d78d9eb3a5b54b2db848954cc6951af82dc260bfe720a575/corgy-9.1.6.tar.gz
+[2023-06-12 01:43:58] WARNING root fetch - processPackages [dss-python-backend]: Skipping package: exceeds size limit 16965991>=10485760
+[2023-06-12 01:43:58] INFO root fetch - main [MainThread]: End processing [dss-python-backend] error
+[2023-06-12 01:43:58] INFO root fetch - processPackages [terminal-typing-tutor]: Downloading https://files.pythonhosted.org/packages/8c/0f/03cf02d502fe9854bf22ae92acd79dcf8e4cc0a25ad3bf67b0783a28b049/terminal_typing_tutor-0.2.0.tar.gz
+[2023-06-12 01:43:58] INFO root fetch - processPackages [corgy]: executing diffoscope
+[2023-06-12 01:43:58] INFO root fetch - processPackages [corgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corgy-9.1.5.tar.gz tmp/corgy-9.1.6.tar.gz --markdown 20230612/c/corgy/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-06-12 01:43:58] INFO root fetch - processPackages [terminal-typing-tutor]: executing diffoscope
+[2023-06-12 01:43:58] INFO root fetch - processPackages [terminal-typing-tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_typing_tutor-0.1.0.tar.gz tmp/terminal_typing_tutor-0.2.0.tar.gz --markdown 20230612/t/terminal-typing-tutor/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 01:43:59] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-12 01:43:59] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-12 01:43:59] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-12 01:43:59] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.5.tar.gz]
+[2023-06-12 01:43:59] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.6.tar.gz]
+[2023-06-12 01:43:59] INFO root fetch - main [MainThread]: End processing [corgy]: success
+[2023-06-12 01:43:59] INFO root fetch - processPackages [seabreeze]: Downloading https://files.pythonhosted.org/packages/5b/be/652378894998788146a22e83a6d9299f9fc81a63e57b7d144d0882f710ce/seabreeze-2.4.0.tar.gz
+[2023-06-12 01:44:00] INFO root fetch - processPackages [terminal-typing-tutor]: Remove: archive file [/home/abi/fetcher/tmp/terminal_typing_tutor-0.1.0.tar.gz]
+[2023-06-12 01:44:00] INFO root fetch - processPackages [terminal-typing-tutor]: Remove: archive file [/home/abi/fetcher/tmp/terminal_typing_tutor-0.2.0.tar.gz]
+[2023-06-12 01:44:00] INFO root fetch - main [MainThread]: End processing [terminal-typing-tutor]: success
+[2023-06-12 01:44:00] INFO root fetch - processPackages [seabreeze]: executing diffoscope
+[2023-06-12 01:44:00] INFO root fetch - processPackages [seabreeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seabreeze-2.3.0.tar.gz tmp/seabreeze-2.4.0.tar.gz --markdown 20230612/s/seabreeze/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-06-12 01:44:14] INFO root fetch - processPackages [seabreeze]: Remove: archive file [/home/abi/fetcher/tmp/seabreeze-2.3.0.tar.gz]
+[2023-06-12 01:44:14] INFO root fetch - processPackages [seabreeze]: Remove: archive file [/home/abi/fetcher/tmp/seabreeze-2.4.0.tar.gz]
+[2023-06-12 01:44:14] INFO root fetch - main [MainThread]: End processing [seabreeze]: success
+[2023-06-12 01:44:14] INFO root fetch - main [MainThread]: Store serial: [18461924]
