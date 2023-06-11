@@ -687,3 +687,71 @@
 [2023-06-12 00:54:44] INFO root fetch - processPackages [aiutil]: Remove: archive file [/home/abi/fetcher/tmp/aiutil-0.78.0.tar.gz]
 [2023-06-12 00:54:44] INFO root fetch - main [MainThread]: End processing [aiutil]: success
 [2023-06-12 00:54:44] INFO root fetch - main [MainThread]: Store serial: [18461616]
+[2023-06-12 00:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461616]
+[2023-06-12 00:59:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: politikontroller-py
+[2023-06-12 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: physionet
+[2023-06-12 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi
+[2023-06-12 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aifunc
+[2023-06-12 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepsensor
+[2023-06-12 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: variant
+[2023-06-12 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crackerjack
+[2023-06-12 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cfg-param-wrapper
+[2023-06-12 00:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: physionet
+[2023-06-12 00:59:53] WARNING root fetch - processPackages [aifunc]: Skipping, unable to determine old version
+[2023-06-12 00:59:53] INFO root fetch - main [MainThread]: End processing [aifunc] error
+[2023-06-12 00:59:53] INFO root fetch - processPackages [crackerjack]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-12 00:59:53] INFO root fetch - processPackages [deepsensor]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 00:59:53] WARNING root fetch - processPackages [politikontroller-py]: Skipping, unable to determine old version
+[2023-06-12 00:59:53] INFO root fetch - main [MainThread]: End processing [politikontroller-py] error
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 00:59:53] INFO root fetch - processPackages [variant]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 00:59:53] INFO root fetch - processPackages [cfg-param-wrapper]: New version: [1.0.0.post2] Old Version: [1.0.0.post1]
+[2023-06-12 00:59:53] INFO root fetch - processPackages [fastapi]: New version: [0.97.0] Old Version: [0.96.1]
+[2023-06-12 00:59:53] INFO root fetch - processPackages [cfg-param-wrapper]: Downloading https://files.pythonhosted.org/packages/5e/99/61246463a832047e9e3d09b2853c22232ee0a300190702847a46ba0bfb17/cfg-param-wrapper-1.0.0.post1.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-12 00:59:53] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.2.7.tar.gz tmp/crackerjack-0.2.8.tar.gz --markdown 20230612/c/crackerjack/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-12 00:59:53] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/4a/ae/72e8dfdf718ea12a8929a6ab92b716d23a7f9cde564cc8f6cf66c3378ba8/fastapi-0.96.1.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [deepsensor]: Downloading https://files.pythonhosted.org/packages/47/27/06c4e0f54f3c80c28665f92507ce004c355a436672574be424fb2032ef56/deepsensor-0.1.1.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: Downloading https://files.pythonhosted.org/packages/96/57/57383dfd9726e2a39a492d18faffde97a28ef9c4aa1ebd48f7eced94db03/physionet-0.1.0.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: Downloading https://files.pythonhosted.org/packages/96/57/57383dfd9726e2a39a492d18faffde97a28ef9c4aa1ebd48f7eced94db03/physionet-0.1.0.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [variant]: Downloading https://files.pythonhosted.org/packages/0c/50/c5d1afa4fb0d5e41250f78fb4d0b3a0ebf97c5c51791c5366328fdf0fec8/variant-0.0.8.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [cfg-param-wrapper]: Downloading https://files.pythonhosted.org/packages/0a/cf/6eb6309e6699c7578bf00f3d6de388212b5d9e2d8246effbfe51f18b1c8c/cfg-param-wrapper-1.0.0.post2.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [deepsensor]: Downloading https://files.pythonhosted.org/packages/af/7c/0b535af72905bf6920ec16b5b90d5614259dfdf08a45fdcc223e750f04d0/deepsensor-0.1.2.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: Downloading https://files.pythonhosted.org/packages/7c/02/f56eaf5e7e5504542c2bae9fac16f6f3eaf12911656ea3a108a0275a2c2e/physionet-0.1.1.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/ae/ec/07c4ad883b9cd8555fc54451d096651535825e1d3bb46f47c8603d396251/fastapi-0.97.0.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: Downloading https://files.pythonhosted.org/packages/7c/02/f56eaf5e7e5504542c2bae9fac16f6f3eaf12911656ea3a108a0275a2c2e/physionet-0.1.1.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [deepsensor]: executing diffoscope
+[2023-06-12 00:59:53] INFO root fetch - processPackages [deepsensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsensor-0.1.1.tar.gz tmp/deepsensor-0.1.2.tar.gz --markdown 20230612/d/deepsensor/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 00:59:53] INFO root fetch - processPackages [variant]: Downloading https://files.pythonhosted.org/packages/48/0e/e63d42f98ce2e6a9d7828c6fe1a77a925185681f51aa1eca4d3542774eea/variant-0.0.9.tar.gz
+[2023-06-12 00:59:53] INFO root fetch - processPackages [cfg-param-wrapper]: executing diffoscope
+[2023-06-12 00:59:53] INFO root fetch - processPackages [cfg-param-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfg-param-wrapper-1.0.0.post1.tar.gz tmp/cfg-param-wrapper-1.0.0.post2.tar.gz --markdown 20230612/c/cfg-param-wrapper/1.0.0.post1-1.0.0.post2/diff.md --exclude *.pyd
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: executing diffoscope
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physionet-0.1.0.tar.gz tmp/physionet-0.1.1.tar.gz --markdown 20230612/p/physionet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: executing diffoscope
+[2023-06-12 00:59:53] INFO root fetch - processPackages [physionet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physionet-0.1.0.tar.gz tmp/physionet-0.1.1.tar.gz --markdown 20230612/p/physionet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 00:59:53] INFO root fetch - processPackages [variant]: executing diffoscope
+[2023-06-12 00:59:53] INFO root fetch - processPackages [variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variant-0.0.8.tar.gz tmp/variant-0.0.9.tar.gz --markdown 20230612/v/variant/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 00:59:54] INFO root fetch - processPackages [fastapi]: executing diffoscope
+[2023-06-12 00:59:54] INFO root fetch - processPackages [fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-0.96.1.tar.gz tmp/fastapi-0.97.0.tar.gz --markdown 20230612/f/fastapi/0.96.1-0.97.0/diff.md --exclude *.pyd
+[2023-06-12 00:59:54] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.7.tar.gz]
+[2023-06-12 00:59:54] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.8.tar.gz]
+[2023-06-12 00:59:54] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-06-12 00:59:55] INFO root fetch - processPackages [cfg-param-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cfg-param-wrapper-1.0.0.post1.tar.gz]
+[2023-06-12 00:59:55] INFO root fetch - processPackages [cfg-param-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cfg-param-wrapper-1.0.0.post2.tar.gz]
+[2023-06-12 00:59:55] INFO root fetch - main [MainThread]: End processing [cfg-param-wrapper]: success
+[2023-06-12 00:59:55] INFO root fetch - processPackages [physionet]: Remove: archive file [/home/abi/fetcher/tmp/physionet-0.1.0.tar.gz]
+[2023-06-12 00:59:55] INFO root fetch - processPackages [physionet]: Remove: archive file [/home/abi/fetcher/tmp/physionet-0.1.1.tar.gz]
+[2023-06-12 00:59:55] INFO root fetch - main [MainThread]: End processing [physionet]: success
+[2023-06-12 00:59:55] INFO root fetch - processPackages [deepsensor]: Remove: archive file [/home/abi/fetcher/tmp/deepsensor-0.1.1.tar.gz]
+[2023-06-12 00:59:55] INFO root fetch - processPackages [deepsensor]: Remove: archive file [/home/abi/fetcher/tmp/deepsensor-0.1.2.tar.gz]
+[2023-06-12 00:59:55] INFO root fetch - main [MainThread]: End processing [deepsensor]: success
+[2023-06-12 00:59:55] INFO root fetch - processPackages [variant]: Remove: archive file [/home/abi/fetcher/tmp/variant-0.0.8.tar.gz]
+[2023-06-12 00:59:55] INFO root fetch - processPackages [variant]: Remove: archive file [/home/abi/fetcher/tmp/variant-0.0.9.tar.gz]
+[2023-06-12 00:59:55] INFO root fetch - main [MainThread]: End processing [variant]: success
+[2023-06-12 00:59:55] INFO root fetch - main [MainThread]: End processing [physionet]: success
+[2023-06-12 01:00:27] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.96.1.tar.gz]
+[2023-06-12 01:00:27] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.97.0.tar.gz]
+[2023-06-12 01:00:27] INFO root fetch - main [MainThread]: End processing [fastapi]: success
+[2023-06-12 01:00:27] INFO root fetch - main [MainThread]: Store serial: [18461650]
