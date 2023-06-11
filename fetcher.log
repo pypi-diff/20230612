@@ -980,3 +980,81 @@
 [2023-06-12 01:22:08] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.1.0rc3.tar.gz]
 [2023-06-12 01:22:08] INFO root fetch - main [MainThread]: End processing [squirrels]: success
 [2023-06-12 01:22:08] INFO root fetch - main [MainThread]: Store serial: [18461763]
+[2023-06-12 01:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461763]
+[2023-06-12 01:27:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 01:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miniupnpc
+[2023-06-12 01:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thendisnever
+[2023-06-12 01:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KapoorLabs-Lightning
+[2023-06-12 01:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc-data
+[2023-06-12 01:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: corgy
+[2023-06-12 01:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geofabrics
+[2023-06-12 01:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yang-vlp
+[2023-06-12 01:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geolibs
+[2023-06-12 01:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsonrpc-py
+[2023-06-12 01:27:16] INFO root fetch - processPackages [miniupnpc]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-06-12 01:27:16] INFO root fetch - processPackages [corgy]: New version: [9.1.2] Old Version: [9.1.1]
+[2023-06-12 01:27:16] INFO root fetch - processPackages [thendisnever]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-12 01:27:16] INFO root fetch - processPackages [KapoorLabs-Lightning]: New version: [5.2.6] Old Version: [5.2.5]
+[2023-06-12 01:27:16] WARNING root fetch - processPackages [yang-vlp]: Skipping, unable to determine old version
+[2023-06-12 01:27:16] INFO root fetch - processPackages [jsonrpc-py]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-12 01:27:16] INFO root fetch - main [MainThread]: End processing [yang-vlp] error
+[2023-06-12 01:27:16] INFO root fetch - processPackages [geofabrics]: New version: [0.9.4] Old Version: [0.9.3a0]
+[2023-06-12 01:27:16] INFO root fetch - processPackages [geolibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 01:27:16] INFO root fetch - processPackages [dvc-data]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-06-12 01:27:16] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/a3/91/1080f8e027d21c5dbeda67cf706f71be78d8d8484dc3499035820030e32e/KapoorLabs-Lightning-5.2.5.tar.gz
+[2023-06-12 01:27:16] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/ad/e6/9fb789a09c21bca40e6e823317af1d78edc6d8cdaccaa70874da35623e84/dvc-data-1.5.0.tar.gz
+[2023-06-12 01:27:16] INFO root fetch - processPackages [miniupnpc]: Downloading https://files.pythonhosted.org/packages/ba/b1/f72546e14e9455faaca6c73cbe5430d1addb789a693064f3fc9893a16b2c/miniupnpc-2.2.4-py3.9-win-amd64.egg
+[2023-06-12 01:27:16] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/ab/a3/b71a0a3a708fc1aaada6e7d6df13d323de45ae1771809c5f09f6b5f972ae/geofabrics-0.9.3a0.tar.gz
+[2023-06-12 01:27:16] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/62/c6/e3716d763795e4a992db27f2df787cb98eb4a1bf4bb6976bbbb2b78ebe19/corgy-9.1.1.tar.gz
+[2023-06-12 01:27:16] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/c6/6c/24a43fc52a0a1932185f92c1abd67aa331ee1a719a6df450bd493bb0342d/geolibs-0.0.7.tar.gz
+[2023-06-12 01:27:16] INFO root fetch - processPackages [thendisnever]: Downloading https://files.pythonhosted.org/packages/8c/14/b958e299bca88fa849aa0f6142f8588c70ec0fe404d286db0adb846c2903/thendisnever-0.4.0.tar.gz
+[2023-06-12 01:27:16] INFO root fetch - processPackages [jsonrpc-py]: Downloading https://files.pythonhosted.org/packages/42/13/76754b48a05e70abc3dab4adeb6a88f36c60f5cb6ef0ebe35cce9bb489b3/jsonrpc-py-3.0.8.tar.gz
+[2023-06-12 01:27:17] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/98/f2/aacc4d5dbf54e147cb16ee33a27566f6adaf2b329a19411a71d0a26df9c7/KapoorLabs-Lightning-5.2.6.tar.gz
+[2023-06-12 01:27:17] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/eb/6b/15fef240dd956b0ce1e73397db5a9805861715b83c1a103800667ad27d9d/dvc-data-1.6.0.tar.gz
+[2023-06-12 01:27:17] INFO root fetch - processPackages [miniupnpc]: Downloading https://files.pythonhosted.org/packages/27/98/aca8f5c88b0d9e9ef9a557ffe83f4e09fae6fe003fa2eb6e5c83747df301/miniupnpc-2.2.5-py3.6-win-amd64.egg
+[2023-06-12 01:27:17] INFO root fetch - processPackages [KapoorLabs-Lightning]: executing diffoscope
+[2023-06-12 01:27:17] INFO root fetch - processPackages [KapoorLabs-Lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KapoorLabs-Lightning-5.2.5.tar.gz tmp/KapoorLabs-Lightning-5.2.6.tar.gz --markdown 20230612/K/KapoorLabs-Lightning/5.2.5-5.2.6/diff.md --exclude *.pyd
+[2023-06-12 01:27:17] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/45/3d/0b8999a62acc63e35db16066dbb5da943e5c1d257d5bbd5da7224feb9a85/corgy-9.1.2.tar.gz
+[2023-06-12 01:27:17] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/a0/85/4c693147e4e3db31fd0e219334cdc985b0c0b65f4d40b5e1f5fda7fc9944/geolibs-0.0.8.tar.gz
+[2023-06-12 01:27:17] INFO root fetch - processPackages [thendisnever]: Downloading https://files.pythonhosted.org/packages/03/0a/081721856915571e7d221778f6fdcaa48f8e6133d30cfcd6a3ebfdb2fb49/thendisnever-0.5.0.tar.gz
+[2023-06-12 01:27:17] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-12 01:27:17] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.5.0.tar.gz tmp/dvc-data-1.6.0.tar.gz --markdown 20230612/d/dvc-data/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-06-12 01:27:17] INFO root fetch - processPackages [jsonrpc-py]: Downloading https://files.pythonhosted.org/packages/57/e3/86ea8748b5cb245f5185e02399bd64ca33b75971318aca8f2c0b2d34a442/jsonrpc-py-3.0.9.tar.gz
+[2023-06-12 01:27:17] INFO root fetch - processPackages [miniupnpc]: executing diffoscope
+[2023-06-12 01:27:17] INFO root fetch - processPackages [miniupnpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniupnpc-2.2.4-py3.9-win-amd64.egg tmp/miniupnpc-2.2.5-py3.6-win-amd64.egg --markdown 20230612/m/miniupnpc/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-06-12 01:27:17] INFO root fetch - processPackages [corgy]: executing diffoscope
+[2023-06-12 01:27:17] INFO root fetch - processPackages [corgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corgy-9.1.1.tar.gz tmp/corgy-9.1.2.tar.gz --markdown 20230612/c/corgy/9.1.1-9.1.2/diff.md --exclude *.pyd
+[2023-06-12 01:27:17] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/f3/2f/b84fea41bea143f4e81d14dc8a934fe6294f1788b6baf846c84da4b88c8d/geofabrics-0.9.4.tar.gz
+[2023-06-12 01:27:17] INFO root fetch - processPackages [thendisnever]: executing diffoscope
+[2023-06-12 01:27:17] INFO root fetch - processPackages [thendisnever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thendisnever-0.4.0.tar.gz tmp/thendisnever-0.5.0.tar.gz --markdown 20230612/t/thendisnever/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-12 01:27:17] INFO root fetch - processPackages [jsonrpc-py]: executing diffoscope
+[2023-06-12 01:27:17] INFO root fetch - processPackages [jsonrpc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrpc-py-3.0.8.tar.gz tmp/jsonrpc-py-3.0.9.tar.gz --markdown 20230612/j/jsonrpc-py/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-12 01:27:17] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-06-12 01:27:17] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.7.tar.gz tmp/geolibs-0.0.8.tar.gz --markdown 20230612/g/geolibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 01:27:17] INFO root fetch - processPackages [geofabrics]: executing diffoscope
+[2023-06-12 01:27:17] INFO root fetch - processPackages [geofabrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofabrics-0.9.3a0.tar.gz tmp/geofabrics-0.9.4.tar.gz --markdown 20230612/g/geofabrics/0.9.3a0-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 01:27:18] INFO root fetch - processPackages [miniupnpc]: Remove: archive file [/home/abi/fetcher/tmp/miniupnpc-2.2.4-py3.9-win-amd64.egg]
+[2023-06-12 01:27:18] INFO root fetch - processPackages [miniupnpc]: Remove: archive file [/home/abi/fetcher/tmp/miniupnpc-2.2.5-py3.6-win-amd64.egg]
+[2023-06-12 01:27:18] INFO root fetch - main [MainThread]: End processing [miniupnpc]: success
+[2023-06-12 01:27:18] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.2.5.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.2.6.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - main [MainThread]: End processing [KapoorLabs-Lightning]: success
+[2023-06-12 01:27:18] INFO root fetch - processPackages [thendisnever]: Remove: archive file [/home/abi/fetcher/tmp/thendisnever-0.4.0.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - processPackages [thendisnever]: Remove: archive file [/home/abi/fetcher/tmp/thendisnever-0.5.0.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - main [MainThread]: End processing [thendisnever]: success
+[2023-06-12 01:27:18] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.7.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.8.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-06-12 01:27:18] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.1.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.2.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - main [MainThread]: End processing [corgy]: success
+[2023-06-12 01:27:18] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.5.0.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.6.0.tar.gz]
+[2023-06-12 01:27:18] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-12 01:27:19] INFO root fetch - processPackages [geofabrics]: Remove: archive file [/home/abi/fetcher/tmp/geofabrics-0.9.3a0.tar.gz]
+[2023-06-12 01:27:19] INFO root fetch - processPackages [geofabrics]: Remove: archive file [/home/abi/fetcher/tmp/geofabrics-0.9.4.tar.gz]
+[2023-06-12 01:27:19] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
+[2023-06-12 01:28:14] INFO root fetch - processPackages [jsonrpc-py]: Remove: archive file [/home/abi/fetcher/tmp/jsonrpc-py-3.0.8.tar.gz]
+[2023-06-12 01:28:14] INFO root fetch - processPackages [jsonrpc-py]: Remove: archive file [/home/abi/fetcher/tmp/jsonrpc-py-3.0.9.tar.gz]
+[2023-06-12 01:28:14] INFO root fetch - main [MainThread]: End processing [jsonrpc-py]: success
+[2023-06-12 01:28:14] INFO root fetch - main [MainThread]: Store serial: [18461796]
