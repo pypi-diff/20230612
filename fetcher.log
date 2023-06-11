@@ -1,0 +1,69 @@
+[2023-06-12 00:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461307]
+[2023-06-12 00:04:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-12 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coffeefetch
+[2023-06-12 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: junkie-rfglab
+[2023-06-12 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytheus
+[2023-06-12 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-xournal
+[2023-06-12 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaya-module-sdk
+[2023-06-12 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decomp2dbg
+[2023-06-12 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bayes-optim
+[2023-06-12 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sidetrek
+[2023-06-12 00:04:51] INFO root fetch - processPackages [pytheus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 00:04:51] INFO root fetch - processPackages [coffeefetch]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-12 00:04:51] INFO root fetch - processPackages [junkie-rfglab]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-12 00:04:51] INFO root fetch - processPackages [decomp2dbg]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-06-12 00:04:51] INFO root fetch - processPackages [sphinx-xournal]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 00:04:51] WARNING root fetch - processPackages [kaya-module-sdk]: Skipping, unable to determine old version
+[2023-06-12 00:04:51] INFO root fetch - main [MainThread]: End processing [kaya-module-sdk] error
+[2023-06-12 00:04:51] INFO root fetch - processPackages [sidetrek]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 00:04:51] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/97/bd/51a9b1e714cab99e04b757d582da68fb1c87848f240475f7731512b91f39/sidetrek-0.0.98.tar.gz
+[2023-06-12 00:04:51] INFO root fetch - processPackages [bayes-optim]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-12 00:04:51] INFO root fetch - processPackages [junkie-rfglab]: Downloading https://files.pythonhosted.org/packages/25/d3/450fef4efba6298e0885cf01eaadcee260de9d7963ee9bd001d3f1ccfdd9/junkie-rfglab-2023.6.1.tar.gz
+[2023-06-12 00:04:51] INFO root fetch - processPackages [coffeefetch]: Downloading https://files.pythonhosted.org/packages/68/0a/ebcfe4b2df7dd6b01e249626f5b41222d7466a9b28f51abcc93180f8b779/coffeefetch-1.2.1.tar.gz
+[2023-06-12 00:04:51] INFO root fetch - processPackages [decomp2dbg]: Downloading https://files.pythonhosted.org/packages/a7/77/5f296076da96b36ac3508d48e2a74566acfbd6fac443df7a8a1795e8ebd3/decomp2dbg-3.4.0.tar.gz
+[2023-06-12 00:04:51] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/44/24/ddb8d3e3971c71fb37193e96548dd63417bd2d1fd9228d2d99a262621966/pytheus-0.0.8.tar.gz
+[2023-06-12 00:04:51] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/e1/df/8febed62c28b6002e89b1ecff26974f8d092969b288da25a6eafcc3d73b1/sidetrek-0.0.99.tar.gz
+[2023-06-12 00:04:51] INFO root fetch - processPackages [sphinx-xournal]: Downloading https://files.pythonhosted.org/packages/f2/26/93538f4f80fdfee970ae607b51bf702b05bfa5885a66e6db2210fa6d5385/sphinx_xournal-0.1.1.tar.gz
+[2023-06-12 00:04:51] INFO root fetch - processPackages [bayes-optim]: Downloading https://files.pythonhosted.org/packages/a0/36/9665f88aba063959f25b367c1e8ffbb1202ca5829076ad797ec05e36d647/bayes-optim-0.2.6.tar.gz
+[2023-06-12 00:04:51] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-12 00:04:51] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.98.tar.gz tmp/sidetrek-0.0.99.tar.gz --markdown 20230612/s/sidetrek/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 00:04:51] INFO root fetch - processPackages [junkie-rfglab]: Downloading https://files.pythonhosted.org/packages/67/9a/b7f86b0f731316ea57952aa8c6769927800433764810ef505959327245c1/junkie-rfglab-2023.6.2.tar.gz
+[2023-06-12 00:04:52] INFO root fetch - processPackages [sphinx-xournal]: Downloading https://files.pythonhosted.org/packages/9b/c9/71929bee608d734968bad47ba921e817b96b67f9b16a9d2a7b29a86a9b20/sphinx_xournal-0.1.2.tar.gz
+[2023-06-12 00:04:52] INFO root fetch - processPackages [decomp2dbg]: Downloading https://files.pythonhosted.org/packages/c2/8f/85f32610b3e09f808118b37dce7232792088474a0f9ed396574db34d2ce1/decomp2dbg-3.5.0.tar.gz
+[2023-06-12 00:04:52] INFO root fetch - processPackages [junkie-rfglab]: executing diffoscope
+[2023-06-12 00:04:52] INFO root fetch - processPackages [junkie-rfglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junkie-rfglab-2023.6.1.tar.gz tmp/junkie-rfglab-2023.6.2.tar.gz --markdown 20230612/j/junkie-rfglab/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-12 00:04:52] INFO root fetch - processPackages [coffeefetch]: Downloading https://files.pythonhosted.org/packages/77/36/c9544ea56cd55399773881ee29e5770a489828354d7a4081b899fdc9c3b6/coffeefetch-1.2.2.tar.gz
+[2023-06-12 00:04:52] INFO root fetch - processPackages [bayes-optim]: Downloading https://files.pythonhosted.org/packages/b9/ff/74c4d9b941355b5cd2e63ae799ba87de5f2dbecaa0c53a91058da1fb0aaa/bayes-optim-0.2.7.tar.gz
+[2023-06-12 00:04:52] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/81/91/2118822eee94be679af19c9fd9c9bfe2289d5eeb0f18883b2bfbdeeba393/pytheus-0.0.9.tar.gz
+[2023-06-12 00:04:52] INFO root fetch - processPackages [sphinx-xournal]: executing diffoscope
+[2023-06-12 00:04:52] INFO root fetch - processPackages [sphinx-xournal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_xournal-0.1.1.tar.gz tmp/sphinx_xournal-0.1.2.tar.gz --markdown 20230612/s/sphinx-xournal/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 00:04:52] INFO root fetch - processPackages [decomp2dbg]: executing diffoscope
+[2023-06-12 00:04:52] INFO root fetch - processPackages [decomp2dbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decomp2dbg-3.4.0.tar.gz tmp/decomp2dbg-3.5.0.tar.gz --markdown 20230612/d/decomp2dbg/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-06-12 00:04:52] INFO root fetch - processPackages [coffeefetch]: executing diffoscope
+[2023-06-12 00:04:52] INFO root fetch - processPackages [coffeefetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeefetch-1.2.1.tar.gz tmp/coffeefetch-1.2.2.tar.gz --markdown 20230612/c/coffeefetch/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-12 00:04:52] INFO root fetch - processPackages [bayes-optim]: executing diffoscope
+[2023-06-12 00:04:52] INFO root fetch - processPackages [bayes-optim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayes-optim-0.2.6.tar.gz tmp/bayes-optim-0.2.7.tar.gz --markdown 20230612/b/bayes-optim/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-12 00:04:52] INFO root fetch - processPackages [pytheus]: executing diffoscope
+[2023-06-12 00:04:52] INFO root fetch - processPackages [pytheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus-0.0.8.tar.gz tmp/pytheus-0.0.9.tar.gz --markdown 20230612/p/pytheus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 00:04:53] INFO root fetch - processPackages [sphinx-xournal]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_xournal-0.1.1.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - processPackages [sphinx-xournal]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_xournal-0.1.2.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - main [MainThread]: End processing [sphinx-xournal]: success
+[2023-06-12 00:04:53] INFO root fetch - processPackages [coffeefetch]: Remove: archive file [/home/abi/fetcher/tmp/coffeefetch-1.2.1.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - processPackages [coffeefetch]: Remove: archive file [/home/abi/fetcher/tmp/coffeefetch-1.2.2.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - main [MainThread]: End processing [coffeefetch]: success
+[2023-06-12 00:04:53] INFO root fetch - processPackages [decomp2dbg]: Remove: archive file [/home/abi/fetcher/tmp/decomp2dbg-3.4.0.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - processPackages [decomp2dbg]: Remove: archive file [/home/abi/fetcher/tmp/decomp2dbg-3.5.0.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - main [MainThread]: End processing [decomp2dbg]: success
+[2023-06-12 00:04:53] INFO root fetch - processPackages [pytheus]: Remove: archive file [/home/abi/fetcher/tmp/pytheus-0.0.8.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - processPackages [pytheus]: Remove: archive file [/home/abi/fetcher/tmp/pytheus-0.0.9.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - main [MainThread]: End processing [pytheus]: success
+[2023-06-12 00:04:53] INFO root fetch - processPackages [junkie-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/junkie-rfglab-2023.6.1.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - processPackages [junkie-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/junkie-rfglab-2023.6.2.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - main [MainThread]: End processing [junkie-rfglab]: success
+[2023-06-12 00:04:53] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.98.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.99.tar.gz]
+[2023-06-12 00:04:53] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-12 00:04:55] INFO root fetch - processPackages [bayes-optim]: Remove: archive file [/home/abi/fetcher/tmp/bayes-optim-0.2.6.tar.gz]
+[2023-06-12 00:04:55] INFO root fetch - processPackages [bayes-optim]: Remove: archive file [/home/abi/fetcher/tmp/bayes-optim-0.2.7.tar.gz]
+[2023-06-12 00:04:55] INFO root fetch - main [MainThread]: End processing [bayes-optim]: success
+[2023-06-12 00:04:55] INFO root fetch - main [MainThread]: Store serial: [18461332]
