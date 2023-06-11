@@ -1357,3 +1357,44 @@
 [2023-06-12 01:54:42] INFO root fetch - processPackages [fabric_cf]: Remove: archive file [/home/abi/fetcher/tmp/fabric_cf-1.5.0b5.tar.gz]
 [2023-06-12 01:54:42] INFO root fetch - main [MainThread]: End processing [fabric_cf]: success
 [2023-06-12 01:54:42] INFO root fetch - main [MainThread]: Store serial: [18461957]
+[2023-06-12 01:59:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461957]
+[2023-06-12 01:59:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-12 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-api
+[2023-06-12 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panml
+[2023-06-12 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notionizer
+[2023-06-12 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wwpdb.utils.dp
+[2023-06-12 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wintertoo
+[2023-06-12 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apigratis
+[2023-06-12 01:59:52] WARNING root fetch - processPackages [gpt-api]: Skipping, unable to determine old version
+[2023-06-12 01:59:52] INFO root fetch - main [MainThread]: End processing [gpt-api] error
+[2023-06-12 01:59:52] INFO root fetch - processPackages [panml]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 01:59:52] INFO root fetch - processPackages [notionizer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 01:59:52] INFO root fetch - processPackages [wwpdb.utils.dp]: New version: [0.46] Old Version: [0.45]
+[2023-06-12 01:59:52] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/bd/d1/2a1554ea9bc91b0190d2212b2a68a5d64073fcf6136e68073778b62c7936/panml-1.0.3.tar.gz
+[2023-06-12 01:59:52] WARNING root fetch - processPackages [apigratis]: Skipping, unable to determine old version
+[2023-06-12 01:59:52] INFO root fetch - main [MainThread]: End processing [apigratis] error
+[2023-06-12 01:59:52] INFO root fetch - processPackages [wintertoo]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-12 01:59:52] INFO root fetch - processPackages [notionizer]: Downloading https://files.pythonhosted.org/packages/76/16/53456aef869651286803892a3fafb000518de86c56a3c4a205db2bc5f85e/notionizer-0.0.4.tar.gz
+[2023-06-12 01:59:52] INFO root fetch - processPackages [wwpdb.utils.dp]: Downloading https://files.pythonhosted.org/packages/28/04/79f2543bb045ba9f9494fefa81b0c332d29bfe5a27100eaae3482255bf5f/wwpdb.utils.dp-0.45.tar.gz
+[2023-06-12 01:59:52] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/d8/ac/c576d8cb1fd415ddcfe8aec8ce26e696b7f0fa09d37f995124136315f503/panml-1.0.4.tar.gz
+[2023-06-12 01:59:52] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-06-12 01:59:52] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-1.0.3.tar.gz tmp/panml-1.0.4.tar.gz --markdown 20230612/p/panml/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 01:59:52] INFO root fetch - processPackages [wintertoo]: Downloading https://files.pythonhosted.org/packages/e8/c0/37e274c74dab8375a041392b045877561dbc3b723f27d192bfb57a0a50d4/wintertoo-0.3.7.tar.gz
+[2023-06-12 01:59:52] WARNING root fetch - processPackages [wintertoo]: Skipping package: exceeds size limit 18785447>=10485760
+[2023-06-12 01:59:52] INFO root fetch - main [MainThread]: End processing [wintertoo] error
+[2023-06-12 01:59:52] INFO root fetch - processPackages [notionizer]: Downloading https://files.pythonhosted.org/packages/bd/0b/1a61e6a99df472d070710675f7dd9112c0d9217fda90d42eb0d88002f7b6/notionizer-0.0.5.tar.gz
+[2023-06-12 01:59:52] INFO root fetch - processPackages [wwpdb.utils.dp]: Downloading https://files.pythonhosted.org/packages/2a/4b/4cc91d03e14702317eb1f08ebabd1937be54c028cee88bae062bf4311cc1/wwpdb.utils.dp-0.46.tar.gz
+[2023-06-12 01:59:52] INFO root fetch - processPackages [notionizer]: executing diffoscope
+[2023-06-12 01:59:52] INFO root fetch - processPackages [notionizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notionizer-0.0.4.tar.gz tmp/notionizer-0.0.5.tar.gz --markdown 20230612/n/notionizer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 01:59:52] INFO root fetch - processPackages [wwpdb.utils.dp]: executing diffoscope
+[2023-06-12 01:59:52] INFO root fetch - processPackages [wwpdb.utils.dp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.dp-0.45.tar.gz tmp/wwpdb.utils.dp-0.46.tar.gz --markdown 20230612/w/wwpdb.utils.dp/0.45-0.46/diff.md --exclude *.pyd
+[2023-06-12 01:59:53] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-1.0.3.tar.gz]
+[2023-06-12 01:59:53] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-1.0.4.tar.gz]
+[2023-06-12 01:59:53] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-06-12 01:59:54] INFO root fetch - processPackages [wwpdb.utils.dp]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.dp-0.45.tar.gz]
+[2023-06-12 01:59:54] INFO root fetch - processPackages [wwpdb.utils.dp]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.dp-0.46.tar.gz]
+[2023-06-12 01:59:54] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.dp]: success
+[2023-06-12 01:59:54] INFO root fetch - processPackages [notionizer]: Remove: archive file [/home/abi/fetcher/tmp/notionizer-0.0.4.tar.gz]
+[2023-06-12 01:59:54] INFO root fetch - processPackages [notionizer]: Remove: archive file [/home/abi/fetcher/tmp/notionizer-0.0.5.tar.gz]
+[2023-06-12 01:59:54] INFO root fetch - main [MainThread]: End processing [notionizer]: success
+[2023-06-12 01:59:54] INFO root fetch - main [MainThread]: Store serial: [18461975]
