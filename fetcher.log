@@ -1058,3 +1058,72 @@
 [2023-06-12 01:28:14] INFO root fetch - processPackages [jsonrpc-py]: Remove: archive file [/home/abi/fetcher/tmp/jsonrpc-py-3.0.9.tar.gz]
 [2023-06-12 01:28:14] INFO root fetch - main [MainThread]: End processing [jsonrpc-py]: success
 [2023-06-12 01:28:14] INFO root fetch - main [MainThread]: Store serial: [18461796]
+[2023-06-12 01:33:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461796]
+[2023-06-12 01:33:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: corgy
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldimbenchmark
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: propeller-design-tools
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elkm1-lib
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decomp2dbg
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaya-module-sdk
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: corgy
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: New version: [9.1.3] Old Version: [9.1.2]
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-12 01:33:23] INFO root fetch - processPackages [kaya-module-sdk]: New version: [1.2] Old Version: [1.1]
+[2023-06-12 01:33:23] INFO root fetch - processPackages [elkm1-lib]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-06-12 01:33:23] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230611.23.29.536223] Old Version: [20230611.22.43.477630]
+[2023-06-12 01:33:23] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: New version: [9.1.3] Old Version: [9.1.2]
+[2023-06-12 01:33:23] INFO root fetch - processPackages [decomp2dbg]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/d2/d8/b4131fc0c82787c20585a54c43ade0ecc6bb357f47b4c39b34a019c92662/propeller_design_tools-0.3.2.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [decomp2dbg]: Downloading https://files.pythonhosted.org/packages/c2/8f/85f32610b3e09f808118b37dce7232792088474a0f9ed396574db34d2ce1/decomp2dbg-3.5.0.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [kaya-module-sdk]: Downloading https://files.pythonhosted.org/packages/b5/48/5f9a40e2642bc1acd1fbfa59fdcb839f786c8e586bbc34b41dc2630663de/kaya-module-sdk-1.1.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/45/3d/0b8999a62acc63e35db16066dbb5da943e5c1d257d5bbd5da7224feb9a85/corgy-9.1.2.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/31/c6/c9f83fa7a9b0294c15062c78283fda9ef04dc9fb4b9386ef897039ad64fa/certora-cli-alpha-master-20230611.22.43.477630.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/45/3d/0b8999a62acc63e35db16066dbb5da943e5c1d257d5bbd5da7224feb9a85/corgy-9.1.2.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [elkm1-lib]: Downloading https://files.pythonhosted.org/packages/b3/ba/845176e2f8ed3db97441b07cc927868f9dbcc11982d474a1077933e1d3ba/elkm1_lib-2.2.4.tar.gz
+[2023-06-12 01:33:23] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39378129>=10485760
+[2023-06-12 01:33:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [decomp2dbg]: Downloading https://files.pythonhosted.org/packages/21/67/d79bff90f0a210fb683bae9ac455ac0cd9ec36f11b42326a8318ac819948/decomp2dbg-3.5.1.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-12 01:33:23] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230612/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-12 01:33:23] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/61/ba/796c0c4806d6f22e5ddb3cece6755c2d7de3ca4c62ad2071b4ccf5838676/propeller_design_tools-0.3.3.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [kaya-module-sdk]: Downloading https://files.pythonhosted.org/packages/91/8d/30596518b004fabb2697f60db6d89af706cfaf941b6a327ccddb983069b7/kaya-module-sdk-1.2.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/75/db/6cf0fece0dba697b57575a78eb9d1a924bf59db660e7d7468e77918e8e4a/corgy-9.1.3.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/75/db/6cf0fece0dba697b57575a78eb9d1a924bf59db660e7d7468e77918e8e4a/corgy-9.1.3.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [decomp2dbg]: executing diffoscope
+[2023-06-12 01:33:23] INFO root fetch - processPackages [decomp2dbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decomp2dbg-3.5.0.tar.gz tmp/decomp2dbg-3.5.1.tar.gz --markdown 20230612/d/decomp2dbg/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-06-12 01:33:23] INFO root fetch - processPackages [elkm1-lib]: Downloading https://files.pythonhosted.org/packages/b3/d2/e2e39dd25438d45c6a7754bd94225f0121a5b3b8df75c6b7275695f78b4a/elkm1_lib-2.2.5.tar.gz
+[2023-06-12 01:33:23] INFO root fetch - processPackages [kaya-module-sdk]: executing diffoscope
+[2023-06-12 01:33:23] INFO root fetch - processPackages [kaya-module-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaya-module-sdk-1.1.tar.gz tmp/kaya-module-sdk-1.2.tar.gz --markdown 20230612/k/kaya-module-sdk/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-12 01:33:23] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-12 01:33:23] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.3.2.tar.gz tmp/propeller_design_tools-0.3.3.tar.gz --markdown 20230612/p/propeller-design-tools/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: executing diffoscope
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corgy-9.1.2.tar.gz tmp/corgy-9.1.3.tar.gz --markdown 20230612/c/corgy/9.1.2-9.1.3/diff.md --exclude *.pyd
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: executing diffoscope
+[2023-06-12 01:33:23] INFO root fetch - processPackages [corgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corgy-9.1.2.tar.gz tmp/corgy-9.1.3.tar.gz --markdown 20230612/c/corgy/9.1.2-9.1.3/diff.md --exclude *.pyd
+[2023-06-12 01:33:23] INFO root fetch - processPackages [elkm1-lib]: executing diffoscope
+[2023-06-12 01:33:23] INFO root fetch - processPackages [elkm1-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elkm1_lib-2.2.4.tar.gz tmp/elkm1_lib-2.2.5.tar.gz --markdown 20230612/e/elkm1-lib/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-06-12 01:33:24] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-12 01:33:24] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-12 01:33:24] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-12 01:33:24] INFO root fetch - processPackages [decomp2dbg]: Remove: archive file [/home/abi/fetcher/tmp/decomp2dbg-3.5.0.tar.gz]
+[2023-06-12 01:33:24] INFO root fetch - processPackages [decomp2dbg]: Remove: archive file [/home/abi/fetcher/tmp/decomp2dbg-3.5.1.tar.gz]
+[2023-06-12 01:33:24] INFO root fetch - main [MainThread]: End processing [decomp2dbg]: success
+[2023-06-12 01:33:25] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.2.tar.gz]
+[2023-06-12 01:33:25] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.3.tar.gz]
+[2023-06-12 01:33:25] INFO root fetch - main [MainThread]: End processing [corgy]: success
+[2023-06-12 01:33:25] INFO root fetch - processPackages [elkm1-lib]: Remove: archive file [/home/abi/fetcher/tmp/elkm1_lib-2.2.4.tar.gz]
+[2023-06-12 01:33:25] INFO root fetch - processPackages [elkm1-lib]: Remove: archive file [/home/abi/fetcher/tmp/elkm1_lib-2.2.5.tar.gz]
+[2023-06-12 01:33:25] INFO root fetch - main [MainThread]: End processing [elkm1-lib]: success
+[2023-06-12 01:33:25] INFO root fetch - main [MainThread]: End processing [corgy]: success
+[2023-06-12 01:33:26] INFO root fetch - processPackages [kaya-module-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kaya-module-sdk-1.1.tar.gz]
+[2023-06-12 01:33:26] INFO root fetch - processPackages [kaya-module-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kaya-module-sdk-1.2.tar.gz]
+[2023-06-12 01:33:26] INFO root fetch - main [MainThread]: End processing [kaya-module-sdk]: success
+[2023-06-12 01:33:26] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.2.tar.gz]
+[2023-06-12 01:33:26] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.3.tar.gz]
+[2023-06-12 01:33:26] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-12 01:33:26] INFO root fetch - main [MainThread]: Store serial: [18461832]
