@@ -448,3 +448,39 @@
 [2023-06-12 00:33:03] INFO root fetch - processPackages [pyneoncli]: Remove: archive file [/home/abi/fetcher/tmp/pyneoncli-0.1.0a2.tar.gz]
 [2023-06-12 00:33:03] INFO root fetch - main [MainThread]: End processing [pyneoncli]: success
 [2023-06-12 00:33:03] INFO root fetch - main [MainThread]: Store serial: [18461514]
+[2023-06-12 00:38:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461514]
+[2023-06-12 00:38:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-12 00:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ripandtear
+[2023-06-12 00:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfg-param-wrapper
+[2023-06-12 00:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roboduck
+[2023-06-12 00:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmsm-pm-temp-predict
+[2023-06-12 00:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfg-param-wrapper
+[2023-06-12 00:38:11] WARNING root fetch - processPackages [cfg-param-wrapper]: Skipping, unable to determine old version
+[2023-06-12 00:38:11] INFO root fetch - main [MainThread]: End processing [cfg-param-wrapper] error
+[2023-06-12 00:38:11] INFO root fetch - processPackages [ripandtear]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-12 00:38:11] INFO root fetch - processPackages [pmsm-pm-temp-predict]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-12 00:38:11] INFO root fetch - processPackages [roboduck]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-12 00:38:11] WARNING root fetch - processPackages [cfg-param-wrapper]: Skipping, unable to determine old version
+[2023-06-12 00:38:11] INFO root fetch - main [MainThread]: End processing [cfg-param-wrapper] error
+[2023-06-12 00:38:12] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Downloading https://files.pythonhosted.org/packages/8d/2a/83abc074713a3477dbc804c5bff71c509d9c98ba9bc450be26c9ade942b1/pmsm_pm_temp_predict-0.0.5.tar.gz
+[2023-06-12 00:38:12] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/2c/f3/43638a223c6f10c616bb47ef002fae28efb23437b272b531a8027e24e54f/ripandtear-0.9.7.tar.gz
+[2023-06-12 00:38:12] INFO root fetch - processPackages [roboduck]: Downloading https://files.pythonhosted.org/packages/a0/e0/8f9e53d353eaade25dc47f97380167d3e5eb6512c2faffb8759d9d8a29e0/roboduck-0.5.0.tar.gz
+[2023-06-12 00:38:12] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Downloading https://files.pythonhosted.org/packages/df/4f/393f64d65c8feb5fd124f988b37a413d7eb929d2213e1a6f0a6d73a7d33e/pmsm_pm_temp_predict-0.0.6.tar.gz
+[2023-06-12 00:38:12] INFO root fetch - processPackages [roboduck]: Downloading https://files.pythonhosted.org/packages/75/df/479b3ba38e5830314bd97090b6a97dc9364bb713191f8a75fad1dec486cd/roboduck-0.5.1.tar.gz
+[2023-06-12 00:38:12] INFO root fetch - processPackages [pmsm-pm-temp-predict]: executing diffoscope
+[2023-06-12 00:38:12] INFO root fetch - processPackages [pmsm-pm-temp-predict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmsm_pm_temp_predict-0.0.5.tar.gz tmp/pmsm_pm_temp_predict-0.0.6.tar.gz --markdown 20230612/p/pmsm-pm-temp-predict/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-12 00:38:12] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/bb/33/c3d19a2184a3997ddbec798a026fd98fd336119a50b23ebe1c0233e31aea/ripandtear-0.9.9.tar.gz
+[2023-06-12 00:38:12] INFO root fetch - processPackages [roboduck]: executing diffoscope
+[2023-06-12 00:38:12] INFO root fetch - processPackages [roboduck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboduck-0.5.0.tar.gz tmp/roboduck-0.5.1.tar.gz --markdown 20230612/r/roboduck/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-12 00:38:12] INFO root fetch - processPackages [ripandtear]: executing diffoscope
+[2023-06-12 00:38:12] INFO root fetch - processPackages [ripandtear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripandtear-0.9.7.tar.gz tmp/ripandtear-0.9.9.tar.gz --markdown 20230612/r/ripandtear/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 00:38:13] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Remove: archive file [/home/abi/fetcher/tmp/pmsm_pm_temp_predict-0.0.5.tar.gz]
+[2023-06-12 00:38:13] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Remove: archive file [/home/abi/fetcher/tmp/pmsm_pm_temp_predict-0.0.6.tar.gz]
+[2023-06-12 00:38:13] INFO root fetch - main [MainThread]: End processing [pmsm-pm-temp-predict]: success
+[2023-06-12 00:38:13] INFO root fetch - processPackages [roboduck]: Remove: archive file [/home/abi/fetcher/tmp/roboduck-0.5.0.tar.gz]
+[2023-06-12 00:38:13] INFO root fetch - processPackages [roboduck]: Remove: archive file [/home/abi/fetcher/tmp/roboduck-0.5.1.tar.gz]
+[2023-06-12 00:38:13] INFO root fetch - main [MainThread]: End processing [roboduck]: success
+[2023-06-12 00:38:13] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.7.tar.gz]
+[2023-06-12 00:38:13] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.9.tar.gz]
+[2023-06-12 00:38:13] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
+[2023-06-12 00:38:13] INFO root fetch - main [MainThread]: Store serial: [18461527]
