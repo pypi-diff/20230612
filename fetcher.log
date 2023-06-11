@@ -944,3 +944,39 @@
 [2023-06-12 01:16:57] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.1.tar.gz]
 [2023-06-12 01:16:57] INFO root fetch - main [MainThread]: End processing [kk]: success
 [2023-06-12 01:16:57] INFO root fetch - main [MainThread]: Store serial: [18461740]
+[2023-06-12 01:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461740]
+[2023-06-12 01:22:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-12 01:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-openai
+[2023-06-12 01:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-magic
+[2023-06-12 01:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: workforce
+[2023-06-12 01:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: colourspace
+[2023-06-12 01:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: squirrels
+[2023-06-12 01:22:05] INFO root fetch - processPackages [contact-magic]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-12 01:22:05] WARNING root fetch - processPackages [pydantic-openai]: Skipping, unable to determine old version
+[2023-06-12 01:22:05] INFO root fetch - main [MainThread]: End processing [pydantic-openai] error
+[2023-06-12 01:22:05] INFO root fetch - processPackages [workforce]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-12 01:22:06] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/03/46/9b3823b7ed33d00f255eeb494aa8412eb1df0b1a7ebd4f1764b46ecf4094/contact_magic-0.3.7.tar.gz
+[2023-06-12 01:22:06] INFO root fetch - processPackages [squirrels]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-06-12 01:22:06] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/f0/cc/da88bf44a336462f0a1e4c02bc2a76d6a65bc3749cae83f9d4a28ee6580a/workforce-1.0.5.tar.gz
+[2023-06-12 01:22:06] WARNING root fetch - processPackages [colourspace]: Skipping, unable to determine old version
+[2023-06-12 01:22:06] INFO root fetch - main [MainThread]: End processing [colourspace] error
+[2023-06-12 01:22:06] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/91/93/ab75f37a71081dab5d5a78c666ff94f343fc801090e167b00fa0361e5f5f/contact_magic-0.3.8.tar.gz
+[2023-06-12 01:22:06] INFO root fetch - processPackages [squirrels]: Downloading https://files.pythonhosted.org/packages/48/c5/3c19b2ef0cd3dab18778b15eaa5e5a9337d2277f06ce5aaf0a4c423560a4/squirrels-0.1.0rc2.tar.gz
+[2023-06-12 01:22:06] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/b2/54/9d936a3468326c067afdb91ed3299c7a4cdc477aa7dda41d0aadccf51dc0/workforce-1.0.6.tar.gz
+[2023-06-12 01:22:06] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-12 01:22:06] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.3.7.tar.gz tmp/contact_magic-0.3.8.tar.gz --markdown 20230612/c/contact-magic/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-12 01:22:06] INFO root fetch - processPackages [workforce]: executing diffoscope
+[2023-06-12 01:22:06] INFO root fetch - processPackages [workforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workforce-1.0.5.tar.gz tmp/workforce-1.0.6.tar.gz --markdown 20230612/w/workforce/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-12 01:22:06] INFO root fetch - processPackages [squirrels]: Downloading https://files.pythonhosted.org/packages/e5/4b/26aa10b015a7a4f62760181cb6c58342402cfdaa7c0b3095373a7b361908/squirrels-0.1.0rc3.tar.gz
+[2023-06-12 01:22:06] INFO root fetch - processPackages [squirrels]: executing diffoscope
+[2023-06-12 01:22:06] INFO root fetch - processPackages [squirrels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squirrels-0.1.0rc2.tar.gz tmp/squirrels-0.1.0rc3.tar.gz --markdown 20230612/s/squirrels/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-06-12 01:22:07] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.7.tar.gz]
+[2023-06-12 01:22:07] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.8.tar.gz]
+[2023-06-12 01:22:07] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-12 01:22:07] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.5.tar.gz]
+[2023-06-12 01:22:07] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.6.tar.gz]
+[2023-06-12 01:22:07] INFO root fetch - main [MainThread]: End processing [workforce]: success
+[2023-06-12 01:22:08] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.1.0rc2.tar.gz]
+[2023-06-12 01:22:08] INFO root fetch - processPackages [squirrels]: Remove: archive file [/home/abi/fetcher/tmp/squirrels-0.1.0rc3.tar.gz]
+[2023-06-12 01:22:08] INFO root fetch - main [MainThread]: End processing [squirrels]: success
+[2023-06-12 01:22:08] INFO root fetch - main [MainThread]: Store serial: [18461763]
