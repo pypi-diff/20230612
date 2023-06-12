@@ -8813,3 +8813,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 07:56:35] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
 [2023-06-12 07:56:35] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-12 07:56:35] INFO root fetch - main [MainThread]: Store serial: [18464933]
+[2023-06-12 08:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464933]
+[2023-06-12 08:01:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctidb
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-apscheduler-v0.6.2
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vatis-asr-commons
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sc-editor
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-csas20230120-py2
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-csas20230120
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anycluster
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imesh
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hik_camera
+[2023-06-12 08:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaceone-core
+[2023-06-12 08:01:45] WARNING root fetch - processPackages [django-apscheduler-v0.6.2]: Skipping, unable to determine old version
+[2023-06-12 08:01:45] INFO root fetch - processPackages [django-apscheduler-v0.6.2]: Start processing: sk-report-generator
+[2023-06-12 08:01:45] INFO root fetch - main [MainThread]: End processing [django-apscheduler-v0.6.2] error
+[2023-06-12 08:01:45] WARNING root fetch - processPackages [ctidb]: Skipping, unable to determine old version
+[2023-06-12 08:01:45] INFO root fetch - processPackages [anycluster]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-12 08:01:45] INFO root fetch - processPackages [hik_camera]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-12 08:01:45] INFO root fetch - main [MainThread]: End processing [ctidb] error
+[2023-06-12 08:01:45] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 08:01:45] INFO root fetch - processPackages [vatis-asr-commons]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-12 08:01:45] INFO root fetch - processPackages [sc-editor]: New version: [0.991] Old Version: [0.99]
+[2023-06-12 08:01:45] INFO root fetch - processPackages [alibabacloud-csas20230120]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 08:01:45] WARNING root fetch - processPackages [sk-report-generator]: Skipping, unable to determine old version
+[2023-06-12 08:01:45] INFO root fetch - main [MainThread]: End processing [sk-report-generator] error
+[2023-06-12 08:01:45] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 08:01:45] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-12 08:01:45] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/ea/85/40d04d12cc7e51bbf2e48e7b3af53826f2f22a7669c0ca1f58965353ef37/sc-editor-0.99.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [vatis-asr-commons]: Downloading https://files.pythonhosted.org/packages/d5/0d/ecc1807f838da56fd3733f67ccd7ec39d4f7339ca9c44053880f0f90b780/vatis_asr_commons-2.0.0.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/1c/d3/1e6ca3f6ba981b2469ed4b63f9845395dfd5bcfbb73e29b53464c6c164a7/anycluster-2.3.0.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [hik_camera]: Downloading https://files.pythonhosted.org/packages/fe/a2/4d4dc31c1534d7c07fcfeff6003bc157f72120820597707e980ba2a300bb/hik_camera-0.2.8.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Downloading https://files.pythonhosted.org/packages/88/ce/df09ae71e701d0723b5b0b2366361c5adf34d9bbf7928f04ff46ae66a0e6/alibabacloud_csas20230120_py2-1.0.0.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [alibabacloud-csas20230120]: Downloading https://files.pythonhosted.org/packages/f1/6a/795c923d26c9bf551a1558360bfb08b1b157962259a205bfdde11d55050b/alibabacloud_csas20230120-1.0.0.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-12 08:01:45] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/ff/53/b17a15b7b0f77f4a28742f09c8023bd2b3235ab92a1fd034791afa1d1bf0/sc-editor-0.991.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-06-12 08:01:45] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230612/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 08:01:45] INFO root fetch - processPackages [vatis-asr-commons]: Downloading https://files.pythonhosted.org/packages/56/b4/ca3ec40d780d5cfec076064088342e7341294b21c7dd8ed8f24a6f0cae97/vatis_asr_commons-2.0.1.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 08:01:45] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.99.tar.gz tmp/sc-editor-0.991.tar.gz --markdown 20230612/s/sc-editor/0.99-0.991/diff.md --exclude *.pyd
+[2023-06-12 08:01:45] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/ec/14/48ab1d7f0b92eec35e73f23b6b078f14bb86fec7215d3b9e70a53cb9c798/anycluster-2.3.1.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [alibabacloud-csas20230120]: Downloading https://files.pythonhosted.org/packages/f1/8a/a74ffe9de3cfa9eb890622a53eb4f890c4067d0481b71293863246cde214/alibabacloud_csas20230120-1.0.1.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [vatis-asr-commons]: executing diffoscope
+[2023-06-12 08:01:45] INFO root fetch - processPackages [vatis-asr-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vatis_asr_commons-2.0.0.tar.gz tmp/vatis_asr_commons-2.0.1.tar.gz --markdown 20230612/v/vatis-asr-commons/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-12 08:01:45] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Downloading https://files.pythonhosted.org/packages/0a/75/af5b5ef047007ec8d737dd9b4763c8913625d45d79879340244a85ce81a7/alibabacloud_csas20230120_py2-1.0.1.tar.gz
+[2023-06-12 08:01:45] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-12 08:01:46] INFO root fetch - processPackages [anycluster]: executing diffoscope
+[2023-06-12 08:01:46] INFO root fetch - processPackages [anycluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycluster-2.3.0.tar.gz tmp/anycluster-2.3.1.tar.gz --markdown 20230612/a/anycluster/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-12 08:01:46] INFO root fetch - processPackages [alibabacloud-csas20230120]: executing diffoscope
+[2023-06-12 08:01:46] INFO root fetch - processPackages [alibabacloud-csas20230120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_csas20230120-1.0.0.tar.gz tmp/alibabacloud_csas20230120-1.0.1.tar.gz --markdown 20230612/a/alibabacloud-csas20230120/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 08:01:46] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: executing diffoscope
+[2023-06-12 08:01:46] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_csas20230120_py2-1.0.0.tar.gz tmp/alibabacloud_csas20230120_py2-1.0.1.tar.gz --markdown 20230612/a/alibabacloud-csas20230120-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 08:01:46] INFO root fetch - processPackages [hik_camera]: Downloading https://files.pythonhosted.org/packages/df/7b/1ebe755854394959c7c8bbcc5e1bc18d1002a4798501e61239a07013317a/hik_camera-0.2.9.tar.gz
+[2023-06-12 08:01:46] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-12 08:01:46] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230612/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-12 08:01:46] INFO root fetch - processPackages [hik_camera]: executing diffoscope
+[2023-06-12 08:01:46] INFO root fetch - processPackages [hik_camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hik_camera-0.2.8.tar.gz tmp/hik_camera-0.2.9.tar.gz --markdown 20230612/h/hik_camera/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-12 08:01:47] INFO root fetch - processPackages [vatis-asr-commons]: Remove: archive file [/home/abi/fetcher/tmp/vatis_asr_commons-2.0.0.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - processPackages [vatis-asr-commons]: Remove: archive file [/home/abi/fetcher/tmp/vatis_asr_commons-2.0.1.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - main [MainThread]: End processing [vatis-asr-commons]: success
+[2023-06-12 08:01:47] INFO root fetch - processPackages [alibabacloud-csas20230120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120-1.0.0.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - processPackages [alibabacloud-csas20230120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120-1.0.1.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-csas20230120]: success
+[2023-06-12 08:01:47] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120_py2-1.0.0.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120_py2-1.0.1.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-csas20230120-py2]: success
+[2023-06-12 08:01:47] INFO root fetch - processPackages [hik_camera]: Remove: archive file [/home/abi/fetcher/tmp/hik_camera-0.2.8.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - processPackages [hik_camera]: Remove: archive file [/home/abi/fetcher/tmp/hik_camera-0.2.9.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - main [MainThread]: End processing [hik_camera]: success
+[2023-06-12 08:01:47] INFO root fetch - processPackages [anycluster]: Remove: archive file [/home/abi/fetcher/tmp/anycluster-2.3.0.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - processPackages [anycluster]: Remove: archive file [/home/abi/fetcher/tmp/anycluster-2.3.1.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - main [MainThread]: End processing [anycluster]: success
+[2023-06-12 08:01:47] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-12 08:01:47] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-12 08:01:47] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-12 08:01:47] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-06-12 08:01:47] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-06-12 08:01:48] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.99.tar.gz]
+[2023-06-12 08:01:48] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.991.tar.gz]
+[2023-06-12 08:01:48] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 08:01:48] INFO root fetch - main [MainThread]: Store serial: [18464970]
