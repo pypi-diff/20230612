@@ -20387,3 +20387,206 @@ EOFError: EOF read where object expected
 [2023-06-12 16:17:44] INFO root fetch - processPackages [jupyter-theme-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_theme_editor-0.4.0.tar.gz]
 [2023-06-12 16:17:44] INFO root fetch - main [MainThread]: End processing [jupyter-theme-editor]: success
 [2023-06-12 16:17:44] INFO root fetch - main [MainThread]: Store serial: [18469811]
+[2023-06-12 16:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469811]
+[2023-06-12 16:22:54] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getmodelspec
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timescoring
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: five-card-draw
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fschat
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quanturf
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: const-cython-client
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strawberry-graphql
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipiyiTools
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apysc
+[2023-06-12 16:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plugwise
+[2023-06-12 16:22:54] INFO root fetch - processPackages [timescoring]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 16:22:54] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-12 16:22:54] INFO root fetch - processPackages [getmodelspec]: Start processing: lollms
+[2023-06-12 16:22:54] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-12 16:22:54] INFO root fetch - processPackages [five-card-draw]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [quanturf]: New version: [8.6.5] Old Version: [8.6.4]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [fschat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [const-cython-client]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [pipiyiTools]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [plugwise]: New version: [0.9.4a9] Old Version: [0.9.4a8]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/e4/ef/faf5e929677ae75caabf62d9f67bfab6adf2d56b0b3abb3f2ed33314cd80/five_card_draw-1.0.3.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [apysc]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [const-cython-client]: Downloading https://files.pythonhosted.org/packages/85/87/54f89c4890053fd6821c48dc217d528d9e92dc21a9f22812ed1c085f2415/const-cython-client-0.0.2.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-12 16:22:54] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-12 16:22:54] INFO root fetch - processPackages [lollms]: Start processing: lmkit
+[2023-06-12 16:22:54] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-12 16:22:54] WARNING root fetch - processPackages [lmkit]: Skipping, unable to determine old version
+[2023-06-12 16:22:54] INFO root fetch - processPackages [timescoring]: Downloading https://files.pythonhosted.org/packages/aa/d6/9affcef1f5c3ee6705faace07b3292aa10435021ac17ef9845c10854b789/timescoring-0.0.1.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [lmkit]: Start processing: fabric-message-bus
+[2023-06-12 16:22:54] INFO root fetch - main [MainThread]: End processing [lmkit] error
+[2023-06-12 16:22:54] INFO root fetch - processPackages [quanturf]: Downloading https://files.pythonhosted.org/packages/b8/f0/83fa3e62b78fb10e0bfcb362617a599bd2fc3c6120b3cd470169cc606731/quanturf-8.6.4.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/9f/eb/88773e492984c980bc342942239d3bd6eee77c3dc052d35d25e42e2137a6/plugwise-0.9.4a8.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [pipiyiTools]: Downloading https://files.pythonhosted.org/packages/c1/f5/6de637e5ebbce8c95627b1d50fc111fadb0d3212ac565e579b919c9aa0d0/pipiyiTools-0.0.3.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/ab/bc/47c93a7eb32da95050471e0ce32e03ee741b39b5b529ec911005c4169cde/apysc-2.8.7.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/87/62/b4da7a5a785f37c352f8353cd89801af7ae84d326d5f4edc3084d11032dd/fschat-0.2.8.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/21/0e/b370ee3780d881de1d67a41c938094286dfd036cc0a0c1833dafec789fa9/five_card_draw-1.0.4.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [fabric-message-bus]: New version: [1.5.0b6] Old Version: [1.5.0b5]
+[2023-06-12 16:22:54] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/8b/65/822fb2d772c3edc5356a8b4de5722e7df72f20b7819419570c7827a9ce78/fabric-message-bus-1.5.0b5.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [const-cython-client]: Downloading https://files.pythonhosted.org/packages/15/5a/515c5782f86c674bac7366104fdc17e81145c74774125bcfcaa3a6507c27/const-cython-client-0.1.0.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/c1/b0/505c6a4e83ac92e1871d446b70a468976b4ccdcfd047b5ebd73e5d37ba8b/fschat-0.2.9.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [pipiyiTools]: Downloading https://files.pythonhosted.org/packages/a5/7d/8849f8668e29691215538559480b940b53001c8faf15bdb8217684048c2d/pipiyiTools-0.0.5.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/ad/b8/0e28e6b32c9c8269cb7dadbe6a40eda95c116082dc38c75820edb87933fc/apysc-2.8.8.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-06-12 16:22:54] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/ec/fd/45b5a2ee424806593e900234e26bf62ae0c3582ac99cadfa9477e6719004/plugwise-0.9.4a9.tar.gz
+[2023-06-12 16:22:55] INFO root fetch - processPackages [const-cython-client]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [const-cython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const-cython-client-0.0.2.tar.gz tmp/const-cython-client-0.1.0.tar.gz --markdown 20230612/c/const-cython-client/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 16:22:55] INFO root fetch - processPackages [timescoring]: Downloading https://files.pythonhosted.org/packages/aa/35/8ca1f7caf3229ced7c1a78c4bf985c6e7ac376f81219ad7b1e92986dcc29/timescoring-0.0.2.tar.gz
+[2023-06-12 16:22:55] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230612/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-12 16:22:55] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.8.tar.gz tmp/fschat-0.2.9.tar.gz --markdown 20230612/f/fschat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-12 16:22:55] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.8.7.tar.gz tmp/apysc-2.8.8.tar.gz --markdown 20230612/a/apysc/2.8.7-2.8.8/diff.md --exclude *.pyd
+[2023-06-12 16:22:55] INFO root fetch - processPackages [plugwise]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/91/e4/0be10f89fe9984b5cc4ad80d6f13625f2f3ad770b9ad65e72af66c27e45c/fabric-message-bus-1.5.0b6.tar.gz
+[2023-06-12 16:22:55] INFO root fetch - processPackages [plugwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugwise-0.9.4a8.tar.gz tmp/plugwise-0.9.4a9.tar.gz --markdown 20230612/p/plugwise/0.9.4a8-0.9.4a9/diff.md --exclude *.pyd
+[2023-06-12 16:22:55] INFO root fetch - processPackages [pipiyiTools]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [pipiyiTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipiyiTools-0.0.3.tar.gz tmp/pipiyiTools-0.0.5.tar.gz --markdown 20230612/p/pipiyiTools/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 16:22:55] INFO root fetch - processPackages [quanturf]: Downloading https://files.pythonhosted.org/packages/c0/83/40c2d2c515d0e450c1e69bc4c57ac85cf33e7637499a0cfa91049e96f4da/quanturf-8.6.5.tar.gz
+[2023-06-12 16:22:55] INFO root fetch - processPackages [timescoring]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [timescoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timescoring-0.0.1.tar.gz tmp/timescoring-0.0.2.tar.gz --markdown 20230612/t/timescoring/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 16:22:55] INFO root fetch - processPackages [fabric-message-bus]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [fabric-message-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-message-bus-1.5.0b5.tar.gz tmp/fabric-message-bus-1.5.0b6.tar.gz --markdown 20230612/f/fabric-message-bus/1.5.0b5-1.5.0b6/diff.md --exclude *.pyd
+[2023-06-12 16:22:55] INFO root fetch - processPackages [quanturf]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [quanturf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanturf-8.6.4.tar.gz tmp/quanturf-8.6.5.tar.gz --markdown 20230612/q/quanturf/8.6.4-8.6.5/diff.md --exclude *.pyd
+[2023-06-12 16:22:55] INFO root fetch - processPackages [five-card-draw]: executing diffoscope
+[2023-06-12 16:22:55] INFO root fetch - processPackages [five-card-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_card_draw-1.0.3.tar.gz tmp/five_card_draw-1.0.4.tar.gz --markdown 20230612/f/five-card-draw/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 16:22:57] INFO root fetch - processPackages [const-cython-client]: Remove: archive file [/home/abi/fetcher/tmp/const-cython-client-0.0.2.tar.gz]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [const-cython-client]: Remove: archive file [/home/abi/fetcher/tmp/const-cython-client-0.1.0.tar.gz]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [const-cython-client]: Start processing: joeynmt
+[2023-06-12 16:22:57] INFO root fetch - main [MainThread]: End processing [const-cython-client]: success
+[2023-06-12 16:22:57] INFO root fetch - processPackages [joeynmt]: New version: [2.2.1] Old Version: [2.1.0]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [joeynmt]: Downloading https://files.pythonhosted.org/packages/12/77/01a2fe1e207c08e6aa54818c6cca81aebc4ee5b71a7d853d81e54902f57a/joeynmt-2.1.0.tar.gz
+[2023-06-12 16:22:57] INFO root fetch - processPackages [pipiyiTools]: Remove: archive file [/home/abi/fetcher/tmp/pipiyiTools-0.0.3.tar.gz]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [pipiyiTools]: Remove: archive file [/home/abi/fetcher/tmp/pipiyiTools-0.0.5.tar.gz]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [pipiyiTools]: Start processing: isar
+[2023-06-12 16:22:57] INFO root fetch - main [MainThread]: End processing [pipiyiTools]: success
+[2023-06-12 16:22:57] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [quanturf]: Remove: archive file [/home/abi/fetcher/tmp/quanturf-8.6.4.tar.gz]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [quanturf]: Remove: archive file [/home/abi/fetcher/tmp/quanturf-8.6.5.tar.gz]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [quanturf]: Start processing: django-bootstrap-colors
+[2023-06-12 16:22:57] INFO root fetch - main [MainThread]: End processing [quanturf]: success
+[2023-06-12 16:22:57] INFO root fetch - processPackages [django-bootstrap-colors]: New version: [5.3.0] Old Version: [5.2.2]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [timescoring]: Remove: archive file [/home/abi/fetcher/tmp/timescoring-0.0.1.tar.gz]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [timescoring]: Remove: archive file [/home/abi/fetcher/tmp/timescoring-0.0.2.tar.gz]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [timescoring]: Start processing: pepperize.cdk-security-group
+[2023-06-12 16:22:57] INFO root fetch - main [MainThread]: End processing [timescoring]: success
+[2023-06-12 16:22:57] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 16:22:57] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/24/9e/a40ae5538b353dd0f94cbf122f8b47de58d34ffca0b2e4633c259740b079/isar-1.9.1.tar.gz
+[2023-06-12 16:22:57] INFO root fetch - processPackages [joeynmt]: Downloading https://files.pythonhosted.org/packages/7a/a2/eaee8e12c60629e2127bcd0730cd7e822e1a9e592005956791aff95e3636/joeynmt-2.2.1.tar.gz
+[2023-06-12 16:22:57] INFO root fetch - processPackages [django-bootstrap-colors]: Downloading https://files.pythonhosted.org/packages/ee/95/06e123fd7691d6d1c554aa9ad11620abf704c20fae3ba6d487a182d25b7b/django_bootstrap_colors-5.2.2-py3-none-any.whl
+[2023-06-12 16:22:57] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/51/98/1c396781b2a6e81d75ff16359a412509fb0b2e194622172459fdd5a259e9/pepperize.cdk-security-group-0.0.98.tar.gz
+[2023-06-12 16:22:57] INFO root fetch - processPackages [joeynmt]: executing diffoscope
+[2023-06-12 16:22:57] INFO root fetch - processPackages [joeynmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joeynmt-2.1.0.tar.gz tmp/joeynmt-2.2.1.tar.gz --markdown 20230612/j/joeynmt/2.1.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-12 16:22:58] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/0c/bd/c87b8c89cd96667a2dc47e515d33dc70dc401f8319ab1c440d614490ed4d/isar-1.9.2.tar.gz
+[2023-06-12 16:22:58] INFO root fetch - processPackages [isar]: executing diffoscope
+[2023-06-12 16:22:58] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20230612/i/isar/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-12 16:22:58] INFO root fetch - processPackages [django-bootstrap-colors]: Downloading https://files.pythonhosted.org/packages/5d/32/d81eb6f44cc6ff0b22db8aa40d08b251f6871861b7bbb85558e95e0047c7/django_bootstrap_colors-5.3.0-py3-none-any.whl
+[2023-06-12 16:22:58] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/f9/44/84eb1aff085a41b99d2fbf0824481285bc3007b7c318e9a646a4802ce199/pepperize.cdk-security-group-0.0.99.tar.gz
+[2023-06-12 16:22:58] INFO root fetch - processPackages [django-bootstrap-colors]: executing diffoscope
+[2023-06-12 16:22:58] INFO root fetch - processPackages [django-bootstrap-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bootstrap_colors-5.2.2-py3-none-any.whl.zip tmp/django_bootstrap_colors-5.3.0-py3-none-any.whl.zip --markdown 20230612/d/django-bootstrap-colors/5.2.2-5.3.0/diff.md --exclude *.pyd
+[2023-06-12 16:22:58] INFO root fetch - processPackages [plugwise]: Remove: archive file [/home/abi/fetcher/tmp/plugwise-0.9.4a8.tar.gz]
+[2023-06-12 16:22:58] INFO root fetch - processPackages [plugwise]: Remove: archive file [/home/abi/fetcher/tmp/plugwise-0.9.4a9.tar.gz]
+[2023-06-12 16:22:58] INFO root fetch - processPackages [plugwise]: Start processing: flask-http-middleware
+[2023-06-12 16:22:58] INFO root fetch - main [MainThread]: End processing [plugwise]: success
+[2023-06-12 16:22:58] INFO root fetch - processPackages [flask-http-middleware]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 16:22:58] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-06-12 16:22:58] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230612/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 16:22:58] INFO root fetch - processPackages [flask-http-middleware]: Downloading https://files.pythonhosted.org/packages/db/2b/d79e7fcd9f2d286b90714bb80fb3510131db1ee8cb81da258dea5c3bdd5c/flask-http-middleware-0.2.1.tar.gz
+[2023-06-12 16:22:58] INFO root fetch - processPackages [flask-http-middleware]: Downloading https://files.pythonhosted.org/packages/cc/37/0f6d796be6e4580df687e569f5e573a03ecdca81f6fceeacd77f5f06df01/flask-http-middleware-0.2.2.tar.gz
+[2023-06-12 16:22:59] INFO root fetch - processPackages [flask-http-middleware]: executing diffoscope
+[2023-06-12 16:22:59] INFO root fetch - processPackages [flask-http-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-http-middleware-0.2.1.tar.gz tmp/flask-http-middleware-0.2.2.tar.gz --markdown 20230612/f/flask-http-middleware/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 16:22:59] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.8.tar.gz]
+[2023-06-12 16:22:59] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.9.tar.gz]
+[2023-06-12 16:22:59] INFO root fetch - processPackages [fschat]: Start processing: zou
+[2023-06-12 16:22:59] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-06-12 16:22:59] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-12 16:22:59] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2023-06-12 16:22:59] INFO root fetch - processPackages [django-bootstrap-colors]: Remove: archive file [/home/abi/fetcher/tmp/django_bootstrap_colors-5.2.2-py3-none-any.whl.zip]
+[2023-06-12 16:22:59] INFO root fetch - processPackages [django-bootstrap-colors]: Remove: archive file [/home/abi/fetcher/tmp/django_bootstrap_colors-5.3.0-py3-none-any.whl.zip]
+[2023-06-12 16:22:59] INFO root fetch - processPackages [django-bootstrap-colors]: Start processing: AIPrompts
+[2023-06-12 16:22:59] INFO root fetch - main [MainThread]: End processing [django-bootstrap-colors]: success
+[2023-06-12 16:23:00] INFO root fetch - processPackages [AIPrompts]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2023-06-12 16:23:00] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [strawberry-graphql]: Start processing: dwiqc
+[2023-06-12 16:23:00] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-12 16:23:00] INFO root fetch - processPackages [dwiqc]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.98.tar.gz]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.99.tar.gz]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: qwak-sdk
+[2023-06-12 16:23:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-06-12 16:23:00] INFO root fetch - processPackages [zou]: executing diffoscope
+[2023-06-12 16:23:00] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20230612/z/zou/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 16:23:00] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [AIPrompts]: Downloading https://files.pythonhosted.org/packages/dd/dd/2f32ffa32c9960e51db4e3f4bf8e9c6d62a1e192162a0fffb718373459aa/AIPrompts-0.5.1.tar.gz
+[2023-06-12 16:23:00] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/07/c5/d89e5629d9ddbc3b8a928b4fc921c28effb7698ca5758af580d2e1e4ea09/dwiqc-0.4.0-py2.py3-none-any.whl
+[2023-06-12 16:23:00] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/f2/4f/dfbb04a48c96fbdc8cc7061f172b480a5280b665164f28166a4695c548be/qwak_sdk-0.5.4.tar.gz
+[2023-06-12 16:23:00] INFO root fetch - processPackages [AIPrompts]: Downloading https://files.pythonhosted.org/packages/6c/6a/2e94b62216ef68fe2f477cb630b2877ca6653c26f76a080d4b2faaeb22a3/AIPrompts-0.5.2.tar.gz
+[2023-06-12 16:23:00] INFO root fetch - processPackages [AIPrompts]: executing diffoscope
+[2023-06-12 16:23:00] INFO root fetch - processPackages [AIPrompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIPrompts-0.5.1.tar.gz tmp/AIPrompts-0.5.2.tar.gz --markdown 20230612/A/AIPrompts/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-12 16:23:00] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/44/c8/1f6fbb19bd94ab539deb0138f090098235290d7f81d0704e049ec0644e5c/dwiqc-0.4.1-py2.py3-none-any.whl
+[2023-06-12 16:23:00] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/d9/2a/526ce4e3521122d67f465543d39f16778bb76b5832187cb28b08ce8dd781/qwak_sdk-0.5.5.tar.gz
+[2023-06-12 16:23:00] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.5.0b5.tar.gz]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.5.0b6.tar.gz]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [fabric-message-bus]: Start processing: spanishconjugator
+[2023-06-12 16:23:00] INFO root fetch - main [MainThread]: End processing [fabric-message-bus]: success
+[2023-06-12 16:23:00] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-12 16:23:00] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.0-py2.py3-none-any.whl.zip tmp/dwiqc-0.4.1-py2.py3-none-any.whl.zip --markdown 20230612/d/dwiqc/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-12 16:23:00] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [flask-http-middleware]: Remove: archive file [/home/abi/fetcher/tmp/flask-http-middleware-0.2.1.tar.gz]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [flask-http-middleware]: Remove: archive file [/home/abi/fetcher/tmp/flask-http-middleware-0.2.2.tar.gz]
+[2023-06-12 16:23:00] INFO root fetch - processPackages [flask-http-middleware]: Start processing: minecraft-forgePY
+[2023-06-12 16:23:00] INFO root fetch - main [MainThread]: End processing [flask-http-middleware]: success
+[2023-06-12 16:23:00] INFO root fetch - processPackages [minecraft-forgePY]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 16:23:01] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-12 16:23:01] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-06-12 16:23:01] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.4.tar.gz tmp/qwak_sdk-0.5.5.tar.gz --markdown 20230612/q/qwak-sdk/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-12 16:23:01] INFO root fetch - processPackages [minecraft-forgePY]: Downloading https://files.pythonhosted.org/packages/dc/4a/6f3b818b827a21b2697fcc1098e1dd66594adc97e8d2fdff844be73467a3/minecraft-ForgePY-1.0.0.tar.gz
+[2023-06-12 16:23:01] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-12 16:23:01] INFO root fetch - processPackages [minecraft-forgePY]: Downloading https://files.pythonhosted.org/packages/97/e4/de79560ee820f339648438fb0a5ad53ab4ec55bcec9c9999395f6e4c6ddc/minecraft-forgePY-1.0.1.tar.gz
+[2023-06-12 16:23:01] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-12 16:23:01] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230612/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-12 16:23:01] INFO root fetch - processPackages [minecraft-forgePY]: executing diffoscope
+[2023-06-12 16:23:01] INFO root fetch - processPackages [minecraft-forgePY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-ForgePY-1.0.0.tar.gz tmp/minecraft-forgePY-1.0.1.tar.gz --markdown 20230612/m/minecraft-forgePY/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 16:23:01] INFO root fetch - processPackages [joeynmt]: Remove: archive file [/home/abi/fetcher/tmp/joeynmt-2.1.0.tar.gz]
+[2023-06-12 16:23:01] INFO root fetch - processPackages [joeynmt]: Remove: archive file [/home/abi/fetcher/tmp/joeynmt-2.2.1.tar.gz]
+[2023-06-12 16:23:01] INFO root fetch - main [MainThread]: End processing [joeynmt]: success
+[2023-06-12 16:23:01] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.3.tar.gz]
+[2023-06-12 16:23:01] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.4.tar.gz]
+[2023-06-12 16:23:01] INFO root fetch - main [MainThread]: End processing [five-card-draw]: success
+[2023-06-12 16:23:02] INFO root fetch - processPackages [AIPrompts]: Remove: archive file [/home/abi/fetcher/tmp/AIPrompts-0.5.1.tar.gz]
+[2023-06-12 16:23:02] INFO root fetch - processPackages [AIPrompts]: Remove: archive file [/home/abi/fetcher/tmp/AIPrompts-0.5.2.tar.gz]
+[2023-06-12 16:23:02] INFO root fetch - main [MainThread]: End processing [AIPrompts]: success
+[2023-06-12 16:23:02] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.0-py2.py3-none-any.whl.zip]
+[2023-06-12 16:23:02] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.1-py2.py3-none-any.whl.zip]
+[2023-06-12 16:23:02] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-12 16:23:03] INFO root fetch - processPackages [minecraft-forgePY]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-ForgePY-1.0.0.tar.gz]
+[2023-06-12 16:23:03] INFO root fetch - processPackages [minecraft-forgePY]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-forgePY-1.0.1.tar.gz]
+[2023-06-12 16:23:03] INFO root fetch - main [MainThread]: End processing [minecraft-forgePY]: success
+[2023-06-12 16:23:03] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.1.tar.gz]
+[2023-06-12 16:23:03] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
+[2023-06-12 16:23:03] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2023-06-12 16:23:03] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-12 16:23:03] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-12 16:23:03] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-12 16:23:03] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-12 16:23:03] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-12 16:23:03] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2023-06-12 16:23:06] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.4.tar.gz]
+[2023-06-12 16:23:06] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.5.tar.gz]
+[2023-06-12 16:23:06] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-06-12 16:23:12] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.7.tar.gz]
+[2023-06-12 16:23:12] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.8.tar.gz]
+[2023-06-12 16:23:12] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-12 16:23:12] INFO root fetch - main [MainThread]: Store serial: [18469881]
