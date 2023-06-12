@@ -8041,3 +8041,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 06:30:27] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.6.tar.gz]
 [2023-06-12 06:30:27] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-06-12 06:30:27] INFO root fetch - main [MainThread]: Store serial: [18464583]
+[2023-06-12 06:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464583]
+[2023-06-12 06:35:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlean.py
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs.sqltags
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioPII
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymemuc
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backupp
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: co2ncientes
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ceva
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Clone-ChatGPT
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain
+[2023-06-12 06:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: backupp
+[2023-06-12 06:35:36] WARNING root fetch - processPackages [BioPII]: Skipping, unable to determine old version
+[2023-06-12 06:35:36] INFO root fetch - processPackages [BioPII]: Start processing: yatrash
+[2023-06-12 06:35:36] INFO root fetch - main [MainThread]: End processing [BioPII] error
+[2023-06-12 06:35:36] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.1.19] Old Version: [1.1.17]
+[2023-06-12 06:35:36] WARNING root fetch - processPackages [co2ncientes]: Skipping, unable to determine old version
+[2023-06-12 06:35:36] INFO root fetch - processPackages [co2ncientes]: Start processing: python-strategies-breezeconnect
+[2023-06-12 06:35:36] INFO root fetch - main [MainThread]: End processing [co2ncientes] error
+[2023-06-12 06:35:36] INFO root fetch - processPackages [cs.sqltags]: New version: [20230612] Old Version: [20230217]
+[2023-06-12 06:35:36] INFO root fetch - processPackages [backupp]: New version: [0.0.9rc1] Old Version: [0.0.9]
+[2023-06-12 06:35:36] WARNING root fetch - processPackages [sqlean.py]: Skipping, unable to determine old version
+[2023-06-12 06:35:36] WARNING root fetch - processPackages [ceva]: Skipping, unable to determine old version
+[2023-06-12 06:35:36] INFO root fetch - processPackages [backupp]: New version: [0.0.9rc1] Old Version: [0.0.9]
+[2023-06-12 06:35:36] INFO root fetch - main [MainThread]: End processing [sqlean.py] error
+[2023-06-12 06:35:36] INFO root fetch - main [MainThread]: End processing [ceva] error
+[2023-06-12 06:35:36] INFO root fetch - processPackages [pymemuc]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-12 06:35:36] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-12 06:35:36] INFO root fetch - processPackages [python-strategies-breezeconnect]: New version: [3.0] Old Version: [2.0]
+[2023-06-12 06:35:36] INFO root fetch - processPackages [yatrash]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 06:35:36] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-12 06:35:36] INFO root fetch - processPackages [python-strategies-breezeconnect]: Downloading https://files.pythonhosted.org/packages/6c/d1/1b3e1fe7fe25c06e11807bba24c32daee6625c61ee9464d33bf00fa582ad/python_strategies_breezeconnect-2.0.tar.gz
+[2023-06-12 06:35:36] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/2d/de/61f210cc2b3aa9959181b3b187552f405e1d3b231e427da5bc39712fc005/Clone-ChatGPT-1.1.17.tar.gz
+[2023-06-12 06:35:36] INFO root fetch - processPackages [cs.sqltags]: Downloading https://files.pythonhosted.org/packages/a1/dd/d540a7ac9eab1c437dd3554446e000bae228e1d9d16d789f6998bd3fad29/cs.sqltags-20230217.tar.gz
+[2023-06-12 06:35:36] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/9f/b4/367dc238f27c6bdffca313391b08bc29be1103b82b4d452ad6b0c029a609/pymemuc-0.3.5.tar.gz
+[2023-06-12 06:35:36] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/3f/76/ff0914deb281d2b844977a89532e4e76c5558dfb825db728646dec581d9c/backupp-0.0.9-py2.py3-none-any.whl
+[2023-06-12 06:35:36] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/3f/76/ff0914deb281d2b844977a89532e4e76c5558dfb825db728646dec581d9c/backupp-0.0.9-py2.py3-none-any.whl
+[2023-06-12 06:35:36] INFO root fetch - processPackages [python-strategies-breezeconnect]: Downloading https://files.pythonhosted.org/packages/e7/9a/1f1ae0a9ff97cb6964c04f9ee6682177c03d9d21b2b77969f01ea699c737/python_strategies_breezeconnect-3.0.tar.gz
+[2023-06-12 06:35:36] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-12 06:35:36] INFO root fetch - processPackages [yatrash]: Downloading https://files.pythonhosted.org/packages/e3/c8/3e63be78b4361bbf440c9dcc75cecc1ebe6764b0ae977a526eced5898adf/yatrash-0.1.2.tar.gz
+[2023-06-12 06:35:36] INFO root fetch - processPackages [python-strategies-breezeconnect]: executing diffoscope
+[2023-06-12 06:35:36] INFO root fetch - processPackages [python-strategies-breezeconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_strategies_breezeconnect-2.0.tar.gz tmp/python_strategies_breezeconnect-3.0.tar.gz --markdown 20230612/p/python-strategies-breezeconnect/2.0-3.0/diff.md --exclude *.pyd
+[2023-06-12 06:35:36] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-12 06:35:36] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230612/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-12 06:35:36] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/e8/32/e0f5b8d29d76fb47e162a9dd816e3a05e77bfa9e7c33126e75bf05593c51/pymemuc-0.3.6.tar.gz
+[2023-06-12 06:35:37] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/c0/12/04af5ae766512376ce104815515a05fc60baef777a1e09b0ac3dc11e784d/backupp-0.0.9rc1-py2.py3-none-any.whl
+[2023-06-12 06:35:37] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/c0/12/04af5ae766512376ce104815515a05fc60baef777a1e09b0ac3dc11e784d/backupp-0.0.9rc1-py2.py3-none-any.whl
+[2023-06-12 06:35:37] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/43/ba/628c481c57dbadfc070f84159472f2d6356ce58443c390d4ea74a7b9ee55/Clone-ChatGPT-1.1.19.tar.gz
+[2023-06-12 06:35:37] INFO root fetch - processPackages [yatrash]: Downloading https://files.pythonhosted.org/packages/aa/29/6d7698527e3e4b2086a545c6ff02c75f9a4ec416a1dffd82f8816a575a75/yatrash-0.1.3.tar.gz
+[2023-06-12 06:35:37] INFO root fetch - processPackages [cs.sqltags]: Downloading https://files.pythonhosted.org/packages/a4/06/99971d47aa9be4f55b08cc4ebbef8b66e17c904b756961ce901265378d73/cs.sqltags-20230612.tar.gz
+[2023-06-12 06:35:37] INFO root fetch - processPackages [pymemuc]: executing diffoscope
+[2023-06-12 06:35:37] INFO root fetch - processPackages [pymemuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemuc-0.3.5.tar.gz tmp/pymemuc-0.3.6.tar.gz --markdown 20230612/p/pymemuc/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-12 06:35:37] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-12 06:35:37] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.9-py2.py3-none-any.whl.zip tmp/backupp-0.0.9rc1-py2.py3-none-any.whl.zip --markdown 20230612/b/backupp/0.0.9-0.0.9rc1/diff.md --exclude *.pyd
+[2023-06-12 06:35:37] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-12 06:35:37] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.9-py2.py3-none-any.whl.zip tmp/backupp-0.0.9rc1-py2.py3-none-any.whl.zip --markdown 20230612/b/backupp/0.0.9-0.0.9rc1/diff.md --exclude *.pyd
+[2023-06-12 06:35:37] INFO root fetch - processPackages [cs.sqltags]: executing diffoscope
+[2023-06-12 06:35:37] INFO root fetch - processPackages [cs.sqltags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.sqltags-20230217.tar.gz tmp/cs.sqltags-20230612.tar.gz --markdown 20230612/c/cs.sqltags/20230217-20230612/diff.md --exclude *.pyd
+[2023-06-12 06:35:37] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-06-12 06:35:37] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.1.17.tar.gz tmp/Clone-ChatGPT-1.1.19.tar.gz --markdown 20230612/C/Clone-ChatGPT/1.1.17-1.1.19/diff.md --exclude *.pyd
+[2023-06-12 06:35:37] INFO root fetch - processPackages [yatrash]: executing diffoscope
+[2023-06-12 06:35:37] INFO root fetch - processPackages [yatrash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatrash-0.1.2.tar.gz tmp/yatrash-0.1.3.tar.gz --markdown 20230612/y/yatrash/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 06:35:38] INFO root fetch - processPackages [python-strategies-breezeconnect]: Remove: archive file [/home/abi/fetcher/tmp/python_strategies_breezeconnect-2.0.tar.gz]
+[2023-06-12 06:35:38] INFO root fetch - processPackages [python-strategies-breezeconnect]: Remove: archive file [/home/abi/fetcher/tmp/python_strategies_breezeconnect-3.0.tar.gz]
+[2023-06-12 06:35:38] INFO root fetch - main [MainThread]: End processing [python-strategies-breezeconnect]: success
+[2023-06-12 06:35:38] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.3.5.tar.gz]
+[2023-06-12 06:35:38] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.3.6.tar.gz]
+[2023-06-12 06:35:38] INFO root fetch - main [MainThread]: End processing [pymemuc]: success
+[2023-06-12 06:35:38] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.9-py2.py3-none-any.whl.zip]
+[2023-06-12 06:35:38] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.9rc1-py2.py3-none-any.whl.zip]
+[2023-06-12 06:35:38] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-12 06:35:38] INFO root fetch - processPackages [yatrash]: Remove: archive file [/home/abi/fetcher/tmp/yatrash-0.1.2.tar.gz]
+[2023-06-12 06:35:38] INFO root fetch - processPackages [yatrash]: Remove: archive file [/home/abi/fetcher/tmp/yatrash-0.1.3.tar.gz]
+[2023-06-12 06:35:38] INFO root fetch - main [MainThread]: End processing [yatrash]: success
+[2023-06-12 06:35:38] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-12 06:35:38] INFO root fetch - processPackages [cs.sqltags]: Remove: archive file [/home/abi/fetcher/tmp/cs.sqltags-20230217.tar.gz]
+[2023-06-12 06:35:38] INFO root fetch - processPackages [cs.sqltags]: Remove: archive file [/home/abi/fetcher/tmp/cs.sqltags-20230612.tar.gz]
+[2023-06-12 06:35:38] INFO root fetch - main [MainThread]: End processing [cs.sqltags]: success
+[2023-06-12 06:35:39] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.1.17.tar.gz]
+[2023-06-12 06:35:39] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.1.19.tar.gz]
+[2023-06-12 06:35:39] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-06-12 06:35:41] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-12 06:35:41] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-12 06:35:41] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-12 06:35:41] INFO root fetch - main [MainThread]: Store serial: [18464624]
