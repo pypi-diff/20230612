@@ -8358,3 +8358,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 07:01:40] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.3.tar.gz]
 [2023-06-12 07:01:40] INFO root fetch - main [MainThread]: End processing [teapy]: success
 [2023-06-12 07:01:40] INFO root fetch - main [MainThread]: Store serial: [18464733]
+[2023-06-12 07:06:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464733]
+[2023-06-12 07:06:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-12 07:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glemos
+[2023-06-12 07:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: big
+[2023-06-12 07:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2023-06-12 07:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-thread
+[2023-06-12 07:06:49] WARNING root fetch - processPackages [glemos]: Skipping, unable to determine old version
+[2023-06-12 07:06:49] INFO root fetch - main [MainThread]: End processing [glemos] error
+[2023-06-12 07:06:49] INFO root fetch - processPackages [big]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-12 07:06:49] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-12 07:06:49] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230612] Old Version: [0.1.1.dev20230611]
+[2023-06-12 07:06:49] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/67/ad/08a70b612ad1ea42b40c3fa2905d484d501af422754da6373518956871bd/rapid_pe-0.1.1.dev20230611.tar.gz
+[2023-06-12 07:06:49] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-06-12 07:06:49] INFO root fetch - processPackages [big]: Downloading https://files.pythonhosted.org/packages/74/e1/1fca352d4eb805cc07c267ebd7c6c5f580ed1443efad4e5409b40c184d2c/big-0.8.2.tar.gz
+[2023-06-12 07:06:49] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/ed/0a/782adff952a0c9ed9e618679a5a743b25ea583376527a32e29a07c99c3d4/rapid_pe-0.1.1.dev20230612.tar.gz
+[2023-06-12 07:06:50] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-06-12 07:06:50] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-12 07:06:50] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230611.tar.gz tmp/rapid_pe-0.1.1.dev20230612.tar.gz --markdown 20230612/r/rapid-pe/0.1.1.dev20230611-0.1.1.dev20230612/diff.md --exclude *.pyd
+[2023-06-12 07:06:50] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-06-12 07:06:50] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230612/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-12 07:06:50] INFO root fetch - processPackages [big]: Downloading https://files.pythonhosted.org/packages/52/ca/2b0fb16adcdddb6c7d9f6b30bdfa50c2e3d9bde0480bcf777ad7367d91e5/big-0.8.3.tar.gz
+[2023-06-12 07:06:50] INFO root fetch - processPackages [big]: executing diffoscope
+[2023-06-12 07:06:50] INFO root fetch - processPackages [big]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/big-0.8.2.tar.gz tmp/big-0.8.3.tar.gz --markdown 20230612/b/big/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-12 07:06:51] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230611.tar.gz]
+[2023-06-12 07:06:51] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230612.tar.gz]
+[2023-06-12 07:06:51] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-12 07:06:51] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-06-12 07:06:51] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-06-12 07:06:51] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-06-12 07:06:52] INFO root fetch - processPackages [big]: Remove: archive file [/home/abi/fetcher/tmp/big-0.8.2.tar.gz]
+[2023-06-12 07:06:52] INFO root fetch - processPackages [big]: Remove: archive file [/home/abi/fetcher/tmp/big-0.8.3.tar.gz]
+[2023-06-12 07:06:52] INFO root fetch - main [MainThread]: End processing [big]: success
+[2023-06-12 07:06:52] INFO root fetch - main [MainThread]: Store serial: [18464751]
