@@ -13611,3 +13611,179 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 11:35:44] INFO root fetch - processPackages [django-ace]: Remove: archive file [/home/abi/fetcher/tmp/django-ace-1.22.1.tar.gz]
 [2023-06-12 11:35:44] INFO root fetch - main [MainThread]: End processing [django-ace]: success
 [2023-06-12 11:35:44] INFO root fetch - main [MainThread]: Store serial: [18467005]
+[2023-06-12 11:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467005]
+[2023-06-12 11:40:55] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multireg
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cosnt-cython-lib
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: layerx-sdk-beta
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openapi-schema-validator
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: project-BMI-Potato
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: league-shop-base
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-statement-import-online-paypal
+[2023-06-12 11:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotframework
+[2023-06-12 11:40:55] WARNING root fetch - processPackages [cosnt-cython-lib]: Skipping, unable to determine old version
+[2023-06-12 11:40:55] INFO root fetch - processPackages [cosnt-cython-lib]: Start processing: pysimflow
+[2023-06-12 11:40:55] INFO root fetch - main [MainThread]: End processing [cosnt-cython-lib] error
+[2023-06-12 11:40:55] INFO root fetch - processPackages [multireg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 11:40:55] WARNING root fetch - processPackages [project-BMI-Potato]: Skipping, unable to determine old version
+[2023-06-12 11:40:55] INFO root fetch - processPackages [project-BMI-Potato]: Start processing: netbox-cisco-maintenance
+[2023-06-12 11:40:55] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-12 11:40:55] INFO root fetch - main [MainThread]: End processing [project-BMI-Potato] error
+[2023-06-12 11:40:55] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 11:40:55] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 11:40:55] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: New version: [15.0.1.1.1] Old Version: [15.0.1.1.0]
+[2023-06-12 11:40:55] INFO root fetch - processPackages [openapi-schema-validator]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-06-12 11:40:55] INFO root fetch - processPackages [robotframework]: New version: [6.1rc1] Old Version: [6.1b1]
+[2023-06-12 11:40:55] INFO root fetch - processPackages [pysimflow]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-06-12 11:40:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 11:40:55] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-12 11:40:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [openapi-schema-validator]: Downloading https://files.pythonhosted.org/packages/f6/bc/ea1c532bba227c61cf57f228790b3544e73fa1f82832bb59f3272672d239/openapi_schema_validator-0.4.4.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: Downloading https://files.pythonhosted.org/packages/fc/80/89565cb0dd5fafad52c849d5d1f6219d0326e29a3a2424e8c79c20fb1e71/odoo_addon_account_statement_import_online_paypal-15.0.1.1.0-py3-none-any.whl
+[2023-06-12 11:40:55] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [robotframework]: Downloading https://files.pythonhosted.org/packages/5e/49/d63696a266438f140acb3055c029eb7b1e4d45d281f832ac3d641e2e6158/robotframework-6.1b1.zip
+[2023-06-12 11:40:55] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/d1/11/cd7ccb6cb83f7f63c18937a27a8f85832130dc502173eb6eef8007621d19/multireg-0.0.8.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/9a/36/856f05ff8f20b041ffd8a46c1c83f9f8b227d1764d27b5882c86fee7084a/league-shop-base-1.0.8.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/12/7a/e731876d6f3a25e96a336af36c5dd7e6e4a73a85242f32b7ba90ebb2beb4/pysimflow-0.0.76.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-12 11:40:55] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72599774>=10485760
+[2023-06-12 11:40:55] INFO root fetch - processPackages [pysimflow]: Start processing: bluepysnap
+[2023-06-12 11:40:55] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 11:40:55] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-12 11:40:55] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230612/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-12 11:40:55] INFO root fetch - processPackages [bluepysnap]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-12 11:40:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 11:40:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 11:40:55] INFO root fetch - processPackages [openapi-schema-validator]: Downloading https://files.pythonhosted.org/packages/d6/d5/9b7899c0c6032f84f3b32c01de02bc30665af31f84606434826e0949d27c/openapi_schema_validator-0.5.0.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [openapi-schema-validator]: executing diffoscope
+[2023-06-12 11:40:55] INFO root fetch - processPackages [openapi-schema-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_schema_validator-0.4.4.tar.gz tmp/openapi_schema_validator-0.5.0.tar.gz --markdown 20230612/o/openapi-schema-validator/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-06-12 11:40:55] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/e2/26/1a7ca28a471c3705930fb862d3f11522557e5f6c0d324560bcea93b51906/league-shop-base-1.0.9.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/c3/0e/afe000aba0f38b61bb2e54ce1cdfd01cd2d03ad61079a34c64e741aa5a1e/multireg-0.0.9.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: Downloading https://files.pythonhosted.org/packages/0f/2d/b7c18b677126b4a496bfcfa87b2f8b509e6dc98044883a27cda6200dce3c/odoo_addon_account_statement_import_online_paypal-15.0.1.1.1-py3-none-any.whl
+[2023-06-12 11:40:55] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-12 11:40:55] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230612/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 11:40:55] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-06-12 11:40:55] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230612/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:40:55] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-12 11:40:55] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.8.tar.gz tmp/multireg-0.0.9.tar.gz --markdown 20230612/m/multireg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:40:55] INFO root fetch - processPackages [bluepysnap]: Downloading https://files.pythonhosted.org/packages/c5/a6/05536b559e324a2441ca527de36fc7ed85ff5527a769b56db45a815a7aa2/bluepysnap-1.0.5.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-12 11:40:55] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: executing diffoscope
+[2023-06-12 11:40:55] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_online_paypal-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_online_paypal-15.0.1.1.1-py3-none-any.whl.zip --markdown 20230612/o/odoo-addon-account-statement-import-online-paypal/15.0.1.1.0-15.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-12 11:40:55] INFO root fetch - processPackages [robotframework]: Downloading https://files.pythonhosted.org/packages/33/c2/cd1276433272b96857a351fb5ebf954eb6b2d250dde3b180e7d6c3f09307/robotframework-6.1rc1.zip
+[2023-06-12 11:40:55] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-12 11:40:55] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230612/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-12 11:40:56] INFO root fetch - processPackages [robotframework]: executing diffoscope
+[2023-06-12 11:40:56] INFO root fetch - processPackages [robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-6.1b1.zip tmp/robotframework-6.1rc1.zip --markdown 20230612/r/robotframework/6.1b1-6.1rc1/diff.md --exclude *.pyd
+[2023-06-12 11:40:56] INFO root fetch - processPackages [bluepysnap]: Downloading https://files.pythonhosted.org/packages/55/45/6f838c798a7ee25f21e632ac7306cfc5f6fbf26f8456fc27840781beaeb6/bluepysnap-1.0.6.tar.gz
+[2023-06-12 11:40:56] INFO root fetch - processPackages [bluepysnap]: executing diffoscope
+[2023-06-12 11:40:56] INFO root fetch - processPackages [bluepysnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepysnap-1.0.5.tar.gz tmp/bluepysnap-1.0.6.tar.gz --markdown 20230612/b/bluepysnap/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-12 11:40:57] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: t2iapi
+[2023-06-12 11:40:57] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-12 11:40:57] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.8.tar.gz]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.9.tar.gz]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [league-shop-base]: Start processing: FindJobsTW
+[2023-06-12 11:40:57] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-06-12 11:40:57] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev175] Old Version: [3.0.0.dev172]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [FindJobsTW]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: brightsky
+[2023-06-12 11:40:57] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 11:40:57] INFO root fetch - processPackages [openapi-schema-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_schema_validator-0.4.4.tar.gz]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [openapi-schema-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_schema_validator-0.5.0.tar.gz]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [openapi-schema-validator]: Start processing: bp3
+[2023-06-12 11:40:57] INFO root fetch - main [MainThread]: End processing [openapi-schema-validator]: success
+[2023-06-12 11:40:57] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/87/67/d8d9693475bb10d86ec7174319f3eed43401146359a86b9502b193ed4121/FindJobsTW-1.0.0.tar.gz
+[2023-06-12 11:40:57] INFO root fetch - processPackages [brightsky]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [bp3]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/bd/64/54701e84d50946eea7d30df7e282663f7709ed6dbd20cde3d322d50330b4/bp3-0.0.8.tar.gz
+[2023-06-12 11:40:57] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_online_paypal-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_online_paypal-15.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-12 11:40:57] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: Start processing: layerx-sdk-beta
+[2023-06-12 11:40:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-online-paypal]: success
+[2023-06-12 11:40:57] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/40/34/17c107a82d0ef865a8082a74d48d7905ecef5b1bd878861bd3d64c83700e/t2iapi-3.0.0.dev172.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/f5/e7/55f3051481ef84ba792d1a0b4d690cf5cee498ec6356e639448c02f37983/FindJobsTW-1.0.1.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/c1/d6/2784fa06a7fe44e3fab6211d9454cc1da7970896a2d85ff4c2a0ad16b101/brightsky-2.0.3.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.8.tar.gz]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.9.tar.gz]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [multireg]: Start processing: libcnmc
+[2023-06-12 11:40:58] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-12 11:40:58] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [layerx-sdk-beta]: Start processing: adapta
+[2023-06-12 11:40:58] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-12 11:40:58] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [FindJobsTW]: executing diffoscope
+[2023-06-12 11:40:58] INFO root fetch - processPackages [FindJobsTW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindJobsTW-1.0.0.tar.gz tmp/FindJobsTW-1.0.1.tar.gz --markdown 20230612/F/FindJobsTW/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 11:40:58] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/78/6b/c5dd7efd1c872bb45c539b39098f314847aeb7daa2d995764145980c95b4/bp3-0.0.9-py2.py3-none-any.whl
+[2023-06-12 11:40:58] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [adapta]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/57/3c/58693de40fc653aae6f4512723ec519bd145f5063d39973032f0a50ce67a/t2iapi-3.0.0.dev175.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [bp3]: executing diffoscope
+[2023-06-12 11:40:58] INFO root fetch - processPackages [bp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp3-0.0.8.tar.gz tmp/bp3-0.0.9-py2.py3-none-any.whl.zip --markdown 20230612/b/bp3/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:40:58] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-12 11:40:58] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230612/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-12 11:40:58] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [bluepysnap]: Remove: archive file [/home/abi/fetcher/tmp/bluepysnap-1.0.5.tar.gz]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [bluepysnap]: Remove: archive file [/home/abi/fetcher/tmp/bluepysnap-1.0.6.tar.gz]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [bluepysnap]: Start processing: undetected-chromedriver
+[2023-06-12 11:40:58] INFO root fetch - main [MainThread]: End processing [bluepysnap]: success
+[2023-06-12 11:40:58] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-12 11:40:58] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230612/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-12 11:40:58] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-06-12 11:40:58] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev172.tar.gz tmp/t2iapi-3.0.0.dev175.tar.gz --markdown 20230612/t/t2iapi/3.0.0.dev172-3.0.0.dev175/diff.md --exclude *.pyd
+[2023-06-12 11:40:58] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/59/70/db0802b9942ffec4d664d74421a1d622572a72415a669d95924b0cd917ce/brightsky-2.0.4.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/b3/85/4559f0cb12668234ce61f3bb2a12b219eb5088d5459d301d74f3debcdbac/adapta-2.2.8.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [brightsky]: executing diffoscope
+[2023-06-12 11:40:58] INFO root fetch - processPackages [brightsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightsky-2.0.3.tar.gz tmp/brightsky-2.0.4.tar.gz --markdown 20230612/b/brightsky/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-12 11:40:58] INFO root fetch - processPackages [undetected-chromedriver]: New version: [3.5.0] Old Version: [3.4.7]
+[2023-06-12 11:40:58] INFO root fetch - processPackages [undetected-chromedriver]: Downloading https://files.pythonhosted.org/packages/66/aa/05974bbae505dc13d9a2dba167b02549c8eb9fdb8c8ac1d1880090f17eeb/undetected-chromedriver-3.4.7.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/e8/a0/4b931f604283ab5133299737083c8836b4d46008353579e44a3c668cbb38/adapta-2.2.9.tar.gz
+[2023-06-12 11:40:58] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-06-12 11:40:58] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.2.8.tar.gz tmp/adapta-2.2.9.tar.gz --markdown 20230612/a/adapta/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-12 11:40:58] INFO root fetch - processPackages [undetected-chromedriver]: Downloading https://files.pythonhosted.org/packages/3a/71/fa732ea0ffb15dd5dd491b965b7faee9f922e653bb8b2b168f1cb042dd7a/undetected-chromedriver-3.5.0.tar.gz
+[2023-06-12 11:40:59] INFO root fetch - processPackages [undetected-chromedriver]: executing diffoscope
+[2023-06-12 11:40:59] INFO root fetch - processPackages [undetected-chromedriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undetected-chromedriver-3.4.7.tar.gz tmp/undetected-chromedriver-3.5.0.tar.gz --markdown 20230612/u/undetected-chromedriver/3.4.7-3.5.0/diff.md --exclude *.pyd
+[2023-06-12 11:40:59] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-1.0.0.tar.gz]
+[2023-06-12 11:40:59] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-1.0.1.tar.gz]
+[2023-06-12 11:40:59] INFO root fetch - main [MainThread]: End processing [FindJobsTW]: success
+[2023-06-12 11:40:59] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.0.3.tar.gz]
+[2023-06-12 11:40:59] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.0.4.tar.gz]
+[2023-06-12 11:40:59] INFO root fetch - main [MainThread]: End processing [brightsky]: success
+[2023-06-12 11:41:00] INFO root fetch - processPackages [bp3]: Remove: archive file [/home/abi/fetcher/tmp/bp3-0.0.8.tar.gz]
+[2023-06-12 11:41:00] INFO root fetch - processPackages [bp3]: Remove: archive file [/home/abi/fetcher/tmp/bp3-0.0.9-py2.py3-none-any.whl.zip]
+[2023-06-12 11:41:00] INFO root fetch - main [MainThread]: End processing [bp3]: success
+[2023-06-12 11:41:00] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.2.8.tar.gz]
+[2023-06-12 11:41:00] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.2.9.tar.gz]
+[2023-06-12 11:41:00] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-06-12 11:41:00] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-12 11:41:00] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-12 11:41:00] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-12 11:41:00] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-12 11:41:00] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-12 11:41:00] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-12 11:41:00] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev172.tar.gz]
+[2023-06-12 11:41:00] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev175.tar.gz]
+[2023-06-12 11:41:00] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-06-12 11:41:01] INFO root fetch - processPackages [undetected-chromedriver]: Remove: archive file [/home/abi/fetcher/tmp/undetected-chromedriver-3.4.7.tar.gz]
+[2023-06-12 11:41:01] INFO root fetch - processPackages [undetected-chromedriver]: Remove: archive file [/home/abi/fetcher/tmp/undetected-chromedriver-3.5.0.tar.gz]
+[2023-06-12 11:41:01] INFO root fetch - main [MainThread]: End processing [undetected-chromedriver]: success
+[2023-06-12 11:41:01] INFO root fetch - processPackages [robotframework]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-6.1b1.zip]
+[2023-06-12 11:41:01] INFO root fetch - processPackages [robotframework]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-6.1rc1.zip]
+[2023-06-12 11:41:01] INFO root fetch - main [MainThread]: End processing [robotframework]: success
+[2023-06-12 11:41:01] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-12 11:41:01] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-12 11:41:01] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-12 11:41:01] INFO root fetch - main [MainThread]: Store serial: [18467075]
