@@ -23234,3 +23234,149 @@ EOFError: EOF read where object expected
 [2023-06-12 17:57:30] INFO root fetch - processPackages [ltphotonics]: Remove: archive file [/home/abi/fetcher/tmp/ltphotonics-1.1.2.tar.gz]
 [2023-06-12 17:57:30] INFO root fetch - main [MainThread]: End processing [ltphotonics]: success
 [2023-06-12 17:57:30] INFO root fetch - main [MainThread]: Store serial: [18471147]
+[2023-06-12 18:02:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18471147]
+[2023-06-12 18:02:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feabas
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pantsbuild.pants
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fdlogger
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pioled-display-plugin
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizata-dsapi
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dans-datastation-tools
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ltphotonics
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pantsbuild.pants.testutil
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-contributor-assets
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fbpic
+[2023-06-12 18:02:39] INFO root fetch - processPackages [pioled-display-plugin]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post830] Old Version: [1.0.0.post829]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ltphotonics]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.83]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [pioled-display-plugin]: Downloading https://files.pythonhosted.org/packages/b8/be/a963b65b0897dd05bcd476902f64943f913441b3b6f59501b7d52656b38c/piOLED_display_plugin-0.1.1-py3-none-any.whl
+[2023-06-12 18:02:39] INFO root fetch - processPackages [feabas]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [dans-datastation-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [fdlogger]: New version: [23.6.9] Old Version: [23.6.4]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/8d/4c/07f44e6b0108ce141c2ffeaec44e55ea8fe3db9ddda4459e8ddc700aeb50/wizata-dsapi-0.1.83.tar.gz
+[2023-06-12 18:02:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/d5/e8/c29edd61394a57ee949552719d084649842e8285728d5a80a4c39a75b4a3/nucliadb_contributor_assets-1.0.0.post829-py3-none-any.whl
+[2023-06-12 18:02:39] INFO root fetch - processPackages [ltphotonics]: Downloading https://files.pythonhosted.org/packages/8a/a4/773072e4cfd5bb0d47aa54603e9060cb8008a9d00bbedc22c44c7da9ee14/ltphotonics-1.1.2.tar.gz
+[2023-06-12 18:02:39] INFO root fetch - processPackages [fbpic]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-06-12 18:02:39] INFO root fetch - processPackages [pioled-display-plugin]: Downloading https://files.pythonhosted.org/packages/17/c9/32d00f50c574cf706d56347e2f6da8f5b17490379d4d055415593ff11732/pioled_display_plugin-0.2.0-py3-none-any.whl
+[2023-06-12 18:02:40] INFO root fetch - processPackages [pioled-display-plugin]: executing diffoscope
+[2023-06-12 18:02:40] INFO root fetch - processPackages [pioled-display-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piOLED_display_plugin-0.1.1-py3-none-any.whl.zip tmp/pioled_display_plugin-0.2.0-py3-none-any.whl.zip --markdown 20230612/p/pioled-display-plugin/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 18:02:40] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/08/62/4cba38c948e0fa33a69c9beca81c47287fee27036ce8c320827363d60325/dans-datastation-tools-0.8.0.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [feabas]: Downloading https://files.pythonhosted.org/packages/d0/2c/9d2ae9dbe6be86e96c7fadd0b0981f2f3a405713719574fe2b07780e6610/feabas-1.0.0.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/7a/a9/70ef1dd24ea9d4109dced815141942da193b865bce593409d4188f2c7c29/fdlogger-23.6.4.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [fbpic]: Downloading https://files.pythonhosted.org/packages/f2/ec/8acaf1b080889b1905f3541ffb142129b477dfc5ac5a85941c41e1cdfd6a/fbpic-0.9.4.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/47/3c/505433870f84a57237f45b0790c329471ec2c6426a9bd107bc53a2162d0c/nucliadb_contributor_assets-1.0.0.post830-py3-none-any.whl
+[2023-06-12 18:02:40] INFO root fetch - processPackages [ltphotonics]: Downloading https://files.pythonhosted.org/packages/0f/f9/a82227acf99416f84db0d5b5be606422f2b9d2d312f2c230f7461e608dde/ltphotonics-1.1.3.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/4e/7d/aeafade716239bdbf6323e1aa8cab40ec135933628cd8b4f30180462f909/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl
+[2023-06-12 18:02:40] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-12 18:02:40] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.83.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230612/w/wizata-dsapi/0.1.83-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 18:02:40] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-12 18:02:40] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-12 18:02:40] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post829-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post830-py3-none-any.whl.zip --markdown 20230612/n/nucliadb-contributor-assets/1.0.0.post829-1.0.0.post830/diff.md --exclude *.pyd
+[2023-06-12 18:02:40] INFO root fetch - processPackages [ltphotonics]: executing diffoscope
+[2023-06-12 18:02:40] INFO root fetch - processPackages [ltphotonics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltphotonics-1.1.2.tar.gz tmp/ltphotonics-1.1.3.tar.gz --markdown 20230612/l/ltphotonics/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-12 18:02:40] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/23/5d/36990542663e11f1d62f11923ffd1c6b1b0f3a7207e4f277d4deb1acc852/fdlogger-23.6.9.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/99/3d/05b882eb653f3774a6e1520e5e16ce1c59df3737b664846d8bde71c8a2c1/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl
+[2023-06-12 18:02:40] INFO root fetch - processPackages [fdlogger]: executing diffoscope
+[2023-06-12 18:02:40] INFO root fetch - processPackages [fdlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdlogger-23.6.4.tar.gz tmp/fdlogger-23.6.9.tar.gz --markdown 20230612/f/fdlogger/23.6.4-23.6.9/diff.md --exclude *.pyd
+[2023-06-12 18:02:40] INFO root fetch - processPackages [feabas]: Downloading https://files.pythonhosted.org/packages/ef/30/6066bf4128a0f181afc313c16c93e62713497fd27491a17461395ef3feb4/feabas-1.0.1.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [dans-datastation-tools]: Downloading https://files.pythonhosted.org/packages/33/96/44cd919e59f5edb30e2236c9f4259f8c9e7483d1219012cbaf403482dd4d/dans-datastation-tools-0.9.0.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-06-12 18:02:40] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230612/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-06-12 18:02:40] INFO root fetch - processPackages [fbpic]: Downloading https://files.pythonhosted.org/packages/14/5a/81ff84c20952d41883615402e3b75838ac6bedfdd2e0feebdd9d2a8fa825/fbpic-0.9.5.tar.gz
+[2023-06-12 18:02:40] INFO root fetch - processPackages [feabas]: executing diffoscope
+[2023-06-12 18:02:40] INFO root fetch - processPackages [feabas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feabas-1.0.0.tar.gz tmp/feabas-1.0.1.tar.gz --markdown 20230612/f/feabas/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 18:02:40] INFO root fetch - processPackages [fbpic]: executing diffoscope
+[2023-06-12 18:02:40] INFO root fetch - processPackages [fbpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbpic-0.9.4.tar.gz tmp/fbpic-0.9.5.tar.gz --markdown 20230612/f/fbpic/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-12 18:02:40] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-06-12 18:02:40] INFO root fetch - processPackages [pantsbuild.pants]: Start processing: talkytrend
+[2023-06-12 18:02:40] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-06-12 18:02:40] INFO root fetch - processPackages [talkytrend]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/ea/ba/97c89a97d28458709c663008535199d6d11a890e441a577e28786d8abb2d/talkytrend-1.1.4.tar.gz
+[2023-06-12 18:02:41] INFO root fetch - processPackages [pioled-display-plugin]: Remove: archive file [/home/abi/fetcher/tmp/piOLED_display_plugin-0.1.1-py3-none-any.whl.zip]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [pioled-display-plugin]: Remove: archive file [/home/abi/fetcher/tmp/pioled_display_plugin-0.2.0-py3-none-any.whl.zip]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [pioled-display-plugin]: Start processing: lnxlink
+[2023-06-12 18:02:41] INFO root fetch - main [MainThread]: End processing [pioled-display-plugin]: success
+[2023-06-12 18:02:41] INFO root fetch - processPackages [dans-datastation-tools]: executing diffoscope
+[2023-06-12 18:02:41] INFO root fetch - processPackages [dans-datastation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dans-datastation-tools-0.8.0.tar.gz tmp/dans-datastation-tools-0.9.0.tar.gz --markdown 20230612/d/dans-datastation-tools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 18:02:41] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/5c/91/1832b2b3fc37b9ec729c4385d63a46be952e84f8096218421c9eb33893c9/talkytrend-1.1.5.tar.gz
+[2023-06-12 18:02:41] INFO root fetch - processPackages [lnxlink]: New version: [2023.6.1] Old Version: [2023.6.0]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-12 18:02:41] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.1.4.tar.gz tmp/talkytrend-1.1.5.tar.gz --markdown 20230612/t/talkytrend/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-12 18:02:41] INFO root fetch - processPackages [lnxlink]: Downloading https://files.pythonhosted.org/packages/b7/f8/a1412995f8abb99bd833117e3c1caaf3c944e52f3febf64c0769999018d0/lnxlink-2023.6.0.tar.gz
+[2023-06-12 18:02:41] INFO root fetch - processPackages [ltphotonics]: Remove: archive file [/home/abi/fetcher/tmp/ltphotonics-1.1.2.tar.gz]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [ltphotonics]: Remove: archive file [/home/abi/fetcher/tmp/ltphotonics-1.1.3.tar.gz]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [ltphotonics]: Start processing: nemophoto
+[2023-06-12 18:02:41] INFO root fetch - main [MainThread]: End processing [ltphotonics]: success
+[2023-06-12 18:02:41] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Remove: archive file [/home/abi/fetcher/tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Remove: archive file [/home/abi/fetcher/tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Start processing: annoy-gpu
+[2023-06-12 18:02:41] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-06-12 18:02:41] WARNING root fetch - processPackages [annoy-gpu]: Skipping, unable to determine old version
+[2023-06-12 18:02:41] INFO root fetch - processPackages [annoy-gpu]: Start processing: pioled-display-plugin
+[2023-06-12 18:02:41] INFO root fetch - main [MainThread]: End processing [annoy-gpu] error
+[2023-06-12 18:02:41] INFO root fetch - processPackages [pioled-display-plugin]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [lnxlink]: Downloading https://files.pythonhosted.org/packages/0b/12/d76e537b1c081d6739c64a77a876bf0b5fabd00719813de08123faddc810/lnxlink-2023.6.1.tar.gz
+[2023-06-12 18:02:41] INFO root fetch - processPackages [nemophoto]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-12 18:02:41] INFO root fetch - processPackages [lnxlink]: executing diffoscope
+[2023-06-12 18:02:41] INFO root fetch - processPackages [lnxlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnxlink-2023.6.0.tar.gz tmp/lnxlink-2023.6.1.tar.gz --markdown 20230612/l/lnxlink/2023.6.0-2023.6.1/diff.md --exclude *.pyd
+[2023-06-12 18:02:41] INFO root fetch - processPackages [pioled-display-plugin]: Downloading https://files.pythonhosted.org/packages/36/ac/93257a99e8fb5d9a7b62e8f5356bb7b649b3315a21f5470cdebdeb51f201/pioled_display_plugin-0.2.1-py3-none-any.whl
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.4.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.9.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fdlogger]: Start processing: fdserver
+[2023-06-12 18:02:42] INFO root fetch - main [MainThread]: End processing [fdlogger]: success
+[2023-06-12 18:02:42] INFO root fetch - processPackages [nemophoto]: Downloading https://files.pythonhosted.org/packages/f6/2a/6526217ad715b2852d1214379218393b6a34798fcf97cbbb5b7e7eb5b398/nemophoto-0.5.0.tar.gz
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fdserver]: New version: [23.6.9] Old Version: [23.6.12]
+[2023-06-12 18:02:42] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.83.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - processPackages [pioled-display-plugin]: Downloading https://files.pythonhosted.org/packages/cc/68/b26bd7fc202d3bac8cd64fa572bc6a986f12f9e622d780ca1d9f04e852e4/pioled_display_plugin-0.2.2-py3-none-any.whl
+[2023-06-12 18:02:42] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.9.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - processPackages [wizata-dsapi]: Start processing: unimenu
+[2023-06-12 18:02:42] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fdserver]: Downloading https://files.pythonhosted.org/packages/99/72/b3ebb65d8470deb4aa60c629bdee96676e1ec6b6291efa43d86f34fe71fd/fdserver-23.6.12.tar.gz
+[2023-06-12 18:02:42] INFO root fetch - processPackages [unimenu]: New version: [3.0.0] Old Version: [0.4.1]
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fbpic]: Remove: archive file [/home/abi/fetcher/tmp/fbpic-0.9.4.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fbpic]: Remove: archive file [/home/abi/fetcher/tmp/fbpic-0.9.5.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - main [MainThread]: End processing [fbpic]: success
+[2023-06-12 18:02:42] INFO root fetch - processPackages [nemophoto]: Downloading https://files.pythonhosted.org/packages/d2/9f/4f0064b22014ac91a0a490533dfd452e1d4c1f69b5878a026b38649cc336/nemophoto-0.6.0.tar.gz
+[2023-06-12 18:02:42] INFO root fetch - processPackages [pioled-display-plugin]: executing diffoscope
+[2023-06-12 18:02:42] INFO root fetch - processPackages [pioled-display-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioled_display_plugin-0.2.1-py3-none-any.whl.zip tmp/pioled_display_plugin-0.2.2-py3-none-any.whl.zip --markdown 20230612/p/pioled-display-plugin/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 18:02:42] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.4.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.5.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-12 18:02:42] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/71/59/b2850661129acb363f8b8a2ebb1a899a8de3881882a011b95b865e3e61df/unimenu-0.4.1.tar.gz
+[2023-06-12 18:02:42] INFO root fetch - processPackages [nemophoto]: executing diffoscope
+[2023-06-12 18:02:42] INFO root fetch - processPackages [nemophoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemophoto-0.5.0.tar.gz tmp/nemophoto-0.6.0.tar.gz --markdown 20230612/n/nemophoto/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fdserver]: Downloading https://files.pythonhosted.org/packages/1a/7b/0bc76f6af8e6e6f8fb740abb8774fb9c1f9d3462218eeaab3de070b3a512/fdserver-23.6.9.tar.gz
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fdserver]: executing diffoscope
+[2023-06-12 18:02:42] INFO root fetch - processPackages [fdserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdserver-23.6.12.tar.gz tmp/fdserver-23.6.9.tar.gz --markdown 20230612/f/fdserver/23.6.12-23.6.9/diff.md --exclude *.pyd
+[2023-06-12 18:02:42] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.8.0.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - processPackages [dans-datastation-tools]: Remove: archive file [/home/abi/fetcher/tmp/dans-datastation-tools-0.9.0.tar.gz]
+[2023-06-12 18:02:42] INFO root fetch - main [MainThread]: End processing [dans-datastation-tools]: success
+[2023-06-12 18:02:43] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/10/19/9a813d16d9498ea9a988c5cc8a5d960554fb134eda1d6aacca4b49e76865/unimenu-3.0.0.tar.gz
+[2023-06-12 18:02:43] INFO root fetch - processPackages [lnxlink]: Remove: archive file [/home/abi/fetcher/tmp/lnxlink-2023.6.0.tar.gz]
+[2023-06-12 18:02:43] INFO root fetch - processPackages [lnxlink]: Remove: archive file [/home/abi/fetcher/tmp/lnxlink-2023.6.1.tar.gz]
+[2023-06-12 18:02:43] INFO root fetch - main [MainThread]: End processing [lnxlink]: success
+[2023-06-12 18:02:43] INFO root fetch - processPackages [pioled-display-plugin]: Remove: archive file [/home/abi/fetcher/tmp/pioled_display_plugin-0.2.1-py3-none-any.whl.zip]
+[2023-06-12 18:02:43] INFO root fetch - processPackages [pioled-display-plugin]: Remove: archive file [/home/abi/fetcher/tmp/pioled_display_plugin-0.2.2-py3-none-any.whl.zip]
+[2023-06-12 18:02:43] INFO root fetch - main [MainThread]: End processing [pioled-display-plugin]: success
+[2023-06-12 18:02:43] INFO root fetch - processPackages [unimenu]: executing diffoscope
+[2023-06-12 18:02:43] INFO root fetch - processPackages [unimenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimenu-0.4.1.tar.gz tmp/unimenu-3.0.0.tar.gz --markdown 20230612/u/unimenu/0.4.1-3.0.0/diff.md --exclude *.pyd
+[2023-06-12 18:02:43] INFO root fetch - processPackages [nemophoto]: Remove: archive file [/home/abi/fetcher/tmp/nemophoto-0.5.0.tar.gz]
+[2023-06-12 18:02:43] INFO root fetch - processPackages [nemophoto]: Remove: archive file [/home/abi/fetcher/tmp/nemophoto-0.6.0.tar.gz]
+[2023-06-12 18:02:43] INFO root fetch - main [MainThread]: End processing [nemophoto]: success
+[2023-06-12 18:02:43] INFO root fetch - processPackages [fdserver]: Remove: archive file [/home/abi/fetcher/tmp/fdserver-23.6.12.tar.gz]
+[2023-06-12 18:02:43] INFO root fetch - processPackages [fdserver]: Remove: archive file [/home/abi/fetcher/tmp/fdserver-23.6.9.tar.gz]
+[2023-06-12 18:02:43] INFO root fetch - main [MainThread]: End processing [fdserver]: success
+[2023-06-12 18:02:43] INFO root fetch - processPackages [feabas]: Remove: archive file [/home/abi/fetcher/tmp/feabas-1.0.0.tar.gz]
+[2023-06-12 18:02:43] INFO root fetch - processPackages [feabas]: Remove: archive file [/home/abi/fetcher/tmp/feabas-1.0.1.tar.gz]
+[2023-06-12 18:02:43] INFO root fetch - main [MainThread]: End processing [feabas]: success
+[2023-06-12 18:02:44] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-0.4.1.tar.gz]
+[2023-06-12 18:02:44] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-3.0.0.tar.gz]
+[2023-06-12 18:02:44] INFO root fetch - main [MainThread]: End processing [unimenu]: success
+[2023-06-12 18:02:56] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post829-py3-none-any.whl.zip]
+[2023-06-12 18:02:56] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post830-py3-none-any.whl.zip]
+[2023-06-12 18:02:56] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-12 18:02:56] INFO root fetch - main [MainThread]: Store serial: [18471197]
