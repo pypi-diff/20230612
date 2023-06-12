@@ -10957,3 +10957,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 09:49:19] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
 [2023-06-12 09:49:19] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
 [2023-06-12 09:49:19] INFO root fetch - main [MainThread]: Store serial: [18465838]
+[2023-06-12 09:54:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465838]
+[2023-06-12 09:54:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-coupon-commercial-partner-applicability
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-coupon-portal-commercial-partner-applicability
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dstack
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-maintenance
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: epub2txt
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: saipravega
+[2023-06-12 09:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-reactor
+[2023-06-12 09:54:28] WARNING root fetch - processPackages [odoo-addon-coupon-portal-commercial-partner-applicability]: Skipping, unable to determine old version
+[2023-06-12 09:54:28] INFO root fetch - processPackages [odoo-addon-coupon-portal-commercial-partner-applicability]: Start processing: sharry-jira-tool
+[2023-06-12 09:54:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-coupon-portal-commercial-partner-applicability] error
+[2023-06-12 09:54:28] INFO root fetch - processPackages [yplib]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-12 09:54:28] INFO root fetch - processPackages [epub2txt]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-12 09:54:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 09:54:28] INFO root fetch - processPackages [odoo-addon-coupon-commercial-partner-applicability]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.2]
+[2023-06-12 09:54:28] INFO root fetch - processPackages [django-reactor]: New version: [5.0.0b0] Old Version: [4.0.2b0]
+[2023-06-12 09:54:28] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2023-06-12 09:54:28] INFO root fetch - processPackages [sharry-jira-tool]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-12 09:54:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 09:54:28] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/94/b7/86499ef4d11be2c6e0e019c4e017bb34616c36a8687cf9e2e90814872b87/yplib-0.2.3.tar.gz
+[2023-06-12 09:54:28] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230612] Old Version: [2.14.0.dev20230611]
+[2023-06-12 09:54:28] WARNING root fetch - processPackages [saipravega]: Skipping, unable to determine old version
+[2023-06-12 09:54:28] INFO root fetch - processPackages [saipravega]: Start processing: feffery-utils-components
+[2023-06-12 09:54:28] INFO root fetch - main [MainThread]: End processing [saipravega] error
+[2023-06-12 09:54:28] INFO root fetch - processPackages [epub2txt]: Downloading https://files.pythonhosted.org/packages/cf/7f/aa7c60c9ceaab28b21f17e99ad73f9b0c0a454d33937a4efed327c5d03ae/epub2txt-0.1.5.tar.gz
+[2023-06-12 09:54:28] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-12 09:54:28] INFO root fetch - processPackages [feffery-utils-components]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-06-12 09:54:28] INFO root fetch - processPackages [django-reactor]: Downloading https://files.pythonhosted.org/packages/e9/e7/a1b57dd7312287a2998baf3135ae788d37daff75eea57a5215d11bbd12b6/django-reactor-4.0.2b0.tar.gz
+[2023-06-12 09:54:28] INFO root fetch - processPackages [sharry-jira-tool]: Downloading https://files.pythonhosted.org/packages/a4/eb/b0ae9e2b3fd408530d86778f2775a778644581066d2f5ea40d40ae12eee0/sharry-jira-tool-0.2.5.tar.gz
+[2023-06-12 09:54:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 09:54:28] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-06-12 09:54:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 09:54:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 09:54:28] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b3/e3/7a3d5f1aa0dba48644ba038de0a15b45d3940c062b4824515eb8b3ab70dd/tf_nightly_cpu-2.14.0.dev20230611-cp39-cp39-win_amd64.whl
+[2023-06-12 09:54:28] INFO root fetch - processPackages [odoo-addon-coupon-commercial-partner-applicability]: Downloading https://files.pythonhosted.org/packages/5f/7f/b21b9cdd59f8f43f54f1075ef415e8efe6899ce3019fa767e5d9d0b4c6db/odoo_addon_coupon_commercial_partner_applicability-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-12 09:54:28] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/86/0d/9de51cb87b013f839ae503f2b38f43a83dd38cf2df9686a8875f53a68e2b/yplib-0.2.4.tar.gz
+[2023-06-12 09:54:28] INFO root fetch - processPackages [epub2txt]: Downloading https://files.pythonhosted.org/packages/c6/fb/f23228c10ae6675ec5e92b692c45ec504403dee9e7e3a765eb4bb5d46bd7/epub2txt-0.1.6.tar.gz
+[2023-06-12 09:54:28] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-12 09:54:28] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/ea/15/47eccd42985e6e8fa5737278bfb1a6c182de38f3d0377920e3ff46997d43/feffery_utils_components-0.2.0a1.tar.gz
+[2023-06-12 09:54:29] INFO root fetch - processPackages [django-reactor]: Downloading https://files.pythonhosted.org/packages/38/31/c35f1940bdb3928e70af1ef52695e3193280d6687f3e4a898219459022ce/django-reactor-5.0.0b0.tar.gz
+[2023-06-12 09:54:29] INFO root fetch - processPackages [epub2txt]: executing diffoscope
+[2023-06-12 09:54:29] INFO root fetch - processPackages [epub2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epub2txt-0.1.5.tar.gz tmp/epub2txt-0.1.6.tar.gz --markdown 20230612/e/epub2txt/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-12 09:54:29] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-12 09:54:29] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.2.3.tar.gz tmp/yplib-0.2.4.tar.gz --markdown 20230612/y/yplib/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-12 09:54:29] INFO root fetch - processPackages [sharry-jira-tool]: Downloading https://files.pythonhosted.org/packages/55/0f/1b9848c1efb30ebcea031a79cd04faa2294d27d7dcba16c552f0ccf8daa6/sharry-jira-tool-0.2.6.tar.gz
+[2023-06-12 09:54:29] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2023-06-12 09:54:29] INFO root fetch - processPackages [sharry-jira-tool]: executing diffoscope
+[2023-06-12 09:54:29] INFO root fetch - processPackages [sharry-jira-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharry-jira-tool-0.2.5.tar.gz tmp/sharry-jira-tool-0.2.6.tar.gz --markdown 20230612/s/sharry-jira-tool/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-12 09:54:29] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-06-12 09:54:29] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20230612/d/dstack/0.9.post1-0.9rc2/diff.md --exclude *.pyd
+[2023-06-12 09:54:29] INFO root fetch - processPackages [django-reactor]: executing diffoscope
+[2023-06-12 09:54:29] INFO root fetch - processPackages [django-reactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reactor-4.0.2b0.tar.gz tmp/django-reactor-5.0.0b0.tar.gz --markdown 20230612/d/django-reactor/4.0.2b0-5.0.0b0/diff.md --exclude *.pyd
+[2023-06-12 09:54:29] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/9d/23/2f629107898233560c8ca97e25cd2f77ab1df90136c80e13eac1b9a22481/tf_nightly_cpu-2.14.0.dev20230612-cp39-cp39-win_amd64.whl
+[2023-06-12 09:54:29] INFO root fetch - processPackages [odoo-addon-coupon-commercial-partner-applicability]: Downloading https://files.pythonhosted.org/packages/99/84/6bf9ee711ced1d17215a57873c8274a8f4724e1764835914067c31cf20dd/odoo_addon_coupon_commercial_partner_applicability-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-12 09:54:29] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/2e/e5/9eadd65069e319b02af7deb318c70c8f595c0be256a9cdb4a21b6c50dff0/feffery_utils_components-0.2.0a2.tar.gz
+[2023-06-12 09:54:29] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-12 09:54:29] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230611-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230612-cp39-cp39-win_amd64.whl.zip --markdown 20230612/t/tf-nightly-cpu/2.14.0.dev20230611-2.14.0.dev20230612/diff.md --exclude *.pyd
+[2023-06-12 09:54:29] INFO root fetch - processPackages [odoo-addon-coupon-commercial-partner-applicability]: executing diffoscope
+[2023-06-12 09:54:29] INFO root fetch - processPackages [odoo-addon-coupon-commercial-partner-applicability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_coupon_commercial_partner_applicability-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_coupon_commercial_partner_applicability-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230612/o/odoo-addon-coupon-commercial-partner-applicability/15.0.1.0.0.2-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-12 09:54:29] INFO root fetch - processPackages [feffery-utils-components]: executing diffoscope
+[2023-06-12 09:54:29] INFO root fetch - processPackages [feffery-utils-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_utils_components-0.2.0a1.tar.gz tmp/feffery_utils_components-0.2.0a2.tar.gz --markdown 20230612/f/feffery-utils-components/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-06-12 09:54:29] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-12 09:54:29] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-12 09:54:29] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230612/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-12 09:54:31] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.3.tar.gz]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.4.tar.gz]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [yplib]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-06-12 09:54:31] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-12 09:54:31] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [epub2txt]: Remove: archive file [/home/abi/fetcher/tmp/epub2txt-0.1.5.tar.gz]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [epub2txt]: Remove: archive file [/home/abi/fetcher/tmp/epub2txt-0.1.6.tar.gz]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [epub2txt]: Start processing: liveramp-automation-framework
+[2023-06-12 09:54:31] INFO root fetch - main [MainThread]: End processing [epub2txt]: success
+[2023-06-12 09:54:31] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230611-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230612-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: amsterdam-schema-tools
+[2023-06-12 09:54:31] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-12 09:54:31] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [odoo-addon-coupon-commercial-partner-applicability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_coupon_commercial_partner_applicability-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [odoo-addon-coupon-commercial-partner-applicability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_coupon_commercial_partner_applicability-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [odoo-addon-coupon-commercial-partner-applicability]: Start processing: napatrackmater
+[2023-06-12 09:54:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-coupon-commercial-partner-applicability]: success
+[2023-06-12 09:54:31] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-06-12 09:54:31] INFO root fetch - processPackages [napatrackmater]: New version: [3.6.8] Old Version: [3.6.7]
+[2023-06-12 09:54:31] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/c5/44/deaa07d3543d290ffe4b95e374b1d4adadc147c467d7211e12a93b3dff51/liveramp_automation_framework-0.0.6.tar.gz
+[2023-06-12 09:54:31] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/5c/ce/60318743e630e4e9121510dd91a85368745a2d222c813e7fac315bd17b93/napatrackmater-3.6.7.tar.gz
+[2023-06-12 09:54:31] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/1f/30/4cb7af8d4d1f00da78de0a18355a2eea64732fcd8654137d6173c80c699d/amsterdam-schema-tools-5.9.2.tar.gz
+[2023-06-12 09:54:32] INFO root fetch - processPackages [sharry-jira-tool]: Remove: archive file [/home/abi/fetcher/tmp/sharry-jira-tool-0.2.5.tar.gz]
+[2023-06-12 09:54:32] INFO root fetch - processPackages [sharry-jira-tool]: Remove: archive file [/home/abi/fetcher/tmp/sharry-jira-tool-0.2.6.tar.gz]
+[2023-06-12 09:54:32] INFO root fetch - main [MainThread]: End processing [sharry-jira-tool]: success
+[2023-06-12 09:54:32] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/15/f0/93ca2aa18621aefa59f3ed2d61431209a3b145b1ac471b565a013a430011/napatrackmater-3.6.8.tar.gz
+[2023-06-12 09:54:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 09:54:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 09:54:32] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 09:54:32] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-12 09:54:32] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.6.7.tar.gz tmp/napatrackmater-3.6.8.tar.gz --markdown 20230612/n/napatrackmater/3.6.7-3.6.8/diff.md --exclude *.pyd
+[2023-06-12 09:54:32] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/37/ac/da784f8e9681d2b7195e493099744e42546192af58a87090bff6c2cc13e2/liveramp_automation_framework-0.0.7.tar.gz
+[2023-06-12 09:54:32] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/4d/24/9b16605372327f85f59868308c2dc3f6e93f5faf2941312efe6702b27d8c/amsterdam-schema-tools-5.9.3.tar.gz
+[2023-06-12 09:54:32] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-12 09:54:32] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.0.6.tar.gz tmp/liveramp_automation_framework-0.0.7.tar.gz --markdown 20230612/l/liveramp-automation-framework/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 09:54:32] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-06-12 09:54:32] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230612/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-06-12 09:54:32] INFO root fetch - processPackages [django-reactor]: Remove: archive file [/home/abi/fetcher/tmp/django-reactor-4.0.2b0.tar.gz]
+[2023-06-12 09:54:32] INFO root fetch - processPackages [django-reactor]: Remove: archive file [/home/abi/fetcher/tmp/django-reactor-5.0.0b0.tar.gz]
+[2023-06-12 09:54:32] INFO root fetch - main [MainThread]: End processing [django-reactor]: success
+[2023-06-12 09:54:33] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-06-12 09:54:33] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2023-06-12 09:54:33] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2023-06-12 09:54:33] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-06-12 09:54:33] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.7.tar.gz]
+[2023-06-12 09:54:33] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.8.tar.gz]
+[2023-06-12 09:54:33] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-12 09:54:34] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-06-12 09:54:34] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230612/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 09:54:34] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.0.6.tar.gz]
+[2023-06-12 09:54:34] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.0.7.tar.gz]
+[2023-06-12 09:54:34] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-12 09:54:34] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.2.tar.gz]
+[2023-06-12 09:54:34] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.3.tar.gz]
+[2023-06-12 09:54:34] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-06-12 09:54:38] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-06-12 09:54:38] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-06-12 09:54:38] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-06-12 09:54:39] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-12 09:54:39] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-12 09:54:39] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-12 09:54:48] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a1.tar.gz]
+[2023-06-12 09:54:48] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a2.tar.gz]
+[2023-06-12 09:54:48] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
+[2023-06-12 09:54:48] INFO root fetch - main [MainThread]: Store serial: [18465893]
