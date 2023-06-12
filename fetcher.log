@@ -23380,3 +23380,220 @@ EOFError: EOF read where object expected
 [2023-06-12 18:02:56] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post830-py3-none-any.whl.zip]
 [2023-06-12 18:02:56] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-06-12 18:02:56] INFO root fetch - main [MainThread]: Store serial: [18471197]
+[2023-06-12 18:08:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18471197]
+[2023-06-12 18:08:07] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unimenu
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: warframe.py
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-exasol
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysigma-backend-loki
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forestadmin-datasource-toolkit
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e-data
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-maintenance
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ensta
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SBILoops
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2023-06-12 18:08:07] INFO root fetch - processPackages [unimenu]: New version: [3.0.0] Old Version: [0.4.1]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [pysigma-backend-loki]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [warframe.py]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ensta]: New version: [1.5] Old Version: [1.4]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [dbt-exasol]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [SBILoops]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [e-data]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [yeref]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 18:08:07] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/bb/f7/e14e2282ec896beb15cd67b1c316aba9ad27eaedf2edafab2e2cc5527662/pysigma_backend_loki-0.9.0.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/b9/aa/837b68876efaae0d941a2e0396df547b430e025f21871c7f9855f1cd24f0/SBILoops-0.2.7.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/65/bc/8c47eeeddf595217316625b0e0ee3c4b1fff74a77ae5e21d1bbb1e57ba82/yeref-0.1.90.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/ad/37/aef0972f584a7ccd5a02b58b58449fee7cfc5e203219dbfd89ec8ffdf6c9/forestadmin_datasource_toolkit-0.1.0b8.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/3f/08/0c946bd0b87af86083ad1571e7a0a079ec79919948a68af8bf647dff4e27/dbt_exasol-1.4.1.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/71/59/b2850661129acb363f8b8a2ebb1a899a8de3881882a011b95b865e3e61df/unimenu-0.4.1.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/d7/88/05f2fb55cc8ad84581536d2e696867dd15df1f5f9eaa822b174fbc4e1797/warframe.py-0.3.3.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [e-data]: Downloading https://files.pythonhosted.org/packages/b0/4a/9dbadf9af92d5eb77c560ab41b8c713628c2933d9e4e9df766897468f267/e-data-1.1.2.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/b7/9a/988eb6cd1dfc14a2b6ace6915c6966ba385d85c30d7547c85b9cf0fe2dd9/forestadmin_datasource_toolkit-0.1.0b9.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/66/b1/863b71b7e212752cfa155e98e2a462081ef6f20d228765b46f985584b47d/ensta-1.4.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230612/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-12 18:08:07] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/10/19/9a813d16d9498ea9a988c5cc8a5d960554fb134eda1d6aacca4b49e76865/unimenu-3.0.0.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/6d/db/d30e0c66bb15974f04a6c1136fdee312f3057ebc369567df88b9c54a1398/SBILoops-0.2.8.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 18:08:07] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/bf/31/aaa7d03b047d966c20dc990bde9f0604e6d2258bc4ec44e2b8d1bc0e5498/dbt_exasol-1.4.2.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/c2/52/4185feb96bfa59c6a1407ead6e352760643b22fc2439ef52dfdd266a6e32/yeref-0.1.91.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [unimenu]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [unimenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimenu-0.4.1.tar.gz tmp/unimenu-3.0.0.tar.gz --markdown 20230612/u/unimenu/0.4.1-3.0.0/diff.md --exclude *.pyd
+[2023-06-12 18:08:07] INFO root fetch - processPackages [e-data]: Downloading https://files.pythonhosted.org/packages/0b/28/8a9c802d96203419a8ad98121191fa6ed8567ab26747787f93f295d6c97b/e-data-1.1.3.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/1d/d0/940eea480f47fc8f54294ef5dd5be8c1e72f94d5ff385cf82d43eb5882ab/warframe.py-0.3.4.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/73/14/dbea29f5e6ffce8a35e714f3610c64f181b86fc776ec32141d71280f45f9/pysigma_backend_loki-0.9.1.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [SBILoops]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [SBILoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBILoops-0.2.7.tar.gz tmp/SBILoops-0.2.8.tar.gz --markdown 20230612/S/SBILoops/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/b7/4c/4c4c2163fc79be53e44fec07fa21057c7ab95aa03bb1eef49a09b9510907/ensta-1.5.tar.gz
+[2023-06-12 18:08:07] INFO root fetch - processPackages [dbt-exasol]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [dbt-exasol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_exasol-1.4.1.tar.gz tmp/dbt_exasol-1.4.2.tar.gz --markdown 20230612/d/dbt-exasol/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-12 18:08:07] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.90.tar.gz tmp/yeref-0.1.91.tar.gz --markdown 20230612/y/yeref/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-06-12 18:08:07] INFO root fetch - processPackages [pysigma-backend-loki]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [pysigma-backend-loki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_loki-0.9.0.tar.gz tmp/pysigma_backend_loki-0.9.1.tar.gz --markdown 20230612/p/pysigma-backend-loki/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-12 18:08:07] INFO root fetch - processPackages [warframe.py]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [warframe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warframe.py-0.3.3.tar.gz tmp/warframe.py-0.3.4.tar.gz --markdown 20230612/w/warframe.py/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-12 18:08:07] INFO root fetch - processPackages [e-data]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [e-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-data-1.1.2.tar.gz tmp/e-data-1.1.3.tar.gz --markdown 20230612/e/e-data/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-12 18:08:07] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-1.4.tar.gz tmp/ensta-1.5.tar.gz --markdown 20230612/e/ensta/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-12 18:08:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 18:08:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 18:08:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: const-cython-lib
+[2023-06-12 18:08:08] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 18:08:08] INFO root fetch - processPackages [const-cython-lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 18:08:08] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.90.tar.gz]
+[2023-06-12 18:08:08] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.91.tar.gz]
+[2023-06-12 18:08:08] INFO root fetch - processPackages [yeref]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-06-12 18:08:08] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/62/8f/a7f15aec53d771b7b0fe4d0ae2ddb1a31c524e1af0967fe2c4bf151598c7/const_cython_lib-1.0.0.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/55/ec/8247e4e82a326de5c38702a86bb40c226be2e246beada914406074f12e31/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.4.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.5.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [ensta]: Start processing: notification-service-nightly
+[2023-06-12 18:08:09] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-12 18:08:09] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/e3/82/284d5a98e9849700b9bd0243463ae74bb810fb8f891ef63246ae48a9b25a/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/60/1e/33a59a6d19349b60110279e0f4904b88c93779a866e4df1bb5fdc97ea00c/notification_service_nightly-2023.6.8.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [e-data]: Remove: archive file [/home/abi/fetcher/tmp/e-data-1.1.2.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [e-data]: Remove: archive file [/home/abi/fetcher/tmp/e-data-1.1.3.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [e-data]: Start processing: ai-flow-nightly
+[2023-06-12 18:08:09] INFO root fetch - main [MainThread]: End processing [e-data]: success
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230612/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-12 18:08:09] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [pysigma-backend-loki]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_loki-0.9.0.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [pysigma-backend-loki]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_loki-0.9.1.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [pysigma-backend-loki]: Start processing: mlopspython-extraction
+[2023-06-12 18:08:09] INFO root fetch - main [MainThread]: End processing [pysigma-backend-loki]: success
+[2023-06-12 18:08:09] INFO root fetch - processPackages [mlopspython-extraction]: New version: [84376237332458489677065070] Old Version: [74126878396677081493445]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/f8/ce/f2cdb54fd34d5f722838df65d988beeaf815ec747efab45a21e56deaaa7c/notification_service_nightly-2023.6.9.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/34/1d/be9be06cee41d896178e7bb38ed9dec185d52aae65bb569e8174d486e5ed/ai_flow_nightly-2023.6.8.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [dbt-exasol]: Remove: archive file [/home/abi/fetcher/tmp/dbt_exasol-1.4.1.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [dbt-exasol]: Remove: archive file [/home/abi/fetcher/tmp/dbt_exasol-1.4.2.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [dbt-exasol]: Start processing: forestadmin-agent-toolkit
+[2023-06-12 18:08:09] INFO root fetch - main [MainThread]: End processing [dbt-exasol]: success
+[2023-06-12 18:08:09] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-06-12 18:08:09] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.6.8.tar.gz tmp/notification_service_nightly-2023.6.9.tar.gz --markdown 20230612/n/notification-service-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-12 18:08:09] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/3e/62/9b723c6071d3ffca1db6f0f8fc738557bb1b0fb65f6cd6b3de0af6a27386/const_cython_lib-1.0.1.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/81/13/0c3fe634cf5d3e6712d4ec8d958264f0c031fc9a780b5218485b96f58641/forestadmin_agent_toolkit-0.1.0b8.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/cc/73/3f73f232627f5ecbe868f04b645ad7af47bcedf955abd2f49f643b401ca5/ai_flow_nightly-2023.6.9.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [mlopspython-extraction]: Downloading https://files.pythonhosted.org/packages/9d/05/06b55161aa67ce2d389b6cd3d7392e37593f52a9a591b53ef6ecd6495405/mlopspython-extraction-74126878396677081493445.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-06-12 18:08:09] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.6.8.tar.gz tmp/ai_flow_nightly-2023.6.9.tar.gz --markdown 20230612/a/ai-flow-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-12 18:08:09] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.3.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.4.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [warframe.py]: Start processing: djangolazy
+[2023-06-12 18:08:09] INFO root fetch - main [MainThread]: End processing [warframe.py]: success
+[2023-06-12 18:08:09] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 18:08:09] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-1.0.0.tar.gz tmp/const_cython_lib-1.0.1.tar.gz --markdown 20230612/c/const-cython-lib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 18:08:09] INFO root fetch - processPackages [djangolazy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/b0/db/01961164568425eb2d6b5765179369ee253f7483d07942f3e15613dfc4c6/forestadmin_agent_toolkit-0.1.0b9.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230612/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-12 18:08:09] INFO root fetch - processPackages [djangolazy]: Downloading https://files.pythonhosted.org/packages/bf/ab/94bf495bbfb710ee980218541db32c07ac4505553a0edd669e6e99b16da6/djangolazy-0.3.0.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [mlopspython-extraction]: Downloading https://files.pythonhosted.org/packages/b5/46/ce452ae8e83c3ef0327c77540a3fd0a265edcf29e376c863d17ebc66a55c/mlopspython-extraction-84376237332458489677065070.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Start processing: const-cython-lib
+[2023-06-12 18:08:09] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-06-12 18:08:09] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-0.4.1.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-3.0.0.tar.gz]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [const-cython-lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [unimenu]: Start processing: lspsp
+[2023-06-12 18:08:09] INFO root fetch - main [MainThread]: End processing [unimenu]: success
+[2023-06-12 18:08:09] INFO root fetch - processPackages [djangolazy]: Downloading https://files.pythonhosted.org/packages/ce/2c/156916531065e6f75639c4e11e6c21160b8a28366c96c85fdee73c4b107e/djangolazy-0.4.0.tar.gz
+[2023-06-12 18:08:09] INFO root fetch - processPackages [lspsp]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 18:08:09] INFO root fetch - processPackages [mlopspython-extraction]: executing diffoscope
+[2023-06-12 18:08:09] INFO root fetch - processPackages [mlopspython-extraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlopspython-extraction-74126878396677081493445.tar.gz tmp/mlopspython-extraction-84376237332458489677065070.tar.gz --markdown 20230612/m/mlopspython-extraction/74126878396677081493445-84376237332458489677065070/diff.md --exclude *.pyd
+[2023-06-12 18:08:09] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 18:08:09] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-1.0.0.tar.gz tmp/const_cython_lib-1.0.1.tar.gz --markdown 20230612/c/const-cython-lib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 18:08:10] INFO root fetch - processPackages [djangolazy]: executing diffoscope
+[2023-06-12 18:08:10] INFO root fetch - processPackages [djangolazy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangolazy-0.3.0.tar.gz tmp/djangolazy-0.4.0.tar.gz --markdown 20230612/d/djangolazy/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-12 18:08:10] INFO root fetch - processPackages [lspsp]: Downloading https://files.pythonhosted.org/packages/07/c9/0068c11f3dac9cd7d79bd7114205aa9bb962f4d26062898f6d4e32d2444c/lspsp-1.0.3.tar.gz
+[2023-06-12 18:08:10] INFO root fetch - processPackages [lspsp]: Downloading https://files.pythonhosted.org/packages/63/c2/8805833c5b4e5a4018279aeefccea91e188f8853ff1696b2843f6896df7c/lspsp-1.0.4.tar.gz
+[2023-06-12 18:08:10] INFO root fetch - processPackages [lspsp]: executing diffoscope
+[2023-06-12 18:08:10] INFO root fetch - processPackages [lspsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lspsp-1.0.3.tar.gz tmp/lspsp-1.0.4.tar.gz --markdown 20230612/l/lspsp/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 18:08:10] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz]
+[2023-06-12 18:08:10] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz]
+[2023-06-12 18:08:10] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Start processing: CLEMENTDNA
+[2023-06-12 18:08:10] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-06-12 18:08:10] WARNING root fetch - processPackages [CLEMENTDNA]: Skipping, unable to determine old version
+[2023-06-12 18:08:10] INFO root fetch - processPackages [CLEMENTDNA]: Start processing: forestadmin-agent-flask
+[2023-06-12 18:08:10] INFO root fetch - main [MainThread]: End processing [CLEMENTDNA] error
+[2023-06-12 18:08:10] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-12 18:08:10] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.8.tar.gz]
+[2023-06-12 18:08:10] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.9.tar.gz]
+[2023-06-12 18:08:10] INFO root fetch - processPackages [notification-service-nightly]: Start processing: mlopspython-extraction
+[2023-06-12 18:08:10] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-06-12 18:08:10] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/3e/f4/f6de754630a7c19c8ec4ce4d777e771d743b1e084b0ecf590ffcf9141d99/forestadmin_agent_flask-0.1.0b8.tar.gz
+[2023-06-12 18:08:10] INFO root fetch - processPackages [mlopspython-extraction]: New version: [84376237332458489677065070] Old Version: [74126878396677081493445]
+[2023-06-12 18:08:10] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz]
+[2023-06-12 18:08:10] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz]
+[2023-06-12 18:08:10] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Start processing: isolate-proto
+[2023-06-12 18:08:10] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-06-12 18:08:10] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/16/5e/7c7f370b88a6f11719865650299ba7dd6f764570d0460a4859718445c239/forestadmin_agent_flask-0.1.0b9.tar.gz
+[2023-06-12 18:08:10] INFO root fetch - processPackages [mlopspython-extraction]: executing diffoscope
+[2023-06-12 18:08:10] INFO root fetch - processPackages [mlopspython-extraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlopspython-extraction-74126878396677081493445.tar.gz tmp/mlopspython-extraction-84376237332458489677065070.tar.gz --markdown 20230612/m/mlopspython-extraction/74126878396677081493445-84376237332458489677065070/diff.md --exclude *.pyd
+[2023-06-12 18:08:11] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-06-12 18:08:11] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230612/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-12 18:08:11] INFO root fetch - processPackages [isolate-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 18:08:11] INFO root fetch - processPackages [mlopspython-extraction]: Remove: archive file [/home/abi/fetcher/tmp/mlopspython-extraction-74126878396677081493445.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - processPackages [mlopspython-extraction]: Remove: archive file [/home/abi/fetcher/tmp/mlopspython-extraction-84376237332458489677065070.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - processPackages [mlopspython-extraction]: Start processing: dbnomics-data-model
+[2023-06-12 18:08:11] INFO root fetch - main [MainThread]: End processing [mlopspython-extraction]: success
+[2023-06-12 18:08:11] INFO root fetch - processPackages [dbnomics-data-model]: New version: [0.13.9] Old Version: [0.13.8]
+[2023-06-12 18:08:11] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/fa/8a/f2719791cdda1843c75d559893bcfbee60dc9548d47a6c7ebbc5ca17efe1/isolate_proto-0.0.8.tar.gz
+[2023-06-12 18:08:11] INFO root fetch - processPackages [djangolazy]: Remove: archive file [/home/abi/fetcher/tmp/djangolazy-0.3.0.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - processPackages [djangolazy]: Remove: archive file [/home/abi/fetcher/tmp/djangolazy-0.4.0.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - processPackages [djangolazy]: Start processing: pandasai
+[2023-06-12 18:08:11] INFO root fetch - main [MainThread]: End processing [djangolazy]: success
+[2023-06-12 18:08:11] INFO root fetch - processPackages [dbnomics-data-model]: Downloading https://files.pythonhosted.org/packages/e1/7e/1915840d262585c81a65f6434d16c6221b7ff297badd8b927a92c27968cc/dbnomics-data-model-0.13.8.tar.gz
+[2023-06-12 18:08:11] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-1.0.0.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-1.0.1.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 18:08:11] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/b8/c1/616d33b533bec635af64d61f363188d18ee72950aa1fc3bf02c5073168cf/isolate_proto-0.0.9.tar.gz
+[2023-06-12 18:08:11] INFO root fetch - processPackages [pandasai]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-12 18:08:11] ERROR root fetch - processPackages [mlopspython-extraction]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mlopspython-extraction-74126878396677081493445.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mlopspython-extraction-84376237332458489677065070.tar.gz: No such file or directory
+
+[2023-06-12 18:08:11] INFO root fetch - main [MainThread]: End processing [mlopspython-extraction] error
+[2023-06-12 18:08:11] INFO root fetch - processPackages [lspsp]: Remove: archive file [/home/abi/fetcher/tmp/lspsp-1.0.3.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - processPackages [lspsp]: Remove: archive file [/home/abi/fetcher/tmp/lspsp-1.0.4.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - main [MainThread]: End processing [lspsp]: success
+[2023-06-12 18:08:11] INFO root fetch - processPackages [dbnomics-data-model]: Downloading https://files.pythonhosted.org/packages/e4/a9/5f06bba10a8433b4ecb1390444f2e4ca8e121893efdc856a149b731860a8/dbnomics-data-model-0.13.9.tar.gz
+[2023-06-12 18:08:11] INFO root fetch - processPackages [isolate-proto]: executing diffoscope
+[2023-06-12 18:08:11] INFO root fetch - processPackages [isolate-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isolate_proto-0.0.8.tar.gz tmp/isolate_proto-0.0.9.tar.gz --markdown 20230612/i/isolate-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 18:08:11] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.7.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.8.tar.gz]
+[2023-06-12 18:08:11] INFO root fetch - main [MainThread]: End processing [SBILoops]: success
+[2023-06-12 18:08:11] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/d8/eb/b083a1c75720aafda7a005d2cb4b044ae863bea6eba7ffcfbab3fe0b124f/pandasai-0.5.0.tar.gz
+[2023-06-12 18:08:11] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 18:08:12] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/22/6e/e363f5c0ca6540d185140f0521a2facb52febc2a9443e485418e0ab94339/pandasai-0.5.1.tar.gz
+[2023-06-12 18:08:12] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-0.1.0b8.tar.gz]
+[2023-06-12 18:08:12] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-0.1.0b9.tar.gz]
+[2023-06-12 18:08:12] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-06-12 18:08:12] INFO root fetch - processPackages [dbnomics-data-model]: executing diffoscope
+[2023-06-12 18:08:12] INFO root fetch - processPackages [dbnomics-data-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbnomics-data-model-0.13.8.tar.gz tmp/dbnomics-data-model-0.13.9.tar.gz --markdown 20230612/d/dbnomics-data-model/0.13.8-0.13.9/diff.md --exclude *.pyd
+[2023-06-12 18:08:12] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-12 18:08:12] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.5.0.tar.gz tmp/pandasai-0.5.1.tar.gz --markdown 20230612/p/pandasai/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-12 18:08:12] INFO root fetch - processPackages [isolate-proto]: Remove: archive file [/home/abi/fetcher/tmp/isolate_proto-0.0.8.tar.gz]
+[2023-06-12 18:08:12] INFO root fetch - processPackages [isolate-proto]: Remove: archive file [/home/abi/fetcher/tmp/isolate_proto-0.0.9.tar.gz]
+[2023-06-12 18:08:12] INFO root fetch - main [MainThread]: End processing [isolate-proto]: success
+[2023-06-12 18:08:13] INFO root fetch - processPackages [dbnomics-data-model]: Remove: archive file [/home/abi/fetcher/tmp/dbnomics-data-model-0.13.8.tar.gz]
+[2023-06-12 18:08:13] INFO root fetch - processPackages [dbnomics-data-model]: Remove: archive file [/home/abi/fetcher/tmp/dbnomics-data-model-0.13.9.tar.gz]
+[2023-06-12 18:08:13] INFO root fetch - main [MainThread]: End processing [dbnomics-data-model]: success
+[2023-06-12 18:08:13] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.5.0.tar.gz]
+[2023-06-12 18:08:13] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.5.1.tar.gz]
+[2023-06-12 18:08:13] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-12 18:08:15] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.8.tar.gz]
+[2023-06-12 18:08:15] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
+[2023-06-12 18:08:15] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-06-12 18:08:15] INFO root fetch - main [MainThread]: Store serial: [18471278]
