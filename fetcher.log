@@ -12141,3 +12141,159 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:44:46] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230611-py2.py3-none-any.whl.zip]
 [2023-06-12 10:44:46] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-06-12 10:44:46] INFO root fetch - main [MainThread]: Store serial: [18466374]
+[2023-06-12 10:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466374]
+[2023-06-12 10:49:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyBIS
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vdk-control-cli
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nerotest
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semantic-text-splitter
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-cisco-maintenance
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cythonbuilder
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-invoice
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PsyeonTest
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alltime-athletics-python
+[2023-06-12 10:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PySupercell
+[2023-06-12 10:49:56] INFO root fetch - processPackages [nerotest]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-12 10:49:56] WARNING root fetch - processPackages [PsyeonTest]: Skipping, unable to determine old version
+[2023-06-12 10:49:56] INFO root fetch - processPackages [PsyeonTest]: Start processing: MCPoly
+[2023-06-12 10:49:56] INFO root fetch - main [MainThread]: End processing [PsyeonTest] error
+[2023-06-12 10:49:56] INFO root fetch - processPackages [vdk-control-cli]: New version: [1.3.896771774] Old Version: [1.3.895138863]
+[2023-06-12 10:49:56] INFO root fetch - processPackages [semantic-text-splitter]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-06-12 10:49:56] INFO root fetch - processPackages [alltime-athletics-python]: New version: [1.0.20230612] Old Version: [0.8.0]
+[2023-06-12 10:49:56] INFO root fetch - processPackages [cythonbuilder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 10:49:56] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 10:49:56] INFO root fetch - processPackages [xj-invoice]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-06-12 10:49:56] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 10:49:56] INFO root fetch - processPackages [MCPoly]: New version: [0.4.2.2] Old Version: [0.4.2.1]
+[2023-06-12 10:49:56] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-06-12 10:49:56] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/8f/a8/6ccf5ba58df70541e82764c6a8e664574509e720a9ebae521eb95658f7ef/xj_invoice-1.0.7.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/19/3a/27015a02fe285deaea532b07d26c5a2818d47772d17dba56a841d687b76a/alltime_athletics_python-0.8.0.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [nerotest]: Downloading https://files.pythonhosted.org/packages/9f/23/5825f722464d04563a96d0a1c42d7003ee85cc489ad3a59595173753fa1c/nerotest-0.0.0.1-py3-none-any.whl
+[2023-06-12 10:49:56] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/a9/77/baae3fb8c2842e9ee7a0d5261ca27a183ef075f699c7e37397093b4062f2/xj_invoice-1.0.9.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/5d/f1/5f6687fbfb740c224483d36d87918b00b87e348ac1c6c615c1b3961fd4ec/MCPoly-0.4.2.1.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [vdk-control-cli]: Downloading https://files.pythonhosted.org/packages/e3/76/84d854ebbb982f0ee4cc2f521d9e010d8ac10d99f38157e4f97cea01d0bf/vdk-control-cli-1.3.895138863.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [semantic-text-splitter]: Downloading https://files.pythonhosted.org/packages/3d/43/110a087c2d7f0720fd1c1a51d9072ef8c0b660e122c2a021fd43830f4340/semantic_text_splitter-0.1.4.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-12 10:49:56] INFO root fetch - processPackages [cythonbuilder]: Downloading https://files.pythonhosted.org/packages/40/54/48d93eaf1cef7df3a34d4265dfe8876f9796b93ae82f1bd947ef05439b05/cythonbuilder-0.1.8.tar.gz
+[2023-06-12 10:49:57] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 10:49:57] INFO root fetch - processPackages [xj-invoice]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [xj-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_invoice-1.0.7.tar.gz tmp/xj_invoice-1.0.9.tar.gz --markdown 20230612/x/xj-invoice/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 10:49:57] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/58/95/b2585eeef6663b34a62cf4e9d008446c0a9c4cb9bf6b60a217088bb74d1a/alltime_athletics_python-1.0.20230612.tar.gz
+[2023-06-12 10:49:57] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-06-12 10:49:57] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230612/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 10:49:57] INFO root fetch - processPackages [nerotest]: Downloading https://files.pythonhosted.org/packages/63/42/08791e356bf73cc54d47ac3c0c1afce0ab43d610dfe04480e8090dacd6b2/nerotest-0.0.0.2-py3-none-any.whl
+[2023-06-12 10:49:57] INFO root fetch - processPackages [vdk-control-cli]: Downloading https://files.pythonhosted.org/packages/11/49/dde67f25de3c7d3cd8ca6097f75dcc111f5fc786484dc0d30498fd6244bb/vdk-control-cli-1.3.896771774.tar.gz
+[2023-06-12 10:49:57] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-0.8.0.tar.gz tmp/alltime_athletics_python-1.0.20230612.tar.gz --markdown 20230612/a/alltime-athletics-python/0.8.0-1.0.20230612/diff.md --exclude *.pyd
+[2023-06-12 10:49:57] INFO root fetch - processPackages [semantic-text-splitter]: Downloading https://files.pythonhosted.org/packages/39/cf/4f677a321701f3bb9b8acf08700bcbb5ca76acde5d3afe99cd3d94a7f1e1/semantic_text_splitter-0.2.0.tar.gz
+[2023-06-12 10:49:57] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/24/0f/4aab03cf5bf80acde853590617e384f1aad5f088192b04d97e49dfa9c0d1/MCPoly-0.4.2.2.tar.gz
+[2023-06-12 10:49:57] INFO root fetch - processPackages [cythonbuilder]: Downloading https://files.pythonhosted.org/packages/2c/9e/d799cbbb9ce6912aa83db8f57805ea54b9b7f742728c0b31a222c5f9fd07/cythonbuilder-0.1.9.tar.gz
+[2023-06-12 10:49:57] INFO root fetch - processPackages [nerotest]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [nerotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerotest-0.0.0.1-py3-none-any.whl.zip tmp/nerotest-0.0.0.2-py3-none-any.whl.zip --markdown 20230612/n/nerotest/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-12 10:49:57] INFO root fetch - processPackages [vdk-control-cli]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [vdk-control-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-control-cli-1.3.895138863.tar.gz tmp/vdk-control-cli-1.3.896771774.tar.gz --markdown 20230612/v/vdk-control-cli/1.3.895138863-1.3.896771774/diff.md --exclude *.pyd
+[2023-06-12 10:49:57] INFO root fetch - processPackages [cythonbuilder]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [cythonbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythonbuilder-0.1.8.tar.gz tmp/cythonbuilder-0.1.9.tar.gz --markdown 20230612/c/cythonbuilder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 10:49:57] INFO root fetch - processPackages [MCPoly]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [MCPoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCPoly-0.4.2.1.tar.gz tmp/MCPoly-0.4.2.2.tar.gz --markdown 20230612/M/MCPoly/0.4.2.1-0.4.2.2/diff.md --exclude *.pyd
+[2023-06-12 10:49:57] INFO root fetch - processPackages [semantic-text-splitter]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [semantic-text-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_text_splitter-0.1.4.tar.gz tmp/semantic_text_splitter-0.2.0.tar.gz --markdown 20230612/s/semantic-text-splitter/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 10:49:57] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-06-12 10:49:57] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-06-12 10:49:57] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230612/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-06-12 10:49:58] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.7.tar.gz]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.9.tar.gz]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [xj-invoice]: Start processing: timescoring
+[2023-06-12 10:49:58] INFO root fetch - main [MainThread]: End processing [xj-invoice]: success
+[2023-06-12 10:49:58] WARNING root fetch - processPackages [timescoring]: Skipping, unable to determine old version
+[2023-06-12 10:49:58] INFO root fetch - processPackages [timescoring]: Start processing: autosubmitconfigparser
+[2023-06-12 10:49:58] INFO root fetch - main [MainThread]: End processing [timescoring] error
+[2023-06-12 10:49:58] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.36] Old Version: [1.0.35]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/d3/d5/6b96f1fc8410ba807432704f7d29dbf6316b946151bd88249b4582cc9b8c/autosubmitconfigparser-1.0.35.tar.gz
+[2023-06-12 10:49:58] INFO root fetch - processPackages [nerotest]: Remove: archive file [/home/abi/fetcher/tmp/nerotest-0.0.0.1-py3-none-any.whl.zip]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [nerotest]: Remove: archive file [/home/abi/fetcher/tmp/nerotest-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [nerotest]: Start processing: plotgen
+[2023-06-12 10:49:58] INFO root fetch - main [MainThread]: End processing [nerotest]: success
+[2023-06-12 10:49:58] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-0.8.0.tar.gz]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [plotgen]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-1.0.20230612.tar.gz]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 10:49:58] INFO root fetch - processPackages [alltime-athletics-python]: Start processing: hyfi
+[2023-06-12 10:49:58] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-12 10:49:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: qtm-rt
+[2023-06-12 10:49:58] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 10:49:58] INFO root fetch - processPackages [hyfi]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-12 10:49:58] WARNING root fetch - processPackages [qtm-rt]: Skipping, unable to determine old version
+[2023-06-12 10:49:58] INFO root fetch - processPackages [qtm-rt]: Start processing: cortex-xdr-client
+[2023-06-12 10:49:58] INFO root fetch - main [MainThread]: End processing [qtm-rt] error
+[2023-06-12 10:49:58] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/ec/e4/2a70ca98424a2634deb0bc3ce7f22fd916602ad0767e91420c8fa0d1f61a/autosubmitconfigparser-1.0.36.tar.gz
+[2023-06-12 10:49:59] INFO root fetch - processPackages [cortex-xdr-client]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-06-12 10:49:59] INFO root fetch - processPackages [semantic-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/semantic_text_splitter-0.1.4.tar.gz]
+[2023-06-12 10:49:59] INFO root fetch - processPackages [semantic-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/semantic_text_splitter-0.2.0.tar.gz]
+[2023-06-12 10:49:59] INFO root fetch - processPackages [semantic-text-splitter]: Start processing: lnschema_bionty
+[2023-06-12 10:49:59] INFO root fetch - main [MainThread]: End processing [semantic-text-splitter]: success
+[2023-06-12 10:49:59] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-12 10:49:59] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-06-12 10:49:59] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.35.tar.gz tmp/autosubmitconfigparser-1.0.36.tar.gz --markdown 20230612/a/autosubmitconfigparser/1.0.35-1.0.36/diff.md --exclude *.pyd
+[2023-06-12 10:49:59] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/4c/c4/fb5bdc04b969003fedaefe52d15e208e5d2407bae330e82a9032c634f153/plotgen-0.7.8-py3-none-any.whl
+[2023-06-12 10:49:59] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/8f/9e/d5372c65aa468b187334dad66ac8cbcc85f5dc38224a4c8e09f6a6b7fb89/hyfi-0.4.0.tar.gz
+[2023-06-12 10:49:59] INFO root fetch - processPackages [cortex-xdr-client]: Downloading https://files.pythonhosted.org/packages/09/21/a0ee234da10218f0553a8b63244b8a5651405ac25f34e9bb92d7d2203a9b/cortex_xdr_client-1.8.4.tar.gz
+[2023-06-12 10:49:59] INFO root fetch - processPackages [cythonbuilder]: Remove: archive file [/home/abi/fetcher/tmp/cythonbuilder-0.1.8.tar.gz]
+[2023-06-12 10:49:59] INFO root fetch - processPackages [cythonbuilder]: Remove: archive file [/home/abi/fetcher/tmp/cythonbuilder-0.1.9.tar.gz]
+[2023-06-12 10:49:59] INFO root fetch - processPackages [cythonbuilder]: Start processing: aioprometheus-summary
+[2023-06-12 10:49:59] INFO root fetch - main [MainThread]: End processing [cythonbuilder]: success
+[2023-06-12 10:49:59] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-12 10:49:59] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-06-12 10:49:59] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-06-12 10:49:59] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-06-12 10:49:59] INFO root fetch - processPackages [aioprometheus-summary]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-12 10:49:59] INFO root fetch - processPackages [cortex-xdr-client]: Downloading https://files.pythonhosted.org/packages/d2/18/436b782ef1b811a5292b073172c182c8137a29716307d84730a7db94daff/cortex_xdr_client-1.8.5.tar.gz
+[2023-06-12 10:49:59] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/42/d3/78eb95701ab8df9403a40f8a5ae33247ac4e872ca786b0ddb86e840b69b4/plotgen-0.7.9-py3-none-any.whl
+[2023-06-12 10:49:59] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/ed/69731055e3f58c41573513cdfcc3be1a82dd86658588fc85dad1f4648699/hyfi-0.5.0.tar.gz
+[2023-06-12 10:49:59] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-12 10:49:59] INFO root fetch - processPackages [cortex-xdr-client]: executing diffoscope
+[2023-06-12 10:49:59] INFO root fetch - processPackages [cortex-xdr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cortex_xdr_client-1.8.4.tar.gz tmp/cortex_xdr_client-1.8.5.tar.gz --markdown 20230612/c/cortex-xdr-client/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-06-12 10:49:59] INFO root fetch - processPackages [aioprometheus-summary]: Downloading https://files.pythonhosted.org/packages/20/c3/cdb2422fb31a900eb56739977e5a2bedd5881c5ce9b9699b21f55d3641cd/aioprometheus-summary-0.0.2.tar.gz
+[2023-06-12 10:49:59] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-12 10:49:59] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230612/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 10:49:59] INFO root fetch - processPackages [plotgen]: executing diffoscope
+[2023-06-12 10:49:59] INFO root fetch - processPackages [plotgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotgen-0.7.8-py3-none-any.whl.zip tmp/plotgen-0.7.9-py3-none-any.whl.zip --markdown 20230612/p/plotgen/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-12 10:49:59] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-12 10:49:59] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.4.0.tar.gz tmp/hyfi-0.5.0.tar.gz --markdown 20230612/h/hyfi/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-12 10:49:59] INFO root fetch - processPackages [aioprometheus-summary]: Downloading https://files.pythonhosted.org/packages/57/da/1f1ca9808ee65efe65a4d8d2f20f5b58fcdfaf1910a6e4d2e4fc517fe533/aioprometheus-summary-0.1.0.tar.gz
+[2023-06-12 10:50:00] INFO root fetch - processPackages [aioprometheus-summary]: executing diffoscope
+[2023-06-12 10:50:00] INFO root fetch - processPackages [aioprometheus-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioprometheus-summary-0.0.2.tar.gz tmp/aioprometheus-summary-0.1.0.tar.gz --markdown 20230612/a/aioprometheus-summary/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 10:50:00] INFO root fetch - processPackages [vdk-control-cli]: Remove: archive file [/home/abi/fetcher/tmp/vdk-control-cli-1.3.895138863.tar.gz]
+[2023-06-12 10:50:00] INFO root fetch - processPackages [vdk-control-cli]: Remove: archive file [/home/abi/fetcher/tmp/vdk-control-cli-1.3.896771774.tar.gz]
+[2023-06-12 10:50:00] INFO root fetch - main [MainThread]: End processing [vdk-control-cli]: success
+[2023-06-12 10:50:00] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-12 10:50:00] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-12 10:50:00] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-12 10:50:01] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.35.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.36.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-06-12 10:50:01] INFO root fetch - processPackages [MCPoly]: Remove: archive file [/home/abi/fetcher/tmp/MCPoly-0.4.2.1.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - processPackages [MCPoly]: Remove: archive file [/home/abi/fetcher/tmp/MCPoly-0.4.2.2.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - main [MainThread]: End processing [MCPoly]: success
+[2023-06-12 10:50:01] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-12 10:50:01] INFO root fetch - processPackages [cortex-xdr-client]: Remove: archive file [/home/abi/fetcher/tmp/cortex_xdr_client-1.8.4.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - processPackages [cortex-xdr-client]: Remove: archive file [/home/abi/fetcher/tmp/cortex_xdr_client-1.8.5.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - main [MainThread]: End processing [cortex-xdr-client]: success
+[2023-06-12 10:50:01] INFO root fetch - processPackages [aioprometheus-summary]: Remove: archive file [/home/abi/fetcher/tmp/aioprometheus-summary-0.0.2.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - processPackages [aioprometheus-summary]: Remove: archive file [/home/abi/fetcher/tmp/aioprometheus-summary-0.1.0.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - main [MainThread]: End processing [aioprometheus-summary]: success
+[2023-06-12 10:50:01] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.7.8-py3-none-any.whl.zip]
+[2023-06-12 10:50:01] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.7.9-py3-none-any.whl.zip]
+[2023-06-12 10:50:01] INFO root fetch - main [MainThread]: End processing [plotgen]: success
+[2023-06-12 10:50:01] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.4.0.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.5.0.tar.gz]
+[2023-06-12 10:50:01] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-12 10:50:01] INFO root fetch - main [MainThread]: Store serial: [18466449]
