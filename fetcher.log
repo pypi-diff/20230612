@@ -3859,3 +3859,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 04:21:39] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-06-12 04:21:39] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-06-12 04:21:39] INFO root fetch - main [MainThread]: Store serial: [18462945]
+[2023-06-12 04:26:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462945]
+[2023-06-12 04:26:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drtools
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ydl-podcast
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vios
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwdali
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spPersist
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ydl-podcast
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antchain-bccr
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rocketlc
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macro-kit
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: embedding-zh
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ydl-podcast]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 04:26:48] INFO root fetch - processPackages [gwdali]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ydl-podcast]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 04:26:48] INFO root fetch - processPackages [drtools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 04:26:48] INFO root fetch - processPackages [spPersist]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-12 04:26:48] WARNING root fetch - processPackages [embedding-zh]: Skipping, unable to determine old version
+[2023-06-12 04:26:48] INFO root fetch - processPackages [embedding-zh]: Start processing: ziyan-cli
+[2023-06-12 04:26:48] INFO root fetch - main [MainThread]: End processing [embedding-zh] error
+[2023-06-12 04:26:48] INFO root fetch - processPackages [vios]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-06-12 04:26:48] INFO root fetch - processPackages [antchain-bccr]: New version: [1.8.15] Old Version: [1.17.60]
+[2023-06-12 04:26:48] INFO root fetch - processPackages [macro-kit]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-12 04:26:48] INFO root fetch - processPackages [rocketlc]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ziyan-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 04:26:48] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/7c/f1/9b197aa6630b25e2aa2c98deef5cde0e85a4ddf3fed0e546e199f73d77ba/spPersist-0.4.4.tar.gz
+[2023-06-12 04:26:48] INFO root fetch - processPackages [rocketlc]: Downloading https://files.pythonhosted.org/packages/6a/9a/7023745c7431ef0dcbd06dd354cd3cd5272ab397172acd4261c64d6a80e8/rocketlc-0.1.2-py3-none-any.whl
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/8a/ea/545db8ba940af0ee2936cf7a76b8106b115ae14095fafeb275d828a9f8cc/ydl_podcast-1.0.3.tar.gz
+[2023-06-12 04:26:48] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/8a/ea/545db8ba940af0ee2936cf7a76b8106b115ae14095fafeb275d828a9f8cc/ydl_podcast-1.0.3.tar.gz
+[2023-06-12 04:26:48] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/87/c9/39158e347f69a82592da7494ab0f8edfbcac2ba984d80ba3a1bca20f2b37/antchain_bccr-1.17.60.tar.gz
+[2023-06-12 04:26:48] INFO root fetch - processPackages [gwdali]: Downloading https://files.pythonhosted.org/packages/4c/11/2683a25551919eff0de573903c43c097b7cfd0f45a6ee6d65bbda15a759d/gwdali-0.0.3.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/0c/cc/1006336009666d3d2bf4426678d613d8684734d7eecfb485bc297e0a222c/drtools-1.0.8.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [macro-kit]: Downloading https://files.pythonhosted.org/packages/95/e6/4efa555ee32261b866734ddd03062d9cd7712a82af0d5a18e476072b5920/macro-kit-0.4.3.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ziyan-cli]: Downloading https://files.pythonhosted.org/packages/83/45/7539fb3d596780e7c074466994aae6f08cc87fa0eb4b53f20ff46bc37394/ziyan_cli-0.1.0.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/cc/da/d620c56a31053ef85752447c8729b7fb32385a619bae638a2c61393ec2cd/vios-0.0.0-py3-none-win_amd64.whl
+[2023-06-12 04:26:49] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/5d/aa/86c6b241a3c36c0649b3a924d3085f0797b9a7d76f59325676a25c88869a/spPersist-0.4.5.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [rocketlc]: Downloading https://files.pythonhosted.org/packages/b8/4c/b5a4bed2b64966e0d46bc0074c62a0b8127eb477a8b4bc67a27f16182d7c/rocketlc-0.1.4-py3-none-any.whl
+[2023-06-12 04:26:49] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.4.4.tar.gz tmp/spPersist-0.4.5.tar.gz --markdown 20230612/s/spPersist/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/23/ec/bf78535a0d223b3537101a2b4a5161add157a5b198733f825f10d6d92a99/ydl_podcast-1.0.4.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/23/ec/bf78535a0d223b3537101a2b4a5161add157a5b198733f825f10d6d92a99/ydl_podcast-1.0.4.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [rocketlc]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [rocketlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketlc-0.1.2-py3-none-any.whl.zip tmp/rocketlc-0.1.4-py3-none-any.whl.zip --markdown 20230612/r/rocketlc/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 04:26:49] INFO root fetch - processPackages [gwdali]: Downloading https://files.pythonhosted.org/packages/34/48/6ef5a7cc14f3c5bce8a454c66a367b7217d41f54a9079bd1cb39a6f13b89/gwdali-0.0.4.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/fd/cb/0b4e2048f81a8e2498ba2c0f5180ce333aabefa79808dd5f924efcad36da/antchain_bccr-1.8.15.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ydl-podcast]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ydl-podcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydl_podcast-1.0.3.tar.gz tmp/ydl_podcast-1.0.4.tar.gz --markdown 20230612/y/ydl-podcast/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ydl-podcast]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ydl-podcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydl_podcast-1.0.3.tar.gz tmp/ydl_podcast-1.0.4.tar.gz --markdown 20230612/y/ydl-podcast/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 04:26:49] INFO root fetch - processPackages [gwdali]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [gwdali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwdali-0.0.3.tar.gz tmp/gwdali-0.0.4.tar.gz --markdown 20230612/g/gwdali/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 04:26:49] INFO root fetch - processPackages [macro-kit]: Downloading https://files.pythonhosted.org/packages/3d/8f/cc5e466b7e1f9780813463bb96d0c4d48430e1752d6eacb56bcfa4603e11/macro_kit-0.4.4.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/18/2f/6897155230204fdbfc06e7d32cce6ef57db351b8fc2135337121afae8beb/drtools-1.0.9.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [macro-kit]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [macro-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macro-kit-0.4.3.tar.gz tmp/macro_kit-0.4.4.tar.gz --markdown 20230612/m/macro-kit/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ziyan-cli]: Downloading https://files.pythonhosted.org/packages/b7/a6/e71c47e8835d8d813a19be61d540b21a84c10bacf7faf56f0691c6e06402/ziyan_cli-0.1.1.tar.gz
+[2023-06-12 04:26:49] INFO root fetch - processPackages [drtools]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [drtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drtools-1.0.8.tar.gz tmp/drtools-1.0.9.tar.gz --markdown 20230612/d/drtools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 04:26:49] INFO root fetch - processPackages [antchain-bccr]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [antchain-bccr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bccr-1.17.60.tar.gz tmp/antchain_bccr-1.8.15.tar.gz --markdown 20230612/a/antchain-bccr/1.17.60-1.8.15/diff.md --exclude *.pyd
+[2023-06-12 04:26:49] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/70/32/ada9a4de6527bdfa5f5aa4be846bd71002388b00e56339d642e622e1ec21/vios-1.0.0-py3-none-any.whl
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ziyan-cli]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [ziyan-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziyan_cli-0.1.0.tar.gz tmp/ziyan_cli-0.1.1.tar.gz --markdown 20230612/z/ziyan-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 04:26:49] INFO root fetch - processPackages [vios]: executing diffoscope
+[2023-06-12 04:26:49] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-0.0.0-py3-none-win_amd64.whl.zip tmp/vios-1.0.0-py3-none-any.whl.zip --markdown 20230612/v/vios/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 04:26:50] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.4.tar.gz]
+[2023-06-12 04:26:50] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.5.tar.gz]
+[2023-06-12 04:26:50] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 04:26:50] INFO root fetch - processPackages [rocketlc]: Remove: archive file [/home/abi/fetcher/tmp/rocketlc-0.1.2-py3-none-any.whl.zip]
+[2023-06-12 04:26:50] INFO root fetch - processPackages [rocketlc]: Remove: archive file [/home/abi/fetcher/tmp/rocketlc-0.1.4-py3-none-any.whl.zip]
+[2023-06-12 04:26:50] INFO root fetch - main [MainThread]: End processing [rocketlc]: success
+[2023-06-12 04:26:50] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.0.3.tar.gz]
+[2023-06-12 04:26:50] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.0.4.tar.gz]
+[2023-06-12 04:26:50] INFO root fetch - main [MainThread]: End processing [ydl-podcast]: success
+[2023-06-12 04:26:51] INFO root fetch - main [MainThread]: End processing [ydl-podcast]: success
+[2023-06-12 04:26:51] INFO root fetch - processPackages [gwdali]: Remove: archive file [/home/abi/fetcher/tmp/gwdali-0.0.3.tar.gz]
+[2023-06-12 04:26:51] INFO root fetch - processPackages [gwdali]: Remove: archive file [/home/abi/fetcher/tmp/gwdali-0.0.4.tar.gz]
+[2023-06-12 04:26:51] INFO root fetch - main [MainThread]: End processing [gwdali]: success
+[2023-06-12 04:26:51] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-0.0.0-py3-none-win_amd64.whl.zip]
+[2023-06-12 04:26:51] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.0-py3-none-any.whl.zip]
+[2023-06-12 04:26:51] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2023-06-12 04:26:51] INFO root fetch - processPackages [macro-kit]: Remove: archive file [/home/abi/fetcher/tmp/macro-kit-0.4.3.tar.gz]
+[2023-06-12 04:26:51] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-1.0.8.tar.gz]
+[2023-06-12 04:26:51] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-1.0.9.tar.gz]
+[2023-06-12 04:26:51] INFO root fetch - processPackages [macro-kit]: Remove: archive file [/home/abi/fetcher/tmp/macro_kit-0.4.4.tar.gz]
+[2023-06-12 04:26:51] INFO root fetch - main [MainThread]: End processing [drtools]: success
+[2023-06-12 04:26:51] INFO root fetch - main [MainThread]: End processing [macro-kit]: success
+[2023-06-12 04:26:51] INFO root fetch - processPackages [ziyan-cli]: Remove: archive file [/home/abi/fetcher/tmp/ziyan_cli-0.1.0.tar.gz]
+[2023-06-12 04:26:51] INFO root fetch - processPackages [ziyan-cli]: Remove: archive file [/home/abi/fetcher/tmp/ziyan_cli-0.1.1.tar.gz]
+[2023-06-12 04:26:51] INFO root fetch - main [MainThread]: End processing [ziyan-cli]: success
+[2023-06-12 04:26:52] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.17.60.tar.gz]
+[2023-06-12 04:26:52] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.8.15.tar.gz]
+[2023-06-12 04:26:52] INFO root fetch - main [MainThread]: End processing [antchain-bccr]: success
+[2023-06-12 04:26:52] INFO root fetch - main [MainThread]: Store serial: [18462978]
