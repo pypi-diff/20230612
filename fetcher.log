@@ -17102,3 +17102,110 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 14:16:58] INFO root fetch - processPackages [particle]: Remove: archive file [/home/abi/fetcher/tmp/Particle-0.9.2.tar.gz]
 [2023-06-12 14:16:58] INFO root fetch - main [MainThread]: End processing [particle]: success
 [2023-06-12 14:16:58] INFO root fetch - main [MainThread]: Store serial: [18468530]
+[2023-06-12 14:22:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468530]
+[2023-06-12 14:22:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dartpy
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hubspot-api-client
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aichat-cli
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExpoSeq
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypi-python-translator
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hotsos
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: squad-gunicorn
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mykit
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: urllib3-ext-hface
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fdog
+[2023-06-12 14:22:07] INFO root fetch - processPackages [fdog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [pypi-python-translator]: New version: [2.1] Old Version: [2.0.4]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [squad-gunicorn]: New version: [20.0.4] Old Version: [120.0.4]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.5] Old Version: [1.1.3]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post95] Old Version: [0.1.0.post94]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [hubspot-api-client]: New version: [8.0.0b6] Old Version: [8.0.0b5]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [urllib3-ext-hface]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [mykit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [aichat-cli]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-06-12 14:22:07] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/80/82/542ea47a387ea8f2f720bccc80ad518b506c2b1af928d55e7528a1cb5deb/pypi_python_translator-2.0.4.tar.gz
+[2023-06-12 14:22:07] INFO root fetch - processPackages [urllib3-ext-hface]: Downloading https://files.pythonhosted.org/packages/20/f7/98f95142f63ba0203860d6048ab15fcfd7ec6f686a88cc698a392f31714b/urllib3_ext_hface-0.3.2.tar.gz
+[2023-06-12 14:22:07] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/60/60/a59faa3485011a04cd5bcd36e66c8950e9092fb062e92cd15eee485fd616/ExpoSeq-1.1.3.tar.gz
+[2023-06-12 14:22:07] INFO root fetch - processPackages [squad-gunicorn]: Downloading https://files.pythonhosted.org/packages/e3/45/f5911b9f9c2dd7cfba1ae5f67d1b5be12fa33236e27464987ce2b7f6bf89/squad-gunicorn-120.0.4.tar.gz
+[2023-06-12 14:22:07] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/de/2d/fdf0aaa2b1e07e6d91918c01be57d8f6a6e848e85ed670d75fe1d9b39cd5/hotsos-1.1.14.post8.tar.gz
+[2023-06-12 14:22:07] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/b7/20/f9dc3e4f180d3dd91826cd6d738e0141c17cdd617df71286202aedf185f9/mykit-0.1.1.tar.gz
+[2023-06-12 14:22:07] INFO root fetch - processPackages [fdog]: Downloading https://files.pythonhosted.org/packages/a3/96/e80531f9b64a2bfdde4aafa10e4dae4c4b1288107b471338f546d298cca7/fdog-0.1.8.tar.gz
+[2023-06-12 14:22:07] INFO root fetch - processPackages [aichat-cli]: Downloading https://files.pythonhosted.org/packages/ba/20/a992ef726f7198eda3e9283c08fab7b4e698de1195c72935e1a892ffa6dd/aichat-cli-0.4.5.tar.gz
+[2023-06-12 14:22:07] INFO root fetch - processPackages [squad-gunicorn]: Downloading https://files.pythonhosted.org/packages/e1/3b/bf96ba81637a96cf082a804ecaeea75fa3cdaa9dc833578d8e5423b61f04/squad-gunicorn-20.0.4.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/89/f9/f799fc1eae7f9917f9f178364f53076e0723d91e8fd7b96e53a91f71812c/dartpy-0.1.0.post94-cp39-cp39-win_amd64.whl
+[2023-06-12 14:22:08] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/ff/67/f7319c578c2c192bfe491510169acc8c6d27d5b6c03ab473ceff4b1b43e7/hubspot-api-client-8.0.0b5.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/64/02/8f493675c30a4af2612f1e4160ed98e5a46f8ae48fd27c9f37d20c5d59f4/pypi_python_translator-2.1.tar.gz
+[2023-06-12 14:22:08] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20031160>=10485760
+[2023-06-12 14:22:08] INFO root fetch - processPackages [dartpy]: Start processing: mailslurp-client
+[2023-06-12 14:22:08] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-06-12 14:22:08] INFO root fetch - processPackages [urllib3-ext-hface]: Downloading https://files.pythonhosted.org/packages/99/25/539016ff754641ada207750cc959de1b90295763063c4c91a9158394ffa4/urllib3_ext_hface-0.3.3.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/da/c9/7eacdd09b8fe987d35c33395e293035c63b16ded1000aadb2bc49c6f7882/hotsos-1.1.14.post9.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [squad-gunicorn]: executing diffoscope
+[2023-06-12 14:22:08] INFO root fetch - processPackages [squad-gunicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad-gunicorn-120.0.4.tar.gz tmp/squad-gunicorn-20.0.4.tar.gz --markdown 20230612/s/squad-gunicorn/120.0.4-20.0.4/diff.md --exclude *.pyd
+[2023-06-12 14:22:08] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2023-06-12 14:22:08] INFO root fetch - processPackages [pypi-python-translator]: executing diffoscope
+[2023-06-12 14:22:08] INFO root fetch - processPackages [pypi-python-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_python_translator-2.0.4.tar.gz tmp/pypi_python_translator-2.1.tar.gz --markdown 20230612/p/pypi-python-translator/2.0.4-2.1/diff.md --exclude *.pyd
+[2023-06-12 14:22:08] INFO root fetch - processPackages [urllib3-ext-hface]: executing diffoscope
+[2023-06-12 14:22:08] INFO root fetch - processPackages [urllib3-ext-hface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_ext_hface-0.3.2.tar.gz tmp/urllib3_ext_hface-0.3.3.tar.gz --markdown 20230612/u/urllib3-ext-hface/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-12 14:22:08] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/6a/44/bf84cb21ad7b6a34a9e32fea00d739b2e253d5955983ed45ef43314ab559/mykit-0.1.2.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/74/ee/e1f35c829978bcfae272b5a83bb6fc3a18c24edeca10a7f27d3701a2ee4f/ExpoSeq-1.1.5.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-12 14:22:08] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230612/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-06-12 14:22:08] INFO root fetch - processPackages [aichat-cli]: Downloading https://files.pythonhosted.org/packages/eb/08/93a0a722aa249874b394a767f9dea05eccc65e1902c44bbac2a5bb15738b/aichat-cli-0.4.6.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-06-12 14:22:08] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-0.1.1.tar.gz tmp/mykit-0.1.2.tar.gz --markdown 20230612/m/mykit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 14:22:08] INFO root fetch - processPackages [aichat-cli]: executing diffoscope
+[2023-06-12 14:22:08] INFO root fetch - processPackages [aichat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aichat-cli-0.4.5.tar.gz tmp/aichat-cli-0.4.6.tar.gz --markdown 20230612/a/aichat-cli/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-12 14:22:08] INFO root fetch - processPackages [fdog]: Downloading https://files.pythonhosted.org/packages/a4/13/402b01e3227678921c619da9ab8eb4399d3a11dba161163518f064df54d3/fdog-0.1.9.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2023-06-12 14:22:08] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-06-12 14:22:08] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.3.tar.gz tmp/ExpoSeq-1.1.5.tar.gz --markdown 20230612/E/ExpoSeq/1.1.3-1.1.5/diff.md --exclude *.pyd
+[2023-06-12 14:22:08] INFO root fetch - processPackages [fdog]: executing diffoscope
+[2023-06-12 14:22:08] INFO root fetch - processPackages [fdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdog-0.1.8.tar.gz tmp/fdog-0.1.9.tar.gz --markdown 20230612/f/fdog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 14:22:08] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2023-06-12 14:22:08] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20230612/m/mailslurp-client/8.7.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-12 14:22:08] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/6a/26/0eb48c577bd955cb3ae3348a59359ff4e13ed3d0da0eb3c948214462e6e8/hubspot-api-client-8.0.0b6.tar.gz
+[2023-06-12 14:22:09] INFO root fetch - processPackages [hubspot-api-client]: executing diffoscope
+[2023-06-12 14:22:09] INFO root fetch - processPackages [hubspot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-client-8.0.0b5.tar.gz tmp/hubspot-api-client-8.0.0b6.tar.gz --markdown 20230612/h/hubspot-api-client/8.0.0b5-8.0.0b6/diff.md --exclude *.pyd
+[2023-06-12 14:22:10] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-2.0.4.tar.gz]
+[2023-06-12 14:22:10] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-2.1.tar.gz]
+[2023-06-12 14:22:10] INFO root fetch - processPackages [pypi-python-translator]: Start processing: commandeft
+[2023-06-12 14:22:10] INFO root fetch - main [MainThread]: End processing [pypi-python-translator]: success
+[2023-06-12 14:22:10] INFO root fetch - processPackages [commandeft]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-12 14:22:10] INFO root fetch - processPackages [urllib3-ext-hface]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_ext_hface-0.3.2.tar.gz]
+[2023-06-12 14:22:10] INFO root fetch - processPackages [urllib3-ext-hface]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_ext_hface-0.3.3.tar.gz]
+[2023-06-12 14:22:10] INFO root fetch - main [MainThread]: End processing [urllib3-ext-hface]: success
+[2023-06-12 14:22:10] INFO root fetch - processPackages [aichat-cli]: Remove: archive file [/home/abi/fetcher/tmp/aichat-cli-0.4.5.tar.gz]
+[2023-06-12 14:22:10] INFO root fetch - processPackages [aichat-cli]: Remove: archive file [/home/abi/fetcher/tmp/aichat-cli-0.4.6.tar.gz]
+[2023-06-12 14:22:10] INFO root fetch - main [MainThread]: End processing [aichat-cli]: success
+[2023-06-12 14:22:10] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/fc/8b/28562ff2863bb184f2907d29999874d44a45b5138f146f6e6b7659dbb4a4/commandeft-0.1.5.tar.gz
+[2023-06-12 14:22:10] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/20/5a/7304ce3ec6de3b76481051cba6fcbc1867b9a4590fa52e36cb6ca1d28c4a/commandeft-0.2.0.tar.gz
+[2023-06-12 14:22:11] INFO root fetch - processPackages [commandeft]: executing diffoscope
+[2023-06-12 14:22:11] INFO root fetch - processPackages [commandeft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandeft-0.1.5.tar.gz tmp/commandeft-0.2.0.tar.gz --markdown 20230612/c/commandeft/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 14:22:11] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-0.1.1.tar.gz]
+[2023-06-12 14:22:11] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-0.1.2.tar.gz]
+[2023-06-12 14:22:11] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-06-12 14:22:12] INFO root fetch - processPackages [fdog]: Remove: archive file [/home/abi/fetcher/tmp/fdog-0.1.8.tar.gz]
+[2023-06-12 14:22:12] INFO root fetch - processPackages [fdog]: Remove: archive file [/home/abi/fetcher/tmp/fdog-0.1.9.tar.gz]
+[2023-06-12 14:22:12] INFO root fetch - main [MainThread]: End processing [fdog]: success
+[2023-06-12 14:22:12] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.1.5.tar.gz]
+[2023-06-12 14:22:12] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.2.0.tar.gz]
+[2023-06-12 14:22:12] INFO root fetch - main [MainThread]: End processing [commandeft]: success
+[2023-06-12 14:22:14] INFO root fetch - processPackages [squad-gunicorn]: Remove: archive file [/home/abi/fetcher/tmp/squad-gunicorn-120.0.4.tar.gz]
+[2023-06-12 14:22:14] INFO root fetch - processPackages [squad-gunicorn]: Remove: archive file [/home/abi/fetcher/tmp/squad-gunicorn-20.0.4.tar.gz]
+[2023-06-12 14:22:14] INFO root fetch - main [MainThread]: End processing [squad-gunicorn]: success
+[2023-06-12 14:22:14] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2023-06-12 14:22:14] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2023-06-12 14:22:14] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2023-06-12 14:22:15] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post8.tar.gz]
+[2023-06-12 14:22:15] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
+[2023-06-12 14:22:15] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-12 14:22:15] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.3.tar.gz]
+[2023-06-12 14:22:15] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.5.tar.gz]
+[2023-06-12 14:22:15] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-06-12 14:22:58] INFO root fetch - processPackages [hubspot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-client-8.0.0b5.tar.gz]
+[2023-06-12 14:22:58] INFO root fetch - processPackages [hubspot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-client-8.0.0b6.tar.gz]
+[2023-06-12 14:22:58] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
+[2023-06-12 14:22:58] INFO root fetch - main [MainThread]: Store serial: [18468576]
