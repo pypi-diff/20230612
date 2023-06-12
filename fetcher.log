@@ -3716,3 +3716,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 04:11:00] INFO root fetch - processPackages [sphinx-c-autodoc]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_c_autodoc-1.2.0.tar.gz]
 [2023-06-12 04:11:00] INFO root fetch - main [MainThread]: End processing [sphinx-c-autodoc]: success
 [2023-06-12 04:11:00] INFO root fetch - main [MainThread]: Store serial: [18462877]
+[2023-06-12 04:16:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462877]
+[2023-06-12 04:16:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 04:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SmoobuExtractorFormatter
+[2023-06-12 04:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testpipeci
+[2023-06-12 04:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lab-partner
+[2023-06-12 04:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reddit2pdf
+[2023-06-12 04:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prisma
+[2023-06-12 04:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SmoobuExtractorFormatter
+[2023-06-12 04:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyatp
+[2023-06-12 04:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: v-quantum-annealing
+[2023-06-12 04:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pylibx
+[2023-06-12 04:16:09] WARNING root fetch - processPackages [testpipeci]: Skipping, unable to determine old version
+[2023-06-12 04:16:09] INFO root fetch - main [MainThread]: End processing [testpipeci] error
+[2023-06-12 04:16:09] INFO root fetch - processPackages [lab-partner]: New version: [0.7.56] Old Version: [0.7.55]
+[2023-06-12 04:16:09] INFO root fetch - processPackages [pyatp]: New version: [1.1.6] Old Version: [1.1.4]
+[2023-06-12 04:16:09] INFO root fetch - processPackages [reddit2pdf]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-12 04:16:09] INFO root fetch - processPackages [SmoobuExtractorFormatter]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-12 04:16:09] INFO root fetch - processPackages [prisma]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-12 04:16:09] INFO root fetch - processPackages [SmoobuExtractorFormatter]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-12 04:16:09] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-12 04:16:09] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/82/24/05ec769d7c94068a0ed14d980c9c1919e31c99c3baafe33ca275137809eb/lab-partner-0.7.55.tar.gz
+[2023-06-12 04:16:09] INFO root fetch - processPackages [reddit2pdf]: Downloading https://files.pythonhosted.org/packages/55/16/f0d00f28e58bb207bb1819f41bbb6224315d544549402c3a9d66129b19a7/reddit2pdf-1.1.1.tar.gz
+[2023-06-12 04:16:09] INFO root fetch - processPackages [pylibx]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-12 04:16:09] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/d0/ca/482955fe0ea534ad8c1b5bdbfccd78ff5998378671fabea9fd1a12017520/SmoobuExtractorFormatter-1.2.8.tar.gz
+[2023-06-12 04:16:09] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/d0/ca/482955fe0ea534ad8c1b5bdbfccd78ff5998378671fabea9fd1a12017520/SmoobuExtractorFormatter-1.2.8.tar.gz
+[2023-06-12 04:16:09] INFO root fetch - processPackages [pyatp]: Downloading https://files.pythonhosted.org/packages/6e/c1/48654739d77325a2768f8f8af7f38ce09dda678e7b3dacf097b5442b6b75/pyatp-1.1.4.tar.gz
+[2023-06-12 04:16:09] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/7c/fb/059a48dd0ca5d46419fa9be87ed8ad954dfc20390ad90a88b3d35eafe05a/v_quantum_annealing-0.0.5.tar.gz
+[2023-06-12 04:16:10] INFO root fetch - processPackages [prisma]: Downloading https://files.pythonhosted.org/packages/be/4e/9bed0c8f5a463ba72ed398d032dc1e40818a1e7c6927f3a25c9c4e5e2a71/prisma-0.8.2.tar.gz
+[2023-06-12 04:16:10] INFO root fetch - processPackages [reddit2pdf]: Downloading https://files.pythonhosted.org/packages/ae/c2/519b1d6abe6e93d99b02108599c723f6403fa9b95eb37d0b6e15cca49df4/reddit2pdf-1.1.2.tar.gz
+[2023-06-12 04:16:10] WARNING root fetch - processPackages [pyatp]: Skipping package: exceeds size limit 26077566>=10485760
+[2023-06-12 04:16:10] INFO root fetch - main [MainThread]: End processing [pyatp] error
+[2023-06-12 04:16:10] INFO root fetch - processPackages [pylibx]: Downloading https://files.pythonhosted.org/packages/df/ac/eb29a3d36b27e353bb71bc482c88dceca9a5e507711670cd07967938d745/pylibx-0.1.1.tar.gz
+[2023-06-12 04:16:10] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/9a/7a/60367d2be7360b086d3f26ddeedbe637b2aa0a0754fd4d00e28c097d5d18/lab-partner-0.7.56.tar.gz
+[2023-06-12 04:16:10] INFO root fetch - processPackages [reddit2pdf]: executing diffoscope
+[2023-06-12 04:16:10] INFO root fetch - processPackages [reddit2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit2pdf-1.1.1.tar.gz tmp/reddit2pdf-1.1.2.tar.gz --markdown 20230612/r/reddit2pdf/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-12 04:16:10] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/49/c8/79ea200411fef32f1b7d18018cf3d1d9ece95a747832500e274079803670/SmoobuExtractorFormatter-1.2.9.tar.gz
+[2023-06-12 04:16:10] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/49/c8/79ea200411fef32f1b7d18018cf3d1d9ece95a747832500e274079803670/SmoobuExtractorFormatter-1.2.9.tar.gz
+[2023-06-12 04:16:10] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/12/a3/142cf86deed3fbed8198d9471d7bc73861b5518db68b86284083e7fdc962/v_quantum_annealing-0.0.6.tar.gz
+[2023-06-12 04:16:10] INFO root fetch - processPackages [SmoobuExtractorFormatter]: executing diffoscope
+[2023-06-12 04:16:10] INFO root fetch - processPackages [SmoobuExtractorFormatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmoobuExtractorFormatter-1.2.8.tar.gz tmp/SmoobuExtractorFormatter-1.2.9.tar.gz --markdown 20230612/S/SmoobuExtractorFormatter/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-12 04:16:10] INFO root fetch - processPackages [lab-partner]: executing diffoscope
+[2023-06-12 04:16:10] INFO root fetch - processPackages [lab-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-0.7.55.tar.gz tmp/lab-partner-0.7.56.tar.gz --markdown 20230612/l/lab-partner/0.7.55-0.7.56/diff.md --exclude *.pyd
+[2023-06-12 04:16:10] INFO root fetch - processPackages [SmoobuExtractorFormatter]: executing diffoscope
+[2023-06-12 04:16:10] INFO root fetch - processPackages [SmoobuExtractorFormatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmoobuExtractorFormatter-1.2.8.tar.gz tmp/SmoobuExtractorFormatter-1.2.9.tar.gz --markdown 20230612/S/SmoobuExtractorFormatter/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-12 04:16:10] INFO root fetch - processPackages [prisma]: Downloading https://files.pythonhosted.org/packages/0f/a0/2129b9f9aa661ec7ea147f4d770ccd0a3e68a8bea8e4cbca53fcebf345d8/prisma-0.9.0.tar.gz
+[2023-06-12 04:16:10] INFO root fetch - processPackages [pylibx]: Downloading https://files.pythonhosted.org/packages/a1/14/9ffcab006ccc8066b389f60bc8e61c30471cb4b5d41ae07e8ed8bb9fa152/pylibx-0.2.0.tar.gz
+[2023-06-12 04:16:10] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-06-12 04:16:10] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.5.tar.gz tmp/v_quantum_annealing-0.0.6.tar.gz --markdown 20230612/v/v-quantum-annealing/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-12 04:16:10] INFO root fetch - processPackages [pylibx]: executing diffoscope
+[2023-06-12 04:16:10] INFO root fetch - processPackages [pylibx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibx-0.1.1.tar.gz tmp/pylibx-0.2.0.tar.gz --markdown 20230612/p/pylibx/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 04:16:10] INFO root fetch - processPackages [prisma]: executing diffoscope
+[2023-06-12 04:16:10] INFO root fetch - processPackages [prisma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma-0.8.2.tar.gz tmp/prisma-0.9.0.tar.gz --markdown 20230612/p/prisma/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 04:16:11] INFO root fetch - processPackages [reddit2pdf]: Remove: archive file [/home/abi/fetcher/tmp/reddit2pdf-1.1.1.tar.gz]
+[2023-06-12 04:16:11] INFO root fetch - processPackages [reddit2pdf]: Remove: archive file [/home/abi/fetcher/tmp/reddit2pdf-1.1.2.tar.gz]
+[2023-06-12 04:16:11] INFO root fetch - main [MainThread]: End processing [reddit2pdf]: success
+[2023-06-12 04:16:11] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.8.tar.gz]
+[2023-06-12 04:16:11] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.9.tar.gz]
+[2023-06-12 04:16:11] INFO root fetch - main [MainThread]: End processing [SmoobuExtractorFormatter]: success
+[2023-06-12 04:16:11] INFO root fetch - main [MainThread]: End processing [SmoobuExtractorFormatter]: success
+[2023-06-12 04:16:11] INFO root fetch - processPackages [pylibx]: Remove: archive file [/home/abi/fetcher/tmp/pylibx-0.1.1.tar.gz]
+[2023-06-12 04:16:11] INFO root fetch - processPackages [pylibx]: Remove: archive file [/home/abi/fetcher/tmp/pylibx-0.2.0.tar.gz]
+[2023-06-12 04:16:11] INFO root fetch - main [MainThread]: End processing [pylibx]: success
+[2023-06-12 04:16:11] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.55.tar.gz]
+[2023-06-12 04:16:11] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.56.tar.gz]
+[2023-06-12 04:16:11] INFO root fetch - main [MainThread]: End processing [lab-partner]: success
+[2023-06-12 04:16:12] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.5.tar.gz]
+[2023-06-12 04:16:12] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.6.tar.gz]
+[2023-06-12 04:16:12] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-06-12 04:16:14] INFO root fetch - processPackages [prisma]: Remove: archive file [/home/abi/fetcher/tmp/prisma-0.8.2.tar.gz]
+[2023-06-12 04:16:14] INFO root fetch - processPackages [prisma]: Remove: archive file [/home/abi/fetcher/tmp/prisma-0.9.0.tar.gz]
+[2023-06-12 04:16:14] INFO root fetch - main [MainThread]: End processing [prisma]: success
+[2023-06-12 04:16:14] INFO root fetch - main [MainThread]: Store serial: [18462911]
