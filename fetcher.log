@@ -8652,3 +8652,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 07:35:49] INFO root fetch - processPackages [keyframed]: Remove: archive file [/home/abi/fetcher/tmp/keyframed-0.3.9.tar.gz]
 [2023-06-12 07:35:49] INFO root fetch - main [MainThread]: End processing [keyframed]: success
 [2023-06-12 07:35:49] INFO root fetch - main [MainThread]: Store serial: [18464862]
+[2023-06-12 07:40:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464862]
+[2023-06-12 07:40:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-12 07:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epubs
+[2023-06-12 07:40:57] INFO root fetch - processPackages [epubs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 07:40:57] INFO root fetch - processPackages [epubs]: Downloading https://files.pythonhosted.org/packages/6f/da/6e81ca60c7ca15a6562970c9493fe0096d966b5dffb698f1c0646e3d6819/epubs-0.0.2.tar.gz
+[2023-06-12 07:40:58] INFO root fetch - processPackages [epubs]: Downloading https://files.pythonhosted.org/packages/a8/28/6613b32202b3ab6ad3cc26038211499a9464a5a706de8a34015d0c55ced0/epubs-0.0.3.tar.gz
+[2023-06-12 07:40:58] INFO root fetch - processPackages [epubs]: executing diffoscope
+[2023-06-12 07:40:58] INFO root fetch - processPackages [epubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epubs-0.0.2.tar.gz tmp/epubs-0.0.3.tar.gz --markdown 20230612/e/epubs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 07:40:59] INFO root fetch - processPackages [epubs]: Remove: archive file [/home/abi/fetcher/tmp/epubs-0.0.2.tar.gz]
+[2023-06-12 07:40:59] INFO root fetch - processPackages [epubs]: Remove: archive file [/home/abi/fetcher/tmp/epubs-0.0.3.tar.gz]
+[2023-06-12 07:40:59] INFO root fetch - main [MainThread]: End processing [epubs]: success
+[2023-06-12 07:40:59] INFO root fetch - main [MainThread]: Store serial: [18464864]
