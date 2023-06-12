@@ -7596,3 +7596,85 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 05:59:09] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.24-py3-none-any.whl.zip]
 [2023-06-12 05:59:09] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
 [2023-06-12 05:59:09] INFO root fetch - main [MainThread]: Store serial: [18464390]
+[2023-06-12 06:04:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464390]
+[2023-06-12 06:04:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-stlr
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dtfield
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marko
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zlogging
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynir
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gcal-sync
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KTensors
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vios
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spark-datax-tools
+[2023-06-12 06:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lawg
+[2023-06-12 06:04:17] INFO root fetch - processPackages [KTensors]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 06:04:17] WARNING root fetch - processPackages [vios]: Skipping, unable to determine old version
+[2023-06-12 06:04:17] INFO root fetch - processPackages [vios]: Start processing: KTensors
+[2023-06-12 06:04:17] INFO root fetch - main [MainThread]: End processing [vios] error
+[2023-06-12 06:04:17] INFO root fetch - processPackages [KTensors]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 06:04:18] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/30/45/71fb24f224af0b87063b556697251ae46b5def43c80f9d63dd50f877edaa/KTensors-0.1.0.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [antchain-stlr]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-06-12 06:04:18] WARNING root fetch - processPackages [lawg]: Skipping, unable to determine old version
+[2023-06-12 06:04:18] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/30/45/71fb24f224af0b87063b556697251ae46b5def43c80f9d63dd50f877edaa/KTensors-0.1.0.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - main [MainThread]: End processing [lawg] error
+[2023-06-12 06:04:18] INFO root fetch - processPackages [dtfield]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-12 06:04:18] WARNING root fetch - processPackages [spark-datax-tools]: Skipping, unable to determine old version
+[2023-06-12 06:04:18] INFO root fetch - processPackages [marko]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-06-12 06:04:18] INFO root fetch - main [MainThread]: End processing [spark-datax-tools] error
+[2023-06-12 06:04:18] INFO root fetch - processPackages [zlogging]: New version: [0.1.2.post5] Old Version: [0.1.2.post4]
+[2023-06-12 06:04:18] INFO root fetch - processPackages [pynir]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-12 06:04:18] INFO root fetch - processPackages [gcal-sync]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-06-12 06:04:18] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/a7/0a/e9e5087cb225109c31377475879fbacc62e74fcc6f039f635b4e3688c692/KTensors-0.1.1.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/a7/0a/e9e5087cb225109c31377475879fbacc62e74fcc6f039f635b4e3688c692/KTensors-0.1.1.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-12 06:04:18] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.1.0.tar.gz tmp/KTensors-0.1.1.tar.gz --markdown 20230612/K/KTensors/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 06:04:18] INFO root fetch - processPackages [marko]: Downloading https://files.pythonhosted.org/packages/51/a6/0400db6f337e5b72b87def839ce448b05c5495c225fdc3b9e5fe6d19d4bd/marko-1.3.1.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-12 06:04:18] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.1.0.tar.gz tmp/KTensors-0.1.1.tar.gz --markdown 20230612/K/KTensors/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 06:04:18] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/7c/53/dd848f998229eb7d4474ebe742e724c09d0678d6cbd141797c6dc8e71834/dtfield-0.1.1.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [antchain-stlr]: Downloading https://files.pythonhosted.org/packages/a8/a2/d969ff194c18b1178735adbd48b39959974bc311f96e6e8466315908c927/antchain_stlr-2.4.0.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [zlogging]: Downloading https://files.pythonhosted.org/packages/ba/d1/037cc2884f818d0e85806f524b223c1e82572486099162d622a6dd06dbb9/zlogging-0.1.2.post4.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [gcal-sync]: Downloading https://files.pythonhosted.org/packages/ea/69/2aa680cabde79c5e91c046fff31f5c8b917eec7e0ab24c21d7c19c1e3a65/gcal-sync-4.2.0.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [pynir]: Downloading https://files.pythonhosted.org/packages/a5/64/66e8d8dfe8c94be87273eb551440b0f84dc6cc9af3b44fcdf6a3dd99dc97/pynir-0.7.7.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [marko]: Downloading https://files.pythonhosted.org/packages/18/6b/cd7cb07a60837c91b64729abf328e9b13b4af873d72165d3a5c6e99756a7/marko-2.0.0.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/d2/24/c034887dd63d931842f39e491b69a33b41053f068b40145f3c16e3786bcf/dtfield-0.1.3.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [gcal-sync]: Downloading https://files.pythonhosted.org/packages/b8/a5/d5ac06c64b6ada30b88f7da67317993153f904804b7443feda3d54d2f608/gcal-sync-4.2.1.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [antchain-stlr]: Downloading https://files.pythonhosted.org/packages/48/54/ca63a8feb7f220ebcbbd2742e5b080d6bf7b932d06c86d17f5c5761c54d3/antchain_stlr-2.5.0.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [zlogging]: Downloading https://files.pythonhosted.org/packages/32/85/9c466f0c1f040c593a63143e7a852fc663f08640782d6a88d8dbc8f4a997/zlogging-0.1.2.post5.tar.gz
+[2023-06-12 06:04:18] INFO root fetch - processPackages [marko]: executing diffoscope
+[2023-06-12 06:04:18] INFO root fetch - processPackages [marko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marko-1.3.1.tar.gz tmp/marko-2.0.0.tar.gz --markdown 20230612/m/marko/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-12 06:04:18] INFO root fetch - processPackages [dtfield]: executing diffoscope
+[2023-06-12 06:04:18] INFO root fetch - processPackages [dtfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfield-0.1.1.tar.gz tmp/dtfield-0.1.3.tar.gz --markdown 20230612/d/dtfield/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 06:04:18] INFO root fetch - processPackages [antchain-stlr]: executing diffoscope
+[2023-06-12 06:04:18] INFO root fetch - processPackages [antchain-stlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_stlr-2.4.0.tar.gz tmp/antchain_stlr-2.5.0.tar.gz --markdown 20230612/a/antchain-stlr/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-06-12 06:04:18] INFO root fetch - processPackages [gcal-sync]: executing diffoscope
+[2023-06-12 06:04:18] INFO root fetch - processPackages [gcal-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcal-sync-4.2.0.tar.gz tmp/gcal-sync-4.2.1.tar.gz --markdown 20230612/g/gcal-sync/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-06-12 06:04:18] INFO root fetch - processPackages [zlogging]: executing diffoscope
+[2023-06-12 06:04:18] INFO root fetch - processPackages [zlogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlogging-0.1.2.post4.tar.gz tmp/zlogging-0.1.2.post5.tar.gz --markdown 20230612/z/zlogging/0.1.2.post4-0.1.2.post5/diff.md --exclude *.pyd
+[2023-06-12 06:04:19] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.1.0.tar.gz]
+[2023-06-12 06:04:19] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.1.1.tar.gz]
+[2023-06-12 06:04:19] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-12 06:04:19] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-12 06:04:19] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.1.tar.gz]
+[2023-06-12 06:04:19] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.3.tar.gz]
+[2023-06-12 06:04:19] INFO root fetch - main [MainThread]: End processing [dtfield]: success
+[2023-06-12 06:04:20] INFO root fetch - processPackages [marko]: Remove: archive file [/home/abi/fetcher/tmp/marko-1.3.1.tar.gz]
+[2023-06-12 06:04:20] INFO root fetch - processPackages [marko]: Remove: archive file [/home/abi/fetcher/tmp/marko-2.0.0.tar.gz]
+[2023-06-12 06:04:20] INFO root fetch - main [MainThread]: End processing [marko]: success
+[2023-06-12 06:04:20] INFO root fetch - processPackages [pynir]: Downloading https://files.pythonhosted.org/packages/40/e5/9d8feaaf998faae79971e58d3b247aa20ce11c2546418d48ec665b998f85/pynir-0.7.8.tar.gz
+[2023-06-12 06:04:20] INFO root fetch - processPackages [antchain-stlr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_stlr-2.4.0.tar.gz]
+[2023-06-12 06:04:20] INFO root fetch - processPackages [antchain-stlr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_stlr-2.5.0.tar.gz]
+[2023-06-12 06:04:20] INFO root fetch - main [MainThread]: End processing [antchain-stlr]: success
+[2023-06-12 06:04:21] INFO root fetch - processPackages [zlogging]: Remove: archive file [/home/abi/fetcher/tmp/zlogging-0.1.2.post4.tar.gz]
+[2023-06-12 06:04:21] INFO root fetch - processPackages [zlogging]: Remove: archive file [/home/abi/fetcher/tmp/zlogging-0.1.2.post5.tar.gz]
+[2023-06-12 06:04:21] INFO root fetch - main [MainThread]: End processing [zlogging]: success
+[2023-06-12 06:04:21] INFO root fetch - processPackages [pynir]: executing diffoscope
+[2023-06-12 06:04:21] INFO root fetch - processPackages [pynir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynir-0.7.7.tar.gz tmp/pynir-0.7.8.tar.gz --markdown 20230612/p/pynir/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-12 06:04:21] INFO root fetch - processPackages [gcal-sync]: Remove: archive file [/home/abi/fetcher/tmp/gcal-sync-4.2.0.tar.gz]
+[2023-06-12 06:04:21] INFO root fetch - processPackages [gcal-sync]: Remove: archive file [/home/abi/fetcher/tmp/gcal-sync-4.2.1.tar.gz]
+[2023-06-12 06:04:21] INFO root fetch - main [MainThread]: End processing [gcal-sync]: success
+[2023-06-12 06:04:22] INFO root fetch - processPackages [pynir]: Remove: archive file [/home/abi/fetcher/tmp/pynir-0.7.7.tar.gz]
+[2023-06-12 06:04:22] INFO root fetch - processPackages [pynir]: Remove: archive file [/home/abi/fetcher/tmp/pynir-0.7.8.tar.gz]
+[2023-06-12 06:04:22] INFO root fetch - main [MainThread]: End processing [pynir]: success
+[2023-06-12 06:04:22] INFO root fetch - main [MainThread]: Store serial: [18464428]
