@@ -20171,3 +20171,219 @@ EOFError: EOF read where object expected
 [2023-06-12 16:12:18] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.6.12.5.tar.gz]
 [2023-06-12 16:12:18] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
 [2023-06-12 16:12:18] INFO root fetch - main [MainThread]: Store serial: [18469741]
+[2023-06-12 16:17:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469741]
+[2023-06-12 16:17:28] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-models
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bquest
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: const-cython-client
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 3DFin
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-nagabus
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: catwalk-client
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napatrackmater
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-exasol
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clise
+[2023-06-12 16:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fractal-server
+[2023-06-12 16:17:28] INFO root fetch - processPackages [bquest]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-12 16:17:28] INFO root fetch - processPackages [core-models]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 16:17:28] INFO root fetch - processPackages [const-cython-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 16:17:28] INFO root fetch - processPackages [catwalk-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 16:17:28] INFO root fetch - processPackages [clise]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-12 16:17:28] INFO root fetch - processPackages [dbt-exasol]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-12 16:17:28] INFO root fetch - processPackages [nonebot-plugin-nagabus]: New version: [0.2.1] Old Version: [0.2.0.post1]
+[2023-06-12 16:17:28] WARNING root fetch - processPackages [3DFin]: Skipping, unable to determine old version
+[2023-06-12 16:17:28] INFO root fetch - processPackages [3DFin]: Start processing: pybox-toolkit
+[2023-06-12 16:17:28] INFO root fetch - main [MainThread]: End processing [3DFin] error
+[2023-06-12 16:17:28] INFO root fetch - processPackages [napatrackmater]: New version: [3.7.3] Old Version: [3.7.2]
+[2023-06-12 16:17:28] INFO root fetch - processPackages [fractal-server]: New version: [1.3.0a4] Old Version: [1.3.0a3]
+[2023-06-12 16:17:28] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.6.dev4] Old Version: [0.1.6.dev13]
+[2023-06-12 16:17:28] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/08/18/a568ec830298c244a5da3cb83c0bdcb553c90268e5e298f1d152752f779d/core_models-0.0.7.tar.gz
+[2023-06-12 16:17:28] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/9c/b0/30cb0d563b3ef99418367f4316a1e66be58f780f7112ebbf4c60b9497cad/fractal_server-1.3.0a3.tar.gz
+[2023-06-12 16:17:28] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/b0/2a/d533a3dcd654c3153eca538a20555201a24add2fd0eed0b32b91f0640681/napatrackmater-3.7.2.tar.gz
+[2023-06-12 16:17:28] INFO root fetch - processPackages [const-cython-client]: Downloading https://files.pythonhosted.org/packages/39/fa/db1170106f81e81f98a7dc88f00a9f2bb4bcde8c934c81efd6b9dffbebc0/const-cython-client-0.0.1.tar.gz
+[2023-06-12 16:17:28] INFO root fetch - processPackages [clise]: Downloading https://files.pythonhosted.org/packages/ee/66/d0aebef994588b9c3323bd31304110a1895b587b9e0a67318ceafa99dc8e/clise-0.1.5.tar.gz
+[2023-06-12 16:17:28] INFO root fetch - processPackages [bquest]: Downloading https://files.pythonhosted.org/packages/40/3d/c4b53d5a343c6c83fcbb309a785e97a14be201d693d4dd4654a7504bdbdb/bquest-0.0.1.tar.gz
+[2023-06-12 16:17:28] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/08/f6/e285c7f2802ba03dbad51a0447c8e404cc2c444b7d15500e6dac9ba83ef7/pybox-toolkit-0.1.6.dev13.tar.gz
+[2023-06-12 16:17:28] INFO root fetch - processPackages [catwalk-client]: Downloading https://files.pythonhosted.org/packages/be/e1/2689c69cf1c4d9edbcb19ba0ce8e06eb89600c26ee4b9b13c0f92d1b98ba/catwalk_client-0.0.8.tar.gz
+[2023-06-12 16:17:28] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/02/f7/6e2b9d98a80836f098767285fe846b2a593693921b30f4aaf326b1547a7c/nonebot_plugin_nagabus-0.2.0.post1.tar.gz
+[2023-06-12 16:17:28] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/4f/fe/74c6f08bfed4f6e2d0df76543237da012dbe54a8045499bcd84ba215b134/dbt_exasol-1.4.0.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/0f/ca/753b7b7ba37dec23ae65a7d4818bce807c14a4c97caff5573a3983c7a405/core_models-0.0.8.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/e1/db/e417d66004e32feeabe0efde196b0592908c337065ae68b4c38af8a2d7e8/fractal_server-1.3.0a4.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/58/56/983c50028000d66dd2c303150c7e0465515a4af32b1fdf3add6e00f6a9fa/napatrackmater-3.7.3.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [const-cython-client]: Downloading https://files.pythonhosted.org/packages/85/87/54f89c4890053fd6821c48dc217d528d9e92dc21a9f22812ed1c085f2415/const-cython-client-0.0.2.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.0.7.tar.gz tmp/core_models-0.0.8.tar.gz --markdown 20230612/c/core-models/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 16:17:29] INFO root fetch - processPackages [bquest]: Downloading https://files.pythonhosted.org/packages/c9/3e/c6072e2bf5df1c061abba33fa3faef8a9fbfc7893123596eb6ec9f94d2f0/bquest-0.1.0.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.7.2.tar.gz tmp/napatrackmater-3.7.3.tar.gz --markdown 20230612/n/napatrackmater/3.7.2-3.7.3/diff.md --exclude *.pyd
+[2023-06-12 16:17:29] INFO root fetch - processPackages [const-cython-client]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [const-cython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const-cython-client-0.0.1.tar.gz tmp/const-cython-client-0.0.2.tar.gz --markdown 20230612/c/const-cython-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 16:17:29] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/14/7e/4043fe9b332f63810847b699a3b07a509e21395498852ae4b50f151b15c8/nonebot_plugin_nagabus-0.2.1.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/aa/4f/7fa8f6c72981b59a68e17239f1ab6917b507551c89c4c931ca2eb541d534/pybox-toolkit-0.1.6.dev4.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [clise]: Downloading https://files.pythonhosted.org/packages/a1/0d/35d66638f3ae0ed20e04b6e73153ec3711912dea22f1cc1d1271007f5479/clise-0.1.6.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.3.0a3.tar.gz tmp/fractal_server-1.3.0a4.tar.gz --markdown 20230612/f/fractal-server/1.3.0a3-1.3.0a4/diff.md --exclude *.pyd
+[2023-06-12 16:17:29] INFO root fetch - processPackages [bquest]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [bquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bquest-0.0.1.tar.gz tmp/bquest-0.1.0.tar.gz --markdown 20230612/b/bquest/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 16:17:29] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/3f/08/0c946bd0b87af86083ad1571e7a0a079ec79919948a68af8bf647dff4e27/dbt_exasol-1.4.1.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [nonebot-plugin-nagabus]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [nonebot-plugin-nagabus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nagabus-0.2.0.post1.tar.gz tmp/nonebot_plugin_nagabus-0.2.1.tar.gz --markdown 20230612/n/nonebot-plugin-nagabus/0.2.0.post1-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 16:17:29] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.6.dev13.tar.gz tmp/pybox-toolkit-0.1.6.dev4.tar.gz --markdown 20230612/p/pybox-toolkit/0.1.6.dev13-0.1.6.dev4/diff.md --exclude *.pyd
+[2023-06-12 16:17:29] INFO root fetch - processPackages [catwalk-client]: Downloading https://files.pythonhosted.org/packages/58/a0/df0b77518706d2271a999e906a65b9c5e019007055ed27147a03013ebe69/catwalk_client-0.0.9.tar.gz
+[2023-06-12 16:17:29] INFO root fetch - processPackages [clise]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [clise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clise-0.1.5.tar.gz tmp/clise-0.1.6.tar.gz --markdown 20230612/c/clise/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-12 16:17:29] INFO root fetch - processPackages [dbt-exasol]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [dbt-exasol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_exasol-1.4.0.tar.gz tmp/dbt_exasol-1.4.1.tar.gz --markdown 20230612/d/dbt-exasol/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-12 16:17:29] INFO root fetch - processPackages [catwalk-client]: executing diffoscope
+[2023-06-12 16:17:29] INFO root fetch - processPackages [catwalk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catwalk_client-0.0.8.tar.gz tmp/catwalk_client-0.0.9.tar.gz --markdown 20230612/c/catwalk-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 16:17:32] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.6.dev13.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.6.dev4.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [pybox-toolkit]: Start processing: jupyter-theme-editor
+[2023-06-12 16:17:32] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-12 16:17:32] INFO root fetch - processPackages [jupyter-theme-editor]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [const-cython-client]: Remove: archive file [/home/abi/fetcher/tmp/const-cython-client-0.0.1.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [const-cython-client]: Remove: archive file [/home/abi/fetcher/tmp/const-cython-client-0.0.2.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [const-cython-client]: Start processing: fractal-client
+[2023-06-12 16:17:32] INFO root fetch - main [MainThread]: End processing [const-cython-client]: success
+[2023-06-12 16:17:32] INFO root fetch - processPackages [fractal-client]: New version: [1.3.0a2] Old Version: [1.3.0a1]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [bquest]: Remove: archive file [/home/abi/fetcher/tmp/bquest-0.0.1.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [bquest]: Remove: archive file [/home/abi/fetcher/tmp/bquest-0.1.0.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [bquest]: Start processing: crackerjack
+[2023-06-12 16:17:32] INFO root fetch - main [MainThread]: End processing [bquest]: success
+[2023-06-12 16:17:32] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/ae/b8/7ed3d3adb28c304384d6502785d37cfaddeeb4aa56ac8ee91f1705e3341a/fractal_client-1.3.0a1.tar.gz
+[2023-06-12 16:17:32] INFO root fetch - processPackages [crackerjack]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/89/9e/e7135de38637d0509e72fd08e0baa3c9cb241b454ffbb7a338af3394d094/crackerjack-0.2.8.tar.gz
+[2023-06-12 16:17:32] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.0.post1.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.1.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Start processing: dark-matter
+[2023-06-12 16:17:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nagabus]: success
+[2023-06-12 16:17:32] INFO root fetch - processPackages [jupyter-theme-editor]: Downloading https://files.pythonhosted.org/packages/f7/20/ae2d14045901746268d5c95367c10a11cc935b42a244701eb9db4ef54a41/jupyter_theme_editor-0.3.0.tar.gz
+[2023-06-12 16:17:32] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [catwalk-client]: Remove: archive file [/home/abi/fetcher/tmp/catwalk_client-0.0.8.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [catwalk-client]: Remove: archive file [/home/abi/fetcher/tmp/catwalk_client-0.0.9.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [catwalk-client]: Start processing: controlnet-v11-utils
+[2023-06-12 16:17:32] INFO root fetch - main [MainThread]: End processing [catwalk-client]: success
+[2023-06-12 16:17:32] WARNING root fetch - processPackages [controlnet-v11-utils]: Skipping, unable to determine old version
+[2023-06-12 16:17:32] INFO root fetch - processPackages [controlnet-v11-utils]: Start processing: minecraft-forgePY
+[2023-06-12 16:17:32] INFO root fetch - main [MainThread]: End processing [controlnet-v11-utils] error
+[2023-06-12 16:17:32] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/fe/a3/1ebcf53b17ff61ea71f6567720567449867c96e1ef5ee5812a7d4c08083c/fractal_client-1.3.0a2.tar.gz
+[2023-06-12 16:17:32] INFO root fetch - processPackages [minecraft-forgePY]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-06-12 16:17:32] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/f9/d9/53bd0b8e80de8d0b6daab1520655fbe8d9e84508dec7f09efea4f77d9041/crackerjack-0.3.0.tar.gz
+[2023-06-12 16:17:32] INFO root fetch - processPackages [jupyter-theme-editor]: Downloading https://files.pythonhosted.org/packages/ac/c4/a827e5f8b32d109f59386a723ba0bb9a6b54922a0f539370dc9f021e3185/jupyter_theme_editor-0.4.0.tar.gz
+[2023-06-12 16:17:32] INFO root fetch - processPackages [minecraft-forgePY]: Downloading https://files.pythonhosted.org/packages/dc/4a/6f3b818b827a21b2697fcc1098e1dd66594adc97e8d2fdff844be73467a3/minecraft-ForgePY-1.0.0.tar.gz
+[2023-06-12 16:17:32] INFO root fetch - processPackages [fractal-client]: executing diffoscope
+[2023-06-12 16:17:32] INFO root fetch - processPackages [fractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_client-1.3.0a1.tar.gz tmp/fractal_client-1.3.0a2.tar.gz --markdown 20230612/f/fractal-client/1.3.0a1-1.3.0a2/diff.md --exclude *.pyd
+[2023-06-12 16:17:32] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-12 16:17:32] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.2.8.tar.gz tmp/crackerjack-0.3.0.tar.gz --markdown 20230612/c/crackerjack/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-06-12 16:17:32] INFO root fetch - processPackages [jupyter-theme-editor]: executing diffoscope
+[2023-06-12 16:17:32] INFO root fetch - processPackages [jupyter-theme-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_theme_editor-0.3.0.tar.gz tmp/jupyter_theme_editor-0.4.0.tar.gz --markdown 20230612/j/jupyter-theme-editor/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-12 16:17:32] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.0.7.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.0.8.tar.gz]
+[2023-06-12 16:17:32] INFO root fetch - processPackages [core-models]: Start processing: nucliadb
+[2023-06-12 16:17:32] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-06-12 16:17:32] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-06-12 16:17:32] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-12 16:17:33] INFO root fetch - processPackages [minecraft-forgePY]: Downloading https://files.pythonhosted.org/packages/97/e4/de79560ee820f339648438fb0a5ad53ab4ec55bcec9c9999395f6e4c6ddc/minecraft-forgePY-1.0.1.tar.gz
+[2023-06-12 16:17:33] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-06-12 16:17:33] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-06-12 16:17:33] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230612/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-06-12 16:17:33] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.2.tar.gz]
+[2023-06-12 16:17:33] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.3.tar.gz]
+[2023-06-12 16:17:33] INFO root fetch - processPackages [napatrackmater]: Start processing: nucliadb-client
+[2023-06-12 16:17:33] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-12 16:17:33] INFO root fetch - processPackages [minecraft-forgePY]: executing diffoscope
+[2023-06-12 16:17:33] INFO root fetch - processPackages [minecraft-forgePY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-ForgePY-1.0.0.tar.gz tmp/minecraft-forgePY-1.0.1.tar.gz --markdown 20230612/m/minecraft-forgePY/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 16:17:33] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-12 16:17:33] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-06-12 16:17:33] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-06-12 16:17:33] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-12 16:17:33] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230612/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-12 16:17:33] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-06-12 16:17:33] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-12 16:17:33] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230612/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-12 16:17:34] INFO root fetch - processPackages [dbt-exasol]: Remove: archive file [/home/abi/fetcher/tmp/dbt_exasol-1.4.0.tar.gz]
+[2023-06-12 16:17:34] INFO root fetch - processPackages [dbt-exasol]: Remove: archive file [/home/abi/fetcher/tmp/dbt_exasol-1.4.1.tar.gz]
+[2023-06-12 16:17:34] INFO root fetch - processPackages [dbt-exasol]: Start processing: nucliadb-dataset
+[2023-06-12 16:17:34] INFO root fetch - main [MainThread]: End processing [dbt-exasol]: success
+[2023-06-12 16:17:34] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-12 16:17:34] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-06-12 16:17:34] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230612/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-12 16:17:35] INFO root fetch - processPackages [clise]: Remove: archive file [/home/abi/fetcher/tmp/clise-0.1.5.tar.gz]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [clise]: Remove: archive file [/home/abi/fetcher/tmp/clise-0.1.6.tar.gz]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [clise]: Start processing: nucliadb-models
+[2023-06-12 16:17:35] INFO root fetch - main [MainThread]: End processing [clise]: success
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-06-12 16:17:35] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.8.tar.gz]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.0.tar.gz]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [crackerjack]: Start processing: nucliadb-protos
+[2023-06-12 16:17:35] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.0a3.tar.gz]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.0a4.tar.gz]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [fractal-server]: Start processing: nucliadb-sdk
+[2023-06-12 16:17:35] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-06-12 16:17:35] INFO root fetch - processPackages [minecraft-forgePY]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-ForgePY-1.0.0.tar.gz]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [minecraft-forgePY]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-forgePY-1.0.1.tar.gz]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230612/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-12 16:17:35] INFO root fetch - processPackages [minecraft-forgePY]: Start processing: nucliadb-utils
+[2023-06-12 16:17:35] INFO root fetch - main [MainThread]: End processing [minecraft-forgePY]: success
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-06-12 16:17:35] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230612/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-client]: Start processing: fractal-tasks-core
+[2023-06-12 16:17:36] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230612/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-12 16:17:36] INFO root fetch - processPackages [fractal-tasks-core]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-12 16:17:36] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230612/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-12 16:17:36] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/dc/7a/c7e9ed4dcf3416a2791d6cb84bb56a4b3e7e24febd429a3d95bca296551a/fractal_tasks_core-0.9.3.tar.gz
+[2023-06-12 16:17:36] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/b7/d9/0b556d4ee7006a6c2f8d6e89d24d5bd88dea65730a992c5503f7991416e8/fractal_tasks_core-0.9.4.tar.gz
+[2023-06-12 16:17:36] INFO root fetch - processPackages [fractal-tasks-core]: executing diffoscope
+[2023-06-12 16:17:36] INFO root fetch - processPackages [fractal-tasks-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_tasks_core-0.9.3.tar.gz tmp/fractal_tasks_core-0.9.4.tar.gz --markdown 20230612/f/fractal-tasks-core/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 16:17:37] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-12 16:17:37] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-12 16:17:37] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-12 16:17:38] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-12 16:17:38] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-12 16:17:38] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-12 16:17:38] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.3.0a1.tar.gz]
+[2023-06-12 16:17:38] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.3.0a2.tar.gz]
+[2023-06-12 16:17:38] INFO root fetch - main [MainThread]: End processing [fractal-client]: success
+[2023-06-12 16:17:38] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-12 16:17:38] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-12 16:17:38] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-12 16:17:39] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-12 16:17:39] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-12 16:17:39] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-12 16:17:39] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.3.tar.gz]
+[2023-06-12 16:17:39] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.4.tar.gz]
+[2023-06-12 16:17:39] INFO root fetch - main [MainThread]: End processing [fractal-tasks-core]: success
+[2023-06-12 16:17:39] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-12 16:17:39] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-12 16:17:39] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-12 16:17:40] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-12 16:17:40] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-12 16:17:40] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-12 16:17:40] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.8.tar.gz]
+[2023-06-12 16:17:40] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2023-06-12 16:17:40] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-06-12 16:17:44] INFO root fetch - processPackages [jupyter-theme-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_theme_editor-0.3.0.tar.gz]
+[2023-06-12 16:17:44] INFO root fetch - processPackages [jupyter-theme-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_theme_editor-0.4.0.tar.gz]
+[2023-06-12 16:17:44] INFO root fetch - main [MainThread]: End processing [jupyter-theme-editor]: success
+[2023-06-12 16:17:44] INFO root fetch - main [MainThread]: Store serial: [18469811]
