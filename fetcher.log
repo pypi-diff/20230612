@@ -21058,3 +21058,116 @@ EOFError: EOF read where object expected
 [2023-06-12 16:39:50] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2023-06-12 16:39:50] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-06-12 16:39:50] INFO root fetch - main [MainThread]: Store serial: [18470067]
+[2023-06-12 16:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470067]
+[2023-06-12 16:44:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-12 16:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strongdm
+[2023-06-12 16:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-06-12 16:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yunxiao
+[2023-06-12 16:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proconip
+[2023-06-12 16:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taipy
+[2023-06-12 16:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LaueTools
+[2023-06-12 16:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: confluent-kafka-stubs
+[2023-06-12 16:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CLEMENTDNA
+[2023-06-12 16:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wsrepl
+[2023-06-12 16:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cbcmgr
+[2023-06-12 16:45:00] INFO root fetch - processPackages [taipy]: New version: [2.3.0.dev2] Old Version: [2.3.0.dev1]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [cbcmgr]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [proconip]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [yunxiao]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [strongdm]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [confluent-kafka-stubs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 16:45:00] WARNING root fetch - processPackages [CLEMENTDNA]: Skipping, unable to determine old version
+[2023-06-12 16:45:00] INFO root fetch - processPackages [LaueTools]: New version: [3.0.66] Old Version: [3.0.65]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [CLEMENTDNA]: Start processing: macrometa-source-collection
+[2023-06-12 16:45:00] INFO root fetch - main [MainThread]: End processing [CLEMENTDNA] error
+[2023-06-12 16:45:00] WARNING root fetch - processPackages [wsrepl]: Skipping, unable to determine old version
+[2023-06-12 16:45:00] INFO root fetch - processPackages [wsrepl]: Start processing: denpy
+[2023-06-12 16:45:00] INFO root fetch - main [MainThread]: End processing [wsrepl] error
+[2023-06-12 16:45:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/bd/19/a2d6d2043d6d48da668dba6b44d96177587e9c507f03395bc47f2a436c96/cbcmgr-1.2.3.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/41/70/1865752e85b4d8b72772cdfee927d27fc8e6cf997edff1b49433739c9538/proconip-1.2.1.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [denpy]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [taipy]: Downloading https://files.pythonhosted.org/packages/c6/c0/fd10c948572f7341cd743e36bc87145d67c0621c29c0a951fd7a80dadf4f/taipy-2.3.0.dev1.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [confluent-kafka-stubs]: Downloading https://files.pythonhosted.org/packages/45/e0/f6cda873622c402958e9228aac09fb3448226d359342d62d9e7f5ab36f0e/confluent_kafka_stubs-0.0.1.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/24/42/cadc26377fa7f55dabca1f533f73b60e8ad9835239b165bc7fafee6fe5be/yunxiao-0.2.1.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [LaueTools]: Downloading https://files.pythonhosted.org/packages/53/34/d5eb07a0f504d7f1b6e2c8b2155987c3fa1891031b76e32b0a2794514a97/LaueTools-3.0.65.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/b2/61/d709d4ffd36c3ab307d0c0ecd7c0c744bf132eb8955ebb9a3fcf22112f8e/macrometa-source-collection-0.0.39.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [denpy]: Downloading https://files.pythonhosted.org/packages/d7/46/b33f690890ae95367f8d1bd0f4938b0cd7084ed1aa203cd07f22692f7bda/denpy-1.0.4.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/36/38/cf59ccf2258e3dd7b8d58f2bdfd7bbb45c61f016917d4d3a615d926810b5/strongdm-3.8.0.zip
+[2023-06-12 16:45:00] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/d7/ad/db61d018a2428528e904f583eecc0ee27e1937d60450a7479a6ec5d859a3/cbcmgr-1.2.4.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/49/bc/0d9059338e1104411b791d90a01c29001de355db2d69726e2b93febdae4a/proconip-1.2.2.tar.gz
+[2023-06-12 16:45:00] WARNING root fetch - processPackages [LaueTools]: Skipping package: exceeds size limit 48278718>=10485760
+[2023-06-12 16:45:00] INFO root fetch - processPackages [LaueTools]: Start processing: artus
+[2023-06-12 16:45:00] INFO root fetch - main [MainThread]: End processing [LaueTools] error
+[2023-06-12 16:45:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 16:45:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 16:45:00] INFO root fetch - processPackages [artus]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 16:45:00] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2023-06-12 16:45:00] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-1.2.3.tar.gz tmp/cbcmgr-1.2.4.tar.gz --markdown 20230612/c/cbcmgr/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-12 16:45:00] INFO root fetch - processPackages [confluent-kafka-stubs]: Downloading https://files.pythonhosted.org/packages/46/1b/04b4f42b2dce637bfc574ad7a6eccc9ce7e0b0b8563076ea1b82ff85f3bb/confluent_kafka_stubs-0.0.2.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [taipy]: Downloading https://files.pythonhosted.org/packages/11/c1/e3c043bb9ccfc5ecc54336ccf050a8acfb37977a9304f55fa12f5d3d364f/taipy-2.3.0.dev2.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [proconip]: executing diffoscope
+[2023-06-12 16:45:00] INFO root fetch - processPackages [proconip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proconip-1.2.1.tar.gz tmp/proconip-1.2.2.tar.gz --markdown 20230612/p/proconip/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-12 16:45:00] INFO root fetch - processPackages [confluent-kafka-stubs]: executing diffoscope
+[2023-06-12 16:45:00] INFO root fetch - processPackages [confluent-kafka-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confluent_kafka_stubs-0.0.1.tar.gz tmp/confluent_kafka_stubs-0.0.2.tar.gz --markdown 20230612/c/confluent-kafka-stubs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 16:45:00] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/c7/08/475352e6b6745d265a3290501582de2af1994654d612b77b79f11fea3e5e/macrometa-source-collection-0.0.40.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/b5/60/1cc249d07baa7af28c4d2462ef924d1b5d2493db640d624efb43c5756128/yunxiao-0.2.2.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [denpy]: Downloading https://files.pythonhosted.org/packages/47/9e/c771420bbc252fb2ddac9291a2bb9732dfc9aa1ef8f37895d27fabbd4ca3/denpy-1.0.5.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/ee/69/04382392eac96533ce73f2c97a49e87eb0e9ccc0cd00a56f225dc28315c4/artus-0.2.1.tar.gz
+[2023-06-12 16:45:00] INFO root fetch - processPackages [taipy]: executing diffoscope
+[2023-06-12 16:45:00] INFO root fetch - processPackages [taipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-2.3.0.dev1.tar.gz tmp/taipy-2.3.0.dev2.tar.gz --markdown 20230612/t/taipy/2.3.0.dev1-2.3.0.dev2/diff.md --exclude *.pyd
+[2023-06-12 16:45:00] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-12 16:45:00] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.39.tar.gz tmp/macrometa-source-collection-0.0.40.tar.gz --markdown 20230612/m/macrometa-source-collection/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-06-12 16:45:00] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2023-06-12 16:45:00] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.2.1.tar.gz tmp/yunxiao-0.2.2.tar.gz --markdown 20230612/y/yunxiao/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 16:45:00] INFO root fetch - processPackages [denpy]: executing diffoscope
+[2023-06-12 16:45:00] INFO root fetch - processPackages [denpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denpy-1.0.4.tar.gz tmp/denpy-1.0.5.tar.gz --markdown 20230612/d/denpy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-12 16:45:00] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/de/3d/284dab2f26c0df8ebc1ebf789316bfabb62b6be330fb3d9f01c0ed4cc5d6/strongdm-3.9.0.zip
+[2023-06-12 16:45:00] INFO root fetch - processPackages [strongdm]: executing diffoscope
+[2023-06-12 16:45:00] INFO root fetch - processPackages [strongdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongdm-3.8.0.zip tmp/strongdm-3.9.0.zip --markdown 20230612/s/strongdm/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:45:01] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/a0/02/93757e040f4ebba2924b010756d7abe710482b324d7d1461cf257e026c5e/artus-0.2.2.tar.gz
+[2023-06-12 16:45:01] INFO root fetch - processPackages [artus]: executing diffoscope
+[2023-06-12 16:45:01] INFO root fetch - processPackages [artus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artus-0.2.1.tar.gz tmp/artus-0.2.2.tar.gz --markdown 20230612/a/artus/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 16:45:02] INFO root fetch - processPackages [confluent-kafka-stubs]: Remove: archive file [/home/abi/fetcher/tmp/confluent_kafka_stubs-0.0.1.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - processPackages [confluent-kafka-stubs]: Remove: archive file [/home/abi/fetcher/tmp/confluent_kafka_stubs-0.0.2.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - processPackages [confluent-kafka-stubs]: Start processing: amis-python
+[2023-06-12 16:45:02] INFO root fetch - main [MainThread]: End processing [confluent-kafka-stubs]: success
+[2023-06-12 16:45:02] INFO root fetch - processPackages [amis-python]: New version: [1.0.8.post2] Old Version: [1.0.8.post1]
+[2023-06-12 16:45:02] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.2.3.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.2.4.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2023-06-12 16:45:02] INFO root fetch - processPackages [amis-python]: Downloading https://files.pythonhosted.org/packages/d9/cc/47b455384f8d7fe3e7cb8fc0b8591f4505d59ea227e818978b1c8ac6155b/amis_python-1.0.8.post1.tar.gz
+[2023-06-12 16:45:02] INFO root fetch - processPackages [denpy]: Remove: archive file [/home/abi/fetcher/tmp/denpy-1.0.4.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - processPackages [denpy]: Remove: archive file [/home/abi/fetcher/tmp/denpy-1.0.5.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - main [MainThread]: End processing [denpy]: success
+[2023-06-12 16:45:02] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.39.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.40.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-12 16:45:02] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.1.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.2.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - main [MainThread]: End processing [proconip]: success
+[2023-06-12 16:45:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 16:45:02] INFO root fetch - processPackages [amis-python]: Downloading https://files.pythonhosted.org/packages/2e/04/282fd64df0b50c93e58b41af67c195c64a2d9b72848dd3951ce3b9baca6d/amis_python-1.0.8.post2.tar.gz
+[2023-06-12 16:45:02] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 16:45:02] INFO root fetch - processPackages [amis-python]: executing diffoscope
+[2023-06-12 16:45:02] INFO root fetch - processPackages [amis-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amis_python-1.0.8.post1.tar.gz tmp/amis_python-1.0.8.post2.tar.gz --markdown 20230612/a/amis-python/1.0.8.post1-1.0.8.post2/diff.md --exclude *.pyd
+[2023-06-12 16:45:03] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.2.1.tar.gz]
+[2023-06-12 16:45:03] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.2.2.tar.gz]
+[2023-06-12 16:45:03] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2023-06-12 16:45:03] INFO root fetch - processPackages [strongdm]: Remove: archive file [/home/abi/fetcher/tmp/strongdm-3.8.0.zip]
+[2023-06-12 16:45:03] INFO root fetch - processPackages [strongdm]: Remove: archive file [/home/abi/fetcher/tmp/strongdm-3.9.0.zip]
+[2023-06-12 16:45:03] INFO root fetch - main [MainThread]: End processing [strongdm]: success
+[2023-06-12 16:45:03] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.2.1.tar.gz]
+[2023-06-12 16:45:03] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.2.2.tar.gz]
+[2023-06-12 16:45:03] INFO root fetch - main [MainThread]: End processing [artus]: success
+[2023-06-12 16:45:03] INFO root fetch - processPackages [amis-python]: Remove: archive file [/home/abi/fetcher/tmp/amis_python-1.0.8.post1.tar.gz]
+[2023-06-12 16:45:03] INFO root fetch - processPackages [amis-python]: Remove: archive file [/home/abi/fetcher/tmp/amis_python-1.0.8.post2.tar.gz]
+[2023-06-12 16:45:03] INFO root fetch - main [MainThread]: End processing [amis-python]: success
+[2023-06-12 16:45:08] INFO root fetch - processPackages [taipy]: Remove: archive file [/home/abi/fetcher/tmp/taipy-2.3.0.dev1.tar.gz]
+[2023-06-12 16:45:08] INFO root fetch - processPackages [taipy]: Remove: archive file [/home/abi/fetcher/tmp/taipy-2.3.0.dev2.tar.gz]
+[2023-06-12 16:45:08] INFO root fetch - main [MainThread]: End processing [taipy]: success
+[2023-06-12 16:45:08] INFO root fetch - main [MainThread]: Store serial: [18470111]
