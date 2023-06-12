@@ -8511,3 +8511,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 07:20:12] INFO root fetch - processPackages [visuallayer]: Remove: archive file [/home/abi/fetcher/tmp/visuallayer-0.0.2-py3-none-any.whl.zip]
 [2023-06-12 07:20:12] INFO root fetch - main [MainThread]: End processing [visuallayer]: success
 [2023-06-12 07:20:12] INFO root fetch - main [MainThread]: Store serial: [18464802]
+[2023-06-12 07:25:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464802]
+[2023-06-12 07:25:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-12 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiutil
+[2023-06-12 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioPII
+[2023-06-12 07:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-mvc
+[2023-06-12 07:25:22] INFO root fetch - processPackages [aiutil]: New version: [0.79.0] Old Version: [0.78.0]
+[2023-06-12 07:25:22] INFO root fetch - processPackages [BioPII]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-12 07:25:22] INFO root fetch - processPackages [flet-mvc]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-12 07:25:22] INFO root fetch - processPackages [aiutil]: Downloading https://files.pythonhosted.org/packages/5b/72/f52bcdf5b5826935e1e92d0c398059fdb9c2b8a5dc89baf0766e735fbad2/aiutil-0.78.0.tar.gz
+[2023-06-12 07:25:22] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/c3/8d/659620c3f1d2c13e4265de4d82baff0b4bff03c13ef9a09a0d4468e50651/BioPII-0.1.5.tar.gz
+[2023-06-12 07:25:22] INFO root fetch - processPackages [flet-mvc]: Downloading https://files.pythonhosted.org/packages/f8/26/76d8cab33ecb2b85b85e61b01fdb9f08ec7ae46dd9d3aa17d728ce4f7766/flet-mvc-0.0.4.tar.gz
+[2023-06-12 07:25:23] INFO root fetch - processPackages [aiutil]: Downloading https://files.pythonhosted.org/packages/0e/b0/a8b2aa819bdbf2ce094b4112922fbb5862f4027a693ae0268700088269f7/aiutil-0.79.0.tar.gz
+[2023-06-12 07:25:23] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/10/c9/c922dd251b225df7d888a0b86475c72f9000816625a6e12c0a6494e087d1/BioPII-0.1.6.tar.gz
+[2023-06-12 07:25:23] INFO root fetch - processPackages [flet-mvc]: Downloading https://files.pythonhosted.org/packages/f8/10/b20ece8da23158a3210ea752d217d610ea80abfaa180cc43f9e495c05414/flet-mvc-0.1.0.tar.gz
+[2023-06-12 07:25:23] INFO root fetch - processPackages [aiutil]: executing diffoscope
+[2023-06-12 07:25:23] INFO root fetch - processPackages [aiutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiutil-0.78.0.tar.gz tmp/aiutil-0.79.0.tar.gz --markdown 20230612/a/aiutil/0.78.0-0.79.0/diff.md --exclude *.pyd
+[2023-06-12 07:25:23] INFO root fetch - processPackages [BioPII]: executing diffoscope
+[2023-06-12 07:25:23] INFO root fetch - processPackages [BioPII]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioPII-0.1.5.tar.gz tmp/BioPII-0.1.6.tar.gz --markdown 20230612/B/BioPII/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-12 07:25:23] INFO root fetch - processPackages [flet-mvc]: executing diffoscope
+[2023-06-12 07:25:23] INFO root fetch - processPackages [flet-mvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-mvc-0.0.4.tar.gz tmp/flet-mvc-0.1.0.tar.gz --markdown 20230612/f/flet-mvc/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 07:25:24] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.5.tar.gz]
+[2023-06-12 07:25:24] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.6.tar.gz]
+[2023-06-12 07:25:24] INFO root fetch - main [MainThread]: End processing [BioPII]: success
+[2023-06-12 07:25:24] INFO root fetch - processPackages [aiutil]: Remove: archive file [/home/abi/fetcher/tmp/aiutil-0.78.0.tar.gz]
+[2023-06-12 07:25:24] INFO root fetch - processPackages [aiutil]: Remove: archive file [/home/abi/fetcher/tmp/aiutil-0.79.0.tar.gz]
+[2023-06-12 07:25:24] INFO root fetch - main [MainThread]: End processing [aiutil]: success
+[2023-06-12 07:25:24] INFO root fetch - processPackages [flet-mvc]: Remove: archive file [/home/abi/fetcher/tmp/flet-mvc-0.0.4.tar.gz]
+[2023-06-12 07:25:24] INFO root fetch - processPackages [flet-mvc]: Remove: archive file [/home/abi/fetcher/tmp/flet-mvc-0.1.0.tar.gz]
+[2023-06-12 07:25:24] INFO root fetch - main [MainThread]: End processing [flet-mvc]: success
+[2023-06-12 07:25:24] INFO root fetch - main [MainThread]: Store serial: [18464815]
