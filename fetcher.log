@@ -19851,3 +19851,179 @@ EOFError: EOF read where object expected
 [2023-06-12 16:01:38] INFO root fetch - processPackages [simplejpeg]: Remove: archive file [/home/abi/fetcher/tmp/simplejpeg-1.7.0rc1.tar.gz]
 [2023-06-12 16:01:38] INFO root fetch - main [MainThread]: End processing [simplejpeg]: success
 [2023-06-12 16:01:38] INFO root fetch - main [MainThread]: Store serial: [18469609]
+[2023-06-12 16:06:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469609]
+[2023-06-12 16:06:47] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oexp
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiktok-dlpy
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentio-prober-control
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prometheus-summary
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wbpTextedit
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FairDynamicRec
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libmultilabel
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dartpy
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bump-my-version
+[2023-06-12 16:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mapchete
+[2023-06-12 16:06:48] INFO root fetch - processPackages [prometheus-summary]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 16:06:48] WARNING root fetch - processPackages [tiktok-dlpy]: Skipping, unable to determine old version
+[2023-06-12 16:06:48] INFO root fetch - processPackages [tiktok-dlpy]: Start processing: openlineage-airflow
+[2023-06-12 16:06:48] INFO root fetch - main [MainThread]: End processing [tiktok-dlpy] error
+[2023-06-12 16:06:48] INFO root fetch - processPackages [bump-my-version]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [wbpTextedit]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [sentio-prober-control]: New version: [23.1.3] Old Version: [23.1.2]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [libmultilabel]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [oexp]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [FairDynamicRec]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post96] Old Version: [0.1.0.post95]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [prometheus-summary]: Downloading https://files.pythonhosted.org/packages/cb/3c/dbcc13cc25ea728cd3db849e541858656bd029aac07a0633313abde04458/prometheus-summary-0.1.0.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [mapchete]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [openlineage-airflow]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [FairDynamicRec]: Downloading https://files.pythonhosted.org/packages/5d/b7/0a6c7ebde474948885ba888d63dc08a38814d289f5ec95dc9a06d7ff1e8a/FairDynamicRec-0.0.98.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [wbpTextedit]: Downloading https://files.pythonhosted.org/packages/11/c2/b2b7fab5ddf9086d993722b34cc247a89e2b978cee6746c9cfeab1a89a9b/wbpTextedit-0.1.6.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/69/0e/e3cba100980fedbcc5dce5f7a1d4c950918606a1d012ae0e997575a47e59/oexp-0.7.1.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [libmultilabel]: Downloading https://files.pythonhosted.org/packages/62/e3/d75386c3e872d0cc3f0c6549b85d2ec4fdab73639a8b2422855566820f9e/libmultilabel-0.3.0.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/b5/67/aa4c3a96088c8707cf9aee73f91d9b8d6a9e49860ba90d0ecf24b28b3306/dartpy-0.1.0.post95-cp39-cp39-win_amd64.whl
+[2023-06-12 16:06:48] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/1d/7e/f8af65bae41149b14587ce0db3d047c035ca6549974d016811ef9d333ad2/bump-my-version-0.4.1.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [sentio-prober-control]: Downloading https://files.pythonhosted.org/packages/2c/2f/73566dd37404fb287ab2b42c36297f1e06360c608705ea335b18ee1c8b08/sentio-prober-control-23.1.2.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/d1/2f/f8eb51860249436bc382a3652ba036440bf440f1f872d8ab9e76f7bdaa03/mapchete-2023.6.1.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/58/51/5a84326e4010eb9ee60f5b640b6c588e174ea364fa3cfe42eea82118e396/openlineage-airflow-0.8.2.tar.gz
+[2023-06-12 16:06:48] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20031156>=10485760
+[2023-06-12 16:06:48] INFO root fetch - processPackages [dartpy]: Start processing: openlineage-dagster
+[2023-06-12 16:06:48] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-06-12 16:06:48] INFO root fetch - processPackages [prometheus-summary]: Downloading https://files.pythonhosted.org/packages/94/c5/0d833771cfa97c7b7ae4bf20eeff87fbea058a3892d6b4883407ec90c8b2/prometheus-summary-0.1.1.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [wbpTextedit]: Downloading https://files.pythonhosted.org/packages/57/53/a7184e0e776d278082ca1d51e780d05d4860ba6c300b63414906c5833458/wbpTextedit-0.2.0.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/d5/cd/fe10e7cd405ea172fcd38d9a6f059becf700e586d19843ecfc32d06ec026/oexp-0.7.2.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [openlineage-dagster]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-12 16:06:48] INFO root fetch - processPackages [prometheus-summary]: executing diffoscope
+[2023-06-12 16:06:48] INFO root fetch - processPackages [prometheus-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus-summary-0.1.0.tar.gz tmp/prometheus-summary-0.1.1.tar.gz --markdown 20230612/p/prometheus-summary/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 16:06:48] INFO root fetch - processPackages [libmultilabel]: Downloading https://files.pythonhosted.org/packages/51/fc/627d6013d0529781096b4d2d9282492a48304d2ecfb78d30b342d9311684/libmultilabel-0.3.1.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/dc/ad/abc275bf5b415fe34c93f68f2900477d6274e8805b459c1fb25bb388995d/bump-my-version-0.5.0.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [wbpTextedit]: executing diffoscope
+[2023-06-12 16:06:48] INFO root fetch - processPackages [wbpTextedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpTextedit-0.1.6.tar.gz tmp/wbpTextedit-0.2.0.tar.gz --markdown 20230612/w/wbpTextedit/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 16:06:48] INFO root fetch - processPackages [sentio-prober-control]: Downloading https://files.pythonhosted.org/packages/01/a7/df65f0918e32f54a844413de060eeec412ab064f0cc4000eaf0523810bd7/sentio-prober-control-23.1.3.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [oexp]: executing diffoscope
+[2023-06-12 16:06:48] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/98/af/6d62316dbea31b2cc28c46d30033022da46b99b8a12c5749233c613065f5/mapchete-2023.6.2.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [oexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oexp-0.7.1.tar.gz tmp/oexp-0.7.2.tar.gz --markdown 20230612/o/oexp/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-12 16:06:48] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/fb/61/19a68d46754130a3be40f2dea560fa5df992a6e95e8efd602f5e96f59fef/openlineage-airflow-0.9.0.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [bump-my-version]: executing diffoscope
+[2023-06-12 16:06:48] INFO root fetch - processPackages [bump-my-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump-my-version-0.4.1.tar.gz tmp/bump-my-version-0.5.0.tar.gz --markdown 20230612/b/bump-my-version/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-12 16:06:48] INFO root fetch - processPackages [sentio-prober-control]: executing diffoscope
+[2023-06-12 16:06:48] INFO root fetch - processPackages [sentio-prober-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentio-prober-control-23.1.2.tar.gz tmp/sentio-prober-control-23.1.3.tar.gz --markdown 20230612/s/sentio-prober-control/23.1.2-23.1.3/diff.md --exclude *.pyd
+[2023-06-12 16:06:48] INFO root fetch - processPackages [libmultilabel]: executing diffoscope
+[2023-06-12 16:06:48] INFO root fetch - processPackages [libmultilabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmultilabel-0.3.0.tar.gz tmp/libmultilabel-0.3.1.tar.gz --markdown 20230612/l/libmultilabel/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-12 16:06:48] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/13/67/488fb7516c358e4b285740fb863a79d1279d25d7244a7fe90e6963233d2b/openlineage-dagster-0.8.2.tar.gz
+[2023-06-12 16:06:48] INFO root fetch - processPackages [mapchete]: executing diffoscope
+[2023-06-12 16:06:48] INFO root fetch - processPackages [mapchete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapchete-2023.6.1.tar.gz tmp/mapchete-2023.6.2.tar.gz --markdown 20230612/m/mapchete/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-12 16:06:48] INFO root fetch - processPackages [openlineage-airflow]: executing diffoscope
+[2023-06-12 16:06:48] INFO root fetch - processPackages [openlineage-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-airflow-0.8.2.tar.gz tmp/openlineage-airflow-0.9.0.tar.gz --markdown 20230612/o/openlineage-airflow/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:06:49] INFO root fetch - processPackages [FairDynamicRec]: Downloading https://files.pythonhosted.org/packages/83/63/c6137ab0913afef21e2751c395ace9e2696ac32c771145c8a208c41bbfe1/FairDynamicRec-0.0.99.tar.gz
+[2023-06-12 16:06:49] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/09/1d/f6da3bb3846b35fe97c0530ff4d933757b4c64053a3cc89537356ba447db/openlineage-dagster-0.9.0.tar.gz
+[2023-06-12 16:06:49] INFO root fetch - processPackages [openlineage-dagster]: executing diffoscope
+[2023-06-12 16:06:49] INFO root fetch - processPackages [openlineage-dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dagster-0.8.2.tar.gz tmp/openlineage-dagster-0.9.0.tar.gz --markdown 20230612/o/openlineage-dagster/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:06:50] INFO root fetch - processPackages [FairDynamicRec]: executing diffoscope
+[2023-06-12 16:06:50] INFO root fetch - processPackages [FairDynamicRec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FairDynamicRec-0.0.98.tar.gz tmp/FairDynamicRec-0.0.99.tar.gz --markdown 20230612/F/FairDynamicRec/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 16:06:51] INFO root fetch - processPackages [prometheus-summary]: Remove: archive file [/home/abi/fetcher/tmp/prometheus-summary-0.1.0.tar.gz]
+[2023-06-12 16:06:51] INFO root fetch - processPackages [prometheus-summary]: Remove: archive file [/home/abi/fetcher/tmp/prometheus-summary-0.1.1.tar.gz]
+[2023-06-12 16:06:51] INFO root fetch - processPackages [prometheus-summary]: Start processing: openlineage-dbt
+[2023-06-12 16:06:51] INFO root fetch - main [MainThread]: End processing [prometheus-summary]: success
+[2023-06-12 16:06:51] INFO root fetch - processPackages [openlineage-dbt]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-12 16:06:51] INFO root fetch - processPackages [wbpTextedit]: Remove: archive file [/home/abi/fetcher/tmp/wbpTextedit-0.1.6.tar.gz]
+[2023-06-12 16:06:51] INFO root fetch - processPackages [wbpTextedit]: Remove: archive file [/home/abi/fetcher/tmp/wbpTextedit-0.2.0.tar.gz]
+[2023-06-12 16:06:51] INFO root fetch - processPackages [wbpTextedit]: Start processing: openlineage-integration-common
+[2023-06-12 16:06:51] INFO root fetch - main [MainThread]: End processing [wbpTextedit]: success
+[2023-06-12 16:06:51] INFO root fetch - processPackages [openlineage-integration-common]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-12 16:06:51] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/26/27/cc4b641d34d29e86ad58db25ce999c56af25bcb41fbd2fec3e2697af285c/openlineage-dbt-0.8.2.tar.gz
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-airflow]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-airflow-0.8.2.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-airflow]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-airflow-0.9.0.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-airflow]: Start processing: openlineage-python
+[2023-06-12 16:06:52] INFO root fetch - main [MainThread]: End processing [openlineage-airflow]: success
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-python]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/b0/8f/d5e86853bcc3cdf42b220813ce6ff098d95f6257d611c19a151e17257688/openlineage-dbt-0.9.0.tar.gz
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/e0/42/f729f76f601645e57193d6994aa8db54a5279a5e789fcfa8585b09ea1b40/openlineage-integration-common-0.8.2.tar.gz
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-dbt]: executing diffoscope
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dbt-0.8.2.tar.gz tmp/openlineage-dbt-0.9.0.tar.gz --markdown 20230612/o/openlineage-dbt/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/08/53/fdaf56bed58ad60fb148f28a32df1da172c9439f400c0c4b7ac52e704b22/openlineage-python-0.8.2.tar.gz
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-dagster]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-dagster-0.8.2.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-dagster]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-dagster-0.9.0.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-dagster]: Start processing: openlineage-sql
+[2023-06-12 16:06:52] INFO root fetch - main [MainThread]: End processing [openlineage-dagster]: success
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/ca/7a/0647ff9e01ce6ecdd6ea6498013c9701a74381ad8fdff70e97159d75283a/openlineage-integration-common-0.9.0.tar.gz
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-sql]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.7.1.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.7.2.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [oexp]: Start processing: tdw
+[2023-06-12 16:06:52] INFO root fetch - main [MainThread]: End processing [oexp]: success
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-integration-common]: executing diffoscope
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-integration-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-integration-common-0.8.2.tar.gz tmp/openlineage-integration-common-0.9.0.tar.gz --markdown 20230612/o/openlineage-integration-common/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:06:52] INFO root fetch - processPackages [libmultilabel]: Remove: archive file [/home/abi/fetcher/tmp/libmultilabel-0.3.0.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [libmultilabel]: Remove: archive file [/home/abi/fetcher/tmp/libmultilabel-0.3.1.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [libmultilabel]: Start processing: hikvision-isapi-cli
+[2023-06-12 16:06:52] INFO root fetch - main [MainThread]: End processing [libmultilabel]: success
+[2023-06-12 16:06:52] INFO root fetch - processPackages [bump-my-version]: Remove: archive file [/home/abi/fetcher/tmp/bump-my-version-0.4.1.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [bump-my-version]: Remove: archive file [/home/abi/fetcher/tmp/bump-my-version-0.5.0.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [bump-my-version]: Start processing: fps-jupytercad
+[2023-06-12 16:06:52] INFO root fetch - main [MainThread]: End processing [bump-my-version]: success
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/cd/7a/48f3382f357e7538a2586aa82728311e2406eacf4d0a93f8113e9eada999/openlineage-python-0.9.0.tar.gz
+[2023-06-12 16:06:52] INFO root fetch - processPackages [fps-jupytercad]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [sentio-prober-control]: Remove: archive file [/home/abi/fetcher/tmp/sentio-prober-control-23.1.2.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [sentio-prober-control]: Remove: archive file [/home/abi/fetcher/tmp/sentio-prober-control-23.1.3.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [sentio-prober-control]: Start processing: jupytercad
+[2023-06-12 16:06:52] INFO root fetch - main [MainThread]: End processing [sentio-prober-control]: success
+[2023-06-12 16:06:52] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [jupytercad]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/aa/a1/31b29e16decda21831cc5847fbfb18ad2ce154cd5480301286e7f8f24cfd/openlineage_sql-0.8.2.tar.gz
+[2023-06-12 16:06:52] INFO root fetch - processPackages [hikvision-isapi-cli]: New version: [1.2.1] Old Version: [1.1.1]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [fps-jupytercad]: Downloading https://files.pythonhosted.org/packages/dd/14/74851540b4e13a7e8cf4064e4eaab2b34fe1e2adfb94ba9539098da1db60/fps_jupytercad-0.1.0.tar.gz
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-python]: executing diffoscope
+[2023-06-12 16:06:52] INFO root fetch - processPackages [openlineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-python-0.8.2.tar.gz tmp/openlineage-python-0.9.0.tar.gz --markdown 20230612/o/openlineage-python/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:06:52] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2023.6.1.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2023.6.2.tar.gz]
+[2023-06-12 16:06:52] INFO root fetch - processPackages [mapchete]: Start processing: treesmoothing
+[2023-06-12 16:06:52] INFO root fetch - main [MainThread]: End processing [mapchete]: success
+[2023-06-12 16:06:53] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2023-06-12 16:06:53] INFO root fetch - processPackages [jupytercad]: Downloading https://files.pythonhosted.org/packages/4b/2e/7e0c0b7cb8716bd983527e9b8f88dd98229f2307bcf529e867f6ed524b96/jupytercad-0.3.0.tar.gz
+[2023-06-12 16:06:53] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2023-06-12 16:06:53] INFO root fetch - processPackages [tdw]: Start processing: w-versioned-edgar-renderer
+[2023-06-12 16:06:53] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2023-06-12 16:06:53] WARNING root fetch - processPackages [jupytercad]: Skipping package: exceeds size limit 29281496>=10485760
+[2023-06-12 16:06:53] INFO root fetch - processPackages [jupytercad]: Start processing: dbdicom
+[2023-06-12 16:06:53] WARNING root fetch - processPackages [treesmoothing]: Skipping, unable to determine old version
+[2023-06-12 16:06:53] INFO root fetch - main [MainThread]: End processing [jupytercad] error
+[2023-06-12 16:06:53] INFO root fetch - main [MainThread]: End processing [treesmoothing] error
+[2023-06-12 16:06:53] INFO root fetch - processPackages [fps-jupytercad]: Downloading https://files.pythonhosted.org/packages/30/17/7e798ad399da045ed1d65e5135b6b8acbfbc54d434a82c34c06e3bc65041/fps_jupytercad-0.3.0.tar.gz
+[2023-06-12 16:06:53] INFO root fetch - processPackages [hikvision-isapi-cli]: Downloading https://files.pythonhosted.org/packages/80/9d/8fc7b30a0de0039fb64132d18a124a0c91231dc7a850001e8862acbfb5cc/hikvision_isapi_cli-1.1.1.tar.gz
+[2023-06-12 16:06:53] WARNING root fetch - processPackages [w-versioned-edgar-renderer]: Skipping, unable to determine old version
+[2023-06-12 16:06:53] INFO root fetch - main [MainThread]: End processing [w-versioned-edgar-renderer] error
+[2023-06-12 16:06:53] INFO root fetch - processPackages [dbdicom]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-12 16:06:53] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/46/a5/42019f5764d165c482529b27de537970858fa948b02049ba31b37eea5d01/openlineage_sql-0.9.0.tar.gz
+[2023-06-12 16:06:53] INFO root fetch - processPackages [fps-jupytercad]: executing diffoscope
+[2023-06-12 16:06:53] INFO root fetch - processPackages [fps-jupytercad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_jupytercad-0.1.0.tar.gz tmp/fps_jupytercad-0.3.0.tar.gz --markdown 20230612/f/fps-jupytercad/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-12 16:06:53] INFO root fetch - processPackages [openlineage-sql]: executing diffoscope
+[2023-06-12 16:06:53] INFO root fetch - processPackages [openlineage-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage_sql-0.8.2.tar.gz tmp/openlineage_sql-0.9.0.tar.gz --markdown 20230612/o/openlineage-sql/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:06:53] INFO root fetch - processPackages [dbdicom]: Downloading https://files.pythonhosted.org/packages/8b/da/ca820f03d4150a081b26a58f15dba3f8a0f27d87376ba08a4d9369f5b0d6/dbdicom-0.2.0.tar.gz
+[2023-06-12 16:06:53] WARNING root fetch - processPackages [dbdicom]: Skipping package: exceeds size limit 29767832>=10485760
+[2023-06-12 16:06:53] INFO root fetch - main [MainThread]: End processing [dbdicom] error
+[2023-06-12 16:06:53] INFO root fetch - processPackages [hikvision-isapi-cli]: Downloading https://files.pythonhosted.org/packages/51/54/0ef7945d9b8f7fade71ac8bde19597048d2195bddad6884519031f2251ea/hikvision_isapi_cli-1.2.1.tar.gz
+[2023-06-12 16:06:53] INFO root fetch - processPackages [hikvision-isapi-cli]: executing diffoscope
+[2023-06-12 16:06:53] INFO root fetch - processPackages [hikvision-isapi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikvision_isapi_cli-1.1.1.tar.gz tmp/hikvision_isapi_cli-1.2.1.tar.gz --markdown 20230612/h/hikvision-isapi-cli/1.1.1-1.2.1/diff.md --exclude *.pyd
+[2023-06-12 16:06:54] INFO root fetch - processPackages [openlineage-dbt]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-dbt-0.8.2.tar.gz]
+[2023-06-12 16:06:54] INFO root fetch - processPackages [openlineage-dbt]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-dbt-0.9.0.tar.gz]
+[2023-06-12 16:06:54] INFO root fetch - main [MainThread]: End processing [openlineage-dbt]: success
+[2023-06-12 16:06:54] INFO root fetch - processPackages [openlineage-python]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-python-0.8.2.tar.gz]
+[2023-06-12 16:06:54] INFO root fetch - processPackages [openlineage-python]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-python-0.9.0.tar.gz]
+[2023-06-12 16:06:54] INFO root fetch - main [MainThread]: End processing [openlineage-python]: success
+[2023-06-12 16:06:55] INFO root fetch - processPackages [openlineage-integration-common]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-integration-common-0.8.2.tar.gz]
+[2023-06-12 16:06:55] INFO root fetch - processPackages [openlineage-integration-common]: Remove: archive file [/home/abi/fetcher/tmp/openlineage-integration-common-0.9.0.tar.gz]
+[2023-06-12 16:06:55] INFO root fetch - main [MainThread]: End processing [openlineage-integration-common]: success
+[2023-06-12 16:06:55] INFO root fetch - processPackages [FairDynamicRec]: Remove: archive file [/home/abi/fetcher/tmp/FairDynamicRec-0.0.98.tar.gz]
+[2023-06-12 16:06:55] INFO root fetch - processPackages [FairDynamicRec]: Remove: archive file [/home/abi/fetcher/tmp/FairDynamicRec-0.0.99.tar.gz]
+[2023-06-12 16:06:55] INFO root fetch - main [MainThread]: End processing [FairDynamicRec]: success
+[2023-06-12 16:06:55] INFO root fetch - processPackages [fps-jupytercad]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupytercad-0.1.0.tar.gz]
+[2023-06-12 16:06:55] INFO root fetch - processPackages [fps-jupytercad]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupytercad-0.3.0.tar.gz]
+[2023-06-12 16:06:55] INFO root fetch - main [MainThread]: End processing [fps-jupytercad]: success
+[2023-06-12 16:06:55] INFO root fetch - processPackages [openlineage-sql]: Remove: archive file [/home/abi/fetcher/tmp/openlineage_sql-0.8.2.tar.gz]
+[2023-06-12 16:06:55] INFO root fetch - processPackages [openlineage-sql]: Remove: archive file [/home/abi/fetcher/tmp/openlineage_sql-0.9.0.tar.gz]
+[2023-06-12 16:06:55] INFO root fetch - main [MainThread]: End processing [openlineage-sql]: success
+[2023-06-12 16:06:58] INFO root fetch - processPackages [hikvision-isapi-cli]: Remove: archive file [/home/abi/fetcher/tmp/hikvision_isapi_cli-1.1.1.tar.gz]
+[2023-06-12 16:06:58] INFO root fetch - processPackages [hikvision-isapi-cli]: Remove: archive file [/home/abi/fetcher/tmp/hikvision_isapi_cli-1.2.1.tar.gz]
+[2023-06-12 16:06:58] INFO root fetch - main [MainThread]: End processing [hikvision-isapi-cli]: success
+[2023-06-12 16:06:58] INFO root fetch - main [MainThread]: Store serial: [18469688]
