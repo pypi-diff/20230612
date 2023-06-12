@@ -7767,3 +7767,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 06:09:34] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.7.tar.gz]
 [2023-06-12 06:09:34] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
 [2023-06-12 06:09:34] INFO root fetch - main [MainThread]: Store serial: [18464467]
+[2023-06-12 06:14:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464467]
+[2023-06-12 06:14:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 06:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcrx
+[2023-06-12 06:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-strategies-breezeconnect
+[2023-06-12 06:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcdel
+[2023-06-12 06:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dojo-truant
+[2023-06-12 06:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellulose-sdk
+[2023-06-12 06:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: le-utils
+[2023-06-12 06:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aa-simplewiki
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dcrx]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 06:14:47] INFO root fetch - processPackages [python-strategies-breezeconnect]: New version: [3.0] Old Version: [2.0]
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dojo-truant]: New version: [2023.6.11.0] Old Version: [2023.5.30.1]
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/dd/71/5b15c4560dcbd17005b7c80c6376d96588f258ca94d482d35fe3ef50e8d0/dojo_truant-2023.5.30.1.tar.gz
+[2023-06-12 06:14:47] WARNING root fetch - processPackages [hcdel]: Skipping, unable to determine old version
+[2023-06-12 06:14:47] INFO root fetch - main [MainThread]: End processing [hcdel] error
+[2023-06-12 06:14:47] INFO root fetch - processPackages [cellulose-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 06:14:47] INFO root fetch - processPackages [le-utils]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-12 06:14:47] INFO root fetch - processPackages [aa-simplewiki]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 06:14:47] INFO root fetch - processPackages [python-strategies-breezeconnect]: Downloading https://files.pythonhosted.org/packages/6c/d1/1b3e1fe7fe25c06e11807bba24c32daee6625c61ee9464d33bf00fa582ad/python_strategies_breezeconnect-2.0.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/d6/48/ae00e7762b2a60cba383f5b2fa67763f6a8cb9f31039514ac50cfb41ef82/dojo_truant-2023.6.11.0.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dcrx]: Downloading https://files.pythonhosted.org/packages/89/67/9bf2aa841669b493944175995ba3ac11633429b94b4dc243a567dce9513e/dcrx-0.1.0.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [cellulose-sdk]: Downloading https://files.pythonhosted.org/packages/4f/75/d31e790cefd49a30e35310ebae217078a0bb3dbe90b9604abab7fd4cd3c1/cellulose-sdk-0.0.2.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [le-utils]: Downloading https://files.pythonhosted.org/packages/17/ce/3382c1ef8b0598a41567f332845c32ba0d60bbcd6d1c8f742bcd42de8599/le-utils-0.1.9.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/d1/bf/2886ba6332c5e7ea8963bfc93e97c77d68d8883c48434009835f650368b0/aa-simplewiki-1.0.1.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dojo-truant]: executing diffoscope
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dojo-truant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_truant-2023.5.30.1.tar.gz tmp/dojo_truant-2023.6.11.0.tar.gz --markdown 20230612/d/dojo-truant/2023.5.30.1-2023.6.11.0/diff.md --exclude *.pyd
+[2023-06-12 06:14:47] INFO root fetch - processPackages [python-strategies-breezeconnect]: Downloading https://files.pythonhosted.org/packages/e7/9a/1f1ae0a9ff97cb6964c04f9ee6682177c03d9d21b2b77969f01ea699c737/python_strategies_breezeconnect-3.0.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [cellulose-sdk]: Downloading https://files.pythonhosted.org/packages/06/38/5c1a44206c607b4d10a962eb08c8e840f573a773525db207503d195b7d37/cellulose-sdk-0.0.3.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [python-strategies-breezeconnect]: executing diffoscope
+[2023-06-12 06:14:47] INFO root fetch - processPackages [python-strategies-breezeconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_strategies_breezeconnect-2.0.tar.gz tmp/python_strategies_breezeconnect-3.0.tar.gz --markdown 20230612/p/python-strategies-breezeconnect/2.0-3.0/diff.md --exclude *.pyd
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dcrx]: Downloading https://files.pythonhosted.org/packages/fd/54/4317acee355f6b45d185e000b33240d96345cda487ede0f84bfd85ff76f3/dcrx-0.1.1.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/98/92/71bac34f38079ed127c4a669b4d7118bee37f03c8733bb849c6ef061a43b/aa-simplewiki-1.0.2.tar.gz
+[2023-06-12 06:14:47] INFO root fetch - processPackages [cellulose-sdk]: executing diffoscope
+[2023-06-12 06:14:47] INFO root fetch - processPackages [cellulose-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellulose-sdk-0.0.2.tar.gz tmp/cellulose-sdk-0.0.3.tar.gz --markdown 20230612/c/cellulose-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dcrx]: executing diffoscope
+[2023-06-12 06:14:47] INFO root fetch - processPackages [dcrx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-0.1.0.tar.gz tmp/dcrx-0.1.1.tar.gz --markdown 20230612/d/dcrx/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 06:14:48] INFO root fetch - processPackages [le-utils]: Downloading https://files.pythonhosted.org/packages/c9/76/f6184c284a35ed7058842f39c394825189f33d572c3655692ef7bec0b896/le-utils-0.2.0.tar.gz
+[2023-06-12 06:14:48] INFO root fetch - processPackages [aa-simplewiki]: executing diffoscope
+[2023-06-12 06:14:48] INFO root fetch - processPackages [aa-simplewiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-simplewiki-1.0.1.tar.gz tmp/aa-simplewiki-1.0.2.tar.gz --markdown 20230612/a/aa-simplewiki/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 06:14:48] INFO root fetch - processPackages [le-utils]: executing diffoscope
+[2023-06-12 06:14:48] INFO root fetch - processPackages [le-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/le-utils-0.1.9.tar.gz tmp/le-utils-0.2.0.tar.gz --markdown 20230612/l/le-utils/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 06:14:48] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.5.30.1.tar.gz]
+[2023-06-12 06:14:48] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.11.0.tar.gz]
+[2023-06-12 06:14:48] INFO root fetch - main [MainThread]: End processing [dojo-truant]: success
+[2023-06-12 06:14:48] INFO root fetch - processPackages [python-strategies-breezeconnect]: Remove: archive file [/home/abi/fetcher/tmp/python_strategies_breezeconnect-2.0.tar.gz]
+[2023-06-12 06:14:48] INFO root fetch - processPackages [python-strategies-breezeconnect]: Remove: archive file [/home/abi/fetcher/tmp/python_strategies_breezeconnect-3.0.tar.gz]
+[2023-06-12 06:14:48] INFO root fetch - main [MainThread]: End processing [python-strategies-breezeconnect]: success
+[2023-06-12 06:14:49] INFO root fetch - processPackages [dcrx]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-0.1.0.tar.gz]
+[2023-06-12 06:14:49] INFO root fetch - processPackages [dcrx]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-0.1.1.tar.gz]
+[2023-06-12 06:14:49] INFO root fetch - main [MainThread]: End processing [dcrx]: success
+[2023-06-12 06:14:49] INFO root fetch - processPackages [le-utils]: Remove: archive file [/home/abi/fetcher/tmp/le-utils-0.1.9.tar.gz]
+[2023-06-12 06:14:49] INFO root fetch - processPackages [le-utils]: Remove: archive file [/home/abi/fetcher/tmp/le-utils-0.2.0.tar.gz]
+[2023-06-12 06:14:49] INFO root fetch - main [MainThread]: End processing [le-utils]: success
+[2023-06-12 06:14:49] INFO root fetch - processPackages [aa-simplewiki]: Remove: archive file [/home/abi/fetcher/tmp/aa-simplewiki-1.0.1.tar.gz]
+[2023-06-12 06:14:49] INFO root fetch - processPackages [aa-simplewiki]: Remove: archive file [/home/abi/fetcher/tmp/aa-simplewiki-1.0.2.tar.gz]
+[2023-06-12 06:14:49] INFO root fetch - main [MainThread]: End processing [aa-simplewiki]: success
+[2023-06-12 06:14:49] INFO root fetch - processPackages [cellulose-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cellulose-sdk-0.0.2.tar.gz]
+[2023-06-12 06:14:49] INFO root fetch - processPackages [cellulose-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cellulose-sdk-0.0.3.tar.gz]
+[2023-06-12 06:14:49] INFO root fetch - main [MainThread]: End processing [cellulose-sdk]: success
+[2023-06-12 06:14:49] INFO root fetch - main [MainThread]: Store serial: [18464489]
