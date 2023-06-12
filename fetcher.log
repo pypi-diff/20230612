@@ -8786,3 +8786,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 07:51:23] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
 [2023-06-12 07:51:23] INFO root fetch - main [MainThread]: End processing [imesh]: success
 [2023-06-12 07:51:23] INFO root fetch - main [MainThread]: Store serial: [18464918]
+[2023-06-12 07:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464918]
+[2023-06-12 07:56:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-12 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SloppyV3
+[2023-06-12 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swit-open-api-core
+[2023-06-12 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zipline-tej
+[2023-06-12 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sc-editor
+[2023-06-12 07:56:32] WARNING root fetch - processPackages [swit-open-api-core]: Skipping, unable to determine old version
+[2023-06-12 07:56:32] INFO root fetch - main [MainThread]: End processing [swit-open-api-core] error
+[2023-06-12 07:56:32] WARNING root fetch - processPackages [SloppyV3]: Skipping, unable to determine old version
+[2023-06-12 07:56:32] INFO root fetch - main [MainThread]: End processing [SloppyV3] error
+[2023-06-12 07:56:32] INFO root fetch - processPackages [sc-editor]: New version: [0.99] Old Version: [0.98]
+[2023-06-12 07:56:32] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 07:56:32] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/7d/cf/f9174a417e3b1de742a058f36d10d26af0cd6c897a5bbbc2e7c6bd968a4b/sc-editor-0.98.tar.gz
+[2023-06-12 07:56:32] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-12 07:56:32] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/ea/85/40d04d12cc7e51bbf2e48e7b3af53826f2f22a7669c0ca1f58965353ef37/sc-editor-0.99.tar.gz
+[2023-06-12 07:56:32] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 07:56:32] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-12 07:56:32] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.98.tar.gz tmp/sc-editor-0.99.tar.gz --markdown 20230612/s/sc-editor/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-12 07:56:32] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-12 07:56:32] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230612/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 07:56:33] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.98.tar.gz]
+[2023-06-12 07:56:33] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.99.tar.gz]
+[2023-06-12 07:56:33] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 07:56:35] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-12 07:56:35] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-12 07:56:35] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-12 07:56:35] INFO root fetch - main [MainThread]: Store serial: [18464933]
