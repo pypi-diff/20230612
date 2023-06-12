@@ -7294,3 +7294,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 05:36:37] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.9.tar.gz]
 [2023-06-12 05:36:37] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
 [2023-06-12 05:36:37] INFO root fetch - main [MainThread]: Store serial: [18464243]
+[2023-06-12 05:41:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464243]
+[2023-06-12 05:41:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 05:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pangolier
+[2023-06-12 05:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qos-tools
+[2023-06-12 05:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: octopus-sensing
+[2023-06-12 05:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dblp-crawler
+[2023-06-12 05:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agixt
+[2023-06-12 05:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysimflow
+[2023-06-12 05:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zlogging
+[2023-06-12 05:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysimflow
+[2023-06-12 05:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-runtime-yoyo
+[2023-06-12 05:41:46] INFO root fetch - processPackages [pangolier]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 05:41:46] INFO root fetch - processPackages [octopus-sensing]: New version: [4.1.0] Old Version: [4.0.3]
+[2023-06-12 05:41:46] INFO root fetch - processPackages [zlogging]: New version: [0.1.2.post3] Old Version: [0.1.2.post2]
+[2023-06-12 05:41:46] INFO root fetch - processPackages [agixt]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-12 05:41:46] INFO root fetch - processPackages [qos-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 05:41:46] INFO root fetch - processPackages [dblp-crawler]: New version: [1.6.3] Old Version: [1.6.2.1]
+[2023-06-12 05:41:46] INFO root fetch - processPackages [pysimflow]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-06-12 05:41:46] INFO root fetch - processPackages [pysimflow]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-06-12 05:41:46] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/b0/c1/5cc481aea4c3d3b580007049857db00d9d10026055d9c5111e6913f06acf/agixt-1.2.4.tar.gz
+[2023-06-12 05:41:46] INFO root fetch - processPackages [qos-tools]: Downloading https://files.pythonhosted.org/packages/fb/85/d74f8d2c7d69f46479ff0b4eb5f19cf8c94a6c2084bdbbdd4689333ae8b8/qos_tools-0.0.2.tar.gz
+[2023-06-12 05:41:46] WARNING root fetch - processPackages [pytest-runtime-yoyo]: Skipping, unable to determine old version
+[2023-06-12 05:41:46] INFO root fetch - main [MainThread]: End processing [pytest-runtime-yoyo] error
+[2023-06-12 05:41:46] INFO root fetch - processPackages [pangolier]: Downloading https://files.pythonhosted.org/packages/d3/bd/f254a7ded26957543ad504fc15be1e7b7e82e0e0e2698e813a37dd510431/pangolier-0.1.0-py3-none-any.whl
+[2023-06-12 05:41:46] INFO root fetch - processPackages [zlogging]: Downloading https://files.pythonhosted.org/packages/a2/3b/ef2003e20f9da6f598202461d713cc1918efa22c65d6b253b9a9d42caa56/zlogging-0.1.2.post2.tar.gz
+[2023-06-12 05:41:46] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/df/9f/2c19de1fb894595c18601970a1b44f6e7b261ffec55ab062be72a1ab4dfc/pysimflow-0.0.65.tar.gz
+[2023-06-12 05:41:46] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/df/9f/2c19de1fb894595c18601970a1b44f6e7b261ffec55ab062be72a1ab4dfc/pysimflow-0.0.65.tar.gz
+[2023-06-12 05:41:46] INFO root fetch - processPackages [dblp-crawler]: Downloading https://files.pythonhosted.org/packages/59/cc/d9402b45ea24fa4178a81e4c9204b4313f89458981bae2eed7e6c59d23f0/dblp_crawler-1.6.2.1.tar.gz
+[2023-06-12 05:41:46] INFO root fetch - processPackages [octopus-sensing]: Downloading https://files.pythonhosted.org/packages/5a/92/ed2e7892d3c1b17e0417edd25466cc74b1cd58ecac05db731409edb140c2/octopus-sensing-4.0.3.tar.gz
+[2023-06-12 05:41:46] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72644035>=10485760
+[2023-06-12 05:41:46] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 05:41:46] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72644035>=10485760
+[2023-06-12 05:41:46] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 05:41:47] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/5c/ff/1e29087ec761a278a8007c8fbdbf4b9e1762cea8a34af91e877fb1de6876/agixt-1.2.5.tar.gz
+[2023-06-12 05:41:47] INFO root fetch - processPackages [qos-tools]: Downloading https://files.pythonhosted.org/packages/81/9a/1ad063df8190da1c1e4c522e9538179e95caeb6aca760c70d31856741605/qos_tools-0.0.3.tar.gz
+[2023-06-12 05:41:47] INFO root fetch - processPackages [pangolier]: Downloading https://files.pythonhosted.org/packages/43/14/2b5dde76ebd67914059e08648ebe9d9c3c6d464b4c17c5b6728c5d2c4799/pangolier-0.1.1-py3-none-any.whl
+[2023-06-12 05:41:47] INFO root fetch - processPackages [dblp-crawler]: Downloading https://files.pythonhosted.org/packages/76/52/0cacedc61efc728e65a76a1c922710b92501f91f59128be1fd7fc3ae5d5b/dblp_crawler-1.6.3.tar.gz
+[2023-06-12 05:41:47] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-12 05:41:47] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.4.tar.gz tmp/agixt-1.2.5.tar.gz --markdown 20230612/a/agixt/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-12 05:41:47] INFO root fetch - processPackages [octopus-sensing]: Downloading https://files.pythonhosted.org/packages/9e/23/d06925eaca2c5d8b243850dbe416c893201e10585a9c46295b3e0cbe9960/octopus-sensing-4.1.0.tar.gz
+[2023-06-12 05:41:47] INFO root fetch - processPackages [dblp-crawler]: executing diffoscope
+[2023-06-12 05:41:47] INFO root fetch - processPackages [dblp-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblp_crawler-1.6.2.1.tar.gz tmp/dblp_crawler-1.6.3.tar.gz --markdown 20230612/d/dblp-crawler/1.6.2.1-1.6.3/diff.md --exclude *.pyd
+[2023-06-12 05:41:47] INFO root fetch - processPackages [pangolier]: executing diffoscope
+[2023-06-12 05:41:47] INFO root fetch - processPackages [pangolier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pangolier-0.1.0-py3-none-any.whl.zip tmp/pangolier-0.1.1-py3-none-any.whl.zip --markdown 20230612/p/pangolier/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 05:41:47] INFO root fetch - processPackages [zlogging]: Downloading https://files.pythonhosted.org/packages/35/5e/6f3932c5f7b711a2d812fe4eb18f8b9dc91e6173242c61702b682d530d97/zlogging-0.1.2.post3.tar.gz
+[2023-06-12 05:41:47] INFO root fetch - processPackages [qos-tools]: executing diffoscope
+[2023-06-12 05:41:47] INFO root fetch - processPackages [qos-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qos_tools-0.0.2.tar.gz tmp/qos_tools-0.0.3.tar.gz --markdown 20230612/q/qos-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 05:41:47] INFO root fetch - processPackages [octopus-sensing]: executing diffoscope
+[2023-06-12 05:41:47] INFO root fetch - processPackages [octopus-sensing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octopus-sensing-4.0.3.tar.gz tmp/octopus-sensing-4.1.0.tar.gz --markdown 20230612/o/octopus-sensing/4.0.3-4.1.0/diff.md --exclude *.pyd
+[2023-06-12 05:41:47] INFO root fetch - processPackages [zlogging]: executing diffoscope
+[2023-06-12 05:41:47] INFO root fetch - processPackages [zlogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlogging-0.1.2.post2.tar.gz tmp/zlogging-0.1.2.post3.tar.gz --markdown 20230612/z/zlogging/0.1.2.post2-0.1.2.post3/diff.md --exclude *.pyd
+[2023-06-12 05:41:48] INFO root fetch - processPackages [pangolier]: Remove: archive file [/home/abi/fetcher/tmp/pangolier-0.1.0-py3-none-any.whl.zip]
+[2023-06-12 05:41:48] INFO root fetch - processPackages [pangolier]: Remove: archive file [/home/abi/fetcher/tmp/pangolier-0.1.1-py3-none-any.whl.zip]
+[2023-06-12 05:41:48] INFO root fetch - main [MainThread]: End processing [pangolier]: success
+[2023-06-12 05:41:48] INFO root fetch - processPackages [dblp-crawler]: Remove: archive file [/home/abi/fetcher/tmp/dblp_crawler-1.6.2.1.tar.gz]
+[2023-06-12 05:41:48] INFO root fetch - processPackages [dblp-crawler]: Remove: archive file [/home/abi/fetcher/tmp/dblp_crawler-1.6.3.tar.gz]
+[2023-06-12 05:41:48] INFO root fetch - main [MainThread]: End processing [dblp-crawler]: success
+[2023-06-12 05:41:48] INFO root fetch - processPackages [qos-tools]: Remove: archive file [/home/abi/fetcher/tmp/qos_tools-0.0.2.tar.gz]
+[2023-06-12 05:41:48] INFO root fetch - processPackages [qos-tools]: Remove: archive file [/home/abi/fetcher/tmp/qos_tools-0.0.3.tar.gz]
+[2023-06-12 05:41:48] INFO root fetch - main [MainThread]: End processing [qos-tools]: success
+[2023-06-12 05:41:48] INFO root fetch - processPackages [zlogging]: Remove: archive file [/home/abi/fetcher/tmp/zlogging-0.1.2.post2.tar.gz]
+[2023-06-12 05:41:48] INFO root fetch - processPackages [zlogging]: Remove: archive file [/home/abi/fetcher/tmp/zlogging-0.1.2.post3.tar.gz]
+[2023-06-12 05:41:48] INFO root fetch - main [MainThread]: End processing [zlogging]: success
+[2023-06-12 05:41:48] INFO root fetch - processPackages [octopus-sensing]: Remove: archive file [/home/abi/fetcher/tmp/octopus-sensing-4.0.3.tar.gz]
+[2023-06-12 05:41:48] INFO root fetch - processPackages [octopus-sensing]: Remove: archive file [/home/abi/fetcher/tmp/octopus-sensing-4.1.0.tar.gz]
+[2023-06-12 05:41:48] INFO root fetch - main [MainThread]: End processing [octopus-sensing]: success
+[2023-06-12 05:41:49] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.4.tar.gz]
+[2023-06-12 05:41:49] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.5.tar.gz]
+[2023-06-12 05:41:49] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-12 05:41:49] INFO root fetch - main [MainThread]: Store serial: [18464276]
