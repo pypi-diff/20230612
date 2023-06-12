@@ -21630,3 +21630,90 @@ EOFError: EOF read where object expected
 [2023-06-12 17:04:57] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.1.3.tar.gz]
 [2023-06-12 17:04:57] INFO root fetch - main [MainThread]: End processing [tapescript]: success
 [2023-06-12 17:04:57] INFO root fetch - main [MainThread]: Store serial: [18470347]
+[2023-06-12 17:10:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470347]
+[2023-06-12 17:10:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydeflate
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comdexpy
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-text-nightly
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sidetrek
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comdexpy
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyprocessors-similar_segments
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyepkg
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-grpc-dev
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: memoiz
+[2023-06-12 17:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: selenium-leo
+[2023-06-12 17:10:07] INFO root fetch - processPackages [pydeflate]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-06-12 17:10:07] WARNING root fetch - processPackages [pyepkg]: Skipping, unable to determine old version
+[2023-06-12 17:10:07] INFO root fetch - processPackages [pyepkg]: Start processing: bmsdna-lakeapi
+[2023-06-12 17:10:07] INFO root fetch - main [MainThread]: End processing [pyepkg] error
+[2023-06-12 17:10:07] WARNING root fetch - processPackages [comdexpy]: Skipping, unable to determine old version
+[2023-06-12 17:10:07] INFO root fetch - processPackages [comdexpy]: Start processing: selenium-simplified
+[2023-06-12 17:10:07] INFO root fetch - main [MainThread]: End processing [comdexpy] error
+[2023-06-12 17:10:07] INFO root fetch - processPackages [pyprocessors-similar_segments]: New version: [0.5.8] Old Version: [0.5.6]
+[2023-06-12 17:10:07] WARNING root fetch - processPackages [comdexpy]: Skipping, unable to determine old version
+[2023-06-12 17:10:07] INFO root fetch - main [MainThread]: End processing [comdexpy] error
+[2023-06-12 17:10:07] INFO root fetch - processPackages [sidetrek]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 17:10:07] INFO root fetch - processPackages [composabl-grpc-dev]: New version: [0.2.1.dev74] Old Version: [0.2.1.dev69]
+[2023-06-12 17:10:07] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-12 17:10:07] INFO root fetch - processPackages [selenium-simplified]: New version: [1.2] Old Version: [1.1]
+[2023-06-12 17:10:07] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/97/bd/51a9b1e714cab99e04b757d582da68fb1c87848f240475f7731512b91f39/sidetrek-0.0.98.tar.gz
+[2023-06-12 17:10:07] INFO root fetch - processPackages [composabl-grpc-dev]: Downloading https://files.pythonhosted.org/packages/21/c7/c30b936722761bf9786c7b6a384ddc2d540f20019065e90cb54ecfd696f7/composabl_grpc_dev-0.2.1.dev69-cp38-cp38-macosx_10_9_x86_64.whl
+[2023-06-12 17:10:07] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/c2/06/243ad8db78beb7fafbecfa74492471fc157223d28c085c146796c2881614/bmsdna_lakeapi-0.7.0.tar.gz
+[2023-06-12 17:10:07] WARNING root fetch - processPackages [selenium-leo]: Skipping, unable to determine old version
+[2023-06-12 17:10:07] INFO root fetch - main [MainThread]: End processing [selenium-leo] error
+[2023-06-12 17:10:07] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/ce/de/ab02054d320db078ba0b7f3ba9d62781c6d6beb2ad3df16ad8a3b69a033b/selenium_simplified-1.1.tar.gz
+[2023-06-12 17:10:07] INFO root fetch - processPackages [memoiz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 17:10:07] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230612] Old Version: [2.14.0.dev20230611]
+[2023-06-12 17:10:07] INFO root fetch - processPackages [pydeflate]: Downloading https://files.pythonhosted.org/packages/cb/5f/785777174ead63fc36fcc752a58660ebdf59f9950c1dfe1da39427d1a18c/pydeflate-1.3.6.tar.gz
+[2023-06-12 17:10:07] INFO root fetch - processPackages [pyprocessors-similar_segments]: Downloading https://files.pythonhosted.org/packages/7a/86/f3c95d5c755077b8ab816bcfa4c9cdd1dca1ad2cb5f61886c9b072539f48/pyprocessors_similar_segments-0.5.6.tar.gz
+[2023-06-12 17:10:07] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/76/63/58f1f53f5f404bb971412825da14681cf1db00bb7d72e973ee14ac57b46e/bmsdna_lakeapi-0.7.1.tar.gz
+[2023-06-12 17:10:07] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/e1/df/8febed62c28b6002e89b1ecff26974f8d092969b288da25a6eafcc3d73b1/sidetrek-0.0.99.tar.gz
+[2023-06-12 17:10:07] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/af/0c/a55bf577e837d11167e5d5327f5e742982d7e6b6993e039baa8d3f041d2f/selenium_simplified-1.2.tar.gz
+[2023-06-12 17:10:07] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-06-12 17:10:07] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.7.0.tar.gz tmp/bmsdna_lakeapi-0.7.1.tar.gz --markdown 20230612/b/bmsdna-lakeapi/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-12 17:10:07] INFO root fetch - processPackages [memoiz]: Downloading https://files.pythonhosted.org/packages/19/33/5c48736c8f1f397d2cfd1acfe1a4d629b08cdc7b84e1358c507d23419e91/memoiz-0.0.8.tar.gz
+[2023-06-12 17:10:07] INFO root fetch - processPackages [selenium-simplified]: executing diffoscope
+[2023-06-12 17:10:07] INFO root fetch - processPackages [selenium-simplified]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_simplified-1.1.tar.gz tmp/selenium_simplified-1.2.tar.gz --markdown 20230612/s/selenium-simplified/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-12 17:10:07] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-12 17:10:07] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.98.tar.gz tmp/sidetrek-0.0.99.tar.gz --markdown 20230612/s/sidetrek/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 17:10:07] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/9c/60/0fe1a70cff82e1ec7908886351eea95fbb3a3e2616cdda3821fd30cf415f/tensorflow_text_nightly-2.14.0.dev20230611-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 17:10:07] INFO root fetch - processPackages [composabl-grpc-dev]: Downloading https://files.pythonhosted.org/packages/93/d9/1f818ecb908b891ce424bc0349f97cbbf9f945e6c04cbfd73b146732dae7/composabl_grpc_dev-0.2.1.dev74-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-12 17:10:07] INFO root fetch - processPackages [pydeflate]: Downloading https://files.pythonhosted.org/packages/1e/ce/44742f65e88a67df13474385219e9900108a93b3a4b5310ff083d6846724/pydeflate-1.3.7.tar.gz
+[2023-06-12 17:10:08] INFO root fetch - processPackages [pydeflate]: executing diffoscope
+[2023-06-12 17:10:08] INFO root fetch - processPackages [pydeflate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeflate-1.3.6.tar.gz tmp/pydeflate-1.3.7.tar.gz --markdown 20230612/p/pydeflate/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-06-12 17:10:08] INFO root fetch - processPackages [pyprocessors-similar_segments]: Downloading https://files.pythonhosted.org/packages/b7/e4/d41036375604ed4964cfb2c324ff1590c74dfb6ce7e50a82bffed13e3d31/pyprocessors_similar_segments-0.5.8.tar.gz
+[2023-06-12 17:10:08] INFO root fetch - processPackages [pyprocessors-similar_segments]: executing diffoscope
+[2023-06-12 17:10:08] INFO root fetch - processPackages [pyprocessors-similar_segments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_similar_segments-0.5.6.tar.gz tmp/pyprocessors_similar_segments-0.5.8.tar.gz --markdown 20230612/p/pyprocessors-similar_segments/0.5.6-0.5.8/diff.md --exclude *.pyd
+[2023-06-12 17:10:08] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/16/b5/d9b4a71c2cd0ae0618c7a98be55931da52a54d283614cf58f5af2bd3ad3c/tensorflow_text_nightly-2.14.0.dev20230612-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 17:10:08] INFO root fetch - processPackages [memoiz]: Downloading https://files.pythonhosted.org/packages/5a/7e/c377724838098bb3c1a1feda282b96569d4e64e21897ddb23e48c97436b2/memoiz-0.0.9.tar.gz
+[2023-06-12 17:10:08] INFO root fetch - processPackages [memoiz]: executing diffoscope
+[2023-06-12 17:10:08] INFO root fetch - processPackages [memoiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memoiz-0.0.8.tar.gz tmp/memoiz-0.0.9.tar.gz --markdown 20230612/m/memoiz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 17:10:08] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-12 17:10:08] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230611-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230612-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230612/t/tensorflow-text-nightly/2.14.0.dev20230611-2.14.0.dev20230612/diff.md --exclude *.pyd
+[2023-06-12 17:10:08] INFO root fetch - processPackages [composabl-grpc-dev]: executing diffoscope
+[2023-06-12 17:10:08] INFO root fetch - processPackages [composabl-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_grpc_dev-0.2.1.dev69-cp38-cp38-macosx_10_9_x86_64.whl.zip tmp/composabl_grpc_dev-0.2.1.dev74-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230612/c/composabl-grpc-dev/0.2.1.dev69-0.2.1.dev74/diff.md --exclude *.pyd
+[2023-06-12 17:10:09] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium_simplified-1.1.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium_simplified-1.2.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - main [MainThread]: End processing [selenium-simplified]: success
+[2023-06-12 17:10:09] INFO root fetch - processPackages [pydeflate]: Remove: archive file [/home/abi/fetcher/tmp/pydeflate-1.3.6.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - processPackages [pydeflate]: Remove: archive file [/home/abi/fetcher/tmp/pydeflate-1.3.7.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - main [MainThread]: End processing [pydeflate]: success
+[2023-06-12 17:10:09] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.7.0.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.7.1.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-06-12 17:10:09] INFO root fetch - processPackages [pyprocessors-similar_segments]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_similar_segments-0.5.6.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - processPackages [pyprocessors-similar_segments]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_similar_segments-0.5.8.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - main [MainThread]: End processing [pyprocessors-similar_segments]: success
+[2023-06-12 17:10:09] INFO root fetch - processPackages [memoiz]: Remove: archive file [/home/abi/fetcher/tmp/memoiz-0.0.8.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - processPackages [memoiz]: Remove: archive file [/home/abi/fetcher/tmp/memoiz-0.0.9.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - main [MainThread]: End processing [memoiz]: success
+[2023-06-12 17:10:09] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.98.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.99.tar.gz]
+[2023-06-12 17:10:09] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-12 17:10:10] INFO root fetch - processPackages [composabl-grpc-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_grpc_dev-0.2.1.dev69-cp38-cp38-macosx_10_9_x86_64.whl.zip]
+[2023-06-12 17:10:10] INFO root fetch - processPackages [composabl-grpc-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_grpc_dev-0.2.1.dev74-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-12 17:10:10] INFO root fetch - main [MainThread]: End processing [composabl-grpc-dev]: success
+[2023-06-12 17:10:10] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230611-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 17:10:10] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230612-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 17:10:10] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-12 17:10:10] INFO root fetch - main [MainThread]: Store serial: [18470412]
