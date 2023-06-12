@@ -14425,3 +14425,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 12:15:35] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-12 12:15:35] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-12 12:15:35] INFO root fetch - main [MainThread]: Store serial: [18467368]
+[2023-06-12 12:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467368]
+[2023-06-12 12:20:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: const-cython-lib
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colorFinder
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stadiamaps
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatlocal
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agsi
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: const-cython-lib
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colorFinder
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databricks-connect
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SAMYOL
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ma-notification-center
+[2023-06-12 12:20:46] INFO root fetch - processPackages [agsi]: New version: [1.8] Old Version: [1.7]
+[2023-06-12 12:20:46] WARNING root fetch - processPackages [colorFinder]: Skipping, unable to determine old version
+[2023-06-12 12:20:46] INFO root fetch - processPackages [colorFinder]: Start processing: sql-field-report
+[2023-06-12 12:20:46] INFO root fetch - main [MainThread]: End processing [colorFinder] error
+[2023-06-12 12:20:46] INFO root fetch - processPackages [stadiamaps]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-12 12:20:46] WARNING root fetch - processPackages [colorFinder]: Skipping, unable to determine old version
+[2023-06-12 12:20:46] INFO root fetch - processPackages [colorFinder]: Start processing: nbox
+[2023-06-12 12:20:46] INFO root fetch - main [MainThread]: End processing [colorFinder] error
+[2023-06-12 12:20:46] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.40] Old Version: [9.1.39]
+[2023-06-12 12:20:46] INFO root fetch - processPackages [const-cython-lib]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 12:20:46] INFO root fetch - processPackages [SAMYOL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-12 12:20:46] WARNING root fetch - processPackages [chatlocal]: Skipping, unable to determine old version
+[2023-06-12 12:20:46] INFO root fetch - processPackages [chatlocal]: Start processing: bindata
+[2023-06-12 12:20:46] INFO root fetch - main [MainThread]: End processing [chatlocal] error
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ma-notification-center]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 12:20:46] INFO root fetch - processPackages [const-cython-lib]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 12:20:46] INFO root fetch - processPackages [sql-field-report]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-12 12:20:46] INFO root fetch - processPackages [bindata]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-12 12:20:46] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-06-12 12:20:46] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/6c/bd/ff2abaca655a6921d8379969bbdb3671618f8af381bbd317ef23cc8f50c3/bindata-0.9.5.tar.gz
+[2023-06-12 12:20:46] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/3d/74/98cb97a2dc0cd9f45292cd8ded3d3da9318b1bede8a34420822679c48c34/nbox-0.9.9.tar.gz
+[2023-06-12 12:20:46] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/e7/7c/c40940ff0ba4af692d5ddbf0cb7913f3795d37e6ebcb5c91053296da0ac3/SAMYOL-1.0.4.tar.gz
+[2023-06-12 12:20:46] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/8b/b8/13b9f1a46c5edff0a7cff7f65c79c9815ace4bb7c9e8c8726c604616cc7c/stadiamaps-0.4.0.tar.gz
+[2023-06-12 12:20:46] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/2c/f5/a6ae053fa5cba88f3a84ca2cd09e6c88fe8d57516ee270b513ef49d97a0d/ma_notification_center-1.0.0.tar.gz
+[2023-06-12 12:20:46] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/30/9a/db48b352680c1492173f492ae85c6f30d4e438abf5a7c304e236f0f06754/sql_field_report-0.2.2.tar.gz
+[2023-06-12 12:20:46] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/f4/7b/ddf8daa7f9c41e4c75dd2b20d5e35b960168b0eaa542ae0cff395b8a3b3c/agsi-1.7.tar.gz
+[2023-06-12 12:20:46] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/9c/43/94833aa1d4bf6b931892863791a5fc32d5236d9408b6b3c873f703a89af1/databricks-connect-9.1.39.tar.gz
+[2023-06-12 12:20:46] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/11/eb/f8cc55ae8ae674fc3124b83fa168717c534ebb7d0c8e2bf168d8bb49e801/const_cython_lib-0.0.4.tar.gz
+[2023-06-12 12:20:46] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/11/eb/f8cc55ae8ae674fc3124b83fa168717c534ebb7d0c8e2bf168d8bb49e801/const_cython_lib-0.0.4.tar.gz
+[2023-06-12 12:20:46] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257220640>=10485760
+[2023-06-12 12:20:46] INFO root fetch - processPackages [databricks-connect]: Start processing: google-i18n-address
+[2023-06-12 12:20:46] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-06-12 12:20:46] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/fd/1c/c2fa8ae3b6c3385c0c0d9b24475509788ed3af22bd4e840635bdfd4ad736/bindata-0.9.6.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/e9/5a/a1cec5678c7bcca81531e8e340b7ace580efc6d998e285970e6d0a94f7cd/nbox-0.9.9rc0.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [google-i18n-address]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-12 12:20:47] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/a3/3b/a700ec26dcd6fcfdba3f428633b16a4954a77f57369bd57b148f7741dd09/SAMYOL-1.0.5.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [bindata]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [bindata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bindata-0.9.5.tar.gz tmp/bindata-0.9.6.tar.gz --markdown 20230612/b/bindata/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-12 12:20:47] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230612/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-06-12 12:20:47] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/db/89/8fffbcb1dc60f767d06521bcea345758cc8fe0f58d533f82b5edfd5a24f7/stadiamaps-0.5.0.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/1d/4f/0c4d3c6fe78c1fcbecb6951d0bf134c52d224afc82acb4e8c2deba72546c/sql_field_report-0.2.3.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/2c/3b/146445b416f97868fde4e1e81268065069d4e36a092fab4a5e394204eacd/ma_notification_center-1.0.1.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/e7/9b/48d7bfe9dc5c95e769a70bd7f1d2e75110055109e65ce7c9d5887b17bf2a/agsi-1.8.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [google-i18n-address]: Downloading https://files.pythonhosted.org/packages/52/b7/bbae82fb53e07fa0577a761bb417eda0136a03318977d0a759ae9013e52b/google_i18n_address-3.0.0.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/ee/08/f0a2c1c140cd8dc4100b1cd12c2ccb51fd0d76c1b6e7e6041a194fc35c37/const_cython_lib-0.0.5.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/ee/08/f0a2c1c140cd8dc4100b1cd12c2ccb51fd0d76c1b6e7e6041a194fc35c37/const_cython_lib-0.0.5.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [stadiamaps]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [SAMYOL]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [stadiamaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadiamaps-0.4.0.tar.gz tmp/stadiamaps-0.5.0.tar.gz --markdown 20230612/s/stadiamaps/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-12 12:20:47] INFO root fetch - processPackages [SAMYOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAMYOL-1.0.4.tar.gz tmp/SAMYOL-1.0.5.tar.gz --markdown 20230612/S/SAMYOL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-12 12:20:47] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-0.2.2.tar.gz tmp/sql_field_report-0.2.3.tar.gz --markdown 20230612/s/sql-field-report/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-12 12:20:47] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.7.tar.gz tmp/agsi-1.8.tar.gz --markdown 20230612/a/agsi/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-12 12:20:47] INFO root fetch - processPackages [ma-notification-center]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [ma-notification-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ma_notification_center-1.0.0.tar.gz tmp/ma_notification_center-1.0.1.tar.gz --markdown 20230612/m/ma-notification-center/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 12:20:47] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.0.4.tar.gz tmp/const_cython_lib-0.0.5.tar.gz --markdown 20230612/c/const-cython-lib/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 12:20:47] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.0.4.tar.gz tmp/const_cython_lib-0.0.5.tar.gz --markdown 20230612/c/const-cython-lib/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 12:20:47] INFO root fetch - processPackages [google-i18n-address]: Downloading https://files.pythonhosted.org/packages/ba/41/617ea3c1f2dd9d2028630ee1cb22edd91c090ceb5eed9b8001337151db1c/google_i18n_address-3.1.0.tar.gz
+[2023-06-12 12:20:47] INFO root fetch - processPackages [google-i18n-address]: executing diffoscope
+[2023-06-12 12:20:47] INFO root fetch - processPackages [google-i18n-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_i18n_address-3.0.0.tar.gz tmp/google_i18n_address-3.1.0.tar.gz --markdown 20230612/g/google-i18n-address/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-12 12:20:49] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-0.2.2.tar.gz]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-0.2.3.tar.gz]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [sql-field-report]: Start processing: eveparse
+[2023-06-12 12:20:49] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-06-12 12:20:49] INFO root fetch - processPackages [eveparse]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [eveparse]: Downloading https://files.pythonhosted.org/packages/1b/8e/5e46e6af9f8c826491f46f23c95307e82b3ad3cce8a814b2f064455a518c/eveparse-0.0.1.tar.gz
+[2023-06-12 12:20:49] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.4.tar.gz]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.5.tar.gz]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [SAMYOL]: Start processing: CalibrationCurve
+[2023-06-12 12:20:49] INFO root fetch - main [MainThread]: End processing [SAMYOL]: success
+[2023-06-12 12:20:49] INFO root fetch - processPackages [CalibrationCurve]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.0.4.tar.gz]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.0.5.tar.gz]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [const-cython-lib]: Start processing: dartpy
+[2023-06-12 12:20:49] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 12:20:49] INFO root fetch - processPackages [eveparse]: Downloading https://files.pythonhosted.org/packages/3a/f7/e888e70ac07166a014c07654a1081b92184c8870603443a80f5d93c705e3/eveparse-1.0.0.tar.gz
+[2023-06-12 12:20:49] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post94] Old Version: [0.1.0.post93]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.5.tar.gz]
+[2023-06-12 12:20:49] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.6.tar.gz]
+[2023-06-12 12:20:49] INFO root fetch - main [MainThread]: End processing [bindata]: success
+[2023-06-12 12:20:50] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 12:20:50] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/0c/12/caa3afb50b33e577db6768dfb4233efc5936689ad2407d29fb347757261b/CalibrationCurve-0.0.1.tar.gz
+[2023-06-12 12:20:50] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-1.0.0.tar.gz]
+[2023-06-12 12:20:50] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-1.0.1.tar.gz]
+[2023-06-12 12:20:50] INFO root fetch - main [MainThread]: End processing [ma-notification-center]: success
+[2023-06-12 12:20:50] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/29/d7/d44a7041a92b5fcf89b624e6fd4870417f96248f53cec4e9681dfba93996/dartpy-0.1.0.post93-cp39-cp39-win_amd64.whl
+[2023-06-12 12:20:50] INFO root fetch - processPackages [eveparse]: executing diffoscope
+[2023-06-12 12:20:50] INFO root fetch - processPackages [eveparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eveparse-0.0.1.tar.gz tmp/eveparse-1.0.0.tar.gz --markdown 20230612/e/eveparse/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 12:20:50] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20031160>=10485760
+[2023-06-12 12:20:50] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-06-12 12:20:50] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/ca/c8/73d90c46e66f25dd51a09951cb54550577b890dffc3541eaa5cb8a443488/CalibrationCurve-0.0.2.tar.gz
+[2023-06-12 12:20:50] INFO root fetch - processPackages [CalibrationCurve]: executing diffoscope
+[2023-06-12 12:20:50] INFO root fetch - processPackages [CalibrationCurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CalibrationCurve-0.0.1.tar.gz tmp/CalibrationCurve-0.0.2.tar.gz --markdown 20230612/C/CalibrationCurve/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 12:20:50] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9.tar.gz]
+[2023-06-12 12:20:50] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9rc0.tar.gz]
+[2023-06-12 12:20:50] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-06-12 12:20:51] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.1.tar.gz]
+[2023-06-12 12:20:51] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.2.tar.gz]
+[2023-06-12 12:20:51] INFO root fetch - main [MainThread]: End processing [CalibrationCurve]: success
+[2023-06-12 12:20:51] INFO root fetch - processPackages [google-i18n-address]: Remove: archive file [/home/abi/fetcher/tmp/google_i18n_address-3.0.0.tar.gz]
+[2023-06-12 12:20:51] INFO root fetch - processPackages [google-i18n-address]: Remove: archive file [/home/abi/fetcher/tmp/google_i18n_address-3.1.0.tar.gz]
+[2023-06-12 12:20:51] INFO root fetch - main [MainThread]: End processing [google-i18n-address]: success
+[2023-06-12 12:20:52] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-1.7.tar.gz]
+[2023-06-12 12:20:52] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-1.8.tar.gz]
+[2023-06-12 12:20:52] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-06-12 12:20:52] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-0.4.0.tar.gz]
+[2023-06-12 12:20:52] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-0.5.0.tar.gz]
+[2023-06-12 12:20:52] INFO root fetch - main [MainThread]: End processing [stadiamaps]: success
+[2023-06-12 12:20:53] INFO root fetch - processPackages [eveparse]: Remove: archive file [/home/abi/fetcher/tmp/eveparse-0.0.1.tar.gz]
+[2023-06-12 12:20:53] INFO root fetch - processPackages [eveparse]: Remove: archive file [/home/abi/fetcher/tmp/eveparse-1.0.0.tar.gz]
+[2023-06-12 12:20:53] INFO root fetch - main [MainThread]: End processing [eveparse]: success
+[2023-06-12 12:20:53] INFO root fetch - main [MainThread]: Store serial: [18467429]
