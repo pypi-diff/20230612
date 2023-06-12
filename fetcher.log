@@ -3140,3 +3140,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 03:32:17] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
 [2023-06-12 03:32:17] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-06-12 03:32:17] INFO root fetch - main [MainThread]: Store serial: [18462583]
+[2023-06-12 03:37:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462583]
+[2023-06-12 03:37:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commandeft
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seating
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scotthsieh-projen-statemachine
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-numpy
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spPersist
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-ujson
+[2023-06-12 03:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pandas
+[2023-06-12 03:37:26] WARNING root fetch - processPackages [seating]: Skipping, unable to determine old version
+[2023-06-12 03:37:26] INFO root fetch - main [MainThread]: End processing [seating] error
+[2023-06-12 03:37:26] ERROR root fetch - processPackages [commandeft]: Unable to get metadata: No such project 'commandeft'
+[2023-06-12 03:37:26] INFO root fetch - main [MainThread]: End processing [commandeft] error
+[2023-06-12 03:37:26] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 03:37:26] INFO root fetch - processPackages [spPersist]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:37:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 03:37:26] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [types-ujson]: New version: [5.8.0.0] Old Version: [5.7.0.5]
+[2023-06-12 03:37:26] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/bb/73/2164410172db6b6e0f50caa82f708dcb2fc5d82073b7f54517b3fc379896/spPersist-0.3.3.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/d5/c8/038e6aa6d254d8fbdbb82b9c44c985ac90a3136b4045570b7e21266931f4/spPersist-0.4.0.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 03:37:26] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.3.3.tar.gz tmp/spPersist-0.4.0.tar.gz --markdown 20230612/s/spPersist/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [types-ujson]: Downloading https://files.pythonhosted.org/packages/e3/ea/d5cac750312e707b3a85c329b3c3dda07de7cf02889912067c85a49dce2b/types-ujson-5.7.0.5.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230612/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230612/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-12 03:37:26] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230612/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:37:26] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-06-12 03:37:26] INFO root fetch - processPackages [types-ujson]: Downloading https://files.pythonhosted.org/packages/67/58/1abfd7f4e74e298da69255d6584e05327071e4f50eb912859781e2083c62/types-ujson-5.8.0.0.tar.gz
+[2023-06-12 03:37:27] INFO root fetch - processPackages [types-ujson]: executing diffoscope
+[2023-06-12 03:37:27] INFO root fetch - processPackages [types-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-ujson-5.7.0.5.tar.gz tmp/types-ujson-5.8.0.0.tar.gz --markdown 20230612/t/types-ujson/5.7.0.5-5.8.0.0/diff.md --exclude *.pyd
+[2023-06-12 03:37:27] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-12 03:37:27] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-06-12 03:37:27] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230612/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:37:27] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.3.3.tar.gz]
+[2023-06-12 03:37:27] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.0.tar.gz]
+[2023-06-12 03:37:27] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 03:37:27] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-12 03:37:27] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-12 03:37:27] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-12 03:37:27] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-12 03:37:27] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-12 03:37:27] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-12 03:37:27] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-12 03:37:27] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230612/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:37:28] INFO root fetch - processPackages [types-ujson]: Remove: archive file [/home/abi/fetcher/tmp/types-ujson-5.7.0.5.tar.gz]
+[2023-06-12 03:37:28] INFO root fetch - processPackages [types-ujson]: Remove: archive file [/home/abi/fetcher/tmp/types-ujson-5.8.0.0.tar.gz]
+[2023-06-12 03:37:28] INFO root fetch - main [MainThread]: End processing [types-ujson]: success
+[2023-06-12 03:37:28] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-06-12 03:37:28] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-06-12 03:37:28] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-06-12 03:37:29] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-12 03:37:29] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-12 03:37:29] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-12 03:37:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-12 03:37:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-12 03:37:29] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-12 03:37:29] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-12 03:37:30] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-12 03:37:30] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230612/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 03:39:30] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-12 03:39:30] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-12 03:39:30] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-12 03:39:30] INFO root fetch - main [MainThread]: Store serial: [18462620]
