@@ -8981,3 +8981,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 08:12:27] INFO root fetch - processPackages [verstack]: Remove: archive file [/home/abi/fetcher/tmp/verstack-3.8.0.tar.gz]
 [2023-06-12 08:12:27] INFO root fetch - main [MainThread]: End processing [verstack]: success
 [2023-06-12 08:12:27] INFO root fetch - main [MainThread]: Store serial: [18465029]
+[2023-06-12 08:17:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465029]
+[2023-06-12 08:17:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appsurifyci
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-takauma
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revolution.py
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cloudformation-newrelic-observability-ainotificationschannel
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-aresti
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandas-money
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-in-mpv
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dodo-is-api
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pandas-money
+[2023-06-12 08:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kevin-toolbox
+[2023-06-12 08:17:37] INFO root fetch - processPackages [python-aresti]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-12 08:17:37] INFO root fetch - processPackages [revolution.py]: New version: [5.0.0.2] Old Version: [5.0.0.1]
+[2023-06-12 08:17:37] INFO root fetch - processPackages [python-takauma]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-12 08:17:37] WARNING root fetch - processPackages [open-in-mpv]: Skipping, unable to determine old version
+[2023-06-12 08:17:37] INFO root fetch - processPackages [pandas-money]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 08:17:37] INFO root fetch - processPackages [open-in-mpv]: Start processing: kevin-toolbox-dev
+[2023-06-12 08:17:37] INFO root fetch - main [MainThread]: End processing [open-in-mpv] error
+[2023-06-12 08:17:37] INFO root fetch - processPackages [dodo-is-api]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-12 08:17:37] INFO root fetch - processPackages [pandas-money]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 08:17:37] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 08:17:37] WARNING root fetch - processPackages [cdk-cloudformation-newrelic-observability-ainotificationschannel]: Skipping, unable to determine old version
+[2023-06-12 08:17:37] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-newrelic-observability-ainotificationschannel] error
+[2023-06-12 08:17:37] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 08:17:37] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 08:17:37] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/6c/c9/d4843f8dbf68c4e6b0e6cafa5d131ff82fd5436480fa92dda75ab3abe507/revolution.py-5.0.0.1.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [dodo-is-api]: Downloading https://files.pythonhosted.org/packages/39/4c/62e886a7b491fe7f439b0c05177266d6d85c0d29715c2beab943dbb28367/dodo_is_api-0.7.1.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [pandas-money]: Downloading https://files.pythonhosted.org/packages/ef/ae/f09b8371f9f4d1cc50bd0c01b4ce659c09e90324ddf4d41e446fc48ec98c/pandas_money-0.1.0.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [python-takauma]: Downloading https://files.pythonhosted.org/packages/db/66/1156c5fad30a0a0df940121b7411a06e095567acd4e1c308d603abe27b9f/python-takauma-0.5.3.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [pandas-money]: Downloading https://files.pythonhosted.org/packages/ef/ae/f09b8371f9f4d1cc50bd0c01b4ce659c09e90324ddf4d41e446fc48ec98c/pandas_money-0.1.0.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [python-aresti]: Downloading https://files.pythonhosted.org/packages/b8/05/d903f50a1484d8d54cad6ea4a8819ed99d946e505cbc3e8b69e07cf47410/python-aresti-0.4.4.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/3d/3e/5efde0cc79d319bda39df7516b2ef0f3ab4c7d6df57383a27b51da2c6150/kevin-toolbox-dev-1.0.8.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/e9/44/1a07d46d277322e7183387188d6581b10fd861d7083bae0f18cce2baed9d/kevin-toolbox-1.0.8.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [pandas-money]: Downloading https://files.pythonhosted.org/packages/0c/e6/6e6a4170b16ca93e123f30be54ba28ab0cdd77908cee3491a78ae5046e65/pandas_money-0.1.1.tar.gz
+[2023-06-12 08:17:37] INFO root fetch - processPackages [pandas-money]: Downloading https://files.pythonhosted.org/packages/0c/e6/6e6a4170b16ca93e123f30be54ba28ab0cdd77908cee3491a78ae5046e65/pandas_money-0.1.1.tar.gz
+[2023-06-12 08:17:38] INFO root fetch - processPackages [dodo-is-api]: Downloading https://files.pythonhosted.org/packages/4b/30/489065e184a87317aa66c611f49d4ad8aee65dc2344dccd9dee841ceccc0/dodo_is_api-0.7.2.tar.gz
+[2023-06-12 08:17:38] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/c5/e2/83359df4f3e17dfa5d2fbdcdf9a505d0a336c76731779167ade54fb0444d/revolution.py-5.0.0.2.tar.gz
+[2023-06-12 08:17:38] INFO root fetch - processPackages [python-takauma]: Downloading https://files.pythonhosted.org/packages/9c/e3/8a6bba8eedbb47b41dddf9e5687dc19dee123c9dd9eee37b8e0f96be9742/python-takauma-0.5.4.tar.gz
+[2023-06-12 08:17:38] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2023-06-12 08:17:38] INFO root fetch - processPackages [pandas-money]: executing diffoscope
+[2023-06-12 08:17:38] INFO root fetch - processPackages [python-aresti]: Downloading https://files.pythonhosted.org/packages/e2/3e/390b59a5b9e6042d7b676348bc640292e2e2eff8dce7c63294b9c972b403/python-aresti-0.4.5.tar.gz
+[2023-06-12 08:17:38] INFO root fetch - processPackages [pandas-money]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_money-0.1.0.tar.gz tmp/pandas_money-0.1.1.tar.gz --markdown 20230612/p/pandas-money/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 08:17:38] INFO root fetch - processPackages [pandas-money]: executing diffoscope
+[2023-06-12 08:17:38] INFO root fetch - processPackages [pandas-money]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_money-0.1.0.tar.gz tmp/pandas_money-0.1.1.tar.gz --markdown 20230612/p/pandas-money/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 08:17:38] INFO root fetch - processPackages [dodo-is-api]: executing diffoscope
+[2023-06-12 08:17:38] INFO root fetch - processPackages [dodo-is-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodo_is_api-0.7.1.tar.gz tmp/dodo_is_api-0.7.2.tar.gz --markdown 20230612/d/dodo-is-api/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-12 08:17:38] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-06-12 08:17:38] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.0.1.tar.gz tmp/revolution.py-5.0.0.2.tar.gz --markdown 20230612/r/revolution.py/5.0.0.1-5.0.0.2/diff.md --exclude *.pyd
+[2023-06-12 08:17:38] INFO root fetch - processPackages [python-takauma]: executing diffoscope
+[2023-06-12 08:17:38] INFO root fetch - processPackages [python-takauma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-takauma-0.5.3.tar.gz tmp/python-takauma-0.5.4.tar.gz --markdown 20230612/p/python-takauma/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-12 08:17:38] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/95/d2/259c0fd83db8c2245498b3cb9434b8ed951944c14fb8255ffc8ffffe74d4/kevin-toolbox-1.0.9.tar.gz
+[2023-06-12 08:17:38] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2023-06-12 08:17:38] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20230612/a/appsurifyci/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 08:17:38] INFO root fetch - processPackages [python-aresti]: executing diffoscope
+[2023-06-12 08:17:38] INFO root fetch - processPackages [python-aresti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-aresti-0.4.4.tar.gz tmp/python-aresti-0.4.5.tar.gz --markdown 20230612/p/python-aresti/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-12 08:17:38] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/50/51/6f85ab7120f80babd9c87d198cc1f3f2afbf36a523b5db9ee86218150ffe/kevin-toolbox-dev-1.0.9.tar.gz
+[2023-06-12 08:17:38] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-12 08:17:38] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.8.tar.gz tmp/kevin-toolbox-1.0.9.tar.gz --markdown 20230612/k/kevin-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 08:17:38] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-12 08:17:38] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.0.8.tar.gz tmp/kevin-toolbox-dev-1.0.9.tar.gz --markdown 20230612/k/kevin-toolbox-dev/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 08:17:39] INFO root fetch - processPackages [pandas-money]: Remove: archive file [/home/abi/fetcher/tmp/pandas_money-0.1.0.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - processPackages [pandas-money]: Remove: archive file [/home/abi/fetcher/tmp/pandas_money-0.1.1.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - main [MainThread]: End processing [pandas-money]: success
+[2023-06-12 08:17:39] INFO root fetch - processPackages [dodo-is-api]: Remove: archive file [/home/abi/fetcher/tmp/dodo_is_api-0.7.1.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - processPackages [dodo-is-api]: Remove: archive file [/home/abi/fetcher/tmp/dodo_is_api-0.7.2.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - main [MainThread]: End processing [dodo-is-api]: success
+[2023-06-12 08:17:39] INFO root fetch - main [MainThread]: End processing [pandas-money]: success
+[2023-06-12 08:17:39] INFO root fetch - processPackages [python-takauma]: Remove: archive file [/home/abi/fetcher/tmp/python-takauma-0.5.3.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - processPackages [python-takauma]: Remove: archive file [/home/abi/fetcher/tmp/python-takauma-0.5.4.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - main [MainThread]: End processing [python-takauma]: success
+[2023-06-12 08:17:39] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.1.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.2.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-06-12 08:17:39] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.8.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.9.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2023-06-12 08:17:39] INFO root fetch - processPackages [python-aresti]: Remove: archive file [/home/abi/fetcher/tmp/python-aresti-0.4.4.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - processPackages [python-aresti]: Remove: archive file [/home/abi/fetcher/tmp/python-aresti-0.4.5.tar.gz]
+[2023-06-12 08:17:39] INFO root fetch - main [MainThread]: End processing [python-aresti]: success
+[2023-06-12 08:17:40] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.8.tar.gz]
+[2023-06-12 08:17:40] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.9.tar.gz]
+[2023-06-12 08:17:40] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-12 08:17:40] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.8.tar.gz]
+[2023-06-12 08:17:40] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.9.tar.gz]
+[2023-06-12 08:17:40] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-12 08:17:40] INFO root fetch - main [MainThread]: Store serial: [18465065]
