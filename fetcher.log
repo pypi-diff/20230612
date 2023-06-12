@@ -4106,3 +4106,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 04:37:33] INFO root fetch - processPackages [teenstudy]: Remove: archive file [/home/abi/fetcher/tmp/teenstudy-0.2.0rc1.tar.gz]
 [2023-06-12 04:37:33] INFO root fetch - main [MainThread]: End processing [teenstudy]: success
 [2023-06-12 04:37:33] INFO root fetch - main [MainThread]: Store serial: [18463043]
+[2023-06-12 04:42:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18463043]
+[2023-06-12 04:42:42] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teenstudy
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plbm-liuyi778-Stable
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liveramp-automation-framework
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-24
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastlabel
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stim
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sc-editor
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pylogix
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stimcirq
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sinter
+[2023-06-12 04:42:42] INFO root fetch - processPackages [teenstudy]: New version: [0.2.1] Old Version: [0.2.0rc1]
+[2023-06-12 04:42:42] WARNING root fetch - processPackages [liveramp-automation-framework]: Skipping, unable to determine old version
+[2023-06-12 04:42:42] INFO root fetch - processPackages [liveramp-automation-framework]: Start processing: ipyflow-core
+[2023-06-12 04:42:42] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework] error
+[2023-06-12 04:42:42] INFO root fetch - processPackages [sc-editor]: New version: [0.3] Old Version: [0.2]
+[2023-06-12 04:42:42] INFO root fetch - processPackages [pylogix]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-12 04:42:42] WARNING root fetch - processPackages [plbm-liuyi778-Stable]: Skipping, unable to determine old version
+[2023-06-12 04:42:42] INFO root fetch - processPackages [plbm-liuyi778-Stable]: Start processing: ipyflow
+[2023-06-12 04:42:42] INFO root fetch - main [MainThread]: End processing [plbm-liuyi778-Stable] error
+[2023-06-12 04:42:42] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-12 04:42:42] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-12 04:42:42] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 04:42:42] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 04:42:42] INFO root fetch - processPackages [teenstudy]: Downloading https://files.pythonhosted.org/packages/e5/2f/327d534b1a3fefdb1e71bec860d59c7e35f902f831efe24c8b206e1e1a96/teenstudy-0.2.0rc1.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 04:42:42] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ipyflow-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ipyflow]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 04:42:42] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/4a/02/add5779161038cebac530650b124ac8c9017462b536d5a3adedb06c4b31a/sc-editor-0.2.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [pylogix]: Downloading https://files.pythonhosted.org/packages/ed/9d/600963fbc624a15e85fc04b907b90c795460293e6c474c58618debf8afea/pylogix-0.8.8-py2.py3-none-any.whl
+[2023-06-12 04:42:42] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-12 04:42:42] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230612/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ipyflow]: Downloading https://files.pythonhosted.org/packages/16/2e/59847e7e8aa304134949f37c384de8d7be4c80a26fd25bc4641afc075a6e/ipyflow-0.0.98.tar.gz
+[2023-06-12 04:42:42] INFO root fetch - processPackages [ipyflow-core]: Downloading https://files.pythonhosted.org/packages/3a/18/e75746fd4516ba2696d7da04861ca9885ab4039f44cec923ec9021c954ff/ipyflow-core-0.0.98.tar.gz
+[2023-06-12 04:42:43] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-12 04:42:43] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230612/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 04:42:43] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/a6/c2/4790ddb59e8f34f69ea85d13938ca632b751e37d81cdbfff4f4899621f61/sc-editor-0.3.tar.gz
+[2023-06-12 04:42:43] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-12 04:42:43] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-12 04:42:43] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230612/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-12 04:42:43] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-12 04:42:43] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230612/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 04:42:43] INFO root fetch - processPackages [pylogix]: Downloading https://files.pythonhosted.org/packages/24/0d/60d590fcc970b10a32c3ec4dacaa45151db1a5ad315d97da4965b3ff991d/pylogix-0.8.9-py2.py3-none-any.whl
+[2023-06-12 04:42:43] INFO root fetch - processPackages [teenstudy]: Downloading https://files.pythonhosted.org/packages/09/9d/4cf4ec54936674dd9fc8132adaece9e65711f335a3106e0949d7268f7ce2/teenstudy-0.2.1.tar.gz
+[2023-06-12 04:42:43] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 04:42:43] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.2.tar.gz tmp/sc-editor-0.3.tar.gz --markdown 20230612/s/sc-editor/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-12 04:42:43] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2023-06-12 04:42:43] INFO root fetch - processPackages [pylogix]: executing diffoscope
+[2023-06-12 04:42:43] INFO root fetch - processPackages [pylogix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogix-0.8.8-py2.py3-none-any.whl.zip tmp/pylogix-0.8.9-py2.py3-none-any.whl.zip --markdown 20230612/p/pylogix/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-12 04:42:43] INFO root fetch - processPackages [ipyflow]: Downloading https://files.pythonhosted.org/packages/67/2f/5f3c2a942a9d42acff3ddadfc2468577f883db25f6486c139878393a11ff/ipyflow-0.0.99.tar.gz
+[2023-06-12 04:42:43] INFO root fetch - processPackages [ipyflow-core]: Downloading https://files.pythonhosted.org/packages/5c/88/3fd3bb8d277b9ffd707ae4815e7adad14f12478d43b163c206001e3c5f37/ipyflow-core-0.0.99.tar.gz
+[2023-06-12 04:42:43] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2023-06-12 04:42:43] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20230612/f/fastlabel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 04:42:43] INFO root fetch - processPackages [ipyflow]: executing diffoscope
+[2023-06-12 04:42:43] INFO root fetch - processPackages [ipyflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-0.0.98.tar.gz tmp/ipyflow-0.0.99.tar.gz --markdown 20230612/i/ipyflow/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 04:42:43] INFO root fetch - processPackages [ipyflow-core]: executing diffoscope
+[2023-06-12 04:42:43] INFO root fetch - processPackages [ipyflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-core-0.0.98.tar.gz tmp/ipyflow-core-0.0.99.tar.gz --markdown 20230612/i/ipyflow-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 04:42:44] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-12 04:42:44] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-12 04:42:44] INFO root fetch - processPackages [stimcirq]: Start processing: aliyun-python-sdk-videoenhan
+[2023-06-12 04:42:44] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-12 04:42:44] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 04:42:44] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: Downloading https://files.pythonhosted.org/packages/fc/34/9b929bafdc92909b56fe410d4e6b329aa0134005611d5304878138686c1e/aliyun-python-sdk-videoenhan-1.0.8.tar.gz
+[2023-06-12 04:42:44] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-12 04:42:44] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-12 04:42:44] INFO root fetch - processPackages [sinter]: Start processing: vessl
+[2023-06-12 04:42:44] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-12 04:42:44] INFO root fetch - processPackages [teenstudy]: executing diffoscope
+[2023-06-12 04:42:44] INFO root fetch - processPackages [teenstudy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teenstudy-0.2.0rc1.tar.gz tmp/teenstudy-0.2.1.tar.gz --markdown 20230612/t/teenstudy/0.2.0rc1-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 04:42:44] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-12 04:42:44] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: Downloading https://files.pythonhosted.org/packages/dd/23/84d9f24ba1fa8628f191dcd63d00a984da8f5a85415b755b4090bba3683d/aliyun-python-sdk-videoenhan-1.0.9.tar.gz
+[2023-06-12 04:42:45] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-06-12 04:42:45] INFO root fetch - processPackages [pylogix]: Remove: archive file [/home/abi/fetcher/tmp/pylogix-0.8.8-py2.py3-none-any.whl.zip]
+[2023-06-12 04:42:45] INFO root fetch - processPackages [pylogix]: Remove: archive file [/home/abi/fetcher/tmp/pylogix-0.8.9-py2.py3-none-any.whl.zip]
+[2023-06-12 04:42:45] INFO root fetch - main [MainThread]: End processing [pylogix]: success
+[2023-06-12 04:42:45] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: executing diffoscope
+[2023-06-12 04:42:45] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-videoenhan-1.0.8.tar.gz tmp/aliyun-python-sdk-videoenhan-1.0.9.tar.gz --markdown 20230612/a/aliyun-python-sdk-videoenhan/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 04:42:45] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-06-12 04:42:45] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.8.tar.gz]
+[2023-06-12 04:42:45] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
+[2023-06-12 04:42:45] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2023-06-12 04:42:45] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-06-12 04:42:45] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230612/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-12 04:42:45] INFO root fetch - processPackages [ipyflow]: Remove: archive file [/home/abi/fetcher/tmp/ipyflow-0.0.98.tar.gz]
+[2023-06-12 04:42:45] INFO root fetch - processPackages [ipyflow]: Remove: archive file [/home/abi/fetcher/tmp/ipyflow-0.0.99.tar.gz]
+[2023-06-12 04:42:45] INFO root fetch - main [MainThread]: End processing [ipyflow]: success
+[2023-06-12 04:42:46] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-12 04:42:46] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-12 04:42:46] INFO root fetch - processPackages [teenstudy]: Remove: archive file [/home/abi/fetcher/tmp/teenstudy-0.2.0rc1.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - processPackages [teenstudy]: Remove: archive file [/home/abi/fetcher/tmp/teenstudy-0.2.1.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - main [MainThread]: End processing [teenstudy]: success
+[2023-06-12 04:42:46] INFO root fetch - processPackages [ipyflow-core]: Remove: archive file [/home/abi/fetcher/tmp/ipyflow-core-0.0.98.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - processPackages [ipyflow-core]: Remove: archive file [/home/abi/fetcher/tmp/ipyflow-core-0.0.99.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - main [MainThread]: End processing [ipyflow-core]: success
+[2023-06-12 04:42:46] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.2.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.3.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 04:42:46] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-videoenhan-1.0.8.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-videoenhan-1.0.9.tar.gz]
+[2023-06-12 04:42:46] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-videoenhan]: success
+[2023-06-12 04:42:53] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-06-12 04:42:53] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-06-12 04:42:53] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-06-12 04:42:53] INFO root fetch - main [MainThread]: Store serial: [18463114]
