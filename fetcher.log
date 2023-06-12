@@ -10891,3 +10891,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 09:44:02] INFO root fetch - processPackages [ykdraco]: Remove: archive file [/home/abi/fetcher/tmp/ykdraco-1.0.0-cp311-cp311-win_amd64.whl.zip]
 [2023-06-12 09:44:02] INFO root fetch - main [MainThread]: End processing [ykdraco]: success
 [2023-06-12 09:44:02] INFO root fetch - main [MainThread]: Store serial: [18465817]
+[2023-06-12 09:49:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465817]
+[2023-06-12 09:49:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 09:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo-model-builder
+[2023-06-12 09:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-ipv4-tools
+[2023-06-12 09:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yplib
+[2023-06-12 09:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multiversx-sdk-cli
+[2023-06-12 09:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-polyglot-translator
+[2023-06-12 09:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-caption
+[2023-06-12 09:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tkintertools
+[2023-06-12 09:49:12] INFO root fetch - processPackages [netbox-ipv4-tools]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 09:49:12] INFO root fetch - processPackages [django-polyglot-translator]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-12 09:49:12] INFO root fetch - processPackages [tkintertools]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-06-12 09:49:12] INFO root fetch - processPackages [mkdocs-caption]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 09:49:12] INFO root fetch - processPackages [multiversx-sdk-cli]: New version: [7.0.0b0] Old Version: [6.5.0]
+[2023-06-12 09:49:12] INFO root fetch - processPackages [yplib]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-12 09:49:12] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-06-12 09:49:12] INFO root fetch - processPackages [django-polyglot-translator]: Downloading https://files.pythonhosted.org/packages/e5/52/0c683d2f02851a26ea39321aca5144ac3e51ef3646a110af5b1a8aa530b3/django-polyglot-translator-1.2.1.tar.gz
+[2023-06-12 09:49:12] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/ef/1d/2eb6519e20ad726e2edb4c9dc0eaff11a5d4181382e33c67c2dec26d97ae/multiversx_sdk_cli-6.5.0.tar.gz
+[2023-06-12 09:49:12] INFO root fetch - processPackages [netbox-ipv4-tools]: Downloading https://files.pythonhosted.org/packages/0d/3b/c95540cb14f867d5342ef1b7f2d157487f3f8f63351cd8672ab3fc3ac15a/netbox-ipv4-tools-1.0.1.tar.gz
+[2023-06-12 09:49:12] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f8/28/a059654571f15c003cf4cb41d8469f751ebdd00ff5939e7dda0b1f9aeb29/yplib-0.2.2.tar.gz
+[2023-06-12 09:49:12] INFO root fetch - processPackages [mkdocs-caption]: Downloading https://files.pythonhosted.org/packages/38/df/32874f6a04e4f96e11d76f6cd50e4822ce541a55a4d4d2e42e6b31987a38/mkdocs_caption-0.0.1.tar.gz
+[2023-06-12 09:49:12] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-06-12 09:49:12] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/ce/bc/cf6adfdc216db31e9377ca7da08f3cd066c11930a4b4da06393d0f25e49a/tkintertools-2.6.3.tar.gz
+[2023-06-12 09:49:13] INFO root fetch - processPackages [django-polyglot-translator]: Downloading https://files.pythonhosted.org/packages/c6/d5/ccafe0ae2b37f9e631fa14cdf0819e47244fd0dd8c694eeeaefb95987b4c/django-polyglot-translator-1.2.2.tar.gz
+[2023-06-12 09:49:13] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/94/b7/86499ef4d11be2c6e0e019c4e017bb34616c36a8687cf9e2e90814872b87/yplib-0.2.3.tar.gz
+[2023-06-12 09:49:13] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/ec/1d/6bd6b2abc1a1405836ff93bd26134b435185a115b9a895fd740e9ab76dbb/tkintertools-2.6.4.tar.gz
+[2023-06-12 09:49:13] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/21/2d/e149e4e2aedde7d5f0985bbe90cdb78d3eb03175c45dcf5cf0b6d8c282ed/multiversx_sdk_cli-7.0.0b0.tar.gz
+[2023-06-12 09:49:13] INFO root fetch - processPackages [netbox-ipv4-tools]: Downloading https://files.pythonhosted.org/packages/9d/d7/2788e91e9de653507a3ba3d23f01011f8d9a2d6d416c62e6b115b0e582dc/netbox-ipv4-tools-1.0.2.tar.gz
+[2023-06-12 09:49:13] INFO root fetch - processPackages [mkdocs-caption]: Downloading https://files.pythonhosted.org/packages/c5/69/0eb70e83af58aa0236f56e128f1062efdabcc1e8741caea8fd85d991208b/mkdocs_caption-0.0.2.tar.gz
+[2023-06-12 09:49:13] INFO root fetch - processPackages [tkintertools]: executing diffoscope
+[2023-06-12 09:49:13] INFO root fetch - processPackages [tkintertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-2.6.3.tar.gz tmp/tkintertools-2.6.4.tar.gz --markdown 20230612/t/tkintertools/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-06-12 09:49:13] INFO root fetch - processPackages [django-polyglot-translator]: executing diffoscope
+[2023-06-12 09:49:13] INFO root fetch - processPackages [django-polyglot-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-polyglot-translator-1.2.1.tar.gz tmp/django-polyglot-translator-1.2.2.tar.gz --markdown 20230612/d/django-polyglot-translator/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-12 09:49:13] INFO root fetch - processPackages [mkdocs-caption]: executing diffoscope
+[2023-06-12 09:49:13] INFO root fetch - processPackages [mkdocs-caption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_caption-0.0.1.tar.gz tmp/mkdocs_caption-0.0.2.tar.gz --markdown 20230612/m/mkdocs-caption/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 09:49:13] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-12 09:49:13] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.2.2.tar.gz tmp/yplib-0.2.3.tar.gz --markdown 20230612/y/yplib/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-12 09:49:13] INFO root fetch - processPackages [netbox-ipv4-tools]: executing diffoscope
+[2023-06-12 09:49:13] INFO root fetch - processPackages [multiversx-sdk-cli]: executing diffoscope
+[2023-06-12 09:49:13] INFO root fetch - processPackages [netbox-ipv4-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-ipv4-tools-1.0.1.tar.gz tmp/netbox-ipv4-tools-1.0.2.tar.gz --markdown 20230612/n/netbox-ipv4-tools/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 09:49:13] INFO root fetch - processPackages [multiversx-sdk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_cli-6.5.0.tar.gz tmp/multiversx_sdk_cli-7.0.0b0.tar.gz --markdown 20230612/m/multiversx-sdk-cli/6.5.0-7.0.0b0/diff.md --exclude *.pyd
+[2023-06-12 09:49:13] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-06-12 09:49:14] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-06-12 09:49:14] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230612/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-06-12 09:49:15] INFO root fetch - processPackages [netbox-ipv4-tools]: Remove: archive file [/home/abi/fetcher/tmp/netbox-ipv4-tools-1.0.1.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - processPackages [netbox-ipv4-tools]: Remove: archive file [/home/abi/fetcher/tmp/netbox-ipv4-tools-1.0.2.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - main [MainThread]: End processing [netbox-ipv4-tools]: success
+[2023-06-12 09:49:15] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.2.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.3.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-12 09:49:15] INFO root fetch - processPackages [mkdocs-caption]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_caption-0.0.1.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - processPackages [mkdocs-caption]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_caption-0.0.2.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - main [MainThread]: End processing [mkdocs-caption]: success
+[2023-06-12 09:49:15] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.3.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.4.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - main [MainThread]: End processing [tkintertools]: success
+[2023-06-12 09:49:15] INFO root fetch - processPackages [django-polyglot-translator]: Remove: archive file [/home/abi/fetcher/tmp/django-polyglot-translator-1.2.1.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - processPackages [django-polyglot-translator]: Remove: archive file [/home/abi/fetcher/tmp/django-polyglot-translator-1.2.2.tar.gz]
+[2023-06-12 09:49:15] INFO root fetch - main [MainThread]: End processing [django-polyglot-translator]: success
+[2023-06-12 09:49:17] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-6.5.0.tar.gz]
+[2023-06-12 09:49:17] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-7.0.0b0.tar.gz]
+[2023-06-12 09:49:17] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-cli]: success
+[2023-06-12 09:49:19] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-06-12 09:49:19] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-06-12 09:49:19] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-06-12 09:49:19] INFO root fetch - main [MainThread]: Store serial: [18465838]
