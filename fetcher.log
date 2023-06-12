@@ -8664,3 +8664,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 07:40:59] INFO root fetch - processPackages [epubs]: Remove: archive file [/home/abi/fetcher/tmp/epubs-0.0.3.tar.gz]
 [2023-06-12 07:40:59] INFO root fetch - main [MainThread]: End processing [epubs]: success
 [2023-06-12 07:40:59] INFO root fetch - main [MainThread]: Store serial: [18464864]
+[2023-06-12 07:46:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464864]
+[2023-06-12 07:46:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-12 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-grpc-lw-data-provider
+[2023-06-12 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc-editor
+[2023-06-12 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-06-12 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: servicefoundry
+[2023-06-12 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tlux
+[2023-06-12 07:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aspose-words
+[2023-06-12 07:46:08] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5239951111]
+[2023-06-12 07:46:08] INFO root fetch - processPackages [tlux]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 07:46:08] INFO root fetch - processPackages [sc-editor]: New version: [0.97] Old Version: [0.93]
+[2023-06-12 07:46:08] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.6rc2] Old Version: [0.9.6rc1]
+[2023-06-12 07:46:08] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-12 07:46:08] INFO root fetch - processPackages [aspose-words]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-12 07:46:08] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/14/f1/018c183d70d8ef6a68bc95e69cc511d37f019518fead45fe83dab99f2bd4/servicefoundry-0.9.6rc1.tar.gz
+[2023-06-12 07:46:08] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-12 07:46:08] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/65/8b/191788bb15b5c70acd75f48219a4392f31f717f4cf4f5d9dcdcc4a298199/th2_grpc_lw_data_provider-2.0.0.dev5239951111.tar.gz
+[2023-06-12 07:46:08] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/01/7a/aad8a2b9b874ed2577ef8523f4f39648d7f804d19b0769e93f35a44874ea/sc-editor-0.93.tar.gz
+[2023-06-12 07:46:08] INFO root fetch - processPackages [tlux]: Downloading https://files.pythonhosted.org/packages/10/fe/fb608441f19f91e41fd8961c0504f77f35a0e235a81f54b554e37d8c3b9a/tlux-0.0.8.tar.gz
+[2023-06-12 07:46:08] INFO root fetch - processPackages [aspose-words]: Downloading https://files.pythonhosted.org/packages/77/bf/03974731691166ad4124d49027cdf206e4aa81e734c14e7bd1d969cb2efc/aspose_words-23.5.0-py3-none-win_amd64.whl
+[2023-06-12 07:46:08] WARNING root fetch - processPackages [aspose-words]: Skipping package: exceeds size limit 62609118>=10485760
+[2023-06-12 07:46:08] INFO root fetch - main [MainThread]: End processing [aspose-words] error
+[2023-06-12 07:46:08] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/34/d0/3bbcc7a8da2205016ae3ab5fa09508b7d5e247ce051c4e0d6072a6a8deda/servicefoundry-0.9.6rc2.tar.gz
+[2023-06-12 07:46:09] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-12 07:46:09] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-12 07:46:09] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-06-12 07:46:09] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.6rc1.tar.gz tmp/servicefoundry-0.9.6rc2.tar.gz --markdown 20230612/s/servicefoundry/0.9.6rc1-0.9.6rc2/diff.md --exclude *.pyd
+[2023-06-12 07:46:09] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-12 07:46:09] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230612/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-12 07:46:09] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/b4/f1/4480bab5289e53ddaf446912530ff24036b9744c5ef1171b59d51ffd5b8c/sc-editor-0.97.tar.gz
+[2023-06-12 07:46:09] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-12 07:46:09] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5239951111.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230612/t/th2-grpc-lw-data-provider/2.0.0.dev5239951111-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-12 07:46:09] INFO root fetch - processPackages [tlux]: Downloading https://files.pythonhosted.org/packages/62/61/1bb603889e34ebbcfd18bd971ec989e8a8a0922a190c5f48e88274971926/tlux-0.0.9.tar.gz
+[2023-06-12 07:46:09] INFO root fetch - processPackages [tlux]: executing diffoscope
+[2023-06-12 07:46:09] INFO root fetch - processPackages [tlux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlux-0.0.8.tar.gz tmp/tlux-0.0.9.tar.gz --markdown 20230612/t/tlux/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 07:46:09] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 07:46:09] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.93.tar.gz tmp/sc-editor-0.97.tar.gz --markdown 20230612/s/sc-editor/0.93-0.97/diff.md --exclude *.pyd
+[2023-06-12 07:46:10] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-12 07:46:10] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-12 07:46:10] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-12 07:46:10] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5239951111.tar.gz]
+[2023-06-12 07:46:10] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-12 07:46:10] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-12 07:46:10] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.93.tar.gz]
+[2023-06-12 07:46:10] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.97.tar.gz]
+[2023-06-12 07:46:10] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 07:46:10] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.6rc1.tar.gz]
+[2023-06-12 07:46:10] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.6rc2.tar.gz]
+[2023-06-12 07:46:10] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-06-12 07:46:11] INFO root fetch - processPackages [tlux]: Remove: archive file [/home/abi/fetcher/tmp/tlux-0.0.8.tar.gz]
+[2023-06-12 07:46:11] INFO root fetch - processPackages [tlux]: Remove: archive file [/home/abi/fetcher/tmp/tlux-0.0.9.tar.gz]
+[2023-06-12 07:46:11] INFO root fetch - main [MainThread]: End processing [tlux]: success
+[2023-06-12 07:46:11] INFO root fetch - main [MainThread]: Store serial: [18464880]
