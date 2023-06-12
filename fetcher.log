@@ -7869,3 +7869,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 06:20:02] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.4.0.tar.gz]
 [2023-06-12 06:20:02] INFO root fetch - main [MainThread]: End processing [osmnx]: success
 [2023-06-12 06:20:02] INFO root fetch - main [MainThread]: Store serial: [18464505]
+[2023-06-12 06:25:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464505]
+[2023-06-12 06:25:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-12 06:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peitho-data
+[2023-06-12 06:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dojo-truant
+[2023-06-12 06:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-pms
+[2023-06-12 06:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2023-06-12 06:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs.sqlalchemy-utils
+[2023-06-12 06:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dockery
+[2023-06-12 06:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenFintech
+[2023-06-12 06:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sc-editor
+[2023-06-12 06:25:12] INFO root fetch - processPackages [peitho-data]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-12 06:25:12] INFO root fetch - processPackages [cs.sqlalchemy-utils]: New version: [20230612] Old Version: [20230212]
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dojo-truant]: New version: [2023.6.11.3] Old Version: [2023.6.11.1]
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dockery]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 06:25:12] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2023-06-12 06:25:12] INFO root fetch - processPackages [sc-editor]: New version: [0.83] Old Version: [0.82]
+[2023-06-12 06:25:12] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.896568074.dev11278] Old Version: [0.2.896146019.dev11277]
+[2023-06-12 06:25:12] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/34/27/12e02d2660a62a6b3b350d0cdd6fd25785da86311d6a3974ce276e4379d5/quickstart-vdk-0.2.896146019.dev11277.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [OpenFintech]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 06:25:12] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/7a/cb/b11569e74c06d39afbd2120ae38e498b3a5e36d39128057a2c568625accc/sc-editor-0.82.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/54/f0/a42df713e92eebecc9053496a3c7af5c62054d4703ffec72eeb257368392/peitho_data-2.3.1.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/63/41/fc45dcd5ca0d6d4fec45d45d8790acecddd887abf357432a272241cce089/dojo_truant-2023.6.11.1.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [cs.sqlalchemy-utils]: Downloading https://files.pythonhosted.org/packages/aa/e5/1f50bd3f2e9dcb9bb1d756ee1b400db64bfe8d191dac495d529116042b8e/cs.sqlalchemy_utils-20230212.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/6e/b9/2f9c61cf142dfd9b242512a595a884aba8e65f4a0a14a176678f51c9e8e7/dockery-0.2.1.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2023-06-12 06:25:12] INFO root fetch - processPackages [OpenFintech]: Downloading https://files.pythonhosted.org/packages/90/35/c36fc70f6548be3c439204f8d3ac63256f43e6c8e460431eaf4ffbdb52cc/OpenFintech-0.0.3.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/b5/bb/940198c4c6a30ad1cd1ea7be7a9f4e3ca20028bdf0cc1363edfb5b433fa5/sc-editor-0.83.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 06:25:12] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.82.tar.gz tmp/sc-editor-0.83.tar.gz --markdown 20230612/s/sc-editor/0.82-0.83/diff.md --exclude *.pyd
+[2023-06-12 06:25:12] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e4/ce/2615f0e7017d4cd9939e874ebfa36eb3a59ff4f5780f944a6dce908fe499/quickstart-vdk-0.2.896568074.dev11278.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/4f/3a/ac01e7bb2be03f008c5ed4591ae0c9a98ef76a134ab46ef4fc561f8a917a/dojo_truant-2023.6.11.3.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/23/8f/f9e68730e4c0a93f7191be1f1bfec22d0c31546c8919dae035a83941e04f/dockery-0.2.2.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [cs.sqlalchemy-utils]: Downloading https://files.pythonhosted.org/packages/f2/21/ebb72e1ad94aa68c7b11e9e719951e916deebfcf7d922b324e83e1aaf5ab/cs.sqlalchemy_utils-20230612.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/af/2a/925b9c54800d196a8355d857ee352c6b4e0b5cd3f33b2a220ed517eaa724/peitho_data-2.3.2.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.2.1.tar.gz tmp/dockery-0.2.2.tar.gz --markdown 20230612/d/dockery/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 06:25:12] INFO root fetch - processPackages [OpenFintech]: Downloading https://files.pythonhosted.org/packages/20/e6/cbbe8605a93f7c65b6be16b2a05a7e1cb53d7edb659a7e5511a01a05e5a4/OpenFintech-0.0.4.tar.gz
+[2023-06-12 06:25:12] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-12 06:25:12] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.896146019.dev11277.tar.gz tmp/quickstart-vdk-0.2.896568074.dev11278.tar.gz --markdown 20230612/q/quickstart-vdk/0.2.896146019.dev11277-0.2.896568074.dev11278/diff.md --exclude *.pyd
+[2023-06-12 06:25:12] INFO root fetch - processPackages [cs.sqlalchemy-utils]: executing diffoscope
+[2023-06-12 06:25:12] INFO root fetch - processPackages [cs.sqlalchemy-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.sqlalchemy_utils-20230212.tar.gz tmp/cs.sqlalchemy_utils-20230612.tar.gz --markdown 20230612/c/cs.sqlalchemy-utils/20230212-20230612/diff.md --exclude *.pyd
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dojo-truant]: executing diffoscope
+[2023-06-12 06:25:12] INFO root fetch - processPackages [dojo-truant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_truant-2023.6.11.1.tar.gz tmp/dojo_truant-2023.6.11.3.tar.gz --markdown 20230612/d/dojo-truant/2023.6.11.1-2023.6.11.3/diff.md --exclude *.pyd
+[2023-06-12 06:25:12] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-06-12 06:25:12] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.3.1.tar.gz tmp/peitho_data-2.3.2.tar.gz --markdown 20230612/p/peitho-data/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-12 06:25:12] INFO root fetch - processPackages [OpenFintech]: executing diffoscope
+[2023-06-12 06:25:12] INFO root fetch - processPackages [OpenFintech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFintech-0.0.3.tar.gz tmp/OpenFintech-0.0.4.tar.gz --markdown 20230612/O/OpenFintech/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 06:25:12] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2023-06-12 06:25:13] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2023-06-12 06:25:13] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20230612/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/diff.md --exclude *.pyd
+[2023-06-12 06:25:13] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.2.1.tar.gz]
+[2023-06-12 06:25:13] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.2.2.tar.gz]
+[2023-06-12 06:25:13] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-06-12 06:25:14] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.896146019.dev11277.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.896568074.dev11278.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-12 06:25:14] INFO root fetch - processPackages [OpenFintech]: Remove: archive file [/home/abi/fetcher/tmp/OpenFintech-0.0.3.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - processPackages [OpenFintech]: Remove: archive file [/home/abi/fetcher/tmp/OpenFintech-0.0.4.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - main [MainThread]: End processing [OpenFintech]: success
+[2023-06-12 06:25:14] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.1.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.2.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-06-12 06:25:14] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.11.1.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.11.3.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - main [MainThread]: End processing [dojo-truant]: success
+[2023-06-12 06:25:14] INFO root fetch - processPackages [cs.sqlalchemy-utils]: Remove: archive file [/home/abi/fetcher/tmp/cs.sqlalchemy_utils-20230212.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - processPackages [cs.sqlalchemy-utils]: Remove: archive file [/home/abi/fetcher/tmp/cs.sqlalchemy_utils-20230612.tar.gz]
+[2023-06-12 06:25:14] INFO root fetch - main [MainThread]: End processing [cs.sqlalchemy-utils]: success
+[2023-06-12 06:25:15] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2023-06-12 06:25:15] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2023-06-12 06:25:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2023-06-12 06:25:15] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.82.tar.gz]
+[2023-06-12 06:25:15] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.83.tar.gz]
+[2023-06-12 06:25:15] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 06:25:15] INFO root fetch - main [MainThread]: Store serial: [18464534]
