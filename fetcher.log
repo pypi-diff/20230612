@@ -19702,3 +19702,152 @@ EOFError: EOF read where object expected
 [2023-06-12 15:55:48] INFO root fetch - processPackages [neutron-lib]: Remove: archive file [/home/abi/fetcher/tmp/neutron-lib-3.6.1.tar.gz]
 [2023-06-12 15:55:48] INFO root fetch - main [MainThread]: End processing [neutron-lib]: success
 [2023-06-12 15:55:48] INFO root fetch - main [MainThread]: Store serial: [18469494]
+[2023-06-12 16:00:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469494]
+[2023-06-12 16:00:58] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rich
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitaddress
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netdoc
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: designate-tempest-plugin
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ou-book-theme
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SAMYOL
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: feincms3-data
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bettertransformers
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trove-tempest-plugin
+[2023-06-12 16:00:58] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-06-12 16:00:58] WARNING root fetch - processPackages [bitaddress]: Skipping, unable to determine old version
+[2023-06-12 16:00:58] INFO root fetch - processPackages [bitaddress]: Start processing: scale-nucleus
+[2023-06-12 16:00:58] INFO root fetch - main [MainThread]: End processing [bitaddress] error
+[2023-06-12 16:00:58] INFO root fetch - processPackages [trove-tempest-plugin]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ou-book-theme]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-12 16:00:58] INFO root fetch - processPackages [SAMYOL]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-12 16:00:58] INFO root fetch - processPackages [designate-tempest-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 16:00:58] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-12 16:00:58] WARNING root fetch - processPackages [bettertransformers]: Skipping, unable to determine old version
+[2023-06-12 16:00:58] INFO root fetch - processPackages [bettertransformers]: Start processing: minecraft-ForgePY
+[2023-06-12 16:00:58] INFO root fetch - main [MainThread]: End processing [bettertransformers] error
+[2023-06-12 16:00:58] INFO root fetch - processPackages [rich]: New version: [9.9.0] Old Version: [9.8.2]
+[2023-06-12 16:00:58] INFO root fetch - processPackages [feincms3-data]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-12 16:00:58] WARNING root fetch - processPackages [minecraft-ForgePY]: Skipping, unable to determine old version
+[2023-06-12 16:00:58] INFO root fetch - processPackages [minecraft-ForgePY]: Start processing: cosy1
+[2023-06-12 16:00:58] INFO root fetch - main [MainThread]: End processing [minecraft-ForgePY] error
+[2023-06-12 16:00:58] INFO root fetch - processPackages [scale-nucleus]: New version: [0.9b6] Old Version: [0.9b5]
+[2023-06-12 16:00:58] WARNING root fetch - processPackages [cosy1]: Skipping, unable to determine old version
+[2023-06-12 16:00:58] INFO root fetch - processPackages [cosy1]: Start processing: tiledwebmaps
+[2023-06-12 16:00:58] INFO root fetch - main [MainThread]: End processing [cosy1] error
+[2023-06-12 16:00:58] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/82/c8/000005ff2116df78d8e4f9d51a3e3d1dccf176c79c342dafe859fe1b5d73/SAMYOL-1.0.7.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/fb/96/b268c7ac622597f8660e14e01d8b66b84a34fbbaed3b920bfca440f742fe/rich-9.8.2.tar.gz
+[2023-06-12 16:00:58] WARNING root fetch - processPackages [tiledwebmaps]: Skipping, unable to determine old version
+[2023-06-12 16:00:58] INFO root fetch - processPackages [tiledwebmaps]: Start processing: renats
+[2023-06-12 16:00:58] INFO root fetch - main [MainThread]: End processing [tiledwebmaps] error
+[2023-06-12 16:00:58] INFO root fetch - processPackages [renats]: New version: [0.2.2a1] Old Version: [0.2.2a0]
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ou-book-theme]: Downloading https://files.pythonhosted.org/packages/b1/f9/2f145cafbd89f63b02ca82293887d825713c3d63c9b5c2a1b215d840fc48/ou_book_theme-0.4.0.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [designate-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/4d/13/9cf7bcc66d03acf06018e1213ba3fb5a6b13d201d92bef12f35adfb70911/designate-tempest-plugin-0.8.0.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [renats]: Downloading https://files.pythonhosted.org/packages/79/30/34af75f14a147fb21022241e8b68677fa82a34c0cdb9a2cf6ccbc63f4da1/renats-0.2.2a0.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [feincms3-data]: Downloading https://files.pythonhosted.org/packages/ee/66/34171f551ef166c97963f7650ff0e371b787b12c83ec11d2b27202f59c8f/feincms3_data-0.5.1.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [trove-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/8c/68/cb8f05b5e1fb21d02f39037d7191afa14a8038531584ed57cce8e7422dfb/trove_tempest_plugin-2.0.1.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [scale-nucleus]: Downloading https://files.pythonhosted.org/packages/bf/c8/3c9bb9264e452777f75ca0449c13fb21ca37bf72f8738404d71baf5b1e5f/scale-nucleus-0.9b5.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/5a/2d/5e92c69f971cb2a373a5203fe2ff0a06751b3eea918c709318e19f7caf62/rich-9.9.0.tar.gz
+[2023-06-12 16:00:58] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-12 16:00:58] INFO root fetch - processPackages [lollms]: Start processing: simplejpeg
+[2023-06-12 16:00:58] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-12 16:00:58] INFO root fetch - processPackages [simplejpeg]: New version: [1.7.0rc1] Old Version: [1.6.6]
+[2023-06-12 16:00:58] INFO root fetch - processPackages [rich]: executing diffoscope
+[2023-06-12 16:00:58] INFO root fetch - processPackages [rich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich-9.8.2.tar.gz tmp/rich-9.9.0.tar.gz --markdown 20230612/r/rich/9.8.2-9.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:00:58] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/ec/51/24cf71b3cc30723ce16c43ad396ee62802fec4a1b481b3d47d28f13f5230/SAMYOL-1.0.8.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [renats]: Downloading https://files.pythonhosted.org/packages/f0/76/4814631d2e157374587e137cb11b2368e31af39f8423abe9620a5a58a17e/renats-0.2.2a1.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [ou-book-theme]: Downloading https://files.pythonhosted.org/packages/46/c8/9d19dec074630c5c6d39e086c79e39519866eda5b67ea2c3c776fc01dcb8/ou_book_theme-0.5.0.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [simplejpeg]: Downloading https://files.pythonhosted.org/packages/25/50/6a4ea4f14d72d21c0fe0e3ef4c916b162fc6208f7a32c145f690c7c678b0/simplejpeg-1.6.6.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [SAMYOL]: executing diffoscope
+[2023-06-12 16:00:58] INFO root fetch - processPackages [SAMYOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAMYOL-1.0.7.tar.gz tmp/SAMYOL-1.0.8.tar.gz --markdown 20230612/S/SAMYOL/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-12 16:00:58] INFO root fetch - processPackages [trove-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/43/de/8ecca28da3024b0753581f53c6053937ab7caa9453bbaa4790f55a206d44/trove_tempest_plugin-2.1.0.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [designate-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/2d/8b/cbd73d09734f908ba0791882a69f49b63878778081b8e97c1a5d085a1add/designate-tempest-plugin-0.9.0.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [feincms3-data]: Downloading https://files.pythonhosted.org/packages/da/e8/687d51627ade443ba33d416a5d5cca8e45c046a143c8a7b4745b7804a35c/feincms3_data-0.6.0.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [scale-nucleus]: Downloading https://files.pythonhosted.org/packages/35/78/6ee21b292c395656a8fa3e6431b6070ee45f13b09754a998b4f9f2d510ad/scale-nucleus-0.9b6.tar.gz
+[2023-06-12 16:00:58] INFO root fetch - processPackages [renats]: executing diffoscope
+[2023-06-12 16:00:58] INFO root fetch - processPackages [renats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renats-0.2.2a0.tar.gz tmp/renats-0.2.2a1.tar.gz --markdown 20230612/r/renats/0.2.2a0-0.2.2a1/diff.md --exclude *.pyd
+[2023-06-12 16:00:58] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-06-12 16:00:58] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230612/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-06-12 16:00:59] INFO root fetch - processPackages [ou-book-theme]: executing diffoscope
+[2023-06-12 16:00:59] INFO root fetch - processPackages [ou-book-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ou_book_theme-0.4.0.tar.gz tmp/ou_book_theme-0.5.0.tar.gz --markdown 20230612/o/ou-book-theme/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-12 16:00:59] INFO root fetch - processPackages [designate-tempest-plugin]: executing diffoscope
+[2023-06-12 16:00:59] INFO root fetch - processPackages [designate-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/designate-tempest-plugin-0.8.0.tar.gz tmp/designate-tempest-plugin-0.9.0.tar.gz --markdown 20230612/d/designate-tempest-plugin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:00:59] INFO root fetch - processPackages [feincms3-data]: executing diffoscope
+[2023-06-12 16:00:59] INFO root fetch - processPackages [feincms3-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feincms3_data-0.5.1.tar.gz tmp/feincms3_data-0.6.0.tar.gz --markdown 20230612/f/feincms3-data/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-12 16:00:59] INFO root fetch - processPackages [trove-tempest-plugin]: executing diffoscope
+[2023-06-12 16:00:59] INFO root fetch - processPackages [trove-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove_tempest_plugin-2.0.1.tar.gz tmp/trove_tempest_plugin-2.1.0.tar.gz --markdown 20230612/t/trove-tempest-plugin/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-06-12 16:00:59] INFO root fetch - processPackages [scale-nucleus]: executing diffoscope
+[2023-06-12 16:00:59] INFO root fetch - processPackages [scale-nucleus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale-nucleus-0.9b5.tar.gz tmp/scale-nucleus-0.9b6.tar.gz --markdown 20230612/s/scale-nucleus/0.9b5-0.9b6/diff.md --exclude *.pyd
+[2023-06-12 16:00:59] INFO root fetch - processPackages [simplejpeg]: Downloading https://files.pythonhosted.org/packages/15/1a/748e77471c160e93432d85119b1cbc912d3503de417ca3b5aa8f5b99a5ae/simplejpeg-1.7.0rc1.tar.gz
+[2023-06-12 16:01:00] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.7.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.8.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [SAMYOL]: Start processing: spaceone-api
+[2023-06-12 16:01:00] INFO root fetch - main [MainThread]: End processing [SAMYOL]: success
+[2023-06-12 16:01:00] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-06-12 16:01:00] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-06-12 16:01:00] INFO root fetch - processPackages [ou-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/ou_book_theme-0.4.0.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [ou-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/ou_book_theme-0.5.0.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [ou-book-theme]: Start processing: django-pfx
+[2023-06-12 16:01:00] INFO root fetch - main [MainThread]: End processing [ou-book-theme]: success
+[2023-06-12 16:01:00] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-06-12 16:01:00] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230612/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-12 16:01:00] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [renats]: Remove: archive file [/home/abi/fetcher/tmp/renats-0.2.2a0.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [renats]: Remove: archive file [/home/abi/fetcher/tmp/renats-0.2.2a1.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [renats]: Start processing: novumapiclient
+[2023-06-12 16:01:00] INFO root fetch - main [MainThread]: End processing [renats]: success
+[2023-06-12 16:01:00] INFO root fetch - processPackages [simplejpeg]: executing diffoscope
+[2023-06-12 16:01:00] INFO root fetch - processPackages [simplejpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplejpeg-1.6.6.tar.gz tmp/simplejpeg-1.7.0rc1.tar.gz --markdown 20230612/s/simplejpeg/1.6.6-1.7.0rc1/diff.md --exclude *.pyd
+[2023-06-12 16:01:00] INFO root fetch - processPackages [novumapiclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [trove-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/trove_tempest_plugin-2.0.1.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [trove-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/trove_tempest_plugin-2.1.0.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [trove-tempest-plugin]: Start processing: uglyduck
+[2023-06-12 16:01:00] INFO root fetch - main [MainThread]: End processing [trove-tempest-plugin]: success
+[2023-06-12 16:01:00] INFO root fetch - processPackages [feincms3-data]: Remove: archive file [/home/abi/fetcher/tmp/feincms3_data-0.5.1.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [feincms3-data]: Remove: archive file [/home/abi/fetcher/tmp/feincms3_data-0.6.0.tar.gz]
+[2023-06-12 16:01:00] INFO root fetch - main [MainThread]: End processing [feincms3-data]: success
+[2023-06-12 16:01:00] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/a7/22/399d970b849524a56452e68c3709e1bf080d73b8e95510fef0c1873fdea3/NovumApiClient-0.0.8.tar.gz
+[2023-06-12 16:01:00] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a1/0d/f18110bf781805e992d1694bccb5f9c8fba9b93b4dbb99cd63864546a630/django-pfx-1.2.dev6.tar.gz
+[2023-06-12 16:01:00] INFO root fetch - processPackages [uglyduck]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 16:01:00] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/3d/0c/5c5842111fb6972aa310efdcf176bc4d80b59f6b28f36d17483472d6a79d/novumapiclient-0.0.9.tar.gz
+[2023-06-12 16:01:01] INFO root fetch - processPackages [scale-nucleus]: Remove: archive file [/home/abi/fetcher/tmp/scale-nucleus-0.9b5.tar.gz]
+[2023-06-12 16:01:01] INFO root fetch - processPackages [scale-nucleus]: Remove: archive file [/home/abi/fetcher/tmp/scale-nucleus-0.9b6.tar.gz]
+[2023-06-12 16:01:01] INFO root fetch - main [MainThread]: End processing [scale-nucleus]: success
+[2023-06-12 16:01:01] INFO root fetch - processPackages [novumapiclient]: executing diffoscope
+[2023-06-12 16:01:01] INFO root fetch - processPackages [novumapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NovumApiClient-0.0.8.tar.gz tmp/novumapiclient-0.0.9.tar.gz --markdown 20230612/n/novumapiclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 16:01:01] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-06-12 16:01:01] INFO root fetch - processPackages [uglyduck]: Downloading https://files.pythonhosted.org/packages/af/e4/be80d099fd146ad5cc8bd01eba0387c91835c68be4ca73fd1ab70e625298/uglyduck-0.0.1.tar.gz
+[2023-06-12 16:01:01] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-12 16:01:01] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230612/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-12 16:01:01] INFO root fetch - processPackages [uglyduck]: Downloading https://files.pythonhosted.org/packages/7a/41/bb557dccfcd82eb8fe5b03e56897b46a6f136b0602e014f57d836b0c937e/uglyduck-0.0.2.tar.gz
+[2023-06-12 16:01:01] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-06-12 16:01:01] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-06-12 16:01:01] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-06-12 16:01:01] INFO root fetch - processPackages [uglyduck]: executing diffoscope
+[2023-06-12 16:01:01] INFO root fetch - processPackages [uglyduck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uglyduck-0.0.1.tar.gz tmp/uglyduck-0.0.2.tar.gz --markdown 20230612/u/uglyduck/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 16:01:02] INFO root fetch - processPackages [designate-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/designate-tempest-plugin-0.8.0.tar.gz]
+[2023-06-12 16:01:02] INFO root fetch - processPackages [designate-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/designate-tempest-plugin-0.9.0.tar.gz]
+[2023-06-12 16:01:02] INFO root fetch - main [MainThread]: End processing [designate-tempest-plugin]: success
+[2023-06-12 16:01:02] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/NovumApiClient-0.0.8.tar.gz]
+[2023-06-12 16:01:02] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/novumapiclient-0.0.9.tar.gz]
+[2023-06-12 16:01:02] INFO root fetch - main [MainThread]: End processing [novumapiclient]: success
+[2023-06-12 16:01:02] INFO root fetch - processPackages [rich]: Remove: archive file [/home/abi/fetcher/tmp/rich-9.8.2.tar.gz]
+[2023-06-12 16:01:02] INFO root fetch - processPackages [rich]: Remove: archive file [/home/abi/fetcher/tmp/rich-9.9.0.tar.gz]
+[2023-06-12 16:01:02] INFO root fetch - main [MainThread]: End processing [rich]: success
+[2023-06-12 16:01:02] INFO root fetch - processPackages [uglyduck]: Remove: archive file [/home/abi/fetcher/tmp/uglyduck-0.0.1.tar.gz]
+[2023-06-12 16:01:02] INFO root fetch - processPackages [uglyduck]: Remove: archive file [/home/abi/fetcher/tmp/uglyduck-0.0.2.tar.gz]
+[2023-06-12 16:01:02] INFO root fetch - main [MainThread]: End processing [uglyduck]: success
+[2023-06-12 16:01:03] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev6.tar.gz]
+[2023-06-12 16:01:03] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev8.tar.gz]
+[2023-06-12 16:01:03] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-12 16:01:03] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip]
+[2023-06-12 16:01:03] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-12 16:01:03] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-06-12 16:01:38] INFO root fetch - processPackages [simplejpeg]: Remove: archive file [/home/abi/fetcher/tmp/simplejpeg-1.6.6.tar.gz]
+[2023-06-12 16:01:38] INFO root fetch - processPackages [simplejpeg]: Remove: archive file [/home/abi/fetcher/tmp/simplejpeg-1.7.0rc1.tar.gz]
+[2023-06-12 16:01:38] INFO root fetch - main [MainThread]: End processing [simplejpeg]: success
+[2023-06-12 16:01:38] INFO root fetch - main [MainThread]: Store serial: [18469609]
