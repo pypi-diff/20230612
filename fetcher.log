@@ -7827,3 +7827,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 06:14:49] INFO root fetch - processPackages [cellulose-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cellulose-sdk-0.0.3.tar.gz]
 [2023-06-12 06:14:49] INFO root fetch - main [MainThread]: End processing [cellulose-sdk]: success
 [2023-06-12 06:14:49] INFO root fetch - main [MainThread]: Store serial: [18464489]
+[2023-06-12 06:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464489]
+[2023-06-12 06:19:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-12 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e4ting
+[2023-06-12 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Bio-PII
+[2023-06-12 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sc-editor
+[2023-06-12 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SmplML
+[2023-06-12 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osmnx
+[2023-06-12 06:19:59] INFO root fetch - processPackages [sc-editor]: New version: [0.83] Old Version: [0.82]
+[2023-06-12 06:19:59] WARNING root fetch - processPackages [Bio-PII]: Skipping, unable to determine old version
+[2023-06-12 06:19:59] INFO root fetch - main [MainThread]: End processing [Bio-PII] error
+[2023-06-12 06:19:59] INFO root fetch - processPackages [e4ting]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-12 06:19:59] INFO root fetch - processPackages [SmplML]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 06:19:59] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/7a/cb/b11569e74c06d39afbd2120ae38e498b3a5e36d39128057a2c568625accc/sc-editor-0.82.tar.gz
+[2023-06-12 06:20:00] INFO root fetch - processPackages [osmnx]: New version: [1.4.0] Old Version: [1.3.1.post0]
+[2023-06-12 06:20:00] INFO root fetch - processPackages [SmplML]: Downloading https://files.pythonhosted.org/packages/45/48/7b66786a3fc8cbfa76b22ab633d4f11a1629ecdce6b7a4f3871e4f19307c/SmplML-1.0.1.tar.gz
+[2023-06-12 06:20:00] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/0a/03/7773e79e3333e39c5b7b01cb79d3bb55ba5aa0b788d3067483675c037cc6/e4ting-1.0.5-py3-none-any.whl
+[2023-06-12 06:20:00] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/e1/79/2c56c1d6d9edf3cf6af82a1ee78797bec9536d1f7a057b52438e86a19487/osmnx-1.3.1.post0.tar.gz
+[2023-06-12 06:20:00] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/b5/bb/940198c4c6a30ad1cd1ea7be7a9f4e3ca20028bdf0cc1363edfb5b433fa5/sc-editor-0.83.tar.gz
+[2023-06-12 06:20:00] INFO root fetch - processPackages [SmplML]: Downloading https://files.pythonhosted.org/packages/75/40/c27cc07cf11a416f211342c306e79e172a0723613a09fa379e8d06b5f988/SmplML-1.0.2.tar.gz
+[2023-06-12 06:20:00] INFO root fetch - processPackages [SmplML]: executing diffoscope
+[2023-06-12 06:20:00] INFO root fetch - processPackages [SmplML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmplML-1.0.1.tar.gz tmp/SmplML-1.0.2.tar.gz --markdown 20230612/S/SmplML/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 06:20:00] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 06:20:00] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.82.tar.gz tmp/sc-editor-0.83.tar.gz --markdown 20230612/s/sc-editor/0.82-0.83/diff.md --exclude *.pyd
+[2023-06-12 06:20:00] INFO root fetch - processPackages [e4ting]: Downloading https://files.pythonhosted.org/packages/38/57/501d3c9fa4e058296d16e9180a8687a21f42a8f1583b38673114d45a9e93/e4ting-1.0.6-py3-none-any.whl
+[2023-06-12 06:20:00] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/2d/db/3b4d34faf0d014bed9aab67a3e633e930ba2ce659c651853e2eb363e2895/osmnx-1.4.0.tar.gz
+[2023-06-12 06:20:00] INFO root fetch - processPackages [e4ting]: executing diffoscope
+[2023-06-12 06:20:00] INFO root fetch - processPackages [e4ting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e4ting-1.0.5-py3-none-any.whl.zip tmp/e4ting-1.0.6-py3-none-any.whl.zip --markdown 20230612/e/e4ting/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-12 06:20:00] INFO root fetch - processPackages [osmnx]: executing diffoscope
+[2023-06-12 06:20:00] INFO root fetch - processPackages [osmnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmnx-1.3.1.post0.tar.gz tmp/osmnx-1.4.0.tar.gz --markdown 20230612/o/osmnx/1.3.1.post0-1.4.0/diff.md --exclude *.pyd
+[2023-06-12 06:20:01] INFO root fetch - processPackages [SmplML]: Remove: archive file [/home/abi/fetcher/tmp/SmplML-1.0.1.tar.gz]
+[2023-06-12 06:20:01] INFO root fetch - processPackages [SmplML]: Remove: archive file [/home/abi/fetcher/tmp/SmplML-1.0.2.tar.gz]
+[2023-06-12 06:20:01] INFO root fetch - main [MainThread]: End processing [SmplML]: success
+[2023-06-12 06:20:01] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.82.tar.gz]
+[2023-06-12 06:20:01] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.83.tar.gz]
+[2023-06-12 06:20:01] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 06:20:01] INFO root fetch - processPackages [e4ting]: Remove: archive file [/home/abi/fetcher/tmp/e4ting-1.0.5-py3-none-any.whl.zip]
+[2023-06-12 06:20:01] INFO root fetch - processPackages [e4ting]: Remove: archive file [/home/abi/fetcher/tmp/e4ting-1.0.6-py3-none-any.whl.zip]
+[2023-06-12 06:20:01] INFO root fetch - main [MainThread]: End processing [e4ting]: success
+[2023-06-12 06:20:02] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.3.1.post0.tar.gz]
+[2023-06-12 06:20:02] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.4.0.tar.gz]
+[2023-06-12 06:20:02] INFO root fetch - main [MainThread]: End processing [osmnx]: success
+[2023-06-12 06:20:02] INFO root fetch - main [MainThread]: Store serial: [18464505]
