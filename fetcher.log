@@ -2902,3 +2902,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 03:16:35] INFO root fetch - processPackages [super-ec2]: Remove: archive file [/home/abi/fetcher/tmp/super-ec2-0.0.99.tar.gz]
 [2023-06-12 03:16:35] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
 [2023-06-12 03:16:35] INFO root fetch - main [MainThread]: Store serial: [18462472]
+[2023-06-12 03:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462472]
+[2023-06-12 03:21:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipenv
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fajrGPT
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moped
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-flip-scrap
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m-run-script-test
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m-run-script
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SmoobuExtractorFormatter
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: workforce
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fajrGPT
+[2023-06-12 03:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ss13-tools
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-12 03:21:44] INFO root fetch - processPackages [workforce]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-12 03:21:44] WARNING root fetch - processPackages [m-run-script-test]: Skipping, unable to determine old version
+[2023-06-12 03:21:44] INFO root fetch - processPackages [m-run-script-test]: Start processing: cdk-hugo-deploy
+[2023-06-12 03:21:44] INFO root fetch - main [MainThread]: End processing [m-run-script-test] error
+[2023-06-12 03:21:44] WARNING root fetch - processPackages [py-flip-scrap]: Skipping, unable to determine old version
+[2023-06-12 03:21:44] INFO root fetch - processPackages [py-flip-scrap]: Start processing: scdeepinsight
+[2023-06-12 03:21:44] INFO root fetch - main [MainThread]: End processing [py-flip-scrap] error
+[2023-06-12 03:21:44] WARNING root fetch - processPackages [m-run-script]: Skipping, unable to determine old version
+[2023-06-12 03:21:44] INFO root fetch - processPackages [m-run-script]: Start processing: yplib
+[2023-06-12 03:21:44] INFO root fetch - main [MainThread]: End processing [m-run-script] error
+[2023-06-12 03:21:44] INFO root fetch - processPackages [ss13-tools]: New version: [2.3.0] Old Version: [2.2.2]
+[2023-06-12 03:21:44] INFO root fetch - processPackages [SmoobuExtractorFormatter]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-12 03:21:44] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-12 03:21:44] INFO root fetch - processPackages [pipenv]: New version: [9.1.0] Old Version: [9.0.3]
+[2023-06-12 03:21:44] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:21:44] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/b2/54/9d936a3468326c067afdb91ed3299c7a4cdc477aa7dda41d0aadccf51dc0/workforce-1.0.6.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/df/eb/d796f85bc65969569a250c896c8b7d7aacb25a6857914c08cf4ed9bfc7f6/pipenv-9.0.3.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [scdeepinsight]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/4d/5b/382174373ae6004ffa6665de25f6010aad1b2103bbe713471035a556a1f1/fajrGPT-1.1.5.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [yplib]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/4d/5b/382174373ae6004ffa6665de25f6010aad1b2103bbe713471035a556a1f1/fajrGPT-1.1.5.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/12/e8/ff89ce6d70c443054379229d9b985b7d37efd9f9a209368cad993a5c2c92/SmoobuExtractorFormatter-1.2.1.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [ss13-tools]: Downloading https://files.pythonhosted.org/packages/31/bc/ba789e87b2a0a2fc6d4d4fff729b413c4802281ec8eb8c5ab73b769a2089/ss13_tools-2.2.2.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/c4/b8/a287d3e20287e42c8b5d4fd99876907757dcaa971d8f0d126d6afb9c5b29/workforce-1.0.7.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/53/66/3f7451f27ce52b194f289c5b3ceb6b159ba177a932bea1fef8e1885ccf92/pipenv-9.1.0.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/df/3b/8dcab164670846f98ce4e7a17c569a56514e7e74f064608a8956537440bd/scdeepinsight-1.1.1.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/1c/4b/684959c0f60ea371be920eff005a730e0c9aadc57afe0edecba76be0df09/yplib-0.1.9.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-12 03:21:44] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230612/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:21:44] WARNING root fetch - processPackages [scdeepinsight]: Skipping package: exceeds size limit 41348908>=10485760
+[2023-06-12 03:21:44] INFO root fetch - main [MainThread]: End processing [scdeepinsight] error
+[2023-06-12 03:21:44] INFO root fetch - processPackages [workforce]: executing diffoscope
+[2023-06-12 03:21:44] INFO root fetch - processPackages [workforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workforce-1.0.6.tar.gz tmp/workforce-1.0.7.tar.gz --markdown 20230612/w/workforce/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-12 03:21:44] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/2a/ee/f1feb28d9e162a3e1f5b9d0c2303d65711780d235a2b71af69820038c69f/SmoobuExtractorFormatter-1.2.2.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [ss13-tools]: Downloading https://files.pythonhosted.org/packages/75/99/c6d073821472e147b521e33a4e3a03625ffd8c0fc26eea69f22e4c50c4ce/ss13_tools-2.3.0.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [pipenv]: executing diffoscope
+[2023-06-12 03:21:44] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230612/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/66/e7/c3062d1a337e67d85cadfe002c401f78bb3c45f452b2db6aecbe2181dd62/fajrGPT-1.1.6.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/66/e7/c3062d1a337e67d85cadfe002c401f78bb3c45f452b2db6aecbe2181dd62/fajrGPT-1.1.6.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [SmoobuExtractorFormatter]: executing diffoscope
+[2023-06-12 03:21:44] INFO root fetch - processPackages [SmoobuExtractorFormatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmoobuExtractorFormatter-1.2.1.tar.gz tmp/SmoobuExtractorFormatter-1.2.2.tar.gz --markdown 20230612/S/SmoobuExtractorFormatter/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-12 03:21:44] INFO root fetch - processPackages [ss13-tools]: executing diffoscope
+[2023-06-12 03:21:44] INFO root fetch - processPackages [ss13-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ss13_tools-2.2.2.tar.gz tmp/ss13_tools-2.3.0.tar.gz --markdown 20230612/s/ss13-tools/2.2.2-2.3.0/diff.md --exclude *.pyd
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.1.5.tar.gz tmp/fajrGPT-1.1.6.tar.gz --markdown 20230612/f/fajrGPT/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-12 03:21:44] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b1/a8/872f0a91041518a75ccffdc49a3103262ff2588061a9514e13e97a30f06f/yplib-0.2.0.tar.gz
+[2023-06-12 03:21:44] INFO root fetch - processPackages [moped]: executing diffoscope
+[2023-06-12 03:21:44] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20230612/m/moped/1.9.9-1rc1/diff.md --exclude *.pyd
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-06-12 03:21:44] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.1.5.tar.gz tmp/fajrGPT-1.1.6.tar.gz --markdown 20230612/f/fajrGPT/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-12 03:21:44] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-12 03:21:44] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.1.9.tar.gz tmp/yplib-0.2.0.tar.gz --markdown 20230612/y/yplib/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 03:21:45] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-12 03:21:45] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-12 03:21:45] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-12 03:21:45] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.1.tar.gz]
+[2023-06-12 03:21:45] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.2.tar.gz]
+[2023-06-12 03:21:45] INFO root fetch - main [MainThread]: End processing [SmoobuExtractorFormatter]: success
+[2023-06-12 03:21:46] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.1.5.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.1.6.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-06-12 03:21:46] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-06-12 03:21:46] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.6.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.7.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - main [MainThread]: End processing [workforce]: success
+[2023-06-12 03:21:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.1.9.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.0.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-12 03:21:46] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2023-06-12 03:21:46] INFO root fetch - processPackages [ss13-tools]: Remove: archive file [/home/abi/fetcher/tmp/ss13_tools-2.2.2.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - processPackages [ss13-tools]: Remove: archive file [/home/abi/fetcher/tmp/ss13_tools-2.3.0.tar.gz]
+[2023-06-12 03:21:46] INFO root fetch - main [MainThread]: End processing [ss13-tools]: success
+[2023-06-12 03:21:52] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.0.3.tar.gz]
+[2023-06-12 03:21:52] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
+[2023-06-12 03:21:52] INFO root fetch - main [MainThread]: End processing [pipenv]: success
+[2023-06-12 03:21:52] INFO root fetch - main [MainThread]: Store serial: [18462514]
