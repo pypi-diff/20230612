@@ -4223,3 +4223,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 04:42:53] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2023-06-12 04:42:53] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-06-12 04:42:53] INFO root fetch - main [MainThread]: Store serial: [18463114]
+[2023-06-12 04:47:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18463114]
+[2023-06-12 04:48:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqslab-cli
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-25
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naif-eop-high-prec
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-26
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sc-editor
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pxm-liuyi778-Stable
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blessable
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-videoenhan20200320
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spPersist
+[2023-06-12 04:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langdash
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-12 04:48:03] INFO root fetch - processPackages [pxm-liuyi778-Stable]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-12 04:48:03] WARNING root fetch - processPackages [blessable]: Skipping, unable to determine old version
+[2023-06-12 04:48:03] INFO root fetch - processPackages [blessable]: Start processing: mappr
+[2023-06-12 04:48:03] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 04:48:03] INFO root fetch - main [MainThread]: End processing [blessable] error
+[2023-06-12 04:48:03] INFO root fetch - processPackages [sc-editor]: New version: [0.4] Old Version: [0.3]
+[2023-06-12 04:48:03] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-12 04:48:03] INFO root fetch - processPackages [spPersist]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-12 04:48:03] INFO root fetch - processPackages [seqslab-cli]: New version: [3.2.1.post0] Old Version: [3.2.1]
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-12 04:48:03] INFO root fetch - processPackages [langdash]: New version: [1.3.0a1] Old Version: [1.2.0a1]
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/71/eb/b2c3d7b768ecbae1c822856fb3895815b814a6df46ba9aace150f8e0d244/langdash-1.2.0a1.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/5d/aa/86c6b241a3c36c0649b3a924d3085f0797b9a7d76f59325676a25c88869a/spPersist-0.4.5.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/a6/c2/4790ddb59e8f34f69ea85d13938ca632b751e37d81cdbfff4f4899621f61/sc-editor-0.3.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [mappr]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-12 04:48:03] INFO root fetch - processPackages [pxm-liuyi778-Stable]: Downloading https://files.pythonhosted.org/packages/0a/de/158740e192fc41e1e4a27de7be4a90e4a4e51600427028befd02219f18fc/pxm_liuyi778_stable-1.0.0.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/cc/a1/c4f47cd93e0256a511f90086682bd7c5010b3fbaf3cfb5adb15fe3cfec44/langdash-1.3.0a1.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [seqslab-cli]: Downloading https://files.pythonhosted.org/packages/24/31/4b16e089f5c1f8d73c0566dafa0350117ab1f275c1eb90da082c3b590349/seqslab-cli-3.2.1.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: Downloading https://files.pythonhosted.org/packages/f2/bc/426b702be01caeb72474c386a0582da6f1d67fa949704840ed0e0ae73ca9/alibabacloud_videoenhan20200320-3.0.8.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [mappr]: Downloading https://files.pythonhosted.org/packages/72/c9/e21d577dea921dffa2265bf32a229492f221ce4f7021821ed8e3ff660ea9/mappr-0.3.4.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/3e/2d/899fb37481580bc70eea93e318e0fcac28c9d254604aaf7d1464f3ab5d0d/spPersist-0.4.6.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-12 04:48:03] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.2.0a1.tar.gz tmp/langdash-1.3.0a1.tar.gz --markdown 20230612/l/langdash/1.2.0a1-1.3.0a1/diff.md --exclude *.pyd
+[2023-06-12 04:48:03] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/89/12/eddc7e5de2cea8b97d63976b9e390bd4d6456828046b6b26e94f9d9d4c53/sc-editor-0.4.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230612/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-12 04:48:03] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 04:48:03] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.4.5.tar.gz tmp/spPersist-0.4.6.tar.gz --markdown 20230612/s/spPersist/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-12 04:48:03] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-12 04:48:03] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230612/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-12 04:48:03] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230612/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-12 04:48:03] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 04:48:03] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.3.tar.gz tmp/sc-editor-0.4.tar.gz --markdown 20230612/s/sc-editor/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-12 04:48:03] INFO root fetch - processPackages [pxm-liuyi778-Stable]: Downloading https://files.pythonhosted.org/packages/fb/5f/0ed2facbc6007f5e19d12cbe8db14a6c97ffbfb305b2283cd17f58fa9b73/pxm_liuyi778_stable-1.0.2.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [seqslab-cli]: Downloading https://files.pythonhosted.org/packages/2c/fa/b0d60ad0020854ff53ccc7431ac158bf810f1173a0c1ee70fc6e5844b593/seqslab-cli-3.2.1.post0.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [seqslab-cli]: executing diffoscope
+[2023-06-12 04:48:03] INFO root fetch - processPackages [seqslab-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqslab-cli-3.2.1.tar.gz tmp/seqslab-cli-3.2.1.post0.tar.gz --markdown 20230612/s/seqslab-cli/3.2.1-3.2.1.post0/diff.md --exclude *.pyd
+[2023-06-12 04:48:03] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: Downloading https://files.pythonhosted.org/packages/75/b6/4af2e20f0c61be7e2aa2ddd8dd5dc8cc29a6f4a36ee4eeccbf8d2488da3c/alibabacloud_videoenhan20200320-3.0.9.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [mappr]: Downloading https://files.pythonhosted.org/packages/12/c2/4d599042c19fcc98cd8e15d5a6d980b21c86a16386a7361577f502df45c6/mappr-0.3.5.tar.gz
+[2023-06-12 04:48:03] INFO root fetch - processPackages [pxm-liuyi778-Stable]: executing diffoscope
+[2023-06-12 04:48:03] INFO root fetch - processPackages [pxm-liuyi778-Stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxm_liuyi778_stable-1.0.0.tar.gz tmp/pxm_liuyi778_stable-1.0.2.tar.gz --markdown 20230612/p/pxm-liuyi778-Stable/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 04:48:03] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: executing diffoscope
+[2023-06-12 04:48:03] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_videoenhan20200320-3.0.8.tar.gz tmp/alibabacloud_videoenhan20200320-3.0.9.tar.gz --markdown 20230612/a/alibabacloud-videoenhan20200320/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-12 04:48:04] INFO root fetch - processPackages [mappr]: executing diffoscope
+[2023-06-12 04:48:04] INFO root fetch - processPackages [mappr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mappr-0.3.4.tar.gz tmp/mappr-0.3.5.tar.gz --markdown 20230612/m/mappr/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-12 04:48:05] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.2.0a1.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.0a1.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - processPackages [langdash]: Start processing: blessable
+[2023-06-12 04:48:05] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-12 04:48:05] INFO root fetch - processPackages [blessable]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 04:48:05] INFO root fetch - processPackages [blessable]: Downloading https://files.pythonhosted.org/packages/4f/1e/a4183700b5c8b0649193677aff52ca6d8be2cba7ead8f9d6d4964678a7dd/blessable-1.0.1.tar.gz
+[2023-06-12 04:48:05] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.5.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.6.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 04:48:05] INFO root fetch - processPackages [pxm-liuyi778-Stable]: Remove: archive file [/home/abi/fetcher/tmp/pxm_liuyi778_stable-1.0.0.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - processPackages [pxm-liuyi778-Stable]: Remove: archive file [/home/abi/fetcher/tmp/pxm_liuyi778_stable-1.0.2.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - main [MainThread]: End processing [pxm-liuyi778-Stable]: success
+[2023-06-12 04:48:05] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.3.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.4.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 04:48:05] INFO root fetch - processPackages [blessable]: Downloading https://files.pythonhosted.org/packages/84/bf/a13201ce61a144cef91e7a6361d30458b5162fa5c109d79686429e095dd3/blessable-1.0.2.tar.gz
+[2023-06-12 04:48:05] INFO root fetch - processPackages [seqslab-cli]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-cli-3.2.1.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - processPackages [seqslab-cli]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-cli-3.2.1.post0.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - main [MainThread]: End processing [seqslab-cli]: success
+[2023-06-12 04:48:05] INFO root fetch - processPackages [blessable]: executing diffoscope
+[2023-06-12 04:48:05] INFO root fetch - processPackages [blessable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blessable-1.0.1.tar.gz tmp/blessable-1.0.2.tar.gz --markdown 20230612/b/blessable/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 04:48:05] INFO root fetch - processPackages [mappr]: Remove: archive file [/home/abi/fetcher/tmp/mappr-0.3.4.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - processPackages [mappr]: Remove: archive file [/home/abi/fetcher/tmp/mappr-0.3.5.tar.gz]
+[2023-06-12 04:48:05] INFO root fetch - main [MainThread]: End processing [mappr]: success
+[2023-06-12 04:48:06] INFO root fetch - processPackages [blessable]: Remove: archive file [/home/abi/fetcher/tmp/blessable-1.0.1.tar.gz]
+[2023-06-12 04:48:06] INFO root fetch - processPackages [blessable]: Remove: archive file [/home/abi/fetcher/tmp/blessable-1.0.2.tar.gz]
+[2023-06-12 04:48:06] INFO root fetch - main [MainThread]: End processing [blessable]: success
+[2023-06-12 04:48:06] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_videoenhan20200320-3.0.8.tar.gz]
+[2023-06-12 04:48:06] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_videoenhan20200320-3.0.9.tar.gz]
+[2023-06-12 04:48:06] INFO root fetch - main [MainThread]: End processing [alibabacloud-videoenhan20200320]: success
+[2023-06-12 04:48:07] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-12 04:48:07] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-12 04:48:07] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-12 04:48:07] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-12 04:48:07] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-12 04:48:07] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-12 04:48:08] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-12 04:48:08] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-12 04:48:08] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-12 04:48:08] INFO root fetch - main [MainThread]: Store serial: [18463160]
