@@ -16472,3 +16472,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:50:05] INFO root fetch - processPackages [rl-games-y]: Remove: archive file [/home/abi/fetcher/tmp/rl_games_y-0.0.5.tar.gz]
 [2023-06-12 13:50:05] INFO root fetch - main [MainThread]: End processing [rl-games-y]: success
 [2023-06-12 13:50:05] INFO root fetch - main [MainThread]: Store serial: [18468301]
+[2023-06-12 13:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468301]
+[2023-06-12 13:55:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: troncos
+[2023-06-12 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kiauto
+[2023-06-12 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailslurp-client
+[2023-06-12 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExpoSeq
+[2023-06-12 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uframe
+[2023-06-12 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-genshin-cos
+[2023-06-12 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnata-plugin-runtime
+[2023-06-12 13:55:14] INFO root fetch - processPackages [uframe]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-12 13:55:14] INFO root fetch - processPackages [troncos]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2023-06-12 13:55:14] INFO root fetch - processPackages [kiauto]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-06-12 13:55:14] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 13:55:14] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.1] Old Version: [1.0.5]
+[2023-06-12 13:55:14] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 13:55:14] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2023-06-12 13:55:14] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/8e/15/536f55bb49f2fbe7dfc07693eb02a82e397bd914368694d0c0d8a07d2fe1/troncos-4.0.0b8.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [kiauto]: Downloading https://files.pythonhosted.org/packages/37/db/5e0f95baf2b90f6d042ef58e2c52e912087585461c5832b9ae3159913c13/kiauto-2.2.5.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/2a/ee/4032be43c9a4c2a74dd6f61f1d9aa11680bfc43651c1c442b852e3c1bc46/nonebot_plugin_genshin_cos-0.1.8.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/74/74/a0ec518c84ad6b09c05621a50ddfe1997109619d228a21218152c34d8bc2/troncos-4.0.0b9.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/2a/f6/b7a5ca32acd0909b30d15d5a696925640079d5a30b0a1fd2aa975d411ab7/uframe-0.0.0.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/56/22/06d4928933418ac98fe90533591cc164426aae15633528c3e1b3666e3fc0/ExpoSeq-1.0.5.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2023-06-12 13:55:14] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-06-12 13:55:14] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-4.0.0b8.tar.gz tmp/troncos-4.0.0b9.tar.gz --markdown 20230612/t/troncos/4.0.0b8-4.0.0b9/diff.md --exclude *.pyd
+[2023-06-12 13:55:14] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-12 13:55:14] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230612/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 13:55:14] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2023-06-12 13:55:14] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20230612/m/mailslurp-client/8.7.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-12 13:55:14] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/34/34/13e9922e867d358fbf9ede0aa544e0d7fa55f0d57c48d436f559abb7df86/uframe-0.0.1.tar.gz
+[2023-06-12 13:55:15] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/f9/ed/018dc2d2ca2e2c1b8e9423bb1c7a5fc75354e507fa16a580b84df0ee3d95/ExpoSeq-1.1.1.tar.gz
+[2023-06-12 13:55:15] INFO root fetch - processPackages [kiauto]: Downloading https://files.pythonhosted.org/packages/ee/83/e1405e5a24e225fc4d94071a62f5e7da66c17058b57e4354202d785ea977/kiauto-2.2.6.tar.gz
+[2023-06-12 13:55:15] INFO root fetch - processPackages [uframe]: executing diffoscope
+[2023-06-12 13:55:15] INFO root fetch - processPackages [uframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uframe-0.0.0.tar.gz tmp/uframe-0.0.1.tar.gz --markdown 20230612/u/uframe/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-12 13:55:15] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/b5/92/7deb08922418b9937d47b1910db42e783f59d4e4375f8f19e1475a7deefd/nonebot_plugin_genshin_cos-0.1.9.tar.gz
+[2023-06-12 13:55:15] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-06-12 13:55:15] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.0.5.tar.gz tmp/ExpoSeq-1.1.1.tar.gz --markdown 20230612/E/ExpoSeq/1.0.5-1.1.1/diff.md --exclude *.pyd
+[2023-06-12 13:55:15] INFO root fetch - processPackages [kiauto]: executing diffoscope
+[2023-06-12 13:55:15] INFO root fetch - processPackages [kiauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiauto-2.2.5.tar.gz tmp/kiauto-2.2.6.tar.gz --markdown 20230612/k/kiauto/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-06-12 13:55:15] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: executing diffoscope
+[2023-06-12 13:55:15] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_genshin_cos-0.1.8.tar.gz tmp/nonebot_plugin_genshin_cos-0.1.9.tar.gz --markdown 20230612/n/nonebot-plugin-genshin-cos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 13:55:16] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_genshin_cos-0.1.8.tar.gz]
+[2023-06-12 13:55:16] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_genshin_cos-0.1.9.tar.gz]
+[2023-06-12 13:55:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-genshin-cos]: success
+[2023-06-12 13:55:16] INFO root fetch - processPackages [kiauto]: Remove: archive file [/home/abi/fetcher/tmp/kiauto-2.2.5.tar.gz]
+[2023-06-12 13:55:16] INFO root fetch - processPackages [kiauto]: Remove: archive file [/home/abi/fetcher/tmp/kiauto-2.2.6.tar.gz]
+[2023-06-12 13:55:16] INFO root fetch - main [MainThread]: End processing [kiauto]: success
+[2023-06-12 13:55:16] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.0.tar.gz]
+[2023-06-12 13:55:16] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.1.tar.gz]
+[2023-06-12 13:55:16] INFO root fetch - main [MainThread]: End processing [uframe]: success
+[2023-06-12 13:55:17] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.0.5.tar.gz]
+[2023-06-12 13:55:17] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.1.tar.gz]
+[2023-06-12 13:55:17] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-06-12 13:55:17] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.0b8.tar.gz]
+[2023-06-12 13:55:17] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.0b9.tar.gz]
+[2023-06-12 13:55:17] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-06-12 13:55:17] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-12 13:55:17] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-12 13:55:17] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-12 13:55:20] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2023-06-12 13:55:20] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2023-06-12 13:55:20] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2023-06-12 13:55:20] INFO root fetch - main [MainThread]: Store serial: [18468324]
