@@ -18013,3 +18013,299 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 15:01:20] INFO root fetch - processPackages [apidev-coop-cms]: Remove: archive file [/home/abi/fetcher/tmp/apidev-coop_cms-1.6.0.tar.gz]
 [2023-06-12 15:01:20] INFO root fetch - main [MainThread]: End processing [apidev-coop-cms]: success
 [2023-06-12 15:01:20] INFO root fetch - main [MainThread]: Store serial: [18468907]
+[2023-06-12 15:11:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468907]
+[2023-06-12 15:12:02] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volt-client-web
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansible-navigator
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syft
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: giskard
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getise
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logging-gelf
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cheerup
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytorchtime
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TSInterpret
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Warg
+[2023-06-12 15:12:02] WARNING root fetch - processPackages [pytorchtime]: Skipping, unable to determine old version
+[2023-06-12 15:12:02] INFO root fetch - processPackages [pytorchtime]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-12 15:12:02] INFO root fetch - main [MainThread]: End processing [pytorchtime] error
+[2023-06-12 15:12:02] INFO root fetch - processPackages [volt-client-web]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [syft]: New version: [0.8.1b8] Old Version: [0.8.1b7]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [Warg]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [getise]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [logging-gelf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [giskard]: New version: [2.0.0b5] Old Version: [2.0.0b4]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ansible-navigator]: New version: [3.4.0] Old Version: [3.3.1]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [cheerup]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [TSInterpret]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 15:12:02] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/91/e2/2c01cb5d67fe6e7ba0895597951a686098a56c94511525d85e64b69722b8/giskard-2.0.0b4.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [logging-gelf]: Downloading https://files.pythonhosted.org/packages/dc/9c/64c3268340f1b758a3de4610ea5023f4a427b60c0ddecd78e22aa8c8c738/logging-gelf-0.0.8.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [getise]: Downloading https://files.pythonhosted.org/packages/9e/cb/802b9bbcaf388475f0e44b485229b62f872b572f7fdb28b6299a001e216c/getise-1.0.0.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/b3/9a/9ef8b66acc8f2dd602f4c585ad9e77094467f6f2521306697780ee058f90/syft-0.8.1b7.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [cheerup]: Downloading https://files.pythonhosted.org/packages/50/e2/052d8041cc6b883c2ea1ebfab271abc732e69cef9c3f031275c557b1b1a6/cheerup-0.1.2.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/69/5c/3c3c0fdc7e85a9cc2efb11f185a30d78d3efb1bbb3f7657aebb77fa9c470/Warg-1.1.4.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/39/3a/a2a0eb604ae3b79de8df87f688cfbfcb81751c2931e5174514f70c08167a/volt_client_web-0.1.4.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ansible-navigator]: Downloading https://files.pythonhosted.org/packages/be/2e/0de219ab5c78dda5539ec23069df528e565fec0987e8ddbf4101e0f80377/ansible-navigator-3.3.1.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/2b/d5/5672089cb0fb441d25de7fae82156f1d95d0690e4e0c9966090f2a6185c5/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-12 15:12:02] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/93/f0/a1eb7d3cde34bdecbebb281adda48933594b65dbaea80b2eb573afdd9284/TSInterpret-0.2.5.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [getise]: Downloading https://files.pythonhosted.org/packages/39/f4/f5f76c9986c99d95bc49497a1f22df71df347c519a593d77c72254ba3bf5/getise-1.0.1.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [logging-gelf]: Downloading https://files.pythonhosted.org/packages/3a/af/ccad3baf3c7076011d3e9cb5a362e77bb9e92e831fda5569d0064e149ac6/logging-gelf-0.0.9.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e3/3d/5b1e997a76c8f4ef86d1abb0afd88a1c9d49128cb6c0538831822dccb376/syft-0.8.1b8.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/11/a3/5a6c77952fe38e8f31884b5b9ebcae9df7380a714be5deddb88207175ade/giskard-2.0.0b5.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [cheerup]: Downloading https://files.pythonhosted.org/packages/a9/9a/2491ae288bfe5b9f20630aa8d1c0d414b14e58e05ee8e6a25ab721da7c34/cheerup-0.1.3.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/00/15/e82728227b981cabac1cf3464b987d81eb2aa4c5a38a85300457096484de/volt_client_web-0.1.5.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [getise]: executing diffoscope
+[2023-06-12 15:12:02] INFO root fetch - processPackages [getise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getise-1.0.0.tar.gz tmp/getise-1.0.1.tar.gz --markdown 20230612/g/getise/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 15:12:02] INFO root fetch - processPackages [ansible-navigator]: Downloading https://files.pythonhosted.org/packages/02/b5/bb7bd817302c6abc3feacb8398a4b4908dca833ee4bf5959f088dd684e99/ansible-navigator-3.4.0.tar.gz
+[2023-06-12 15:12:02] INFO root fetch - processPackages [logging-gelf]: executing diffoscope
+[2023-06-12 15:12:02] INFO root fetch - processPackages [logging-gelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-gelf-0.0.8.tar.gz tmp/logging-gelf-0.0.9.tar.gz --markdown 20230612/l/logging-gelf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 15:12:03] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/90/11/ab15f5db1b56e93bd77e1e58df3c9a5854870d0a54a768b39c370d9bde48/Warg-1.1.5.tar.gz
+[2023-06-12 15:12:03] INFO root fetch - processPackages [cheerup]: executing diffoscope
+[2023-06-12 15:12:03] INFO root fetch - processPackages [cheerup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheerup-0.1.2.tar.gz tmp/cheerup-0.1.3.tar.gz --markdown 20230612/c/cheerup/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 15:12:03] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-12 15:12:03] INFO root fetch - processPackages [giskard]: executing diffoscope
+[2023-06-12 15:12:03] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/32/de/307d737bb5a458154161b1b4288c405a8ef1954b6b52aec2415d3a56d23a/TSInterpret-0.2.6.tar.gz
+[2023-06-12 15:12:03] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.1b7.tar.gz tmp/syft-0.8.1b8.tar.gz --markdown 20230612/s/syft/0.8.1b7-0.8.1b8/diff.md --exclude *.pyd
+[2023-06-12 15:12:03] INFO root fetch - processPackages [giskard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard-2.0.0b4.tar.gz tmp/giskard-2.0.0b5.tar.gz --markdown 20230612/g/giskard/2.0.0b4-2.0.0b5/diff.md --exclude *.pyd
+[2023-06-12 15:12:03] INFO root fetch - processPackages [volt-client-web]: executing diffoscope
+[2023-06-12 15:12:03] INFO root fetch - processPackages [volt-client-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volt_client_web-0.1.4.tar.gz tmp/volt_client_web-0.1.5.tar.gz --markdown 20230612/v/volt-client-web/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-12 15:12:03] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2023-06-12 15:12:03] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Warg-1.1.4.tar.gz tmp/Warg-1.1.5.tar.gz --markdown 20230612/W/Warg/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-12 15:12:03] INFO root fetch - processPackages [ansible-navigator]: executing diffoscope
+[2023-06-12 15:12:03] INFO root fetch - processPackages [ansible-navigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-navigator-3.3.1.tar.gz tmp/ansible-navigator-3.4.0.tar.gz --markdown 20230612/a/ansible-navigator/3.3.1-3.4.0/diff.md --exclude *.pyd
+[2023-06-12 15:12:03] INFO root fetch - processPackages [TSInterpret]: executing diffoscope
+[2023-06-12 15:12:03] INFO root fetch - processPackages [TSInterpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSInterpret-0.2.5.tar.gz tmp/TSInterpret-0.2.6.tar.gz --markdown 20230612/T/TSInterpret/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-12 15:12:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/9c/1e/dba96388194f18061dcca86ef0f59a081be95bfec2b1140e3e6ab1e8ce47/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-12 15:12:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-12 15:12:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230612/f/fbgemm-gpu-nightly-cpu/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-12 15:12:05] INFO root fetch - processPackages [getise]: Remove: archive file [/home/abi/fetcher/tmp/getise-1.0.0.tar.gz]
+[2023-06-12 15:12:05] INFO root fetch - processPackages [getise]: Remove: archive file [/home/abi/fetcher/tmp/getise-1.0.1.tar.gz]
+[2023-06-12 15:12:05] INFO root fetch - processPackages [getise]: Start processing: tfprimate
+[2023-06-12 15:12:05] INFO root fetch - main [MainThread]: End processing [getise]: success
+[2023-06-12 15:12:05] INFO root fetch - processPackages [tfprimate]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [logging-gelf]: Remove: archive file [/home/abi/fetcher/tmp/logging-gelf-0.0.8.tar.gz]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [logging-gelf]: Remove: archive file [/home/abi/fetcher/tmp/logging-gelf-0.0.9.tar.gz]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [logging-gelf]: Start processing: trlc
+[2023-06-12 15:12:06] INFO root fetch - main [MainThread]: End processing [logging-gelf]: success
+[2023-06-12 15:12:06] INFO root fetch - processPackages [cheerup]: Remove: archive file [/home/abi/fetcher/tmp/cheerup-0.1.2.tar.gz]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [cheerup]: Remove: archive file [/home/abi/fetcher/tmp/cheerup-0.1.3.tar.gz]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [cheerup]: Start processing: pydflow
+[2023-06-12 15:12:06] INFO root fetch - main [MainThread]: End processing [cheerup]: success
+[2023-06-12 15:12:06] INFO root fetch - processPackages [trlc]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [pydflow]: New version: [1.7.0] Old Version: [1.6.99]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [tfprimate]: Downloading https://files.pythonhosted.org/packages/8f/04/115bc7321799c0d4f8df41d90b8c81e66e35cae3fa36e936990d7a93b757/tfprimate-0.1.3.tar.gz
+[2023-06-12 15:12:06] INFO root fetch - processPackages [trlc]: Downloading https://files.pythonhosted.org/packages/75/82/b6329ec9e6cc5ef1541f106e7b24bc3d4439b7d48b8342b9127c50f985c6/trlc-1.1.4.tar.gz
+[2023-06-12 15:12:06] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/86/ec/1d1f51e2ef9a626c2621695ed39210c378d699e371457fcd1efe70b1c890/pydflow-1.6.99.tar.gz
+[2023-06-12 15:12:06] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.4.tar.gz]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.5.tar.gz]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [volt-client-web]: Start processing: psl
+[2023-06-12 15:12:06] INFO root fetch - main [MainThread]: End processing [volt-client-web]: success
+[2023-06-12 15:12:06] INFO root fetch - processPackages [psl]: New version: [2023.6.12] Old Version: [2023.5.8]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [tfprimate]: Downloading https://files.pythonhosted.org/packages/53/f3/bbb9f425531c00566b6f93a4746fccefaac93bd94f97a8c09ebfda8d99e0/tfprimate-0.1.4.tar.gz
+[2023-06-12 15:12:06] INFO root fetch - processPackages [trlc]: Downloading https://files.pythonhosted.org/packages/b1/ad/65de541d4095d58cb237cedeae4b885f30439075636d71f46c4f0dfae1aa/trlc-1.1.5.tar.gz
+[2023-06-12 15:12:06] INFO root fetch - processPackages [tfprimate]: executing diffoscope
+[2023-06-12 15:12:06] INFO root fetch - processPackages [tfprimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfprimate-0.1.3.tar.gz tmp/tfprimate-0.1.4.tar.gz --markdown 20230612/t/tfprimate/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 15:12:06] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/e9/0b/332d59cc2e5a271365e4e38c5eb2db0d8b19abaa9bb1650a257f6f46eb8c/pydflow-1.7.0.tar.gz
+[2023-06-12 15:12:06] INFO root fetch - processPackages [trlc]: executing diffoscope
+[2023-06-12 15:12:06] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/34/ed/475f2abf8dad999489b46062b46df7f57da012307834b20eed5377e7b1c2/psl-2023.5.8.tar.gz
+[2023-06-12 15:12:06] INFO root fetch - processPackages [trlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trlc-1.1.4.tar.gz tmp/trlc-1.1.5.tar.gz --markdown 20230612/t/trlc/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-12 15:12:06] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-12 15:12:06] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.99.tar.gz tmp/pydflow-1.7.0.tar.gz --markdown 20230612/p/pydflow/1.6.99-1.7.0/diff.md --exclude *.pyd
+[2023-06-12 15:12:06] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Start processing: configration
+[2023-06-12 15:12:06] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-12 15:12:06] INFO root fetch - processPackages [configration]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-12 15:12:06] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/25/95/0924f782f3d4247b8e7fe42ca11ac73ffa9870290268ab301bf9db846629/configration-2.0.2.tar.gz
+[2023-06-12 15:12:06] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/1e/17/111c230b55a5f68c089caae1cb0ccca2d2f9bdb9dc0873ba7e45a2c3cac8/psl-2023.6.12.tar.gz
+[2023-06-12 15:12:07] INFO root fetch - processPackages [psl]: executing diffoscope
+[2023-06-12 15:12:07] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2023.5.8.tar.gz tmp/psl-2023.6.12.tar.gz --markdown 20230612/p/psl/2023.5.8-2023.6.12/diff.md --exclude *.pyd
+[2023-06-12 15:12:07] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/3e/72/924443997ae8467fc53fc3cd3e9cfd82b324f50ec3d9585b84c8c74939d3/configration-2.0.3.tar.gz
+[2023-06-12 15:12:07] INFO root fetch - processPackages [configration]: executing diffoscope
+[2023-06-12 15:12:07] INFO root fetch - processPackages [configration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configration-2.0.2.tar.gz tmp/configration-2.0.3.tar.gz --markdown 20230612/c/configration/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-12 15:12:07] INFO root fetch - processPackages [TSInterpret]: Remove: archive file [/home/abi/fetcher/tmp/TSInterpret-0.2.5.tar.gz]
+[2023-06-12 15:12:07] INFO root fetch - processPackages [TSInterpret]: Remove: archive file [/home/abi/fetcher/tmp/TSInterpret-0.2.6.tar.gz]
+[2023-06-12 15:12:07] INFO root fetch - processPackages [TSInterpret]: Start processing: volstreet
+[2023-06-12 15:12:07] INFO root fetch - main [MainThread]: End processing [TSInterpret]: success
+[2023-06-12 15:12:07] INFO root fetch - processPackages [volstreet]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-12 15:12:08] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/f2/d8/1f3cc212bdea406efa90e035edc8dfbce6ec6c6e9a00c73b4b51e26e94c8/volstreet-0.9.6.tar.gz
+[2023-06-12 15:12:08] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/d4/15/617fe562996258c9a5968b23ef9a8fa789d4a020ef02160814f4ab58c5ea/volstreet-0.9.7.tar.gz
+[2023-06-12 15:12:08] INFO root fetch - processPackages [tfprimate]: Remove: archive file [/home/abi/fetcher/tmp/tfprimate-0.1.3.tar.gz]
+[2023-06-12 15:12:08] INFO root fetch - processPackages [tfprimate]: Remove: archive file [/home/abi/fetcher/tmp/tfprimate-0.1.4.tar.gz]
+[2023-06-12 15:12:08] INFO root fetch - processPackages [tfprimate]: Start processing: cg-flake8-reporter
+[2023-06-12 15:12:08] INFO root fetch - main [MainThread]: End processing [tfprimate]: success
+[2023-06-12 15:12:08] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-06-12 15:12:08] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-0.9.6.tar.gz tmp/volstreet-0.9.7.tar.gz --markdown 20230612/v/volstreet/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-12 15:12:08] INFO root fetch - processPackages [cg-flake8-reporter]: New version: [2023.6.12.1304] Old Version: [0.1.1]
+[2023-06-12 15:12:08] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.4.tar.gz]
+[2023-06-12 15:12:08] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.5.tar.gz]
+[2023-06-12 15:12:08] INFO root fetch - processPackages [Warg]: Start processing: nbdev-stdlib
+[2023-06-12 15:12:08] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2023-06-12 15:12:08] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 15:12:08] INFO root fetch - processPackages [cg-flake8-reporter]: Downloading https://files.pythonhosted.org/packages/73/c5/7ba670f5eec6249643efb700e24d47039c543e3021ee5d2106ce44c46560/cg_flake8_reporter-0.1.1.tar.gz
+[2023-06-12 15:12:08] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-12 15:12:09] INFO root fetch - processPackages [cg-flake8-reporter]: Downloading https://files.pythonhosted.org/packages/ef/b6/325b42c4275807ae2b3fa4e3c1e13eb13d82c6b56b568b933f17987aab3a/cg_flake8_reporter-2023.6.12.1304.tar.gz
+[2023-06-12 15:12:09] INFO root fetch - processPackages [cg-flake8-reporter]: executing diffoscope
+[2023-06-12 15:12:09] INFO root fetch - processPackages [cg-flake8-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_flake8_reporter-0.1.1.tar.gz tmp/cg_flake8_reporter-2023.6.12.1304.tar.gz --markdown 20230612/c/cg-flake8-reporter/0.1.1-2023.6.12.1304/diff.md --exclude *.pyd
+[2023-06-12 15:12:09] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-12 15:12:09] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.2.tar.gz]
+[2023-06-12 15:12:09] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.3.tar.gz]
+[2023-06-12 15:12:09] INFO root fetch - processPackages [configration]: Start processing: vici
+[2023-06-12 15:12:09] INFO root fetch - main [MainThread]: End processing [configration]: success
+[2023-06-12 15:12:09] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-12 15:12:09] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230612/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 15:12:09] INFO root fetch - processPackages [vici]: New version: [5.9.9] Old Version: [5.9.3]
+[2023-06-12 15:12:09] INFO root fetch - processPackages [trlc]: Remove: archive file [/home/abi/fetcher/tmp/trlc-1.1.4.tar.gz]
+[2023-06-12 15:12:09] INFO root fetch - processPackages [trlc]: Remove: archive file [/home/abi/fetcher/tmp/trlc-1.1.5.tar.gz]
+[2023-06-12 15:12:09] INFO root fetch - processPackages [trlc]: Start processing: greedyFAS
+[2023-06-12 15:12:09] INFO root fetch - main [MainThread]: End processing [trlc]: success
+[2023-06-12 15:12:09] INFO root fetch - processPackages [vici]: Downloading https://files.pythonhosted.org/packages/35/cf/3949268b41fce1ca484a7fc8714cd825311b6579646f497c00a3c59f3de1/vici-5.9.3.tar.gz
+[2023-06-12 15:12:09] INFO root fetch - processPackages [greedyFAS]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-12 15:12:09] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/17/a1/5db526d0aff1735e04ea3cb4cafd2fb9dfac4d36e8e148dba07b29811754/greedyFAS-1.9.0.tar.gz
+[2023-06-12 15:12:09] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.5.8.tar.gz]
+[2023-06-12 15:12:09] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.6.12.tar.gz]
+[2023-06-12 15:12:09] INFO root fetch - processPackages [psl]: Start processing: poetry-issue-test
+[2023-06-12 15:12:09] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2023-06-12 15:12:09] INFO root fetch - processPackages [poetry-issue-test]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-12 15:12:09] INFO root fetch - processPackages [vici]: Downloading https://files.pythonhosted.org/packages/3e/29/9472dffd877d326a806b779339ae8c4fc07e20b42adc19a8d505200c7f74/vici-5.9.9.tar.gz
+[2023-06-12 15:12:10] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/5e/ef/a255efe3fba413830c37f81917a8f31daf07ba429901b9c69b8ab1d8061c/greedyFAS-1.9.1.tar.gz
+[2023-06-12 15:12:10] INFO root fetch - processPackages [vici]: executing diffoscope
+[2023-06-12 15:12:10] INFO root fetch - processPackages [vici]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vici-5.9.3.tar.gz tmp/vici-5.9.9.tar.gz --markdown 20230612/v/vici/5.9.3-5.9.9/diff.md --exclude *.pyd
+[2023-06-12 15:12:10] INFO root fetch - processPackages [poetry-issue-test]: Downloading https://files.pythonhosted.org/packages/da/40/9f20e7b3224411c0220f460d2f6f70ed9be2f7aa3c8aeb0627a420aa8088/poetry_issue_test-0.1.5.tar.gz
+[2023-06-12 15:12:10] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b7.tar.gz]
+[2023-06-12 15:12:10] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b8.tar.gz]
+[2023-06-12 15:12:10] INFO root fetch - processPackages [syft]: Start processing: flowtask
+[2023-06-12 15:12:10] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-12 15:12:10] INFO root fetch - processPackages [flowtask]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-06-12 15:12:10] INFO root fetch - processPackages [greedyFAS]: executing diffoscope
+[2023-06-12 15:12:10] INFO root fetch - processPackages [greedyFAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greedyFAS-1.9.0.tar.gz tmp/greedyFAS-1.9.1.tar.gz --markdown 20230612/g/greedyFAS/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-12 15:12:10] INFO root fetch - processPackages [poetry-issue-test]: Downloading https://files.pythonhosted.org/packages/99/da/119b611a5f478408df79260e775706f71db636f1780d71c0dce276284038/poetry_issue_test-0.1.6.tar.gz
+[2023-06-12 15:12:10] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/d5/a3/4a784fba63681c1de98eadcb253dd1d3833c0b0b6646cdda10825855c33e/flowtask-4.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 15:12:10] INFO root fetch - processPackages [poetry-issue-test]: executing diffoscope
+[2023-06-12 15:12:10] INFO root fetch - processPackages [poetry-issue-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_issue_test-0.1.5.tar.gz tmp/poetry_issue_test-0.1.6.tar.gz --markdown 20230612/p/poetry-issue-test/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-12 15:12:11] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/81/05/825003e1dfd485c59ec3a084e950b112bc8057d77093952b159e66b2679a/flowtask-4.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 15:12:11] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-12 15:12:11] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230612/f/flowtask/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-06-12 15:12:11] INFO root fetch - processPackages [cg-flake8-reporter]: Remove: archive file [/home/abi/fetcher/tmp/cg_flake8_reporter-0.1.1.tar.gz]
+[2023-06-12 15:12:11] INFO root fetch - processPackages [cg-flake8-reporter]: Remove: archive file [/home/abi/fetcher/tmp/cg_flake8_reporter-2023.6.12.1304.tar.gz]
+[2023-06-12 15:12:11] INFO root fetch - processPackages [cg-flake8-reporter]: Start processing: nbdev-numpy
+[2023-06-12 15:12:11] INFO root fetch - main [MainThread]: End processing [cg-flake8-reporter]: success
+[2023-06-12 15:12:11] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 15:12:11] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-12 15:12:12] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-12 15:12:12] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-12 15:12:12] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230612/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 15:12:12] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.6.99.tar.gz]
+[2023-06-12 15:12:12] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.0.tar.gz]
+[2023-06-12 15:12:12] INFO root fetch - processPackages [pydflow]: Start processing: const-cython-lib
+[2023-06-12 15:12:12] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-12 15:12:12] INFO root fetch - processPackages [const-cython-lib]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-12 15:12:12] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/55/de/59ee6572148871cdedbfa0d9aba0b97fdf76230aa443dd9044ed5cb31f48/const_cython_lib-0.1.1.tar.gz
+[2023-06-12 15:12:12] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/7d/c8/c6153ccb3c4ebf4abe49c094b3e5ee2cd6b4974207925ac980ee3043a4d0/const_cython_lib-0.2.0.tar.gz
+[2023-06-12 15:12:12] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.6.tar.gz]
+[2023-06-12 15:12:12] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.7.tar.gz]
+[2023-06-12 15:12:12] INFO root fetch - processPackages [volstreet]: Start processing: django-clone
+[2023-06-12 15:12:12] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-06-12 15:12:12] INFO root fetch - processPackages [django-clone]: New version: [5.3.3] Old Version: [5.3.2]
+[2023-06-12 15:12:12] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 15:12:12] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.1.1.tar.gz tmp/const_cython_lib-0.2.0.tar.gz --markdown 20230612/c/const-cython-lib/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 15:12:12] INFO root fetch - processPackages [vici]: Remove: archive file [/home/abi/fetcher/tmp/vici-5.9.3.tar.gz]
+[2023-06-12 15:12:12] INFO root fetch - processPackages [vici]: Remove: archive file [/home/abi/fetcher/tmp/vici-5.9.9.tar.gz]
+[2023-06-12 15:12:12] INFO root fetch - processPackages [vici]: Start processing: poetry-issue-test
+[2023-06-12 15:12:12] INFO root fetch - main [MainThread]: End processing [vici]: success
+[2023-06-12 15:12:12] INFO root fetch - processPackages [poetry-issue-test]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-12 15:12:12] INFO root fetch - processPackages [django-clone]: Downloading https://files.pythonhosted.org/packages/44/b7/f49a636ed2f7680d638ffc450ce6beeb7820f75b691e9969460b5a9abb68/django-clone-5.3.2.tar.gz
+[2023-06-12 15:12:13] INFO root fetch - processPackages [poetry-issue-test]: Remove: archive file [/home/abi/fetcher/tmp/poetry_issue_test-0.1.5.tar.gz]
+[2023-06-12 15:12:13] INFO root fetch - processPackages [poetry-issue-test]: Remove: archive file [/home/abi/fetcher/tmp/poetry_issue_test-0.1.6.tar.gz]
+[2023-06-12 15:12:13] INFO root fetch - processPackages [poetry-issue-test]: Start processing: reliable-queue
+[2023-06-12 15:12:13] INFO root fetch - main [MainThread]: End processing [poetry-issue-test]: success
+[2023-06-12 15:12:13] INFO root fetch - processPackages [reliable-queue]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 15:12:13] INFO root fetch - processPackages [poetry-issue-test]: Downloading https://files.pythonhosted.org/packages/99/da/119b611a5f478408df79260e775706f71db636f1780d71c0dce276284038/poetry_issue_test-0.1.6.tar.gz
+[2023-06-12 15:12:13] INFO root fetch - processPackages [reliable-queue]: Downloading https://files.pythonhosted.org/packages/0a/4a/9bd820fd862d4d4b0ea7e03108bdc10886c8fd4fe4d855081e570d4a7568/reliable_queue-0.0.8.tar.gz
+[2023-06-12 15:12:13] INFO root fetch - processPackages [poetry-issue-test]: executing diffoscope
+[2023-06-12 15:12:13] INFO root fetch - processPackages [poetry-issue-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_issue_test-0.1.5.tar.gz tmp/poetry_issue_test-0.1.6.tar.gz --markdown 20230612/p/poetry-issue-test/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-12 15:12:13] INFO root fetch - processPackages [django-clone]: Downloading https://files.pythonhosted.org/packages/3c/6c/4b9388069099401f2b9086707e583a8e09acda40e4bc330fd21cb41ecf42/django-clone-5.3.3.tar.gz
+[2023-06-12 15:12:13] INFO root fetch - processPackages [django-clone]: executing diffoscope
+[2023-06-12 15:12:13] INFO root fetch - processPackages [django-clone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-clone-5.3.2.tar.gz tmp/django-clone-5.3.3.tar.gz --markdown 20230612/d/django-clone/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2023-06-12 15:12:13] INFO root fetch - processPackages [reliable-queue]: Downloading https://files.pythonhosted.org/packages/93/e9/a8da2a257a487a1798946cc771d5cb942a49fc085e540a1c899f5bf8d1a9/reliable_queue-0.0.9.tar.gz
+[2023-06-12 15:12:13] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.0.0b4.tar.gz]
+[2023-06-12 15:12:13] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.0.0b5.tar.gz]
+[2023-06-12 15:12:13] INFO root fetch - processPackages [giskard]: Start processing: nbdev-pandas
+[2023-06-12 15:12:13] INFO root fetch - main [MainThread]: End processing [giskard]: success
+[2023-06-12 15:12:13] INFO root fetch - processPackages [reliable-queue]: executing diffoscope
+[2023-06-12 15:12:13] INFO root fetch - processPackages [reliable-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliable_queue-0.0.8.tar.gz tmp/reliable_queue-0.0.9.tar.gz --markdown 20230612/r/reliable-queue/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 15:12:13] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 15:12:13] INFO root fetch - processPackages [ansible-navigator]: Remove: archive file [/home/abi/fetcher/tmp/ansible-navigator-3.3.1.tar.gz]
+[2023-06-12 15:12:13] INFO root fetch - processPackages [ansible-navigator]: Remove: archive file [/home/abi/fetcher/tmp/ansible-navigator-3.4.0.tar.gz]
+[2023-06-12 15:12:13] INFO root fetch - processPackages [ansible-navigator]: Start processing: fristenkalender-generator
+[2023-06-12 15:12:13] INFO root fetch - main [MainThread]: End processing [ansible-navigator]: success
+[2023-06-12 15:12:13] WARNING root fetch - processPackages [fristenkalender-generator]: Skipping, unable to determine old version
+[2023-06-12 15:12:13] INFO root fetch - processPackages [fristenkalender-generator]: Start processing: structurefinder
+[2023-06-12 15:12:13] INFO root fetch - main [MainThread]: End processing [fristenkalender-generator] error
+[2023-06-12 15:12:13] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-12 15:12:13] INFO root fetch - processPackages [structurefinder]: New version: [74] Old Version: [73.post2]
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-12 15:12:14] INFO root fetch - processPackages [structurefinder]: Downloading https://files.pythonhosted.org/packages/b7/16/60eb56c9b34643651259a97e0901c9487ce6ee0a77a68c295174792275e7/structurefinder-73.post2.tar.gz
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: wagtail-mailchimp-integration
+[2023-06-12 15:12:14] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-12 15:12:14] INFO root fetch - processPackages [wagtail-mailchimp-integration]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230612/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 15:12:14] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.0.tar.gz]
+[2023-06-12 15:12:14] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.1.tar.gz]
+[2023-06-12 15:12:14] INFO root fetch - processPackages [greedyFAS]: Start processing: nbdev-pytorch
+[2023-06-12 15:12:14] INFO root fetch - main [MainThread]: End processing [greedyFAS]: success
+[2023-06-12 15:12:14] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Downloading https://files.pythonhosted.org/packages/99/82/2a02aabf0892f7866dd27877c6ec025df487ba60c7ab8c7c0ae02bb5d7df/wagtail-mailchimp-integration-0.0.6.tar.gz
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-12 15:12:14] INFO root fetch - processPackages [structurefinder]: Downloading https://files.pythonhosted.org/packages/fe/f5/d5007b6495da7d52e523c7421d3fc8db9eafece021ae870cd296c801d9e7/structurefinder-74.tar.gz
+[2023-06-12 15:12:14] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Downloading https://files.pythonhosted.org/packages/60/59/fa5c5621457b744ea7f192970202f1602f92198131137dc8c5b7f3ba0480/wagtail-mailchimp-integration-0.0.7.tar.gz
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-12 15:12:14] INFO root fetch - processPackages [wagtail-mailchimp-integration]: executing diffoscope
+[2023-06-12 15:12:14] INFO root fetch - processPackages [wagtail-mailchimp-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-mailchimp-integration-0.0.6.tar.gz tmp/wagtail-mailchimp-integration-0.0.7.tar.gz --markdown 20230612/w/wagtail-mailchimp-integration/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 15:12:14] INFO root fetch - processPackages [structurefinder]: executing diffoscope
+[2023-06-12 15:12:14] INFO root fetch - processPackages [structurefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structurefinder-73.post2.tar.gz tmp/structurefinder-74.tar.gz --markdown 20230612/s/structurefinder/73.post2-74/diff.md --exclude *.pyd
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-12 15:12:14] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230612/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 15:12:15] ERROR root fetch - processPackages [poetry-issue-test]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/poetry_issue_test-0.1.5.tar.gz: No such file or directory
+
+[2023-06-12 15:12:15] INFO root fetch - processPackages [poetry-issue-test]: Start processing: PairedCompCalc
+[2023-06-12 15:12:15] INFO root fetch - main [MainThread]: End processing [poetry-issue-test] error
+[2023-06-12 15:12:15] INFO root fetch - processPackages [PairedCompCalc]: New version: [2.1.1] Old Version: [2.1]
+[2023-06-12 15:12:15] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-12 15:12:15] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-12 15:12:15] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-12 15:12:15] INFO root fetch - processPackages [PairedCompCalc]: Downloading https://files.pythonhosted.org/packages/b6/3a/f29493773a0de4400cb892d63781ff14d1517a738c753cc4290308f9179f/PairedCompCalc-2.1.tar.gz
+[2023-06-12 15:12:15] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.1.1.tar.gz]
+[2023-06-12 15:12:15] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.2.0.tar.gz]
+[2023-06-12 15:12:15] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 15:12:16] INFO root fetch - processPackages [PairedCompCalc]: Downloading https://files.pythonhosted.org/packages/cd/ba/ffe3dd6e675e7b868bd8fe3bbc0c45d9e006ee717dfbb363f5ea573b923f/PairedCompCalc-2.1.1.tar.gz
+[2023-06-12 15:12:16] INFO root fetch - processPackages [PairedCompCalc]: executing diffoscope
+[2023-06-12 15:12:16] INFO root fetch - processPackages [PairedCompCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PairedCompCalc-2.1.tar.gz tmp/PairedCompCalc-2.1.1.tar.gz --markdown 20230612/P/PairedCompCalc/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-06-12 15:12:16] INFO root fetch - processPackages [reliable-queue]: Remove: archive file [/home/abi/fetcher/tmp/reliable_queue-0.0.8.tar.gz]
+[2023-06-12 15:12:16] INFO root fetch - processPackages [reliable-queue]: Remove: archive file [/home/abi/fetcher/tmp/reliable_queue-0.0.9.tar.gz]
+[2023-06-12 15:12:16] INFO root fetch - main [MainThread]: End processing [reliable-queue]: success
+[2023-06-12 15:12:17] INFO root fetch - processPackages [django-clone]: Remove: archive file [/home/abi/fetcher/tmp/django-clone-5.3.2.tar.gz]
+[2023-06-12 15:12:17] INFO root fetch - processPackages [django-clone]: Remove: archive file [/home/abi/fetcher/tmp/django-clone-5.3.3.tar.gz]
+[2023-06-12 15:12:17] INFO root fetch - main [MainThread]: End processing [django-clone]: success
+[2023-06-12 15:12:17] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 15:12:17] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 15:12:17] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-12 15:12:17] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-mailchimp-integration-0.0.6.tar.gz]
+[2023-06-12 15:12:17] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-mailchimp-integration-0.0.7.tar.gz]
+[2023-06-12 15:12:17] INFO root fetch - main [MainThread]: End processing [wagtail-mailchimp-integration]: success
+[2023-06-12 15:12:18] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-12 15:12:18] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-12 15:12:18] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-12 15:12:18] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-12 15:12:18] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-12 15:12:18] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-12 15:12:19] INFO root fetch - processPackages [PairedCompCalc]: Remove: archive file [/home/abi/fetcher/tmp/PairedCompCalc-2.1.tar.gz]
+[2023-06-12 15:12:19] INFO root fetch - processPackages [PairedCompCalc]: Remove: archive file [/home/abi/fetcher/tmp/PairedCompCalc-2.1.1.tar.gz]
+[2023-06-12 15:12:19] INFO root fetch - main [MainThread]: End processing [PairedCompCalc]: success
+[2023-06-12 15:12:22] INFO root fetch - processPackages [structurefinder]: Remove: archive file [/home/abi/fetcher/tmp/structurefinder-73.post2.tar.gz]
+[2023-06-12 15:12:22] INFO root fetch - processPackages [structurefinder]: Remove: archive file [/home/abi/fetcher/tmp/structurefinder-74.tar.gz]
+[2023-06-12 15:12:22] INFO root fetch - main [MainThread]: End processing [structurefinder]: success
+[2023-06-12 15:12:22] INFO root fetch - main [MainThread]: Store serial: [18469015]
