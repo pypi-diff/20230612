@@ -14940,3 +14940,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 12:36:49] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-2.3.0.dev5.tar.gz]
 [2023-06-12 12:36:49] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
 [2023-06-12 12:36:49] INFO root fetch - main [MainThread]: Store serial: [18467578]
+[2023-06-12 12:41:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467578]
+[2023-06-12 12:42:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-simplified
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ert
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: t4flib
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-mrp-bom-attribute-match
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqt5-utils
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Python-piSPM
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbox
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fintech
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Pandora-ChatGPT
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: floating-window-framework
+[2023-06-12 12:42:00] INFO root fetch - processPackages [t4flib]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.1]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [selenium-simplified]: New version: [1.1] Old Version: [1.0]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [pyqt5-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Python-piSPM]: New version: [7.7.0.2] Old Version: [7.7.0.1]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [fintech]: New version: [7.3.0] Old Version: [7.2.9]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ert]: New version: [5.0.0rc3] Old Version: [5.0.0rc2]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/06/aa/1b81b7ff8f8d69e55188bc22ce2f6ad36c9264def0e56c986c7c9ed5929f/t4flib-0.3.5-py2.py3-none-any.whl
+[2023-06-12 12:42:00] INFO root fetch - processPackages [pyqt5-utils]: Downloading https://files.pythonhosted.org/packages/ed/0c/af25394992118353ddede879213b0d024378e68a84431e50006a2e783a8e/pyqt5-utils-1.0.0.tar.gz
+[2023-06-12 12:42:00] WARNING root fetch - processPackages [floating-window-framework]: Skipping, unable to determine old version
+[2023-06-12 12:42:00] INFO root fetch - processPackages [floating-window-framework]: Start processing: bioregistry
+[2023-06-12 12:42:00] INFO root fetch - main [MainThread]: End processing [floating-window-framework] error
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Python-piSPM]: Downloading https://files.pythonhosted.org/packages/28/f6/e036aeb9d72b9c54a7c1d73bce9d3033016bbcb1715fa8f0122488e7727c/Python-piSPM-7.7.0.1.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/fe/d6/efeca73535f347494b285886aad06bf516af311af3048957a97727c9a270/Pandora-ChatGPT-1.1.8.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/3d/74/98cb97a2dc0cd9f45292cd8ded3d3da9318b1bede8a34420822679c48c34/nbox-0.9.9.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-12 12:42:00] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: Downloading https://files.pythonhosted.org/packages/ef/e3/211c095b0af8c77046d3f2db702d3e67ec1e5f3a321ccea776f10ae15660/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.1-py3-none-any.whl
+[2023-06-12 12:42:00] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/34/8f/872bd1f28ce8c35a04d0f116ff6d7c8bb3edc02611e12943fcc0e68723cf/selenium_simplified-1.0.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/e9/5a/a1cec5678c7bcca81531e8e340b7ace580efc6d998e285970e6d0a94f7cd/nbox-0.9.9rc0.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [fintech]: Downloading https://files.pythonhosted.org/packages/d4/90/3772d6a8d012d3cfc3294214c07f0a82ffda1346c16465853673f1d55ef4/fintech-7.2.9-cp39-none-any.whl
+[2023-06-12 12:42:00] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/a8/5b/c8981b6a7b01ef7e953aaa7eb9d5347c6357732d33ad8e74b8f3f9858fbc/ert-5.0.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/47/59/13535fd76ba70393c88a85c92754254b83e3c9affcd1079f04f9b3b6259a/Pandora-ChatGPT-1.1.9.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-06-12 12:42:00] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230612/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-12 12:42:00] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/44/2e/ad94b7997a5b9d5a3fbf65944e8f683303506dfce7af91732569d58b8dcf/t4flib-0.3.6-py2.py3-none-any.whl
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.8.tar.gz tmp/Pandora-ChatGPT-1.1.9.tar.gz --markdown 20230612/P/Pandora-ChatGPT/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-12 12:42:00] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/ce/de/ab02054d320db078ba0b7f3ba9d62781c6d6beb2ad3df16ad8a3b69a033b/selenium_simplified-1.1.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Python-piSPM]: Downloading https://files.pythonhosted.org/packages/fc/b7/d62488c1101873343dac3beae437dc0c6b5ab549096f56e10ce4f43fab84/Python-piSPM-7.7.0.2.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [pyqt5-utils]: Downloading https://files.pythonhosted.org/packages/e0/4c/1406c624ed60a616f69d92261c8dde15466c1268309c556e86c2e69d92b9/pyqt5-utils-1.0.1.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [selenium-simplified]: executing diffoscope
+[2023-06-12 12:42:00] INFO root fetch - processPackages [selenium-simplified]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_simplified-1.0.tar.gz tmp/selenium_simplified-1.1.tar.gz --markdown 20230612/s/selenium-simplified/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Python-piSPM]: executing diffoscope
+[2023-06-12 12:42:00] INFO root fetch - processPackages [Python-piSPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python-piSPM-7.7.0.1.tar.gz tmp/Python-piSPM-7.7.0.2.tar.gz --markdown 20230612/P/Python-piSPM/7.7.0.1-7.7.0.2/diff.md --exclude *.pyd
+[2023-06-12 12:42:00] INFO root fetch - processPackages [pyqt5-utils]: executing diffoscope
+[2023-06-12 12:42:00] INFO root fetch - processPackages [pyqt5-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt5-utils-1.0.0.tar.gz tmp/pyqt5-utils-1.0.1.tar.gz --markdown 20230612/p/pyqt5-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 12:42:00] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-12 12:42:00] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-06-12 12:42:00] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.3.5-py2.py3-none-any.whl.zip tmp/t4flib-0.3.6-py2.py3-none-any.whl.zip --markdown 20230612/t/t4flib/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-12 12:42:01] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: Downloading https://files.pythonhosted.org/packages/0d/6e/fd2e5c484577f38f74df90cc46f81e362597562008b8cac5637c020542a8/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-06-12 12:42:01] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-12 12:42:01] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230612/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 12:42:01] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: executing diffoscope
+[2023-06-12 12:42:01] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230612/o/odoo14-addon-mrp-bom-attribute-match/14.0.1.1.1-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-06-12 12:42:01] INFO root fetch - processPackages [fintech]: Downloading https://files.pythonhosted.org/packages/4e/6d/c0839237074888e12280d85128b24efa317b2e97edec06fd78af41d7dce9/fintech-7.3.0-cp39-none-any.whl
+[2023-06-12 12:42:01] INFO root fetch - processPackages [fintech]: executing diffoscope
+[2023-06-12 12:42:01] INFO root fetch - processPackages [fintech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintech-7.2.9-cp39-none-any.whl.zip tmp/fintech-7.3.0-cp39-none-any.whl.zip --markdown 20230612/f/fintech/7.2.9-7.3.0/diff.md --exclude *.pyd
+[2023-06-12 12:42:01] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/50/cf/0230d753fb236ada6dcdeac1bba244aaef6277c3acbdc07e574616440ce5/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 12:42:01] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-06-12 12:42:01] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.0.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230612/e/ert/5.0.0rc2-5.0.0rc3/diff.md --exclude *.pyd
+[2023-06-12 12:42:02] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium_simplified-1.0.tar.gz]
+[2023-06-12 12:42:02] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium_simplified-1.1.tar.gz]
+[2023-06-12 12:42:02] INFO root fetch - main [MainThread]: End processing [selenium-simplified]: success
+[2023-06-12 12:42:02] INFO root fetch - processPackages [pyqt5-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyqt5-utils-1.0.0.tar.gz]
+[2023-06-12 12:42:02] INFO root fetch - processPackages [pyqt5-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyqt5-utils-1.0.1.tar.gz]
+[2023-06-12 12:42:02] INFO root fetch - main [MainThread]: End processing [pyqt5-utils]: success
+[2023-06-12 12:42:02] INFO root fetch - processPackages [t4flib]: Remove: archive file [/home/abi/fetcher/tmp/t4flib-0.3.5-py2.py3-none-any.whl.zip]
+[2023-06-12 12:42:02] INFO root fetch - processPackages [t4flib]: Remove: archive file [/home/abi/fetcher/tmp/t4flib-0.3.6-py2.py3-none-any.whl.zip]
+[2023-06-12 12:42:02] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-06-12 12:42:02] INFO root fetch - processPackages [Python-piSPM]: Remove: archive file [/home/abi/fetcher/tmp/Python-piSPM-7.7.0.1.tar.gz]
+[2023-06-12 12:42:02] INFO root fetch - processPackages [Python-piSPM]: Remove: archive file [/home/abi/fetcher/tmp/Python-piSPM-7.7.0.2.tar.gz]
+[2023-06-12 12:42:02] INFO root fetch - main [MainThread]: End processing [Python-piSPM]: success
+[2023-06-12 12:42:02] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-12 12:42:02] INFO root fetch - processPackages [odoo14-addon-mrp-bom-attribute-match]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_attribute_match-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-12 12:42:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-bom-attribute-match]: success
+[2023-06-12 12:42:02] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9.tar.gz]
+[2023-06-12 12:42:02] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9rc0.tar.gz]
+[2023-06-12 12:42:02] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-06-12 12:42:04] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.8.tar.gz]
+[2023-06-12 12:42:04] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.9.tar.gz]
+[2023-06-12 12:42:04] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-12 12:42:13] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.0.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 12:42:13] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 12:42:13] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-06-12 12:42:23] INFO root fetch - processPackages [fintech]: Remove: archive file [/home/abi/fetcher/tmp/fintech-7.2.9-cp39-none-any.whl.zip]
+[2023-06-12 12:42:23] INFO root fetch - processPackages [fintech]: Remove: archive file [/home/abi/fetcher/tmp/fintech-7.3.0-cp39-none-any.whl.zip]
+[2023-06-12 12:42:23] INFO root fetch - main [MainThread]: End processing [fintech]: success
+[2023-06-12 12:44:03] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-12 12:44:03] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-12 12:44:03] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-12 12:44:03] INFO root fetch - main [MainThread]: Store serial: [18467635]
