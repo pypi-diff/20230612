@@ -15977,3 +15977,151 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:27:57] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.9.tar.gz]
 [2023-06-12 13:27:57] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-06-12 13:27:57] INFO root fetch - main [MainThread]: Store serial: [18468027]
+[2023-06-12 13:33:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468027]
+[2023-06-12 13:33:08] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowmate-common
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perceiver-io
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-cisco-maintenance
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchrl-nightly
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qdrant-tools
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-fn
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vollseg
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytket
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-BitTorrent
+[2023-06-12 13:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wbpLoglist
+[2023-06-12 13:33:08] INFO root fetch - processPackages [perceiver-io]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [wbpLoglist]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [gpt-fn]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [qdrant-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [pytket]: New version: [1.9.1rc0] Old Version: [1.9.1]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/c0/04/9850485abe9b8aebf9374a87b76566a1053c2dc6457a2930d9002667c916/gpt_fn-0.0.4.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [qdrant-tools]: Downloading https://files.pythonhosted.org/packages/81/6e/da5dfcf7c70318ce864fd49593454557093f3f573efccc55efe9cf7f34dc/qdrant_tools-0.0.3.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: Downloading https://files.pythonhosted.org/packages/9e/24/e496065d7dc5ab6cb82ac18c820d5969facd1d6e6cf2ede1af114d0de7ff/nonebot_plugin_BitTorrent-0.0.8.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [perceiver-io]: Downloading https://files.pythonhosted.org/packages/30/d3/3fe1bc64dae68898688704d55b10787c04e8ae22f6eb450e586ee1a8603f/perceiver-io-0.8.2.tar.gz
+[2023-06-12 13:33:08] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-12 13:33:08] INFO root fetch - processPackages [vollseg]: Start processing: belvo-python
+[2023-06-12 13:33:08] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-12 13:33:08] INFO root fetch - processPackages [wbpLoglist]: Downloading https://files.pythonhosted.org/packages/46/cf/88dbc429ea2195b7fd3c31902334c880ba7a52647b7f0fd7bd4a05a2add0/wbpLoglist-0.1.5.tar.gz
+[2023-06-12 13:33:08] WARNING root fetch - processPackages [snowmate-common]: Skipping, unable to determine old version
+[2023-06-12 13:33:08] INFO root fetch - processPackages [snowmate-common]: Start processing: greedyFAS
+[2023-06-12 13:33:08] INFO root fetch - main [MainThread]: End processing [snowmate-common] error
+[2023-06-12 13:33:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [belvo-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [greedyFAS]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/cf/e5/fbb7a546c16f76167935bf26094a7fe5675c9a5ceae634d937490e481673/gpt_fn-0.0.5.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/0b/0f/8db0fcfa7fde7115dd5863cd5b1f5533be347fbad99aaa158e2c9fa0a3a5/pytket-1.9.1-cp39-cp39-win_amd64.whl
+[2023-06-12 13:33:08] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3b/88/101e7c87a8d056c43a8fc2343ea5a24020bd6c62819390407e19c2e58b84/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl
+[2023-06-12 13:33:08] INFO root fetch - processPackages [gpt-fn]: executing diffoscope
+[2023-06-12 13:33:08] INFO root fetch - processPackages [gpt-fn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_fn-0.0.4.tar.gz tmp/gpt_fn-0.0.5.tar.gz --markdown 20230612/g/gpt-fn/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 13:33:08] INFO root fetch - processPackages [qdrant-tools]: Downloading https://files.pythonhosted.org/packages/72/eb/2a8998290eb37bfd84abe81769a939f956d387b8b557a6751f1dea46ae78/qdrant_tools-0.0.4.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [qdrant-tools]: executing diffoscope
+[2023-06-12 13:33:08] INFO root fetch - processPackages [qdrant-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_tools-0.0.3.tar.gz tmp/qdrant_tools-0.0.4.tar.gz --markdown 20230612/q/qdrant-tools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 13:33:08] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10528667>=10485760
+[2023-06-12 13:33:08] INFO root fetch - processPackages [pytket]: Start processing: zhipuai
+[2023-06-12 13:33:08] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2023-06-12 13:33:08] INFO root fetch - processPackages [perceiver-io]: Downloading https://files.pythonhosted.org/packages/66/a9/c0b3bfe871bc5e586b36eee2363c85a7c7fa530509c245c45bc1ca048b34/perceiver-io-0.9.0.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [belvo-python]: Downloading https://files.pythonhosted.org/packages/82/11/e3043b43de6bd0b71005dceb859c72842794602354049ee7da5b31c119c5/belvo-python-0.8.0.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [zhipuai]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-06-12 13:33:08] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: Downloading https://files.pythonhosted.org/packages/94/66/e426f642a1a997d3c139325f3d8d38fbb6d892bf8285b4b35dded9a17103/nonebot_plugin_BitTorrent-0.0.9.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [wbpLoglist]: Downloading https://files.pythonhosted.org/packages/94/a6/24b08fc2cee6c4951f1d8e1d9be8dc0756425eb47f88673da8bf53e3d4fc/wbpLoglist-0.2.0.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/17/a1/5db526d0aff1735e04ea3cb4cafd2fb9dfac4d36e8e148dba07b29811754/greedyFAS-1.9.0.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 13:33:08] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: executing diffoscope
+[2023-06-12 13:33:08] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_BitTorrent-0.0.8.tar.gz tmp/nonebot_plugin_BitTorrent-0.0.9.tar.gz --markdown 20230612/n/nonebot-plugin-BitTorrent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 13:33:08] INFO root fetch - processPackages [wbpLoglist]: executing diffoscope
+[2023-06-12 13:33:08] INFO root fetch - processPackages [wbpLoglist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpLoglist-0.1.5.tar.gz tmp/wbpLoglist-0.2.0.tar.gz --markdown 20230612/w/wbpLoglist/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 13:33:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 13:33:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 13:33:08] WARNING root fetch - processPackages [perceiver-io]: Skipping package: exceeds size limit 15401978>=10485760
+[2023-06-12 13:33:08] INFO root fetch - processPackages [perceiver-io]: Start processing: getmodelspec
+[2023-06-12 13:33:08] INFO root fetch - main [MainThread]: End processing [perceiver-io] error
+[2023-06-12 13:33:08] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/46/ce016b773818b01f9d3047ba111687f8b14fc64ca46b82b77f62c661e902/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl
+[2023-06-12 13:33:08] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-12 13:33:08] INFO root fetch - processPackages [getmodelspec]: Start processing: bigdl-nano
+[2023-06-12 13:33:08] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-12 13:33:08] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/be/fb/8bc33fd98fbd687b156300b0cbc856ff963291391458ada50713c576b5b7/zhipuai-1.0.4.tar.gz
+[2023-06-12 13:33:09] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230612] Old Version: [2.4.0b20230611]
+[2023-06-12 13:33:09] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-12 13:33:09] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230612/t/torchrl-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-12 13:33:09] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/9a/71/31f80cba4884d67dd219766a3ddb5527403dc00cf67a566b8aef418057e0/bigdl_nano-2.4.0b20230611-py3-none-win_amd64.whl
+[2023-06-12 13:33:09] INFO root fetch - processPackages [belvo-python]: Downloading https://files.pythonhosted.org/packages/1f/4d/d9d9a2e131b8c740167fd083ea41a3f5df46964018b98794a80f4f77bb9d/belvo-python-0.9.0.tar.gz
+[2023-06-12 13:33:09] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/5e/ef/a255efe3fba413830c37f81917a8f31daf07ba429901b9c69b8ab1d8061c/greedyFAS-1.9.1.tar.gz
+[2023-06-12 13:33:09] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/63/cd/00ed882b1fe656382c0e3051f65c8724f790238b71e4e2085125fc48568e/zhipuai-1.0.6.tar.gz
+[2023-06-12 13:33:09] INFO root fetch - processPackages [zhipuai]: executing diffoscope
+[2023-06-12 13:33:09] INFO root fetch - processPackages [zhipuai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhipuai-1.0.4.tar.gz tmp/zhipuai-1.0.6.tar.gz --markdown 20230612/z/zhipuai/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-06-12 13:33:09] INFO root fetch - processPackages [belvo-python]: executing diffoscope
+[2023-06-12 13:33:09] INFO root fetch - processPackages [belvo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/belvo-python-0.8.0.tar.gz tmp/belvo-python-0.9.0.tar.gz --markdown 20230612/b/belvo-python/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 13:33:09] INFO root fetch - processPackages [greedyFAS]: executing diffoscope
+[2023-06-12 13:33:09] INFO root fetch - processPackages [greedyFAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greedyFAS-1.9.0.tar.gz tmp/greedyFAS-1.9.1.tar.gz --markdown 20230612/g/greedyFAS/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-12 13:33:09] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/40/f7/b8f74820eabfb7208875cbc73cc07d47853a9e641d5d5db7d488c12babe8/bigdl_nano-2.4.0b20230612-py3-none-win_amd64.whl
+[2023-06-12 13:33:10] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-12 13:33:10] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230611-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230612-py3-none-win_amd64.whl.zip --markdown 20230612/b/bigdl-nano/2.4.0b20230611-2.4.0b20230612/diff.md --exclude *.pyd
+[2023-06-12 13:33:10] INFO root fetch - processPackages [qdrant-tools]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_tools-0.0.3.tar.gz]
+[2023-06-12 13:33:10] INFO root fetch - processPackages [qdrant-tools]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_tools-0.0.4.tar.gz]
+[2023-06-12 13:33:10] INFO root fetch - processPackages [qdrant-tools]: Start processing: bigdl-llm
+[2023-06-12 13:33:10] INFO root fetch - main [MainThread]: End processing [qdrant-tools]: success
+[2023-06-12 13:33:10] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230611] Old Version: [2.4.0b20230610]
+[2023-06-12 13:33:10] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_BitTorrent-0.0.8.tar.gz]
+[2023-06-12 13:33:10] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_BitTorrent-0.0.9.tar.gz]
+[2023-06-12 13:33:10] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: Start processing: PyPhotometry
+[2023-06-12 13:33:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-BitTorrent]: success
+[2023-06-12 13:33:10] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/f6/a7/59f34279c80887e7c8292d0daaa2c1983b68e11200ad08d32b4966226d81/bigdl_llm-2.4.0b20230610-py3-none-win_amd64.whl
+[2023-06-12 13:33:10] WARNING root fetch - processPackages [PyPhotometry]: Skipping, unable to determine old version
+[2023-06-12 13:33:10] INFO root fetch - processPackages [PyPhotometry]: Start processing: bigdl-chronos
+[2023-06-12 13:33:10] INFO root fetch - main [MainThread]: End processing [PyPhotometry] error
+[2023-06-12 13:33:10] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230611] Old Version: [2.4.0b20230610]
+[2023-06-12 13:33:10] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/6b/57/8a0e27d01c9703be92e0b062e89f66bfd6f106933ceeb796c593d1667127/bigdl_chronos-2.4.0b20230610-py3-none-win_amd64.whl
+[2023-06-12 13:33:10] INFO root fetch - processPackages [wbpLoglist]: Remove: archive file [/home/abi/fetcher/tmp/wbpLoglist-0.1.5.tar.gz]
+[2023-06-12 13:33:10] INFO root fetch - processPackages [wbpLoglist]: Remove: archive file [/home/abi/fetcher/tmp/wbpLoglist-0.2.0.tar.gz]
+[2023-06-12 13:33:10] INFO root fetch - processPackages [wbpLoglist]: Start processing: openai-db-design
+[2023-06-12 13:33:10] INFO root fetch - main [MainThread]: End processing [wbpLoglist]: success
+[2023-06-12 13:33:10] WARNING root fetch - processPackages [openai-db-design]: Skipping, unable to determine old version
+[2023-06-12 13:33:10] INFO root fetch - processPackages [openai-db-design]: Start processing: zut
+[2023-06-12 13:33:10] INFO root fetch - main [MainThread]: End processing [openai-db-design] error
+[2023-06-12 13:33:10] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/50/f9/a43b31adc57221df876f3fbe9463c758ccc04e9c88b1f9b0922a72e37771/bigdl_chronos-2.4.0b20230611-py3-none-win_amd64.whl
+[2023-06-12 13:33:10] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.4.tar.gz]
+[2023-06-12 13:33:10] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.5.tar.gz]
+[2023-06-12 13:33:10] INFO root fetch - main [MainThread]: End processing [gpt-fn]: success
+[2023-06-12 13:33:10] INFO root fetch - processPackages [zut]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-12 13:33:11] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-12 13:33:11] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230610-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230611-py3-none-win_amd64.whl.zip --markdown 20230612/b/bigdl-chronos/2.4.0b20230610-2.4.0b20230611/diff.md --exclude *.pyd
+[2023-06-12 13:33:11] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/3d/c6/4135218de917937920a55c7e7c85b676862c19058b8696ce15084563d10b/zut-0.6.0-py3-none-any.whl
+[2023-06-12 13:33:11] INFO root fetch - processPackages [belvo-python]: Remove: archive file [/home/abi/fetcher/tmp/belvo-python-0.8.0.tar.gz]
+[2023-06-12 13:33:11] INFO root fetch - processPackages [belvo-python]: Remove: archive file [/home/abi/fetcher/tmp/belvo-python-0.9.0.tar.gz]
+[2023-06-12 13:33:11] INFO root fetch - main [MainThread]: End processing [belvo-python]: success
+[2023-06-12 13:33:11] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/a0/a3/14e678000c8e877830cae449664c07dea3a662cd312a3914305cf0ddbad4/bigdl_llm-2.4.0b20230611-py3-none-win_amd64.whl
+[2023-06-12 13:33:11] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-1.0.4.tar.gz]
+[2023-06-12 13:33:11] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-1.0.6.tar.gz]
+[2023-06-12 13:33:11] INFO root fetch - main [MainThread]: End processing [zhipuai]: success
+[2023-06-12 13:33:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 13:33:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 13:33:11] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 13:33:11] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/5e/db/2ee6b5c4ad01f6ea3e9ac0c7f51a1360f74546ba073dcaa83dc581bcce39/zut-0.6.1-py3-none-any.whl
+[2023-06-12 13:33:11] INFO root fetch - processPackages [zut]: executing diffoscope
+[2023-06-12 13:33:11] INFO root fetch - processPackages [zut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zut-0.6.0-py3-none-any.whl.zip tmp/zut-0.6.1-py3-none-any.whl.zip --markdown 20230612/z/zut/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-12 13:33:11] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-12 13:33:11] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230610-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230611-py3-none-win_amd64.whl.zip --markdown 20230612/b/bigdl-llm/2.4.0b20230610-2.4.0b20230611/diff.md --exclude *.pyd
+[2023-06-12 13:33:12] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 13:33:12] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 13:33:12] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-12 13:33:12] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.0.tar.gz]
+[2023-06-12 13:33:12] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.1.tar.gz]
+[2023-06-12 13:33:12] INFO root fetch - main [MainThread]: End processing [greedyFAS]: success
+[2023-06-12 13:33:13] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230610-py3-none-win_amd64.whl.zip]
+[2023-06-12 13:33:13] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230611-py3-none-win_amd64.whl.zip]
+[2023-06-12 13:33:13] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-12 13:33:13] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230611-py3-none-win_amd64.whl.zip]
+[2023-06-12 13:33:13] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230612-py3-none-win_amd64.whl.zip]
+[2023-06-12 13:33:13] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-12 13:33:13] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.6.0-py3-none-any.whl.zip]
+[2023-06-12 13:33:13] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.6.1-py3-none-any.whl.zip]
+[2023-06-12 13:33:13] INFO root fetch - main [MainThread]: End processing [zut]: success
+[2023-06-12 13:33:13] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230610-py3-none-win_amd64.whl.zip]
+[2023-06-12 13:33:13] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230611-py3-none-win_amd64.whl.zip]
+[2023-06-12 13:33:13] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-12 13:33:13] INFO root fetch - main [MainThread]: Store serial: [18468113]
