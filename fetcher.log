@@ -3498,3 +3498,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 03:55:09] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.3.tar.gz]
 [2023-06-12 03:55:09] INFO root fetch - main [MainThread]: End processing [spPersist]: success
 [2023-06-12 03:55:09] INFO root fetch - main [MainThread]: Store serial: [18462776]
+[2023-06-12 04:00:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462776]
+[2023-06-12 04:00:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 04:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hilbert-prop-logic
+[2023-06-12 04:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trackplot
+[2023-06-12 04:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: american-options
+[2023-06-12 04:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveramp-automation-framework
+[2023-06-12 04:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hilbert-prop-logic
+[2023-06-12 04:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nsqdriver
+[2023-06-12 04:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SmoobuExtractorFormatter
+[2023-06-12 04:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-wget
+[2023-06-12 04:00:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shady-island
+[2023-06-12 04:00:19] INFO root fetch - processPackages [hilbert-prop-logic]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 04:00:19] INFO root fetch - processPackages [american-options]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-06-12 04:00:19] WARNING root fetch - processPackages [liveramp-automation-framework]: Skipping, unable to determine old version
+[2023-06-12 04:00:19] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework] error
+[2023-06-12 04:00:19] INFO root fetch - processPackages [SmoobuExtractorFormatter]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-12 04:00:19] INFO root fetch - processPackages [trackplot]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-12 04:00:19] INFO root fetch - processPackages [nsqdriver]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-12 04:00:19] INFO root fetch - processPackages [hilbert-prop-logic]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 04:00:19] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 04:00:19] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/17/d2/46bcf2e7bc5d6c9e9af7ba52eb018d6664f88b371e09478aa20da1d321d1/SmoobuExtractorFormatter-1.2.5.tar.gz
+[2023-06-12 04:00:20] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-12 04:00:20] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 04:00:20] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/c1/d9/3b5f1e88c0561972c7cd0dde4502aedf3ae7c4301f26b2e79d796defcc27/trackplot-0.2.5.tar.gz
+[2023-06-12 04:00:20] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/14/b9/7b0bd639d0abd7aff867d827720b0296cdd5748075a98204f21a69c70825/nsqdriver-0.3.1-cp39-cp39-win_amd64.whl
+[2023-06-12 04:00:20] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/c4/e8/8fd97fe3766f400ee206c437bed411afced9d8cef4a99ab4819f1d5b8499/american_options-0.0.1.tar.gz
+[2023-06-12 04:00:20] INFO root fetch - processPackages [hilbert-prop-logic]: Downloading https://files.pythonhosted.org/packages/38/02/99274c8ed8cc37a95ff6101587413259fa4e14f90169624f9f2fb8b71668/hilbert_prop_logic-0.1.2-cp38-cp38-macosx_10_7_x86_64.whl
+[2023-06-12 04:00:20] INFO root fetch - processPackages [hilbert-prop-logic]: Downloading https://files.pythonhosted.org/packages/38/02/99274c8ed8cc37a95ff6101587413259fa4e14f90169624f9f2fb8b71668/hilbert_prop_logic-0.1.2-cp38-cp38-macosx_10_7_x86_64.whl
+[2023-06-12 04:00:20] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/1a/c9/5bc9dff2893456b5ff5c8e17b13a57bec9bd082e51559ea31a0b871d6678/SmoobuExtractorFormatter-1.2.6.tar.gz
+[2023-06-12 04:00:20] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-06-12 04:00:20] INFO root fetch - processPackages [SmoobuExtractorFormatter]: executing diffoscope
+[2023-06-12 04:00:20] INFO root fetch - processPackages [SmoobuExtractorFormatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmoobuExtractorFormatter-1.2.5.tar.gz tmp/SmoobuExtractorFormatter-1.2.6.tar.gz --markdown 20230612/S/SmoobuExtractorFormatter/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-12 04:00:20] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/d4/8d/549dfeac5e109d33a382d46fbe20a957f0acf190bb8eca6a8661267c9b1a/nsqdriver-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 04:00:20] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/8d/a3/060788ca0e83c03e4df13f4ab078255f1a7022fc723ac8052991e6b788bb/trackplot-0.2.6.tar.gz
+[2023-06-12 04:00:20] INFO root fetch - processPackages [hilbert-prop-logic]: Downloading https://files.pythonhosted.org/packages/ff/d8/1f869cd1b58671a86934846f3ed56774c099ae8437d23cdb3cf25f6f79ee/hilbert_prop_logic-0.1.3-cp38-cp38-macosx_10_7_x86_64.whl
+[2023-06-12 04:00:20] INFO root fetch - processPackages [hilbert-prop-logic]: Downloading https://files.pythonhosted.org/packages/ff/d8/1f869cd1b58671a86934846f3ed56774c099ae8437d23cdb3cf25f6f79ee/hilbert_prop_logic-0.1.3-cp38-cp38-macosx_10_7_x86_64.whl
+[2023-06-12 04:00:20] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/63/70/0cd1b3f2fa21f510db0a9fc2654ae51aafdec69a148a4ed011f71d191d28/american_options-0.1.1.tar.gz
+[2023-06-12 04:00:20] INFO root fetch - processPackages [american-options]: executing diffoscope
+[2023-06-12 04:00:20] INFO root fetch - processPackages [american-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/american_options-0.0.1.tar.gz tmp/american_options-0.1.1.tar.gz --markdown 20230612/a/american-options/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 04:00:20] INFO root fetch - processPackages [trackplot]: executing diffoscope
+[2023-06-12 04:00:20] INFO root fetch - processPackages [trackplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackplot-0.2.5.tar.gz tmp/trackplot-0.2.6.tar.gz --markdown 20230612/t/trackplot/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-12 04:00:20] INFO root fetch - processPackages [hilbert-prop-logic]: executing diffoscope
+[2023-06-12 04:00:20] INFO root fetch - processPackages [hilbert-prop-logic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hilbert_prop_logic-0.1.2-cp38-cp38-macosx_10_7_x86_64.whl.zip tmp/hilbert_prop_logic-0.1.3-cp38-cp38-macosx_10_7_x86_64.whl.zip --markdown 20230612/h/hilbert-prop-logic/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 04:00:20] INFO root fetch - processPackages [hilbert-prop-logic]: executing diffoscope
+[2023-06-12 04:00:20] INFO root fetch - processPackages [hilbert-prop-logic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hilbert_prop_logic-0.1.2-cp38-cp38-macosx_10_7_x86_64.whl.zip tmp/hilbert_prop_logic-0.1.3-cp38-cp38-macosx_10_7_x86_64.whl.zip --markdown 20230612/h/hilbert-prop-logic/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 04:00:20] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-06-12 04:00:20] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-06-12 04:00:20] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230612/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 04:00:20] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2023-06-12 04:00:20] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.3.1-cp39-cp39-win_amd64.whl.zip tmp/nsqdriver-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230612/n/nsqdriver/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-12 04:00:21] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-12 04:00:21] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.5.tar.gz]
+[2023-06-12 04:00:21] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.6.tar.gz]
+[2023-06-12 04:00:21] INFO root fetch - main [MainThread]: End processing [SmoobuExtractorFormatter]: success
+[2023-06-12 04:00:21] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.0.1.tar.gz]
+[2023-06-12 04:00:21] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.1.1.tar.gz]
+[2023-06-12 04:00:21] INFO root fetch - main [MainThread]: End processing [american-options]: success
+[2023-06-12 04:00:22] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.3.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 04:00:22] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 04:00:22] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2023-06-12 04:00:22] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-06-12 04:00:22] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-06-12 04:00:22] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-06-12 04:00:22] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-12 04:00:22] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230612/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 04:00:24] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-12 04:00:24] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-12 04:00:24] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-12 04:00:24] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.2.5.tar.gz]
+[2023-06-12 04:00:24] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.2.6.tar.gz]
+[2023-06-12 04:00:24] INFO root fetch - main [MainThread]: End processing [trackplot]: success
+[2023-06-12 04:00:24] INFO root fetch - processPackages [hilbert-prop-logic]: Remove: archive file [/home/abi/fetcher/tmp/hilbert_prop_logic-0.1.2-cp38-cp38-macosx_10_7_x86_64.whl.zip]
+[2023-06-12 04:00:24] INFO root fetch - processPackages [hilbert-prop-logic]: Remove: archive file [/home/abi/fetcher/tmp/hilbert_prop_logic-0.1.3-cp38-cp38-macosx_10_7_x86_64.whl.zip]
+[2023-06-12 04:00:24] INFO root fetch - main [MainThread]: End processing [hilbert-prop-logic]: success
+[2023-06-12 04:00:26] INFO root fetch - main [MainThread]: End processing [hilbert-prop-logic]: success
+[2023-06-12 04:00:26] INFO root fetch - main [MainThread]: Store serial: [18462812]
