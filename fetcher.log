@@ -23896,3 +23896,145 @@ EOFError: EOF read where object expected
 [2023-06-12 18:20:08] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0.dev3-py3-none-any.whl.zip]
 [2023-06-12 18:20:08] INFO root fetch - main [MainThread]: End processing [eudplib]: success
 [2023-06-12 18:20:08] INFO root fetch - main [MainThread]: Store serial: [18471401]
+[2023-06-12 18:25:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18471401]
+[2023-06-12 18:25:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: in-dbt-spark
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vollseg
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-vpc
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: themachinethatgoesping
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tapipy
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalkpy
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docker-run-cli
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: encode-utils-cli
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easy-local-features
+[2023-06-12 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docker-run-docker-ros
+[2023-06-12 18:25:20] INFO root fetch - processPackages [tapipy]: New version: [1.4.0a7] Old Version: [1.4.0a6]
+[2023-06-12 18:25:20] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-12 18:25:20] INFO root fetch - processPackages [easy-local-features]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-12 18:25:20] INFO root fetch - processPackages [themachinethatgoesping]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-12 18:25:20] INFO root fetch - processPackages [encode-utils-cli]: New version: [1.0.0a1] Old Version: [1.0.0]
+[2023-06-12 18:25:21] INFO root fetch - processPackages [in-dbt-spark]: New version: [1.5.0] Old Version: [1.2.518]
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-docker-ros]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 18:25:21] INFO root fetch - processPackages [chalkpy]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-06-12 18:25:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 18:25:21] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/a7/35/b92df50fbb47716adca68071dce4bcbbfef200159d3130acdee71c8074c1/easy_local_features-0.2.2.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/25/98/839bb964d107b60f6cc3bb06dbdb864b04f9c38cafbf4725617501c0ad49/pepperize.cdk-vpc-0.0.98.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [encode-utils-cli]: Downloading https://files.pythonhosted.org/packages/83/6f/9f6dafbdade7e5e5360608d4490c1583706092d3e0d9b468b40a9dc0eefd/encode_utils_cli-1.0.0.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [in-dbt-spark]: Downloading https://files.pythonhosted.org/packages/56/98/9d69f79a53d90a484cc3d95ac719daf4e99a69257f8e653b9f21a733874b/in-dbt-spark-1.2.518.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/25/f5/93818109ef96f43da2a89c53c1a1326b9ca95de5315a280cba175feb94fb/tapipy-1.4.0a6.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [themachinethatgoesping]: Downloading https://files.pythonhosted.org/packages/41/86/59fbfb9c94764077e4d5f0a685f969526b626c456da17df7ec9e30b477f9/themachinethatgoesping-0.6.8-cp39-cp39-win_amd64.whl
+[2023-06-12 18:25:21] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-docker-ros]: Downloading https://files.pythonhosted.org/packages/af/b0/1add05a690823c9f3b4f59eab021e2397254089a41301bd73bb7cb42bba8/docker-run-docker-ros-1.0.1.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-cli]: Downloading https://files.pythonhosted.org/packages/36/3a/762a5bebde834eeaf10d066c3857493c47f9d4e6553617712bb685ed0005/docker-run-cli-0.9.2.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/e8/f1/d3bacab49ff19cf30ba787ffcbc7ad05fd05f663b5194429568885059996/pepperize.cdk-vpc-0.0.99.tar.gz
+[2023-06-12 18:25:21] WARNING root fetch - processPackages [themachinethatgoesping]: Skipping package: exceeds size limit 13352847>=10485760
+[2023-06-12 18:25:21] INFO root fetch - processPackages [themachinethatgoesping]: Start processing: records-mover
+[2023-06-12 18:25:21] INFO root fetch - main [MainThread]: End processing [themachinethatgoesping] error
+[2023-06-12 18:25:21] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-12 18:25:21] INFO root fetch - processPackages [vollseg]: Start processing: mly
+[2023-06-12 18:25:21] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-12 18:25:21] INFO root fetch - processPackages [records-mover]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-12 18:25:21] INFO root fetch - processPackages [mly]: New version: [0.3.4.5] Old Version: [0.3.4.4]
+[2023-06-12 18:25:21] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/2a/a3/56a0fc32e5fa56b527d68337469c068204f59f8476bf34bab128d9bdd6ee/easy_local_features-0.2.3.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230612/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 18:25:21] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/c9/d7/81a8eb5b3abd815588072408b5c4076c8063ae7b4bd0b8b3281539e077dc/chalkpy-2.7.3.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [encode-utils-cli]: Downloading https://files.pythonhosted.org/packages/11/66/26200dde75ec09591b4071480c079edaa0d2d02845937181103ee0cba395/encode_utils_cli-1.0.0a1.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [mly]: Downloading https://files.pythonhosted.org/packages/61/a8/cadfe6addb384bd1158444740603301ae925f373db4af5ca072a6a0a6344/mly-0.3.4.4.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/c5/32/bb7b1fb413a7789967224efc61e1e15e77f3fe9d0fa6946068bdc7cb1f60/tapipy-1.4.0a7.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [easy-local-features]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [easy-local-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_local_features-0.2.2.tar.gz tmp/easy_local_features-0.2.3.tar.gz --markdown 20230612/e/easy-local-features/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-docker-ros]: Downloading https://files.pythonhosted.org/packages/3d/97/dec519a581a7223cf37143d01c46d479b18a0eb7b9b4d84dc7e3c5cf98f6/docker-run-docker-ros-1.0.2.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [in-dbt-spark]: Downloading https://files.pythonhosted.org/packages/19/ca/2d1d1011990d8d9bdebe62aa9179d131c40f4de318a2ceb8cb5dca50e313/in-dbt-spark-1.5.0.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [records-mover]: Downloading https://files.pythonhosted.org/packages/77/f4/131a32d4490a9867add543db4cad700285576288a4fe2aea450317fb2664/records-mover-1.5.3.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-cli]: Downloading https://files.pythonhosted.org/packages/da/33/6895a30d89b2280592f7ff204d8e1a1d4f23b72f66b4f42e260c49f22198/docker-run-cli-0.9.3.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [encode-utils-cli]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [encode-utils-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encode_utils_cli-1.0.0.tar.gz tmp/encode_utils_cli-1.0.0a1.tar.gz --markdown 20230612/e/encode-utils-cli/1.0.0-1.0.0a1/diff.md --exclude *.pyd
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-docker-ros]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-docker-ros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-run-docker-ros-1.0.1.tar.gz tmp/docker-run-docker-ros-1.0.2.tar.gz --markdown 20230612/d/docker-run-docker-ros/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 18:25:21] INFO root fetch - processPackages [in-dbt-spark]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [in-dbt-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/in-dbt-spark-1.2.518.tar.gz tmp/in-dbt-spark-1.5.0.tar.gz --markdown 20230612/i/in-dbt-spark/1.2.518-1.5.0/diff.md --exclude *.pyd
+[2023-06-12 18:25:21] INFO root fetch - processPackages [tapipy]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [tapipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapipy-1.4.0a6.tar.gz tmp/tapipy-1.4.0a7.tar.gz --markdown 20230612/t/tapipy/1.4.0a6-1.4.0a7/diff.md --exclude *.pyd
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-cli]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [docker-run-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-run-cli-0.9.2.tar.gz tmp/docker-run-cli-0.9.3.tar.gz --markdown 20230612/d/docker-run-cli/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-12 18:25:21] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/12/6a/a092186dcca7b97c0695cbef09483e727be7dc8621eddee177a65c80a80f/chalkpy-2.7.4.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [mly]: Downloading https://files.pythonhosted.org/packages/13/5a/324f9bc9e38fbe15bc428448711f45840332828a8b92d5f68a623238bc5e/mly-0.3.4.5.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [records-mover]: Downloading https://files.pythonhosted.org/packages/ba/54/3a3637bbff1c37f303a1e06ee6fad2641a4e0467fdc0b338ba7142b1508b/records-mover-1.5.4.tar.gz
+[2023-06-12 18:25:21] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.7.3.tar.gz tmp/chalkpy-2.7.4.tar.gz --markdown 20230612/c/chalkpy/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-06-12 18:25:21] INFO root fetch - processPackages [records-mover]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [records-mover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/records-mover-1.5.3.tar.gz tmp/records-mover-1.5.4.tar.gz --markdown 20230612/r/records-mover/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-12 18:25:21] INFO root fetch - processPackages [mly]: executing diffoscope
+[2023-06-12 18:25:21] INFO root fetch - processPackages [mly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly-0.3.4.4.tar.gz tmp/mly-0.3.4.5.tar.gz --markdown 20230612/m/mly/0.3.4.4-0.3.4.5/diff.md --exclude *.pyd
+[2023-06-12 18:25:22] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-06-12 18:25:22] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-06-12 18:25:22] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: macrometa-source-collection
+[2023-06-12 18:25:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-06-12 18:25:22] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [docker-run-docker-ros]: Remove: archive file [/home/abi/fetcher/tmp/docker-run-docker-ros-1.0.1.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [docker-run-docker-ros]: Remove: archive file [/home/abi/fetcher/tmp/docker-run-docker-ros-1.0.2.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [docker-run-docker-ros]: Start processing: clenv
+[2023-06-12 18:25:23] INFO root fetch - main [MainThread]: End processing [docker-run-docker-ros]: success
+[2023-06-12 18:25:23] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/c7/08/475352e6b6745d265a3290501582de2af1994654d612b77b79f11fea3e5e/macrometa-source-collection-0.0.40.tar.gz
+[2023-06-12 18:25:23] WARNING root fetch - processPackages [clenv]: Skipping, unable to determine old version
+[2023-06-12 18:25:23] INFO root fetch - processPackages [clenv]: Start processing: autosrt
+[2023-06-12 18:25:23] INFO root fetch - main [MainThread]: End processing [clenv] error
+[2023-06-12 18:25:23] INFO root fetch - processPackages [encode-utils-cli]: Remove: archive file [/home/abi/fetcher/tmp/encode_utils_cli-1.0.0.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [encode-utils-cli]: Remove: archive file [/home/abi/fetcher/tmp/encode_utils_cli-1.0.0a1.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [encode-utils-cli]: Start processing: embody-ble
+[2023-06-12 18:25:23] INFO root fetch - main [MainThread]: End processing [encode-utils-cli]: success
+[2023-06-12 18:25:23] INFO root fetch - processPackages [autosrt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/96/a1/7c7ad74cf2c8f7611515dd23e2d5b7eddce7ea388fc621edf56100583131/macrometa-source-collection-0.0.41.tar.gz
+[2023-06-12 18:25:23] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.2.2.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.2.3.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [easy-local-features]: Start processing: dbnomics-data-model
+[2023-06-12 18:25:23] INFO root fetch - main [MainThread]: End processing [easy-local-features]: success
+[2023-06-12 18:25:23] INFO root fetch - processPackages [embody-ble]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [dbnomics-data-model]: New version: [0.13.9] Old Version: [0.13.8]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [dbnomics-data-model]: Downloading https://files.pythonhosted.org/packages/e1/7e/1915840d262585c81a65f6434d16c6221b7ff297badd8b927a92c27968cc/dbnomics-data-model-0.13.8.tar.gz
+[2023-06-12 18:25:23] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/02/b8/1de1e86e6da77b68f932bc7564093d23838ae19c32633bcf099379797949/autosrt-1.3.8.tar.gz
+[2023-06-12 18:25:23] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-12 18:25:23] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.40.tar.gz tmp/macrometa-source-collection-0.0.41.tar.gz --markdown 20230612/m/macrometa-source-collection/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-06-12 18:25:23] INFO root fetch - processPackages [docker-run-cli]: Remove: archive file [/home/abi/fetcher/tmp/docker-run-cli-0.9.2.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [docker-run-cli]: Remove: archive file [/home/abi/fetcher/tmp/docker-run-cli-0.9.3.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - main [MainThread]: End processing [docker-run-cli]: success
+[2023-06-12 18:25:23] INFO root fetch - processPackages [embody-ble]: Downloading https://files.pythonhosted.org/packages/55/f8/ddf260d269558f53840e9b3e70e3690ce0919f660cb3aec61d378fd2b98c/embody_ble-1.1.6.tar.gz
+[2023-06-12 18:25:23] INFO root fetch - processPackages [dbnomics-data-model]: Downloading https://files.pythonhosted.org/packages/e4/a9/5f06bba10a8433b4ecb1390444f2e4ca8e121893efdc856a149b731860a8/dbnomics-data-model-0.13.9.tar.gz
+[2023-06-12 18:25:23] INFO root fetch - processPackages [tapipy]: Remove: archive file [/home/abi/fetcher/tmp/tapipy-1.4.0a6.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [tapipy]: Remove: archive file [/home/abi/fetcher/tmp/tapipy-1.4.0a7.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - main [MainThread]: End processing [tapipy]: success
+[2023-06-12 18:25:23] INFO root fetch - processPackages [in-dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/in-dbt-spark-1.2.518.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [in-dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/in-dbt-spark-1.5.0.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - main [MainThread]: End processing [in-dbt-spark]: success
+[2023-06-12 18:25:23] INFO root fetch - processPackages [dbnomics-data-model]: executing diffoscope
+[2023-06-12 18:25:23] INFO root fetch - processPackages [dbnomics-data-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbnomics-data-model-0.13.8.tar.gz tmp/dbnomics-data-model-0.13.9.tar.gz --markdown 20230612/d/dbnomics-data-model/0.13.8-0.13.9/diff.md --exclude *.pyd
+[2023-06-12 18:25:23] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/50/b5/2f112c29ffa8a2e7aaf1b0860a34b080c6141aabae2c3209112564773dd5/autosrt-1.3.9.tar.gz
+[2023-06-12 18:25:23] INFO root fetch - processPackages [embody-ble]: Downloading https://files.pythonhosted.org/packages/f6/1b/d9d4f2d82a1b1890988349b21c6620284b348f076c7230241138e16e8a32/embody_ble-1.1.7.tar.gz
+[2023-06-12 18:25:23] INFO root fetch - processPackages [mly]: Remove: archive file [/home/abi/fetcher/tmp/mly-0.3.4.4.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - processPackages [mly]: Remove: archive file [/home/abi/fetcher/tmp/mly-0.3.4.5.tar.gz]
+[2023-06-12 18:25:23] INFO root fetch - main [MainThread]: End processing [mly]: success
+[2023-06-12 18:25:23] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-06-12 18:25:23] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.3.8.tar.gz tmp/autosrt-1.3.9.tar.gz --markdown 20230612/a/autosrt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-12 18:25:24] INFO root fetch - processPackages [embody-ble]: executing diffoscope
+[2023-06-12 18:25:24] INFO root fetch - processPackages [embody-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embody_ble-1.1.6.tar.gz tmp/embody_ble-1.1.7.tar.gz --markdown 20230612/e/embody-ble/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-12 18:25:24] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.40.tar.gz]
+[2023-06-12 18:25:24] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.41.tar.gz]
+[2023-06-12 18:25:24] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-12 18:25:24] INFO root fetch - processPackages [records-mover]: Remove: archive file [/home/abi/fetcher/tmp/records-mover-1.5.3.tar.gz]
+[2023-06-12 18:25:24] INFO root fetch - processPackages [records-mover]: Remove: archive file [/home/abi/fetcher/tmp/records-mover-1.5.4.tar.gz]
+[2023-06-12 18:25:24] INFO root fetch - main [MainThread]: End processing [records-mover]: success
+[2023-06-12 18:25:24] INFO root fetch - processPackages [dbnomics-data-model]: Remove: archive file [/home/abi/fetcher/tmp/dbnomics-data-model-0.13.8.tar.gz]
+[2023-06-12 18:25:24] INFO root fetch - processPackages [dbnomics-data-model]: Remove: archive file [/home/abi/fetcher/tmp/dbnomics-data-model-0.13.9.tar.gz]
+[2023-06-12 18:25:24] INFO root fetch - main [MainThread]: End processing [dbnomics-data-model]: success
+[2023-06-12 18:25:25] INFO root fetch - processPackages [embody-ble]: Remove: archive file [/home/abi/fetcher/tmp/embody_ble-1.1.6.tar.gz]
+[2023-06-12 18:25:25] INFO root fetch - processPackages [embody-ble]: Remove: archive file [/home/abi/fetcher/tmp/embody_ble-1.1.7.tar.gz]
+[2023-06-12 18:25:25] INFO root fetch - main [MainThread]: End processing [embody-ble]: success
+[2023-06-12 18:25:25] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.8.tar.gz]
+[2023-06-12 18:25:25] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.9.tar.gz]
+[2023-06-12 18:25:25] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-06-12 18:25:27] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.3.tar.gz]
+[2023-06-12 18:25:27] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.4.tar.gz]
+[2023-06-12 18:25:27] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-12 18:25:27] INFO root fetch - main [MainThread]: Store serial: [18471454]
