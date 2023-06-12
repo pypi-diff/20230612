@@ -20590,3 +20590,144 @@ EOFError: EOF read where object expected
 [2023-06-12 16:23:12] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.8.tar.gz]
 [2023-06-12 16:23:12] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-12 16:23:12] INFO root fetch - main [MainThread]: Store serial: [18469881]
+[2023-06-12 16:28:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469881]
+[2023-06-12 16:28:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: environments-utils
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minidevice
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multipie
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ia-sdk
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gigalixir
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mykit
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-http-middleware
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: novumapiclient
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: catwalk-common
+[2023-06-12 16:28:23] INFO root fetch - processPackages [gigalixir]: New version: [1.5.1] Old Version: [1.4.0]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [flask-http-middleware]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [multipie]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [ia-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [mykit]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [environments-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [novumapiclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [catwalk-common]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [minidevice]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [flask-http-middleware]: Downloading https://files.pythonhosted.org/packages/cc/37/0f6d796be6e4580df687e569f5e573a03ecdca81f6fceeacd77f5f06df01/flask-http-middleware-0.2.2.tar.gz
+[2023-06-12 16:28:23] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/6a/44/bf84cb21ad7b6a34a9e32fea00d739b2e253d5955983ed45ef43314ab559/mykit-0.1.2.tar.gz
+[2023-06-12 16:28:23] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-12 16:28:23] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/a7/22/399d970b849524a56452e68c3709e1bf080d73b8e95510fef0c1873fdea3/NovumApiClient-0.0.8.tar.gz
+[2023-06-12 16:28:23] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/2c/be/85d606639de8119fb4831b184e15f049af61d68b048b545839590d89b377/multipie-1.1.6.tar.gz
+[2023-06-12 16:28:23] INFO root fetch - processPackages [gigalixir]: Downloading https://files.pythonhosted.org/packages/ba/58/bcd317910d5259a8b0aebef302919bfa6d13e7625969a8230c20ee9d34d2/gigalixir-1.4.0.tar.gz
+[2023-06-12 16:28:23] INFO root fetch - processPackages [environments-utils]: Downloading https://files.pythonhosted.org/packages/3c/b4/a338b7c633c1df17be237a3ed4d9cdaac7d4abbd259e8a0a2dcd257bbf92/environments_utils-1.0.8.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/9d/39/b42a958555b3fff773a1d81713fe2ef9b0f19e1d050a2506061832449900/minidevice-1.1.0.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [ia-sdk]: Downloading https://files.pythonhosted.org/packages/90/e8/41df6e9553036f67203cc29f343479bcaafed50d29db2e97f01ab31686c7/ia-sdk-0.3.8.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [catwalk-common]: Downloading https://files.pythonhosted.org/packages/c9/b4/942f596a9310d64f17e92e9224a8ef53201a79213093d813cd52167efc35/catwalk_common-0.0.4.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/3d/0c/5c5842111fb6972aa310efdcf176bc4d80b59f6b28f36d17483472d6a79d/novumapiclient-0.0.9.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [flask-http-middleware]: Downloading https://files.pythonhosted.org/packages/13/84/06c551bfb576e4e0eb8db64a0755dac9e9e3a6cc1463b97bbb29a60d3085/flask-http-middleware-0.3.0.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [novumapiclient]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [novumapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NovumApiClient-0.0.8.tar.gz tmp/novumapiclient-0.0.9.tar.gz --markdown 20230612/n/novumapiclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 16:28:24] INFO root fetch - processPackages [flask-http-middleware]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [flask-http-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-http-middleware-0.2.2.tar.gz tmp/flask-http-middleware-0.3.0.tar.gz --markdown 20230612/f/flask-http-middleware/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-12 16:28:24] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/8d/ce/40ce973f0de1801328c0848eeae2033c9cc48a2eaf42ea02e898e95dce3f/mykit-0.1.3.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/3c/a4/e86c4c207f726d8ecc681112c3e4f0082bfcdb639758872649eae52f9d95/minidevice-1.1.1.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230612/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-12 16:28:24] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-0.1.2.tar.gz tmp/mykit-0.1.3.tar.gz --markdown 20230612/m/mykit/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 16:28:24] INFO root fetch - processPackages [gigalixir]: Downloading https://files.pythonhosted.org/packages/58/b7/e4b454bee2e95cc1b3fbdc12d50e712fefed52be36344746638c7276c25b/gigalixir-1.5.1.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-1.1.0.tar.gz tmp/minidevice-1.1.1.tar.gz --markdown 20230612/m/minidevice/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-12 16:28:24] INFO root fetch - processPackages [ia-sdk]: Downloading https://files.pythonhosted.org/packages/15/b1/a36a944cde31a37170a8faf4c4a9b8e8938a6d9e17d861f96bc9bf3d64c3/ia-sdk-0.3.9.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [environments-utils]: Downloading https://files.pythonhosted.org/packages/b7/fb/be6265b9cdf813ee85ce7c44f3958b270dabdf76bcc6fd540d818229a000/environments_utils-1.0.9.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [catwalk-common]: Downloading https://files.pythonhosted.org/packages/92/78/9ae0bf0e0164b3f91c42c3abe403dfa90428e37a4921400afbc925d6c016/catwalk_common-0.0.5.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [ia-sdk]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [ia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia-sdk-0.3.8.tar.gz tmp/ia-sdk-0.3.9.tar.gz --markdown 20230612/i/ia-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 16:28:24] INFO root fetch - processPackages [gigalixir]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [gigalixir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigalixir-1.4.0.tar.gz tmp/gigalixir-1.5.1.tar.gz --markdown 20230612/g/gigalixir/1.4.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-12 16:28:24] INFO root fetch - processPackages [catwalk-common]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [catwalk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catwalk_common-0.0.4.tar.gz tmp/catwalk_common-0.0.5.tar.gz --markdown 20230612/c/catwalk-common/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 16:28:24] INFO root fetch - processPackages [environments-utils]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [environments-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/environments_utils-1.0.8.tar.gz tmp/environments_utils-1.0.9.tar.gz --markdown 20230612/e/environments-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 16:28:24] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/d6/73/b33b0a64e09e970a71f1b43ca7c5bd5f753c04da9b0f5ab33f9b4496ce25/multipie-1.1.7.tar.gz
+[2023-06-12 16:28:24] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2023-06-12 16:28:24] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.1.6.tar.gz tmp/multipie-1.1.7.tar.gz --markdown 20230612/m/multipie/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-12 16:28:25] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/NovumApiClient-0.0.8.tar.gz]
+[2023-06-12 16:28:25] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/novumapiclient-0.0.9.tar.gz]
+[2023-06-12 16:28:25] INFO root fetch - processPackages [novumapiclient]: Start processing: cbcmgr
+[2023-06-12 16:28:25] INFO root fetch - main [MainThread]: End processing [novumapiclient]: success
+[2023-06-12 16:28:25] INFO root fetch - processPackages [cbcmgr]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-12 16:28:25] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/51/ef/cac7b573ee00fadd061b64e6fa6334b3dd7cc2928488c0b6547f9465bb7a/cbcmgr-1.2.2.tar.gz
+[2023-06-12 16:28:25] INFO root fetch - processPackages [flask-http-middleware]: Remove: archive file [/home/abi/fetcher/tmp/flask-http-middleware-0.2.2.tar.gz]
+[2023-06-12 16:28:25] INFO root fetch - processPackages [flask-http-middleware]: Remove: archive file [/home/abi/fetcher/tmp/flask-http-middleware-0.3.0.tar.gz]
+[2023-06-12 16:28:25] INFO root fetch - processPackages [flask-http-middleware]: Start processing: esp-idf-sbom
+[2023-06-12 16:28:25] INFO root fetch - main [MainThread]: End processing [flask-http-middleware]: success
+[2023-06-12 16:28:25] INFO root fetch - processPackages [esp-idf-sbom]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [catwalk-common]: Remove: archive file [/home/abi/fetcher/tmp/catwalk_common-0.0.4.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [catwalk-common]: Remove: archive file [/home/abi/fetcher/tmp/catwalk_common-0.0.5.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [catwalk-common]: Start processing: FAIRSave
+[2023-06-12 16:28:26] INFO root fetch - main [MainThread]: End processing [catwalk-common]: success
+[2023-06-12 16:28:26] INFO root fetch - processPackages [FAIRSave]: New version: [0.0.6] Old Version: [0.0.5.3]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [esp-idf-sbom]: Downloading https://files.pythonhosted.org/packages/e6/87/9cc621f1361b035f0230f5fe472e7456daf2e17116d27307b2ba81552bcf/esp-idf-sbom-0.1.0.tar.gz
+[2023-06-12 16:28:26] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/bd/19/a2d6d2043d6d48da668dba6b44d96177587e9c507f03395bc47f2a436c96/cbcmgr-1.2.3.tar.gz
+[2023-06-12 16:28:26] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-0.1.2.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-0.1.3.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [mykit]: Start processing: pocketsearch
+[2023-06-12 16:28:26] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pocketsearch]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [environments-utils]: Remove: archive file [/home/abi/fetcher/tmp/environments_utils-1.0.8.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [environments-utils]: Remove: archive file [/home/abi/fetcher/tmp/environments_utils-1.0.9.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [environments-utils]: Start processing: pyepkg
+[2023-06-12 16:28:26] INFO root fetch - main [MainThread]: End processing [environments-utils]: success
+[2023-06-12 16:28:26] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2023-06-12 16:28:26] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-1.2.2.tar.gz tmp/cbcmgr-1.2.3.tar.gz --markdown 20230612/c/cbcmgr/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-12 16:28:26] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/19/bb/c1eae13abc84b7528ba4e7dc9c0953fee01be3d67ef3cadba2c92c79d9dc/FAIRSave-0.0.5.3-py3-none-any.whl
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pyepkg]: New version: [3.3.3] Old Version: [2.2.2]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [gigalixir]: Remove: archive file [/home/abi/fetcher/tmp/gigalixir-1.4.0.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [gigalixir]: Remove: archive file [/home/abi/fetcher/tmp/gigalixir-1.5.1.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [gigalixir]: Start processing: odoo-addon-sale-mrp-bom
+[2023-06-12 16:28:26] INFO root fetch - main [MainThread]: End processing [gigalixir]: success
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pyepkg]: Downloading https://files.pythonhosted.org/packages/8a/c2/2976f9c903985c3a394f46d691fa764e2dac758218d1a546a96e00f54870/pyepkg-2.2.2-py3-none-any.whl
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/50/5c/d8406f983c0bc51a2f3a363a7feea2febe3017754a507cea0c1e552b986c/pocketsearch-0.7.0.tar.gz
+[2023-06-12 16:28:26] WARNING root fetch - processPackages [odoo-addon-sale-mrp-bom]: Skipping, unable to determine old version
+[2023-06-12 16:28:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-mrp-bom] error
+[2023-06-12 16:28:26] INFO root fetch - processPackages [esp-idf-sbom]: Downloading https://files.pythonhosted.org/packages/b5/f6/d509032d1e61136aa2e0e4a691b77fcf3413237858ac2141d5bc6d9910fb/esp-idf-sbom-1.0.0.tar.gz
+[2023-06-12 16:28:26] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/2b/63/32ade57a0d0e6702091a75fa55464ce926fbd31ee5bb301ee22920c7279f/FAIRSave-0.0.6-py3-none-any.whl
+[2023-06-12 16:28:26] INFO root fetch - processPackages [esp-idf-sbom]: executing diffoscope
+[2023-06-12 16:28:26] INFO root fetch - processPackages [esp-idf-sbom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-idf-sbom-0.1.0.tar.gz tmp/esp-idf-sbom-1.0.0.tar.gz --markdown 20230612/e/esp-idf-sbom/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 16:28:26] INFO root fetch - processPackages [FAIRSave]: executing diffoscope
+[2023-06-12 16:28:26] INFO root fetch - processPackages [FAIRSave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAIRSave-0.0.5.3-py3-none-any.whl.zip tmp/FAIRSave-0.0.6-py3-none-any.whl.zip --markdown 20230612/F/FAIRSave/0.0.5.3-0.0.6/diff.md --exclude *.pyd
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/ef/20/0c106700a54616e3911187812b03f155471a839e01f6bb21fc75e383fa82/pocketsearch-0.7.1.tar.gz
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pocketsearch]: executing diffoscope
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pocketsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketsearch-0.7.0.tar.gz tmp/pocketsearch-0.7.1.tar.gz --markdown 20230612/p/pocketsearch/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-12 16:28:26] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-12 16:28:26] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pyepkg]: Downloading https://files.pythonhosted.org/packages/5d/d5/717d0ba22b3127da850e36e42b8d0f453826f3dcb051352ce52ded2ef2af/pyepkg-3.3.3-py3-none-any.whl
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pyepkg]: executing diffoscope
+[2023-06-12 16:28:26] INFO root fetch - processPackages [pyepkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepkg-2.2.2-py3-none-any.whl.zip tmp/pyepkg-3.3.3-py3-none-any.whl.zip --markdown 20230612/p/pyepkg/2.2.2-3.3.3/diff.md --exclude *.pyd
+[2023-06-12 16:28:27] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-1.1.0.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-1.1.1.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-12 16:28:27] INFO root fetch - processPackages [ia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ia-sdk-0.3.8.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - processPackages [ia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ia-sdk-0.3.9.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - main [MainThread]: End processing [ia-sdk]: success
+[2023-06-12 16:28:27] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.2.2.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.2.3.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2023-06-12 16:28:27] INFO root fetch - processPackages [esp-idf-sbom]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-sbom-0.1.0.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - processPackages [esp-idf-sbom]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-sbom-1.0.0.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - main [MainThread]: End processing [esp-idf-sbom]: success
+[2023-06-12 16:28:27] INFO root fetch - processPackages [pyepkg]: Remove: archive file [/home/abi/fetcher/tmp/pyepkg-2.2.2-py3-none-any.whl.zip]
+[2023-06-12 16:28:27] INFO root fetch - processPackages [pyepkg]: Remove: archive file [/home/abi/fetcher/tmp/pyepkg-3.3.3-py3-none-any.whl.zip]
+[2023-06-12 16:28:27] INFO root fetch - main [MainThread]: End processing [pyepkg]: success
+[2023-06-12 16:28:27] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.5.3-py3-none-any.whl.zip]
+[2023-06-12 16:28:27] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6-py3-none-any.whl.zip]
+[2023-06-12 16:28:27] INFO root fetch - main [MainThread]: End processing [FAIRSave]: success
+[2023-06-12 16:28:27] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.7.0.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.7.1.tar.gz]
+[2023-06-12 16:28:27] INFO root fetch - main [MainThread]: End processing [pocketsearch]: success
+[2023-06-12 16:28:31] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.6.tar.gz]
+[2023-06-12 16:28:31] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.7.tar.gz]
+[2023-06-12 16:28:31] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2023-06-12 16:28:31] INFO root fetch - main [MainThread]: Store serial: [18469927]
