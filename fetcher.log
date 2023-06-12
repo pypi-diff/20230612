@@ -11683,3 +11683,116 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:22:02] INFO root fetch - processPackages [borgbackup]: Remove: archive file [/home/abi/fetcher/tmp/borgbackup-2.0.0b6.tar.gz]
 [2023-06-12 10:22:02] INFO root fetch - main [MainThread]: End processing [borgbackup]: success
 [2023-06-12 10:22:02] INFO root fetch - main [MainThread]: Store serial: [18466139]
+[2023-06-12 10:27:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466139]
+[2023-06-12 10:27:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rnanorm
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysamosa
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slippy-api
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taichu-dataflow
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autosubmitconfigparser
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shopee-food-service-protocol
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nexus-integra-api
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pretix
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bindata
+[2023-06-12 10:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: corgy
+[2023-06-12 10:27:12] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-12 10:27:12] INFO root fetch - processPackages [slippy-api]: New version: [0.5] Old Version: [0.4]
+[2023-06-12 10:27:12] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.35] Old Version: [1.0.34]
+[2023-06-12 10:27:12] INFO root fetch - processPackages [nexus-integra-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 10:27:12] INFO root fetch - processPackages [bindata]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-12 10:27:12] INFO root fetch - processPackages [rnanorm]: New version: [2.0.0rc1] Old Version: [1.5.1]
+[2023-06-12 10:27:12] WARNING root fetch - processPackages [pysamosa]: Skipping, unable to determine old version
+[2023-06-12 10:27:12] INFO root fetch - processPackages [pysamosa]: Start processing: quickstart-vdk
+[2023-06-12 10:27:12] INFO root fetch - main [MainThread]: End processing [pysamosa] error
+[2023-06-12 10:27:12] INFO root fetch - processPackages [corgy]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-06-12 10:27:12] INFO root fetch - processPackages [pretix]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-12 10:27:12] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.896568074.dev11278] Old Version: [0.2.896146019.dev11277]
+[2023-06-12 10:27:12] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/6c/bd/ff2abaca655a6921d8379969bbdb3671618f8af381bbd317ef23cc8f50c3/bindata-0.9.5.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [slippy-api]: Downloading https://files.pythonhosted.org/packages/0e/b8/47059caffed6ded35c233bb18136663c32b626d1058979adc3d213f809d6/slippy_api-0.4-py3-none-any.whl
+[2023-06-12 10:27:12] WARNING root fetch - processPackages [shopee-food-service-protocol]: Skipping, unable to determine old version
+[2023-06-12 10:27:12] INFO root fetch - processPackages [shopee-food-service-protocol]: Start processing: agsi
+[2023-06-12 10:27:12] INFO root fetch - main [MainThread]: End processing [shopee-food-service-protocol] error
+[2023-06-12 10:27:12] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/22/c3/c7d4e88df1b9cddffaf8341c201577a26ea7196d2e20f0eedbb55f28e0ee/corgy-9.1.5.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [agsi]: New version: [1.6] Old Version: [1.5]
+[2023-06-12 10:27:12] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/34/27/12e02d2660a62a6b3b350d0cdd6fd25785da86311d6a3974ce276e4379d5/quickstart-vdk-0.2.896146019.dev11277.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/c8/2e/6dd7328aae3d544feb3240ff58adae1e54d5fd5146ce7359b689aa191e7f/agsi-1.5.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/30/fd/9600a8b6ff7be4ba3dea23241d2b1e5d524e40f8e37bd7c3326dc475b249/taichu-dataflow-1.0.4.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [nexus-integra-api]: Downloading https://files.pythonhosted.org/packages/f7/ba/b7b0db7a4b95e1e0e8a70664207aa496ca507c83835844a9076a4e603441/nexus_integra_api-1.0.1.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [rnanorm]: Downloading https://files.pythonhosted.org/packages/e9/22/195c9053586f0d9336fa55150ebb84fd3b0345c753e741105424a8429025/rnanorm-1.5.1.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/01/15/8a3095a59062ffc9839cc40247cdb4e0aaf6c3cda183210f88db64e1d41b/autosubmitconfigparser-1.0.34.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [pretix]: Downloading https://files.pythonhosted.org/packages/1b/b2/e715cdf9a4d7da127ada5a36979183ae7f1e051153b886f3b1c5a9a82883/pretix-4.9.0.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/e2/75/2f562292bcd7d78d9eb3a5b54b2db848954cc6951af82dc260bfe720a575/corgy-9.1.6.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/fd/1c/c2fa8ae3b6c3385c0c0d9b24475509788ed3af22bd4e840635bdfd4ad736/bindata-0.9.6.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e4/ce/2615f0e7017d4cd9939e874ebfa36eb3a59ff4f5780f944a6dce908fe499/quickstart-vdk-0.2.896568074.dev11278.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/6e/23/13d387c1d1bf624ef286a3c09b346b669d015b51e702c9f7088dc24a6071/agsi-1.6.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [corgy]: executing diffoscope
+[2023-06-12 10:27:12] INFO root fetch - processPackages [corgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corgy-9.1.5.tar.gz tmp/corgy-9.1.6.tar.gz --markdown 20230612/c/corgy/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-06-12 10:27:12] INFO root fetch - processPackages [slippy-api]: Downloading https://files.pythonhosted.org/packages/71/fa/0a9e84a92b3d9a82b07dc1c41c34f4a4d74f823afa16a24869bbe85be516/slippy_api-0.5.tar.gz
+[2023-06-12 10:27:12] INFO root fetch - processPackages [bindata]: executing diffoscope
+[2023-06-12 10:27:12] INFO root fetch - processPackages [bindata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bindata-0.9.5.tar.gz tmp/bindata-0.9.6.tar.gz --markdown 20230612/b/bindata/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-12 10:27:13] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-12 10:27:13] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.896146019.dev11277.tar.gz tmp/quickstart-vdk-0.2.896568074.dev11278.tar.gz --markdown 20230612/q/quickstart-vdk/0.2.896146019.dev11277-0.2.896568074.dev11278/diff.md --exclude *.pyd
+[2023-06-12 10:27:13] INFO root fetch - processPackages [slippy-api]: executing diffoscope
+[2023-06-12 10:27:13] INFO root fetch - processPackages [slippy-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slippy_api-0.4-py3-none-any.whl.zip tmp/slippy_api-0.5.tar.gz --markdown 20230612/s/slippy-api/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-12 10:27:13] INFO root fetch - processPackages [nexus-integra-api]: Downloading https://files.pythonhosted.org/packages/5c/c3/43e6ab5e7d8fbbf874333eabefb895bcb0a6cdf20b3c383399db88e81fb8/nexus_integra_api-1.0.2.tar.gz
+[2023-06-12 10:27:13] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/d3/d5/6b96f1fc8410ba807432704f7d29dbf6316b946151bd88249b4582cc9b8c/autosubmitconfigparser-1.0.35.tar.gz
+[2023-06-12 10:27:13] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/44/5d/789acd52f9803d364cd90413c0ba748b243e4c3b86be85c3b1b319917714/taichu-dataflow-1.0.5.tar.gz
+[2023-06-12 10:27:13] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-06-12 10:27:13] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.5.tar.gz tmp/agsi-1.6.tar.gz --markdown 20230612/a/agsi/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-12 10:27:13] INFO root fetch - processPackages [rnanorm]: Downloading https://files.pythonhosted.org/packages/dc/e4/61046b998307460bc107fe69d9aaf53f06201e5ef3b4c699c2f7f389efcc/rnanorm-2.0.0rc1.tar.gz
+[2023-06-12 10:27:13] INFO root fetch - processPackages [nexus-integra-api]: executing diffoscope
+[2023-06-12 10:27:13] INFO root fetch - processPackages [nexus-integra-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_integra_api-1.0.1.tar.gz tmp/nexus_integra_api-1.0.2.tar.gz --markdown 20230612/n/nexus-integra-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 10:27:13] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-06-12 10:27:13] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.34.tar.gz tmp/autosubmitconfigparser-1.0.35.tar.gz --markdown 20230612/a/autosubmitconfigparser/1.0.34-1.0.35/diff.md --exclude *.pyd
+[2023-06-12 10:27:13] INFO root fetch - processPackages [rnanorm]: executing diffoscope
+[2023-06-12 10:27:13] INFO root fetch - processPackages [rnanorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rnanorm-1.5.1.tar.gz tmp/rnanorm-2.0.0rc1.tar.gz --markdown 20230612/r/rnanorm/1.5.1-2.0.0rc1/diff.md --exclude *.pyd
+[2023-06-12 10:27:13] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-12 10:27:13] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.4.tar.gz tmp/taichu-dataflow-1.0.5.tar.gz --markdown 20230612/t/taichu-dataflow/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-12 10:27:13] WARNING root fetch - processPackages [pretix]: Skipping package: exceeds size limit 30788431>=10485760
+[2023-06-12 10:27:13] INFO root fetch - processPackages [pretix]: Start processing: simpleui-admin
+[2023-06-12 10:27:13] INFO root fetch - main [MainThread]: End processing [pretix] error
+[2023-06-12 10:27:13] INFO root fetch - processPackages [simpleui-admin]: New version: [2023.6.12] Old Version: [2023.5.15]
+[2023-06-12 10:27:13] INFO root fetch - processPackages [simpleui-admin]: Downloading https://files.pythonhosted.org/packages/39/db/608a0ea30e6331b8c1df8d90c5e618a79d1b43ffcc44b6bf5f809f825741/simpleui-admin-2023.5.15.tar.gz
+[2023-06-12 10:27:14] INFO root fetch - processPackages [slippy-api]: Remove: archive file [/home/abi/fetcher/tmp/slippy_api-0.4-py3-none-any.whl.zip]
+[2023-06-12 10:27:14] INFO root fetch - processPackages [slippy-api]: Remove: archive file [/home/abi/fetcher/tmp/slippy_api-0.5.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - processPackages [slippy-api]: Start processing: pymeterreader
+[2023-06-12 10:27:14] INFO root fetch - main [MainThread]: End processing [slippy-api]: success
+[2023-06-12 10:27:14] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-1.5.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-1.6.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-06-12 10:27:14] INFO root fetch - processPackages [rnanorm]: Remove: archive file [/home/abi/fetcher/tmp/rnanorm-1.5.1.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - processPackages [rnanorm]: Remove: archive file [/home/abi/fetcher/tmp/rnanorm-2.0.0rc1.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - main [MainThread]: End processing [rnanorm]: success
+[2023-06-12 10:27:14] INFO root fetch - processPackages [pymeterreader]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-12 10:27:14] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.896146019.dev11277.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.896568074.dev11278.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-12 10:27:14] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.4.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.5.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-12 10:27:14] INFO root fetch - processPackages [pymeterreader]: Downloading https://files.pythonhosted.org/packages/14/35/ec1689baa8d1d030a84878b24ec1fbb77f6eb186c650a3acf12118aa22ce/pymeterreader-0.2.2.tar.gz
+[2023-06-12 10:27:14] INFO root fetch - processPackages [simpleui-admin]: Downloading https://files.pythonhosted.org/packages/f1/85/92973cfaf78778f57ab65a0c4cab192c24574040b7584164730850cde02d/simpleui-admin-2023.6.12.tar.gz
+[2023-06-12 10:27:14] INFO root fetch - processPackages [nexus-integra-api]: Remove: archive file [/home/abi/fetcher/tmp/nexus_integra_api-1.0.1.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - processPackages [nexus-integra-api]: Remove: archive file [/home/abi/fetcher/tmp/nexus_integra_api-1.0.2.tar.gz]
+[2023-06-12 10:27:14] INFO root fetch - main [MainThread]: End processing [nexus-integra-api]: success
+[2023-06-12 10:27:14] INFO root fetch - processPackages [simpleui-admin]: executing diffoscope
+[2023-06-12 10:27:14] INFO root fetch - processPackages [simpleui-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleui-admin-2023.5.15.tar.gz tmp/simpleui-admin-2023.6.12.tar.gz --markdown 20230612/s/simpleui-admin/2023.5.15-2023.6.12/diff.md --exclude *.pyd
+[2023-06-12 10:27:14] INFO root fetch - processPackages [pymeterreader]: Downloading https://files.pythonhosted.org/packages/94/0f/d7f46116bb3aefc099fe89c48b872cf2f3010445c46f82dcb2eb9eeeb78d/pymeterreader-0.2.3.tar.gz
+[2023-06-12 10:27:15] INFO root fetch - processPackages [pymeterreader]: executing diffoscope
+[2023-06-12 10:27:15] INFO root fetch - processPackages [pymeterreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeterreader-0.2.2.tar.gz tmp/pymeterreader-0.2.3.tar.gz --markdown 20230612/p/pymeterreader/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-12 10:27:15] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.34.tar.gz]
+[2023-06-12 10:27:15] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.35.tar.gz]
+[2023-06-12 10:27:15] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-06-12 10:27:15] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.5.tar.gz]
+[2023-06-12 10:27:15] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.6.tar.gz]
+[2023-06-12 10:27:15] INFO root fetch - main [MainThread]: End processing [bindata]: success
+[2023-06-12 10:27:15] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.5.tar.gz]
+[2023-06-12 10:27:15] INFO root fetch - processPackages [corgy]: Remove: archive file [/home/abi/fetcher/tmp/corgy-9.1.6.tar.gz]
+[2023-06-12 10:27:15] INFO root fetch - main [MainThread]: End processing [corgy]: success
+[2023-06-12 10:27:16] INFO root fetch - processPackages [pymeterreader]: Remove: archive file [/home/abi/fetcher/tmp/pymeterreader-0.2.2.tar.gz]
+[2023-06-12 10:27:16] INFO root fetch - processPackages [pymeterreader]: Remove: archive file [/home/abi/fetcher/tmp/pymeterreader-0.2.3.tar.gz]
+[2023-06-12 10:27:16] INFO root fetch - main [MainThread]: End processing [pymeterreader]: success
+[2023-06-12 10:28:10] INFO root fetch - processPackages [simpleui-admin]: Remove: archive file [/home/abi/fetcher/tmp/simpleui-admin-2023.5.15.tar.gz]
+[2023-06-12 10:28:10] INFO root fetch - processPackages [simpleui-admin]: Remove: archive file [/home/abi/fetcher/tmp/simpleui-admin-2023.6.12.tar.gz]
+[2023-06-12 10:28:10] INFO root fetch - main [MainThread]: End processing [simpleui-admin]: success
+[2023-06-12 10:28:10] INFO root fetch - main [MainThread]: Store serial: [18466180]
