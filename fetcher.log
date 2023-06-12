@@ -10059,3 +10059,166 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 09:11:54] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-12 09:11:54] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-12 09:11:54] INFO root fetch - main [MainThread]: Store serial: [18465475]
+[2023-06-12 09:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465475]
+[2023-06-12 09:17:03] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sports2d
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litesqlite
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fosslight-prechecker
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seven-cloudapp-frame
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ocnn
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ango
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cyclonedx-editor-validator
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spaceone-core
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pait
+[2023-06-12 09:17:03] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ocnn]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-12 09:17:03] INFO root fetch - processPackages [sports2d]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-12 09:17:03] INFO root fetch - processPackages [fosslight-prechecker]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-12 09:17:03] INFO root fetch - processPackages [pait]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2023-06-12 09:17:03] INFO root fetch - processPackages [litesqlite]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-06-12 09:17:03] WARNING root fetch - processPackages [cyclonedx-editor-validator]: Skipping, unable to determine old version
+[2023-06-12 09:17:03] INFO root fetch - processPackages [cyclonedx-editor-validator]: Start processing: petstore-sdk
+[2023-06-12 09:17:03] INFO root fetch - main [MainThread]: End processing [cyclonedx-editor-validator] error
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ango]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-12 09:17:03] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-12 09:17:03] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-12 09:17:03] INFO root fetch - processPackages [petstore-sdk]: New version: [6.6.6] Old Version: [2.3.8]
+[2023-06-12 09:17:03] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-12 09:17:03] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-12 09:17:03] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/6e/fb/295b5fc8abbfd3d198f101d377b9a1efff1b71c024166b8d5cb4f3dfff22/litesqlite-2.5.0.tar.gz
+[2023-06-12 09:17:03] INFO root fetch - processPackages [fosslight-prechecker]: Downloading https://files.pythonhosted.org/packages/61/57/efe45723292f6a8885e3423659c5c2f437e83c85b3f9260ce3f543e64435/fosslight_prechecker-3.0.8.tar.gz
+[2023-06-12 09:17:03] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/b9/7c/f780887fac64bac23b6100587d9942571d4da0a1dda1a00bf9789ba58b29/ango-1.1.0.tar.gz
+[2023-06-12 09:17:03] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/a8/20/e42f1f341ba3603a838d8cd3ebf17d4f29614f0c59d1e53deb594e36251d/sports2d-0.2.2.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [ocnn]: Downloading https://files.pythonhosted.org/packages/d8/45/8c9267882eb9d6759198171f25e69691d718d915556f4a10d9a0ade53e80/ocnn-2.2.0.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [pait]: Downloading https://files.pythonhosted.org/packages/57/53/d107471d7a65767ced08b1adc06a8f824fa6ccc601e6e61fed85103efacf/pait-1.0.0a4.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [petstore-sdk]: Downloading https://files.pythonhosted.org/packages/45/09/3b1e24a42cddaf92a62284652a9a07dce510a4d372d905d17091574f0cfe/petstore-sdk-2.3.8.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/9d/86/3bc3cf670d0a68fb9ca65452dab5211ab67048e2b7349271802e924f1d6c/litesqlite-2.6.0.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-12 09:17:04] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [litesqlite]: executing diffoscope
+[2023-06-12 09:17:04] INFO root fetch - processPackages [litesqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litesqlite-2.5.0.tar.gz tmp/litesqlite-2.6.0.tar.gz --markdown 20230612/l/litesqlite/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-06-12 09:17:04] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-12 09:17:04] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230612/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-12 09:17:04] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-12 09:17:04] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230612/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-12 09:17:04] INFO root fetch - processPackages [pait]: Downloading https://files.pythonhosted.org/packages/cd/be/35a9fef494c751a578e56a6b7724c1b41f9f6825edc920a8c98b7fa00875/pait-1.0.0a5.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/f5/8a/c74ccc47075695308fbd69acc591e874938608ceeb6f19a8d97880a307d2/ango-1.1.1.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [ocnn]: Downloading https://files.pythonhosted.org/packages/1a/19/340df830ec111bed373e28897603b38f2ddf046bd1028d73a9e9e5621095/ocnn-2.2.1.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-06-12 09:17:04] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-1.1.0.tar.gz tmp/ango-1.1.1.tar.gz --markdown 20230612/a/ango/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-12 09:17:04] INFO root fetch - processPackages [petstore-sdk]: Downloading https://files.pythonhosted.org/packages/cd/72/928fd0b49689d3b592e4417ce39d47c9c09a6b8c67ec6f435b1d7295e5ab/petstore-sdk-6.6.6.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-12 09:17:04] INFO root fetch - processPackages [ocnn]: executing diffoscope
+[2023-06-12 09:17:04] INFO root fetch - processPackages [ocnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocnn-2.2.0.tar.gz tmp/ocnn-2.2.1.tar.gz --markdown 20230612/o/ocnn/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-12 09:17:04] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-12 09:17:04] INFO root fetch - processPackages [petstore-sdk]: executing diffoscope
+[2023-06-12 09:17:04] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230612/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-12 09:17:04] INFO root fetch - processPackages [petstore-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petstore-sdk-2.3.8.tar.gz tmp/petstore-sdk-6.6.6.tar.gz --markdown 20230612/p/petstore-sdk/2.3.8-6.6.6/diff.md --exclude *.pyd
+[2023-06-12 09:17:04] INFO root fetch - processPackages [pait]: executing diffoscope
+[2023-06-12 09:17:04] INFO root fetch - processPackages [pait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pait-1.0.0a4.tar.gz tmp/pait-1.0.0a5.tar.gz --markdown 20230612/p/pait/1.0.0a4-1.0.0a5/diff.md --exclude *.pyd
+[2023-06-12 09:17:04] INFO root fetch - processPackages [fosslight-prechecker]: Downloading https://files.pythonhosted.org/packages/1b/63/bef80aa14b33e429b88c4a1af1aae0176b9fdc454d79fbafea065e28118c/fosslight_prechecker-3.0.9.tar.gz
+[2023-06-12 09:17:05] INFO root fetch - processPackages [fosslight-prechecker]: executing diffoscope
+[2023-06-12 09:17:05] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/92/2b/30d7a0249511789df075e1da7e22d83a820f728e39b58c0853c93c028600/sports2d-0.2.3.tar.gz
+[2023-06-12 09:17:05] INFO root fetch - processPackages [fosslight-prechecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_prechecker-3.0.8.tar.gz tmp/fosslight_prechecker-3.0.9.tar.gz --markdown 20230612/f/fosslight-prechecker/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-12 09:17:05] INFO root fetch - processPackages [sports2d]: executing diffoscope
+[2023-06-12 09:17:05] INFO root fetch - processPackages [sports2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sports2d-0.2.2.tar.gz tmp/sports2d-0.2.3.tar.gz --markdown 20230612/s/sports2d/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-12 09:17:06] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.1.0.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.1.1.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [ango]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-06-12 09:17:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.5.0.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.6.0.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [litesqlite]: Start processing: termkit
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [litesqlite]: success
+[2023-06-12 09:17:06] INFO root fetch - processPackages [termkit]: New version: [0.1.0b0] Old Version: [0.0.1b0]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-12 09:17:06] INFO root fetch - processPackages [ocnn]: Remove: archive file [/home/abi/fetcher/tmp/ocnn-2.2.0.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [ocnn]: Remove: archive file [/home/abi/fetcher/tmp/ocnn-2.2.1.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [ocnn]: Start processing: gh-subdir
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [ocnn]: success
+[2023-06-12 09:17:06] INFO root fetch - processPackages [gh-subdir]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-12 09:17:06] ERROR root fetch - processPackages [termkit]: Unable to fetch info: No such project/version 'termkit' 0.0.1b0
+[2023-06-12 09:17:06] INFO root fetch - processPackages [termkit]: Start processing: ndsharray
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [termkit] error
+[2023-06-12 09:17:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-12 09:17:06] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/1d/23/63ce6606d31f4f67eed23654b6b22e12f6b378200431126d84abf246b835/gh_subdir-0.1.7.tar.gz
+[2023-06-12 09:17:06] INFO root fetch - processPackages [petstore-sdk]: Remove: archive file [/home/abi/fetcher/tmp/petstore-sdk-2.3.8.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [petstore-sdk]: Remove: archive file [/home/abi/fetcher/tmp/petstore-sdk-6.6.6.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [petstore-sdk]: Start processing: taichu-dataflow
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [petstore-sdk]: success
+[2023-06-12 09:17:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-12 09:17:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230612/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-12 09:17:06] INFO root fetch - processPackages [ndsharray]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [spaceone-core]: Start processing: termkit
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-12 09:17:06] WARNING root fetch - processPackages [termkit]: Skipping, unable to determine old version
+[2023-06-12 09:17:06] INFO root fetch - processPackages [termkit]: Start processing: imerit-ango
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [termkit] error
+[2023-06-12 09:17:06] INFO root fetch - processPackages [imerit-ango]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [fosslight-prechecker]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_prechecker-3.0.8.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [fosslight-prechecker]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_prechecker-3.0.9.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [fosslight-prechecker]: Start processing: de2-1
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [fosslight-prechecker]: success
+[2023-06-12 09:17:06] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/17/17/f7dc2ac9b3473db8b7d4dec660c57235714bec386a6e7d28e0ef5c19f1e7/gh_subdir-0.1.8.tar.gz
+[2023-06-12 09:17:06] INFO root fetch - processPackages [ndsharray]: Downloading https://files.pythonhosted.org/packages/11/4b/628d2105d2c719243fff3630617df5fd7e8dd34e69943b070aa72b8e7a43/ndsharray-1.0.1-py3-none-any.whl
+[2023-06-12 09:17:06] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/f3/44/a884740e11e1c50bdfa8d8d9636cce3edb777c55fcbe35751ceba3b8f249/taichu-dataflow-1.0.2.tar.gz
+[2023-06-12 09:17:06] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/95/af/5c539679cf54c7efd4a155052e789de15da4b03be815e3b2f6449418a490/imerit-ango-1.1.2.tar.gz
+[2023-06-12 09:17:06] WARNING root fetch - processPackages [de2-1]: Skipping, unable to determine old version
+[2023-06-12 09:17:06] INFO root fetch - processPackages [de2-1]: Start processing: bizagi
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [de2-1] error
+[2023-06-12 09:17:06] INFO root fetch - processPackages [gh-subdir]: executing diffoscope
+[2023-06-12 09:17:06] INFO root fetch - processPackages [gh-subdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_subdir-0.1.7.tar.gz tmp/gh_subdir-0.1.8.tar.gz --markdown 20230612/g/gh-subdir/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-12 09:17:06] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/7c/c7/9eee7363b201a8bc310fe6d9d546a142a11b726758475343a0813c6a87be/taichu_dataflow-1.0.3-py3-none-any.whl
+[2023-06-12 09:17:06] WARNING root fetch - processPackages [bizagi]: Skipping, unable to determine old version
+[2023-06-12 09:17:06] INFO root fetch - processPackages [bizagi]: Start processing: propeller-design-tools
+[2023-06-12 09:17:06] INFO root fetch - main [MainThread]: End processing [bizagi] error
+[2023-06-12 09:17:06] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-12 09:17:06] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-12 09:17:07] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-12 09:17:07] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/33/e7/a7e3dcaeda9ab6c0f39f75e2b2baee6124b2d7355100746cb5c5101995ac/imerit-ango-1.1.3.tar.gz
+[2023-06-12 09:17:07] INFO root fetch - processPackages [ndsharray]: Downloading https://files.pythonhosted.org/packages/72/93/c44abd417cf0c0eaa1b1539c07ef9a77e39de3b9800ebf3497ef161722bd/ndsharray-1.1.0-py3-none-any.whl
+[2023-06-12 09:17:07] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-12 09:17:07] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.2.tar.gz tmp/taichu_dataflow-1.0.3-py3-none-any.whl.zip --markdown 20230612/t/taichu-dataflow/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-12 09:17:07] INFO root fetch - processPackages [pait]: Remove: archive file [/home/abi/fetcher/tmp/pait-1.0.0a4.tar.gz]
+[2023-06-12 09:17:07] INFO root fetch - processPackages [pait]: Remove: archive file [/home/abi/fetcher/tmp/pait-1.0.0a5.tar.gz]
+[2023-06-12 09:17:07] INFO root fetch - main [MainThread]: End processing [pait]: success
+[2023-06-12 09:17:07] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-12 09:17:07] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2023-06-12 09:17:07] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit-ango-1.1.2.tar.gz tmp/imerit-ango-1.1.3.tar.gz --markdown 20230612/i/imerit-ango/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-12 09:17:07] INFO root fetch - processPackages [ndsharray]: executing diffoscope
+[2023-06-12 09:17:07] INFO root fetch - processPackages [ndsharray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndsharray-1.0.1-py3-none-any.whl.zip tmp/ndsharray-1.1.0-py3-none-any.whl.zip --markdown 20230612/n/ndsharray/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 09:17:07] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/d6/89/ae45406781ac69b450b78b80c8cdb0d4845e94ae7dab954287ec9ee3ef73/propeller_design_tools-0.3.4.tar.gz
+[2023-06-12 09:17:07] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/42/80/df3c3623a84364e8cf953a044a965bd67eb9c8155161e35e34d139f4b87d/propeller_design_tools-0.3.5.tar.gz
+[2023-06-12 09:17:07] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-12 09:17:07] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.3.4.tar.gz tmp/propeller_design_tools-0.3.5.tar.gz --markdown 20230612/p/propeller-design-tools/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-12 09:17:08] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-12 09:17:08] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-12 09:17:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-12 09:17:08] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.2.tar.gz]
+[2023-06-12 09:17:08] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.3.tar.gz]
+[2023-06-12 09:17:08] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2023-06-12 09:17:08] INFO root fetch - processPackages [ndsharray]: Remove: archive file [/home/abi/fetcher/tmp/ndsharray-1.0.1-py3-none-any.whl.zip]
+[2023-06-12 09:17:08] INFO root fetch - processPackages [ndsharray]: Remove: archive file [/home/abi/fetcher/tmp/ndsharray-1.1.0-py3-none-any.whl.zip]
+[2023-06-12 09:17:08] INFO root fetch - main [MainThread]: End processing [ndsharray]: success
+[2023-06-12 09:17:08] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.2.tar.gz]
+[2023-06-12 09:17:08] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu_dataflow-1.0.3-py3-none-any.whl.zip]
+[2023-06-12 09:17:08] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-12 09:17:08] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.7.tar.gz]
+[2023-06-12 09:17:08] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.8.tar.gz]
+[2023-06-12 09:17:08] INFO root fetch - main [MainThread]: End processing [gh-subdir]: success
+[2023-06-12 09:17:08] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.4.tar.gz]
+[2023-06-12 09:17:08] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.5.tar.gz]
+[2023-06-12 09:17:08] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-12 09:17:10] INFO root fetch - processPackages [sports2d]: Remove: archive file [/home/abi/fetcher/tmp/sports2d-0.2.2.tar.gz]
+[2023-06-12 09:17:10] INFO root fetch - processPackages [sports2d]: Remove: archive file [/home/abi/fetcher/tmp/sports2d-0.2.3.tar.gz]
+[2023-06-12 09:17:10] INFO root fetch - main [MainThread]: End processing [sports2d]: success
+[2023-06-12 09:17:11] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-12 09:17:11] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-12 09:17:11] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-12 09:17:11] INFO root fetch - main [MainThread]: Store serial: [18465541]
