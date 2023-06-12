@@ -2694,3 +2694,117 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 03:05:13] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-12 03:05:13] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-12 03:05:13] INFO root fetch - main [MainThread]: Store serial: [18462397]
+[2023-06-12 03:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462397]
+[2023-06-12 03:10:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cycparser
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hue-sunrise
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: difai
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-wget
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-supporter
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelbase2
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sixth-sense
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shakenfist-agent
+[2023-06-12 03:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aemcmc-nightly
+[2023-06-12 03:10:22] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-12 03:10:22] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-12 03:10:22] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 03:10:22] WARNING root fetch - processPackages [sixth-sense]: Skipping, unable to determine old version
+[2023-06-12 03:10:22] INFO root fetch - processPackages [sixth-sense]: Start processing: modelbase-pde
+[2023-06-12 03:10:22] INFO root fetch - main [MainThread]: End processing [sixth-sense] error
+[2023-06-12 03:10:22] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 03:10:22] INFO root fetch - processPackages [selenium-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 03:10:22] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-12 03:10:22] INFO root fetch - processPackages [cycparser]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-12 03:10:22] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230611] Old Version: [0.0.8.dev20230610]
+[2023-06-12 03:10:22] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 03:10:22] INFO root fetch - processPackages [modelbase-pde]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-12 03:10:22] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/7b/81/7c6e1643cb41ad2e71b6fef32807f0af062eaf2384674d6a276e7696f31f/aemcmc-nightly-0.0.8.dev20230610.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/28/11/c6881565febce439d43d58de2e2a17606319196ca25c3c27cef1c63d2daa/difai-0.9.8.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [modelbase-pde]: Downloading https://files.pythonhosted.org/packages/5c/59/5861b5c70be3aeb4268489375dec91311e9d959b61761240e09d06f77cb7/modelbase_pde-0.2.8.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/1c/df/ccef6d8e9998e1f3a0d71ad2d1dccb82149bd4b6761aa0ba04746369db67/cycparser-1.2.8.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/1b/9d/8e86760dedc977eaad2d9a2b5c4b27400c70f0c4ec38ab513b7cf312f996/shakenfist-agent-0.3.8.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/4c/c4/f11adc5c04e3f7259204e6b5d645a3184451dd30b392bf6d5b3c19044c5a/aemcmc-nightly-0.0.8.dev20230611.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [selenium-supporter]: Downloading https://files.pythonhosted.org/packages/47/92/b039f9430f2d544d8bea31a52755411095eea2c5bfa49dcac1b0b8e36fa0/selenium-supporter-0.0.8.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/8d/bd/b41d464497049fedd938b2379a9d639742a2655fda7fbb6407d6a924ad62/modelbase2-0.1.6.tar.gz
+[2023-06-12 03:10:22] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2023-06-12 03:10:23] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-12 03:10:23] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230610.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230611.tar.gz --markdown 20230612/a/aemcmc-nightly/0.0.8.dev20230610-0.0.8.dev20230611/diff.md --exclude *.pyd
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-12 03:10:23] INFO root fetch - processPackages [modelbase-pde]: Downloading https://files.pythonhosted.org/packages/da/99/ce4549084291c96034b1371a5b3279256a81b7a6fceb0ea0674ff329433a/modelbase_pde-0.2.9.tar.gz
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230612/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:10:23] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/f8/09/7d1db68c5c752de567fec30ef6c66715361c7a8ab440134667aaef9c87d1/difai-0.9.9.tar.gz
+[2023-06-12 03:10:23] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/8d/79/f656d2ef8da79e62fd60458bb773a4d9d04d1881176e7901f83dd4119e6c/shakenfist-agent-0.3.9.tar.gz
+[2023-06-12 03:10:23] INFO root fetch - processPackages [selenium-supporter]: Downloading https://files.pythonhosted.org/packages/f9/33/1d05c962793776e6444348c2c457f3308e36ce8b5d5688297c892b81b26b/selenium-supporter-0.0.9.tar.gz
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/18/d8/2b7fc87b39a5c7e3e5efb3c4fba10bdea69dddbcaccc22660be5d4666496/cycparser-1.2.9.tar.gz
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230612/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:10:23] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2023-06-12 03:10:23] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-06-12 03:10:23] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.8.tar.gz tmp/shakenfist-agent-0.3.9.tar.gz --markdown 20230612/s/shakenfist-agent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 03:10:23] INFO root fetch - processPackages [difai]: executing diffoscope
+[2023-06-12 03:10:23] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20230612/d/difai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 03:10:23] INFO root fetch - processPackages [selenium-supporter]: executing diffoscope
+[2023-06-12 03:10:23] INFO root fetch - processPackages [selenium-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-supporter-0.0.8.tar.gz tmp/selenium-supporter-0.0.9.tar.gz --markdown 20230612/s/selenium-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 03:10:23] INFO root fetch - processPackages [modelbase-pde]: executing diffoscope
+[2023-06-12 03:10:23] INFO root fetch - processPackages [modelbase-pde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase_pde-0.2.8.tar.gz tmp/modelbase_pde-0.2.9.tar.gz --markdown 20230612/m/modelbase-pde/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-12 03:10:23] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2023-06-12 03:10:23] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20230612/h/hue-sunrise/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cycparser]: executing diffoscope
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cycparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycparser-1.2.8.tar.gz tmp/cycparser-1.2.9.tar.gz --markdown 20230612/c/cycparser/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-12 03:10:23] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2023-06-12 03:10:23] ERROR root fetch - processPackages [hue-sunrise]: Diffoscope failed: Error: error creating container storage: the container name "admiring_bassi" is already in use by "7f7fe6cbbf063327b54adf09b09a212d9f53372e2b5e7e5985587df02bc781bc". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-12 03:10:23] INFO root fetch - processPackages [hue-sunrise]: Start processing: cdk-lambda-layer-curl
+[2023-06-12 03:10:23] INFO root fetch - main [MainThread]: End processing [hue-sunrise] error
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 03:10:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-12 03:10:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-12 03:10:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-12 03:10:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230612/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:10:24] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2023-06-12 03:10:24] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.6.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20230612/m/modelbase2/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-12 03:10:24] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230610.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230611.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - processPackages [aemcmc-nightly]: Start processing: qtb-plot
+[2023-06-12 03:10:24] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-12 03:10:24] INFO root fetch - processPackages [qtb-plot]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 03:10:24] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.8.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.9.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2023-06-12 03:10:24] INFO root fetch - processPackages [selenium-supporter]: Remove: archive file [/home/abi/fetcher/tmp/selenium-supporter-0.0.8.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - processPackages [selenium-supporter]: Remove: archive file [/home/abi/fetcher/tmp/selenium-supporter-0.0.9.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - main [MainThread]: End processing [selenium-supporter]: success
+[2023-06-12 03:10:24] INFO root fetch - processPackages [modelbase-pde]: Remove: archive file [/home/abi/fetcher/tmp/modelbase_pde-0.2.8.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - processPackages [modelbase-pde]: Remove: archive file [/home/abi/fetcher/tmp/modelbase_pde-0.2.9.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - main [MainThread]: End processing [modelbase-pde]: success
+[2023-06-12 03:10:24] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/11/03/b204f1332c788b8d60b1f6c015b831fa8085a212dfb69503e85f1598bd38/qtb_plot-0.3.8.tar.gz
+[2023-06-12 03:10:24] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.8.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.9.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-06-12 03:10:24] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-12 03:10:24] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-12 03:10:25] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/f4/15/03462d32e24c9b67e3379c910f4c9ffaadaa56270659b362e0c45eaeaccd/qtb_plot-0.3.9.tar.gz
+[2023-06-12 03:10:25] INFO root fetch - processPackages [qtb-plot]: executing diffoscope
+[2023-06-12 03:10:25] INFO root fetch - processPackages [qtb-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtb_plot-0.3.8.tar.gz tmp/qtb_plot-0.3.9.tar.gz --markdown 20230612/q/qtb-plot/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 03:10:25] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.8.tar.gz]
+[2023-06-12 03:10:25] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.9.tar.gz]
+[2023-06-12 03:10:25] INFO root fetch - main [MainThread]: End processing [cycparser]: success
+[2023-06-12 03:10:25] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.6.tar.gz]
+[2023-06-12 03:10:25] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.8.tar.gz]
+[2023-06-12 03:10:25] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2023-06-12 03:10:25] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-12 03:10:25] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-12 03:10:25] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-12 03:10:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-12 03:10:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-12 03:10:25] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-12 03:10:26] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.8.tar.gz]
+[2023-06-12 03:10:26] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.9.tar.gz]
+[2023-06-12 03:10:26] INFO root fetch - main [MainThread]: End processing [qtb-plot]: success
+[2023-06-12 03:10:26] INFO root fetch - main [MainThread]: Store serial: [18462437]
