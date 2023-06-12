@@ -4036,3 +4036,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 04:32:20] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-06-12 04:32:20] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-06-12 04:32:20] INFO root fetch - main [MainThread]: Store serial: [18463013]
+[2023-06-12 04:37:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18463013]
+[2023-06-12 04:37:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 04:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: junkie-rfglab
+[2023-06-12 04:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teenstudy
+[2023-06-12 04:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prodot
+[2023-06-12 04:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-cutoff-base
+[2023-06-12 04:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zhijiang
+[2023-06-12 04:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: winterapi
+[2023-06-12 04:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zhijiang
+[2023-06-12 04:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spPersist
+[2023-06-12 04:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blessable
+[2023-06-12 04:37:29] INFO root fetch - processPackages [zhijiang]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 04:37:29] INFO root fetch - processPackages [junkie-rfglab]: New version: [2023.6.4] Old Version: [2023.6.3]
+[2023-06-12 04:37:29] INFO root fetch - processPackages [prodot]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-12 04:37:29] INFO root fetch - processPackages [teenstudy]: New version: [0.2.0rc1] Old Version: [0.1.9]
+[2023-06-12 04:37:29] INFO root fetch - processPackages [spPersist]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-12 04:37:29] INFO root fetch - processPackages [zhijiang]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 04:37:29] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: New version: [14.0.2.0.1.dev2] Old Version: [14.0.2.0.1.dev1]
+[2023-06-12 04:37:29] INFO root fetch - processPackages [winterapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 04:37:29] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/5d/aa/86c6b241a3c36c0649b3a924d3085f0797b9a7d76f59325676a25c88869a/spPersist-0.4.5.tar.gz
+[2023-06-12 04:37:29] INFO root fetch - processPackages [junkie-rfglab]: Downloading https://files.pythonhosted.org/packages/15/63/77d18671e466f992d8867c00a334ed52441507d8acb94fddbb6e356e74af/junkie-rfglab-2023.6.3.tar.gz
+[2023-06-12 04:37:29] WARNING root fetch - processPackages [blessable]: Skipping, unable to determine old version
+[2023-06-12 04:37:29] INFO root fetch - main [MainThread]: End processing [blessable] error
+[2023-06-12 04:37:29] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/94/84/d0eec202c6d3f0dc3f10fcdb56a62ba7febbca4a79683d8dd25f595c83f6/zhijiang-0.2.1-py3-none-any.whl
+[2023-06-12 04:37:29] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/94/84/d0eec202c6d3f0dc3f10fcdb56a62ba7febbca4a79683d8dd25f595c83f6/zhijiang-0.2.1-py3-none-any.whl
+[2023-06-12 04:37:29] INFO root fetch - processPackages [prodot]: Downloading https://files.pythonhosted.org/packages/ad/13/26aa48a0e3c304bc72d3ea6128d1fa70a3f34f00aaf2011b5366f1900ec3/prodot-0.3.6.tar.gz
+[2023-06-12 04:37:29] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/6f/10/f197867aed25b2059a3ce8a5f3d7c548664fb63431623f72df5491835175/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev1-py3-none-any.whl
+[2023-06-12 04:37:29] INFO root fetch - processPackages [winterapi]: Downloading https://files.pythonhosted.org/packages/e2/02/592266afcfb935755d3fb1c320c21bca6fa407b03c7c8c9f3e635c0f24ce/winterapi-0.1.0.tar.gz
+[2023-06-12 04:37:29] INFO root fetch - processPackages [teenstudy]: Downloading https://files.pythonhosted.org/packages/37/d7/986f7405655a83d924279abc6314bd618c438ccbcd3ab060fe1d45e05287/TeenStudy-0.1.9.tar.gz
+[2023-06-12 04:37:29] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/3e/2d/899fb37481580bc70eea93e318e0fcac28c9d254604aaf7d1464f3ab5d0d/spPersist-0.4.6.tar.gz
+[2023-06-12 04:37:29] WARNING root fetch - processPackages [zhijiang]: Skipping package: exceeds size limit 35579408>=10485760
+[2023-06-12 04:37:29] WARNING root fetch - processPackages [zhijiang]: Skipping package: exceeds size limit 35579408>=10485760
+[2023-06-12 04:37:29] INFO root fetch - main [MainThread]: End processing [zhijiang] error
+[2023-06-12 04:37:29] INFO root fetch - main [MainThread]: End processing [zhijiang] error
+[2023-06-12 04:37:29] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 04:37:29] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.4.5.tar.gz tmp/spPersist-0.4.6.tar.gz --markdown 20230612/s/spPersist/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-12 04:37:29] INFO root fetch - processPackages [junkie-rfglab]: Downloading https://files.pythonhosted.org/packages/56/d8/d3c7be1a7288ddf5fd19689dd37c3f26c537c52cb6aa151a2e52427f20d3/junkie-rfglab-2023.6.4.tar.gz
+[2023-06-12 04:37:29] INFO root fetch - processPackages [teenstudy]: Downloading https://files.pythonhosted.org/packages/e5/2f/327d534b1a3fefdb1e71bec860d59c7e35f902f831efe24c8b206e1e1a96/teenstudy-0.2.0rc1.tar.gz
+[2023-06-12 04:37:29] INFO root fetch - processPackages [prodot]: Downloading https://files.pythonhosted.org/packages/0e/6c/adf11345ba4af6b3670597a3ad70be41f998a2ce2d769832924524421802/prodot-0.3.7.tar.gz
+[2023-06-12 04:37:29] INFO root fetch - processPackages [junkie-rfglab]: executing diffoscope
+[2023-06-12 04:37:29] INFO root fetch - processPackages [junkie-rfglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junkie-rfglab-2023.6.3.tar.gz tmp/junkie-rfglab-2023.6.4.tar.gz --markdown 20230612/j/junkie-rfglab/2023.6.3-2023.6.4/diff.md --exclude *.pyd
+[2023-06-12 04:37:29] INFO root fetch - processPackages [winterapi]: Downloading https://files.pythonhosted.org/packages/ec/7a/de44956eaff9a1dbf448c1e9bce35ddf5b630affb6e05c934591e38f65e2/winterapi-0.1.1.tar.gz
+[2023-06-12 04:37:29] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/d8/5b/9cff500969c13176245c645c528fde895c342ddd7b4f7a7ff180bfacfa0a/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev2-py3-none-any.whl
+[2023-06-12 04:37:29] INFO root fetch - processPackages [prodot]: executing diffoscope
+[2023-06-12 04:37:29] INFO root fetch - processPackages [prodot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodot-0.3.6.tar.gz tmp/prodot-0.3.7.tar.gz --markdown 20230612/p/prodot/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-12 04:37:29] INFO root fetch - processPackages [winterapi]: executing diffoscope
+[2023-06-12 04:37:29] INFO root fetch - processPackages [winterapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winterapi-0.1.0.tar.gz tmp/winterapi-0.1.1.tar.gz --markdown 20230612/w/winterapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 04:37:29] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: executing diffoscope
+[2023-06-12 04:37:29] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev2-py3-none-any.whl.zip --markdown 20230612/o/odoo14-addon-account-cutoff-base/14.0.2.0.1.dev1-14.0.2.0.1.dev2/diff.md --exclude *.pyd
+[2023-06-12 04:37:30] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.5.tar.gz]
+[2023-06-12 04:37:30] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.6.tar.gz]
+[2023-06-12 04:37:30] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 04:37:30] INFO root fetch - processPackages [junkie-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/junkie-rfglab-2023.6.3.tar.gz]
+[2023-06-12 04:37:30] INFO root fetch - processPackages [junkie-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/junkie-rfglab-2023.6.4.tar.gz]
+[2023-06-12 04:37:30] INFO root fetch - main [MainThread]: End processing [junkie-rfglab]: success
+[2023-06-12 04:37:30] INFO root fetch - processPackages [winterapi]: Remove: archive file [/home/abi/fetcher/tmp/winterapi-0.1.0.tar.gz]
+[2023-06-12 04:37:30] INFO root fetch - processPackages [winterapi]: Remove: archive file [/home/abi/fetcher/tmp/winterapi-0.1.1.tar.gz]
+[2023-06-12 04:37:30] INFO root fetch - main [MainThread]: End processing [winterapi]: success
+[2023-06-12 04:37:30] INFO root fetch - processPackages [prodot]: Remove: archive file [/home/abi/fetcher/tmp/prodot-0.3.6.tar.gz]
+[2023-06-12 04:37:30] INFO root fetch - processPackages [prodot]: Remove: archive file [/home/abi/fetcher/tmp/prodot-0.3.7.tar.gz]
+[2023-06-12 04:37:30] INFO root fetch - main [MainThread]: End processing [prodot]: success
+[2023-06-12 04:37:31] INFO root fetch - processPackages [teenstudy]: executing diffoscope
+[2023-06-12 04:37:31] INFO root fetch - processPackages [teenstudy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TeenStudy-0.1.9.tar.gz tmp/teenstudy-0.2.0rc1.tar.gz --markdown 20230612/t/teenstudy/0.1.9-0.2.0rc1/diff.md --exclude *.pyd
+[2023-06-12 04:37:31] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev1-py3-none-any.whl.zip]
+[2023-06-12 04:37:31] INFO root fetch - processPackages [odoo14-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_cutoff_base-14.0.2.0.1.dev2-py3-none-any.whl.zip]
+[2023-06-12 04:37:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-cutoff-base]: success
+[2023-06-12 04:37:33] INFO root fetch - processPackages [teenstudy]: Remove: archive file [/home/abi/fetcher/tmp/TeenStudy-0.1.9.tar.gz]
+[2023-06-12 04:37:33] INFO root fetch - processPackages [teenstudy]: Remove: archive file [/home/abi/fetcher/tmp/teenstudy-0.2.0rc1.tar.gz]
+[2023-06-12 04:37:33] INFO root fetch - main [MainThread]: End processing [teenstudy]: success
+[2023-06-12 04:37:33] INFO root fetch - main [MainThread]: Store serial: [18463043]
