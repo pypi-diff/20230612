@@ -14216,3 +14216,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 12:03:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230612100140.tar.gz]
 [2023-06-12 12:03:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-12 12:03:13] INFO root fetch - main [MainThread]: Store serial: [18467247]
+[2023-06-12 12:08:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467247]
+[2023-06-12 12:08:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 12:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2023-06-12 12:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyalltools
+[2023-06-12 12:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyGuardPoint
+[2023-06-12 12:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drizzutojr-vapi
+[2023-06-12 12:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resolwe
+[2023-06-12 12:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cfgpie
+[2023-06-12 12:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xlwings
+[2023-06-12 12:08:23] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.0.0.8062023.post1051] Old Version: [1.0.0.7062023.post161221]
+[2023-06-12 12:08:23] INFO root fetch - processPackages [pyalltools]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-12 12:08:23] WARNING root fetch - processPackages [drizzutojr-vapi]: Skipping, unable to determine old version
+[2023-06-12 12:08:23] INFO root fetch - main [MainThread]: End processing [drizzutojr-vapi] error
+[2023-06-12 12:08:23] INFO root fetch - processPackages [cfgpie]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-12 12:08:23] INFO root fetch - processPackages [pyGuardPoint]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-12 12:08:23] INFO root fetch - processPackages [xlwings]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-12 12:08:23] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-06-12 12:08:23] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/2d/db/523e31150a0e70555fbf0dda9335ce4ef0da653512967d3ace25ea79fc04/mct-quantizers-nightly-1.0.0.7062023.post161221.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/89/d7/15cd2be73c85c4272dfe1ebd42afc97a0dc09e0ac323e12a6a26aadd5b65/pyGuardPoint-0.9.4.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [pyalltools]: Downloading https://files.pythonhosted.org/packages/0b/37/463bc7f4e7ff1cab3861ab7ec691cb8f2f0290eb08d59176dfb6912e0111/pyalltools-1.0.0.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [cfgpie]: Downloading https://files.pythonhosted.org/packages/b6/01/b26eef22f64603851de501394db55088df309fe51d61f6c1f7ec5e3de96c/cfgpie-3.0.1.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [xlwings]: Downloading https://files.pythonhosted.org/packages/0d/d1/d7544bcf36d0a64b7a4a213be44ca19bf0eb8b7de232cf743eddceba7c8b/xlwings-0.9.2.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/ca/b5/49a5f1920fe5c94964a5e17e097c324e04e4f4e4ac087ccfa73274eb154b/mct-quantizers-nightly-1.0.0.8062023.post1051.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-06-12 12:08:24] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.0.0.7062023.post161221.tar.gz tmp/mct-quantizers-nightly-1.0.0.8062023.post1051.tar.gz --markdown 20230612/m/mct-quantizers-nightly/1.0.0.7062023.post161221-1.0.0.8062023.post1051/diff.md --exclude *.pyd
+[2023-06-12 12:08:24] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/e0/51/728ebd25aa144ea1a0688657f811c9b6e949f082d483035a78af8ecabf54/pyGuardPoint-0.9.5.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [pyalltools]: Downloading https://files.pythonhosted.org/packages/5e/3e/1bcca86cf464f162fbae421249e39a9ed3807c6a47dd929cdbb88d3ba4e1/pyalltools-1.1.0.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [pyGuardPoint]: executing diffoscope
+[2023-06-12 12:08:24] INFO root fetch - processPackages [pyGuardPoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGuardPoint-0.9.4.tar.gz tmp/pyGuardPoint-0.9.5.tar.gz --markdown 20230612/p/pyGuardPoint/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-12 12:08:24] INFO root fetch - processPackages [pyalltools]: executing diffoscope
+[2023-06-12 12:08:24] INFO root fetch - processPackages [pyalltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalltools-1.0.0.tar.gz tmp/pyalltools-1.1.0.tar.gz --markdown 20230612/p/pyalltools/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 12:08:24] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [cfgpie]: Downloading https://files.pythonhosted.org/packages/6e/3d/4373f502a5e3d9bcac30b2181817ce315332470a3a8cc653a5b726df2001/cfgpie-3.0.2.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [xlwings]: Downloading https://files.pythonhosted.org/packages/98/93/a49777fac149cadd5687de9b05d87a423507769a75cbb922559cebc3d068/xlwings-0.9.3.tar.gz
+[2023-06-12 12:08:24] INFO root fetch - processPackages [cfgpie]: executing diffoscope
+[2023-06-12 12:08:24] INFO root fetch - processPackages [cfgpie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgpie-3.0.1.tar.gz tmp/cfgpie-3.0.2.tar.gz --markdown 20230612/c/cfgpie/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-12 12:08:24] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-06-12 12:08:24] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230612/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-06-12 12:08:24] INFO root fetch - processPackages [xlwings]: executing diffoscope
+[2023-06-12 12:08:24] INFO root fetch - processPackages [xlwings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlwings-0.9.2.tar.gz tmp/xlwings-0.9.3.tar.gz --markdown 20230612/x/xlwings/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-12 12:08:25] INFO root fetch - processPackages [pyalltools]: Remove: archive file [/home/abi/fetcher/tmp/pyalltools-1.0.0.tar.gz]
+[2023-06-12 12:08:25] INFO root fetch - processPackages [pyalltools]: Remove: archive file [/home/abi/fetcher/tmp/pyalltools-1.1.0.tar.gz]
+[2023-06-12 12:08:25] INFO root fetch - main [MainThread]: End processing [pyalltools]: success
+[2023-06-12 12:08:25] INFO root fetch - processPackages [cfgpie]: Remove: archive file [/home/abi/fetcher/tmp/cfgpie-3.0.1.tar.gz]
+[2023-06-12 12:08:25] INFO root fetch - processPackages [cfgpie]: Remove: archive file [/home/abi/fetcher/tmp/cfgpie-3.0.2.tar.gz]
+[2023-06-12 12:08:25] INFO root fetch - main [MainThread]: End processing [cfgpie]: success
+[2023-06-12 12:08:25] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.0.0.7062023.post161221.tar.gz]
+[2023-06-12 12:08:25] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.0.0.8062023.post1051.tar.gz]
+[2023-06-12 12:08:25] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-06-12 12:08:26] INFO root fetch - processPackages [xlwings]: Remove: archive file [/home/abi/fetcher/tmp/xlwings-0.9.2.tar.gz]
+[2023-06-12 12:08:26] INFO root fetch - processPackages [xlwings]: Remove: archive file [/home/abi/fetcher/tmp/xlwings-0.9.3.tar.gz]
+[2023-06-12 12:08:26] INFO root fetch - main [MainThread]: End processing [xlwings]: success
+[2023-06-12 12:08:29] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-06-12 12:08:29] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-06-12 12:08:29] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-06-12 12:09:22] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyGuardPoint-0.9.4.tar.gz]
+[2023-06-12 12:09:22] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyGuardPoint-0.9.5.tar.gz]
+[2023-06-12 12:09:22] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
+[2023-06-12 12:09:22] INFO root fetch - main [MainThread]: Store serial: [18467293]
