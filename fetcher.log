@@ -14805,3 +14805,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 12:31:27] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-1.9.tar.gz]
 [2023-06-12 12:31:27] INFO root fetch - main [MainThread]: End processing [agsi]: success
 [2023-06-12 12:31:27] INFO root fetch - main [MainThread]: Store serial: [18467531]
+[2023-06-12 12:36:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467531]
+[2023-06-12 12:36:36] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatlocal
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpi-tools
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eea.graylogger
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shopee-food-rpc-client-sdk
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: humlab-penelope
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: client-chat69
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hmt-basemodels
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cs.splink
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ma-notification-center
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: taipy-gui
+[2023-06-12 12:36:36] INFO root fetch - processPackages [cpi-tools]: New version: [0.2.4] Old Version: [0.1.0]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [client-chat69]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [chatlocal]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [taipy-gui]: New version: [2.3.0.dev5] Old Version: [2.3.0.dev2]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ma-notification-center]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [hmt-basemodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [eea.graylogger]: New version: [2.4] Old Version: [2.3]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [cs.splink]: New version: [20230612] Old Version: [20230217]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [humlab-penelope]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/10/31/f8b501f8282f68f747942751c25a77878cef0fb175d4a3013e6696259392/hmt-basemodels-0.1.8.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/7d/ab/e6853bab18914e9acf1eb29e580aa1d5a2b925b36c9aa8c82507b41ca71b/ma_notification_center-1.0.2.tar.gz
+[2023-06-12 12:36:36] WARNING root fetch - processPackages [shopee-food-rpc-client-sdk]: Skipping, unable to determine old version
+[2023-06-12 12:36:36] INFO root fetch - processPackages [shopee-food-rpc-client-sdk]: Start processing: koji-fedoramessaging-messages
+[2023-06-12 12:36:36] INFO root fetch - main [MainThread]: End processing [shopee-food-rpc-client-sdk] error
+[2023-06-12 12:36:36] INFO root fetch - processPackages [koji-fedoramessaging-messages]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-12 12:36:36] INFO root fetch - processPackages [client-chat69]: Downloading https://files.pythonhosted.org/packages/8c/f3/0a9f20a5486ef8ea4fe3df381b3e99e927e393f03320503130e9c3decf38/client_chat69-0.0.1-py3-none-any.whl
+[2023-06-12 12:36:36] INFO root fetch - processPackages [chatlocal]: Downloading https://files.pythonhosted.org/packages/cd/32/407c16ca9a68b34b2ec3d6c42b70681deaf6ec09f24ea846389d692f4132/chatlocal-0.1.1.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [cpi-tools]: Downloading https://files.pythonhosted.org/packages/7c/60/33941305842b664dd5f98eb1c16065f45aec6c8199d382e5c3e83c84f0bf/cpi_tools-0.1.0.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/52/46/c07ff8cdb540692ad450317ef569c21b7a59538f124732ee66f47344fb68/hmt-basemodels-0.1.9.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [cs.splink]: Downloading https://files.pythonhosted.org/packages/ae/fc/5f148914c440cd541778633ab4b02a9ad45772cc6992084a4d4e95c2e931/cs.splink-20230217.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [eea.graylogger]: Downloading https://files.pythonhosted.org/packages/d3/e2/930d193d0ec76763db005abebc508beb43c128b80dbd4a26277e6ab6a011/eea.graylogger-2.3.zip
+[2023-06-12 12:36:36] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/d8/ca/dedea523957beaa5dab86604ac3a1877a34c4a4036306f5610f37f3eeb10/humlab-penelope-0.7.8.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/3b/a4/9ae597e364d49d56056b7ae46b6f02a3cb1feb581b35773eff2f31ca8be1/taipy-gui-2.3.0.dev2.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [hmt-basemodels]: executing diffoscope
+[2023-06-12 12:36:36] INFO root fetch - processPackages [hmt-basemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmt-basemodels-0.1.8.tar.gz tmp/hmt-basemodels-0.1.9.tar.gz --markdown 20230612/h/hmt-basemodels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 12:36:36] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Downloading https://files.pythonhosted.org/packages/57/f8/61589f1e7b531422d616436f438550763460fb74e04d20b8597bb1d1a474/koji-fedoramessaging-messages-1.1.0.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/10/c5/577e499757d3b76c601e0b4ca15f7ea1bebaa9f006b0d0974d7e21c4154a/ma_notification_center-1.0.3.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [chatlocal]: Downloading https://files.pythonhosted.org/packages/80/c5/4675bd90c96fe714e06c6e900f202d6861542bb2c98673f0fcb1cf295e5a/chatlocal-0.1.1a0.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [client-chat69]: Downloading https://files.pythonhosted.org/packages/a6/2b/42f0337ef4f2cd8b0aa9a7ac7b8c1b2c3e9e623665cb7d0fd6a8e2f83e07/client_chat69-0.0.1.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ma-notification-center]: executing diffoscope
+[2023-06-12 12:36:36] INFO root fetch - processPackages [ma-notification-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ma_notification_center-1.0.2.tar.gz tmp/ma_notification_center-1.0.3.tar.gz --markdown 20230612/m/ma-notification-center/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-12 12:36:36] INFO root fetch - processPackages [cpi-tools]: Downloading https://files.pythonhosted.org/packages/89/f4/86d12a570ed3d03e8f02e8f5348ebbc917515bb1778f1bcb545e8af4680b/cpi_tools-0.2.4.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [cs.splink]: Downloading https://files.pythonhosted.org/packages/9f/f6/d23194f62d41ecea3d4c3f26a95c70188408a8daaeba1930e5971c58503a/cs.splink-20230612.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [client-chat69]: executing diffoscope
+[2023-06-12 12:36:36] INFO root fetch - processPackages [client-chat69]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_chat69-0.0.1-py3-none-any.whl.zip tmp/client_chat69-0.0.1.tar.gz --markdown 20230612/c/client-chat69/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 12:36:36] INFO root fetch - processPackages [eea.graylogger]: Downloading https://files.pythonhosted.org/packages/ba/3e/4bf6e6af064cee33b4a4b3ac8c4dfb357e468636a7168afb8bb739a6da48/eea.graylogger-2.4.zip
+[2023-06-12 12:36:36] INFO root fetch - processPackages [cs.splink]: executing diffoscope
+[2023-06-12 12:36:36] INFO root fetch - processPackages [cs.splink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.splink-20230217.tar.gz tmp/cs.splink-20230612.tar.gz --markdown 20230612/c/cs.splink/20230217-20230612/diff.md --exclude *.pyd
+[2023-06-12 12:36:36] INFO root fetch - processPackages [chatlocal]: executing diffoscope
+[2023-06-12 12:36:36] INFO root fetch - processPackages [chatlocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlocal-0.1.1.tar.gz tmp/chatlocal-0.1.1a0.tar.gz --markdown 20230612/c/chatlocal/0.1.1-0.1.1a0/diff.md --exclude *.pyd
+[2023-06-12 12:36:36] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/cd/64/b400304bb580cd93a392737813c0281428d325fb97fce6726ec5b53a4fd3/humlab-penelope-0.7.9.tar.gz
+[2023-06-12 12:36:36] INFO root fetch - processPackages [cpi-tools]: executing diffoscope
+[2023-06-12 12:36:37] INFO root fetch - processPackages [cpi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpi_tools-0.1.0.tar.gz tmp/cpi_tools-0.2.4.tar.gz --markdown 20230612/c/cpi-tools/0.1.0-0.2.4/diff.md --exclude *.pyd
+[2023-06-12 12:36:37] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Downloading https://files.pythonhosted.org/packages/d1/fd/1887d4c5d50295ce9a630ecc2995a022e5951940231455d8b59f27ab56e0/koji-fedoramessaging-messages-1.2.0.tar.gz
+[2023-06-12 12:36:37] INFO root fetch - processPackages [eea.graylogger]: executing diffoscope
+[2023-06-12 12:36:37] INFO root fetch - processPackages [eea.graylogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.graylogger-2.3.zip tmp/eea.graylogger-2.4.zip --markdown 20230612/e/eea.graylogger/2.3-2.4/diff.md --exclude *.pyd
+[2023-06-12 12:36:37] INFO root fetch - processPackages [humlab-penelope]: executing diffoscope
+[2023-06-12 12:36:37] INFO root fetch - processPackages [humlab-penelope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-penelope-0.7.8.tar.gz tmp/humlab-penelope-0.7.9.tar.gz --markdown 20230612/h/humlab-penelope/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-12 12:36:37] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/c6/31/30537dd7fd933c9bff91d140c1a14fa99d5f0dc629568a5b7337b1f6a851/taipy-gui-2.3.0.dev5.tar.gz
+[2023-06-12 12:36:37] INFO root fetch - processPackages [koji-fedoramessaging-messages]: executing diffoscope
+[2023-06-12 12:36:37] INFO root fetch - processPackages [koji-fedoramessaging-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koji-fedoramessaging-messages-1.1.0.tar.gz tmp/koji-fedoramessaging-messages-1.2.0.tar.gz --markdown 20230612/k/koji-fedoramessaging-messages/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-12 12:36:37] INFO root fetch - processPackages [taipy-gui]: executing diffoscope
+[2023-06-12 12:36:37] INFO root fetch - processPackages [taipy-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-gui-2.3.0.dev2.tar.gz tmp/taipy-gui-2.3.0.dev5.tar.gz --markdown 20230612/t/taipy-gui/2.3.0.dev2-2.3.0.dev5/diff.md --exclude *.pyd
+[2023-06-12 12:36:38] INFO root fetch - processPackages [hmt-basemodels]: Remove: archive file [/home/abi/fetcher/tmp/hmt-basemodels-0.1.8.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [hmt-basemodels]: Remove: archive file [/home/abi/fetcher/tmp/hmt-basemodels-0.1.9.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [hmt-basemodels]: Start processing: python-eml-parser
+[2023-06-12 12:36:38] INFO root fetch - main [MainThread]: End processing [hmt-basemodels]: success
+[2023-06-12 12:36:38] INFO root fetch - processPackages [python-eml-parser]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-1.0.2.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-1.0.3.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [ma-notification-center]: Start processing: prometheus-http-sd
+[2023-06-12 12:36:38] INFO root fetch - main [MainThread]: End processing [ma-notification-center]: success
+[2023-06-12 12:36:38] INFO root fetch - processPackages [client-chat69]: Remove: archive file [/home/abi/fetcher/tmp/client_chat69-0.0.1-py3-none-any.whl.zip]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [client-chat69]: Remove: archive file [/home/abi/fetcher/tmp/client_chat69-0.0.1.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [client-chat69]: Start processing: promptwatch
+[2023-06-12 12:36:38] INFO root fetch - main [MainThread]: End processing [client-chat69]: success
+[2023-06-12 12:36:38] INFO root fetch - processPackages [prometheus-http-sd]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [chatlocal]: Remove: archive file [/home/abi/fetcher/tmp/chatlocal-0.1.1.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [chatlocal]: Remove: archive file [/home/abi/fetcher/tmp/chatlocal-0.1.1a0.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [chatlocal]: Start processing: docbuild
+[2023-06-12 12:36:38] INFO root fetch - main [MainThread]: End processing [chatlocal]: success
+[2023-06-12 12:36:38] INFO root fetch - processPackages [promptwatch]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [cpi-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpi_tools-0.1.0.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [cpi-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpi_tools-0.2.4.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [cpi-tools]: Start processing: selenium-simplified
+[2023-06-12 12:36:38] INFO root fetch - main [MainThread]: End processing [cpi-tools]: success
+[2023-06-12 12:36:38] WARNING root fetch - processPackages [selenium-simplified]: Skipping, unable to determine old version
+[2023-06-12 12:36:38] INFO root fetch - main [MainThread]: End processing [selenium-simplified] error
+[2023-06-12 12:36:38] INFO root fetch - processPackages [python-eml-parser]: Downloading https://files.pythonhosted.org/packages/0c/09/0207964bc8a979293c58f0ab310b99fdc89d72e8f1637c915a87581cfa30/python_eml_parser-1.0.0.tar.gz
+[2023-06-12 12:36:38] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/ca/e8/c4f5a8d013efa915a9baa0e561ca87ba07a2fba64601c00ffd0a62a240be/prometheus_http_sd-1.3.0.tar.gz
+[2023-06-12 12:36:38] INFO root fetch - processPackages [docbuild]: New version: [0.1.111] Old Version: [0.1.110]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [eea.graylogger]: Remove: archive file [/home/abi/fetcher/tmp/eea.graylogger-2.3.zip]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [eea.graylogger]: Remove: archive file [/home/abi/fetcher/tmp/eea.graylogger-2.4.zip]
+[2023-06-12 12:36:38] INFO root fetch - main [MainThread]: End processing [eea.graylogger]: success
+[2023-06-12 12:36:38] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/9c/39/214265dc7babda65ab1816a53e6d40fb48300f15396e0d32d075633b5b4d/promptwatch-0.2.1.tar.gz
+[2023-06-12 12:36:38] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/bb/e2/432fe79d88d24d773eaaded6a4dd0683a1ee3a397036c3df04f485c82097/docbuild-0.1.110.tar.gz
+[2023-06-12 12:36:38] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/2d/51/4111765f06ee0f186438a9abc939a364d3414f0aa82a91db4427c4e3567b/prometheus_http_sd-1.3.1.tar.gz
+[2023-06-12 12:36:38] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/33/bc/5b81da213e560e087394235a562f6d4b4723b178c4825e4f4d7f1f5105aa/promptwatch-0.2.2.tar.gz
+[2023-06-12 12:36:38] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Remove: archive file [/home/abi/fetcher/tmp/koji-fedoramessaging-messages-1.1.0.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Remove: archive file [/home/abi/fetcher/tmp/koji-fedoramessaging-messages-1.2.0.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - main [MainThread]: End processing [koji-fedoramessaging-messages]: success
+[2023-06-12 12:36:38] INFO root fetch - processPackages [prometheus-http-sd]: executing diffoscope
+[2023-06-12 12:36:38] INFO root fetch - processPackages [prometheus-http-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_http_sd-1.3.0.tar.gz tmp/prometheus_http_sd-1.3.1.tar.gz --markdown 20230612/p/prometheus-http-sd/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-12 12:36:38] INFO root fetch - processPackages [cs.splink]: Remove: archive file [/home/abi/fetcher/tmp/cs.splink-20230217.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - processPackages [cs.splink]: Remove: archive file [/home/abi/fetcher/tmp/cs.splink-20230612.tar.gz]
+[2023-06-12 12:36:38] INFO root fetch - main [MainThread]: End processing [cs.splink]: success
+[2023-06-12 12:36:38] INFO root fetch - processPackages [python-eml-parser]: Downloading https://files.pythonhosted.org/packages/78/a1/026fd777e8e523bb2b033bc6b8da45e1faef12296220e7a46f6386d17d4c/python_eml_parser-2.0.0.tar.gz
+[2023-06-12 12:36:38] INFO root fetch - processPackages [promptwatch]: executing diffoscope
+[2023-06-12 12:36:38] INFO root fetch - processPackages [promptwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptwatch-0.2.1.tar.gz tmp/promptwatch-0.2.2.tar.gz --markdown 20230612/p/promptwatch/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 12:36:39] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/e2/c1/18843ecfa36398ce95999f095e74eabed7df4f2d0ae3719915d2748e9024/docbuild-0.1.111.tar.gz
+[2023-06-12 12:36:39] INFO root fetch - processPackages [python-eml-parser]: executing diffoscope
+[2023-06-12 12:36:39] INFO root fetch - processPackages [python-eml-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_eml_parser-1.0.0.tar.gz tmp/python_eml_parser-2.0.0.tar.gz --markdown 20230612/p/python-eml-parser/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-12 12:36:39] INFO root fetch - processPackages [docbuild]: executing diffoscope
+[2023-06-12 12:36:39] INFO root fetch - processPackages [docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docbuild-0.1.110.tar.gz tmp/docbuild-0.1.111.tar.gz --markdown 20230612/d/docbuild/0.1.110-0.1.111/diff.md --exclude *.pyd
+[2023-06-12 12:36:39] INFO root fetch - processPackages [prometheus-http-sd]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_http_sd-1.3.0.tar.gz]
+[2023-06-12 12:36:39] INFO root fetch - processPackages [prometheus-http-sd]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_http_sd-1.3.1.tar.gz]
+[2023-06-12 12:36:39] INFO root fetch - main [MainThread]: End processing [prometheus-http-sd]: success
+[2023-06-12 12:36:40] INFO root fetch - processPackages [promptwatch]: Remove: archive file [/home/abi/fetcher/tmp/promptwatch-0.2.1.tar.gz]
+[2023-06-12 12:36:40] INFO root fetch - processPackages [promptwatch]: Remove: archive file [/home/abi/fetcher/tmp/promptwatch-0.2.2.tar.gz]
+[2023-06-12 12:36:40] INFO root fetch - main [MainThread]: End processing [promptwatch]: success
+[2023-06-12 12:36:40] INFO root fetch - processPackages [docbuild]: Remove: archive file [/home/abi/fetcher/tmp/docbuild-0.1.110.tar.gz]
+[2023-06-12 12:36:40] INFO root fetch - processPackages [docbuild]: Remove: archive file [/home/abi/fetcher/tmp/docbuild-0.1.111.tar.gz]
+[2023-06-12 12:36:40] INFO root fetch - main [MainThread]: End processing [docbuild]: success
+[2023-06-12 12:36:40] INFO root fetch - processPackages [python-eml-parser]: Remove: archive file [/home/abi/fetcher/tmp/python_eml_parser-1.0.0.tar.gz]
+[2023-06-12 12:36:40] INFO root fetch - processPackages [python-eml-parser]: Remove: archive file [/home/abi/fetcher/tmp/python_eml_parser-2.0.0.tar.gz]
+[2023-06-12 12:36:40] INFO root fetch - main [MainThread]: End processing [python-eml-parser]: success
+[2023-06-12 12:36:42] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.8.tar.gz]
+[2023-06-12 12:36:42] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
+[2023-06-12 12:36:42] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
+[2023-06-12 12:36:49] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-2.3.0.dev2.tar.gz]
+[2023-06-12 12:36:49] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-2.3.0.dev5.tar.gz]
+[2023-06-12 12:36:49] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
+[2023-06-12 12:36:49] INFO root fetch - main [MainThread]: Store serial: [18467578]
