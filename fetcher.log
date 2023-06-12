@@ -12783,3 +12783,168 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 11:06:56] INFO root fetch - processPackages [simpleui-admin]: Remove: archive file [/home/abi/fetcher/tmp/simpleui-admin-2023.6.12.tar.gz]
 [2023-06-12 11:06:56] INFO root fetch - main [MainThread]: End processing [simpleui-admin]: success
 [2023-06-12 11:06:56] INFO root fetch - main [MainThread]: Store serial: [18466660]
+[2023-06-12 11:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466660]
+[2023-06-12 11:12:06] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dialogy
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visual-graph-datasets
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: t4flib
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstats
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: learnMSA
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-plugin-manager
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.projen-awscdk-construct
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydoclint
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bindata
+[2023-06-12 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: power-grid-model
+[2023-06-12 11:12:06] INFO root fetch - processPackages [bindata]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [t4flib]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [napari-plugin-manager]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [learnMSA]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [visual-graph-datasets]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pydoclint]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [dialogy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [quickstats]: New version: [0.6.8.6] Old Version: [0.6.8.4]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/6c/bd/ff2abaca655a6921d8379969bbdb3671618f8af381bbd317ef23cc8f50c3/bindata-0.9.5.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9171103440397] Old Version: [1.5.0rc9166510100968]
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/88/64/f0f85cdb501e1d74fe72d7b3b306ad13f100598b427f8ff0e8568dc3a68f/pydoclint-0.0.8.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [napari-plugin-manager]: Downloading https://files.pythonhosted.org/packages/c8/a7/fdd814d35c72f9a6ac5f5d8c579902c158320805d95c7b959aa63d100bfe/napari-plugin-manager-0.1.0a0.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/98/9c0607140525a5654c6e21f4f5142382491d00618c71ab35f6d398597a78/dialogy-2.0.8.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/95/5b/0ab4d6ea4ebe8cab1ff2cdbf298de310c4c343f46e83602e159e63c5e818/t4flib-0.3.3-py2.py3-none-any.whl
+[2023-06-12 11:12:06] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/fd/1c/c2fa8ae3b6c3385c0c0d9b24475509788ed3af22bd4e840635bdfd4ad736/bindata-0.9.6.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/8b/aa/c11553474bc6abcbf2c78890f6579b242ab68a2c302c40a668fd39cef3c9/visual_graph_datasets-0.8.0.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [learnMSA]: Downloading https://files.pythonhosted.org/packages/44/ee/e3461c1c88135b9a9648a40761bc77b25adf1d417e2b4afc393387c5b05e/learnMSA-1.2.0.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/08/fc/a46479a39d8bd265031e3186beb56d28f720613929d6a32ec23a11b6798b/pydoclint-0.0.9.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/56/0d/e58c6d829276a84d27ea1a27dcd64472cc2992d7a5ac3776bf1c306c19fd/quickstats-0.6.8.4.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/68/62/41ae17c7eda7ece69d1fa7e0dff9aedaedc142bd2cfe29009edf066d7775/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.8.tar.gz tmp/pydoclint-0.0.9.tar.gz --markdown 20230612/p/pydoclint/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:12:06] INFO root fetch - processPackages [bindata]: executing diffoscope
+[2023-06-12 11:12:06] INFO root fetch - processPackages [bindata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bindata-0.9.5.tar.gz tmp/bindata-0.9.6.tar.gz --markdown 20230612/b/bindata/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-12 11:12:06] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/d9/dca00478422152d39f4cd3351f106029580ab4f7401eaf41b4329643ddbe/dialogy-2.0.9.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/35/4b/bb3a94ac4d9969eda36c893a43db6383317de204b2490313b9d8e8787d87/t4flib-0.3.4-py2.py3-none-any.whl
+[2023-06-12 11:12:06] INFO root fetch - processPackages [napari-plugin-manager]: Downloading https://files.pythonhosted.org/packages/34/06/587f255193367e4125b5173c16f5c7c98ef8aab3903631bc76f29876a6b9/napari-plugin-manager-0.1.0a1.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-06-12 11:12:06] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.3.3-py2.py3-none-any.whl.zip tmp/t4flib-0.3.4-py2.py3-none-any.whl.zip --markdown 20230612/t/t4flib/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-12 11:12:06] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/f7/24/21b8065eddaf1f2aebcb3c1ab99a567eafabd40743647beb7ef80955b8a8/visual_graph_datasets-0.9.0.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-06-12 11:12:06] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.8.tar.gz tmp/dialogy-2.0.9.tar.gz --markdown 20230612/d/dialogy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:12:06] INFO root fetch - processPackages [visual-graph-datasets]: executing diffoscope
+[2023-06-12 11:12:06] INFO root fetch - processPackages [visual-graph-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_graph_datasets-0.8.0.tar.gz tmp/visual_graph_datasets-0.9.0.tar.gz --markdown 20230612/v/visual-graph-datasets/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 11:12:06] INFO root fetch - processPackages [napari-plugin-manager]: executing diffoscope
+[2023-06-12 11:12:06] INFO root fetch - processPackages [napari-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-plugin-manager-0.1.0a0.tar.gz tmp/napari-plugin-manager-0.1.0a1.tar.gz --markdown 20230612/n/napari-plugin-manager/0.1.0a0-0.1.0a1/diff.md --exclude *.pyd
+[2023-06-12 11:12:06] INFO root fetch - processPackages [learnMSA]: Downloading https://files.pythonhosted.org/packages/2a/cd/4f2b33a980491b8c5e7b8c29e533410f0f4e40b8e69b56f3cfb5c76c500d/learnMSA-1.2.1.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/76/bd/4c1942537f807a7530661a355d47a8f62c9af700ab17b9bd5fb80597e465/quickstats-0.6.8.6.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-06-12 11:12:06] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/b4/f3/369df5403348f16d94ba7f2fc9a7bec94dd47c3a1f172ef1ca136a3b4b44/power_grid_model-1.5.0rc9171103440397-py3-none-macosx_10_9_x86_64.whl
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-06-12 11:12:06] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230612/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 11:12:06] INFO root fetch - processPackages [quickstats]: executing diffoscope
+[2023-06-12 11:12:06] INFO root fetch - processPackages [quickstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstats-0.6.8.4.tar.gz tmp/quickstats-0.6.8.6.tar.gz --markdown 20230612/q/quickstats/0.6.8.4-0.6.8.6/diff.md --exclude *.pyd
+[2023-06-12 11:12:06] INFO root fetch - processPackages [learnMSA]: executing diffoscope
+[2023-06-12 11:12:06] INFO root fetch - processPackages [learnMSA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learnMSA-1.2.0.tar.gz tmp/learnMSA-1.2.1.tar.gz --markdown 20230612/l/learnMSA/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-12 11:12:07] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-12 11:12:07] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9171103440397-py3-none-macosx_10_9_x86_64.whl.zip --markdown 20230612/p/power-grid-model/1.5.0rc9166510100968-1.5.0rc9171103440397/diff.md --exclude *.pyd
+[2023-06-12 11:12:08] INFO root fetch - processPackages [t4flib]: Remove: archive file [/home/abi/fetcher/tmp/t4flib-0.3.3-py2.py3-none-any.whl.zip]
+[2023-06-12 11:12:08] INFO root fetch - processPackages [t4flib]: Remove: archive file [/home/abi/fetcher/tmp/t4flib-0.3.4-py2.py3-none-any.whl.zip]
+[2023-06-12 11:12:08] INFO root fetch - processPackages [t4flib]: Start processing: common-utils-pkg
+[2023-06-12 11:12:08] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-06-12 11:12:09] INFO root fetch - processPackages [common-utils-pkg]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [common-utils-pkg]: Downloading https://files.pythonhosted.org/packages/16/07/85ce3102554fead6330f0db1f2f68e37aba72412d7767013bbb3c064d231/common_utils_pkg-0.1.0.tar.gz
+[2023-06-12 11:12:09] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: databasez
+[2023-06-12 11:12:09] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-06-12 11:12:09] INFO root fetch - processPackages [databasez]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [common-utils-pkg]: Downloading https://files.pythonhosted.org/packages/9d/4f/9cda85b97f7112a16260ab09df4084d4544685e7779c6b03a236fd6bc54f/common_utils_pkg-0.1.1.tar.gz
+[2023-06-12 11:12:09] INFO root fetch - processPackages [common-utils-pkg]: executing diffoscope
+[2023-06-12 11:12:09] INFO root fetch - processPackages [common-utils-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_utils_pkg-0.1.0.tar.gz tmp/common_utils_pkg-0.1.1.tar.gz --markdown 20230612/c/common-utils-pkg/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 11:12:09] INFO root fetch - processPackages [napari-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/napari-plugin-manager-0.1.0a0.tar.gz]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [napari-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/napari-plugin-manager-0.1.0a1.tar.gz]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [napari-plugin-manager]: Start processing: uplogic
+[2023-06-12 11:12:09] INFO root fetch - main [MainThread]: End processing [napari-plugin-manager]: success
+[2023-06-12 11:12:09] INFO root fetch - processPackages [uplogic]: New version: [1.9.1.2] Old Version: [1.9.1.1]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [databasez]: Downloading https://files.pythonhosted.org/packages/6c/0b/62433f58be63fffe8732326982593ae1c86c50c25a938b63dd9066360576/databasez-0.3.0.tar.gz
+[2023-06-12 11:12:09] INFO root fetch - processPackages [visual-graph-datasets]: Remove: archive file [/home/abi/fetcher/tmp/visual_graph_datasets-0.8.0.tar.gz]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [visual-graph-datasets]: Remove: archive file [/home/abi/fetcher/tmp/visual_graph_datasets-0.9.0.tar.gz]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [visual-graph-datasets]: Start processing: photobooth-app
+[2023-06-12 11:12:09] INFO root fetch - main [MainThread]: End processing [visual-graph-datasets]: success
+[2023-06-12 11:12:09] INFO root fetch - processPackages [photobooth-app]: New version: [0.1.0rc5] Old Version: [0.1.0rc4]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [uplogic]: Downloading https://files.pythonhosted.org/packages/80/a5/b300d8a40ba38c5c8f7f5a2ef900ec744eae6438779c2d3d55d0576054ba/uplogic-1.9.1.1.tar.gz
+[2023-06-12 11:12:09] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl.zip]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model-1.5.0rc9171103440397-py3-none-macosx_10_9_x86_64.whl.zip]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [power-grid-model]: Start processing: napatrackmater
+[2023-06-12 11:12:09] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-12 11:12:09] INFO root fetch - processPackages [napatrackmater]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/20/84/adee94adf9dec8ccab7315d0856d9ccdce5568296f2c12c8bc28bb344927/photobooth_app-0.1.0rc4.tar.gz
+[2023-06-12 11:12:09] INFO root fetch - processPackages [databasez]: Downloading https://files.pythonhosted.org/packages/f8/53/e7325edb7e929204853afc005c17b2565ddeb2c5523be79d626b47ec2fae/databasez-0.4.0.tar.gz
+[2023-06-12 11:12:09] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/06/52/1df9ed030b4df58371076738e6e24b0cacd371f5a6378a80da93ac42a297/napatrackmater-3.7.0.tar.gz
+[2023-06-12 11:12:09] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.8.tar.gz]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [pydoclint]: Start processing: daktari
+[2023-06-12 11:12:09] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-06-12 11:12:09] INFO root fetch - processPackages [databasez]: executing diffoscope
+[2023-06-12 11:12:09] INFO root fetch - processPackages [databasez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databasez-0.3.0.tar.gz tmp/databasez-0.4.0.tar.gz --markdown 20230612/d/databasez/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-12 11:12:09] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 11:12:09] INFO root fetch - processPackages [uplogic]: Downloading https://files.pythonhosted.org/packages/ec/14/946ae8fcb703cd7037927021233bc7730da91e82e7f9e5011c325c989ba0/uplogic-1.9.1.2.tar.gz
+[2023-06-12 11:12:09] INFO root fetch - processPackages [uplogic]: executing diffoscope
+[2023-06-12 11:12:09] INFO root fetch - processPackages [uplogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uplogic-1.9.1.1.tar.gz tmp/uplogic-1.9.1.2.tar.gz --markdown 20230612/u/uplogic/1.9.1.1-1.9.1.2/diff.md --exclude *.pyd
+[2023-06-12 11:12:09] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-06-12 11:12:09] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/2b/40/4285fb6990c47fcb45a9160cb34e0a83f4a7af4598f0ef2b0b8c33a3a419/napatrackmater-3.7.1.tar.gz
+[2023-06-12 11:12:10] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.5.tar.gz]
+[2023-06-12 11:12:10] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.6.tar.gz]
+[2023-06-12 11:12:10] INFO root fetch - processPackages [bindata]: Start processing: muheqa
+[2023-06-12 11:12:10] INFO root fetch - main [MainThread]: End processing [bindata]: success
+[2023-06-12 11:12:10] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-06-12 11:12:10] INFO root fetch - processPackages [muheqa]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 11:12:10] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-06-12 11:12:10] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230612/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 11:12:10] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-12 11:12:10] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.7.0.tar.gz tmp/napatrackmater-3.7.1.tar.gz --markdown 20230612/n/napatrackmater/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-06-12 11:12:10] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/70/33/466eebc169f74dd60f37b67ed9c29e38f38aba1cfdbf32f4a9c64de741a4/muheqa-0.0.3.tar.gz
+[2023-06-12 11:12:10] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/19/07/68ee1256bdfddc9acda0a88ad87668f01a09e3bc0d727123c0f945fa2cdd/muheqa-0.0.4.tar.gz
+[2023-06-12 11:12:10] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.8.tar.gz]
+[2023-06-12 11:12:10] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.9.tar.gz]
+[2023-06-12 11:12:10] INFO root fetch - processPackages [dialogy]: Start processing: troncos
+[2023-06-12 11:12:10] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-06-12 11:12:10] INFO root fetch - processPackages [troncos]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2023-06-12 11:12:10] INFO root fetch - processPackages [muheqa]: executing diffoscope
+[2023-06-12 11:12:10] INFO root fetch - processPackages [muheqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muheqa-0.0.3.tar.gz tmp/muheqa-0.0.4.tar.gz --markdown 20230612/m/muheqa/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 11:12:10] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/8e/15/536f55bb49f2fbe7dfc07693eb02a82e397bd914368694d0c0d8a07d2fe1/troncos-4.0.0b8.tar.gz
+[2023-06-12 11:12:11] INFO root fetch - processPackages [common-utils-pkg]: Remove: archive file [/home/abi/fetcher/tmp/common_utils_pkg-0.1.0.tar.gz]
+[2023-06-12 11:12:11] INFO root fetch - processPackages [common-utils-pkg]: Remove: archive file [/home/abi/fetcher/tmp/common_utils_pkg-0.1.1.tar.gz]
+[2023-06-12 11:12:11] INFO root fetch - main [MainThread]: End processing [common-utils-pkg]: success
+[2023-06-12 11:12:11] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/74/74/a0ec518c84ad6b09c05621a50ddfe1997109619d228a21218152c34d8bc2/troncos-4.0.0b9.tar.gz
+[2023-06-12 11:12:11] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/4a/63/26c6602310c22a38af0fb8cab574a7014ce652d5731681c5a432e89a94aa/photobooth_app-0.1.0rc5.tar.gz
+[2023-06-12 11:12:11] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-06-12 11:12:11] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-4.0.0b8.tar.gz tmp/troncos-4.0.0b9.tar.gz --markdown 20230612/t/troncos/4.0.0b8-4.0.0b9/diff.md --exclude *.pyd
+[2023-06-12 11:12:11] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-06-12 11:12:11] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-06-12 11:12:11] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-06-12 11:12:12] INFO root fetch - processPackages [databasez]: Remove: archive file [/home/abi/fetcher/tmp/databasez-0.3.0.tar.gz]
+[2023-06-12 11:12:12] INFO root fetch - processPackages [databasez]: Remove: archive file [/home/abi/fetcher/tmp/databasez-0.4.0.tar.gz]
+[2023-06-12 11:12:12] INFO root fetch - main [MainThread]: End processing [databasez]: success
+[2023-06-12 11:12:12] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.3.tar.gz]
+[2023-06-12 11:12:12] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.4.tar.gz]
+[2023-06-12 11:12:12] INFO root fetch - main [MainThread]: End processing [muheqa]: success
+[2023-06-12 11:12:12] INFO root fetch - processPackages [photobooth-app]: executing diffoscope
+[2023-06-12 11:12:12] INFO root fetch - processPackages [photobooth-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photobooth_app-0.1.0rc4.tar.gz tmp/photobooth_app-0.1.0rc5.tar.gz --markdown 20230612/p/photobooth-app/0.1.0rc4-0.1.0rc5/diff.md --exclude *.pyd
+[2023-06-12 11:12:12] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.0.tar.gz]
+[2023-06-12 11:12:12] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.1.tar.gz]
+[2023-06-12 11:12:12] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-12 11:12:12] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.0b8.tar.gz]
+[2023-06-12 11:12:12] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.0b9.tar.gz]
+[2023-06-12 11:12:12] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-06-12 11:12:13] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.6.8.4.tar.gz]
+[2023-06-12 11:12:13] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.6.8.6.tar.gz]
+[2023-06-12 11:12:13] INFO root fetch - main [MainThread]: End processing [quickstats]: success
+[2023-06-12 11:12:15] INFO root fetch - processPackages [learnMSA]: Remove: archive file [/home/abi/fetcher/tmp/learnMSA-1.2.0.tar.gz]
+[2023-06-12 11:12:15] INFO root fetch - processPackages [learnMSA]: Remove: archive file [/home/abi/fetcher/tmp/learnMSA-1.2.1.tar.gz]
+[2023-06-12 11:12:15] INFO root fetch - main [MainThread]: End processing [learnMSA]: success
+[2023-06-12 11:12:16] INFO root fetch - processPackages [uplogic]: Remove: archive file [/home/abi/fetcher/tmp/uplogic-1.9.1.1.tar.gz]
+[2023-06-12 11:12:16] INFO root fetch - processPackages [uplogic]: Remove: archive file [/home/abi/fetcher/tmp/uplogic-1.9.1.2.tar.gz]
+[2023-06-12 11:12:16] INFO root fetch - main [MainThread]: End processing [uplogic]: success
+[2023-06-12 11:12:17] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc4.tar.gz]
+[2023-06-12 11:12:17] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc5.tar.gz]
+[2023-06-12 11:12:17] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
+[2023-06-12 11:12:17] INFO root fetch - main [MainThread]: Store serial: [18466720]
