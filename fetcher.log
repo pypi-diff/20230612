@@ -8897,3 +8897,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 08:01:48] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.991.tar.gz]
 [2023-06-12 08:01:48] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
 [2023-06-12 08:01:48] INFO root fetch - main [MainThread]: Store serial: [18464970]
+[2023-06-12 08:06:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464970]
+[2023-06-12 08:06:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-12 08:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jijmodeling
+[2023-06-12 08:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2023-06-12 08:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revolution.py
+[2023-06-12 08:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2023-06-12 08:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsrs
+[2023-06-12 08:06:59] WARNING root fetch - processPackages [revolution.py]: Skipping, unable to determine old version
+[2023-06-12 08:06:59] INFO root fetch - main [MainThread]: End processing [revolution.py] error
+[2023-06-12 08:06:59] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-12 08:06:59] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230611] Old Version: [2.4.0.dev20230610]
+[2023-06-12 08:06:59] INFO root fetch - processPackages [jijmodeling]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-12 08:06:59] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/51/c9/46d0052df2aafc71312eb3a6b6f8e86457e104a3e8c934849d564296feae/pyg_nightly-2.4.0.dev20230610.tar.gz
+[2023-06-12 08:06:59] INFO root fetch - processPackages [fsrs]: New version: [0.2.1] Old Version: [0.1.3]
+[2023-06-12 08:06:59] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-12 08:06:59] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/49/fc/537e863c69af7f86de4ae2f7cb3b9df507938ba8fcbd0fe6c683b76b6e75/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl
+[2023-06-12 08:06:59] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/c5/17/659ad5133782292639404c1ee5d9daef5bdc53c38e3f3f800df26c79a7b9/fsrs-0.1.3.tar.gz
+[2023-06-12 08:06:59] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e7/ed/1427dfe399285adaa5eb67fa571a93879b507d65311cfa5dfc462c6ea921/pyg_nightly-2.4.0.dev20230611.tar.gz
+[2023-06-12 08:06:59] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-12 08:06:59] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-12 08:06:59] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230610.tar.gz tmp/pyg_nightly-2.4.0.dev20230611.tar.gz --markdown 20230612/p/pyg-nightly/2.4.0.dev20230610-2.4.0.dev20230611/diff.md --exclude *.pyd
+[2023-06-12 08:06:59] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-12 08:06:59] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230612/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-12 08:06:59] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/55/49/a7a67de65c87ed64de0619405ab07cc8e435b150a61bfea7321b1c719e8d/fsrs-0.2.1.tar.gz
+[2023-06-12 08:06:59] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/89/d0/6cb71561aecdb852259cf24ad501a533d6d8ff22ba4e5836ab18377e567f/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl
+[2023-06-12 08:07:00] INFO root fetch - processPackages [fsrs]: executing diffoscope
+[2023-06-12 08:07:00] INFO root fetch - processPackages [fsrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs-0.1.3.tar.gz tmp/fsrs-0.2.1.tar.gz --markdown 20230612/f/fsrs/0.1.3-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 08:07:00] INFO root fetch - processPackages [jijmodeling]: executing diffoscope
+[2023-06-12 08:07:00] INFO root fetch - processPackages [jijmodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip --markdown 20230612/j/jijmodeling/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 08:07:01] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-0.1.3.tar.gz]
+[2023-06-12 08:07:01] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-0.2.1.tar.gz]
+[2023-06-12 08:07:01] INFO root fetch - main [MainThread]: End processing [fsrs]: success
+[2023-06-12 08:07:01] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-12 08:07:01] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-12 08:07:01] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-12 08:07:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230610.tar.gz]
+[2023-06-12 08:07:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230611.tar.gz]
+[2023-06-12 08:07:04] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-12 08:07:07] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 08:07:07] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 08:07:07] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
+[2023-06-12 08:07:07] INFO root fetch - main [MainThread]: Store serial: [18465014]
