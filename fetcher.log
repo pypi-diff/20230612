@@ -8607,3 +8607,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 07:30:36] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.6rc2.tar.gz]
 [2023-06-12 07:30:36] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
 [2023-06-12 07:30:36] INFO root fetch - main [MainThread]: Store serial: [18464838]
+[2023-06-12 07:35:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464838]
+[2023-06-12 07:35:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-12 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiogateway
+[2023-06-12 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sev-snp-measure
+[2023-06-12 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bloboluni
+[2023-06-12 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keyframed
+[2023-06-12 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iosense-connect
+[2023-06-12 07:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandas-money
+[2023-06-12 07:35:47] WARNING root fetch - processPackages [aiogateway]: Skipping, unable to determine old version
+[2023-06-12 07:35:47] INFO root fetch - main [MainThread]: End processing [aiogateway] error
+[2023-06-12 07:35:47] INFO root fetch - processPackages [keyframed]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 07:35:47] INFO root fetch - processPackages [sev-snp-measure]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-12 07:35:47] INFO root fetch - processPackages [bloboluni]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-12 07:35:47] INFO root fetch - processPackages [iosense-connect]: New version: [3.0.4] Old Version: [3.0.2]
+[2023-06-12 07:35:47] WARNING root fetch - processPackages [pandas-money]: Skipping, unable to determine old version
+[2023-06-12 07:35:47] INFO root fetch - main [MainThread]: End processing [pandas-money] error
+[2023-06-12 07:35:47] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/b9/75/e4403a0caf3850ad8679d704e83e37eae131c3e5cee48fe27668bd14ae07/iosense_connect-3.0.2.tar.gz
+[2023-06-12 07:35:47] INFO root fetch - processPackages [bloboluni]: Downloading https://files.pythonhosted.org/packages/4f/28/6fede33f35572bdef1a09f1c11616d608906036cd3a49d9c562b98ed74e8/bloboluni-2.0.0.tar.gz
+[2023-06-12 07:35:47] INFO root fetch - processPackages [sev-snp-measure]: Downloading https://files.pythonhosted.org/packages/20/07/ce0202eea796fc6bf0cc6a9486e85e877d04ee727c879035460e520552b9/sev-snp-measure-0.0.5.tar.gz
+[2023-06-12 07:35:47] INFO root fetch - processPackages [keyframed]: Downloading https://files.pythonhosted.org/packages/6f/05/66d1912582c73876f7c262e510d88eae4f3f3dbcc65fb6aeaeace9a383cf/keyframed-0.3.8.tar.gz
+[2023-06-12 07:35:47] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/7f/d0/e2d798efef94b92796b92b553618de7b4dec15ecc58ca039557275d22c9d/iosense_connect-3.0.4.tar.gz
+[2023-06-12 07:35:47] INFO root fetch - processPackages [bloboluni]: Downloading https://files.pythonhosted.org/packages/9c/ae/9d0ce1c530c2a7e4d8ae4701cb7dc8aa95dddf84536e90b3417bce826284/bloboluni-2.0.1.tar.gz
+[2023-06-12 07:35:47] INFO root fetch - processPackages [sev-snp-measure]: Downloading https://files.pythonhosted.org/packages/de/16/a43f78c2b67dc682454eb3c59172d6e261977629eb9128c99ff3c3f24cda/sev-snp-measure-0.0.6.tar.gz
+[2023-06-12 07:35:47] INFO root fetch - processPackages [bloboluni]: executing diffoscope
+[2023-06-12 07:35:47] INFO root fetch - processPackages [bloboluni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloboluni-2.0.0.tar.gz tmp/bloboluni-2.0.1.tar.gz --markdown 20230612/b/bloboluni/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-12 07:35:47] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-06-12 07:35:47] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-3.0.2.tar.gz tmp/iosense_connect-3.0.4.tar.gz --markdown 20230612/i/iosense-connect/3.0.2-3.0.4/diff.md --exclude *.pyd
+[2023-06-12 07:35:47] INFO root fetch - processPackages [keyframed]: Downloading https://files.pythonhosted.org/packages/bd/c6/7e8a68825d64d78d0610c9be7b5c061784ac2148e6b716faa674922fb2f1/keyframed-0.3.9.tar.gz
+[2023-06-12 07:35:47] INFO root fetch - processPackages [sev-snp-measure]: executing diffoscope
+[2023-06-12 07:35:47] INFO root fetch - processPackages [sev-snp-measure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sev-snp-measure-0.0.5.tar.gz tmp/sev-snp-measure-0.0.6.tar.gz --markdown 20230612/s/sev-snp-measure/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-12 07:35:47] INFO root fetch - processPackages [keyframed]: executing diffoscope
+[2023-06-12 07:35:47] INFO root fetch - processPackages [keyframed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyframed-0.3.8.tar.gz tmp/keyframed-0.3.9.tar.gz --markdown 20230612/k/keyframed/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 07:35:48] INFO root fetch - processPackages [bloboluni]: Remove: archive file [/home/abi/fetcher/tmp/bloboluni-2.0.0.tar.gz]
+[2023-06-12 07:35:48] INFO root fetch - processPackages [bloboluni]: Remove: archive file [/home/abi/fetcher/tmp/bloboluni-2.0.1.tar.gz]
+[2023-06-12 07:35:48] INFO root fetch - main [MainThread]: End processing [bloboluni]: success
+[2023-06-12 07:35:48] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-3.0.2.tar.gz]
+[2023-06-12 07:35:48] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-3.0.4.tar.gz]
+[2023-06-12 07:35:48] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-06-12 07:35:48] INFO root fetch - processPackages [sev-snp-measure]: Remove: archive file [/home/abi/fetcher/tmp/sev-snp-measure-0.0.5.tar.gz]
+[2023-06-12 07:35:48] INFO root fetch - processPackages [sev-snp-measure]: Remove: archive file [/home/abi/fetcher/tmp/sev-snp-measure-0.0.6.tar.gz]
+[2023-06-12 07:35:48] INFO root fetch - main [MainThread]: End processing [sev-snp-measure]: success
+[2023-06-12 07:35:49] INFO root fetch - processPackages [keyframed]: Remove: archive file [/home/abi/fetcher/tmp/keyframed-0.3.8.tar.gz]
+[2023-06-12 07:35:49] INFO root fetch - processPackages [keyframed]: Remove: archive file [/home/abi/fetcher/tmp/keyframed-0.3.9.tar.gz]
+[2023-06-12 07:35:49] INFO root fetch - main [MainThread]: End processing [keyframed]: success
+[2023-06-12 07:35:49] INFO root fetch - main [MainThread]: Store serial: [18464862]
