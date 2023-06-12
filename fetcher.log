@@ -16312,3 +16312,163 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:44:42] INFO root fetch - processPackages [fonttools]: Remove: archive file [/home/abi/fetcher/tmp/fonttools-4.9.0.zip]
 [2023-06-12 13:44:42] INFO root fetch - main [MainThread]: End processing [fonttools]: success
 [2023-06-12 13:44:42] INFO root fetch - main [MainThread]: Store serial: [18468233]
+[2023-06-12 13:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468233]
+[2023-06-12 13:49:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mailslurp-client
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: querysource
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-fortuna
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gine
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multireg
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Ma3serializer
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-dllib-spark3
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyatlan
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rogue-tools
+[2023-06-12 13:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca-spark3
+[2023-06-12 13:49:53] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [aws-fortuna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [pyatlan]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [multireg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [gine]: New version: [0.1.0a0] Old Version: [0.0.8]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [rogue-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230612] Old Version: [2.4.0b20230611]
+[2023-06-12 13:49:53] WARNING root fetch - processPackages [Ma3serializer]: Skipping, unable to determine old version
+[2023-06-12 13:49:53] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [Ma3serializer]: Start processing: hotsos
+[2023-06-12 13:49:53] INFO root fetch - main [MainThread]: End processing [Ma3serializer] error
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230612] Old Version: [2.4.0b20230611]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/d1/11/cd7ccb6cb83f7f63c18937a27a8f85832130dc502173eb6eef8007621d19/multireg-0.0.8.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/de/2d/fdf0aaa2b1e07e6d91918c01be57d8f6a6e848e85ed670d75fe1d9b39cd5/hotsos-1.1.14.post8.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 13:49:53] INFO root fetch - processPackages [aws-fortuna]: Downloading https://files.pythonhosted.org/packages/da/7b/9a2fb8233a87284d594ab622b3fb8371d7d7663930a2281fc313bb55a622/aws_fortuna-0.1.8.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/f8/b2/a871fa4203ff2f6045a1e7f05cf0613fd7c89602ecac342e9c9d6e319a0d/pyatlan-0.1.0.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/37/88/160e6186cc66081c211dca0073ba15132e44d50e96e89e07d36f0921e8c0/rogue_tools-1.0.8.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/b8/55/60a4b7a8b1455b57ec14aaf3a6edb3916e847cdd75c5e5cdc0075c149990/bigdl-dllib-spark3-2.4.0b20230611.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [gine]: Downloading https://files.pythonhosted.org/packages/90/43/860c9db95534f4f88f78fa947e18c6324f603ec7a052f37969bde81c7829/gine-0.0.8.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/6c/c9/db1ed9972b04a2c7f10668e0ac9ad00b8c94ab00908953677cde17e4bef7/bigdl_orca_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl
+[2023-06-12 13:49:53] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2023-06-12 13:49:53] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251823>=10485760
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: bigdl-friesian-spark3
+[2023-06-12 13:49:53] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-12 13:49:53] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207681>=10485760
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bigdl-chronos-spark3
+[2023-06-12 13:49:53] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230612] Old Version: [2.4.0b20230611]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/da/c9/7eacdd09b8fe987d35c33395e293035c63b16ded1000aadb2bc49c6f7882/hotsos-1.1.14.post9.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230612] Old Version: [2.4.0b20230611]
+[2023-06-12 13:49:53] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/c3/0e/afe000aba0f38b61bb2e54ce1cdfd01cd2d03ad61079a34c64e741aa5a1e/multireg-0.0.9.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/34/af/6d11c627cd59cda9fb4c7ff331c0f4c23040eb75bf7565a162d41e46e0c0/bigdl_chronos_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl
+[2023-06-12 13:49:53] INFO root fetch - processPackages [gine]: Downloading https://files.pythonhosted.org/packages/26/21/6e298f26425a5f1b17c5e87db1da635c144ea62de310ff4f7e20ca6bc53f/gine-0.1.0a0.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/55/cb/de4cb451007292c298cc3b2c96ebab47c6d2ca1877dd2e7b3f4e93392328/rogue_tools-1.0.9.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/aa/e9/635fba74348e093deafe42ae1a883817498eff004eac9d3dfbc81d56ab1d/bigdl_friesian_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl
+[2023-06-12 13:49:53] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-12 13:49:53] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230612/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-06-12 13:49:53] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-12 13:49:53] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 13:49:53] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.8.tar.gz tmp/multireg-0.0.9.tar.gz --markdown 20230612/m/multireg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 13:49:53] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/7e/b2/1b3c8f8ddb8e9cb7dccd4f3046c2ce54627c26da5f85857455775dd092a1/pyatlan-0.1.1.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [aws-fortuna]: Downloading https://files.pythonhosted.org/packages/6f/b6/d1180b6d5028216edeed20bb4ed02e103eaf19befc1d200a31f685a074d9/aws_fortuna-0.1.9.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [gine]: executing diffoscope
+[2023-06-12 13:49:53] INFO root fetch - processPackages [gine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gine-0.0.8.tar.gz tmp/gine-0.1.0a0.tar.gz --markdown 20230612/g/gine/0.0.8-0.1.0a0/diff.md --exclude *.pyd
+[2023-06-12 13:49:53] INFO root fetch - processPackages [rogue-tools]: executing diffoscope
+[2023-06-12 13:49:53] INFO root fetch - processPackages [rogue-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rogue_tools-1.0.8.tar.gz tmp/rogue_tools-1.0.9.tar.gz --markdown 20230612/r/rogue-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 13:49:53] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2023-06-12 13:49:53] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-12 13:49:53] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230612/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-12 13:49:53] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-06-12 13:49:53] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.1.0.tar.gz tmp/pyatlan-0.1.1.tar.gz --markdown 20230612/p/pyatlan/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 13:49:53] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/17/10/095e3f872671c1eae23e34ab09637b5a7d4e6d585745ed127e5125e2ccaa/bigdl_chronos_spark3-2.4.0b20230612-py3-none-manylinux1_x86_64.whl
+[2023-06-12 13:49:54] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/c3/69/5a17778c1e52395e41652bd7fcf330fb85238ddee594b7d5e074ff91c27f/bigdl_friesian_spark3-2.4.0b20230612-py3-none-manylinux1_x86_64.whl
+[2023-06-12 13:49:54] INFO root fetch - processPackages [aws-fortuna]: executing diffoscope
+[2023-06-12 13:49:54] INFO root fetch - processPackages [aws-fortuna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_fortuna-0.1.8.tar.gz tmp/aws_fortuna-0.1.9.tar.gz --markdown 20230612/a/aws-fortuna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 13:49:54] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2023-06-12 13:49:54] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20230612/m/mailslurp-client/8.7.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-12 13:49:54] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-12 13:49:54] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230612-py3-none-manylinux1_x86_64.whl.zip --markdown 20230612/b/bigdl-chronos-spark3/2.4.0b20230611-2.4.0b20230612/diff.md --exclude *.pyd
+[2023-06-12 13:49:54] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-12 13:49:54] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230612-py3-none-manylinux1_x86_64.whl.zip --markdown 20230612/b/bigdl-friesian-spark3/2.4.0b20230611-2.4.0b20230612/diff.md --exclude *.pyd
+[2023-06-12 13:49:56] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.8.tar.gz]
+[2023-06-12 13:49:56] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.9.tar.gz]
+[2023-06-12 13:49:56] INFO root fetch - processPackages [multireg]: Start processing: bigdl-spark3
+[2023-06-12 13:49:56] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-12 13:49:56] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230612] Old Version: [2.4.0b20230611]
+[2023-06-12 13:49:56] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/03/d6/006a5cc572f3036747ecae4f9e40bc30cee17c5e0a2c3f91ea4f52e48a3b/bigdl_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl
+[2023-06-12 13:49:56] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.0.8.tar.gz]
+[2023-06-12 13:49:56] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.0.9.tar.gz]
+[2023-06-12 13:49:56] INFO root fetch - processPackages [rogue-tools]: Start processing: dblp-crawler
+[2023-06-12 13:49:56] INFO root fetch - main [MainThread]: End processing [rogue-tools]: success
+[2023-06-12 13:49:56] INFO root fetch - processPackages [dblp-crawler]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-12 13:49:56] INFO root fetch - processPackages [dblp-crawler]: Downloading https://files.pythonhosted.org/packages/76/52/0cacedc61efc728e65a76a1c922710b92501f91f59128be1fd7fc3ae5d5b/dblp_crawler-1.6.3.tar.gz
+[2023-06-12 13:49:57] INFO root fetch - processPackages [dblp-crawler]: Downloading https://files.pythonhosted.org/packages/6e/39/e6ea684cb269d315b7f9ae5acaa9251f332f49ddebefb6b72873ff6b86f6/dblp_crawler-1.6.4.tar.gz
+[2023-06-12 13:49:57] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/ee/34/5f5e7e8a918c4b06130c9bdab60aa85060a0abb7fef2521dc9c6c316faff/bigdl_spark3-2.4.0b20230612-py3-none-manylinux1_x86_64.whl
+[2023-06-12 13:49:57] INFO root fetch - processPackages [dblp-crawler]: executing diffoscope
+[2023-06-12 13:49:57] INFO root fetch - processPackages [dblp-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblp_crawler-1.6.3.tar.gz tmp/dblp_crawler-1.6.4.tar.gz --markdown 20230612/d/dblp-crawler/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-12 13:49:57] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-12 13:49:57] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230612-py3-none-manylinux1_x86_64.whl.zip --markdown 20230612/b/bigdl-spark3/2.4.0b20230611-2.4.0b20230612/diff.md --exclude *.pyd
+[2023-06-12 13:49:57] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-12 13:49:57] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230612-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-12 13:49:57] INFO root fetch - processPackages [bigdl-chronos-spark3]: Start processing: inox
+[2023-06-12 13:49:57] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-12 13:49:57] INFO root fetch - processPackages [inox]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-12 13:49:57] INFO root fetch - processPackages [inox]: Downloading https://files.pythonhosted.org/packages/db/7c/e0e8acdbf1e597aa1b209d07ff77cd675fdef68512ad08e1d5edb0b24d64/inox-0.0.0.tar.gz
+[2023-06-12 13:49:58] INFO root fetch - processPackages [inox]: Downloading https://files.pythonhosted.org/packages/85/ed/159e821307256afae5a36a74d34bbf963cc849dd10bbe89515eaab256729/inox-0.1.0.tar.gz
+[2023-06-12 13:49:58] INFO root fetch - processPackages [inox]: executing diffoscope
+[2023-06-12 13:49:58] INFO root fetch - processPackages [inox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inox-0.0.0.tar.gz tmp/inox-0.1.0.tar.gz --markdown 20230612/i/inox/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 13:49:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-12 13:49:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230612-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-12 13:49:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: rl-games-y
+[2023-06-12 13:49:58] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-12 13:49:58] INFO root fetch - processPackages [rl-games-y]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 13:49:58] INFO root fetch - processPackages [rl-games-y]: Downloading https://files.pythonhosted.org/packages/56/b3/036cba2c8752b9c36ab3557e47541d2545290f55334dec56a72b3a93189f/rl_games_y-0.0.4.tar.gz
+[2023-06-12 13:49:58] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230611-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-12 13:49:58] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230612-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-12 13:49:58] INFO root fetch - processPackages [bigdl-spark3]: Start processing: shortloop-python
+[2023-06-12 13:49:58] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-12 13:49:58] INFO root fetch - processPackages [shortloop-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 13:49:59] INFO root fetch - processPackages [rl-games-y]: Downloading https://files.pythonhosted.org/packages/30/c0/01f7ae781565f328f1b59fdc6e941e9c616bb75523a1d8cd09ce90e9a946/rl_games_y-0.0.5.tar.gz
+[2023-06-12 13:49:59] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/3d/31/16794eafbf35d46f147f66551e311fb07471d8c6082efd355c12ae96113e/shortloop_python-0.1.0.tar.gz
+[2023-06-12 13:49:59] INFO root fetch - processPackages [rl-games-y]: executing diffoscope
+[2023-06-12 13:49:59] INFO root fetch - processPackages [rl-games-y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl_games_y-0.0.4.tar.gz tmp/rl_games_y-0.0.5.tar.gz --markdown 20230612/r/rl-games-y/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 13:49:59] INFO root fetch - processPackages [dblp-crawler]: Remove: archive file [/home/abi/fetcher/tmp/dblp_crawler-1.6.3.tar.gz]
+[2023-06-12 13:49:59] INFO root fetch - processPackages [dblp-crawler]: Remove: archive file [/home/abi/fetcher/tmp/dblp_crawler-1.6.4.tar.gz]
+[2023-06-12 13:49:59] INFO root fetch - processPackages [dblp-crawler]: Start processing: hanmatek-psu
+[2023-06-12 13:49:59] INFO root fetch - main [MainThread]: End processing [dblp-crawler]: success
+[2023-06-12 13:49:59] INFO root fetch - processPackages [hanmatek-psu]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-12 13:49:59] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.8.tar.gz]
+[2023-06-12 13:49:59] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.9.tar.gz]
+[2023-06-12 13:49:59] INFO root fetch - main [MainThread]: End processing [aws-fortuna]: success
+[2023-06-12 13:49:59] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/14/48/004cd7d36502de06b68449e331d01ce4e22301eabce548d682ae4a8c71df/shortloop_python-0.1.1.tar.gz
+[2023-06-12 13:49:59] INFO root fetch - processPackages [hanmatek-psu]: Downloading https://files.pythonhosted.org/packages/62/8f/e06fd72c970b1fc716a7efe90ac45b1f0fac4d7806fbc22b53e6f45467d0/hanmatek_psu-1.1.1.tar.gz
+[2023-06-12 13:49:59] INFO root fetch - processPackages [shortloop-python]: executing diffoscope
+[2023-06-12 13:49:59] INFO root fetch - processPackages [shortloop-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortloop_python-0.1.0.tar.gz tmp/shortloop_python-0.1.1.tar.gz --markdown 20230612/s/shortloop-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 13:49:59] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.1.0.tar.gz]
+[2023-06-12 13:49:59] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.1.1.tar.gz]
+[2023-06-12 13:49:59] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-06-12 13:49:59] INFO root fetch - processPackages [hanmatek-psu]: Downloading https://files.pythonhosted.org/packages/19/e1/8879e9a701f15daea2d27960ab84fba6060d3794273069e04c4462b459b3/hanmatek_psu-1.1.2.tar.gz
+[2023-06-12 13:50:00] INFO root fetch - processPackages [hanmatek-psu]: executing diffoscope
+[2023-06-12 13:50:00] INFO root fetch - processPackages [hanmatek-psu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hanmatek_psu-1.1.1.tar.gz tmp/hanmatek_psu-1.1.2.tar.gz --markdown 20230612/h/hanmatek-psu/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-12 13:50:00] INFO root fetch - processPackages [inox]: Remove: archive file [/home/abi/fetcher/tmp/inox-0.0.0.tar.gz]
+[2023-06-12 13:50:00] INFO root fetch - processPackages [inox]: Remove: archive file [/home/abi/fetcher/tmp/inox-0.1.0.tar.gz]
+[2023-06-12 13:50:00] INFO root fetch - main [MainThread]: End processing [inox]: success
+[2023-06-12 13:50:00] INFO root fetch - processPackages [gine]: Remove: archive file [/home/abi/fetcher/tmp/gine-0.0.8.tar.gz]
+[2023-06-12 13:50:00] INFO root fetch - processPackages [gine]: Remove: archive file [/home/abi/fetcher/tmp/gine-0.1.0a0.tar.gz]
+[2023-06-12 13:50:00] INFO root fetch - main [MainThread]: End processing [gine]: success
+[2023-06-12 13:50:00] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 13:50:00] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 13:50:00] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-12 13:50:01] INFO root fetch - processPackages [hanmatek-psu]: Remove: archive file [/home/abi/fetcher/tmp/hanmatek_psu-1.1.1.tar.gz]
+[2023-06-12 13:50:01] INFO root fetch - processPackages [hanmatek-psu]: Remove: archive file [/home/abi/fetcher/tmp/hanmatek_psu-1.1.2.tar.gz]
+[2023-06-12 13:50:01] INFO root fetch - main [MainThread]: End processing [hanmatek-psu]: success
+[2023-06-12 13:50:01] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.0.tar.gz]
+[2023-06-12 13:50:01] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.1.tar.gz]
+[2023-06-12 13:50:01] INFO root fetch - main [MainThread]: End processing [shortloop-python]: success
+[2023-06-12 13:50:02] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post8.tar.gz]
+[2023-06-12 13:50:02] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
+[2023-06-12 13:50:02] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-12 13:50:02] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2023-06-12 13:50:02] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2023-06-12 13:50:02] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2023-06-12 13:50:05] INFO root fetch - processPackages [rl-games-y]: Remove: archive file [/home/abi/fetcher/tmp/rl_games_y-0.0.4.tar.gz]
+[2023-06-12 13:50:05] INFO root fetch - processPackages [rl-games-y]: Remove: archive file [/home/abi/fetcher/tmp/rl_games_y-0.0.5.tar.gz]
+[2023-06-12 13:50:05] INFO root fetch - main [MainThread]: End processing [rl-games-y]: success
+[2023-06-12 13:50:05] INFO root fetch - main [MainThread]: Store serial: [18468301]
