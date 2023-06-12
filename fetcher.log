@@ -8212,3 +8212,53 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 06:46:04] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.1.tar.gz]
 [2023-06-12 06:46:04] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
 [2023-06-12 06:46:04] INFO root fetch - main [MainThread]: Store serial: [18464664]
+[2023-06-12 06:51:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464664]
+[2023-06-12 06:51:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-12 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-airflow-providers-sktvane
+[2023-06-12 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc-editor
+[2023-06-12 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audible-series
+[2023-06-12 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BioPII
+[2023-06-12 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sourcery-nightly
+[2023-06-12 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sc-editor
+[2023-06-12 06:51:14] INFO root fetch - processPackages [sc-editor]: New version: [0.9] Old Version: [0.85]
+[2023-06-12 06:51:14] INFO root fetch - processPackages [audible-series]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-12 06:51:14] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-12 06:51:14] INFO root fetch - processPackages [BioPII]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 06:51:14] INFO root fetch - processPackages [sc-editor]: New version: [0.9] Old Version: [0.85]
+[2023-06-12 06:51:14] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/c1/98/d1eaa5b1caa3e561ae168f2192ae75058f6d7b5d72c960408d747320982f/sc-editor-0.85.tar.gz
+[2023-06-12 06:51:14] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/86/fe/6186df05024797a67a696d18aadd3e77ebb270ec61a46852e117b2349a3e/BioPII-0.1.1.tar.gz
+[2023-06-12 06:51:14] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.1b9] Old Version: [1.3.1b8]
+[2023-06-12 06:51:15] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/48/67/7604047ba21bb054fec7330e55027bc3a6b68216887ba64145087bf8dcfc/apache-airflow-providers-sktvane-0.1.5.tar.gz
+[2023-06-12 06:51:15] INFO root fetch - processPackages [audible-series]: Downloading https://files.pythonhosted.org/packages/f8/41/bbaf212e9dbf1e69672818e0b75d39eae41b0f2392cebc9fdc2dd7c24878/audible-series-1.0.2.tar.gz
+[2023-06-12 06:51:15] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/d7/45/e58319004127e853c8c48d8d4271d2803e977d12485b53c9cacd5fa78941/sc-editor-0.9.tar.gz
+[2023-06-12 06:51:15] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/d7/45/e58319004127e853c8c48d8d4271d2803e977d12485b53c9cacd5fa78941/sc-editor-0.9.tar.gz
+[2023-06-12 06:51:15] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/3a/7f/7df2c25692365a5737c2ce53912754d44d741ebffbea67f64f664ab4465c/BioPII-0.1.2.tar.gz
+[2023-06-12 06:51:15] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/29/18/ad9b7cf71f4ed9e14c12d1e096d050d07b94bd4dfb90329e967254028ab4/sourcery_nightly-1.3.1b8-py2.py3-none-win_amd64.whl
+[2023-06-12 06:51:15] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58876457>=10485760
+[2023-06-12 06:51:15] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-12 06:51:15] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 06:51:15] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.85.tar.gz tmp/sc-editor-0.9.tar.gz --markdown 20230612/s/sc-editor/0.85-0.9/diff.md --exclude *.pyd
+[2023-06-12 06:51:15] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 06:51:15] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.85.tar.gz tmp/sc-editor-0.9.tar.gz --markdown 20230612/s/sc-editor/0.85-0.9/diff.md --exclude *.pyd
+[2023-06-12 06:51:15] INFO root fetch - processPackages [BioPII]: executing diffoscope
+[2023-06-12 06:51:15] INFO root fetch - processPackages [BioPII]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioPII-0.1.1.tar.gz tmp/BioPII-0.1.2.tar.gz --markdown 20230612/B/BioPII/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 06:51:15] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/12/e6/bc355fb09c50dbd005ae6df297999a6ea5cb6f407d46882868f7fe51913e/apache-airflow-providers-sktvane-0.2.0.tar.gz
+[2023-06-12 06:51:15] INFO root fetch - processPackages [audible-series]: Downloading https://files.pythonhosted.org/packages/87/81/e52a343059da01aae85344bb99afe20d1ea77614c19af03c1822f0ba6f11/audible_series-1.0.3.tar.gz
+[2023-06-12 06:51:15] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-06-12 06:51:15] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.1.5.tar.gz tmp/apache-airflow-providers-sktvane-0.2.0.tar.gz --markdown 20230612/a/apache-airflow-providers-sktvane/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 06:51:15] INFO root fetch - processPackages [audible-series]: executing diffoscope
+[2023-06-12 06:51:15] INFO root fetch - processPackages [audible-series]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audible-series-1.0.2.tar.gz tmp/audible_series-1.0.3.tar.gz --markdown 20230612/a/audible-series/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-12 06:51:16] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.1.tar.gz]
+[2023-06-12 06:51:16] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.2.tar.gz]
+[2023-06-12 06:51:16] INFO root fetch - main [MainThread]: End processing [BioPII]: success
+[2023-06-12 06:51:16] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-sktvane-0.1.5.tar.gz]
+[2023-06-12 06:51:16] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-sktvane-0.2.0.tar.gz]
+[2023-06-12 06:51:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-06-12 06:51:16] INFO root fetch - processPackages [audible-series]: Remove: archive file [/home/abi/fetcher/tmp/audible-series-1.0.2.tar.gz]
+[2023-06-12 06:51:16] INFO root fetch - processPackages [audible-series]: Remove: archive file [/home/abi/fetcher/tmp/audible_series-1.0.3.tar.gz]
+[2023-06-12 06:51:16] INFO root fetch - main [MainThread]: End processing [audible-series]: success
+[2023-06-12 06:51:16] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.85.tar.gz]
+[2023-06-12 06:51:16] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.9.tar.gz]
+[2023-06-12 06:51:16] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 06:51:16] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 06:51:16] INFO root fetch - main [MainThread]: Store serial: [18464686]
