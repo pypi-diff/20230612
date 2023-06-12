@@ -16250,3 +16250,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:38:42] INFO root fetch - processPackages [otcextensions]: Remove: archive file [/home/abi/fetcher/tmp/otcextensions-0.9.1.tar.gz]
 [2023-06-12 13:38:42] INFO root fetch - main [MainThread]: End processing [otcextensions]: success
 [2023-06-12 13:38:42] INFO root fetch - main [MainThread]: Store serial: [18468175]
+[2023-06-12 13:43:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468175]
+[2023-06-12 13:43:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-12 13:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CLEMENT-DNA
+[2023-06-12 13:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc-toolbox
+[2023-06-12 13:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fonttools
+[2023-06-12 13:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotsos
+[2023-06-12 13:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logging-utils-cli
+[2023-06-12 13:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trails-rivasiker
+[2023-06-12 13:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fintech
+[2023-06-12 13:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: JBPhD
+[2023-06-12 13:43:52] INFO root fetch - processPackages [CLEMENT-DNA]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 13:43:52] INFO root fetch - processPackages [sc-toolbox]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 13:43:52] INFO root fetch - processPackages [fonttools]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-06-12 13:43:52] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-06-12 13:43:52] INFO root fetch - processPackages [fintech]: New version: [7.2.9] Old Version: [7.2.6]
+[2023-06-12 13:43:52] WARNING root fetch - processPackages [trails-rivasiker]: Skipping, unable to determine old version
+[2023-06-12 13:43:52] WARNING root fetch - processPackages [logging-utils-cli]: Skipping, unable to determine old version
+[2023-06-12 13:43:52] INFO root fetch - main [MainThread]: End processing [trails-rivasiker] error
+[2023-06-12 13:43:52] INFO root fetch - main [MainThread]: End processing [logging-utils-cli] error
+[2023-06-12 13:43:52] INFO root fetch - processPackages [JBPhD]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-06-12 13:43:52] INFO root fetch - processPackages [sc-toolbox]: Downloading https://files.pythonhosted.org/packages/67/a6/769a48a05d39cd3576b1aac08038bdcc818d5f7f12c2b5d6043a2300e47a/sc-toolbox-0.8.0.tar.gz
+[2023-06-12 13:43:52] WARNING root fetch - processPackages [CLEMENT-DNA]: fallback to get urls: [1.0.0]
+[2023-06-12 13:43:52] WARNING root fetch - processPackages [CLEMENT-DNA]: None
+[2023-06-12 13:43:52] WARNING root fetch - processPackages [CLEMENT-DNA]: None
+[2023-06-12 13:43:52] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/de/2d/fdf0aaa2b1e07e6d91918c01be57d8f6a6e848e85ed670d75fe1d9b39cd5/hotsos-1.1.14.post8.tar.gz
+[2023-06-12 13:43:52] WARNING root fetch - processPackages [CLEMENT-DNA]: unable to get url for both version [1.0.0]
+[2023-06-12 13:43:52] INFO root fetch - processPackages [fintech]: Downloading https://files.pythonhosted.org/packages/a7/2c/1eca670475e59b88db9b283b902e87cba3d639fc30ed5ff46a26f8fb2e32/fintech-7.2.6-cp39-none-any.whl
+[2023-06-12 13:43:52] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/a8/e7/ada19991784b6223e7b096a145d213e68940f035be0eac9855cf30609379/JBPhD-2.2.5.tar.gz
+[2023-06-12 13:43:52] WARNING root fetch - processPackages [CLEMENT-DNA]: None
+[2023-06-12 13:43:52] INFO root fetch - main [MainThread]: End processing [CLEMENT-DNA] error
+[2023-06-12 13:43:52] INFO root fetch - processPackages [fonttools]: Downloading https://files.pythonhosted.org/packages/12/b4/7f5e17c48a656ceb066778eed3101ce2260eea4664560f859a9abeb3153c/fonttools-4.8.1.zip
+[2023-06-12 13:43:52] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/da/c9/7eacdd09b8fe987d35c33395e293035c63b16ded1000aadb2bc49c6f7882/hotsos-1.1.14.post9.tar.gz
+[2023-06-12 13:43:52] INFO root fetch - processPackages [fintech]: Downloading https://files.pythonhosted.org/packages/d4/90/3772d6a8d012d3cfc3294214c07f0a82ffda1346c16465853673f1d55ef4/fintech-7.2.9-cp39-none-any.whl
+[2023-06-12 13:43:52] INFO root fetch - processPackages [sc-toolbox]: Downloading https://files.pythonhosted.org/packages/b0/f1/666748374d48fbb45fe39f5a58c6a4431ecdc09c2062e585cac62e2fe264/sc-toolbox-0.9.0.tar.gz
+[2023-06-12 13:43:52] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-12 13:43:52] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230612/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-06-12 13:43:52] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/21/63/858059e15c73bd13d2860b0243c3f991459b6bd11a62a57d5e088c15947a/JBPhD-2.2.6.tar.gz
+[2023-06-12 13:43:52] INFO root fetch - processPackages [fonttools]: Downloading https://files.pythonhosted.org/packages/38/2d/5440a3abd96736fbecd234c6fda8ede6c54d76e4dc83419f03b09d18989b/fonttools-4.9.0.zip
+[2023-06-12 13:43:52] INFO root fetch - processPackages [sc-toolbox]: executing diffoscope
+[2023-06-12 13:43:52] INFO root fetch - processPackages [sc-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-toolbox-0.8.0.tar.gz tmp/sc-toolbox-0.9.0.tar.gz --markdown 20230612/s/sc-toolbox/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 13:43:53] INFO root fetch - processPackages [fintech]: executing diffoscope
+[2023-06-12 13:43:53] INFO root fetch - processPackages [fintech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintech-7.2.6-cp39-none-any.whl.zip tmp/fintech-7.2.9-cp39-none-any.whl.zip --markdown 20230612/f/fintech/7.2.6-7.2.9/diff.md --exclude *.pyd
+[2023-06-12 13:43:53] INFO root fetch - processPackages [fonttools]: executing diffoscope
+[2023-06-12 13:43:53] INFO root fetch - processPackages [fonttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fonttools-4.8.1.zip tmp/fonttools-4.9.0.zip --markdown 20230612/f/fonttools/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-06-12 13:43:53] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-06-12 13:43:53] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.2.5.tar.gz tmp/JBPhD-2.2.6.tar.gz --markdown 20230612/J/JBPhD/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-06-12 13:43:54] INFO root fetch - processPackages [sc-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/sc-toolbox-0.8.0.tar.gz]
+[2023-06-12 13:43:54] INFO root fetch - processPackages [sc-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/sc-toolbox-0.9.0.tar.gz]
+[2023-06-12 13:43:54] INFO root fetch - main [MainThread]: End processing [sc-toolbox]: success
+[2023-06-12 13:43:56] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.5.tar.gz]
+[2023-06-12 13:43:56] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.6.tar.gz]
+[2023-06-12 13:43:56] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-06-12 13:43:59] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post8.tar.gz]
+[2023-06-12 13:43:59] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
+[2023-06-12 13:43:59] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-12 13:44:18] INFO root fetch - processPackages [fintech]: Remove: archive file [/home/abi/fetcher/tmp/fintech-7.2.6-cp39-none-any.whl.zip]
+[2023-06-12 13:44:18] INFO root fetch - processPackages [fintech]: Remove: archive file [/home/abi/fetcher/tmp/fintech-7.2.9-cp39-none-any.whl.zip]
+[2023-06-12 13:44:18] INFO root fetch - main [MainThread]: End processing [fintech]: success
+[2023-06-12 13:44:42] INFO root fetch - processPackages [fonttools]: Remove: archive file [/home/abi/fetcher/tmp/fonttools-4.8.1.zip]
+[2023-06-12 13:44:42] INFO root fetch - processPackages [fonttools]: Remove: archive file [/home/abi/fetcher/tmp/fonttools-4.9.0.zip]
+[2023-06-12 13:44:42] INFO root fetch - main [MainThread]: End processing [fonttools]: success
+[2023-06-12 13:44:42] INFO root fetch - main [MainThread]: Store serial: [18468233]
