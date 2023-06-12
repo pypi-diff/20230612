@@ -13361,3 +13361,133 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 11:23:49] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-06-12 11:23:49] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-06-12 11:23:49] INFO root fetch - main [MainThread]: Store serial: [18466888]
+[2023-06-12 11:28:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466888]
+[2023-06-12 11:28:59] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proactive-jupyter-kernel
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syneto-api
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: veetility
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-cisco-maintenance
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lollms
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FindJobsTW
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taichu-dataflow
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sciqlopplots
+[2023-06-12 11:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volmdlr
+[2023-06-12 11:28:59] INFO root fetch - processPackages [syneto-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.83]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [FindJobsTW]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [volmdlr]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-12 11:28:59] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-12 11:28:59] INFO root fetch - processPackages [lollms]: Start processing: bohrium-sdk
+[2023-06-12 11:28:59] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-12 11:28:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [sciqlopplots]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-12 11:28:59] INFO root fetch - processPackages [syneto-api]: Downloading https://files.pythonhosted.org/packages/1c/19/06bd4b683f8e92860f1ad9ee3006afc60538679617a3a88b511fe71ce48f/syneto_api-0.2.8.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/5d/2a/2b484ff188ab5f39ca1a1c1c8f77ec28175f142702420f953a98ce15e320/veetility-0.1.83.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/81/dd/e3d5b3a55c3654ec66d572cdf43ac839e88c57e6e832e3aa6c937b397b73/taichu-dataflow-1.0.7.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-12 11:28:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 11:28:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 11:28:59] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-12 11:28:59] INFO root fetch - processPackages [proactive]: Start processing: omnata-plugin-devkit
+[2023-06-12 11:28:59] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/e6/6c/03a664664e38b132a3f01fdb804977d76420ca711cd45c0c96febf33e469/FindJobsTW-0.3.1.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-12 11:28:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-12 11:28:59] INFO root fetch - processPackages [sciqlopplots]: Downloading https://files.pythonhosted.org/packages/3e/8f/f9df507b15ba9825b87b0f557798b0488f44496a46727bfb7dfd13c24116/sciqlopplots-0.4.2-cp39-cp39-win_amd64.whl
+[2023-06-12 11:28:59] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/12/31/b645844be8f36756a645edf291fc5735f81dbdaf8e0506304386b7c29980/bohrium-sdk-0.1.8.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [volmdlr]: Downloading https://files.pythonhosted.org/packages/09/42/2b8ba7ac9567396fe84842962cd7b155740f48857ff15777532a33e566c2/volmdlr-0.9.0.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 11:28:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-12 11:28:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230612/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-12 11:28:59] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e4/27/6bf604a25bb2458a80de6e113a5e7478938a23d9c7100bad80dac3b5e3c8/veetility-0.1.9.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/32/93/3c3f1a53a50872a914ef7bd923957025e61d81d4c628ea5dc23a74a1701f/taichu-dataflow-1.0.8.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-06-12 11:28:59] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.83.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230612/v/veetility/0.1.83-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 11:28:59] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-12 11:28:59] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.7.tar.gz tmp/taichu-dataflow-1.0.8.tar.gz --markdown 20230612/t/taichu-dataflow/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-12 11:28:59] INFO root fetch - processPackages [syneto-api]: Downloading https://files.pythonhosted.org/packages/c1/37/c2e3cad26eda82eb1d8ed0bb5d82f6730c5c42d7b34e3cf1579f56cffc7f/syneto_api-0.2.9.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/87/67/d8d9693475bb10d86ec7174319f3eed43401146359a86b9502b193ed4121/FindJobsTW-1.0.0.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [FindJobsTW]: executing diffoscope
+[2023-06-12 11:28:59] INFO root fetch - processPackages [FindJobsTW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindJobsTW-0.3.1.tar.gz tmp/FindJobsTW-1.0.0.tar.gz --markdown 20230612/F/FindJobsTW/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 11:28:59] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/7a/69/c1b18bda585064b935ede215b1f78f23e04bfb254ec0a416f5c2df04eba1/bohrium-sdk-0.1.9.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [syneto-api]: executing diffoscope
+[2023-06-12 11:28:59] INFO root fetch - processPackages [syneto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syneto_api-0.2.8.tar.gz tmp/syneto_api-0.2.9.tar.gz --markdown 20230612/s/syneto-api/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-12 11:28:59] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-06-12 11:28:59] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.1.8.tar.gz tmp/bohrium-sdk-0.1.9.tar.gz --markdown 20230612/b/bohrium-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 11:28:59] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-12 11:28:59] INFO root fetch - processPackages [sciqlopplots]: Downloading https://files.pythonhosted.org/packages/ee/8a/42f48c3d8769c48bdd29da9b247349726a09628d5450ae89cd55692651ae/sciqlopplots-0.4.3-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-12 11:29:00] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-12 11:29:00] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230612/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 11:29:00] INFO root fetch - processPackages [sciqlopplots]: executing diffoscope
+[2023-06-12 11:29:00] INFO root fetch - processPackages [sciqlopplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciqlopplots-0.4.2-cp39-cp39-win_amd64.whl.zip tmp/sciqlopplots-0.4.3-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230612/s/sciqlopplots/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-12 11:29:00] INFO root fetch - processPackages [volmdlr]: Downloading https://files.pythonhosted.org/packages/a8/d1/8a4801e30f906c5566a77e73e037cc0afd278016a553e00cf8f08050aa1c/volmdlr-0.9.1.tar.gz
+[2023-06-12 11:29:00] INFO root fetch - processPackages [volmdlr]: executing diffoscope
+[2023-06-12 11:29:00] INFO root fetch - processPackages [volmdlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volmdlr-0.9.0.tar.gz tmp/volmdlr-0.9.1.tar.gz --markdown 20230612/v/volmdlr/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-12 11:29:01] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.7.tar.gz]
+[2023-06-12 11:29:01] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.8.tar.gz]
+[2023-06-12 11:29:01] INFO root fetch - processPackages [taichu-dataflow]: Start processing: horovod
+[2023-06-12 11:29:01] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-12 11:29:01] INFO root fetch - processPackages [horovod]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [horovod]: Downloading https://files.pythonhosted.org/packages/11/48/e56cb33974a7fc24252e304e7e60b7b892eb7c1093099493913880b6f4ce/horovod-0.9.8.tar.gz
+[2023-06-12 11:29:02] INFO root fetch - processPackages [syneto-api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.8.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [syneto-api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.9.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [syneto-api]: Start processing: logging-ldp
+[2023-06-12 11:29:02] INFO root fetch - main [MainThread]: End processing [syneto-api]: success
+[2023-06-12 11:29:02] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.3.1.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-1.0.0.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [FindJobsTW]: Start processing: foundry-dev-tools
+[2023-06-12 11:29:02] INFO root fetch - main [MainThread]: End processing [FindJobsTW]: success
+[2023-06-12 11:29:02] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.83.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.9.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-06-12 11:29:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 11:29:02] INFO root fetch - processPackages [logging-ldp]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [foundry-dev-tools]: New version: [1.1] Old Version: [1.0.9]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-12 11:29:02] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-12 11:29:02] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.1.8.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.1.9.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-06-12 11:29:02] INFO root fetch - processPackages [logging-ldp]: Downloading https://files.pythonhosted.org/packages/7c/d6/bfbe513cce9018287496517ca575b6e7a82bf183c6e1e07424f68d53968c/logging-ldp-0.0.6.tar.gz
+[2023-06-12 11:29:02] INFO root fetch - processPackages [horovod]: Downloading https://files.pythonhosted.org/packages/2c/c4/cd8d9d1136465e6f23a535cc4c49fad24da92982f1275d7c38a564d5417b/horovod-0.9.9.tar.gz
+[2023-06-12 11:29:02] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/ea/12/386e1fae0abdb75baae2b8441b6470178841a7c54318b5bb4f1697149dd1/foundry-dev-tools-1.0.9.tar.gz
+[2023-06-12 11:29:02] INFO root fetch - processPackages [horovod]: executing diffoscope
+[2023-06-12 11:29:02] INFO root fetch - processPackages [horovod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horovod-0.9.8.tar.gz tmp/horovod-0.9.9.tar.gz --markdown 20230612/h/horovod/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 11:29:02] INFO root fetch - processPackages [logging-ldp]: Downloading https://files.pythonhosted.org/packages/0a/6d/f0653145b5e47718f95e236f3ca3f6845218536254ca0b329749af8156aa/logging-ldp-0.0.7.tar.gz
+[2023-06-12 11:29:02] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-12 11:29:02] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-12 11:29:03] INFO root fetch - processPackages [logging-ldp]: executing diffoscope
+[2023-06-12 11:29:03] INFO root fetch - processPackages [logging-ldp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-ldp-0.0.6.tar.gz tmp/logging-ldp-0.0.7.tar.gz --markdown 20230612/l/logging-ldp/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 11:29:03] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/bd/a3/f897437dc816e8a1e26925baf6afe00c418eeb261a0eb32eef747d9c4bbd/foundry-dev-tools-1.1.tar.gz
+[2023-06-12 11:29:03] INFO root fetch - processPackages [foundry-dev-tools]: executing diffoscope
+[2023-06-12 11:29:03] INFO root fetch - processPackages [foundry-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundry-dev-tools-1.0.9.tar.gz tmp/foundry-dev-tools-1.1.tar.gz --markdown 20230612/f/foundry-dev-tools/1.0.9-1.1/diff.md --exclude *.pyd
+[2023-06-12 11:29:04] INFO root fetch - processPackages [horovod]: Remove: archive file [/home/abi/fetcher/tmp/horovod-0.9.8.tar.gz]
+[2023-06-12 11:29:04] INFO root fetch - processPackages [horovod]: Remove: archive file [/home/abi/fetcher/tmp/horovod-0.9.9.tar.gz]
+[2023-06-12 11:29:04] INFO root fetch - main [MainThread]: End processing [horovod]: success
+[2023-06-12 11:29:04] INFO root fetch - processPackages [logging-ldp]: Remove: archive file [/home/abi/fetcher/tmp/logging-ldp-0.0.6.tar.gz]
+[2023-06-12 11:29:04] INFO root fetch - processPackages [logging-ldp]: Remove: archive file [/home/abi/fetcher/tmp/logging-ldp-0.0.7.tar.gz]
+[2023-06-12 11:29:04] INFO root fetch - main [MainThread]: End processing [logging-ldp]: success
+[2023-06-12 11:29:04] INFO root fetch - processPackages [sciqlopplots]: Remove: archive file [/home/abi/fetcher/tmp/sciqlopplots-0.4.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 11:29:04] INFO root fetch - processPackages [sciqlopplots]: Remove: archive file [/home/abi/fetcher/tmp/sciqlopplots-0.4.3-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-06-12 11:29:04] INFO root fetch - main [MainThread]: End processing [sciqlopplots]: success
+[2023-06-12 11:29:05] INFO root fetch - processPackages [volmdlr]: Remove: archive file [/home/abi/fetcher/tmp/volmdlr-0.9.0.tar.gz]
+[2023-06-12 11:29:05] INFO root fetch - processPackages [volmdlr]: Remove: archive file [/home/abi/fetcher/tmp/volmdlr-0.9.1.tar.gz]
+[2023-06-12 11:29:05] INFO root fetch - main [MainThread]: End processing [volmdlr]: success
+[2023-06-12 11:29:07] INFO root fetch - processPackages [foundry-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/foundry-dev-tools-1.0.9.tar.gz]
+[2023-06-12 11:29:07] INFO root fetch - processPackages [foundry-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/foundry-dev-tools-1.1.tar.gz]
+[2023-06-12 11:29:07] INFO root fetch - main [MainThread]: End processing [foundry-dev-tools]: success
+[2023-06-12 11:29:07] INFO root fetch - main [MainThread]: Store serial: [18466946]
