@@ -3574,3 +3574,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 04:00:24] INFO root fetch - main [MainThread]: End processing [hilbert-prop-logic]: success
 [2023-06-12 04:00:26] INFO root fetch - main [MainThread]: End processing [hilbert-prop-logic]: success
 [2023-06-12 04:00:26] INFO root fetch - main [MainThread]: Store serial: [18462812]
+[2023-06-12 04:05:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462812]
+[2023-06-12 04:05:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-common-task-system
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spPersist
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lab-partner-utils
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-dataworks-public
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-fortune
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-dataworks-public20200518-py2
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taichu-dataflow
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pxm-liuyi778-Stable
+[2023-06-12 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-dataworks-public20200518
+[2023-06-12 04:05:36] INFO root fetch - processPackages [django-common-task-system]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-12 04:05:36] INFO root fetch - processPackages [lab-partner-utils]: New version: [0.7.55] Old Version: [0.7.54]
+[2023-06-12 04:05:36] INFO root fetch - processPackages [yplib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-12 04:05:36] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-12 04:05:36] INFO root fetch - processPackages [spPersist]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-12 04:05:36] WARNING root fetch - processPackages [pxm-liuyi778-Stable]: Skipping, unable to determine old version
+[2023-06-12 04:05:36] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: New version: [4.2.8] Old Version: [4.2.7]
+[2023-06-12 04:05:36] INFO root fetch - processPackages [pxm-liuyi778-Stable]: Start processing: lab-partner
+[2023-06-12 04:05:36] INFO root fetch - main [MainThread]: End processing [pxm-liuyi778-Stable] error
+[2023-06-12 04:05:36] INFO root fetch - processPackages [nonebot-plugin-fortune]: New version: [0.4.9rc1] Old Version: [0.4.9a2]
+[2023-06-12 04:05:36] WARNING root fetch - processPackages [taichu-dataflow]: Skipping, unable to determine old version
+[2023-06-12 04:05:36] INFO root fetch - main [MainThread]: End processing [taichu-dataflow] error
+[2023-06-12 04:05:36] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-06-12 04:05:37] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b1/a8/872f0a91041518a75ccffdc49a3103262ff2588061a9514e13e97a30f06f/yplib-0.2.0.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [lab-partner]: New version: [0.7.55] Old Version: [0.7.54]
+[2023-06-12 04:05:37] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/4d/45/07eb8fd2eab6f759bc86e48bc81fc498d09e8ce199a5a77ee4074cd076eb/spPersist-0.4.3.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/05/55/0c8f5b2fddbbfd474f9a97ed987470791582d51ba0b1ca5bdbf382844b0c/lab-partner-utils-0.7.54.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/cc/3c/11d3ff498eeb5108a6c639cea91c7c760fd56827e3039fa3d0561914f0a7/lab-partner-0.7.54.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/aa/f1/4fab3a61e64f15ee672104cf40f0a28b4034a59828447fbeb50b23dbe718/django-common-task-system-1.3.4.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Downloading https://files.pythonhosted.org/packages/db/42/01ead8cbac8088ff85a740aff563b9a37cf3380f20202231ff4a824a03d9/alibabacloud_dataworks-public20200518_py2-1.2.8.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Downloading https://files.pythonhosted.org/packages/96/49/e76efcaa20369f76904f8af3a66c1ea97bc4e02faa5b11ce86611fe55043/aliyun-python-sdk-dataworks-public-4.2.7.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [nonebot-plugin-fortune]: Downloading https://files.pythonhosted.org/packages/4e/20/8fc93ac82cbc777f4a70b35516b47e355884afd6ec4981bbdd8ad0254007/nonebot_plugin_fortune-0.4.9a2.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Downloading https://files.pythonhosted.org/packages/99/04/796943d2401dd0845e07a997ad57d07fac2c1743f842805c5ae0a477185d/alibabacloud_dataworks-public20200518-4.4.8.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/27/ce/9ce87832abc21e877329191656c1127e3909cb06088b28b1c47840afff1b/yplib-0.2.1.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/7c/f1/9b197aa6630b25e2aa2c98deef5cde0e85a4ddf3fed0e546e199f73d77ba/spPersist-0.4.4.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/82/ca/e9d6213a5a1c3f830015e6febc857860fa51f7dcc6b6691c5d91a7934fb2/lab-partner-utils-0.7.55.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/d1/f1/7a1d442d34a9798a7a925bee1b83e187f8c2e4cd457a2957856e9910446a/django-common-task-system-1.3.5.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/82/24/05ec769d7c94068a0ed14d980c9c1919e31c99c3baafe33ca275137809eb/lab-partner-0.7.55.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [django-common-task-system]: executing diffoscope
+[2023-06-12 04:05:37] INFO root fetch - processPackages [django-common-task-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-task-system-1.3.4.tar.gz tmp/django-common-task-system-1.3.5.tar.gz --markdown 20230612/d/django-common-task-system/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-12 04:05:37] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-12 04:05:37] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.2.0.tar.gz tmp/yplib-0.2.1.tar.gz --markdown 20230612/y/yplib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 04:05:37] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 04:05:37] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.4.3.tar.gz tmp/spPersist-0.4.4.tar.gz --markdown 20230612/s/spPersist/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-12 04:05:37] INFO root fetch - processPackages [lab-partner-utils]: executing diffoscope
+[2023-06-12 04:05:37] INFO root fetch - processPackages [lab-partner-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-utils-0.7.54.tar.gz tmp/lab-partner-utils-0.7.55.tar.gz --markdown 20230612/l/lab-partner-utils/0.7.54-0.7.55/diff.md --exclude *.pyd
+[2023-06-12 04:05:37] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Downloading https://files.pythonhosted.org/packages/10/7f/f55cee23a21153825ef3412ade4e162186ec3bed30e2e027b784079e078c/alibabacloud_dataworks-public20200518_py2-1.2.9.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Downloading https://files.pythonhosted.org/packages/9d/1f/9448cb47b0fd187eb640e3e369fa3006b94966c58946dd401fef7e2ae80f/alibabacloud_dataworks-public20200518-4.4.9.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [lab-partner]: executing diffoscope
+[2023-06-12 04:05:37] INFO root fetch - processPackages [lab-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-0.7.54.tar.gz tmp/lab-partner-0.7.55.tar.gz --markdown 20230612/l/lab-partner/0.7.54-0.7.55/diff.md --exclude *.pyd
+[2023-06-12 04:05:37] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Downloading https://files.pythonhosted.org/packages/66/7b/40e839eef2e07cdd5d4feac12d689f8e31edb282dab80793f438c618762d/aliyun-python-sdk-dataworks-public-4.2.8.tar.gz
+[2023-06-12 04:05:37] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: executing diffoscope
+[2023-06-12 04:05:37] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dataworks-public20200518_py2-1.2.8.tar.gz tmp/alibabacloud_dataworks-public20200518_py2-1.2.9.tar.gz --markdown 20230612/a/alibabacloud-dataworks-public20200518-py2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-12 04:05:37] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: executing diffoscope
+[2023-06-12 04:05:37] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dataworks-public20200518-4.4.8.tar.gz tmp/alibabacloud_dataworks-public20200518-4.4.9.tar.gz --markdown 20230612/a/alibabacloud-dataworks-public20200518/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-06-12 04:05:37] WARNING root fetch - processPackages [nonebot-plugin-fortune]: Skipping package: exceeds size limit 12459592>=10485760
+[2023-06-12 04:05:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fortune] error
+[2023-06-12 04:05:37] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: executing diffoscope
+[2023-06-12 04:05:37] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dataworks-public-4.2.7.tar.gz tmp/aliyun-python-sdk-dataworks-public-4.2.8.tar.gz --markdown 20230612/a/aliyun-python-sdk-dataworks-public/4.2.7-4.2.8/diff.md --exclude *.pyd
+[2023-06-12 04:05:38] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.0.tar.gz]
+[2023-06-12 04:05:38] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.1.tar.gz]
+[2023-06-12 04:05:38] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-12 04:05:38] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.54.tar.gz]
+[2023-06-12 04:05:38] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.55.tar.gz]
+[2023-06-12 04:05:38] INFO root fetch - main [MainThread]: End processing [lab-partner-utils]: success
+[2023-06-12 04:05:39] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.54.tar.gz]
+[2023-06-12 04:05:39] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.55.tar.gz]
+[2023-06-12 04:05:39] INFO root fetch - main [MainThread]: End processing [lab-partner]: success
+[2023-06-12 04:05:39] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.3.tar.gz]
+[2023-06-12 04:05:39] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.4.tar.gz]
+[2023-06-12 04:05:39] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 04:05:39] INFO root fetch - processPackages [django-common-task-system]: Remove: archive file [/home/abi/fetcher/tmp/django-common-task-system-1.3.4.tar.gz]
+[2023-06-12 04:05:39] INFO root fetch - processPackages [django-common-task-system]: Remove: archive file [/home/abi/fetcher/tmp/django-common-task-system-1.3.5.tar.gz]
+[2023-06-12 04:05:39] INFO root fetch - main [MainThread]: End processing [django-common-task-system]: success
+[2023-06-12 04:05:40] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dataworks-public-4.2.7.tar.gz]
+[2023-06-12 04:05:40] INFO root fetch - processPackages [aliyun-python-sdk-dataworks-public]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dataworks-public-4.2.8.tar.gz]
+[2023-06-12 04:05:40] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dataworks-public]: success
+[2023-06-12 04:05:41] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518_py2-1.2.8.tar.gz]
+[2023-06-12 04:05:41] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518_py2-1.2.9.tar.gz]
+[2023-06-12 04:05:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-dataworks-public20200518-py2]: success
+[2023-06-12 04:05:42] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518-4.4.8.tar.gz]
+[2023-06-12 04:05:42] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518-4.4.9.tar.gz]
+[2023-06-12 04:05:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-dataworks-public20200518]: success
+[2023-06-12 04:05:42] INFO root fetch - main [MainThread]: Store serial: [18462851]
