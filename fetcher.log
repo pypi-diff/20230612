@@ -9571,3 +9571,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 08:44:14] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.4.tar.gz]
 [2023-06-12 08:44:14] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
 [2023-06-12 08:44:14] INFO root fetch - main [MainThread]: Store serial: [18465269]
+[2023-06-12 08:49:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465269]
+[2023-06-12 08:49:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-12 08:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlsuite
+[2023-06-12 08:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: revolution.py
+[2023-06-12 08:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CalibrationCurve
+[2023-06-12 08:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cd2t
+[2023-06-12 08:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: revolution.py
+[2023-06-12 08:49:25] INFO root fetch - processPackages [mlsuite]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-06-12 08:49:25] INFO root fetch - processPackages [cd2t]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-12 08:49:25] INFO root fetch - processPackages [revolution.py]: New version: [5.0.0.8] Old Version: [5.0.0.7]
+[2023-06-12 08:49:25] INFO root fetch - processPackages [revolution.py]: New version: [5.0.0.8] Old Version: [5.0.0.7]
+[2023-06-12 08:49:25] WARNING root fetch - processPackages [CalibrationCurve]: Skipping, unable to determine old version
+[2023-06-12 08:49:25] INFO root fetch - main [MainThread]: End processing [CalibrationCurve] error
+[2023-06-12 08:49:25] INFO root fetch - processPackages [cd2t]: Downloading https://files.pythonhosted.org/packages/49/d7/510829701627186f5a77bc0e291da85dae8c81d202b395bf42f6f2fda764/cd2t-2.0.1.tar.gz
+[2023-06-12 08:49:25] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/0d/69/127e4e37f36798d9c20b96fc67b77e6f26f0a393dd2ec65d9d6beca9ff29/revolution.py-5.0.0.7.tar.gz
+[2023-06-12 08:49:25] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/0d/69/127e4e37f36798d9c20b96fc67b77e6f26f0a393dd2ec65d9d6beca9ff29/revolution.py-5.0.0.7.tar.gz
+[2023-06-12 08:49:25] INFO root fetch - processPackages [mlsuite]: Downloading https://files.pythonhosted.org/packages/fb/44/e0512b7e38ad75d532d25d4735c2af5a3d17409014001190285e34bbc636/mlsuite-2.1.4.tar.gz
+[2023-06-12 08:49:25] INFO root fetch - processPackages [cd2t]: Downloading https://files.pythonhosted.org/packages/c7/7c/b3a2d02a835bc6b147ba9ebbcbbc0d1a10c3a131d6971104db40c816661b/cd2t-2.0.2.tar.gz
+[2023-06-12 08:49:25] INFO root fetch - processPackages [cd2t]: executing diffoscope
+[2023-06-12 08:49:25] INFO root fetch - processPackages [cd2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cd2t-2.0.1.tar.gz tmp/cd2t-2.0.2.tar.gz --markdown 20230612/c/cd2t/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-12 08:49:25] INFO root fetch - processPackages [mlsuite]: Downloading https://files.pythonhosted.org/packages/d2/c7/ee5fc772d93fb2b3b094516d014ed8d5ec9f056cb5685a3fd9da2d64a619/mlsuite-2.1.5.tar.gz
+[2023-06-12 08:49:25] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/74/0c/5da97a9a20d9ea27068286b7ef22974df71b9790ea3aefb97c1d9af66faf/revolution.py-5.0.0.8.tar.gz
+[2023-06-12 08:49:25] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/74/0c/5da97a9a20d9ea27068286b7ef22974df71b9790ea3aefb97c1d9af66faf/revolution.py-5.0.0.8.tar.gz
+[2023-06-12 08:49:26] INFO root fetch - processPackages [mlsuite]: executing diffoscope
+[2023-06-12 08:49:26] INFO root fetch - processPackages [mlsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsuite-2.1.4.tar.gz tmp/mlsuite-2.1.5.tar.gz --markdown 20230612/m/mlsuite/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-06-12 08:49:26] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-06-12 08:49:26] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.0.7.tar.gz tmp/revolution.py-5.0.0.8.tar.gz --markdown 20230612/r/revolution.py/5.0.0.7-5.0.0.8/diff.md --exclude *.pyd
+[2023-06-12 08:49:26] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-06-12 08:49:26] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.0.7.tar.gz tmp/revolution.py-5.0.0.8.tar.gz --markdown 20230612/r/revolution.py/5.0.0.7-5.0.0.8/diff.md --exclude *.pyd
+[2023-06-12 08:49:27] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.7.tar.gz]
+[2023-06-12 08:49:27] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.8.tar.gz]
+[2023-06-12 08:49:27] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-06-12 08:49:27] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-06-12 08:49:27] INFO root fetch - processPackages [mlsuite]: Remove: archive file [/home/abi/fetcher/tmp/mlsuite-2.1.4.tar.gz]
+[2023-06-12 08:49:27] INFO root fetch - processPackages [mlsuite]: Remove: archive file [/home/abi/fetcher/tmp/mlsuite-2.1.5.tar.gz]
+[2023-06-12 08:49:27] INFO root fetch - main [MainThread]: End processing [mlsuite]: success
+[2023-06-12 08:49:28] INFO root fetch - processPackages [cd2t]: Remove: archive file [/home/abi/fetcher/tmp/cd2t-2.0.1.tar.gz]
+[2023-06-12 08:49:28] INFO root fetch - processPackages [cd2t]: Remove: archive file [/home/abi/fetcher/tmp/cd2t-2.0.2.tar.gz]
+[2023-06-12 08:49:28] INFO root fetch - main [MainThread]: End processing [cd2t]: success
+[2023-06-12 08:49:28] INFO root fetch - main [MainThread]: Store serial: [18465289]
