@@ -1938,3 +1938,104 @@
 [2023-06-12 02:22:21] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.9.tar.gz]
 [2023-06-12 02:22:21] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
 [2023-06-12 02:22:21] INFO root fetch - main [MainThread]: Store serial: [18462163]
+[2023-06-12 02:27:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462163]
+[2023-06-12 02:27:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-pipelines-github
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-ethereum-node
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-cr-constructs
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-gitlab-runner
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: low-cost-ecs
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: six-python
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.ecs-codedeploy
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-aurora-globaldatabase
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-24
+[2023-06-12 02:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: commandeft
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk-pipelines-github]: New version: [0.4.9] Old Version: [0.4.85]
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-12 02:27:30] WARNING root fetch - processPackages [commandeft]: Skipping, unable to determine old version
+[2023-06-12 02:27:30] INFO root fetch - processPackages [commandeft]: Start processing: cdk-docker-image-deployment
+[2023-06-12 02:27:30] INFO root fetch - processPackages [six-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 02:27:30] INFO root fetch - processPackages [low-cost-ecs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 02:27:30] INFO root fetch - main [MainThread]: End processing [commandeft] error
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-12 02:27:30] INFO root fetch - processPackages [six-python]: Downloading https://files.pythonhosted.org/packages/c0/be/4513f142323c2556630a44cd1877825c5fd8fc3c53ed47f3f3b044061c7d/six-python-0.1.1.tar.gz
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/c6/34/cef791c667d067a7923df4169adb57934467590c903d5f58c9e5be5a7759/cdklabs.ecs-codedeploy-0.0.98.tar.gz
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/d7/a4/7a3511d833089e8e3eae8ccf05eea07d37e3b28a3cbb43ee467756ea30dc/cdk-pipelines-github-0.4.85.tar.gz
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-06-12 02:27:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/07/40/e9142a10d6b901d0892bcfbb1046c7e8773e2bef15a1f7d79d82c1d2cafb/low-cost-ecs-0.0.8.tar.gz
+[2023-06-12 02:27:31] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: naluconfigs
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/32/d6/43cc31093e5335204bbb8629fe11154ff7ebd2508f020ee399403b503b2c/cdklabs.ecs-codedeploy-0.0.99.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [six-python]: Downloading https://files.pythonhosted.org/packages/94/bc/23b0efa0c58df8adbd24eeb671428c8951bd469f62624315f5ea6d2a3bbb/six-python-0.1.2.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [naluconfigs]: New version: [11.0.2] Old Version: [11.0.1]
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/b1/0e/cb0035067dedba512029c31ab742dbc8a6c754acf5fad57c643486f7f658/naluconfigs-11.0.1.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230612/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230612/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-12 02:27:31] INFO root fetch - processPackages [six-python]: executing diffoscope
+[2023-06-12 02:27:31] INFO root fetch - processPackages [six-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/six-python-0.1.1.tar.gz tmp/six-python-0.1.2.tar.gz --markdown 20230612/s/six-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230612/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/88/a7/cf7d8bb4ea84150b1b05dca2ef8a82fdf7aa4be753a00f77c09bc57e8f51/cdk-pipelines-github-0.4.9.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-pipelines-github]: executing diffoscope
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-pipelines-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pipelines-github-0.4.85.tar.gz tmp/cdk-pipelines-github-0.4.9.tar.gz --markdown 20230612/c/cdk-pipelines-github/0.4.85-0.4.9/diff.md --exclude *.pyd
+[2023-06-12 02:27:31] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/25/e9/951a33a4e15a2784356f86fcca59e46f0150efca78a2cb2c4e9c1455bfaf/naluconfigs-11.0.2.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230612/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-12 02:27:31] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/f8/e2/870bffe92129bd52bf49ffe3cc71a2072a6e2f34270a3241e7c54c1e7df4/low-cost-ecs-0.0.9.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [naluconfigs]: executing diffoscope
+[2023-06-12 02:27:31] INFO root fetch - processPackages [naluconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naluconfigs-11.0.1.tar.gz tmp/naluconfigs-11.0.2.tar.gz --markdown 20230612/n/naluconfigs/11.0.1-11.0.2/diff.md --exclude *.pyd
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-06-12 02:27:31] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230612/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 02:27:31] INFO root fetch - processPackages [low-cost-ecs]: executing diffoscope
+[2023-06-12 02:27:31] INFO root fetch - processPackages [low-cost-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/low-cost-ecs-0.0.8.tar.gz tmp/low-cost-ecs-0.0.9.tar.gz --markdown 20230612/l/low-cost-ecs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 02:27:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-06-12 02:27:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-06-12 02:27:32] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-06-12 02:27:32] INFO root fetch - processPackages [six-python]: Remove: archive file [/home/abi/fetcher/tmp/six-python-0.1.1.tar.gz]
+[2023-06-12 02:27:32] INFO root fetch - processPackages [six-python]: Remove: archive file [/home/abi/fetcher/tmp/six-python-0.1.2.tar.gz]
+[2023-06-12 02:27:32] INFO root fetch - main [MainThread]: End processing [six-python]: success
+[2023-06-12 02:27:33] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.8.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.9.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - main [MainThread]: End processing [low-cost-ecs]: success
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.85.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.9.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - main [MainThread]: End processing [cdk-pipelines-github]: success
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-12 02:27:33] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-12 02:27:33] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-06-12 02:27:35] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.0.1.tar.gz]
+[2023-06-12 02:27:35] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.0.2.tar.gz]
+[2023-06-12 02:27:35] INFO root fetch - main [MainThread]: End processing [naluconfigs]: success
+[2023-06-12 02:27:36] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-06-12 02:27:36] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230612/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 02:27:38] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-06-12 02:27:38] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-06-12 02:27:38] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-06-12 02:27:38] INFO root fetch - main [MainThread]: Store serial: [18462209]
