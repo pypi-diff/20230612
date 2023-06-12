@@ -17435,3 +17435,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 14:33:44] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.90.tar.gz]
 [2023-06-12 14:33:44] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-06-12 14:33:44] INFO root fetch - main [MainThread]: Store serial: [18468673]
+[2023-06-12 14:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468673]
+[2023-06-12 14:38:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 14:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytket
+[2023-06-12 14:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-06-12 14:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solidityscan
+[2023-06-12 14:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2023-06-12 14:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boosty
+[2023-06-12 14:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-extractor-utils
+[2023-06-12 14:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: getmodelspec
+[2023-06-12 14:38:54] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.36] Old Version: [1.0.351]
+[2023-06-12 14:38:54] INFO root fetch - processPackages [boosty]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 14:38:54] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-12 14:38:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 14:38:54] INFO root fetch - processPackages [pytket]: New version: [1.9.1rc0] Old Version: [1.9.1]
+[2023-06-12 14:38:54] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/49/8b/bd7cddee7cd278ab81fa3a3c17ba8aed9260ad57d6f66e57357ad52af798/getmodelspec-1.0.351.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [solidityscan]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-12 14:38:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [boosty]: Downloading https://files.pythonhosted.org/packages/4d/63/bd615c7903f671439466cef4b392e8f4259485eb88dbdd802dcc8d0b39c5/boosty-0.0.7.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [cognite-extractor-utils]: New version: [5.1.0] Old Version: [5.0.1]
+[2023-06-12 14:38:54] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/0b/0f/8db0fcfa7fde7115dd5863cd5b1f5533be347fbad99aaa158e2c9fa0a3a5/pytket-1.9.1-cp39-cp39-win_amd64.whl
+[2023-06-12 14:38:54] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10528667>=10485760
+[2023-06-12 14:38:54] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2023-06-12 14:38:54] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/12/12/a0766a48accb48b351be1b2a606347c06c7af90d7e6e010a21caa5d223fd/getmodelspec-1.0.36.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [boosty]: Downloading https://files.pythonhosted.org/packages/07/3e/cdaa67102010d3fbf84414fa8d2c76e4c9a852657ff25ba1b56d46186b10/boosty-0.0.8.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [boosty]: executing diffoscope
+[2023-06-12 14:38:54] INFO root fetch - processPackages [boosty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boosty-0.0.7.tar.gz tmp/boosty-0.0.8.tar.gz --markdown 20230612/b/boosty/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 14:38:54] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-12 14:38:54] INFO root fetch - processPackages [solidityscan]: Downloading https://files.pythonhosted.org/packages/8b/d4/125d89581abe1ad8407f9131c94671f570460dd16936d463c43864271a58/solidityscan-0.1.4.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230612/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-12 14:38:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 14:38:54] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-12 14:38:54] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.351.tar.gz tmp/getmodelspec-1.0.36.tar.gz --markdown 20230612/g/getmodelspec/1.0.351-1.0.36/diff.md --exclude *.pyd
+[2023-06-12 14:38:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 14:38:54] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/a9/65/bf03f505359adb8c2faa309c9b44f82f0be4857b1ee91558a03a1451b0e9/cognite_extractor_utils-5.0.1.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [solidityscan]: Downloading https://files.pythonhosted.org/packages/cf/6c/d45e28e9354001330b2cf76e3f43003b94ba500295da02630a15a49c3dc1/solidityscan-0.1.5.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [solidityscan]: executing diffoscope
+[2023-06-12 14:38:54] INFO root fetch - processPackages [solidityscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidityscan-0.1.4.tar.gz tmp/solidityscan-0.1.5.tar.gz --markdown 20230612/s/solidityscan/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-12 14:38:54] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/9a/cd/1391e448bd1db7d8e85a90bb3288b7d130abf624a54297bca1e62386fc2f/cognite_extractor_utils-5.1.0.tar.gz
+[2023-06-12 14:38:54] INFO root fetch - processPackages [cognite-extractor-utils]: executing diffoscope
+[2023-06-12 14:38:54] INFO root fetch - processPackages [cognite-extractor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_utils-5.0.1.tar.gz tmp/cognite_extractor_utils-5.1.0.tar.gz --markdown 20230612/c/cognite-extractor-utils/5.0.1-5.1.0/diff.md --exclude *.pyd
+[2023-06-12 14:38:55] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.351.tar.gz]
+[2023-06-12 14:38:55] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.36.tar.gz]
+[2023-06-12 14:38:55] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-12 14:38:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 14:38:55] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 14:38:55] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 14:38:55] INFO root fetch - processPackages [solidityscan]: Remove: archive file [/home/abi/fetcher/tmp/solidityscan-0.1.4.tar.gz]
+[2023-06-12 14:38:55] INFO root fetch - processPackages [solidityscan]: Remove: archive file [/home/abi/fetcher/tmp/solidityscan-0.1.5.tar.gz]
+[2023-06-12 14:38:55] INFO root fetch - main [MainThread]: End processing [solidityscan]: success
+[2023-06-12 14:38:55] INFO root fetch - processPackages [boosty]: Remove: archive file [/home/abi/fetcher/tmp/boosty-0.0.7.tar.gz]
+[2023-06-12 14:38:55] INFO root fetch - processPackages [boosty]: Remove: archive file [/home/abi/fetcher/tmp/boosty-0.0.8.tar.gz]
+[2023-06-12 14:38:55] INFO root fetch - main [MainThread]: End processing [boosty]: success
+[2023-06-12 14:38:56] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-5.0.1.tar.gz]
+[2023-06-12 14:38:56] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-5.1.0.tar.gz]
+[2023-06-12 14:38:56] INFO root fetch - main [MainThread]: End processing [cognite-extractor-utils]: success
+[2023-06-12 14:38:56] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-12 14:38:56] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-12 14:38:56] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-12 14:38:56] INFO root fetch - main [MainThread]: Store serial: [18468709]
