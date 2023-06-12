@@ -11917,3 +11917,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:34:17] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
 [2023-06-12 10:34:17] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
 [2023-06-12 10:34:17] INFO root fetch - main [MainThread]: Store serial: [18466240]
+[2023-06-12 10:39:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466240]
+[2023-06-12 10:39:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autodistill-sam-clip
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyriemann-qiskit
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SubTest01
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bx-py-utils
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yoTestfile01
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remoulade
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BigCatfish
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nyangTest
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-grpc-lw-data-provider
+[2023-06-12 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thipster
+[2023-06-12 10:39:26] INFO root fetch - processPackages [pyriemann-qiskit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 10:39:27] WARNING root fetch - processPackages [SubTest01]: Skipping, unable to determine old version
+[2023-06-12 10:39:27] INFO root fetch - processPackages [SubTest01]: Start processing: propdes
+[2023-06-12 10:39:27] INFO root fetch - main [MainThread]: End processing [SubTest01] error
+[2023-06-12 10:39:27] WARNING root fetch - processPackages [BigCatfish]: Skipping, unable to determine old version
+[2023-06-12 10:39:27] INFO root fetch - processPackages [BigCatfish]: Start processing: zipline-tej
+[2023-06-12 10:39:27] WARNING root fetch - processPackages [nyangTest]: Skipping, unable to determine old version
+[2023-06-12 10:39:27] INFO root fetch - processPackages [autodistill-sam-clip]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-06-12 10:39:27] INFO root fetch - main [MainThread]: End processing [BigCatfish] error
+[2023-06-12 10:39:27] INFO root fetch - processPackages [nyangTest]: Start processing: pyunix
+[2023-06-12 10:39:27] WARNING root fetch - processPackages [yoTestfile01]: Skipping, unable to determine old version
+[2023-06-12 10:39:27] INFO root fetch - processPackages [propdes]: New version: [0.3.18] Old Version: [0.3.17]
+[2023-06-12 10:39:27] INFO root fetch - main [MainThread]: End processing [nyangTest] error
+[2023-06-12 10:39:27] INFO root fetch - processPackages [thipster]: New version: [0.16.3] Old Version: [0.16.2]
+[2023-06-12 10:39:27] INFO root fetch - processPackages [yoTestfile01]: Start processing: onebeans
+[2023-06-12 10:39:27] INFO root fetch - main [MainThread]: End processing [yoTestfile01] error
+[2023-06-12 10:39:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5241351840]
+[2023-06-12 10:39:27] INFO root fetch - processPackages [remoulade]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-12 10:39:27] INFO root fetch - processPackages [bx-py-utils]: New version: [9] Old Version: [84]
+[2023-06-12 10:39:27] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 10:39:27] WARNING root fetch - processPackages [pyunix]: Skipping, unable to determine old version
+[2023-06-12 10:39:27] INFO root fetch - processPackages [pyunix]: Start processing: krisi
+[2023-06-12 10:39:27] INFO root fetch - main [MainThread]: End processing [pyunix] error
+[2023-06-12 10:39:27] INFO root fetch - processPackages [propdes]: Downloading https://files.pythonhosted.org/packages/34/43/58a728b1f1422458e58e439f3f5e5e82a7ff2bda17b33ffb933acb712424/propdes-0.3.17.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/9c/82/46c265e541c9f28e33a4fdab58fc08ef6a87921fbe34118daae2f9a8f6a3/thipster-0.16.2.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [autodistill-sam-clip]: Downloading https://files.pythonhosted.org/packages/4b/9a/8a6f12bbed6f09685aacf07bd6d444855f0c5052a0209f01847d22bcbdc8/autodistill-sam-clip-0.0.1.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/39/2f/ae7cea19f0e1efd43f4b781e5d79ecff5ba251266e2c18e37d5bb21a368b/th2_grpc_lw_data_provider-2.0.0.dev5241351840.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [pyriemann-qiskit]: Downloading https://files.pythonhosted.org/packages/9b/1a/699034df8ca2c01a04d178fb15bb37bce421a64cc222ab4b517ec7fe163f/pyriemann-qiskit-0.0.3.tar.gz
+[2023-06-12 10:39:27] WARNING root fetch - processPackages [onebeans]: Skipping, unable to determine old version
+[2023-06-12 10:39:27] INFO root fetch - processPackages [onebeans]: Start processing: liveramp-automation-framework
+[2023-06-12 10:39:27] INFO root fetch - main [MainThread]: End processing [onebeans] error
+[2023-06-12 10:39:27] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/cd/84/2ea5996fdd08c75ad9619dd7f493588aace41f6d1ab582d36d83a83fa9c0/remoulade-1.2.2.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [krisi]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-12 10:39:27] INFO root fetch - processPackages [bx-py-utils]: Downloading https://files.pythonhosted.org/packages/61/d9/f6b00af5ef27d7f5b9533ac7833c6127f4572aceac15735b88aeb9080119/bx_py_utils-84.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 10:39:27] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/c5/44/deaa07d3543d290ffe4b95e374b1d4adadc147c467d7211e12a93b3dff51/liveramp_automation_framework-0.0.6.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/7d/06/8069c18b5578ec635f8dd7d200b7622ae6745a0ba368edebb954e5d73e99/thipster-0.16.3.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [autodistill-sam-clip]: Downloading https://files.pythonhosted.org/packages/53/d4/532b0adbc35b178ab74a36893c9256e4a2099889229168f5ba2cf78faeab/autodistill-sam-clip-0.1.1.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/4e/0d/afca5a1d73f8ae00a8d1b40e0f3b40050b84b3d21372d9ca38c0ea766e3a/krisi-1.0.1.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [pyriemann-qiskit]: Downloading https://files.pythonhosted.org/packages/fa/81/a411b84c0551bc1d3f5ebc64d674c3d72bbacf11fab66e4ba4c7ed47114e/pyriemann-qiskit-0.0.4.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [propdes]: Downloading https://files.pythonhosted.org/packages/a9/56/0ae0fc59c65c47316e0b88bc0a7ac937df648239616a4a96b52fa9198dd1/propdes-0.3.18.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [bx-py-utils]: Downloading https://files.pythonhosted.org/packages/d6/8c/032d7aeb097a01b342559ef69422a284dca168947c68470f75b3ca26e1d2/bx_py_utils-9.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [autodistill-sam-clip]: executing diffoscope
+[2023-06-12 10:39:27] INFO root fetch - processPackages [autodistill-sam-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-sam-clip-0.0.1.tar.gz tmp/autodistill-sam-clip-0.1.1.tar.gz --markdown 20230612/a/autodistill-sam-clip/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 10:39:27] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-12 10:39:27] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230612/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 10:39:27] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/37/ac/da784f8e9681d2b7195e493099744e42546192af58a87090bff6c2cc13e2/liveramp_automation_framework-0.0.7.tar.gz
+[2023-06-12 10:39:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-12 10:39:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5241351840.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230612/t/th2-grpc-lw-data-provider/2.0.0.dev5241351840-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-12 10:39:27] INFO root fetch - processPackages [pyriemann-qiskit]: executing diffoscope
+[2023-06-12 10:39:27] INFO root fetch - processPackages [pyriemann-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriemann-qiskit-0.0.3.tar.gz tmp/pyriemann-qiskit-0.0.4.tar.gz --markdown 20230612/p/pyriemann-qiskit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 10:39:27] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-12 10:39:27] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.16.2.tar.gz tmp/thipster-0.16.3.tar.gz --markdown 20230612/t/thipster/0.16.2-0.16.3/diff.md --exclude *.pyd
+[2023-06-12 10:39:27] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-12 10:39:28] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.0.6.tar.gz tmp/liveramp_automation_framework-0.0.7.tar.gz --markdown 20230612/l/liveramp-automation-framework/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 10:39:28] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/56/db/283f7abd040472bd5101b171b2836fe81e4cdd3d7fd75cb37baf65dcced1/remoulade-1.2.3.tar.gz
+[2023-06-12 10:39:28] INFO root fetch - processPackages [propdes]: executing diffoscope
+[2023-06-12 10:39:28] INFO root fetch - processPackages [propdes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propdes-0.3.17.tar.gz tmp/propdes-0.3.18.tar.gz --markdown 20230612/p/propdes/0.3.17-0.3.18/diff.md --exclude *.pyd
+[2023-06-12 10:39:28] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/92/70/09660b5d325f1744f185d4e60fb00b6a13a224c7b4e81457a58023bc7cd3/krisi-1.1.0.tar.gz
+[2023-06-12 10:39:28] INFO root fetch - processPackages [remoulade]: executing diffoscope
+[2023-06-12 10:39:28] INFO root fetch - processPackages [remoulade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remoulade-1.2.2.tar.gz tmp/remoulade-1.2.3.tar.gz --markdown 20230612/r/remoulade/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-12 10:39:28] INFO root fetch - processPackages [bx-py-utils]: executing diffoscope
+[2023-06-12 10:39:28] INFO root fetch - processPackages [bx-py-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_py_utils-84.tar.gz tmp/bx_py_utils-9.tar.gz --markdown 20230612/b/bx-py-utils/84-9/diff.md --exclude *.pyd
+[2023-06-12 10:39:28] INFO root fetch - processPackages [krisi]: executing diffoscope
+[2023-06-12 10:39:28] INFO root fetch - processPackages [krisi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krisi-1.0.1.tar.gz tmp/krisi-1.1.0.tar.gz --markdown 20230612/k/krisi/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 10:39:29] INFO root fetch - processPackages [autodistill-sam-clip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-sam-clip-0.0.1.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - processPackages [autodistill-sam-clip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-sam-clip-0.1.1.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - processPackages [autodistill-sam-clip]: Start processing: palmers-preprocess
+[2023-06-12 10:39:29] INFO root fetch - main [MainThread]: End processing [autodistill-sam-clip]: success
+[2023-06-12 10:39:29] INFO root fetch - processPackages [palmers-preprocess]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 10:39:29] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.0.6.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.0.7.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-12 10:39:29] INFO root fetch - processPackages [bx-py-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_py_utils-84.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - processPackages [bx-py-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_py_utils-9.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - main [MainThread]: End processing [bx-py-utils]: success
+[2023-06-12 10:39:29] INFO root fetch - processPackages [palmers-preprocess]: Downloading https://files.pythonhosted.org/packages/79/8c/c86c5f243e38cdcaf96f04e06d40845065731d2a293b34e291cd52c96806/palmers_preprocess-0.0.7.tar.gz
+[2023-06-12 10:39:29] INFO root fetch - processPackages [pyriemann-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pyriemann-qiskit-0.0.3.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - processPackages [pyriemann-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pyriemann-qiskit-0.0.4.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - main [MainThread]: End processing [pyriemann-qiskit]: success
+[2023-06-12 10:39:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5241351840.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-12 10:39:29] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-12 10:39:30] INFO root fetch - processPackages [remoulade]: Remove: archive file [/home/abi/fetcher/tmp/remoulade-1.2.2.tar.gz]
+[2023-06-12 10:39:30] INFO root fetch - processPackages [remoulade]: Remove: archive file [/home/abi/fetcher/tmp/remoulade-1.2.3.tar.gz]
+[2023-06-12 10:39:30] INFO root fetch - main [MainThread]: End processing [remoulade]: success
+[2023-06-12 10:39:30] INFO root fetch - processPackages [krisi]: Remove: archive file [/home/abi/fetcher/tmp/krisi-1.0.1.tar.gz]
+[2023-06-12 10:39:30] INFO root fetch - processPackages [krisi]: Remove: archive file [/home/abi/fetcher/tmp/krisi-1.1.0.tar.gz]
+[2023-06-12 10:39:30] INFO root fetch - main [MainThread]: End processing [krisi]: success
+[2023-06-12 10:39:30] INFO root fetch - processPackages [palmers-preprocess]: Downloading https://files.pythonhosted.org/packages/e9/2c/af8be76b5b176ba09aa4d2c709c3cc870cb7d126c85fc35483085379484d/palmers_preprocess-0.0.8.tar.gz
+[2023-06-12 10:39:30] INFO root fetch - processPackages [palmers-preprocess]: executing diffoscope
+[2023-06-12 10:39:30] INFO root fetch - processPackages [palmers-preprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_preprocess-0.0.7.tar.gz tmp/palmers_preprocess-0.0.8.tar.gz --markdown 20230612/p/palmers-preprocess/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 10:39:30] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.2.tar.gz]
+[2023-06-12 10:39:30] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.3.tar.gz]
+[2023-06-12 10:39:30] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-12 10:39:30] INFO root fetch - processPackages [propdes]: Remove: archive file [/home/abi/fetcher/tmp/propdes-0.3.17.tar.gz]
+[2023-06-12 10:39:30] INFO root fetch - processPackages [propdes]: Remove: archive file [/home/abi/fetcher/tmp/propdes-0.3.18.tar.gz]
+[2023-06-12 10:39:30] INFO root fetch - main [MainThread]: End processing [propdes]: success
+[2023-06-12 10:39:31] INFO root fetch - processPackages [palmers-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/palmers_preprocess-0.0.7.tar.gz]
+[2023-06-12 10:39:31] INFO root fetch - processPackages [palmers-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/palmers_preprocess-0.0.8.tar.gz]
+[2023-06-12 10:39:31] INFO root fetch - main [MainThread]: End processing [palmers-preprocess]: success
+[2023-06-12 10:39:33] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-12 10:39:33] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-12 10:39:33] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-12 10:39:33] INFO root fetch - main [MainThread]: Store serial: [18466300]
