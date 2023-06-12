@@ -17876,3 +17876,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 14:55:58] INFO root fetch - processPackages [coop-html-editor]: Remove: archive file [/home/abi/fetcher/tmp/coop_html_editor-1.4.1.tar.gz]
 [2023-06-12 14:55:58] INFO root fetch - main [MainThread]: End processing [coop-html-editor]: success
 [2023-06-12 14:55:58] INFO root fetch - main [MainThread]: Store serial: [18468852]
+[2023-06-12 15:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468852]
+[2023-06-12 15:01:07] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apidev-django-floppyforms
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellseg-models-pytorch
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx-predict-yolov8
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apidev-coop-cms
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: publish-pypi-package
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omjlcomps
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: getise
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dipex
+[2023-06-12 15:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dh-potluck
+[2023-06-12 15:01:07] INFO root fetch - processPackages [apidev-django-floppyforms]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-06-12 15:01:07] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-12 15:01:07] INFO root fetch - processPackages [omjlcomps]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 15:01:07] WARNING root fetch - processPackages [getise]: Skipping, unable to determine old version
+[2023-06-12 15:01:07] INFO root fetch - processPackages [getise]: Start processing: connect-eaas-core
+[2023-06-12 15:01:07] INFO root fetch - main [MainThread]: End processing [getise] error
+[2023-06-12 15:01:07] INFO root fetch - processPackages [onnx-predict-yolov8]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-12 15:01:07] INFO root fetch - processPackages [cellseg-models-pytorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 15:01:07] INFO root fetch - processPackages [publish-pypi-package]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-06-12 15:01:07] INFO root fetch - processPackages [apidev-coop-cms]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-06-12 15:01:07] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-12 15:01:07] INFO root fetch - processPackages [connect-eaas-core]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-06-12 15:01:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 15:01:07] INFO root fetch - processPackages [omjlcomps]: Downloading https://files.pythonhosted.org/packages/f7/0e/0044b5d9497de9c8fb6a6c61fef484ee9eb3634659f569a0fb8ab46e2c80/omjlcomps-0.2.1.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [apidev-django-floppyforms]: Downloading https://files.pythonhosted.org/packages/cf/87/3c7eac2de221f0d43af48d1bcab772d15f4d7899006c290edbd7e0e2e479/apidev_django-floppyforms-1.8.4.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/6c/85/d5529ba47bcfff2278b73467b2003491ff930a8916ec90ab6d347fbd037b/dh-potluck-1.9.0.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/cc/2b/dea815280942b1c045ca9eecfafffe56712d2b8c5e293241f99caf0d825c/connect-eaas-core-4.0.0.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [apidev-coop-cms]: Downloading https://files.pythonhosted.org/packages/25/c6/89f632b00634f14a05ca040136450e3ba0bb22aa576b37df37ab6c555d30/apidev-coop_cms-1.5.9.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [onnx-predict-yolov8]: Downloading https://files.pythonhosted.org/packages/61/d8/0fdb5fc820981b2b9f93655bfe1333ebde72384b78b36c614d30414a9c90/onnx-predict-yolov8-1.0.5.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [publish-pypi-package]: Downloading https://files.pythonhosted.org/packages/46/8a/f5b0ee4cd6f225dd6669b4d6fa5e3f71d5dca292b0f9890c63ffd446e278/publish_pypi_package-0.0.2.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [cellseg-models-pytorch]: Downloading https://files.pythonhosted.org/packages/b6/ac/61535ca1f505b1d4e0566922f165e647ed8ebb0cf85683b9133051dec110/cellseg_models_pytorch-0.1.8.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [omjlcomps]: Downloading https://files.pythonhosted.org/packages/1a/af/17c537c45d61bc5814cf0909d7e425c03b7bf68a705f5c4156e4eb0c18f5/omjlcomps-0.2.2.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 15:01:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 15:01:07] INFO root fetch - processPackages [omjlcomps]: executing diffoscope
+[2023-06-12 15:01:07] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/b8/0e/223cf7857305fa1f3a5dd5f98ef3ffefc0eabf78b1d8512dc021aac41705/connect-eaas-core-4.1.0.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [omjlcomps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omjlcomps-0.2.1.tar.gz tmp/omjlcomps-0.2.2.tar.gz --markdown 20230612/o/omjlcomps/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 15:01:07] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/5d/ea/c5f6e8c82d824dad4198a98dfb092cefc1dfdd950baaf6168a964441a559/dh-potluck-1.9.1.tar.gz
+[2023-06-12 15:01:07] INFO root fetch - processPackages [apidev-django-floppyforms]: Downloading https://files.pythonhosted.org/packages/15/07/bbcb68350bd24c798810c01faeb6cdd9b4a03d48113b252aeca586272d72/apidev_django-floppyforms-1.9.0.tar.gz
+[2023-06-12 15:01:08] INFO root fetch - processPackages [onnx-predict-yolov8]: Downloading https://files.pythonhosted.org/packages/4e/cc/0c88095ab89d7e2cd8f490045ae4ba021dbe54869612dc550c6916a96a36/onnx-predict-yolov8-1.0.6.tar.gz
+[2023-06-12 15:01:08] INFO root fetch - processPackages [publish-pypi-package]: Downloading https://files.pythonhosted.org/packages/4e/93/7e1606ab24ae5440af34503b71aeb825b73a0a17626ab08b40d56cc9c5f8/publish_pypi_package-0.0.5.tar.gz
+[2023-06-12 15:01:08] INFO root fetch - processPackages [connect-eaas-core]: executing diffoscope
+[2023-06-12 15:01:08] INFO root fetch - processPackages [connect-eaas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-eaas-core-4.0.0.tar.gz tmp/connect-eaas-core-4.1.0.tar.gz --markdown 20230612/c/connect-eaas-core/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-06-12 15:01:08] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-12 15:01:08] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230612/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-12 15:01:08] INFO root fetch - processPackages [apidev-coop-cms]: Downloading https://files.pythonhosted.org/packages/98/90/1874934b4e2f2a6a7490b58514e75b946ca796b7d0c285aaee9a2785bb54/apidev-coop_cms-1.6.0.tar.gz
+[2023-06-12 15:01:08] INFO root fetch - processPackages [onnx-predict-yolov8]: executing diffoscope
+[2023-06-12 15:01:08] INFO root fetch - processPackages [onnx-predict-yolov8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx-predict-yolov8-1.0.5.tar.gz tmp/onnx-predict-yolov8-1.0.6.tar.gz --markdown 20230612/o/onnx-predict-yolov8/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-12 15:01:08] INFO root fetch - processPackages [publish-pypi-package]: executing diffoscope
+[2023-06-12 15:01:08] INFO root fetch - processPackages [publish-pypi-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publish_pypi_package-0.0.2.tar.gz tmp/publish_pypi_package-0.0.5.tar.gz --markdown 20230612/p/publish-pypi-package/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 15:01:08] INFO root fetch - processPackages [apidev-django-floppyforms]: executing diffoscope
+[2023-06-12 15:01:08] INFO root fetch - processPackages [apidev-django-floppyforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidev_django-floppyforms-1.8.4.tar.gz tmp/apidev_django-floppyforms-1.9.0.tar.gz --markdown 20230612/a/apidev-django-floppyforms/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-06-12 15:01:08] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-06-12 15:01:08] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230612/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-12 15:01:08] INFO root fetch - processPackages [apidev-coop-cms]: executing diffoscope
+[2023-06-12 15:01:08] INFO root fetch - processPackages [apidev-coop-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidev-coop_cms-1.5.9.tar.gz tmp/apidev-coop_cms-1.6.0.tar.gz --markdown 20230612/a/apidev-coop-cms/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-06-12 15:01:08] INFO root fetch - processPackages [cellseg-models-pytorch]: Downloading https://files.pythonhosted.org/packages/54/43/a70050f7064fef58445e980a7bb4a6cb24bc8a908751431c7d906e1b3ece/cellseg_models_pytorch-0.1.9.tar.gz
+[2023-06-12 15:01:09] INFO root fetch - processPackages [cellseg-models-pytorch]: executing diffoscope
+[2023-06-12 15:01:09] INFO root fetch - processPackages [cellseg-models-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellseg_models_pytorch-0.1.8.tar.gz tmp/cellseg_models_pytorch-0.1.9.tar.gz --markdown 20230612/c/cellseg-models-pytorch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 15:01:10] INFO root fetch - processPackages [publish-pypi-package]: Remove: archive file [/home/abi/fetcher/tmp/publish_pypi_package-0.0.2.tar.gz]
+[2023-06-12 15:01:10] INFO root fetch - processPackages [publish-pypi-package]: Remove: archive file [/home/abi/fetcher/tmp/publish_pypi_package-0.0.5.tar.gz]
+[2023-06-12 15:01:10] INFO root fetch - processPackages [publish-pypi-package]: Start processing: minidevice
+[2023-06-12 15:01:10] INFO root fetch - main [MainThread]: End processing [publish-pypi-package]: success
+[2023-06-12 15:01:10] INFO root fetch - processPackages [onnx-predict-yolov8]: Remove: archive file [/home/abi/fetcher/tmp/onnx-predict-yolov8-1.0.5.tar.gz]
+[2023-06-12 15:01:10] INFO root fetch - processPackages [onnx-predict-yolov8]: Remove: archive file [/home/abi/fetcher/tmp/onnx-predict-yolov8-1.0.6.tar.gz]
+[2023-06-12 15:01:10] INFO root fetch - processPackages [onnx-predict-yolov8]: Start processing: coiled
+[2023-06-12 15:01:10] INFO root fetch - main [MainThread]: End processing [onnx-predict-yolov8]: success
+[2023-06-12 15:01:10] INFO root fetch - processPackages [minidevice]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-12 15:01:10] INFO root fetch - processPackages [coiled]: New version: [0.7.4.dev4] Old Version: [0.7.4.dev3]
+[2023-06-12 15:01:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 15:01:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 15:01:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: foxes
+[2023-06-12 15:01:10] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 15:01:10] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/6a/45/c3f6c78ac57a918f8161f14e3b7340ca24a31bb812160dce92fd6c2cf55b/minidevice-1.0.9.tar.gz
+[2023-06-12 15:01:10] INFO root fetch - processPackages [foxes]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-12 15:01:10] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/d6/1a/70709fa055edec758a365e125abb515c1b5ccfa38f4125d8cfa39b7a5267/coiled-0.7.4.dev3.tar.gz
+[2023-06-12 15:01:11] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.0.0.tar.gz]
+[2023-06-12 15:01:11] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.1.0.tar.gz]
+[2023-06-12 15:01:11] INFO root fetch - processPackages [connect-eaas-core]: Start processing: sintef-pyshop
+[2023-06-12 15:01:11] INFO root fetch - main [MainThread]: End processing [connect-eaas-core]: success
+[2023-06-12 15:01:11] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/7f/76/69ba5bd3ed1f678dbd39a1ee05c25d1f0073d963302d49b91f1117cd6356/foxes-0.3.5.tar.gz
+[2023-06-12 15:01:11] INFO root fetch - processPackages [sintef-pyshop]: New version: [1.4.1a0] Old Version: [1.4.1]
+[2023-06-12 15:01:11] INFO root fetch - processPackages [omjlcomps]: Remove: archive file [/home/abi/fetcher/tmp/omjlcomps-0.2.1.tar.gz]
+[2023-06-12 15:01:11] INFO root fetch - processPackages [omjlcomps]: Remove: archive file [/home/abi/fetcher/tmp/omjlcomps-0.2.2.tar.gz]
+[2023-06-12 15:01:11] INFO root fetch - processPackages [omjlcomps]: Start processing: vollseg
+[2023-06-12 15:01:11] INFO root fetch - main [MainThread]: End processing [omjlcomps]: success
+[2023-06-12 15:01:11] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-12 15:01:11] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.0.tar.gz]
+[2023-06-12 15:01:11] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.1.tar.gz]
+[2023-06-12 15:01:11] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/9d/39/b42a958555b3fff773a1d81713fe2ef9b0f19e1d050a2506061832449900/minidevice-1.1.0.tar.gz
+[2023-06-12 15:01:11] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-06-12 15:01:11] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/fb/66/747e4440a2ea880c661f289718fd246e60d6a8d6ce65ddaef66d2a0f974c/coiled-0.7.4.dev4.tar.gz
+[2023-06-12 15:01:11] INFO root fetch - processPackages [sintef-pyshop]: Downloading https://files.pythonhosted.org/packages/f0/56/1bcb5813d1f53db70e92c69e60c07eae8e28ff70b869d3a914163df2cac1/sintef-pyshop-1.4.1.tar.gz
+[2023-06-12 15:01:11] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-12 15:01:11] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-1.0.9.tar.gz tmp/minidevice-1.1.0.tar.gz --markdown 20230612/m/minidevice/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 15:01:11] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-12 15:01:11] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.4.dev3.tar.gz tmp/coiled-0.7.4.dev4.tar.gz --markdown 20230612/c/coiled/0.7.4.dev3-0.7.4.dev4/diff.md --exclude *.pyd
+[2023-06-12 15:01:11] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-12 15:01:11] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/ee/4d/04455d6350d53c77693a3f7dc3967a5f550a984b93ff007fb5ff1a7384f6/foxes-0.4.0.tar.gz
+[2023-06-12 15:01:11] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-12 15:01:11] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-12 15:01:11] INFO root fetch - processPackages [foxes]: executing diffoscope
+[2023-06-12 15:01:11] INFO root fetch - processPackages [foxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxes-0.3.5.tar.gz tmp/foxes-0.4.0.tar.gz --markdown 20230612/f/foxes/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-12 15:01:11] INFO root fetch - processPackages [sintef-pyshop]: Downloading https://files.pythonhosted.org/packages/eb/3b/75e71dc3a11b2869f8cc035b84589599b64d40cd8f6e659fcb630c654f8c/sintef-pyshop-1.4.1a0.tar.gz
+[2023-06-12 15:01:11] INFO root fetch - processPackages [sintef-pyshop]: executing diffoscope
+[2023-06-12 15:01:11] INFO root fetch - processPackages [sintef-pyshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sintef-pyshop-1.4.1.tar.gz tmp/sintef-pyshop-1.4.1a0.tar.gz --markdown 20230612/s/sintef-pyshop/1.4.1-1.4.1a0/diff.md --exclude *.pyd
+[2023-06-12 15:01:12] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-1.0.9.tar.gz]
+[2023-06-12 15:01:12] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-1.1.0.tar.gz]
+[2023-06-12 15:01:12] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-12 15:01:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.4.dev3.tar.gz]
+[2023-06-12 15:01:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.4.dev4.tar.gz]
+[2023-06-12 15:01:13] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-12 15:01:13] INFO root fetch - processPackages [sintef-pyshop]: Remove: archive file [/home/abi/fetcher/tmp/sintef-pyshop-1.4.1.tar.gz]
+[2023-06-12 15:01:13] INFO root fetch - processPackages [sintef-pyshop]: Remove: archive file [/home/abi/fetcher/tmp/sintef-pyshop-1.4.1a0.tar.gz]
+[2023-06-12 15:01:13] INFO root fetch - main [MainThread]: End processing [sintef-pyshop]: success
+[2023-06-12 15:01:14] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-12 15:01:14] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-12 15:01:14] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-12 15:01:16] INFO root fetch - processPackages [foxes]: Remove: archive file [/home/abi/fetcher/tmp/foxes-0.3.5.tar.gz]
+[2023-06-12 15:01:16] INFO root fetch - processPackages [foxes]: Remove: archive file [/home/abi/fetcher/tmp/foxes-0.4.0.tar.gz]
+[2023-06-12 15:01:16] INFO root fetch - main [MainThread]: End processing [foxes]: success
+[2023-06-12 15:01:16] INFO root fetch - processPackages [apidev-django-floppyforms]: Remove: archive file [/home/abi/fetcher/tmp/apidev_django-floppyforms-1.8.4.tar.gz]
+[2023-06-12 15:01:16] INFO root fetch - processPackages [apidev-django-floppyforms]: Remove: archive file [/home/abi/fetcher/tmp/apidev_django-floppyforms-1.9.0.tar.gz]
+[2023-06-12 15:01:16] INFO root fetch - main [MainThread]: End processing [apidev-django-floppyforms]: success
+[2023-06-12 15:01:17] INFO root fetch - processPackages [cellseg-models-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cellseg_models_pytorch-0.1.8.tar.gz]
+[2023-06-12 15:01:17] INFO root fetch - processPackages [cellseg-models-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cellseg_models_pytorch-0.1.9.tar.gz]
+[2023-06-12 15:01:17] INFO root fetch - main [MainThread]: End processing [cellseg-models-pytorch]: success
+[2023-06-12 15:01:20] INFO root fetch - processPackages [apidev-coop-cms]: Remove: archive file [/home/abi/fetcher/tmp/apidev-coop_cms-1.5.9.tar.gz]
+[2023-06-12 15:01:20] INFO root fetch - processPackages [apidev-coop-cms]: Remove: archive file [/home/abi/fetcher/tmp/apidev-coop_cms-1.6.0.tar.gz]
+[2023-06-12 15:01:20] INFO root fetch - main [MainThread]: End processing [apidev-coop-cms]: success
+[2023-06-12 15:01:20] INFO root fetch - main [MainThread]: Store serial: [18468907]
