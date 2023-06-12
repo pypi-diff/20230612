@@ -21871,3 +21871,153 @@ EOFError: EOF read where object expected
 [2023-06-12 17:16:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.335.0.tar.gz]
 [2023-06-12 17:16:48] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-12 17:16:48] INFO root fetch - main [MainThread]: Store serial: [18470470]
+[2023-06-12 17:21:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470470]
+[2023-06-12 17:21:58] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SBILoops
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctransformers
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visual-graph-datasets
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insurance-gi
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getmodelspec
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vgd-counterfactuals
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: logging-gelf
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-rtmidi
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-plugin-machine-tracking
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logbt
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ctransformers]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-12 17:21:58] INFO root fetch - processPackages [logging-gelf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 17:21:58] INFO root fetch - processPackages [vgd-counterfactuals]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-12 17:21:58] INFO root fetch - processPackages [insurance-gi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 17:21:58] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-12 17:21:58] INFO root fetch - processPackages [getmodelspec]: Start processing: wizata-dsapi
+[2023-06-12 17:21:58] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-12 17:21:58] INFO root fetch - processPackages [visual-graph-datasets]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 17:21:58] WARNING root fetch - processPackages [logbt]: Skipping, unable to determine old version
+[2023-06-12 17:21:58] INFO root fetch - processPackages [python-rtmidi]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-12 17:21:58] WARNING root fetch - processPackages [netbox-plugin-machine-tracking]: Skipping, unable to determine old version
+[2023-06-12 17:21:58] INFO root fetch - processPackages [logbt]: Start processing: hagrid
+[2023-06-12 17:21:58] INFO root fetch - main [MainThread]: End processing [logbt] error
+[2023-06-12 17:21:58] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Start processing: netbox-cisco-maintenance
+[2023-06-12 17:21:58] INFO root fetch - main [MainThread]: End processing [netbox-plugin-machine-tracking] error
+[2023-06-12 17:21:58] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.82]
+[2023-06-12 17:21:58] INFO root fetch - processPackages [SBILoops]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-12 17:21:58] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 17:21:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 17:21:58] INFO root fetch - processPackages [vgd-counterfactuals]: Downloading https://files.pythonhosted.org/packages/da/8c/9a90d3497182921e9a7fea19e49ca7aff3932cf115b5cb1af3fbb2265f2a/vgd_counterfactuals-0.3.1.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/48/71/e45cc244da4a27ea513ba6fdcaf967f4bb3f4184ef2fea679bbda3f08c24/ctransformers-0.2.7.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [logging-gelf]: Downloading https://files.pythonhosted.org/packages/dc/9c/64c3268340f1b758a3de4610ea5023f4a427b60c0ddecd78e22aa8c8c738/logging-gelf-0.0.8.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/00/26/be345423fd355242b453cb140c6a92f03ebab553c3355f72bfc94c9ff1e4/wizata-dsapi-0.1.82.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/8b/aa/c11553474bc6abcbf2c78890f6579b242ab68a2c302c40a668fd39cef3c9/visual_graph_datasets-0.8.0.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/07/18/c746174b159616d6c5cd2d84815e78023cc651bc51d6c0ef6d16dfb991a2/SBILoops-0.2.5.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [insurance-gi]: Downloading https://files.pythonhosted.org/packages/5b/a1/6bcef2a1f5dd46d2c8e1e21423d818b993e5d1a965087f6d176ab540532d/insurance_gi-0.0.3.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [python-rtmidi]: Downloading https://files.pythonhosted.org/packages/b6/94/9f57c5459d0cda4032967fd551442d3b953094a4c6514d57d2cf0ad2f44d/python-rtmidi-1.5.0.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 17:21:58] INFO root fetch - processPackages [vgd-counterfactuals]: Downloading https://files.pythonhosted.org/packages/28/2a/a6b05e4091ff7be6c21a2a9c6b7850ba0972e03d58ca93f7d70f6970b1a5/vgd_counterfactuals-0.3.2.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/f8/b5/b244e28dbaa3006d70a3ce502e7ba862384f95cbd5df6718038b58d30bc9/ctransformers-0.2.8.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/f7/24/21b8065eddaf1f2aebcb3c1ab99a567eafabd40743647beb7ef80955b8a8/visual_graph_datasets-0.9.0.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [insurance-gi]: Downloading https://files.pythonhosted.org/packages/7b/98/b9857ed13da8a1ce9d337dad3907b66e0675b0244d7779feee211c27f7ee/insurance_gi-0.0.4.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/f3/9a/e5bafaeb3fb7ce0f51b9862602a5efa3c8ff77b9e809a750cfac8076b7cb/SBILoops-0.2.6.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [logging-gelf]: Downloading https://files.pythonhosted.org/packages/3a/af/ccad3baf3c7076011d3e9cb5a362e77bb9e92e831fda5569d0064e149ac6/logging-gelf-0.0.9.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [python-rtmidi]: Downloading https://files.pythonhosted.org/packages/f8/86/84ae05cc6289fc4e08f30df80cae983fe6268fc7e6f0bdffbb834c6431b6/python-rtmidi-1.5.1.tar.gz
+[2023-06-12 17:21:58] INFO root fetch - processPackages [insurance-gi]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [insurance-gi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insurance_gi-0.0.3.tar.gz tmp/insurance_gi-0.0.4.tar.gz --markdown 20230612/i/insurance-gi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 17:21:58] INFO root fetch - processPackages [visual-graph-datasets]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [visual-graph-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_graph_datasets-0.8.0.tar.gz tmp/visual_graph_datasets-0.9.0.tar.gz --markdown 20230612/v/visual-graph-datasets/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 17:21:58] INFO root fetch - processPackages [logging-gelf]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [vgd-counterfactuals]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [logging-gelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-gelf-0.0.8.tar.gz tmp/logging-gelf-0.0.9.tar.gz --markdown 20230612/l/logging-gelf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 17:21:58] INFO root fetch - processPackages [vgd-counterfactuals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgd_counterfactuals-0.3.1.tar.gz tmp/vgd_counterfactuals-0.3.2.tar.gz --markdown 20230612/v/vgd-counterfactuals/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-12 17:21:58] INFO root fetch - processPackages [SBILoops]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [SBILoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBILoops-0.2.5.tar.gz tmp/SBILoops-0.2.6.tar.gz --markdown 20230612/S/SBILoops/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-12 17:21:58] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.82.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230612/w/wizata-dsapi/0.1.82-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.7.tar.gz tmp/ctransformers-0.2.8.tar.gz --markdown 20230612/c/ctransformers/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-12 17:21:58] INFO root fetch - processPackages [python-rtmidi]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [python-rtmidi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-rtmidi-1.5.0.tar.gz tmp/python-rtmidi-1.5.1.tar.gz --markdown 20230612/p/python-rtmidi/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-12 17:21:58] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-12 17:21:58] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230612/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 17:22:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: unicorn-multiverse
+[2023-06-12 17:22:00] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 17:22:00] INFO root fetch - processPackages [insurance-gi]: Remove: archive file [/home/abi/fetcher/tmp/insurance_gi-0.0.3.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [insurance-gi]: Remove: archive file [/home/abi/fetcher/tmp/insurance_gi-0.0.4.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [insurance-gi]: Start processing: dcrx
+[2023-06-12 17:22:00] INFO root fetch - main [MainThread]: End processing [insurance-gi]: success
+[2023-06-12 17:22:00] WARNING root fetch - processPackages [unicorn-multiverse]: Skipping, unable to determine old version
+[2023-06-12 17:22:00] INFO root fetch - processPackages [unicorn-multiverse]: Start processing: dcrx-api
+[2023-06-12 17:22:00] INFO root fetch - main [MainThread]: End processing [unicorn-multiverse] error
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/25/6b/fa1e2d2da119547a95a54fcf9b2f7c085b8926b57b4b111791b1ea6ccac9/dcrx-api-0.3.0.tar.gz
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx]: Downloading https://files.pythonhosted.org/packages/fd/54/4317acee355f6b45d185e000b33240d96345cda487ede0f84bfd85ff76f3/dcrx-0.1.1.tar.gz
+[2023-06-12 17:22:00] INFO root fetch - processPackages [logging-gelf]: Remove: archive file [/home/abi/fetcher/tmp/logging-gelf-0.0.8.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [logging-gelf]: Remove: archive file [/home/abi/fetcher/tmp/logging-gelf-0.0.9.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [logging-gelf]: Start processing: mbapy
+[2023-06-12 17:22:00] INFO root fetch - main [MainThread]: End processing [logging-gelf]: success
+[2023-06-12 17:22:00] INFO root fetch - processPackages [mbapy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.82.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.9.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [wizata-dsapi]: Start processing: wbpFonttools
+[2023-06-12 17:22:00] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx]: Downloading https://files.pythonhosted.org/packages/69/ac/9471e04218d526df4703a937c5a873f83073d089117710f72135d10bf094/dcrx-0.1.2.tar.gz
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/e4/24/814d378cda7de07622cff8633f383386f64f27accca25553a6a9b01a5fbe/dcrx-api-0.3.1.tar.gz
+[2023-06-12 17:22:00] INFO root fetch - processPackages [visual-graph-datasets]: Remove: archive file [/home/abi/fetcher/tmp/visual_graph_datasets-0.8.0.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [wbpFonttools]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [visual-graph-datasets]: Remove: archive file [/home/abi/fetcher/tmp/visual_graph_datasets-0.9.0.tar.gz]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [visual-graph-datasets]: Start processing: rigatoni
+[2023-06-12 17:22:00] INFO root fetch - main [MainThread]: End processing [visual-graph-datasets]: success
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx]: executing diffoscope
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-0.1.1.tar.gz tmp/dcrx-0.1.2.tar.gz --markdown 20230612/d/dcrx/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-12 17:22:00] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.3.0.tar.gz tmp/dcrx-api-0.3.1.tar.gz --markdown 20230612/d/dcrx-api/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-12 17:22:00] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/7b/a2/2f5e8217e91ffa9aba68a1b0f81aa1d98f1ffd833aa1cec132756361b3ad/mbapy-0.1.1.tar.gz
+[2023-06-12 17:22:00] INFO root fetch - processPackages [rigatoni]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 17:22:00] INFO root fetch - processPackages [wbpFonttools]: Downloading https://files.pythonhosted.org/packages/50/04/7100bf92cfaa0360dd395682bf7e7cdb64b18504d63acb97dd17fac5b42e/wbpFonttools-0.1.9.tar.gz
+[2023-06-12 17:22:00] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/64/c7/b70a587c411b662fd87660624694214525424f350267a995ba74c6546561/mbapy-0.1.2.tar.gz
+[2023-06-12 17:22:00] INFO root fetch - processPackages [rigatoni]: Downloading https://files.pythonhosted.org/packages/8e/10/44aac7566a1f6ef9519202c62866a402849b4ab81e9edf23b66390a4e421/rigatoni-0.1.8.tar.gz
+[2023-06-12 17:22:00] INFO root fetch - processPackages [mbapy]: executing diffoscope
+[2023-06-12 17:22:00] INFO root fetch - processPackages [mbapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbapy-0.1.1.tar.gz tmp/mbapy-0.1.2.tar.gz --markdown 20230612/m/mbapy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 17:22:01] INFO root fetch - processPackages [wbpFonttools]: Downloading https://files.pythonhosted.org/packages/64/6d/623c67c428e228369ac0966f97d95d2f0e4e9306b5eb64ea1644710262ab/wbpFonttools-0.2.0.tar.gz
+[2023-06-12 17:22:01] INFO root fetch - processPackages [wbpFonttools]: executing diffoscope
+[2023-06-12 17:22:01] INFO root fetch - processPackages [wbpFonttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpFonttools-0.1.9.tar.gz tmp/wbpFonttools-0.2.0.tar.gz --markdown 20230612/w/wbpFonttools/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 17:22:01] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-12 17:22:01] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-12 17:22:01] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-12 17:22:01] INFO root fetch - processPackages [dcrx]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-0.1.1.tar.gz]
+[2023-06-12 17:22:01] INFO root fetch - processPackages [dcrx]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-0.1.2.tar.gz]
+[2023-06-12 17:22:01] INFO root fetch - main [MainThread]: End processing [dcrx]: success
+[2023-06-12 17:22:01] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.3.0.tar.gz]
+[2023-06-12 17:22:01] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.3.1.tar.gz]
+[2023-06-12 17:22:01] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-12 17:22:02] INFO root fetch - processPackages [wbpFonttools]: Remove: archive file [/home/abi/fetcher/tmp/wbpFonttools-0.1.9.tar.gz]
+[2023-06-12 17:22:02] INFO root fetch - processPackages [wbpFonttools]: Remove: archive file [/home/abi/fetcher/tmp/wbpFonttools-0.2.0.tar.gz]
+[2023-06-12 17:22:02] INFO root fetch - main [MainThread]: End processing [wbpFonttools]: success
+[2023-06-12 17:22:02] INFO root fetch - processPackages [vgd-counterfactuals]: Remove: archive file [/home/abi/fetcher/tmp/vgd_counterfactuals-0.3.1.tar.gz]
+[2023-06-12 17:22:02] INFO root fetch - processPackages [vgd-counterfactuals]: Remove: archive file [/home/abi/fetcher/tmp/vgd_counterfactuals-0.3.2.tar.gz]
+[2023-06-12 17:22:02] INFO root fetch - main [MainThread]: End processing [vgd-counterfactuals]: success
+[2023-06-12 17:22:02] INFO root fetch - processPackages [rigatoni]: Downloading https://files.pythonhosted.org/packages/14/9e/9771b6d857652901e235414a4af2572e2b2bd653e06a7e67ffdd24620beb/rigatoni-0.1.9.tar.gz
+[2023-06-12 17:22:03] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.5.tar.gz]
+[2023-06-12 17:22:03] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.6.tar.gz]
+[2023-06-12 17:22:03] INFO root fetch - main [MainThread]: End processing [SBILoops]: success
+[2023-06-12 17:22:03] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.7.tar.gz]
+[2023-06-12 17:22:03] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.8.tar.gz]
+[2023-06-12 17:22:03] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-06-12 17:22:03] INFO root fetch - processPackages [python-rtmidi]: Remove: archive file [/home/abi/fetcher/tmp/python-rtmidi-1.5.0.tar.gz]
+[2023-06-12 17:22:03] INFO root fetch - processPackages [python-rtmidi]: Remove: archive file [/home/abi/fetcher/tmp/python-rtmidi-1.5.1.tar.gz]
+[2023-06-12 17:22:03] INFO root fetch - main [MainThread]: End processing [python-rtmidi]: success
+[2023-06-12 17:22:04] INFO root fetch - processPackages [rigatoni]: executing diffoscope
+[2023-06-12 17:22:04] INFO root fetch - processPackages [rigatoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigatoni-0.1.8.tar.gz tmp/rigatoni-0.1.9.tar.gz --markdown 20230612/r/rigatoni/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 17:22:15] INFO root fetch - processPackages [rigatoni]: Remove: archive file [/home/abi/fetcher/tmp/rigatoni-0.1.8.tar.gz]
+[2023-06-12 17:22:15] INFO root fetch - processPackages [rigatoni]: Remove: archive file [/home/abi/fetcher/tmp/rigatoni-0.1.9.tar.gz]
+[2023-06-12 17:22:15] INFO root fetch - main [MainThread]: End processing [rigatoni]: success
+[2023-06-12 17:22:57] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.1.1.tar.gz]
+[2023-06-12 17:22:57] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.1.2.tar.gz]
+[2023-06-12 17:22:57] INFO root fetch - main [MainThread]: End processing [mbapy]: success
+[2023-06-12 17:22:57] INFO root fetch - main [MainThread]: Store serial: [18470550]
