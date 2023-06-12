@@ -7160,3 +7160,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 05:25:55] INFO root fetch - processPackages [cs.mappings]: Remove: archive file [/home/abi/fetcher/tmp/cs.mappings-20230612.tar.gz]
 [2023-06-12 05:25:55] INFO root fetch - main [MainThread]: End processing [cs.mappings]: success
 [2023-06-12 05:25:55] INFO root fetch - main [MainThread]: Store serial: [18464172]
+[2023-06-12 05:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464172]
+[2023-06-12 05:31:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-12 05:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paddlenlp
+[2023-06-12 05:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kanu
+[2023-06-12 05:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvadmin-celery
+[2023-06-12 05:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libmonty-logging
+[2023-06-12 05:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dvadmin-sms
+[2023-06-12 05:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commandeft
+[2023-06-12 05:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zlogging
+[2023-06-12 05:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neural-solution
+[2023-06-12 05:31:03] INFO root fetch - processPackages [paddlenlp]: New version: [2.6.0rc0] Old Version: [2.5.2]
+[2023-06-12 05:31:03] INFO root fetch - processPackages [commandeft]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 05:31:03] INFO root fetch - processPackages [kanu]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-12 05:31:03] INFO root fetch - processPackages [dvadmin-celery]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-12 05:31:03] INFO root fetch - processPackages [dvadmin-sms]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-12 05:31:03] WARNING root fetch - processPackages [libmonty-logging]: Skipping, unable to determine old version
+[2023-06-12 05:31:03] INFO root fetch - main [MainThread]: End processing [libmonty-logging] error
+[2023-06-12 05:31:03] INFO root fetch - processPackages [zlogging]: New version: [0.1.2.post2] Old Version: [0.1.2.post1]
+[2023-06-12 05:31:04] INFO root fetch - processPackages [zlogging]: Downloading https://files.pythonhosted.org/packages/0e/23/b87bd621ff2a9ed267e2a22720440769dca12d2eb7c6d3b521f641eedc89/zlogging-0.1.2.post1.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [dvadmin-sms]: Downloading https://files.pythonhosted.org/packages/b0/26/b90023d79ea4dde9bbb1d4631b1d271910cdec13f192e96f63b14ea23d14/dvadmin-sms-1.0.2.tar.gz
+[2023-06-12 05:31:04] WARNING root fetch - processPackages [neural-solution]: Skipping, unable to determine old version
+[2023-06-12 05:31:04] INFO root fetch - main [MainThread]: End processing [neural-solution] error
+[2023-06-12 05:31:04] INFO root fetch - processPackages [kanu]: Downloading https://files.pythonhosted.org/packages/65/e4/70c61d9837267688db9bc4af425696f9bc460df34c84198a0d6763780737/kanu-0.5.0.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [paddlenlp]: Downloading https://files.pythonhosted.org/packages/ac/30/204ab2e0e01222060db5684041d5c4a73dec0adb622e3397f88d15b38f94/paddlenlp-2.5.2.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/5c/c1/dacaa7b5b7e56e68d4ee8e9b350f970ce1f6f797116d026d1738d46fb6b3/commandeft-0.1.3.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [dvadmin-sms]: Downloading https://files.pythonhosted.org/packages/08/26/4258b14b3ee9734efade0842c50c66f3ac60c22a247dc0a2ec7b3551ffd7/dvadmin-sms-1.0.3.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [zlogging]: Downloading https://files.pythonhosted.org/packages/a2/3b/ef2003e20f9da6f598202461d713cc1918efa22c65d6b253b9a9d42caa56/zlogging-0.1.2.post2.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [dvadmin-sms]: executing diffoscope
+[2023-06-12 05:31:04] INFO root fetch - processPackages [dvadmin-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvadmin-sms-1.0.2.tar.gz tmp/dvadmin-sms-1.0.3.tar.gz --markdown 20230612/d/dvadmin-sms/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-12 05:31:04] INFO root fetch - processPackages [dvadmin-celery]: Downloading https://files.pythonhosted.org/packages/5c/2f/296a7d63319af39921e69a1ce5fd102eb90b4b03165bbf76b62af5bcd26f/dvadmin-celery-1.0.4.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [kanu]: Downloading https://files.pythonhosted.org/packages/89/ed/b9bd7c3fa2a82418fc3fa8a2c5ab56fe05f9ce02c329f00beeb932b2621b/kanu-0.6.0.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [paddlenlp]: Downloading https://files.pythonhosted.org/packages/1f/0d/ee518f1d586cfeb99468f4d3ed9093ed776a9537ee5eabcdb67b40514728/paddlenlp-2.6.0rc0.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [zlogging]: executing diffoscope
+[2023-06-12 05:31:04] INFO root fetch - processPackages [zlogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlogging-0.1.2.post1.tar.gz tmp/zlogging-0.1.2.post2.tar.gz --markdown 20230612/z/zlogging/0.1.2.post1-0.1.2.post2/diff.md --exclude *.pyd
+[2023-06-12 05:31:04] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/df/8c/def6e01ae05705a414d6ef441683020323dc8553b3bb97f9982e0e0a1845/commandeft-0.1.4.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [kanu]: executing diffoscope
+[2023-06-12 05:31:04] INFO root fetch - processPackages [kanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanu-0.5.0.tar.gz tmp/kanu-0.6.0.tar.gz --markdown 20230612/k/kanu/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-12 05:31:04] INFO root fetch - processPackages [commandeft]: executing diffoscope
+[2023-06-12 05:31:04] INFO root fetch - processPackages [commandeft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandeft-0.1.3.tar.gz tmp/commandeft-0.1.4.tar.gz --markdown 20230612/c/commandeft/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 05:31:04] INFO root fetch - processPackages [dvadmin-celery]: Downloading https://files.pythonhosted.org/packages/f6/d1/65336ac9e0107170335ff23bf562abdcb2c212c9f164cb2aaf44c639ae84/dvadmin-celery-1.0.5.tar.gz
+[2023-06-12 05:31:04] INFO root fetch - processPackages [dvadmin-celery]: executing diffoscope
+[2023-06-12 05:31:04] INFO root fetch - processPackages [dvadmin-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvadmin-celery-1.0.4.tar.gz tmp/dvadmin-celery-1.0.5.tar.gz --markdown 20230612/d/dvadmin-celery/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-12 05:31:04] INFO root fetch - processPackages [paddlenlp]: executing diffoscope
+[2023-06-12 05:31:04] INFO root fetch - processPackages [paddlenlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddlenlp-2.5.2.tar.gz tmp/paddlenlp-2.6.0rc0.tar.gz --markdown 20230612/p/paddlenlp/2.5.2-2.6.0rc0/diff.md --exclude *.pyd
+[2023-06-12 05:31:05] INFO root fetch - processPackages [kanu]: Remove: archive file [/home/abi/fetcher/tmp/kanu-0.5.0.tar.gz]
+[2023-06-12 05:31:05] INFO root fetch - processPackages [kanu]: Remove: archive file [/home/abi/fetcher/tmp/kanu-0.6.0.tar.gz]
+[2023-06-12 05:31:05] INFO root fetch - main [MainThread]: End processing [kanu]: success
+[2023-06-12 05:31:05] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.1.3.tar.gz]
+[2023-06-12 05:31:05] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.1.4.tar.gz]
+[2023-06-12 05:31:05] INFO root fetch - main [MainThread]: End processing [commandeft]: success
+[2023-06-12 05:31:05] INFO root fetch - processPackages [dvadmin-sms]: Remove: archive file [/home/abi/fetcher/tmp/dvadmin-sms-1.0.2.tar.gz]
+[2023-06-12 05:31:05] INFO root fetch - processPackages [dvadmin-sms]: Remove: archive file [/home/abi/fetcher/tmp/dvadmin-sms-1.0.3.tar.gz]
+[2023-06-12 05:31:05] INFO root fetch - main [MainThread]: End processing [dvadmin-sms]: success
+[2023-06-12 05:31:05] INFO root fetch - processPackages [dvadmin-celery]: Remove: archive file [/home/abi/fetcher/tmp/dvadmin-celery-1.0.4.tar.gz]
+[2023-06-12 05:31:05] INFO root fetch - processPackages [dvadmin-celery]: Remove: archive file [/home/abi/fetcher/tmp/dvadmin-celery-1.0.5.tar.gz]
+[2023-06-12 05:31:05] INFO root fetch - main [MainThread]: End processing [dvadmin-celery]: success
+[2023-06-12 05:31:06] INFO root fetch - processPackages [zlogging]: Remove: archive file [/home/abi/fetcher/tmp/zlogging-0.1.2.post1.tar.gz]
+[2023-06-12 05:31:06] INFO root fetch - processPackages [zlogging]: Remove: archive file [/home/abi/fetcher/tmp/zlogging-0.1.2.post2.tar.gz]
+[2023-06-12 05:31:06] INFO root fetch - main [MainThread]: End processing [zlogging]: success
+[2023-06-12 05:31:16] INFO root fetch - processPackages [paddlenlp]: Remove: archive file [/home/abi/fetcher/tmp/paddlenlp-2.5.2.tar.gz]
+[2023-06-12 05:31:16] INFO root fetch - processPackages [paddlenlp]: Remove: archive file [/home/abi/fetcher/tmp/paddlenlp-2.6.0rc0.tar.gz]
+[2023-06-12 05:31:16] INFO root fetch - main [MainThread]: End processing [paddlenlp]: success
+[2023-06-12 05:31:16] INFO root fetch - main [MainThread]: Store serial: [18464204]
