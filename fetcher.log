@@ -8717,3 +8717,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 07:46:11] INFO root fetch - processPackages [tlux]: Remove: archive file [/home/abi/fetcher/tmp/tlux-0.0.9.tar.gz]
 [2023-06-12 07:46:11] INFO root fetch - main [MainThread]: End processing [tlux]: success
 [2023-06-12 07:46:11] INFO root fetch - main [MainThread]: Store serial: [18464880]
+[2023-06-12 07:51:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464880]
+[2023-06-12 07:51:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otel-tracer
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slippy-api
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sc-editor
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptcmd
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aclib.images
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teapy
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygrab
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imesh
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qgate-graph
+[2023-06-12 07:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sk-calculator
+[2023-06-12 07:51:20] WARNING root fetch - processPackages [otel-tracer]: Skipping, unable to determine old version
+[2023-06-12 07:51:20] INFO root fetch - main [MainThread]: End processing [otel-tracer] error
+[2023-06-12 07:51:20] INFO root fetch - processPackages [sc-editor]: New version: [0.98] Old Version: [0.97]
+[2023-06-12 07:51:20] WARNING root fetch - processPackages [gptcmd]: Skipping, unable to determine old version
+[2023-06-12 07:51:20] INFO root fetch - main [MainThread]: End processing [gptcmd] error
+[2023-06-12 07:51:20] WARNING root fetch - processPackages [aclib.images]: Skipping, unable to determine old version
+[2023-06-12 07:51:20] INFO root fetch - processPackages [pygrab]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 07:51:20] INFO root fetch - main [MainThread]: End processing [aclib.images] error
+[2023-06-12 07:51:20] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 07:51:20] INFO root fetch - processPackages [teapy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 07:51:20] INFO root fetch - processPackages [slippy-api]: New version: [0.4] Old Version: [0.3]
+[2023-06-12 07:51:20] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/b4/f1/4480bab5289e53ddaf446912530ff24036b9744c5ef1171b59d51ffd5b8c/sc-editor-0.97.tar.gz
+[2023-06-12 07:51:20] WARNING root fetch - processPackages [sk-calculator]: Skipping, unable to determine old version
+[2023-06-12 07:51:20] INFO root fetch - main [MainThread]: End processing [sk-calculator] error
+[2023-06-12 07:51:20] INFO root fetch - processPackages [qgate-graph]: New version: [1.3rc2] Old Version: [1.3rc1]
+[2023-06-12 07:51:20] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/4b/d7/4b8036540ef7d325774930aee1188283f4ca91fd99bb5bc1b69dfb99fba3/teapy-0.1.3.tar.gz
+[2023-06-12 07:51:20] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/7f/67/c7d2897b91a51dc2d5146a4c88c801dadae6f9cfa01353c8259b323a71d1/pygrab-0.1.0.tar.gz
+[2023-06-12 07:51:20] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-06-12 07:51:20] INFO root fetch - processPackages [slippy-api]: Downloading https://files.pythonhosted.org/packages/3b/51/b85e8ef6742f58112a0ddbc5e373a236fc06638b9a61b30c6dd2310a33a9/slippy_api-0.3.tar.gz
+[2023-06-12 07:51:20] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/7d/cf/f9174a417e3b1de742a058f36d10d26af0cd6c897a5bbbc2e7c6bd968a4b/sc-editor-0.98.tar.gz
+[2023-06-12 07:51:20] INFO root fetch - processPackages [qgate-graph]: Downloading https://files.pythonhosted.org/packages/61/5b/6f5cdc724ef21cde0cf4fa194cfc9e68d3bf5774b3bfa1ec5ac2efa2162b/qgate_graph-1.3rc1-py3-none-any.whl
+[2023-06-12 07:51:20] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 07:51:20] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.97.tar.gz tmp/sc-editor-0.98.tar.gz --markdown 20230612/s/sc-editor/0.97-0.98/diff.md --exclude *.pyd
+[2023-06-12 07:51:20] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/43/bb/fee1926ac652e1a95e03219ef3808f1c2e782617ab841524fd19bb04da84/teapy-0.1.4.tar.gz
+[2023-06-12 07:51:20] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/ab/1b/ed9242c5e7f5cebf5fe776de8d3226d7d559ebbdd2bdb6f0a15c3e6e3058/pygrab-0.1.1.tar.gz
+[2023-06-12 07:51:20] INFO root fetch - processPackages [teapy]: executing diffoscope
+[2023-06-12 07:51:20] INFO root fetch - processPackages [teapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teapy-0.1.3.tar.gz tmp/teapy-0.1.4.tar.gz --markdown 20230612/t/teapy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 07:51:20] INFO root fetch - processPackages [pygrab]: executing diffoscope
+[2023-06-12 07:51:20] INFO root fetch - processPackages [pygrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrab-0.1.0.tar.gz tmp/pygrab-0.1.1.tar.gz --markdown 20230612/p/pygrab/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 07:51:20] INFO root fetch - processPackages [slippy-api]: Downloading https://files.pythonhosted.org/packages/0e/b8/47059caffed6ded35c233bb18136663c32b626d1058979adc3d213f809d6/slippy_api-0.4-py3-none-any.whl
+[2023-06-12 07:51:21] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-06-12 07:51:21] INFO root fetch - processPackages [slippy-api]: executing diffoscope
+[2023-06-12 07:51:21] INFO root fetch - processPackages [slippy-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slippy_api-0.3.tar.gz tmp/slippy_api-0.4-py3-none-any.whl.zip --markdown 20230612/s/slippy-api/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-12 07:51:21] INFO root fetch - processPackages [qgate-graph]: Downloading https://files.pythonhosted.org/packages/9c/e2/7267e7e38507f4679d7da011d49eb5bb88ac6894707996a262ad9dcbdd7c/qgate_graph-1.3rc2-py3-none-any.whl
+[2023-06-12 07:51:21] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-06-12 07:51:21] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230612/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 07:51:21] INFO root fetch - processPackages [qgate-graph]: executing diffoscope
+[2023-06-12 07:51:21] INFO root fetch - processPackages [qgate-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_graph-1.3rc1-py3-none-any.whl.zip tmp/qgate_graph-1.3rc2-py3-none-any.whl.zip --markdown 20230612/q/qgate-graph/1.3rc1-1.3rc2/diff.md --exclude *.pyd
+[2023-06-12 07:51:22] INFO root fetch - processPackages [pygrab]: Remove: archive file [/home/abi/fetcher/tmp/pygrab-0.1.0.tar.gz]
+[2023-06-12 07:51:22] INFO root fetch - processPackages [pygrab]: Remove: archive file [/home/abi/fetcher/tmp/pygrab-0.1.1.tar.gz]
+[2023-06-12 07:51:22] INFO root fetch - main [MainThread]: End processing [pygrab]: success
+[2023-06-12 07:51:22] INFO root fetch - processPackages [slippy-api]: Remove: archive file [/home/abi/fetcher/tmp/slippy_api-0.3.tar.gz]
+[2023-06-12 07:51:22] INFO root fetch - processPackages [slippy-api]: Remove: archive file [/home/abi/fetcher/tmp/slippy_api-0.4-py3-none-any.whl.zip]
+[2023-06-12 07:51:22] INFO root fetch - main [MainThread]: End processing [slippy-api]: success
+[2023-06-12 07:51:22] INFO root fetch - processPackages [qgate-graph]: Remove: archive file [/home/abi/fetcher/tmp/qgate_graph-1.3rc1-py3-none-any.whl.zip]
+[2023-06-12 07:51:22] INFO root fetch - processPackages [qgate-graph]: Remove: archive file [/home/abi/fetcher/tmp/qgate_graph-1.3rc2-py3-none-any.whl.zip]
+[2023-06-12 07:51:22] INFO root fetch - main [MainThread]: End processing [qgate-graph]: success
+[2023-06-12 07:51:22] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.97.tar.gz]
+[2023-06-12 07:51:22] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.98.tar.gz]
+[2023-06-12 07:51:22] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 07:51:22] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.3.tar.gz]
+[2023-06-12 07:51:22] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.4.tar.gz]
+[2023-06-12 07:51:22] INFO root fetch - main [MainThread]: End processing [teapy]: success
+[2023-06-12 07:51:23] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-06-12 07:51:23] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-06-12 07:51:23] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-06-12 07:51:23] INFO root fetch - main [MainThread]: Store serial: [18464918]
