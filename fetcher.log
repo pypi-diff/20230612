@@ -21717,3 +21717,157 @@ EOFError: EOF read where object expected
 [2023-06-12 17:10:10] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230612-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-12 17:10:10] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-06-12 17:10:10] INFO root fetch - main [MainThread]: Store serial: [18470412]
+[2023-06-12 17:15:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470412]
+[2023-06-12 17:15:20] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-12 17:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oda-data
+[2023-06-12 17:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyansys
+[2023-06-12 17:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lifeguard-telegram
+[2023-06-12 17:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libtado
+[2023-06-12 17:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinit
+[2023-06-12 17:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-service-utilities
+[2023-06-12 17:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: artus
+[2023-06-12 17:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: policyengine-us
+[2023-06-12 17:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geopic-tag-reader
+[2023-06-12 17:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rxn-reaction-preprocessing
+[2023-06-12 17:15:21] INFO root fetch - processPackages [rxn-reaction-preprocessing]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [oda-data]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [libtado]: New version: [3.6.0a0] Old Version: [3.6.0]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [artus]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pinit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [geopic-tag-reader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [lifeguard-telegram]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [assemblyline-service-utilities]: New version: [4.4.1.dev6] Old Version: [4.4.1.dev5]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pyansys]: New version: [2023.2rc2] Old Version: [2023.2rc1]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [policyengine-us]: New version: [0.335.0] Old Version: [0.334.0]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/a0/02/93757e040f4ebba2924b010756d7abe710482b324d7d1461cf257e026c5e/artus-0.2.2.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [lifeguard-telegram]: Downloading https://files.pythonhosted.org/packages/34/ce/1c0b8617bf458f52a2effea7b9b29a55438cb7d171afada934ac03064c71/lifeguard-telegram-1.1.1.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pinit]: Downloading https://files.pythonhosted.org/packages/31/07/d544cf834e7a8b336ef01d15fdf7868283abef582257bada8d67d26005ee/pinit-0.0.7.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [libtado]: Downloading https://files.pythonhosted.org/packages/56/d7/e78ce2ea2447b9f0f638654792cdc284ff2eaa7074fd11dfe3a5e6bf0af4/libtado-3.6.0.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [rxn-reaction-preprocessing]: Downloading https://files.pythonhosted.org/packages/cf/d0/ff3ce8fd613b9bec695696329a17fe49ad3f19e58e23e9edb4d296772cbb/rxn-reaction-preprocessing-2.0.3.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [oda-data]: Downloading https://files.pythonhosted.org/packages/b3/3f/64807748424639a4f160b20214a2ef0de18fa6f9805edfb02fe858045266/oda_data-1.0.2.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/d5/9e/0eaf7df3e4472ea7168510d375e2084a224afa9b3163f089aa787060ec66/assemblyline_service_utilities-4.4.1.dev5-py3-none-any.whl
+[2023-06-12 17:15:21] INFO root fetch - processPackages [geopic-tag-reader]: Downloading https://files.pythonhosted.org/packages/8f/47/20ed8105d566627577adc1b7a1c9c8dff64dd6e55ac35e9ec284693a36ca/geopic_tag_reader-0.1.0.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/61/65/b9fd32403e4270a95cb1810a72c5821a4de8d713fd67e62af85d927fea4d/artus-0.2.3.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [lifeguard-telegram]: Downloading https://files.pythonhosted.org/packages/05/c4/8d31a3fb4a9265f11bb5fa4cb136722f745835afa4514d79556d970fbe59/lifeguard-telegram-1.1.2.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/60/dd/557007dc79f7e0a87720fab976b5a59f506c480884b072d63aae1570bd2c/policyengine-us-0.334.0.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/e4/1c/baa52dd3dde1a1be58a378c78ee45e529c742142fecaeb6adf8034a311b4/pyansys-2023.2rc1.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [artus]: executing diffoscope
+[2023-06-12 17:15:21] INFO root fetch - processPackages [artus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artus-0.2.2.tar.gz tmp/artus-0.2.3.tar.gz --markdown 20230612/a/artus/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-12 17:15:21] INFO root fetch - processPackages [libtado]: Downloading https://files.pythonhosted.org/packages/33/2e/3ef6e2078d2638f5e0a547f3375dceb5f857768ccd94f779e31f6c9dd7ee/libtado-3.6.0a0.tar.gz
+[2023-06-12 17:15:21] WARNING root fetch - processPackages [geopic-tag-reader]: Skipping package: exceeds size limit 17909339>=10485760
+[2023-06-12 17:15:21] INFO root fetch - processPackages [geopic-tag-reader]: Start processing: w3multicall
+[2023-06-12 17:15:21] INFO root fetch - processPackages [lifeguard-telegram]: executing diffoscope
+[2023-06-12 17:15:21] INFO root fetch - main [MainThread]: End processing [geopic-tag-reader] error
+[2023-06-12 17:15:21] INFO root fetch - processPackages [lifeguard-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeguard-telegram-1.1.1.tar.gz tmp/lifeguard-telegram-1.1.2.tar.gz --markdown 20230612/l/lifeguard-telegram/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-12 17:15:21] INFO root fetch - processPackages [w3multicall]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-12 17:15:21] INFO root fetch - processPackages [oda-data]: Downloading https://files.pythonhosted.org/packages/82/4b/8dbcfabe697bc0a136e34bd19cd2f50efe96504ef3c7ac0e9865a7d1c5f2/oda_data-1.0.3.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pinit]: Downloading https://files.pythonhosted.org/packages/e4/88/b0f4d8eca1b4e01f80ba7f6df7927cdc7f6adc060ca2d062849440fdca22/pinit-0.0.8.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [libtado]: executing diffoscope
+[2023-06-12 17:15:21] INFO root fetch - processPackages [libtado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtado-3.6.0.tar.gz tmp/libtado-3.6.0a0.tar.gz --markdown 20230612/l/libtado/3.6.0-3.6.0a0/diff.md --exclude *.pyd
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pinit]: executing diffoscope
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinit-0.0.7.tar.gz tmp/pinit-0.0.8.tar.gz --markdown 20230612/p/pinit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 17:15:21] INFO root fetch - processPackages [rxn-reaction-preprocessing]: Downloading https://files.pythonhosted.org/packages/1e/2c/5bc4a68e764221bdb63ec5a9ceec6fb849f75eed4406afcc45be206d07ff/rxn-reaction-preprocessing-2.1.0.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [w3multicall]: Downloading https://files.pythonhosted.org/packages/50/ad/483fc785c67e321dbfc134885b1e670de56210264cd195738be65ae0e931/w3multicall-0.0.1.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [oda-data]: executing diffoscope
+[2023-06-12 17:15:21] INFO root fetch - processPackages [oda-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oda_data-1.0.2.tar.gz tmp/oda_data-1.0.3.tar.gz --markdown 20230612/o/oda-data/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-12 17:15:21] INFO root fetch - processPackages [rxn-reaction-preprocessing]: executing diffoscope
+[2023-06-12 17:15:21] INFO root fetch - processPackages [rxn-reaction-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxn-reaction-preprocessing-2.0.3.tar.gz tmp/rxn-reaction-preprocessing-2.1.0.tar.gz --markdown 20230612/r/rxn-reaction-preprocessing/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/09/02/b2298bb78469ed8bf6853548529bbc47ef3f9f9b5637160d5838e276f030/pyansys-2023.2rc2.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [w3multicall]: Downloading https://files.pythonhosted.org/packages/b7/35/a8bf77588d383198a9a62b2ffc03337b154d8bec2c2b7b98db0fe81e88af/w3multicall-0.1.0.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/17/6f/0e942e056546c0c56e39e3c5736461253c9bcb2bbb2a744ffe5f23660164/policyengine-us-0.335.0.tar.gz
+[2023-06-12 17:15:21] INFO root fetch - processPackages [w3multicall]: executing diffoscope
+[2023-06-12 17:15:21] INFO root fetch - processPackages [w3multicall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3multicall-0.0.1.tar.gz tmp/w3multicall-0.1.0.tar.gz --markdown 20230612/w/w3multicall/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pyansys]: executing diffoscope
+[2023-06-12 17:15:21] INFO root fetch - processPackages [pyansys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-2023.2rc1.tar.gz tmp/pyansys-2023.2rc2.tar.gz --markdown 20230612/p/pyansys/2023.2rc1-2023.2rc2/diff.md --exclude *.pyd
+[2023-06-12 17:15:22] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-12 17:15:22] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.334.0.tar.gz tmp/policyengine-us-0.335.0.tar.gz --markdown 20230612/p/policyengine-us/0.334.0-0.335.0/diff.md --exclude *.pyd
+[2023-06-12 17:15:22] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/44/a7/99ceac2b78337a85a0b58bf38919f91a310ee2ff875c3d961db973a25f1d/assemblyline_service_utilities-4.4.1.dev6-py3-none-any.whl
+[2023-06-12 17:15:22] INFO root fetch - processPackages [assemblyline-service-utilities]: executing diffoscope
+[2023-06-12 17:15:22] INFO root fetch - processPackages [assemblyline-service-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_utilities-4.4.1.dev5-py3-none-any.whl.zip tmp/assemblyline_service_utilities-4.4.1.dev6-py3-none-any.whl.zip --markdown 20230612/a/assemblyline-service-utilities/4.4.1.dev5-4.4.1.dev6/diff.md --exclude *.pyd
+[2023-06-12 17:15:22] INFO root fetch - processPackages [lifeguard-telegram]: Remove: archive file [/home/abi/fetcher/tmp/lifeguard-telegram-1.1.1.tar.gz]
+[2023-06-12 17:15:22] INFO root fetch - processPackages [lifeguard-telegram]: Remove: archive file [/home/abi/fetcher/tmp/lifeguard-telegram-1.1.2.tar.gz]
+[2023-06-12 17:15:22] INFO root fetch - processPackages [lifeguard-telegram]: Start processing: laserdato
+[2023-06-12 17:15:22] INFO root fetch - main [MainThread]: End processing [lifeguard-telegram]: success
+[2023-06-12 17:15:22] WARNING root fetch - processPackages [laserdato]: Skipping, unable to determine old version
+[2023-06-12 17:15:22] INFO root fetch - processPackages [laserdato]: Start processing: Operetta-tool
+[2023-06-12 17:15:22] INFO root fetch - main [MainThread]: End processing [laserdato] error
+[2023-06-12 17:15:22] INFO root fetch - processPackages [Operetta-tool]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.2.2.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.2.3.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [artus]: Start processing: pyfii
+[2023-06-12 17:15:23] INFO root fetch - main [MainThread]: End processing [artus]: success
+[2023-06-12 17:15:23] INFO root fetch - processPackages [Operetta-tool]: Downloading https://files.pythonhosted.org/packages/4b/6a/675a1747715925bcc66c93339e8d58a4cfd92ccb6ba9cde542b7366112cb/Operetta_tool-1.4.0.tar.gz
+[2023-06-12 17:15:23] INFO root fetch - processPackages [pyfii]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [pyfii]: Downloading https://files.pythonhosted.org/packages/7d/c1/1306ba62a32532ed94f404d24ec3fbac6f6eaf8e633f52408c381c3141b9/pyfii-1.1.0.tar.gz
+[2023-06-12 17:15:23] INFO root fetch - processPackages [oda-data]: Remove: archive file [/home/abi/fetcher/tmp/oda_data-1.0.2.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [oda-data]: Remove: archive file [/home/abi/fetcher/tmp/oda_data-1.0.3.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [oda-data]: Start processing: assemblyline-service-utilities
+[2023-06-12 17:15:23] INFO root fetch - main [MainThread]: End processing [oda-data]: success
+[2023-06-12 17:15:23] INFO root fetch - processPackages [Operetta-tool]: Downloading https://files.pythonhosted.org/packages/b9/7d/318ee226c664fef2d04a731153f21ff6e13fd722bdf39ff527054d9f7a4d/Operetta_tool-1.4.1.tar.gz
+[2023-06-12 17:15:23] INFO root fetch - processPackages [assemblyline-service-utilities]: New version: [4.4.1.dev6] Old Version: [4.4.1.dev5]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [Operetta-tool]: executing diffoscope
+[2023-06-12 17:15:23] INFO root fetch - processPackages [Operetta-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Operetta_tool-1.4.0.tar.gz tmp/Operetta_tool-1.4.1.tar.gz --markdown 20230612/O/Operetta-tool/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-12 17:15:23] INFO root fetch - processPackages [assemblyline-service-utilities]: executing diffoscope
+[2023-06-12 17:15:23] INFO root fetch - processPackages [assemblyline-service-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_utilities-4.4.1.dev5-py3-none-any.whl.zip tmp/assemblyline_service_utilities-4.4.1.dev6-py3-none-any.whl.zip --markdown 20230612/a/assemblyline-service-utilities/4.4.1.dev5-4.4.1.dev6/diff.md --exclude *.pyd
+[2023-06-12 17:15:23] INFO root fetch - processPackages [libtado]: Remove: archive file [/home/abi/fetcher/tmp/libtado-3.6.0.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [libtado]: Remove: archive file [/home/abi/fetcher/tmp/libtado-3.6.0a0.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [libtado]: Start processing: datalookup
+[2023-06-12 17:15:23] INFO root fetch - main [MainThread]: End processing [libtado]: success
+[2023-06-12 17:15:23] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2023.2rc1.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2023.2rc2.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [pyansys]: Start processing: KMLPlus
+[2023-06-12 17:15:23] INFO root fetch - main [MainThread]: End processing [pyansys]: success
+[2023-06-12 17:15:23] INFO root fetch - processPackages [pyfii]: Downloading https://files.pythonhosted.org/packages/6b/09/f2d0fa21f6f7cf158e56dd72d0b2836d7a1abe35a56cc938263e920ece30/pyfii-1.2.0.tar.gz
+[2023-06-12 17:15:23] INFO root fetch - processPackages [w3multicall]: Remove: archive file [/home/abi/fetcher/tmp/w3multicall-0.0.1.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [w3multicall]: Remove: archive file [/home/abi/fetcher/tmp/w3multicall-0.1.0.tar.gz]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [w3multicall]: Start processing: types-openpyxl
+[2023-06-12 17:15:23] INFO root fetch - main [MainThread]: End processing [w3multicall]: success
+[2023-06-12 17:15:23] INFO root fetch - processPackages [datalookup]: New version: [1.0.0rc3] Old Version: [1.0.0rc1]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [KMLPlus]: New version: [3.0.0b2] Old Version: [3.0.0b1]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [pyfii]: executing diffoscope
+[2023-06-12 17:15:23] INFO root fetch - processPackages [pyfii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfii-1.1.0.tar.gz tmp/pyfii-1.2.0.tar.gz --markdown 20230612/p/pyfii/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-12 17:15:23] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.9] Old Version: [3.1.0.8]
+[2023-06-12 17:15:23] INFO root fetch - processPackages [datalookup]: Downloading https://files.pythonhosted.org/packages/24/e9/5db058d5e80593033eadb49694964c1e37106b06936abfbbc7abd4900fd7/datalookup-1.0.0rc1.tar.gz
+[2023-06-12 17:15:23] INFO root fetch - processPackages [KMLPlus]: Downloading https://files.pythonhosted.org/packages/7c/fd/8a2bddc6b6f60c4e56057e616cabac4decda4a2ac47f8dad579af85a1f39/KMLPlus-3.0.0b1.tar.gz
+[2023-06-12 17:15:23] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/1b/8a/70639ec16728a27eb8efb7ffc70ebf607fb622eb4122f8a8aef9167c4502/types-openpyxl-3.1.0.8.tar.gz
+[2023-06-12 17:15:24] INFO root fetch - processPackages [datalookup]: Downloading https://files.pythonhosted.org/packages/cf/8a/3a723daac36815107fa0b7f4ff719f436c883bac2eccf0b9095157349a94/datalookup-1.0.0rc3.tar.gz
+[2023-06-12 17:15:24] INFO root fetch - processPackages [KMLPlus]: Downloading https://files.pythonhosted.org/packages/52/e5/661bf2efec0434ae88740a4b9d8faa21c4fb0de5f1e18d9e132a5e24c1db/KMLPlus-3.0.0b2.tar.gz
+[2023-06-12 17:15:24] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/b9/65/22bbec74fcc943aa6c6fdb6df2ce51327bae5470283f90badeeb0bf4ac39/types-openpyxl-3.1.0.9.tar.gz
+[2023-06-12 17:15:24] INFO root fetch - processPackages [datalookup]: executing diffoscope
+[2023-06-12 17:15:24] INFO root fetch - processPackages [datalookup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalookup-1.0.0rc1.tar.gz tmp/datalookup-1.0.0rc3.tar.gz --markdown 20230612/d/datalookup/1.0.0rc1-1.0.0rc3/diff.md --exclude *.pyd
+[2023-06-12 17:15:24] INFO root fetch - processPackages [KMLPlus]: executing diffoscope
+[2023-06-12 17:15:24] INFO root fetch - processPackages [KMLPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KMLPlus-3.0.0b1.tar.gz tmp/KMLPlus-3.0.0b2.tar.gz --markdown 20230612/K/KMLPlus/3.0.0b1-3.0.0b2/diff.md --exclude *.pyd
+[2023-06-12 17:15:24] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2023-06-12 17:15:24] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.8.tar.gz tmp/types-openpyxl-3.1.0.9.tar.gz --markdown 20230612/t/types-openpyxl/3.1.0.8-3.1.0.9/diff.md --exclude *.pyd
+[2023-06-12 17:15:24] INFO root fetch - processPackages [pinit]: Remove: archive file [/home/abi/fetcher/tmp/pinit-0.0.7.tar.gz]
+[2023-06-12 17:15:24] INFO root fetch - processPackages [pinit]: Remove: archive file [/home/abi/fetcher/tmp/pinit-0.0.8.tar.gz]
+[2023-06-12 17:15:24] INFO root fetch - processPackages [pinit]: Start processing: comdexpy
+[2023-06-12 17:15:24] INFO root fetch - main [MainThread]: End processing [pinit]: success
+[2023-06-12 17:15:24] WARNING root fetch - processPackages [comdexpy]: Skipping, unable to determine old version
+[2023-06-12 17:15:24] INFO root fetch - main [MainThread]: End processing [comdexpy] error
+[2023-06-12 17:15:24] INFO root fetch - processPackages [Operetta-tool]: Remove: archive file [/home/abi/fetcher/tmp/Operetta_tool-1.4.0.tar.gz]
+[2023-06-12 17:15:24] INFO root fetch - processPackages [Operetta-tool]: Remove: archive file [/home/abi/fetcher/tmp/Operetta_tool-1.4.1.tar.gz]
+[2023-06-12 17:15:24] INFO root fetch - main [MainThread]: End processing [Operetta-tool]: success
+[2023-06-12 17:15:24] INFO root fetch - processPackages [pyfii]: Remove: archive file [/home/abi/fetcher/tmp/pyfii-1.1.0.tar.gz]
+[2023-06-12 17:15:24] INFO root fetch - processPackages [pyfii]: Remove: archive file [/home/abi/fetcher/tmp/pyfii-1.2.0.tar.gz]
+[2023-06-12 17:15:24] INFO root fetch - main [MainThread]: End processing [pyfii]: success
+[2023-06-12 17:15:25] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev5-py3-none-any.whl.zip]
+[2023-06-12 17:15:25] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev6-py3-none-any.whl.zip]
+[2023-06-12 17:15:25] INFO root fetch - main [MainThread]: End processing [assemblyline-service-utilities]: success
+[2023-06-12 17:15:25] INFO root fetch - processPackages [rxn-reaction-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/rxn-reaction-preprocessing-2.0.3.tar.gz]
+[2023-06-12 17:15:25] INFO root fetch - processPackages [rxn-reaction-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/rxn-reaction-preprocessing-2.1.0.tar.gz]
+[2023-06-12 17:15:25] INFO root fetch - main [MainThread]: End processing [rxn-reaction-preprocessing]: success
+[2023-06-12 17:15:25] INFO root fetch - processPackages [datalookup]: Remove: archive file [/home/abi/fetcher/tmp/datalookup-1.0.0rc1.tar.gz]
+[2023-06-12 17:15:25] INFO root fetch - processPackages [datalookup]: Remove: archive file [/home/abi/fetcher/tmp/datalookup-1.0.0rc3.tar.gz]
+[2023-06-12 17:15:25] INFO root fetch - main [MainThread]: End processing [datalookup]: success
+[2023-06-12 17:15:25] INFO root fetch - processPackages [KMLPlus]: Remove: archive file [/home/abi/fetcher/tmp/KMLPlus-3.0.0b1.tar.gz]
+[2023-06-12 17:15:25] INFO root fetch - processPackages [KMLPlus]: Remove: archive file [/home/abi/fetcher/tmp/KMLPlus-3.0.0b2.tar.gz]
+[2023-06-12 17:15:25] INFO root fetch - main [MainThread]: End processing [KMLPlus]: success
+[2023-06-12 17:15:26] INFO root fetch - main [MainThread]: End processing [assemblyline-service-utilities]: success
+[2023-06-12 17:15:28] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.8.tar.gz]
+[2023-06-12 17:15:28] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.9.tar.gz]
+[2023-06-12 17:15:28] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2023-06-12 17:16:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.334.0.tar.gz]
+[2023-06-12 17:16:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.335.0.tar.gz]
+[2023-06-12 17:16:48] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-12 17:16:48] INFO root fetch - main [MainThread]: Store serial: [18470470]
