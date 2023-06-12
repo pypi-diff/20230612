@@ -15418,3 +15418,80 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:00:51] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.0.tar.gz]
 [2023-06-12 13:00:51] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2023-06-12 13:00:51] INFO root fetch - main [MainThread]: Store serial: [18467801]
+[2023-06-12 13:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467801]
+[2023-06-12 13:06:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invoicing-pdf
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdshoplib
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testpipeci
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flaretool
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fspy
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: getmodelspec
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mciplayer
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infinopy
+[2023-06-12 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiooss2
+[2023-06-12 13:06:01] WARNING root fetch - processPackages [invoicing-pdf]: Skipping, unable to determine old version
+[2023-06-12 13:06:01] INFO root fetch - processPackages [invoicing-pdf]: Start processing: dwatch
+[2023-06-12 13:06:01] INFO root fetch - main [MainThread]: End processing [invoicing-pdf] error
+[2023-06-12 13:06:01] INFO root fetch - processPackages [testpipeci]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 13:06:01] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-12 13:06:01] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-12 13:06:01] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 13:06:01] WARNING root fetch - processPackages [infinopy]: Skipping, unable to determine old version
+[2023-06-12 13:06:01] INFO root fetch - main [MainThread]: End processing [infinopy] error
+[2023-06-12 13:06:01] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-12 13:06:02] WARNING root fetch - processPackages [mciplayer]: Skipping, unable to determine old version
+[2023-06-12 13:06:02] INFO root fetch - main [MainThread]: End processing [mciplayer] error
+[2023-06-12 13:06:02] INFO root fetch - processPackages [flaretool]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 13:06:02] INFO root fetch - processPackages [fspy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-12 13:06:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [testpipeci]: Downloading https://files.pythonhosted.org/packages/b7/1d/ddcff76a815b06b03230370f7903527296195ca99f081852f381b660dd9f/testpipeci-0.1.1.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [aiooss2]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-12 13:06:02] INFO root fetch - processPackages [dwatch]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-12 13:06:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 13:06:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 13:06:02] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-06-12 13:06:02] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230612/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-12 13:06:02] INFO root fetch - processPackages [fspy]: Downloading https://files.pythonhosted.org/packages/e3/62/ddc0510486c467e5cc19b8d7c301552e61dd477b28504ba28b064bdfca00/fspy-0.3.0-py2.py3-none-any.whl
+[2023-06-12 13:06:02] INFO root fetch - processPackages [flaretool]: Downloading https://files.pythonhosted.org/packages/35/9d/be63e204a9562980c6d30020d6b5b8809bceef5a08cbdaf63289341c5e6e/flaretool-0.1.8.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [testpipeci]: Downloading https://files.pythonhosted.org/packages/1e/07/86c40748be52073f4421424d63aac0fda2458b09bf2febdc9de4eb75db3e/testpipeci-0.1.2.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [aiooss2]: Downloading https://files.pythonhosted.org/packages/a7/e8/28994262c4fb5e79720a3051e67cce609684f2127e586314bc5e89d0bd41/aiooss2-0.2.5.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [fspy]: executing diffoscope
+[2023-06-12 13:06:02] INFO root fetch - processPackages [fspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fspy-0.2.0-py2.py3-none-any.whl.zip tmp/fspy-0.3.0-py2.py3-none-any.whl.zip --markdown 20230612/f/fspy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-12 13:06:02] INFO root fetch - processPackages [dwatch]: Downloading https://files.pythonhosted.org/packages/bd/cc/39bc5d33e34b62b2ed1fdb06d403dcb172f04ba8531210b78d3e7307bc9f/dwatch-0.1.2.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [testpipeci]: executing diffoscope
+[2023-06-12 13:06:02] INFO root fetch - processPackages [testpipeci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpipeci-0.1.1.tar.gz tmp/testpipeci-0.1.2.tar.gz --markdown 20230612/t/testpipeci/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 13:06:02] INFO root fetch - processPackages [flaretool]: Downloading https://files.pythonhosted.org/packages/86/77/89f9cec7e675d626fb627d23843af83d4be8e5f47b557848033f0beb5efe/flaretool-0.1.9-py3-none-any.whl
+[2023-06-12 13:06:02] INFO root fetch - processPackages [flaretool]: executing diffoscope
+[2023-06-12 13:06:02] INFO root fetch - processPackages [flaretool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaretool-0.1.8.tar.gz tmp/flaretool-0.1.9-py3-none-any.whl.zip --markdown 20230612/f/flaretool/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 13:06:02] INFO root fetch - processPackages [aiooss2]: Downloading https://files.pythonhosted.org/packages/f5/a4/e867ff213985bdf4da2c709c743faab22ff68d69b54cf094e66147877518/aiooss2-0.2.6.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [dwatch]: Downloading https://files.pythonhosted.org/packages/a0/98/78c09b986706004a302621426c4c3f0fc9adb86bf2b75e46c0eb81be1ebc/dwatch-0.2.0.tar.gz
+[2023-06-12 13:06:02] INFO root fetch - processPackages [aiooss2]: executing diffoscope
+[2023-06-12 13:06:02] INFO root fetch - processPackages [aiooss2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiooss2-0.2.5.tar.gz tmp/aiooss2-0.2.6.tar.gz --markdown 20230612/a/aiooss2/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-12 13:06:02] INFO root fetch - processPackages [dwatch]: executing diffoscope
+[2023-06-12 13:06:02] INFO root fetch - processPackages [dwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwatch-0.1.2.tar.gz tmp/dwatch-0.2.0.tar.gz --markdown 20230612/d/dwatch/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 13:06:04] INFO root fetch - processPackages [testpipeci]: Remove: archive file [/home/abi/fetcher/tmp/testpipeci-0.1.1.tar.gz]
+[2023-06-12 13:06:04] INFO root fetch - processPackages [testpipeci]: Remove: archive file [/home/abi/fetcher/tmp/testpipeci-0.1.2.tar.gz]
+[2023-06-12 13:06:04] INFO root fetch - main [MainThread]: End processing [testpipeci]: success
+[2023-06-12 13:06:04] INFO root fetch - processPackages [fspy]: Remove: archive file [/home/abi/fetcher/tmp/fspy-0.2.0-py2.py3-none-any.whl.zip]
+[2023-06-12 13:06:04] INFO root fetch - processPackages [fspy]: Remove: archive file [/home/abi/fetcher/tmp/fspy-0.3.0-py2.py3-none-any.whl.zip]
+[2023-06-12 13:06:04] INFO root fetch - main [MainThread]: End processing [fspy]: success
+[2023-06-12 13:06:04] INFO root fetch - processPackages [flaretool]: Remove: archive file [/home/abi/fetcher/tmp/flaretool-0.1.8.tar.gz]
+[2023-06-12 13:06:04] INFO root fetch - processPackages [flaretool]: Remove: archive file [/home/abi/fetcher/tmp/flaretool-0.1.9-py3-none-any.whl.zip]
+[2023-06-12 13:06:04] INFO root fetch - main [MainThread]: End processing [flaretool]: success
+[2023-06-12 13:06:04] INFO root fetch - processPackages [dwatch]: Remove: archive file [/home/abi/fetcher/tmp/dwatch-0.1.2.tar.gz]
+[2023-06-12 13:06:04] INFO root fetch - processPackages [dwatch]: Remove: archive file [/home/abi/fetcher/tmp/dwatch-0.2.0.tar.gz]
+[2023-06-12 13:06:04] INFO root fetch - main [MainThread]: End processing [dwatch]: success
+[2023-06-12 13:06:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 13:06:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 13:06:04] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 13:06:05] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-06-12 13:06:05] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-06-12 13:06:05] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-06-12 13:06:05] INFO root fetch - processPackages [aiooss2]: Remove: archive file [/home/abi/fetcher/tmp/aiooss2-0.2.5.tar.gz]
+[2023-06-12 13:06:05] INFO root fetch - processPackages [aiooss2]: Remove: archive file [/home/abi/fetcher/tmp/aiooss2-0.2.6.tar.gz]
+[2023-06-12 13:06:05] INFO root fetch - main [MainThread]: End processing [aiooss2]: success
+[2023-06-12 13:06:05] INFO root fetch - main [MainThread]: Store serial: [18467846]
