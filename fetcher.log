@@ -7364,3 +7364,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 05:41:49] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.5.tar.gz]
 [2023-06-12 05:41:49] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-06-12 05:41:49] INFO root fetch - main [MainThread]: Store serial: [18464276]
+[2023-06-12 05:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464276]
+[2023-06-12 05:46:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqrack
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geofabrics
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gtempco2
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sc-editor
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: benchtemp
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccdt
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opentelemetry-instrument-openai
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pandora-ChatGPT
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sc-editor
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysimflow
+[2023-06-12 05:46:59] INFO root fetch - processPackages [geofabrics]: New version: [0.9.4] Old Version: [0.9.3a0]
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: New version: [0.7] Old Version: [0.6]
+[2023-06-12 05:46:59] WARNING root fetch - processPackages [gtempco2]: Skipping, unable to determine old version
+[2023-06-12 05:46:59] INFO root fetch - processPackages [gtempco2]: Start processing: SmplML
+[2023-06-12 05:46:59] INFO root fetch - main [MainThread]: End processing [gtempco2] error
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: New version: [0.7] Old Version: [0.6]
+[2023-06-12 05:46:59] INFO root fetch - processPackages [pysimflow]: New version: [0.0.67] Old Version: [0.0.66]
+[2023-06-12 05:46:59] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/1f/99/541ee18b2bdc7d27068dfeffb46fe1d8516f8c84b61fb4067a06e647b7f5/sc-editor-0.6.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/ab/a3/b71a0a3a708fc1aaada6e7d6df13d323de45ae1771809c5f09f6b5f972ae/geofabrics-0.9.3a0.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/1f/99/541ee18b2bdc7d27068dfeffb46fe1d8516f8c84b61fb4067a06e647b7f5/sc-editor-0.6.tar.gz
+[2023-06-12 05:46:59] WARNING root fetch - processPackages [opentelemetry-instrument-openai]: Skipping, unable to determine old version
+[2023-06-12 05:46:59] INFO root fetch - processPackages [opentelemetry-instrument-openai]: Start processing: spPersist
+[2023-06-12 05:46:59] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrument-openai] error
+[2023-06-12 05:46:59] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-12 05:46:59] INFO root fetch - processPackages [benchtemp]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-12 05:46:59] INFO root fetch - processPackages [SmplML]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 05:46:59] INFO root fetch - processPackages [spPersist]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-12 05:46:59] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/8f/95/c03a0d5ff15b43c729330e9b754ed84625c3e8abd8fa7bfa540a1e188251/spPersist-0.4.7.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/b5/aa/f9efc72c3c5226d7901f4e4cd389ba0bcbc46a64daccadc9131b3ac8262d/pysimflow-0.0.66.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/fe/d6/efeca73535f347494b285886aad06bf516af311af3048957a97727c9a270/Pandora-ChatGPT-1.1.8.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [benchtemp]: Downloading https://files.pythonhosted.org/packages/e5/3b/d9ebda314134c4fe8a25bbf2e48f047c0a0b6ed44aaa821891691a79856b/benchtemp-1.0.0.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/cc/66/35bfa2070c5b47479cb5503f5d0f5fe5e926eb8bf9f65f9781424bc500e8/sc-editor-0.7.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [SmplML]: Downloading https://files.pythonhosted.org/packages/5c/0e/7a21c616ef0840ee1e8e5ae75613c00e2032750d3541e8b1a26588fcae9c/SmplML-1.0.0.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/f3/2f/b84fea41bea143f4e81d14dc8a934fe6294f1788b6baf846c84da4b88c8d/geofabrics-0.9.4.tar.gz
+[2023-06-12 05:46:59] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72643991>=10485760
+[2023-06-12 05:46:59] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/cc/66/35bfa2070c5b47479cb5503f5d0f5fe5e926eb8bf9f65f9781424bc500e8/sc-editor-0.7.tar.gz
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.6.tar.gz tmp/sc-editor-0.7.tar.gz --markdown 20230612/s/sc-editor/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 05:46:59] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.6.tar.gz tmp/sc-editor-0.7.tar.gz --markdown 20230612/s/sc-editor/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-12 05:47:00] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-12 05:47:00] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/90/3b/30fd56b908569240e3d633e54d81ba2dae94fda02225cf55f16ea2530978/spPersist-0.4.8.tar.gz
+[2023-06-12 05:47:00] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 05:47:00] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.4.7.tar.gz tmp/spPersist-0.4.8.tar.gz --markdown 20230612/s/spPersist/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-12 05:47:00] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-12 05:47:00] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230612/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-12 05:47:00] INFO root fetch - processPackages [geofabrics]: executing diffoscope
+[2023-06-12 05:47:00] INFO root fetch - processPackages [geofabrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofabrics-0.9.3a0.tar.gz tmp/geofabrics-0.9.4.tar.gz --markdown 20230612/g/geofabrics/0.9.3a0-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 05:47:00] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-12 05:47:00] INFO root fetch - processPackages [benchtemp]: Downloading https://files.pythonhosted.org/packages/4a/cd/37779d6dab4701f5a3e3129482d36c4ea57ad9b788a2c754ba540f860e7e/benchtemp-1.1.0.tar.gz
+[2023-06-12 05:47:00] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-12 05:47:00] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230612/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-12 05:47:00] INFO root fetch - processPackages [SmplML]: Downloading https://files.pythonhosted.org/packages/45/48/7b66786a3fc8cbfa76b22ab633d4f11a1629ecdce6b7a4f3871e4f19307c/SmplML-1.0.1.tar.gz
+[2023-06-12 05:47:00] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/47/59/13535fd76ba70393c88a85c92754254b83e3c9affcd1079f04f9b3b6259a/Pandora-ChatGPT-1.1.9.tar.gz
+[2023-06-12 05:47:00] INFO root fetch - processPackages [SmplML]: executing diffoscope
+[2023-06-12 05:47:00] INFO root fetch - processPackages [SmplML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmplML-1.0.0.tar.gz tmp/SmplML-1.0.1.tar.gz --markdown 20230612/S/SmplML/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 05:47:00] INFO root fetch - processPackages [benchtemp]: executing diffoscope
+[2023-06-12 05:47:00] INFO root fetch - processPackages [benchtemp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchtemp-1.0.0.tar.gz tmp/benchtemp-1.1.0.tar.gz --markdown 20230612/b/benchtemp/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 05:47:00] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-12 05:47:00] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.8.tar.gz tmp/Pandora-ChatGPT-1.1.9.tar.gz --markdown 20230612/P/Pandora-ChatGPT/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-12 05:47:01] INFO root fetch - processPackages [SmplML]: Remove: archive file [/home/abi/fetcher/tmp/SmplML-1.0.0.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - processPackages [SmplML]: Remove: archive file [/home/abi/fetcher/tmp/SmplML-1.0.1.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - main [MainThread]: End processing [SmplML]: success
+[2023-06-12 05:47:01] INFO root fetch - processPackages [geofabrics]: Remove: archive file [/home/abi/fetcher/tmp/geofabrics-0.9.3a0.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - processPackages [geofabrics]: Remove: archive file [/home/abi/fetcher/tmp/geofabrics-0.9.4.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
+[2023-06-12 05:47:01] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-12 05:47:01] INFO root fetch - processPackages [benchtemp]: Remove: archive file [/home/abi/fetcher/tmp/benchtemp-1.0.0.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - processPackages [benchtemp]: Remove: archive file [/home/abi/fetcher/tmp/benchtemp-1.1.0.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - main [MainThread]: End processing [benchtemp]: success
+[2023-06-12 05:47:01] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.7.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.8.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 05:47:01] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-12 05:47:01] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-12 05:47:03] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.6.tar.gz]
+[2023-06-12 05:47:03] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.7.tar.gz]
+[2023-06-12 05:47:03] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 05:47:03] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 05:47:04] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.8.tar.gz]
+[2023-06-12 05:47:04] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.9.tar.gz]
+[2023-06-12 05:47:04] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-12 05:47:04] INFO root fetch - main [MainThread]: Store serial: [18464337]
