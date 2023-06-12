@@ -7098,3 +7098,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 05:20:43] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-zj-3.0.912.tar.gz]
 [2023-06-12 05:20:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-zj]: success
 [2023-06-12 05:20:43] INFO root fetch - main [MainThread]: Store serial: [18464145]
+[2023-06-12 05:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464145]
+[2023-06-12 05:25:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 05:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs.cmdutils
+[2023-06-12 05:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysimflow
+[2023-06-12 05:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysimflow
+[2023-06-12 05:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtfield
+[2023-06-12 05:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: salesea
+[2023-06-12 05:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cs.mappings
+[2023-06-12 05:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastdup
+[2023-06-12 05:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysimflow
+[2023-06-12 05:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exceptioncontrol
+[2023-06-12 05:25:52] INFO root fetch - processPackages [pysimflow]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-06-12 05:25:52] INFO root fetch - processPackages [cs.cmdutils]: New version: [20230612] Old Version: [20230407]
+[2023-06-12 05:25:52] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-06-12 05:25:52] INFO root fetch - processPackages [dtfield]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 05:25:52] INFO root fetch - processPackages [pysimflow]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-06-12 05:25:52] INFO root fetch - processPackages [salesea]: New version: [1.0.34] Old Version: [1.0.33]
+[2023-06-12 05:25:52] INFO root fetch - processPackages [cs.mappings]: New version: [20230612] Old Version: [20220912.4]
+[2023-06-12 05:25:52] INFO root fetch - processPackages [pysimflow]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-06-12 05:25:52] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-06-12 05:25:52] WARNING root fetch - processPackages [exceptioncontrol]: Skipping, unable to determine old version
+[2023-06-12 05:25:52] INFO root fetch - main [MainThread]: End processing [exceptioncontrol] error
+[2023-06-12 05:25:52] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-06-12 05:25:52] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-06-12 05:25:52] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/39/70/3e36bbcdaa504c7e226b9135907e183e995b3ed015893af0f7119e8da9cc/dtfield-0.1.0.tar.gz
+[2023-06-12 05:25:52] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/c6/ee/15b2b26ce659e03785818de47ab6ba06480b3d3d0f60db8483a8f79377f0/pysimflow-0.0.62-py3-none-any.whl
+[2023-06-12 05:25:52] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/c6/ee/15b2b26ce659e03785818de47ab6ba06480b3d3d0f60db8483a8f79377f0/pysimflow-0.0.62-py3-none-any.whl
+[2023-06-12 05:25:52] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/c6/ee/15b2b26ce659e03785818de47ab6ba06480b3d3d0f60db8483a8f79377f0/pysimflow-0.0.62-py3-none-any.whl
+[2023-06-12 05:25:52] INFO root fetch - processPackages [cs.mappings]: Downloading https://files.pythonhosted.org/packages/eb/8b/3e7859ae2d3c8ace51bf02d5a111f0a345e3f87ede201800fd183bf575fa/cs.mappings-20220912.4.tar.gz
+[2023-06-12 05:25:52] INFO root fetch - processPackages [cs.cmdutils]: Downloading https://files.pythonhosted.org/packages/43/9b/5fcfe2b303e7189729e2410d0b9d500ebca0b9e6ea849828323d737b6c83/cs.cmdutils-20230407.tar.gz
+[2023-06-12 05:25:52] INFO root fetch - processPackages [salesea]: Downloading https://files.pythonhosted.org/packages/5b/c1/a5da3751c1698b32eb252ee5dedfb834f0ad4ab4dbb3ba8e89652faf9e5b/salesea-1.0.33.tar.gz
+[2023-06-12 05:25:52] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72769088>=10485760
+[2023-06-12 05:25:52] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72769088>=10485760
+[2023-06-12 05:25:52] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 05:25:52] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 05:25:52] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72769088>=10485760
+[2023-06-12 05:25:52] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 05:25:52] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/7c/53/dd848f998229eb7d4474ebe742e724c09d0678d6cbd141797c6dc8e71834/dtfield-0.1.1.tar.gz
+[2023-06-12 05:25:52] INFO root fetch - processPackages [salesea]: Downloading https://files.pythonhosted.org/packages/0a/3e/0e75e0d31688385438ccbbaffd6ca135b3ad234db12153738fcebc778dbc/salesea-1.0.34.tar.gz
+[2023-06-12 05:25:52] INFO root fetch - processPackages [cs.cmdutils]: Downloading https://files.pythonhosted.org/packages/2b/e0/a892f880eeb71c5c9edb5fedc2999272d1b3403e6bea1ce6e2c8da13c999/cs.cmdutils-20230612.tar.gz
+[2023-06-12 05:25:52] INFO root fetch - processPackages [dtfield]: executing diffoscope
+[2023-06-12 05:25:52] INFO root fetch - processPackages [dtfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfield-0.1.0.tar.gz tmp/dtfield-0.1.1.tar.gz --markdown 20230612/d/dtfield/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 05:25:53] INFO root fetch - processPackages [salesea]: executing diffoscope
+[2023-06-12 05:25:53] INFO root fetch - processPackages [salesea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesea-1.0.33.tar.gz tmp/salesea-1.0.34.tar.gz --markdown 20230612/s/salesea/1.0.33-1.0.34/diff.md --exclude *.pyd
+[2023-06-12 05:25:53] INFO root fetch - processPackages [cs.cmdutils]: executing diffoscope
+[2023-06-12 05:25:53] INFO root fetch - processPackages [cs.cmdutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.cmdutils-20230407.tar.gz tmp/cs.cmdutils-20230612.tar.gz --markdown 20230612/c/cs.cmdutils/20230407-20230612/diff.md --exclude *.pyd
+[2023-06-12 05:25:53] INFO root fetch - processPackages [cs.mappings]: Downloading https://files.pythonhosted.org/packages/7a/85/cef7ef180a932c4de72fb89884d8b05271f97d9cb4cdb4c3020c326b866c/cs.mappings-20230612.tar.gz
+[2023-06-12 05:25:53] INFO root fetch - processPackages [cs.mappings]: executing diffoscope
+[2023-06-12 05:25:53] INFO root fetch - processPackages [cs.mappings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.mappings-20220912.4.tar.gz tmp/cs.mappings-20230612.tar.gz --markdown 20230612/c/cs.mappings/20220912.4-20230612/diff.md --exclude *.pyd
+[2023-06-12 05:25:54] INFO root fetch - processPackages [salesea]: Remove: archive file [/home/abi/fetcher/tmp/salesea-1.0.33.tar.gz]
+[2023-06-12 05:25:54] INFO root fetch - processPackages [salesea]: Remove: archive file [/home/abi/fetcher/tmp/salesea-1.0.34.tar.gz]
+[2023-06-12 05:25:54] INFO root fetch - main [MainThread]: End processing [salesea]: success
+[2023-06-12 05:25:54] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.0.tar.gz]
+[2023-06-12 05:25:54] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.1.tar.gz]
+[2023-06-12 05:25:54] INFO root fetch - main [MainThread]: End processing [dtfield]: success
+[2023-06-12 05:25:54] INFO root fetch - processPackages [cs.cmdutils]: Remove: archive file [/home/abi/fetcher/tmp/cs.cmdutils-20230407.tar.gz]
+[2023-06-12 05:25:54] INFO root fetch - processPackages [cs.cmdutils]: Remove: archive file [/home/abi/fetcher/tmp/cs.cmdutils-20230612.tar.gz]
+[2023-06-12 05:25:54] INFO root fetch - main [MainThread]: End processing [cs.cmdutils]: success
+[2023-06-12 05:25:55] INFO root fetch - processPackages [cs.mappings]: Remove: archive file [/home/abi/fetcher/tmp/cs.mappings-20220912.4.tar.gz]
+[2023-06-12 05:25:55] INFO root fetch - processPackages [cs.mappings]: Remove: archive file [/home/abi/fetcher/tmp/cs.mappings-20230612.tar.gz]
+[2023-06-12 05:25:55] INFO root fetch - main [MainThread]: End processing [cs.mappings]: success
+[2023-06-12 05:25:55] INFO root fetch - main [MainThread]: Store serial: [18464172]
