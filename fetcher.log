@@ -12037,3 +12037,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:39:33] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
 [2023-06-12 10:39:33] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-12 10:39:33] INFO root fetch - main [MainThread]: Store serial: [18466300]
+[2023-06-12 10:44:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466300]
+[2023-06-12 10:44:42] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioarp
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: struqture-py
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-core
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyautd3
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-neat
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: absplit
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osyris
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tff-nightly
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sudalTest
+[2023-06-12 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JinuTest
+[2023-06-12 10:44:42] INFO root fetch - processPackages [aioarp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 10:44:42] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-12 10:44:42] INFO root fetch - processPackages [cognite-neat]: New version: [0.13.0] Old Version: [0.12.9]
+[2023-06-12 10:44:42] INFO root fetch - processPackages [struqture-py]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-12 10:44:42] WARNING root fetch - processPackages [JinuTest]: Skipping, unable to determine old version
+[2023-06-12 10:44:42] INFO root fetch - processPackages [JinuTest]: Start processing: seolTest
+[2023-06-12 10:44:42] INFO root fetch - main [MainThread]: End processing [JinuTest] error
+[2023-06-12 10:44:42] WARNING root fetch - processPackages [sudalTest]: Skipping, unable to determine old version
+[2023-06-12 10:44:42] INFO root fetch - processPackages [sudalTest]: Start processing: thipster
+[2023-06-12 10:44:42] INFO root fetch - main [MainThread]: End processing [sudalTest] error
+[2023-06-12 10:44:42] INFO root fetch - processPackages [absplit]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-12 10:44:42] INFO root fetch - processPackages [osyris]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-12 10:44:42] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-12 10:44:42] WARNING root fetch - processPackages [seolTest]: Skipping, unable to determine old version
+[2023-06-12 10:44:42] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230611] Old Version: [0.0.1.dev20230610]
+[2023-06-12 10:44:42] INFO root fetch - processPackages [seolTest]: Start processing: bpctl-test
+[2023-06-12 10:44:42] INFO root fetch - main [MainThread]: End processing [seolTest] error
+[2023-06-12 10:44:42] INFO root fetch - processPackages [thipster]: New version: [0.16.4] Old Version: [0.16.3]
+[2023-06-12 10:44:42] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/b3/0e/cd5698e54faa8e97ff9bfdfc0c28251a8cc5b3d783b524cf98d91e9ec065/cognite_neat-0.12.9.tar.gz
+[2023-06-12 10:44:42] WARNING root fetch - processPackages [bpctl-test]: Skipping, unable to determine old version
+[2023-06-12 10:44:42] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-12 10:44:42] INFO root fetch - processPackages [bpctl-test]: Start processing: vdk-core
+[2023-06-12 10:44:42] INFO root fetch - main [MainThread]: End processing [bpctl-test] error
+[2023-06-12 10:44:42] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/7d/06/8069c18b5578ec635f8dd7d200b7622ae6745a0ba368edebb954e5d73e99/thipster-0.16.3.tar.gz
+[2023-06-12 10:44:42] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/ce/da/5fd9ddd796325801a1471c49e4529bebebf3d99db763eac464b827b1e090/aioarp-0.0.4.tar.gz
+[2023-06-12 10:44:42] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/45/de/c302af9e87158f959c02f39d3b9b39dc99250faa52f5fbddac1479325163/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl
+[2023-06-12 10:44:43] INFO root fetch - processPackages [osyris]: Downloading https://files.pythonhosted.org/packages/94/3f/e90da434377b875184ff64561c60f29299ccc7e998bbb199b06a184112f3/osyris-2.9.0.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [vdk-core]: New version: [0.3.896750818] Old Version: [0.3.893910391]
+[2023-06-12 10:44:43] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/bb/28/25c1ee58672f7ae817b9653aafcbed0753a1a225379155940ad5adf57f59/absplit-1.0.1.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-12 10:44:43] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-12 10:44:43] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230612/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-12 10:44:43] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/d2/20/eb6b4c1cd02f6fcf174467c24f5cc3772cd9512002064f0e51e904021942/struqture_py-1.1.1.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/22/57/5d726e7e237b3f07f4a25c2e8c5a897554833b870540f20e4dd6167db8f9/cognite_neat-0.13.0.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/1f/fe/3960bc2dde3c9be795c6fca9341d1f69181d1c91b53b31d54cdfe10838de/aioarp-0.0.5.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/82/39/ec0ed294a77dcf8b763dfe87d58cdc7721a2283ad1a04b2fa6cadb893aa4/thipster-0.16.4.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/e3/28/0b81556e410b084800f1611bb778fcec80c51042fce8ff23c9979fe87a68/vdk-core-0.3.893910391.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [aioarp]: executing diffoscope
+[2023-06-12 10:44:43] INFO root fetch - processPackages [aioarp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioarp-0.0.4.tar.gz tmp/aioarp-0.0.5.tar.gz --markdown 20230612/a/aioarp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 10:44:43] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-12 10:44:43] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.16.3.tar.gz tmp/thipster-0.16.4.tar.gz --markdown 20230612/t/thipster/0.16.3-0.16.4/diff.md --exclude *.pyd
+[2023-06-12 10:44:43] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-06-12 10:44:43] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.12.9.tar.gz tmp/cognite_neat-0.13.0.tar.gz --markdown 20230612/c/cognite-neat/0.12.9-0.13.0/diff.md --exclude *.pyd
+[2023-06-12 10:44:43] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/47/2b/6fc8e9985b4b22ef0943efc22dedcde846d57354d7009d7a4c5d020b5827/absplit-1.1.0.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [osyris]: Downloading https://files.pythonhosted.org/packages/f4/45/cd8338c7e073df2ad1f18862d7de56d797cbd1dd2d34391caad9a6612a0c/osyris-2.9.1.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/c7/25/22eb9d90e90140e6683a476a78f719c90fc58727d54750bc6ddf33df644c/tff_nightly-0.0.1.dev20230611-py2.py3-none-any.whl
+[2023-06-12 10:44:43] INFO root fetch - processPackages [absplit]: executing diffoscope
+[2023-06-12 10:44:43] INFO root fetch - processPackages [absplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absplit-1.0.1.tar.gz tmp/absplit-1.1.0.tar.gz --markdown 20230612/a/absplit/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 10:44:43] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/83/c3/e48a6762989304d31aa135cdcac481d2e940be8e90f4acc8c69cfc2714ab/struqture_py-1.2.0.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [osyris]: executing diffoscope
+[2023-06-12 10:44:43] INFO root fetch - processPackages [osyris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osyris-2.9.0.tar.gz tmp/osyris-2.9.1.tar.gz --markdown 20230612/o/osyris/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-12 10:44:43] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/ed/a8/9743955c4b3ea9de3609f7345a7c51f658afa983fb8ff0fe1898503097c2/vdk-core-0.3.896750818.tar.gz
+[2023-06-12 10:44:43] INFO root fetch - processPackages [struqture-py]: executing diffoscope
+[2023-06-12 10:44:43] INFO root fetch - processPackages [struqture-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struqture_py-1.1.1.tar.gz tmp/struqture_py-1.2.0.tar.gz --markdown 20230612/s/struqture-py/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-12 10:44:43] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-12 10:44:43] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230611-py2.py3-none-any.whl.zip --markdown 20230612/t/tff-nightly/0.0.1.dev20230610-0.0.1.dev20230611/diff.md --exclude *.pyd
+[2023-06-12 10:44:43] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-06-12 10:44:43] INFO root fetch - processPackages [pyautd3]: Start processing: proj00
+[2023-06-12 10:44:43] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-06-12 10:44:43] WARNING root fetch - processPackages [proj00]: Skipping, unable to determine old version
+[2023-06-12 10:44:43] INFO root fetch - main [MainThread]: End processing [proj00] error
+[2023-06-12 10:44:43] INFO root fetch - processPackages [vdk-core]: executing diffoscope
+[2023-06-12 10:44:43] INFO root fetch - processPackages [vdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-core-0.3.893910391.tar.gz tmp/vdk-core-0.3.896750818.tar.gz --markdown 20230612/v/vdk-core/0.3.893910391-0.3.896750818/diff.md --exclude *.pyd
+[2023-06-12 10:44:44] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.3.tar.gz]
+[2023-06-12 10:44:44] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.4.tar.gz]
+[2023-06-12 10:44:44] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-12 10:44:44] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-12 10:44:44] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-12 10:44:44] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-12 10:44:45] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.0.1.tar.gz]
+[2023-06-12 10:44:45] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.1.0.tar.gz]
+[2023-06-12 10:44:45] INFO root fetch - main [MainThread]: End processing [absplit]: success
+[2023-06-12 10:44:45] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.893910391.tar.gz]
+[2023-06-12 10:44:45] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.896750818.tar.gz]
+[2023-06-12 10:44:45] INFO root fetch - main [MainThread]: End processing [vdk-core]: success
+[2023-06-12 10:44:45] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.4.tar.gz]
+[2023-06-12 10:44:45] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.5.tar.gz]
+[2023-06-12 10:44:45] INFO root fetch - main [MainThread]: End processing [aioarp]: success
+[2023-06-12 10:44:45] INFO root fetch - processPackages [osyris]: Remove: archive file [/home/abi/fetcher/tmp/osyris-2.9.0.tar.gz]
+[2023-06-12 10:44:45] INFO root fetch - processPackages [osyris]: Remove: archive file [/home/abi/fetcher/tmp/osyris-2.9.1.tar.gz]
+[2023-06-12 10:44:45] INFO root fetch - main [MainThread]: End processing [osyris]: success
+[2023-06-12 10:44:46] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.9.tar.gz]
+[2023-06-12 10:44:46] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.13.0.tar.gz]
+[2023-06-12 10:44:46] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-06-12 10:44:46] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-1.1.1.tar.gz]
+[2023-06-12 10:44:46] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-1.2.0.tar.gz]
+[2023-06-12 10:44:46] INFO root fetch - main [MainThread]: End processing [struqture-py]: success
+[2023-06-12 10:44:46] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl.zip]
+[2023-06-12 10:44:46] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230611-py2.py3-none-any.whl.zip]
+[2023-06-12 10:44:46] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-12 10:44:46] INFO root fetch - main [MainThread]: Store serial: [18466374]
