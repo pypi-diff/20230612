@@ -3056,3 +3056,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 03:27:03] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-06-12 03:27:03] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-06-12 03:27:03] INFO root fetch - main [MainThread]: Store serial: [18462534]
+[2023-06-12 03:32:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462534]
+[2023-06-12 03:32:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: circuitpython-bmp581
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lab-partner
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-statemachine
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: workforce
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Embedding-m3e-base
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-subminute
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyagrum-nightly
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SmoobuExtractorFormatter
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: duckdb
+[2023-06-12 03:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zcbot-crawl-sdk
+[2023-06-12 03:32:14] WARNING root fetch - processPackages [Embedding-m3e-base]: Skipping, unable to determine old version
+[2023-06-12 03:32:14] INFO root fetch - main [MainThread]: End processing [Embedding-m3e-base] error
+[2023-06-12 03:32:14] INFO root fetch - processPackages [python-statemachine]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-12 03:32:14] INFO root fetch - processPackages [circuitpython-bmp581]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-12 03:32:14] INFO root fetch - processPackages [zcbot-crawl-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 03:32:14] INFO root fetch - processPackages [workforce]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-12 03:32:14] INFO root fetch - processPackages [lab-partner]: New version: [0.7.54] Old Version: [0.7.53]
+[2023-06-12 03:32:14] INFO root fetch - processPackages [SmoobuExtractorFormatter]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-12 03:32:14] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 03:32:14] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/86/bb/3b62574d93fadbdef698d61bfe60640d68e6c38248e605683337c1a4ee1f/lab-partner-0.7.53.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/88/84/849089e8fc11e9bd0a85e1702b8326133acc1df460ecfcebfb16a64d831d/SmoobuExtractorFormatter-1.2.4.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/c4/b8/a287d3e20287e42c8b5d4fd99876907757dcaa971d8f0d126d6afb9c5b29/workforce-1.0.7.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev477] Old Version: [0.8.1.dev425]
+[2023-06-12 03:32:14] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306111686326557] Old Version: [1.8.3.dev202306101686326557]
+[2023-06-12 03:32:14] INFO root fetch - processPackages [circuitpython-bmp581]: Downloading https://files.pythonhosted.org/packages/fc/2e/922a5435e36ac0d5b988b5477c5b8ed4dde464e024a86d8d29abafd94228/circuitpython-bmp581-0.1.1.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [zcbot-crawl-sdk]: Downloading https://files.pythonhosted.org/packages/10/a9/faa418ec4733b2c442d1b64205be65d902c36a3898749e4ba4eb38314bce/zcbot-crawl-sdk-0.0.8.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/26/7a/25997f526605f08fb2b5865392c728283e26085f86fd80620b82b0c93e76/pyAgrum_nightly-1.8.3.dev202306101686326557-cp39-cp39-win_amd64.whl
+[2023-06-12 03:32:14] INFO root fetch - processPackages [python-statemachine]: Downloading https://files.pythonhosted.org/packages/a6/9e/3ece63987db925f0decfb32212fc316ebaa9bb8321621805ea133ee4f559/python_statemachine-2.0.0.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/cc/3c/11d3ff498eeb5108a6c639cea91c7c760fd56827e3039fa3d0561914f0a7/lab-partner-0.7.54.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/17/d2/46bcf2e7bc5d6c9e9af7ba52eb018d6664f88b371e09478aa20da1d321d1/SmoobuExtractorFormatter-1.2.5.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-12 03:32:14] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230612/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:32:14] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/55/59/53be4a44d778aa9a2e2b63afe372493a11a17d0ed224ed95cc5a778fbc89/workforce-1.0.8.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/61/e9/5c28abfad5cece5c58f894dd9f5f6cbde9ca72a4d07915319afbd4b93f57/duckdb-0.8.1.dev425.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [SmoobuExtractorFormatter]: executing diffoscope
+[2023-06-12 03:32:14] INFO root fetch - processPackages [SmoobuExtractorFormatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmoobuExtractorFormatter-1.2.4.tar.gz tmp/SmoobuExtractorFormatter-1.2.5.tar.gz --markdown 20230612/S/SmoobuExtractorFormatter/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-12 03:32:14] INFO root fetch - processPackages [lab-partner]: executing diffoscope
+[2023-06-12 03:32:14] INFO root fetch - processPackages [lab-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-0.7.53.tar.gz tmp/lab-partner-0.7.54.tar.gz --markdown 20230612/l/lab-partner/0.7.53-0.7.54/diff.md --exclude *.pyd
+[2023-06-12 03:32:14] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-12 03:32:14] INFO root fetch - processPackages [circuitpython-bmp581]: Downloading https://files.pythonhosted.org/packages/f0/79/6acd6cbfc486d9fe10288b5913e3e136fe1a2c7b0f30674078e4276cca89/circuitpython-bmp581-0.2.0.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [workforce]: executing diffoscope
+[2023-06-12 03:32:14] INFO root fetch - processPackages [workforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workforce-1.0.7.tar.gz tmp/workforce-1.0.8.tar.gz --markdown 20230612/w/workforce/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-12 03:32:14] INFO root fetch - processPackages [python-statemachine]: Downloading https://files.pythonhosted.org/packages/1d/52/2aa0af94f579873c8d517b8bb38ff357c9acf4d0cd6dfd2bd54c323b7a06/python_statemachine-2.1.0.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [zcbot-crawl-sdk]: Downloading https://files.pythonhosted.org/packages/22/2d/b06cacf9353d7d58d8030743294dd9e822227f2beacf10774cbc35850869/zcbot-crawl-sdk-0.0.9.tar.gz
+[2023-06-12 03:32:14] INFO root fetch - processPackages [circuitpython-bmp581]: executing diffoscope
+[2023-06-12 03:32:14] INFO root fetch - processPackages [circuitpython-bmp581]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-bmp581-0.1.1.tar.gz tmp/circuitpython-bmp581-0.2.0.tar.gz --markdown 20230612/c/circuitpython-bmp581/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 03:32:14] INFO root fetch - processPackages [python-statemachine]: executing diffoscope
+[2023-06-12 03:32:14] INFO root fetch - processPackages [python-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_statemachine-2.0.0.tar.gz tmp/python_statemachine-2.1.0.tar.gz --markdown 20230612/p/python-statemachine/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-12 03:32:14] INFO root fetch - processPackages [zcbot-crawl-sdk]: executing diffoscope
+[2023-06-12 03:32:14] INFO root fetch - processPackages [zcbot-crawl-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-crawl-sdk-0.0.8.tar.gz tmp/zcbot-crawl-sdk-0.0.9.tar.gz --markdown 20230612/z/zcbot-crawl-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 03:32:15] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-12 03:32:15] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306101686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230612/p/pyagrum-nightly/1.8.3.dev202306101686326557-1.8.3.dev202306111686326557/diff.md --exclude *.pyd
+[2023-06-12 03:32:15] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.4.tar.gz]
+[2023-06-12 03:32:15] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.5.tar.gz]
+[2023-06-12 03:32:15] INFO root fetch - main [MainThread]: End processing [SmoobuExtractorFormatter]: success
+[2023-06-12 03:32:15] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-12 03:32:15] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-12 03:32:15] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-12 03:32:15] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.7.tar.gz]
+[2023-06-12 03:32:15] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.8.tar.gz]
+[2023-06-12 03:32:15] INFO root fetch - main [MainThread]: End processing [workforce]: success
+[2023-06-12 03:32:16] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.53.tar.gz]
+[2023-06-12 03:32:16] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.54.tar.gz]
+[2023-06-12 03:32:16] INFO root fetch - main [MainThread]: End processing [lab-partner]: success
+[2023-06-12 03:32:16] INFO root fetch - processPackages [python-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/python_statemachine-2.0.0.tar.gz]
+[2023-06-12 03:32:16] INFO root fetch - processPackages [python-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/python_statemachine-2.1.0.tar.gz]
+[2023-06-12 03:32:16] INFO root fetch - main [MainThread]: End processing [python-statemachine]: success
+[2023-06-12 03:32:16] INFO root fetch - processPackages [circuitpython-bmp581]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-bmp581-0.1.1.tar.gz]
+[2023-06-12 03:32:16] INFO root fetch - processPackages [circuitpython-bmp581]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-bmp581-0.2.0.tar.gz]
+[2023-06-12 03:32:16] INFO root fetch - main [MainThread]: End processing [circuitpython-bmp581]: success
+[2023-06-12 03:32:16] INFO root fetch - processPackages [zcbot-crawl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-crawl-sdk-0.0.8.tar.gz]
+[2023-06-12 03:32:16] INFO root fetch - processPackages [zcbot-crawl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-crawl-sdk-0.0.9.tar.gz]
+[2023-06-12 03:32:16] INFO root fetch - main [MainThread]: End processing [zcbot-crawl-sdk]: success
+[2023-06-12 03:32:16] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/1b/1a/78b15d9d74bdcbb6eda6fa898289a851bb9bd238c19cd320f513dfb263fb/duckdb-0.8.1.dev477-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-06-12 03:32:16] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14645350>=10485760
+[2023-06-12 03:32:16] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-06-12 03:32:17] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306101686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 03:32:17] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 03:32:17] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-12 03:32:17] INFO root fetch - main [MainThread]: Store serial: [18462583]
