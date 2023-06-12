@@ -21275,3 +21275,253 @@ EOFError: EOF read where object expected
 [2023-06-12 16:53:21] ERROR root fetch - processPackages [k1lib]: Timeout during execution of pkgdiff
 [2023-06-12 16:53:21] INFO root fetch - main [MainThread]: End processing [k1lib] error
 [2023-06-12 16:53:21] INFO root fetch - main [MainThread]: Store serial: [18470165]
+[2023-06-12 16:58:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470165]
+[2023-06-12 16:58:31] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: denpy
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tapescript
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sidetrek
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: five-card-draw
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SMjour
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: routeml
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lifeguard-telegram
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorflow-gnn
+[2023-06-12 16:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waapi-client
+[2023-06-12 16:58:31] INFO root fetch - processPackages [lifeguard-telegram]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-12 16:58:31] INFO root fetch - processPackages [denpy]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-12 16:58:31] INFO root fetch - processPackages [tensorflow-gnn]: New version: [0.5.1] Old Version: [0.5.0rc0]
+[2023-06-12 16:58:31] INFO root fetch - processPackages [tapescript]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 16:58:31] WARNING root fetch - processPackages [SMjour]: Skipping, unable to determine old version
+[2023-06-12 16:58:31] INFO root fetch - processPackages [SMjour]: Start processing: pyepkg
+[2023-06-12 16:58:31] INFO root fetch - processPackages [routeml]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 16:58:31] INFO root fetch - main [MainThread]: End processing [SMjour] error
+[2023-06-12 16:58:31] INFO root fetch - processPackages [sidetrek]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 16:58:31] INFO root fetch - processPackages [waapi-client]: New version: [0.7] Old Version: [0.6]
+[2023-06-12 16:58:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 16:58:31] INFO root fetch - processPackages [five-card-draw]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-12 16:58:31] WARNING root fetch - processPackages [pyepkg]: Skipping, unable to determine old version
+[2023-06-12 16:58:31] INFO root fetch - processPackages [pyepkg]: Start processing: blockchain-apis
+[2023-06-12 16:58:31] INFO root fetch - main [MainThread]: End processing [pyepkg] error
+[2023-06-12 16:58:31] INFO root fetch - processPackages [blockchain-apis]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 16:58:31] INFO root fetch - processPackages [denpy]: Downloading https://files.pythonhosted.org/packages/bc/f6/e3092add9774be4ff486a32048d1065c2f3ae6893dec22e4f0db714a6040/denpy-1.0.6.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [routeml]: Downloading https://files.pythonhosted.org/packages/84/45/4e346ea76e016a2092b7794341a12ea40d8d294f53c4b28fc28e1092762a/routeml-0.8.0.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/21/0e/b370ee3780d881de1d67a41c938094286dfd036cc0a0c1833dafec789fa9/five_card_draw-1.0.4.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [tensorflow-gnn]: Downloading https://files.pythonhosted.org/packages/7c/dc/9c8915e92d5c05445b85aa93b19b979d81b8b34c68cb63fb5023cf53010a/tensorflow-gnn-0.5.0rc0.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [lifeguard-telegram]: Downloading https://files.pythonhosted.org/packages/4e/d4/0d280b63ce517887be7d94d5687f119ef20399b3b263df16cff900615cdd/lifeguard-telegram-1.1.0.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/97/bd/51a9b1e714cab99e04b757d582da68fb1c87848f240475f7731512b91f39/sidetrek-0.0.98.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [waapi-client]: Downloading https://files.pythonhosted.org/packages/ac/c3/05ebf3285839904169bf36a7ffed8811131836a10fd9240b19e889d25c21/waapi-client-0.6.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/fa/72/db6cb8c075ed327e65a21a0da0d192b3856c39025366ea35954fda3e1916/tapescript-0.1.1.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [blockchain-apis]: Downloading https://files.pythonhosted.org/packages/46/a2/a865357968bfaf597e4db3e47722d6c196dc9784caeb898cdaa616c33a8f/blockchain-apis-0.1.3.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [denpy]: Downloading https://files.pythonhosted.org/packages/59/62/954cd3f4e541f81173f5a7688978243b6d0d966e6961329f25b26dad509d/denpy-1.0.7.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [denpy]: executing diffoscope
+[2023-06-12 16:58:31] INFO root fetch - processPackages [denpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denpy-1.0.6.tar.gz tmp/denpy-1.0.7.tar.gz --markdown 20230612/d/denpy/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-12 16:58:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/e1/df/8febed62c28b6002e89b1ecff26974f8d092969b288da25a6eafcc3d73b1/sidetrek-0.0.99.tar.gz
+[2023-06-12 16:58:31] INFO root fetch - processPackages [blockchain-apis]: Downloading https://files.pythonhosted.org/packages/87/a5/5dd00148a4bd6618fbd4285802c7b96baec1f5790782883daafb80c6b22d/blockchain-apis-0.1.4.tar.gz
+[2023-06-12 16:58:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 16:58:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 16:58:32] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-12 16:58:32] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.98.tar.gz tmp/sidetrek-0.0.99.tar.gz --markdown 20230612/s/sidetrek/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 16:58:32] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/b5/b4/6a3584a840e361d7001addcb7dc3419e0b5eb2ebc1436b7b1c0d7004480a/five_card_draw-1.0.5.tar.gz
+[2023-06-12 16:58:32] INFO root fetch - processPackages [waapi-client]: Downloading https://files.pythonhosted.org/packages/07/de/610ee2196316c1959541765f696c134f081008585444f693749d62f91498/waapi-client-0.7.tar.gz
+[2023-06-12 16:58:32] INFO root fetch - processPackages [lifeguard-telegram]: Downloading https://files.pythonhosted.org/packages/34/ce/1c0b8617bf458f52a2effea7b9b29a55438cb7d171afada934ac03064c71/lifeguard-telegram-1.1.1.tar.gz
+[2023-06-12 16:58:32] INFO root fetch - processPackages [tensorflow-gnn]: Downloading https://files.pythonhosted.org/packages/c5/9a/cbcd094b47d27bd3c88f721165fb9ee21919d3963ae8fb5e28a7cb946ee5/tensorflow-gnn-0.5.1.tar.gz
+[2023-06-12 16:58:32] INFO root fetch - processPackages [blockchain-apis]: executing diffoscope
+[2023-06-12 16:58:32] INFO root fetch - processPackages [blockchain-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockchain-apis-0.1.3.tar.gz tmp/blockchain-apis-0.1.4.tar.gz --markdown 20230612/b/blockchain-apis/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 16:58:32] INFO root fetch - processPackages [lifeguard-telegram]: executing diffoscope
+[2023-06-12 16:58:32] INFO root fetch - processPackages [lifeguard-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeguard-telegram-1.1.0.tar.gz tmp/lifeguard-telegram-1.1.1.tar.gz --markdown 20230612/l/lifeguard-telegram/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-12 16:58:32] INFO root fetch - processPackages [waapi-client]: executing diffoscope
+[2023-06-12 16:58:32] INFO root fetch - processPackages [waapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waapi-client-0.6.tar.gz tmp/waapi-client-0.7.tar.gz --markdown 20230612/w/waapi-client/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-12 16:58:32] INFO root fetch - processPackages [tensorflow-gnn]: executing diffoscope
+[2023-06-12 16:58:32] INFO root fetch - processPackages [tensorflow-gnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-gnn-0.5.0rc0.tar.gz tmp/tensorflow-gnn-0.5.1.tar.gz --markdown 20230612/t/tensorflow-gnn/0.5.0rc0-0.5.1/diff.md --exclude *.pyd
+[2023-06-12 16:58:32] INFO root fetch - processPackages [routeml]: Downloading https://files.pythonhosted.org/packages/8b/dc/ff05900f5f3e0d24ccb806cdf5a7ce37eb0a4c9c2e971f2a45a74fc3ce8f/routeml-0.9.0.tar.gz
+[2023-06-12 16:58:32] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/c8/ed/fa14e27a1560b1c4b9ace11769dc39e46a3f331c96fa585b317b9a8552f1/tapescript-0.1.2.tar.gz
+[2023-06-12 16:58:32] INFO root fetch - processPackages [routeml]: executing diffoscope
+[2023-06-12 16:58:32] INFO root fetch - processPackages [routeml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routeml-0.8.0.tar.gz tmp/routeml-0.9.0.tar.gz --markdown 20230612/r/routeml/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:58:32] INFO root fetch - processPackages [tapescript]: executing diffoscope
+[2023-06-12 16:58:32] INFO root fetch - processPackages [tapescript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapescript-0.1.1.tar.gz tmp/tapescript-0.1.2.tar.gz --markdown 20230612/t/tapescript/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 16:58:32] INFO root fetch - processPackages [five-card-draw]: executing diffoscope
+[2023-06-12 16:58:32] INFO root fetch - processPackages [five-card-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_card_draw-1.0.4.tar.gz tmp/five_card_draw-1.0.5.tar.gz --markdown 20230612/f/five-card-draw/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-12 16:58:33] INFO root fetch - processPackages [denpy]: Remove: archive file [/home/abi/fetcher/tmp/denpy-1.0.6.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [denpy]: Remove: archive file [/home/abi/fetcher/tmp/denpy-1.0.7.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [denpy]: Start processing: pytket
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [denpy]: success
+[2023-06-12 16:58:33] INFO root fetch - processPackages [pytket]: New version: [1.9.1rc0] Old Version: [1.9.1]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/0b/0f/8db0fcfa7fde7115dd5863cd5b1f5533be347fbad99aaa158e2c9fa0a3a5/pytket-1.9.1-cp39-cp39-win_amd64.whl
+[2023-06-12 16:58:33] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10528667>=10485760
+[2023-06-12 16:58:33] INFO root fetch - processPackages [pytket]: Start processing: agilicus
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2023-06-12 16:58:33] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [lifeguard-telegram]: Remove: archive file [/home/abi/fetcher/tmp/lifeguard-telegram-1.1.0.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [lifeguard-telegram]: Remove: archive file [/home/abi/fetcher/tmp/lifeguard-telegram-1.1.1.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [lifeguard-telegram]: Start processing: fullask-rest-framework
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [lifeguard-telegram]: success
+[2023-06-12 16:58:33] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [agilicus]: Downloading https://files.pythonhosted.org/packages/41/da/b6c1919e19d168ad8df708f8342d24fcacee5ed407dbe84106c4e40a5030/agilicus-1.98.9.tar.gz
+[2023-06-12 16:58:33] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.98.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.99.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [sidetrek]: Start processing: Multi-Template-Matching
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-12 16:58:33] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/8a/50/ac0dcd84475ca74b8390130e8a0551088c9fb246a7754a6471839ab6208e/fullask-rest-framework-0.1.3.tar.gz
+[2023-06-12 16:58:33] INFO root fetch - processPackages [Multi-Template-Matching]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [blockchain-apis]: Remove: archive file [/home/abi/fetcher/tmp/blockchain-apis-0.1.3.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [blockchain-apis]: Remove: archive file [/home/abi/fetcher/tmp/blockchain-apis-0.1.4.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [blockchain-apis]: Start processing: reside-porter
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [blockchain-apis]: success
+[2023-06-12 16:58:33] WARNING root fetch - processPackages [reside-porter]: Skipping, unable to determine old version
+[2023-06-12 16:58:33] INFO root fetch - processPackages [reside-porter]: Start processing: webscrapex
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [reside-porter] error
+[2023-06-12 16:58:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: ANBUtils
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 16:58:33] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/1a/6a/09f222f08b30e1575174aaa447e75e7583a8d42963fa4ad8477f72968b26/fullask-rest-framework-0.1.4.tar.gz
+[2023-06-12 16:58:33] INFO root fetch - processPackages [Multi-Template-Matching]: Downloading https://files.pythonhosted.org/packages/4b/4e/2edd434ededa7d365ff072e63f749f4ea1e4dfa79acd034ad7b8fef77278/Multi-Template-Matching-1.6.4.tar.gz
+[2023-06-12 16:58:33] INFO root fetch - processPackages [ANBUtils]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-12 16:58:33] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.1.3.tar.gz tmp/fullask-rest-framework-0.1.4.tar.gz --markdown 20230612/f/fullask-rest-framework/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 16:58:33] WARNING root fetch - processPackages [webscrapex]: Skipping, unable to determine old version
+[2023-06-12 16:58:33] INFO root fetch - processPackages [webscrapex]: Start processing: CodeToCAD
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [webscrapex] error
+[2023-06-12 16:58:33] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/b1/0a/520ed20372ad1649a158f72200a90718aa7bec10c38169b037385a27d0da/ANBUtils-1.5.3.tar.gz
+[2023-06-12 16:58:33] INFO root fetch - processPackages [routeml]: Remove: archive file [/home/abi/fetcher/tmp/routeml-0.8.0.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [routeml]: Remove: archive file [/home/abi/fetcher/tmp/routeml-0.9.0.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [routeml]: Start processing: CTADIRAC
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [routeml]: success
+[2023-06-12 16:58:33] INFO root fetch - processPackages [waapi-client]: Remove: archive file [/home/abi/fetcher/tmp/waapi-client-0.6.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [waapi-client]: Remove: archive file [/home/abi/fetcher/tmp/waapi-client-0.7.tar.gz]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1686580357]
+[2023-06-12 16:58:33] INFO root fetch - processPackages [waapi-client]: Start processing: aw-cli
+[2023-06-12 16:58:33] INFO root fetch - main [MainThread]: End processing [waapi-client]: success
+[2023-06-12 16:58:34] INFO root fetch - processPackages [agilicus]: Downloading https://files.pythonhosted.org/packages/1d/c0/a470c20345840f34b91ac339854052d1b8397fa5b281f8a824d9f303cf77/agilicus-1.99.0.tar.gz
+[2023-06-12 16:58:34] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/3f/f9/01f0b6b07a559b172c10ce5bd2ebd4a2c3264e0f8aec30f7dd46090d1c7b/CodeToCAD-0.2.1686580357.tar.gz
+[2023-06-12 16:58:34] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/98/d4/ada51b2d9ef6ea21180a1684820db750bfa1c41d2217082d31e1a382744d/ANBUtils-1.5.4.tar.gz
+[2023-06-12 16:58:34] INFO root fetch - processPackages [aw-cli]: New version: [1.6] Old Version: [1.5.1]
+[2023-06-12 16:58:34] INFO root fetch - processPackages [CTADIRAC]: New version: [2.2a3] Old Version: [2.2.9]
+[2023-06-12 16:58:34] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2023-06-12 16:58:34] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.5.3.tar.gz tmp/ANBUtils-1.5.4.tar.gz --markdown 20230612/A/ANBUtils/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-12 16:58:34] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2023-06-12 16:58:34] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20230612/a/agilicus/1.98.9-1.99.0/diff.md --exclude *.pyd
+[2023-06-12 16:58:34] INFO root fetch - processPackages [Multi-Template-Matching]: Downloading https://files.pythonhosted.org/packages/b9/24/3142919b02951bb6a560c9edb637a00e5e012c0d64dc38d788c3e8eac97d/Multi-Template-Matching-1.6.5.tar.gz
+[2023-06-12 16:58:34] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-06-12 16:58:34] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/c4/fd/863c06d80a7cb3f8b807886edd3b375bed2ee4d3a384cb8b7213479f2248/CTADIRAC-2.2.9.tar.gz
+[2023-06-12 16:58:34] INFO root fetch - processPackages [Multi-Template-Matching]: executing diffoscope
+[2023-06-12 16:58:34] INFO root fetch - processPackages [Multi-Template-Matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Multi-Template-Matching-1.6.4.tar.gz tmp/Multi-Template-Matching-1.6.5.tar.gz --markdown 20230612/M/Multi-Template-Matching/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-12 16:58:34] INFO root fetch - processPackages [aw-cli]: Downloading https://files.pythonhosted.org/packages/09/4d/f7c1e27e3f5da2439957610fac4a8e9af67345607f07129c433f99535fa9/aw-cli-1.5.1.tar.gz
+[2023-06-12 16:58:34] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-06-12 16:58:34] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1686580357.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230612/C/CodeToCAD/0.2.1686580357-0.2.6/diff.md --exclude *.pyd
+[2023-06-12 16:58:34] INFO root fetch - processPackages [aw-cli]: Downloading https://files.pythonhosted.org/packages/83/c0/4e3a5694dbc0b840d32bfb97166e9c20be6291d5c199e464e9c68630dd6c/aw-cli-1.6.tar.gz
+[2023-06-12 16:58:34] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/b3/dc/eeb2adbd38eb21f4638e8a34f30ed6748361e02727136583e01b66570df8/CTADIRAC-2.2a3.tar.gz
+[2023-06-12 16:58:34] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.4.tar.gz]
+[2023-06-12 16:58:34] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.5.tar.gz]
+[2023-06-12 16:58:34] INFO root fetch - processPackages [five-card-draw]: Start processing: projectaria-tools-dev
+[2023-06-12 16:58:34] INFO root fetch - main [MainThread]: End processing [five-card-draw]: success
+[2023-06-12 16:58:34] INFO root fetch - processPackages [aw-cli]: executing diffoscope
+[2023-06-12 16:58:34] INFO root fetch - processPackages [aw-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aw-cli-1.5.1.tar.gz tmp/aw-cli-1.6.tar.gz --markdown 20230612/a/aw-cli/1.5.1-1.6/diff.md --exclude *.pyd
+[2023-06-12 16:58:34] INFO root fetch - processPackages [CTADIRAC]: executing diffoscope
+[2023-06-12 16:58:34] INFO root fetch - processPackages [CTADIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTADIRAC-2.2.9.tar.gz tmp/CTADIRAC-2.2a3.tar.gz --markdown 20230612/C/CTADIRAC/2.2.9-2.2a3/diff.md --exclude *.pyd
+[2023-06-12 16:58:34] INFO root fetch - processPackages [projectaria-tools-dev]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 16:58:35] INFO root fetch - processPackages [projectaria-tools-dev]: Downloading https://files.pythonhosted.org/packages/04/ab/4c2674249fb0e5281ad41344779777cc9d96640105c261a65d596dcc3ad3/projectaria_tools_dev-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 16:58:35] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.3.tar.gz]
+[2023-06-12 16:58:35] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.4.tar.gz]
+[2023-06-12 16:58:35] INFO root fetch - processPackages [ANBUtils]: Start processing: recognize
+[2023-06-12 16:58:35] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2023-06-12 16:58:35] INFO root fetch - processPackages [recognize]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 16:58:35] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/40/75/963960f9236ff152d95ce8541330a5c1c55a1023a23c60d5e6d8cadd5cbb/recognize-0.1.8.tar.gz
+[2023-06-12 16:58:35] INFO root fetch - processPackages [Multi-Template-Matching]: Remove: archive file [/home/abi/fetcher/tmp/Multi-Template-Matching-1.6.4.tar.gz]
+[2023-06-12 16:58:35] INFO root fetch - processPackages [Multi-Template-Matching]: Remove: archive file [/home/abi/fetcher/tmp/Multi-Template-Matching-1.6.5.tar.gz]
+[2023-06-12 16:58:35] INFO root fetch - processPackages [Multi-Template-Matching]: Start processing: whatsapp-api-webhook-server-python
+[2023-06-12 16:58:35] INFO root fetch - main [MainThread]: End processing [Multi-Template-Matching]: success
+[2023-06-12 16:58:35] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/90/11/44165d25dc6f6929091933caec158f7e7a1da9f6e2594a3b2c9180d8d7e3/recognize-0.1.9.tar.gz
+[2023-06-12 16:58:35] INFO root fetch - processPackages [projectaria-tools-dev]: Downloading https://files.pythonhosted.org/packages/92/d9/b7cad6f9072599d7517ae36888435ec826c9f3c09b56ee546b01e0df80a7/projectaria_tools_dev-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 16:58:35] INFO root fetch - processPackages [recognize]: executing diffoscope
+[2023-06-12 16:58:35] INFO root fetch - processPackages [recognize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognize-0.1.8.tar.gz tmp/recognize-0.1.9.tar.gz --markdown 20230612/r/recognize/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 16:58:35] INFO root fetch - processPackages [whatsapp-api-webhook-server-python]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 16:58:35] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1686580357.tar.gz]
+[2023-06-12 16:58:35] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-06-12 16:58:35] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-06-12 16:58:35] INFO root fetch - processPackages [whatsapp-api-webhook-server-python]: Downloading https://files.pythonhosted.org/packages/4a/e2/37b0ebd74fd2844689409a888cf602583f889f40c9081fabf3d6a5a95613/whatsapp-api-webhook-server-python-0.0.6.tar.gz
+[2023-06-12 16:58:35] INFO root fetch - processPackages [aw-cli]: Remove: archive file [/home/abi/fetcher/tmp/aw-cli-1.5.1.tar.gz]
+[2023-06-12 16:58:35] INFO root fetch - processPackages [aw-cli]: Remove: archive file [/home/abi/fetcher/tmp/aw-cli-1.6.tar.gz]
+[2023-06-12 16:58:35] INFO root fetch - main [MainThread]: End processing [aw-cli]: success
+[2023-06-12 16:58:36] INFO root fetch - processPackages [whatsapp-api-webhook-server-python]: Downloading https://files.pythonhosted.org/packages/7e/b7/feeeb5ff292b5edde6e45c30419932ea61162f7e553ea728a621472616b8/whatsapp-api-webhook-server-python-0.0.7.tar.gz
+[2023-06-12 16:58:36] INFO root fetch - processPackages [projectaria-tools-dev]: executing diffoscope
+[2023-06-12 16:58:36] INFO root fetch - processPackages [projectaria-tools-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectaria_tools_dev-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/projectaria_tools_dev-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230612/p/projectaria-tools-dev/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 16:58:36] INFO root fetch - processPackages [whatsapp-api-webhook-server-python]: executing diffoscope
+[2023-06-12 16:58:36] INFO root fetch - processPackages [whatsapp-api-webhook-server-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-api-webhook-server-python-0.0.6.tar.gz tmp/whatsapp-api-webhook-server-python-0.0.7.tar.gz --markdown 20230612/w/whatsapp-api-webhook-server-python/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 16:58:36] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.3.tar.gz]
+[2023-06-12 16:58:36] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.4.tar.gz]
+[2023-06-12 16:58:36] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-12 16:58:36] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.8.tar.gz]
+[2023-06-12 16:58:36] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.9.tar.gz]
+[2023-06-12 16:58:36] INFO root fetch - main [MainThread]: End processing [recognize]: success
+[2023-06-12 16:58:36] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2.9.tar.gz]
+[2023-06-12 16:58:36] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2a3.tar.gz]
+[2023-06-12 16:58:36] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
+[2023-06-12 16:58:37] INFO root fetch - processPackages [whatsapp-api-webhook-server-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-api-webhook-server-python-0.0.6.tar.gz]
+[2023-06-12 16:58:37] INFO root fetch - processPackages [whatsapp-api-webhook-server-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-api-webhook-server-python-0.0.7.tar.gz]
+[2023-06-12 16:58:37] INFO root fetch - main [MainThread]: End processing [whatsapp-api-webhook-server-python]: success
+[2023-06-12 16:58:39] INFO root fetch - processPackages [tensorflow-gnn]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-gnn-0.5.0rc0.tar.gz]
+[2023-06-12 16:58:39] INFO root fetch - processPackages [tensorflow-gnn]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-gnn-0.5.1.tar.gz]
+[2023-06-12 16:58:39] INFO root fetch - main [MainThread]: End processing [tensorflow-gnn]: success
+[2023-06-12 16:58:44] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.1.1.tar.gz]
+[2023-06-12 16:58:44] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.1.2.tar.gz]
+[2023-06-12 16:58:44] INFO root fetch - main [MainThread]: End processing [tapescript]: success
+[2023-06-12 16:58:57] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-12 16:58:57] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2023-06-12 16:59:27] INFO root fetch - processPackages [projectaria-tools-dev]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools_dev-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 16:59:27] INFO root fetch - processPackages [projectaria-tools-dev]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools_dev-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 16:59:27] INFO root fetch - main [MainThread]: End processing [projectaria-tools-dev]: success
+[2023-06-12 16:59:27] INFO root fetch - main [MainThread]: Store serial: [18470261]
