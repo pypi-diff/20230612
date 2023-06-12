@@ -8304,3 +8304,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 06:56:27] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.91.tar.gz]
 [2023-06-12 06:56:27] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
 [2023-06-12 06:56:27] INFO root fetch - main [MainThread]: Store serial: [18464705]
+[2023-06-12 07:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464705]
+[2023-06-12 07:01:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foma-wrapper
+[2023-06-12 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dtfield
+[2023-06-12 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioPII
+[2023-06-12 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-twitter
+[2023-06-12 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aclib.wmi
+[2023-06-12 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gtempco2
+[2023-06-12 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teapy
+[2023-06-12 07:01:37] WARNING root fetch - processPackages [foma-wrapper]: Skipping, unable to determine old version
+[2023-06-12 07:01:37] INFO root fetch - main [MainThread]: End processing [foma-wrapper] error
+[2023-06-12 07:01:37] INFO root fetch - processPackages [BioPII]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 07:01:37] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-12 07:01:37] INFO root fetch - processPackages [gtempco2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 07:01:37] WARNING root fetch - processPackages [aclib.wmi]: Skipping, unable to determine old version
+[2023-06-12 07:01:37] INFO root fetch - main [MainThread]: End processing [aclib.wmi] error
+[2023-06-12 07:01:37] INFO root fetch - processPackages [dtfield]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-12 07:01:37] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/3a/7f/7df2c25692365a5737c2ce53912754d44d741ebffbea67f64f664ab4465c/BioPII-0.1.2.tar.gz
+[2023-06-12 07:01:37] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/bb/37/f7a0363909ed7f0dfcae58cf53010dbeab02d3d0aa8e922abe472dc0ab56/gtempco2-0.0.2.tar.gz
+[2023-06-12 07:01:37] INFO root fetch - processPackages [teapy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 07:01:37] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/9f/80/8d63ecba7520ac39d6a5b9f8d8002bbd16f08ededa26d1208381153a4923/dtfield-0.1.5.tar.gz
+[2023-06-12 07:01:37] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/3f/42/bab026db9a29cdf116fbadfa980b9a99e96406f839908376d6a5a04af886/nonebot-plugin-twitter-0.1.5.tar.gz
+[2023-06-12 07:01:37] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/f7/6e/ca2ac24612888b5138f1fab513f07cf9cc4a59a87a7e7e7c02e35e2cf307/gtempco2-0.0.3.tar.gz
+[2023-06-12 07:01:37] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/0a/45/ea1ff9ca229eeba9cb1ac64fac2d9ac2eba75ed5cc28888ebbaba43cc501/BioPII-0.1.3.tar.gz
+[2023-06-12 07:01:37] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/28/0e/fa482ed7a97b0cb72542cff2c75357ae0ca8c744611308777c77f1c44fd9/teapy-0.1.2.tar.gz
+[2023-06-12 07:01:37] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/c2/e5/6c670850737bf219249a8e4574e0e6be5f6e0af816126b08ab54344cc5ba/dtfield-0.1.6.tar.gz
+[2023-06-12 07:01:37] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/ca/b5/668b13ac3a84b72e5f8443d6951264ffa4037bc785bf970ddec43026bf14/nonebot-plugin-twitter-0.1.6.tar.gz
+[2023-06-12 07:01:37] INFO root fetch - processPackages [gtempco2]: executing diffoscope
+[2023-06-12 07:01:37] INFO root fetch - processPackages [gtempco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtempco2-0.0.2.tar.gz tmp/gtempco2-0.0.3.tar.gz --markdown 20230612/g/gtempco2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 07:01:37] INFO root fetch - processPackages [BioPII]: executing diffoscope
+[2023-06-12 07:01:37] INFO root fetch - processPackages [BioPII]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioPII-0.1.2.tar.gz tmp/BioPII-0.1.3.tar.gz --markdown 20230612/B/BioPII/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 07:01:38] INFO root fetch - processPackages [dtfield]: executing diffoscope
+[2023-06-12 07:01:38] INFO root fetch - processPackages [dtfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfield-0.1.5.tar.gz tmp/dtfield-0.1.6.tar.gz --markdown 20230612/d/dtfield/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-12 07:01:38] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/4b/d7/4b8036540ef7d325774930aee1188283f4ca91fd99bb5bc1b69dfb99fba3/teapy-0.1.3.tar.gz
+[2023-06-12 07:01:38] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-06-12 07:01:38] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.1.5.tar.gz tmp/nonebot-plugin-twitter-0.1.6.tar.gz --markdown 20230612/n/nonebot-plugin-twitter/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-12 07:01:38] INFO root fetch - processPackages [teapy]: executing diffoscope
+[2023-06-12 07:01:38] INFO root fetch - processPackages [teapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teapy-0.1.2.tar.gz tmp/teapy-0.1.3.tar.gz --markdown 20230612/t/teapy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 07:01:39] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.2.tar.gz]
+[2023-06-12 07:01:39] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.3.tar.gz]
+[2023-06-12 07:01:39] INFO root fetch - main [MainThread]: End processing [BioPII]: success
+[2023-06-12 07:01:39] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.2.tar.gz]
+[2023-06-12 07:01:39] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.3.tar.gz]
+[2023-06-12 07:01:39] INFO root fetch - main [MainThread]: End processing [gtempco2]: success
+[2023-06-12 07:01:39] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.5.tar.gz]
+[2023-06-12 07:01:39] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.6.tar.gz]
+[2023-06-12 07:01:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-06-12 07:01:39] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.5.tar.gz]
+[2023-06-12 07:01:39] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.6.tar.gz]
+[2023-06-12 07:01:39] INFO root fetch - main [MainThread]: End processing [dtfield]: success
+[2023-06-12 07:01:40] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.2.tar.gz]
+[2023-06-12 07:01:40] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.3.tar.gz]
+[2023-06-12 07:01:40] INFO root fetch - main [MainThread]: End processing [teapy]: success
+[2023-06-12 07:01:40] INFO root fetch - main [MainThread]: Store serial: [18464733]
