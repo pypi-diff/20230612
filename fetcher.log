@@ -21171,3 +21171,107 @@ EOFError: EOF read where object expected
 [2023-06-12 16:45:08] INFO root fetch - processPackages [taipy]: Remove: archive file [/home/abi/fetcher/tmp/taipy-2.3.0.dev2.tar.gz]
 [2023-06-12 16:45:08] INFO root fetch - main [MainThread]: End processing [taipy]: success
 [2023-06-12 16:45:08] INFO root fetch - main [MainThread]: Store serial: [18470111]
+[2023-06-12 16:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470111]
+[2023-06-12 16:50:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 16:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-mcversion
+[2023-06-12 16:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fabrictestbed
+[2023-06-12 16:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: k1lib
+[2023-06-12 16:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: puan-pv-rs
+[2023-06-12 16:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: steamio
+[2023-06-12 16:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabrictestbed-extensions
+[2023-06-12 16:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: validate-models
+[2023-06-12 16:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-translatemessages
+[2023-06-12 16:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fintekkers-ledger-models
+[2023-06-12 16:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: denpy
+[2023-06-12 16:50:20] INFO root fetch - processPackages [nonebot-plugin-mcversion]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 16:50:20] WARNING root fetch - processPackages [validate-models]: Skipping, unable to determine old version
+[2023-06-12 16:50:20] INFO root fetch - processPackages [validate-models]: Start processing: deafrica-tools
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fintekkers-ledger-models]: New version: [0.1.50] Old Version: [0.1.49]
+[2023-06-12 16:50:20] INFO root fetch - main [MainThread]: End processing [validate-models] error
+[2023-06-12 16:50:20] INFO root fetch - processPackages [k1lib]: New version: [1.4.1] Old Version: [1.4]
+[2023-06-12 16:50:20] INFO root fetch - processPackages [puan-pv-rs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 16:50:20] INFO root fetch - processPackages [django-translatemessages]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-12 16:50:20] INFO root fetch - processPackages [denpy]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-12 16:50:20] INFO root fetch - processPackages [deafrica-tools]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-12 16:50:20] INFO root fetch - processPackages [steamio]: New version: [1.0.0a0] Old Version: [0.9.9]
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.5.0rc3] Old Version: [1.5.0rc2]
+[2023-06-12 16:50:20] INFO root fetch - processPackages [django-translatemessages]: Downloading https://files.pythonhosted.org/packages/73/ab/f957a994fc87939de0ae086b8e81d04cd2106b995be5652e6108a7b6ddc5/django-translatemessages-0.0.2.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [denpy]: Downloading https://files.pythonhosted.org/packages/47/9e/c771420bbc252fb2ddac9291a2bb9732dfc9aa1ef8f37895d27fabbd4ca3/denpy-1.0.5.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d0/fc/bfc17e84d553259bfbe47b693327c316d72ef87fe3c64aeada1e5ea9ad5a/fabrictestbed-extensions-1.5.0rc2.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/81/0a/c575033b641faffd72509850893e60826343d2798e2286af237f30e65a94/nonebot-plugin-mcversion-0.1.1.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [steamio]: Downloading https://files.pythonhosted.org/packages/0d/ae/1905f707ae76602325413110dc47955fd0596c26200eedbd4c6b767c95a1/steamio-0.9.9.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/74/0f/ec9c44912432a0053fa0886aebc353f68741243d2f8390d0ca506b95ba77/fintekkers-ledger-models-0.1.49.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [puan-pv-rs]: Downloading https://files.pythonhosted.org/packages/73/98/0da2cbc92fa4264048d6a4df2c2be3a6c8788326343071f14751a717b81a/puan_pv_rs-0.1.3.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d1/90/bae5b380c6d069ebffc9846c33c9533d37bf92f5ab459a5f5825464ab0fa/fabrictestbed-extensions-1.5.0rc3.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/02/f1/0b30248692a9c1ff71c8701fe3da6846b54fb4e76652767ed87d1dcd8613/fabrictestbed-1.5.0rc1.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/22/63/abc5a0deb658f15ca04f9269b4e351df3d60706cd5e299e0033fd742a5dd/deafrica-tools-1.0.4.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/73/d6/5917ceb971e1a1115bfffe3812fe3c14135121f1700f7d420e71efb4b09f/k1lib-1.4-py3-none-any.whl
+[2023-06-12 16:50:20] INFO root fetch - processPackages [denpy]: Downloading https://files.pythonhosted.org/packages/bc/f6/e3092add9774be4ff486a32048d1065c2f3ae6893dec22e4f0db714a6040/denpy-1.0.6.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [django-translatemessages]: Downloading https://files.pythonhosted.org/packages/4f/a2/bdeb04672ba309c36d6530942501f1054504d14dcd92ee5c9da59ea6158b/django-translatemessages-0.0.3.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.5.0rc2.tar.gz tmp/fabrictestbed-extensions-1.5.0rc3.tar.gz --markdown 20230612/f/fabrictestbed-extensions/1.5.0rc2-1.5.0rc3/diff.md --exclude *.pyd
+[2023-06-12 16:50:20] INFO root fetch - processPackages [django-translatemessages]: executing diffoscope
+[2023-06-12 16:50:20] INFO root fetch - processPackages [django-translatemessages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-translatemessages-0.0.2.tar.gz tmp/django-translatemessages-0.0.3.tar.gz --markdown 20230612/d/django-translatemessages/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 16:50:20] INFO root fetch - processPackages [denpy]: executing diffoscope
+[2023-06-12 16:50:20] INFO root fetch - processPackages [denpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denpy-1.0.5.tar.gz tmp/denpy-1.0.6.tar.gz --markdown 20230612/d/denpy/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-12 16:50:20] INFO root fetch - processPackages [puan-pv-rs]: Downloading https://files.pythonhosted.org/packages/dd/e2/c76550333c0bf06564b4bf28827394a90137c0d401964d51bee29a95ffb4/puan_pv_rs-0.1.4.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/56/08/5b85366dfa72dd4b2f89fb28e2deb945c447b8e8f74deb5104969cfc1852/nonebot-plugin-mcversion-0.1.2.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [steamio]: Downloading https://files.pythonhosted.org/packages/39/38/05cf507c8eebc2d47c5a62415c3287e86d8e291198728291f2ce7bbb2865/steamio-1.0.0a0.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [puan-pv-rs]: executing diffoscope
+[2023-06-12 16:50:20] INFO root fetch - processPackages [puan-pv-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puan_pv_rs-0.1.3.tar.gz tmp/puan_pv_rs-0.1.4.tar.gz --markdown 20230612/p/puan-pv-rs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/5c/a8/32ff6ba0af71134229fee55ab80274c4e478b7464a3abcf169b8501819cc/fabrictestbed-1.5.0rc2.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/69/24/beda5283d132eacd7fd231d6ca2efd661fff3e7d985c0a2dbda29783fd56/fintekkers-ledger-models-0.1.50.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/e2/fb/7469538ddb106101178639568d142e810591f17c78cd991bb39d0df9c2a7/deafrica-tools-1.0.5.tar.gz
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.5.0rc1.tar.gz tmp/fabrictestbed-1.5.0rc2.tar.gz --markdown 20230612/f/fabrictestbed/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-12 16:50:20] INFO root fetch - processPackages [nonebot-plugin-mcversion]: executing diffoscope
+[2023-06-12 16:50:20] INFO root fetch - processPackages [nonebot-plugin-mcversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcversion-0.1.1.tar.gz tmp/nonebot-plugin-mcversion-0.1.2.tar.gz --markdown 20230612/n/nonebot-plugin-mcversion/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 16:50:20] INFO root fetch - processPackages [steamio]: executing diffoscope
+[2023-06-12 16:50:20] INFO root fetch - processPackages [steamio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamio-0.9.9.tar.gz tmp/steamio-1.0.0a0.tar.gz --markdown 20230612/s/steamio/0.9.9-1.0.0a0/diff.md --exclude *.pyd
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fintekkers-ledger-models]: executing diffoscope
+[2023-06-12 16:50:20] INFO root fetch - processPackages [fintekkers-ledger-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintekkers-ledger-models-0.1.49.tar.gz tmp/fintekkers-ledger-models-0.1.50.tar.gz --markdown 20230612/f/fintekkers-ledger-models/0.1.49-0.1.50/diff.md --exclude *.pyd
+[2023-06-12 16:50:20] INFO root fetch - processPackages [deafrica-tools]: executing diffoscope
+[2023-06-12 16:50:20] INFO root fetch - processPackages [deafrica-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deafrica-tools-1.0.4.tar.gz tmp/deafrica-tools-1.0.5.tar.gz --markdown 20230612/d/deafrica-tools/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-12 16:50:21] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/94/ce/6eea18ab3ff4c18290a92ce9005d47b7bde32f3f9361adcd7fcd2f9c9cc8/k1lib-1.4.1-py3-none-any.whl
+[2023-06-12 16:50:21] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-06-12 16:50:21] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.4-py3-none-any.whl.zip tmp/k1lib-1.4.1-py3-none-any.whl.zip --markdown 20230612/k/k1lib/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-06-12 16:50:22] INFO root fetch - processPackages [denpy]: Remove: archive file [/home/abi/fetcher/tmp/denpy-1.0.5.tar.gz]
+[2023-06-12 16:50:22] INFO root fetch - processPackages [denpy]: Remove: archive file [/home/abi/fetcher/tmp/denpy-1.0.6.tar.gz]
+[2023-06-12 16:50:22] INFO root fetch - processPackages [denpy]: Start processing: fabric-orchestrator-client
+[2023-06-12 16:50:22] INFO root fetch - main [MainThread]: End processing [denpy]: success
+[2023-06-12 16:50:22] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-12 16:50:22] INFO root fetch - processPackages [puan-pv-rs]: Remove: archive file [/home/abi/fetcher/tmp/puan_pv_rs-0.1.3.tar.gz]
+[2023-06-12 16:50:22] INFO root fetch - processPackages [puan-pv-rs]: Remove: archive file [/home/abi/fetcher/tmp/puan_pv_rs-0.1.4.tar.gz]
+[2023-06-12 16:50:22] INFO root fetch - main [MainThread]: End processing [puan-pv-rs]: success
+[2023-06-12 16:50:22] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/90/5b/f8cacc1a349d7f9ab24930fa027dc292e8aa3d21da2b6050b8796f8ac093/fabric-orchestrator-client-1.5.0rc1.tar.gz
+[2023-06-12 16:50:23] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/ca/bf/670ab420e66ec0da1d71d4d9fcf8d0c013c4c47c5817bc81579a7973b976/fabric-orchestrator-client-1.5.0rc2.tar.gz
+[2023-06-12 16:50:23] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.1.1.tar.gz]
+[2023-06-12 16:50:23] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.1.2.tar.gz]
+[2023-06-12 16:50:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcversion]: success
+[2023-06-12 16:50:23] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-06-12 16:50:23] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz --markdown 20230612/f/fabric-orchestrator-client/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-12 16:50:23] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.5.0rc1.tar.gz]
+[2023-06-12 16:50:23] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.5.0rc2.tar.gz]
+[2023-06-12 16:50:23] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-06-12 16:50:23] INFO root fetch - processPackages [django-translatemessages]: Remove: archive file [/home/abi/fetcher/tmp/django-translatemessages-0.0.2.tar.gz]
+[2023-06-12 16:50:23] INFO root fetch - processPackages [django-translatemessages]: Remove: archive file [/home/abi/fetcher/tmp/django-translatemessages-0.0.3.tar.gz]
+[2023-06-12 16:50:23] INFO root fetch - main [MainThread]: End processing [django-translatemessages]: success
+[2023-06-12 16:50:23] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica-tools-1.0.4.tar.gz]
+[2023-06-12 16:50:23] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica-tools-1.0.5.tar.gz]
+[2023-06-12 16:50:23] INFO root fetch - main [MainThread]: End processing [deafrica-tools]: success
+[2023-06-12 16:50:24] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz]
+[2023-06-12 16:50:24] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz]
+[2023-06-12 16:50:24] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-06-12 16:50:25] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.0rc2.tar.gz]
+[2023-06-12 16:50:25] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.0rc3.tar.gz]
+[2023-06-12 16:50:25] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-06-12 16:50:25] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.49.tar.gz]
+[2023-06-12 16:50:25] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.50.tar.gz]
+[2023-06-12 16:50:25] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
+[2023-06-12 16:50:27] INFO root fetch - processPackages [steamio]: Remove: archive file [/home/abi/fetcher/tmp/steamio-0.9.9.tar.gz]
+[2023-06-12 16:50:27] INFO root fetch - processPackages [steamio]: Remove: archive file [/home/abi/fetcher/tmp/steamio-1.0.0a0.tar.gz]
+[2023-06-12 16:50:27] INFO root fetch - main [MainThread]: End processing [steamio]: success
+[2023-06-12 16:53:21] ERROR root fetch - processPackages [k1lib]: Timeout during execution of pkgdiff
+[2023-06-12 16:53:21] INFO root fetch - main [MainThread]: End processing [k1lib] error
+[2023-06-12 16:53:21] INFO root fetch - main [MainThread]: Store serial: [18470165]
