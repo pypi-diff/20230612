@@ -9400,3 +9400,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 08:33:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.4.tar.gz]
 [2023-06-12 08:33:40] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
 [2023-06-12 08:33:40] INFO root fetch - main [MainThread]: Store serial: [18465171]
+[2023-06-12 08:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465171]
+[2023-06-12 08:38:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 08:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readpy-P-Y-R-O-B-O-T
+[2023-06-12 08:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySide6-Fluent-Widgets
+[2023-06-12 08:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lnbits-extension
+[2023-06-12 08:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: revolution.py
+[2023-06-12 08:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnbits-lib
+[2023-06-12 08:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fractal-server
+[2023-06-12 08:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rlpython
+[2023-06-12 08:38:51] WARNING root fetch - processPackages [readpy-P-Y-R-O-B-O-T]: Skipping, unable to determine old version
+[2023-06-12 08:38:51] INFO root fetch - main [MainThread]: End processing [readpy-P-Y-R-O-B-O-T] error
+[2023-06-12 08:38:51] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-12 08:38:51] INFO root fetch - processPackages [revolution.py]: New version: [5.0.0.5] Old Version: [5.0.0.4]
+[2023-06-12 08:38:51] WARNING root fetch - processPackages [lnbits-lib]: Skipping, unable to determine old version
+[2023-06-12 08:38:51] INFO root fetch - main [MainThread]: End processing [lnbits-lib] error
+[2023-06-12 08:38:51] INFO root fetch - processPackages [lnbits-extension]: New version: [0.10.8.1] Old Version: [0.10.8]
+[2023-06-12 08:38:51] INFO root fetch - processPackages [fractal-server]: New version: [1.3.0a3] Old Version: [1.3.0a2]
+[2023-06-12 08:38:51] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/e2/2f/c8f2ccba009ad4319db49fdab7adb21dd748fbf1dd5035532bec1e7bde4b/PySide6-Fluent-Widgets-0.9.3.tar.gz
+[2023-06-12 08:38:51] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/5b/24/e75ff3473fa393229898591240c6129c9da91e20ea8110cbb2951926cf8d/revolution.py-5.0.0.4.tar.gz
+[2023-06-12 08:38:51] INFO root fetch - processPackages [lnbits-extension]: Downloading https://files.pythonhosted.org/packages/fa/97/6ac577f959d693d4f50b93a597a1d4ab4535d7005fb00e4bdeb27cc4849c/lnbits_extension-0.10.8.tar.gz
+[2023-06-12 08:38:52] INFO root fetch - processPackages [rlpython]: New version: [0.9] Old Version: [0.8.4]
+[2023-06-12 08:38:52] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/36/b8/91f5d7a007dd8d766778c2007bd46267cc3a4d203498d7cda6bf31933cdc/fractal_server-1.3.0a2.tar.gz
+[2023-06-12 08:38:52] INFO root fetch - processPackages [rlpython]: Downloading https://files.pythonhosted.org/packages/14/26/4fade9ffa4d25963bd9488e65fc8edbecb287831eccb321fc763c38c8a4c/rlpython-0.8.4.tar.gz
+[2023-06-12 08:38:52] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/a6/37/6260c5d7bc8026a78e20cc84ffe7a98d34e7e8a0c4cc102d3ab651602d3a/PySide6-Fluent-Widgets-0.9.4.tar.gz
+[2023-06-12 08:38:52] INFO root fetch - processPackages [lnbits-extension]: Downloading https://files.pythonhosted.org/packages/0b/18/7c80f25dbb6f072563d1b80130aec82fc951e41491d64e187a34f387e7b1/lnbits_extension-0.10.8.1.tar.gz
+[2023-06-12 08:38:52] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/9e/17/25fb899d0ab30bff122ff0baf7b2e30cebc0a0c8c406db52f6cca79602c9/revolution.py-5.0.0.5.tar.gz
+[2023-06-12 08:38:52] INFO root fetch - processPackages [lnbits-extension]: executing diffoscope
+[2023-06-12 08:38:52] INFO root fetch - processPackages [lnbits-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnbits_extension-0.10.8.tar.gz tmp/lnbits_extension-0.10.8.1.tar.gz --markdown 20230612/l/lnbits-extension/0.10.8-0.10.8.1/diff.md --exclude *.pyd
+[2023-06-12 08:38:52] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-06-12 08:38:52] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.9.3.tar.gz tmp/PySide6-Fluent-Widgets-0.9.4.tar.gz --markdown 20230612/P/PySide6-Fluent-Widgets/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 08:38:52] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/9c/b0/30cb0d563b3ef99418367f4316a1e66be58f780f7112ebbf4c60b9497cad/fractal_server-1.3.0a3.tar.gz
+[2023-06-12 08:38:52] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-06-12 08:38:52] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.0.4.tar.gz tmp/revolution.py-5.0.0.5.tar.gz --markdown 20230612/r/revolution.py/5.0.0.4-5.0.0.5/diff.md --exclude *.pyd
+[2023-06-12 08:38:52] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-06-12 08:38:52] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.3.0a2.tar.gz tmp/fractal_server-1.3.0a3.tar.gz --markdown 20230612/f/fractal-server/1.3.0a2-1.3.0a3/diff.md --exclude *.pyd
+[2023-06-12 08:38:52] INFO root fetch - processPackages [rlpython]: Downloading https://files.pythonhosted.org/packages/c7/eb/aee8674269c8e7048d5b8c5a1457a83410146bc857e6462035009d017f00/rlpython-0.9.tar.gz
+[2023-06-12 08:38:52] INFO root fetch - processPackages [rlpython]: executing diffoscope
+[2023-06-12 08:38:52] INFO root fetch - processPackages [rlpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlpython-0.8.4.tar.gz tmp/rlpython-0.9.tar.gz --markdown 20230612/r/rlpython/0.8.4-0.9/diff.md --exclude *.pyd
+[2023-06-12 08:38:53] INFO root fetch - processPackages [lnbits-extension]: Remove: archive file [/home/abi/fetcher/tmp/lnbits_extension-0.10.8.tar.gz]
+[2023-06-12 08:38:53] INFO root fetch - processPackages [lnbits-extension]: Remove: archive file [/home/abi/fetcher/tmp/lnbits_extension-0.10.8.1.tar.gz]
+[2023-06-12 08:38:53] INFO root fetch - main [MainThread]: End processing [lnbits-extension]: success
+[2023-06-12 08:38:53] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.4.tar.gz]
+[2023-06-12 08:38:53] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.5.tar.gz]
+[2023-06-12 08:38:53] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-06-12 08:38:54] INFO root fetch - processPackages [rlpython]: Remove: archive file [/home/abi/fetcher/tmp/rlpython-0.8.4.tar.gz]
+[2023-06-12 08:38:54] INFO root fetch - processPackages [rlpython]: Remove: archive file [/home/abi/fetcher/tmp/rlpython-0.9.tar.gz]
+[2023-06-12 08:38:54] INFO root fetch - main [MainThread]: End processing [rlpython]: success
+[2023-06-12 08:38:54] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.0a2.tar.gz]
+[2023-06-12 08:38:54] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.0a3.tar.gz]
+[2023-06-12 08:38:54] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-06-12 08:38:56] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.3.tar.gz]
+[2023-06-12 08:38:56] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.4.tar.gz]
+[2023-06-12 08:38:56] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-06-12 08:38:56] INFO root fetch - main [MainThread]: Store serial: [18465199]
