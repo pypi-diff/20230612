@@ -15690,3 +15690,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:11:24] INFO root fetch - processPackages [mqt.qfr]: Remove: archive file [/home/abi/fetcher/tmp/mqt.qfr-1.9.0.tar.gz]
 [2023-06-12 13:11:24] INFO root fetch - main [MainThread]: End processing [mqt.qfr]: success
 [2023-06-12 13:11:24] INFO root fetch - main [MainThread]: Store serial: [18467910]
+[2023-06-12 13:16:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467910]
+[2023-06-12 13:16:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m-abac-test
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: floating-window-framework
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laptrack
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: visual-graph-datasets
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bmsdna-lakeapi
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litesqlite
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gitaudit
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edxval
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: annoy-gpu
+[2023-06-12 13:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: custom-diffusion
+[2023-06-12 13:16:33] INFO root fetch - processPackages [floating-window-framework]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 13:16:33] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-12 13:16:33] INFO root fetch - processPackages [edxval]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-12 13:16:33] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-12 13:16:33] INFO root fetch - processPackages [litesqlite]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-06-12 13:16:33] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-12 13:16:33] INFO root fetch - processPackages [custom-diffusion]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 13:16:33] WARNING root fetch - processPackages [annoy-gpu]: Skipping, unable to determine old version
+[2023-06-12 13:16:33] INFO root fetch - main [MainThread]: End processing [annoy-gpu] error
+[2023-06-12 13:16:33] INFO root fetch - processPackages [visual-graph-datasets]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 13:16:33] INFO root fetch - processPackages [laptrack]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-12 13:16:33] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/d9/69/1967e84a254c8f453773dcbbc8d2e67cccc9d494d9271605bb8efd827467/m-abac-test-1.0.6.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [floating-window-framework]: Downloading https://files.pythonhosted.org/packages/d9/67/0d899f2e08af59e0e045a16dab0725de5f95a03cfb1227e5697c2d81dc34/floating-window-framework-0.0.4.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/2e/08/2863a3da8545e78d7f5696d8eb445415888c5c80d9343202a572f0d5e8cb/custom_diffusion-0.1.1.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/8b/aa/c11553474bc6abcbf2c78890f6579b242ab68a2c302c40a668fd39cef3c9/visual_graph_datasets-0.8.0.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/5c/ea/311f22068e48825e18416642418f56e3b0a0ef28c4881fd43087741d2178/litesqlite-2.6.1.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/c2/06/243ad8db78beb7fafbecfa74492471fc157223d28c085c146796c2881614/bmsdna_lakeapi-0.7.0.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/76/61/caf0677f9653720632284a1f20e7133c6e52c0e1a1e0c97214d966c1c894/custom_diffusion-0.1.2.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [edxval]: Downloading https://files.pythonhosted.org/packages/85/17/d84650144ba9868b5d4430cf5f90c4a488383f9c4bbc6f8afbc5e5ee314e/edxval-2.2.0.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/f7/24/21b8065eddaf1f2aebcb3c1ab99a567eafabd40743647beb7ef80955b8a8/visual_graph_datasets-0.9.0.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [custom-diffusion]: executing diffoscope
+[2023-06-12 13:16:33] INFO root fetch - processPackages [floating-window-framework]: Downloading https://files.pythonhosted.org/packages/2a/d2/4ae9126a9609b69d9d320ae4e2d626d429275dd1994651cc53e3203d56e2/floating-window-framework-0.0.5.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [custom-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_diffusion-0.1.1.tar.gz tmp/custom_diffusion-0.1.2.tar.gz --markdown 20230612/c/custom-diffusion/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 13:16:33] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-06-12 13:16:33] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230612/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 13:16:33] INFO root fetch - processPackages [laptrack]: Downloading https://files.pythonhosted.org/packages/b4/f5/0aa35ae6fc22db6b2ceadd0271c6a5cc23e1293d28a076f6f5c168a38c51/laptrack-0.9.0.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/1c/79/4baa3ff951ab8e3d5f756215fa3148eb3f83ec873771ff7c8f60301effde/m-abac-test-1.0.7.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/bb/ba/66c497d8f1ec734cb133f34367c7906217e0f868766de19f4de8ab24f3f5/litesqlite-2.6.2.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [visual-graph-datasets]: executing diffoscope
+[2023-06-12 13:16:33] INFO root fetch - processPackages [visual-graph-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_graph_datasets-0.8.0.tar.gz tmp/visual_graph_datasets-0.9.0.tar.gz --markdown 20230612/v/visual-graph-datasets/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 13:16:33] INFO root fetch - processPackages [litesqlite]: executing diffoscope
+[2023-06-12 13:16:33] INFO root fetch - processPackages [litesqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litesqlite-2.6.1.tar.gz tmp/litesqlite-2.6.2.tar.gz --markdown 20230612/l/litesqlite/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-06-12 13:16:33] INFO root fetch - processPackages [floating-window-framework]: executing diffoscope
+[2023-06-12 13:16:33] INFO root fetch - processPackages [floating-window-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/floating-window-framework-0.0.4.tar.gz tmp/floating-window-framework-0.0.5.tar.gz --markdown 20230612/f/floating-window-framework/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 13:16:33] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/76/63/58f1f53f5f404bb971412825da14681cf1db00bb7d72e973ee14ac57b46e/bmsdna_lakeapi-0.7.1.tar.gz
+[2023-06-12 13:16:33] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-12 13:16:33] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.6.tar.gz tmp/m-abac-test-1.0.7.tar.gz --markdown 20230612/m/m-abac-test/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-12 13:16:33] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-06-12 13:16:33] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.7.0.tar.gz tmp/bmsdna_lakeapi-0.7.1.tar.gz --markdown 20230612/b/bmsdna-lakeapi/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-12 13:16:34] INFO root fetch - processPackages [edxval]: Downloading https://files.pythonhosted.org/packages/e5/b1/a1552a09d070d4a45fbead57d11db43922246d6f7232d2897095f2953b52/edxval-2.3.0.tar.gz
+[2023-06-12 13:16:34] INFO root fetch - processPackages [edxval]: executing diffoscope
+[2023-06-12 13:16:34] INFO root fetch - processPackages [edxval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edxval-2.2.0.tar.gz tmp/edxval-2.3.0.tar.gz --markdown 20230612/e/edxval/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-12 13:16:34] INFO root fetch - processPackages [laptrack]: Downloading https://files.pythonhosted.org/packages/20/7c/08983aa29eb72f42019a5cde5753fde7dedac1946ec3d4f63e1fd14d2879/laptrack-0.9.1.tar.gz
+[2023-06-12 13:16:34] INFO root fetch - processPackages [laptrack]: executing diffoscope
+[2023-06-12 13:16:34] INFO root fetch - processPackages [laptrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laptrack-0.9.0.tar.gz tmp/laptrack-0.9.1.tar.gz --markdown 20230612/l/laptrack/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-12 13:16:35] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.6.1.tar.gz]
+[2023-06-12 13:16:35] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.6.2.tar.gz]
+[2023-06-12 13:16:35] INFO root fetch - main [MainThread]: End processing [litesqlite]: success
+[2023-06-12 13:16:35] INFO root fetch - processPackages [floating-window-framework]: Remove: archive file [/home/abi/fetcher/tmp/floating-window-framework-0.0.4.tar.gz]
+[2023-06-12 13:16:35] INFO root fetch - processPackages [floating-window-framework]: Remove: archive file [/home/abi/fetcher/tmp/floating-window-framework-0.0.5.tar.gz]
+[2023-06-12 13:16:35] INFO root fetch - main [MainThread]: End processing [floating-window-framework]: success
+[2023-06-12 13:16:35] INFO root fetch - processPackages [edxval]: Remove: archive file [/home/abi/fetcher/tmp/edxval-2.2.0.tar.gz]
+[2023-06-12 13:16:35] INFO root fetch - processPackages [edxval]: Remove: archive file [/home/abi/fetcher/tmp/edxval-2.3.0.tar.gz]
+[2023-06-12 13:16:35] INFO root fetch - main [MainThread]: End processing [edxval]: success
+[2023-06-12 13:16:36] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.1.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.2.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - main [MainThread]: End processing [custom-diffusion]: success
+[2023-06-12 13:16:36] INFO root fetch - processPackages [laptrack]: Remove: archive file [/home/abi/fetcher/tmp/laptrack-0.9.0.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - processPackages [laptrack]: Remove: archive file [/home/abi/fetcher/tmp/laptrack-0.9.1.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - main [MainThread]: End processing [laptrack]: success
+[2023-06-12 13:16:36] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.7.0.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.7.1.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-06-12 13:16:36] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-06-12 13:16:36] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.6.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.7.tar.gz]
+[2023-06-12 13:16:36] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-12 13:16:39] INFO root fetch - processPackages [visual-graph-datasets]: Remove: archive file [/home/abi/fetcher/tmp/visual_graph_datasets-0.8.0.tar.gz]
+[2023-06-12 13:16:39] INFO root fetch - processPackages [visual-graph-datasets]: Remove: archive file [/home/abi/fetcher/tmp/visual_graph_datasets-0.9.0.tar.gz]
+[2023-06-12 13:16:39] INFO root fetch - main [MainThread]: End processing [visual-graph-datasets]: success
+[2023-06-12 13:16:39] INFO root fetch - main [MainThread]: Store serial: [18467941]
