@@ -13491,3 +13491,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 11:29:07] INFO root fetch - processPackages [foundry-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/foundry-dev-tools-1.1.tar.gz]
 [2023-06-12 11:29:07] INFO root fetch - main [MainThread]: End processing [foundry-dev-tools]: success
 [2023-06-12 11:29:07] INFO root fetch - main [MainThread]: Store serial: [18466946]
+[2023-06-12 11:34:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466946]
+[2023-06-12 11:34:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcai-nova-server-nightly
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logging-gelf
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-enroll
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xtrack
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmem-plugin-kafka
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-contributor-assets
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-ace
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-core
+[2023-06-12 11:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multireg
+[2023-06-12 11:34:18] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [django-ace]: New version: [1.22.1] Old Version: [1.19.0]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [xtrack]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [multireg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [cmem-plugin-kafka]: New version: [1.3.0] Old Version: [1.2.0rc4]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [logging-gelf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post830] Old Version: [1.0.0.post829]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [yeref]: New version: [0.1.88] Old Version: [0.1.87]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306060908] Old Version: [0.1.9.dev202306051512]
+[2023-06-12 11:34:18] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/d1/11/cd7ccb6cb83f7f63c18937a27a8f85832130dc502173eb6eef8007621d19/multireg-0.0.8.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/09/de/a3f9f4287e27f0e5e7f08ea9c67893f64f13a5261769d0b0019f3fd9c411/yeref-0.1.87.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/8a/c3/e19b3d04ca1e27256466963f0323b5925c96b787f5066e5229a7c6b8db3a/xtrack-0.9.4.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/32/6c/1f856dc48f72b7cb395e27ea0dcc547487e9758a84b8498e045c7f3df41f/cmem_plugin_kafka-1.2.0rc4.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [logging-gelf]: Downloading https://files.pythonhosted.org/packages/dc/9c/64c3268340f1b758a3de4610ea5023f4a427b60c0ddecd78e22aa8c8c738/logging-gelf-0.0.8.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [django-ace]: Downloading https://files.pythonhosted.org/packages/86/cb/40757c7a4f5096998f435f202c3d9f235ca3a9826404f09d0026365524e7/django-ace-1.19.0.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/d5/e8/c29edd61394a57ee949552719d084649842e8285728d5a80a4c39a75b4a3/nucliadb_contributor_assets-1.0.0.post829-py3-none-any.whl
+[2023-06-12 11:34:18] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-06-12 11:34:18] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230612/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-12 11:34:18] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/c3/0e/afe000aba0f38b61bb2e54ce1cdfd01cd2d03ad61079a34c64e741aa5a1e/multireg-0.0.9.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/55/14/20714e13cf01305feee716c47aabc1943bfd4e0a621ba5a3c2a55cbc1814/yeref-0.1.88.tar.gz
+[2023-06-12 11:34:18] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-12 11:34:18] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230612/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 11:34:19] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/13/6d/8b577eae64b1814c391d180f0792df72f5e85f8dba7d7efba188fe96bb77/cmem_plugin_kafka-1.3.0.tar.gz
+[2023-06-12 11:34:19] INFO root fetch - processPackages [logging-gelf]: Downloading https://files.pythonhosted.org/packages/3a/af/ccad3baf3c7076011d3e9cb5a362e77bb9e92e831fda5569d0064e149ac6/logging-gelf-0.0.9.tar.gz
+[2023-06-12 11:34:19] INFO root fetch - processPackages [django-ace]: Downloading https://files.pythonhosted.org/packages/00/1b/7448c6e552190f33bef6f2a79e9173e8f437c0c45bc1e703b4455ae1359d/django-ace-1.22.1.tar.gz
+[2023-06-12 11:34:19] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/47/3c/505433870f84a57237f45b0790c329471ec2c6426a9bd107bc53a2162d0c/nucliadb_contributor_assets-1.0.0.post830-py3-none-any.whl
+[2023-06-12 11:34:19] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-12 11:34:19] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.87.tar.gz tmp/yeref-0.1.88.tar.gz --markdown 20230612/y/yeref/0.1.87-0.1.88/diff.md --exclude *.pyd
+[2023-06-12 11:34:19] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-12 11:34:19] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.8.tar.gz tmp/multireg-0.0.9.tar.gz --markdown 20230612/m/multireg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:34:19] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/46/38/dad135658362d6eec72747f7f0ae41cf43b0d0fb26e948ac142a49dfcec8/xtrack-0.9.5.tar.gz
+[2023-06-12 11:34:19] INFO root fetch - processPackages [logging-gelf]: executing diffoscope
+[2023-06-12 11:34:19] INFO root fetch - processPackages [logging-gelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-gelf-0.0.8.tar.gz tmp/logging-gelf-0.0.9.tar.gz --markdown 20230612/l/logging-gelf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:34:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/4a/b0/7349a84c86940e5f8c8b22ef05d6ade85f6619aa27865d53025dd91feed9/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz
+[2023-06-12 11:34:19] INFO root fetch - processPackages [cmem-plugin-kafka]: executing diffoscope
+[2023-06-12 11:34:19] INFO root fetch - processPackages [cmem-plugin-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_kafka-1.2.0rc4.tar.gz tmp/cmem_plugin_kafka-1.3.0.tar.gz --markdown 20230612/c/cmem-plugin-kafka/1.2.0rc4-1.3.0/diff.md --exclude *.pyd
+[2023-06-12 11:34:19] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-12 11:34:19] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post829-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post830-py3-none-any.whl.zip --markdown 20230612/n/nucliadb-contributor-assets/1.0.0.post829-1.0.0.post830/diff.md --exclude *.pyd
+[2023-06-12 11:34:19] INFO root fetch - processPackages [xtrack]: executing diffoscope
+[2023-06-12 11:34:19] INFO root fetch - processPackages [xtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtrack-0.9.4.tar.gz tmp/xtrack-0.9.5.tar.gz --markdown 20230612/x/xtrack/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-12 11:34:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-12 11:34:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz --markdown 20230612/h/hcai-nova-server-nightly/0.1.9.dev202306051512-0.1.9.dev202306060908/diff.md --exclude *.pyd
+[2023-06-12 11:34:19] INFO root fetch - processPackages [django-ace]: executing diffoscope
+[2023-06-12 11:34:19] INFO root fetch - processPackages [django-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ace-1.19.0.tar.gz tmp/django-ace-1.22.1.tar.gz --markdown 20230612/d/django-ace/1.19.0-1.22.1/diff.md --exclude *.pyd
+[2023-06-12 11:34:21] INFO root fetch - processPackages [logging-gelf]: Remove: archive file [/home/abi/fetcher/tmp/logging-gelf-0.0.8.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [logging-gelf]: Remove: archive file [/home/abi/fetcher/tmp/logging-gelf-0.0.9.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [logging-gelf]: Start processing: veetility
+[2023-06-12 11:34:21] INFO root fetch - main [MainThread]: End processing [logging-gelf]: success
+[2023-06-12 11:34:21] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.84]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/74/1a/34900ac6b8644d9c2fb184b8445ac2dbadf4513325d968fd60aeb2dc98a3/veetility-0.1.84.tar.gz
+[2023-06-12 11:34:21] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: dolibs
+[2023-06-12 11:34:21] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-12 11:34:21] INFO root fetch - processPackages [dolibs]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.8.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.9.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [multireg]: Start processing: optuna-dashboard
+[2023-06-12 11:34:21] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-12 11:34:21] INFO root fetch - processPackages [dolibs]: Downloading https://files.pythonhosted.org/packages/b9/2b/6892873fd6d65821484edd8e68dbbed98092eb53bf5e48f01cff492b1132/dolibs-0.1.7.tar.gz
+[2023-06-12 11:34:21] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-1.2.0rc4.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-1.3.0.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - main [MainThread]: End processing [cmem-plugin-kafka]: success
+[2023-06-12 11:34:21] INFO root fetch - processPackages [optuna-dashboard]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-06-12 11:34:21] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-06-12 11:34:21] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e4/27/6bf604a25bb2458a80de6e113a5e7478938a23d9c7100bad80dac3b5e3c8/veetility-0.1.9.tar.gz
+[2023-06-12 11:34:22] INFO root fetch - processPackages [dolibs]: Downloading https://files.pythonhosted.org/packages/e5/65/fc00ea633f13612a7a077218479035789f5e8720183dd4f18b92f1fb81b2/dolibs-0.1.8.tar.gz
+[2023-06-12 11:34:22] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-06-12 11:34:22] INFO root fetch - processPackages [dolibs]: executing diffoscope
+[2023-06-12 11:34:22] INFO root fetch - processPackages [dolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolibs-0.1.7.tar.gz tmp/dolibs-0.1.8.tar.gz --markdown 20230612/d/dolibs/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-12 11:34:22] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.84.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230612/v/veetility/0.1.84-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 11:34:22] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/c8/ff/86ca1400d507b1df6f24206aa33fdf91d5c92c7d6de5f4f7facf5c4098ff/optuna-dashboard-0.9.1.tar.gz
+[2023-06-12 11:34:22] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.4.tar.gz]
+[2023-06-12 11:34:22] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.5.tar.gz]
+[2023-06-12 11:34:22] INFO root fetch - main [MainThread]: End processing [xtrack]: success
+[2023-06-12 11:34:23] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.87.tar.gz]
+[2023-06-12 11:34:23] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.88.tar.gz]
+[2023-06-12 11:34:23] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-12 11:34:23] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.84.tar.gz]
+[2023-06-12 11:34:23] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.9.tar.gz]
+[2023-06-12 11:34:23] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-06-12 11:34:23] INFO root fetch - processPackages [dolibs]: Remove: archive file [/home/abi/fetcher/tmp/dolibs-0.1.7.tar.gz]
+[2023-06-12 11:34:23] INFO root fetch - processPackages [dolibs]: Remove: archive file [/home/abi/fetcher/tmp/dolibs-0.1.8.tar.gz]
+[2023-06-12 11:34:23] INFO root fetch - main [MainThread]: End processing [dolibs]: success
+[2023-06-12 11:34:24] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/27/61/eedb08021226c3a12afaae3c1609e4745af8d825d04a37adae30d3af1dd4/optuna-dashboard-0.9.2.tar.gz
+[2023-06-12 11:34:24] INFO root fetch - processPackages [optuna-dashboard]: executing diffoscope
+[2023-06-12 11:34:24] INFO root fetch - processPackages [optuna-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optuna-dashboard-0.9.1.tar.gz tmp/optuna-dashboard-0.9.2.tar.gz --markdown 20230612/o/optuna-dashboard/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-12 11:34:32] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-12 11:34:32] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-12 11:34:32] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-12 11:34:42] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post829-py3-none-any.whl.zip]
+[2023-06-12 11:34:42] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post830-py3-none-any.whl.zip]
+[2023-06-12 11:34:42] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-12 11:35:31] INFO root fetch - processPackages [optuna-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/optuna-dashboard-0.9.1.tar.gz]
+[2023-06-12 11:35:31] INFO root fetch - processPackages [optuna-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/optuna-dashboard-0.9.2.tar.gz]
+[2023-06-12 11:35:31] INFO root fetch - main [MainThread]: End processing [optuna-dashboard]: success
+[2023-06-12 11:35:44] INFO root fetch - processPackages [django-ace]: Remove: archive file [/home/abi/fetcher/tmp/django-ace-1.19.0.tar.gz]
+[2023-06-12 11:35:44] INFO root fetch - processPackages [django-ace]: Remove: archive file [/home/abi/fetcher/tmp/django-ace-1.22.1.tar.gz]
+[2023-06-12 11:35:44] INFO root fetch - main [MainThread]: End processing [django-ace]: success
+[2023-06-12 11:35:44] INFO root fetch - main [MainThread]: Store serial: [18467005]
