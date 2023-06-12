@@ -22021,3 +22021,195 @@ EOFError: EOF read where object expected
 [2023-06-12 17:22:57] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.1.2.tar.gz]
 [2023-06-12 17:22:57] INFO root fetch - main [MainThread]: End processing [mbapy]: success
 [2023-06-12 17:22:57] INFO root fetch - main [MainThread]: Store serial: [18470550]
+[2023-06-12 17:28:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470550]
+[2023-06-12 17:28:08] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-12 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SMjour
+[2023-06-12 17:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SBILoops
+[2023-06-12 17:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-ical
+[2023-06-12 17:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyproj
+[2023-06-12 17:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unicorn-multiverse
+[2023-06-12 17:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mdreg
+[2023-06-12 17:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FAIRSave
+[2023-06-12 17:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clickhouse-toolset
+[2023-06-12 17:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: villa
+[2023-06-12 17:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-product-pricelist-direct-print
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SMjour]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [villa]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SBILoops]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [FAIRSave]: New version: [0.0.6.1] Old Version: [0.0.6]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [unicorn-multiverse]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.2]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [mdreg]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [django-ical]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [clickhouse-toolset]: New version: [0.9.dev0] Old Version: [0.8.dev0]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [pyproj]: New version: [3.6.0rc0] Old Version: [3.6.0]
+[2023-06-12 17:28:09] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/2b/63/32ade57a0d0e6702091a75fa55464ce926fbd31ee5bb301ee22920c7279f/FAIRSave-0.0.6-py3-none-any.whl
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/8f/ae/9a949f91fc607ae0f0e1efedff01633199c0fff4d4beafeb5c99c9e15bfb/SMjour-0.0.1.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/f3/9a/e5bafaeb3fb7ce0f51b9862602a5efa3c8ff77b9e809a750cfac8076b7cb/SBILoops-0.2.6.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/0e/a6/444cd5df5b1ed775cf6a31187fc4dca8c77abb3768abf4b2f9d32d13de2c/villa-0.1.2.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [unicorn-multiverse]: Downloading https://files.pythonhosted.org/packages/d8/a2/69fc4e59a6666d53dc7f2ca476ff52190a3f7d47c8659d4d4bc237a4dabf/unicorn-multiverse-0.0.2.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [pyproj]: Downloading https://files.pythonhosted.org/packages/38/77/46fe6a107b934fd23b903cb7402b69c8b2480a6cab9481d9f98c6dc7726e/pyproj-3.6.0.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/e6/ee/c81ca0efd72fc8844c741f0de237f31f644261f1b7bac70cf2a654e29cd3/odoo_addon_product_pricelist_direct_print-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-12 17:28:09] INFO root fetch - processPackages [django-ical]: Downloading https://files.pythonhosted.org/packages/92/c9/b4ed9d418be2f3b1b0b7f6c5d622a77b049e9ef4a6cff30146e6c683cb32/django-ical-1.9.1.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [clickhouse-toolset]: Downloading https://files.pythonhosted.org/packages/af/74/5757e4ee14a3f04e0fb89e39e437f050463988814c05d391fb97f8d1bbda/clickhouse-toolset-0.8.dev0.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/d5/d2/4e475f89cba1765dc0cdad08b9b428405c5e73d9fd52ebe8199c5ccd607a/FAIRSave-0.0.6.1-py3-none-any.whl
+[2023-06-12 17:28:09] INFO root fetch - processPackages [mdreg]: Downloading https://files.pythonhosted.org/packages/e6/5b/16528b763bb003eb9d0332ce47dbcf446fd1367790d17757ec5831082303/mdreg-0.3.7.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/9b/30/c0d6868a148b002f8c3d980d62007beca408684827724c955dce56802680/villa-0.2.0.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [unicorn-multiverse]: Downloading https://files.pythonhosted.org/packages/e9/f5/83292de00e7f43addb05d2c0c1309f2160b5d377aa3b698b82166f267f99/unicorn-multiverse-0.0.3.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/68/69/aaf4186fe4c978ea4729d6dd339a9e1c494c025475bc3f165be74a9f939e/SMjour-0.0.2.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [FAIRSave]: executing diffoscope
+[2023-06-12 17:28:09] INFO root fetch - processPackages [FAIRSave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAIRSave-0.0.6-py3-none-any.whl.zip tmp/FAIRSave-0.0.6.1-py3-none-any.whl.zip --markdown 20230612/F/FAIRSave/0.0.6-0.0.6.1/diff.md --exclude *.pyd
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/b9/aa/837b68876efaae0d941a2e0396df547b430e025f21871c7f9855f1cd24f0/SBILoops-0.2.7.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SMjour]: executing diffoscope
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SMjour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SMjour-0.0.1.tar.gz tmp/SMjour-0.0.2.tar.gz --markdown 20230612/S/SMjour/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SBILoops]: executing diffoscope
+[2023-06-12 17:28:09] INFO root fetch - processPackages [SBILoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBILoops-0.2.6.tar.gz tmp/SBILoops-0.2.7.tar.gz --markdown 20230612/S/SBILoops/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-12 17:28:09] INFO root fetch - processPackages [clickhouse-toolset]: Downloading https://files.pythonhosted.org/packages/3d/63/dc22448e2a51b8c3223f8384a3101ef11d847e67695632a1931b374eb748/clickhouse-toolset-0.9.dev0.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/0c/7d/541e382e56ba99038d0d7c84f4a37d5a07533991d823fc2c55a13a9dff28/odoo_addon_product_pricelist_direct_print-15.0.1.1.0-py3-none-any.whl
+[2023-06-12 17:28:09] INFO root fetch - processPackages [villa]: executing diffoscope
+[2023-06-12 17:28:09] INFO root fetch - processPackages [villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villa-0.1.2.tar.gz tmp/villa-0.2.0.tar.gz --markdown 20230612/v/villa/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 17:28:09] INFO root fetch - processPackages [unicorn-multiverse]: executing diffoscope
+[2023-06-12 17:28:09] INFO root fetch - processPackages [unicorn-multiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicorn-multiverse-0.0.2.tar.gz tmp/unicorn-multiverse-0.0.3.tar.gz --markdown 20230612/u/unicorn-multiverse/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 17:28:09] INFO root fetch - processPackages [django-ical]: Downloading https://files.pythonhosted.org/packages/e1/dc/70971de377f77c4f9f789a38b049b5fa239f1cfc6b671b0503971960f245/django-ical-1.9.2.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [mdreg]: Downloading https://files.pythonhosted.org/packages/4f/f7/47321f6137507e7ff9532409f40a205430712a4e79b44d5336052a923dc3/mdreg-0.3.8.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [pyproj]: Downloading https://files.pythonhosted.org/packages/00/4f/f672812136b07bb624a2c23dde631cbbcf0aab33c7231f00017286c14bc9/pyproj-3.6.0rc0.tar.gz
+[2023-06-12 17:28:09] INFO root fetch - processPackages [django-ical]: executing diffoscope
+[2023-06-12 17:28:09] INFO root fetch - processPackages [django-ical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ical-1.9.1.tar.gz tmp/django-ical-1.9.2.tar.gz --markdown 20230612/d/django-ical/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-12 17:28:09] INFO root fetch - processPackages [clickhouse-toolset]: executing diffoscope
+[2023-06-12 17:28:09] INFO root fetch - processPackages [clickhouse-toolset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-toolset-0.8.dev0.tar.gz tmp/clickhouse-toolset-0.9.dev0.tar.gz --markdown 20230612/c/clickhouse-toolset/0.8.dev0-0.9.dev0/diff.md --exclude *.pyd
+[2023-06-12 17:28:09] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: executing diffoscope
+[2023-06-12 17:28:09] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_direct_print-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_direct_print-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230612/o/odoo-addon-product-pricelist-direct-print/15.0.1.0.0.2-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-12 17:28:09] INFO root fetch - processPackages [mdreg]: executing diffoscope
+[2023-06-12 17:28:09] INFO root fetch - processPackages [mdreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdreg-0.3.7.tar.gz tmp/mdreg-0.3.8.tar.gz --markdown 20230612/m/mdreg/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-12 17:28:10] INFO root fetch - processPackages [pyproj]: executing diffoscope
+[2023-06-12 17:28:10] INFO root fetch - processPackages [pyproj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproj-3.6.0.tar.gz tmp/pyproj-3.6.0rc0.tar.gz --markdown 20230612/p/pyproj/3.6.0-3.6.0rc0/diff.md --exclude *.pyd
+[2023-06-12 17:28:11] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.1.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.2.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [SMjour]: Start processing: t4flib
+[2023-06-12 17:28:11] INFO root fetch - main [MainThread]: End processing [SMjour]: success
+[2023-06-12 17:28:11] INFO root fetch - processPackages [t4flib]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/05/cd/f1cf88879304fafd5f6f0b0f4bbbc4234a7ccb14da70f1a312f35493b22a/t4flib-0.3.8-py2.py3-none-any.whl
+[2023-06-12 17:28:11] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6-py3-none-any.whl.zip]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.1-py3-none-any.whl.zip]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [FAIRSave]: Start processing: pytorchrl
+[2023-06-12 17:28:11] INFO root fetch - main [MainThread]: End processing [FAIRSave]: success
+[2023-06-12 17:28:11] INFO root fetch - processPackages [unicorn-multiverse]: Remove: archive file [/home/abi/fetcher/tmp/unicorn-multiverse-0.0.2.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [unicorn-multiverse]: Remove: archive file [/home/abi/fetcher/tmp/unicorn-multiverse-0.0.3.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [unicorn-multiverse]: Start processing: laserdato
+[2023-06-12 17:28:11] INFO root fetch - main [MainThread]: End processing [unicorn-multiverse]: success
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pytorchrl]: New version: [3.2.14] Old Version: [3.2.13]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [laserdato]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/a8/f6/ea3e7c9f2f82fe0279e198b13af7ddeb2446021ae49cd39c503f24e3adbc/t4flib-0.3.9-py2.py3-none-any.whl
+[2023-06-12 17:28:11] INFO root fetch - processPackages [clickhouse-toolset]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-toolset-0.8.dev0.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [clickhouse-toolset]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-toolset-0.9.dev0.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [clickhouse-toolset]: Start processing: pinit
+[2023-06-12 17:28:11] INFO root fetch - main [MainThread]: End processing [clickhouse-toolset]: success
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pinit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Start processing: qsl
+[2023-06-12 17:28:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-direct-print]: success
+[2023-06-12 17:28:11] INFO root fetch - processPackages [laserdato]: Downloading https://files.pythonhosted.org/packages/a8/73/bd9f6447503d87ac3e8522a9fe7d208d720b1c4f0a733fdb4384a25e67fd/laserdato-0.0.11.tar.gz
+[2023-06-12 17:28:11] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-06-12 17:28:11] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.3.8-py2.py3-none-any.whl.zip tmp/t4flib-0.3.9-py2.py3-none-any.whl.zip --markdown 20230612/t/t4flib/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pinit]: Downloading https://files.pythonhosted.org/packages/e4/88/b0f4d8eca1b4e01f80ba7f6df7927cdc7f6adc060ca2d062849440fdca22/pinit-0.0.8.tar.gz
+[2023-06-12 17:28:11] INFO root fetch - processPackages [qsl]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pytorchrl]: Downloading https://files.pythonhosted.org/packages/d3/31/fe7587adc3d07d82083dc5557b06620cbff72dedd79fbe6d909b2d2575ba/pytorchrl-3.2.13.tar.gz
+[2023-06-12 17:28:11] INFO root fetch - processPackages [laserdato]: Downloading https://files.pythonhosted.org/packages/57/82/d55d84fe81de64fbc5257cbe8acf8b91e60216d2066cdd9b605a4a5bf06e/laserdato-0.0.12.tar.gz
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pinit]: Downloading https://files.pythonhosted.org/packages/18/f1/0c8ade257408b206e2f4ae5b0b1d19b03d5c11655efeb2ef2f6a4635010a/pinit-0.0.9.tar.gz
+[2023-06-12 17:28:11] INFO root fetch - processPackages [qsl]: Downloading https://files.pythonhosted.org/packages/fa/3e/ec03d8c58c49416fad438a42b671cba5b9d9e0df889c07440a7d45feda55/qsl-0.2.7-py2.py3-none-any.whl
+[2023-06-12 17:28:11] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.1.2.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.2.0.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [villa]: Start processing: pymodaq-plugins-keithley
+[2023-06-12 17:28:11] INFO root fetch - main [MainThread]: End processing [villa]: success
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pytorchrl]: Downloading https://files.pythonhosted.org/packages/8f/d7/c594a9f4f9582de2d792dd2a507ba880b412b5fe31111a9c6b4950b21c02/pytorchrl-3.2.14.tar.gz
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pymodaq-plugins-keithley]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [laserdato]: executing diffoscope
+[2023-06-12 17:28:11] INFO root fetch - processPackages [laserdato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laserdato-0.0.11.tar.gz tmp/laserdato-0.0.12.tar.gz --markdown 20230612/l/laserdato/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pinit]: executing diffoscope
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinit-0.0.8.tar.gz tmp/pinit-0.0.9.tar.gz --markdown 20230612/p/pinit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pytorchrl]: executing diffoscope
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pytorchrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorchrl-3.2.13.tar.gz tmp/pytorchrl-3.2.14.tar.gz --markdown 20230612/p/pytorchrl/3.2.13-3.2.14/diff.md --exclude *.pyd
+[2023-06-12 17:28:11] INFO root fetch - processPackages [pymodaq-plugins-keithley]: Downloading https://files.pythonhosted.org/packages/50/b2/0c3068765af71347d42ac0ae38c4535611c7df49ba7aebfdad460751f9c0/pymodaq_plugins_keithley-0.0.1.tar.gz
+[2023-06-12 17:28:11] INFO root fetch - processPackages [django-ical]: Remove: archive file [/home/abi/fetcher/tmp/django-ical-1.9.1.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [django-ical]: Remove: archive file [/home/abi/fetcher/tmp/django-ical-1.9.2.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [django-ical]: Start processing: coiled
+[2023-06-12 17:28:11] INFO root fetch - main [MainThread]: End processing [django-ical]: success
+[2023-06-12 17:28:11] INFO root fetch - processPackages [mdreg]: Remove: archive file [/home/abi/fetcher/tmp/mdreg-0.3.7.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [mdreg]: Remove: archive file [/home/abi/fetcher/tmp/mdreg-0.3.8.tar.gz]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [mdreg]: Start processing: composabl-dev
+[2023-06-12 17:28:11] INFO root fetch - main [MainThread]: End processing [mdreg]: success
+[2023-06-12 17:28:11] INFO root fetch - processPackages [qsl]: Downloading https://files.pythonhosted.org/packages/f6/01/6e058a87a04bfedace339d12b47a404f3a16e0f7a011640656c68ca8dc6e/qsl-0.2.8-py2.py3-none-any.whl
+[2023-06-12 17:28:11] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev8]
+[2023-06-12 17:28:11] INFO root fetch - processPackages [coiled]: New version: [0.7.4.dev6] Old Version: [0.7.4.dev4]
+[2023-06-12 17:28:12] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/96/cc/413e4e891af6555b1bb987746112df35a8e03d0207a45270191504b37e72/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl
+[2023-06-12 17:28:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/fb/66/747e4440a2ea880c661f289718fd246e60d6a8d6ce65ddaef66d2a0f974c/coiled-0.7.4.dev4.tar.gz
+[2023-06-12 17:28:12] INFO root fetch - processPackages [qsl]: executing diffoscope
+[2023-06-12 17:28:12] INFO root fetch - processPackages [qsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsl-0.2.7-py2.py3-none-any.whl.zip tmp/qsl-0.2.8-py2.py3-none-any.whl.zip --markdown 20230612/q/qsl/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-12 17:28:12] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/49/2c/0032ba964864c280a5efb940191b8d75049cfa8bad1c193b88e1e5fb9828/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-12 17:28:12] INFO root fetch - processPackages [pymodaq-plugins-keithley]: Downloading https://files.pythonhosted.org/packages/f0/22/0a53ecc2e04fc066e8842f005454f7cff0c062dfc04a545e16ce7723e895/pymodaq_plugins_keithley-1.0.0.tar.gz
+[2023-06-12 17:28:12] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-12 17:28:12] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230612/c/composabl-dev/0.2.1.dev8-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-12 17:28:12] INFO root fetch - processPackages [pyproj]: Remove: archive file [/home/abi/fetcher/tmp/pyproj-3.6.0.tar.gz]
+[2023-06-12 17:28:12] INFO root fetch - processPackages [pyproj]: Remove: archive file [/home/abi/fetcher/tmp/pyproj-3.6.0rc0.tar.gz]
+[2023-06-12 17:28:12] INFO root fetch - processPackages [pyproj]: Start processing: lectric-sdk
+[2023-06-12 17:28:12] INFO root fetch - main [MainThread]: End processing [pyproj]: success
+[2023-06-12 17:28:12] INFO root fetch - processPackages [lectric-sdk]: New version: [0.0.9] Old Version: [0.0.6a0]
+[2023-06-12 17:28:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/5d/83/5c16fe86dfcc39976c613c38cabf6ff7215f14bc2a7827f54a79f164488a/coiled-0.7.4.dev6.tar.gz
+[2023-06-12 17:28:12] INFO root fetch - processPackages [pymodaq-plugins-keithley]: executing diffoscope
+[2023-06-12 17:28:12] INFO root fetch - processPackages [pymodaq-plugins-keithley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_keithley-0.0.1.tar.gz tmp/pymodaq_plugins_keithley-1.0.0.tar.gz --markdown 20230612/p/pymodaq-plugins-keithley/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 17:28:12] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-12 17:28:12] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.4.dev4.tar.gz tmp/coiled-0.7.4.dev6.tar.gz --markdown 20230612/c/coiled/0.7.4.dev4-0.7.4.dev6/diff.md --exclude *.pyd
+[2023-06-12 17:28:12] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/6272ab8629bdcb6480b2746e6e3bb7146ea176e827b6de3de5867b0b94d6/lectric-sdk-0.0.6a0.tar.gz
+[2023-06-12 17:28:12] INFO root fetch - processPackages [t4flib]: Remove: archive file [/home/abi/fetcher/tmp/t4flib-0.3.8-py2.py3-none-any.whl.zip]
+[2023-06-12 17:28:12] INFO root fetch - processPackages [t4flib]: Remove: archive file [/home/abi/fetcher/tmp/t4flib-0.3.9-py2.py3-none-any.whl.zip]
+[2023-06-12 17:28:12] INFO root fetch - processPackages [t4flib]: Start processing: datadog-logger
+[2023-06-12 17:28:12] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-06-12 17:28:12] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/7d/f5/c957a796a1873e1f7870cd3cdfbba66a8159c62adb8e5785cb5d9b2dfef0/lectric-sdk-0.0.9.tar.gz
+[2023-06-12 17:28:12] INFO root fetch - processPackages [datadog-logger]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-06-12 17:28:13] INFO root fetch - processPackages [lectric-sdk]: executing diffoscope
+[2023-06-12 17:28:13] INFO root fetch - processPackages [lectric-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lectric-sdk-0.0.6a0.tar.gz tmp/lectric-sdk-0.0.9.tar.gz --markdown 20230612/l/lectric-sdk/0.0.6a0-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 17:28:13] INFO root fetch - processPackages [datadog-logger]: Downloading https://files.pythonhosted.org/packages/1d/31/5bb2eee09ec09170bf3ce24ffceef2db042c6574acf6debadf4d7ff2afe3/datadog-logger-0.3.0.tar.gz
+[2023-06-12 17:28:13] INFO root fetch - processPackages [laserdato]: Remove: archive file [/home/abi/fetcher/tmp/laserdato-0.0.11.tar.gz]
+[2023-06-12 17:28:13] INFO root fetch - processPackages [laserdato]: Remove: archive file [/home/abi/fetcher/tmp/laserdato-0.0.12.tar.gz]
+[2023-06-12 17:28:13] INFO root fetch - processPackages [laserdato]: Start processing: metrics-layer
+[2023-06-12 17:28:13] INFO root fetch - main [MainThread]: End processing [laserdato]: success
+[2023-06-12 17:28:13] INFO root fetch - processPackages [metrics-layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-12 17:28:13] INFO root fetch - processPackages [datadog-logger]: Downloading https://files.pythonhosted.org/packages/2d/a6/9da471e415226688a88fb423ada973aaef31074c6c3a525d5f970d98d610/datadog_logger-1.0.0.tar.gz
+[2023-06-12 17:28:13] INFO root fetch - processPackages [datadog-logger]: executing diffoscope
+[2023-06-12 17:28:13] INFO root fetch - processPackages [datadog-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog-logger-0.3.0.tar.gz tmp/datadog_logger-1.0.0.tar.gz --markdown 20230612/d/datadog-logger/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 17:28:13] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2023-06-12 17:28:13] INFO root fetch - processPackages [pymodaq-plugins-keithley]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_keithley-0.0.1.tar.gz]
+[2023-06-12 17:28:13] INFO root fetch - processPackages [pymodaq-plugins-keithley]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_keithley-1.0.0.tar.gz]
+[2023-06-12 17:28:13] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-keithley]: success
+[2023-06-12 17:28:13] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2023-06-12 17:28:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.4.dev4.tar.gz]
+[2023-06-12 17:28:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.4.dev6.tar.gz]
+[2023-06-12 17:28:13] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-12 17:28:13] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.6.tar.gz]
+[2023-06-12 17:28:13] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.7.tar.gz]
+[2023-06-12 17:28:13] INFO root fetch - main [MainThread]: End processing [SBILoops]: success
+[2023-06-12 17:28:14] INFO root fetch - processPackages [metrics-layer]: executing diffoscope
+[2023-06-12 17:28:14] INFO root fetch - processPackages [metrics-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20230612/m/metrics-layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 17:28:14] INFO root fetch - processPackages [datadog-logger]: Remove: archive file [/home/abi/fetcher/tmp/datadog-logger-0.3.0.tar.gz]
+[2023-06-12 17:28:14] INFO root fetch - processPackages [datadog-logger]: Remove: archive file [/home/abi/fetcher/tmp/datadog_logger-1.0.0.tar.gz]
+[2023-06-12 17:28:14] INFO root fetch - main [MainThread]: End processing [datadog-logger]: success
+[2023-06-12 17:28:14] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-06-12 17:28:14] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-12 17:28:14] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-12 17:28:15] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2023-06-12 17:28:15] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2023-06-12 17:28:15] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
+[2023-06-12 17:28:15] INFO root fetch - processPackages [pinit]: Remove: archive file [/home/abi/fetcher/tmp/pinit-0.0.8.tar.gz]
+[2023-06-12 17:28:15] INFO root fetch - processPackages [pinit]: Remove: archive file [/home/abi/fetcher/tmp/pinit-0.0.9.tar.gz]
+[2023-06-12 17:28:15] INFO root fetch - main [MainThread]: End processing [pinit]: success
+[2023-06-12 17:28:15] INFO root fetch - processPackages [lectric-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lectric-sdk-0.0.6a0.tar.gz]
+[2023-06-12 17:28:15] INFO root fetch - processPackages [lectric-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lectric-sdk-0.0.9.tar.gz]
+[2023-06-12 17:28:15] INFO root fetch - main [MainThread]: End processing [lectric-sdk]: success
+[2023-06-12 17:28:15] INFO root fetch - processPackages [pytorchrl]: Remove: archive file [/home/abi/fetcher/tmp/pytorchrl-3.2.13.tar.gz]
+[2023-06-12 17:28:15] INFO root fetch - processPackages [pytorchrl]: Remove: archive file [/home/abi/fetcher/tmp/pytorchrl-3.2.14.tar.gz]
+[2023-06-12 17:28:15] INFO root fetch - main [MainThread]: End processing [pytorchrl]: success
+[2023-06-12 17:28:37] INFO root fetch - processPackages [qsl]: Remove: archive file [/home/abi/fetcher/tmp/qsl-0.2.7-py2.py3-none-any.whl.zip]
+[2023-06-12 17:28:37] INFO root fetch - processPackages [qsl]: Remove: archive file [/home/abi/fetcher/tmp/qsl-0.2.8-py2.py3-none-any.whl.zip]
+[2023-06-12 17:28:37] INFO root fetch - main [MainThread]: End processing [qsl]: success
+[2023-06-12 17:28:37] INFO root fetch - main [MainThread]: Store serial: [18470643]
