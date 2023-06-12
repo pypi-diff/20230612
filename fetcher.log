@@ -16834,3 +16834,128 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 14:06:12] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-0.146.1.tar.gz]
 [2023-06-12 14:06:12] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client]: success
 [2023-06-12 14:06:12] INFO root fetch - main [MainThread]: Store serial: [18468423]
+[2023-06-12 14:11:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468423]
+[2023-06-12 14:11:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wbpOutput
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UzbekLemmatizer
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JBPhD
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tablite
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telepath
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clearml
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbox
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libmata
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mailslurp-client
+[2023-06-12 14:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kedro-neptune
+[2023-06-12 14:11:24] INFO root fetch - processPackages [telepath]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [wbpOutput]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [UzbekLemmatizer]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [kedro-neptune]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [JBPhD]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [libmata]: New version: [0.66.0] Old Version: [0.65.0]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [tablite]: New version: [2023.6.dev3] Old Version: [2023.6.dev2]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [clearml]: New version: [1.9.3] Old Version: [1.9.2rc2]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2023-06-12 14:11:24] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/55/22/96b7b0d2a94b04dd42416c3d1b26b502bd03123098b2a7f351d587f9094a/JBPhD-2.2.7.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/3d/74/98cb97a2dc0cd9f45292cd8ded3d3da9318b1bede8a34420822679c48c34/nbox-0.9.9.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [UzbekLemmatizer]: Downloading https://files.pythonhosted.org/packages/b2/c5/014de5ed1fbe44f2042901f5866157d942a73a0945bf9b4c18eef274c2da/UzbekLemmatizer-1.0.3.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [wbpOutput]: Downloading https://files.pythonhosted.org/packages/5d/a0/e5667df4f1f6f83f058a9fac64a55db43ba68e8469e051a697747642e20c/wbpOutput-0.1.9.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [telepath]: Downloading https://files.pythonhosted.org/packages/b5/cd/470e2a9a4687440b9842e1928910a7e2d328b0ec4c9f6350d455dba9b235/telepath-0.3.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [kedro-neptune]: Downloading https://files.pythonhosted.org/packages/7f/d6/702bbf816508b72ce6fcd798008fcab328a2803fda36ec0b55583d372fb8/kedro_neptune-0.1.6.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/7e/29/095ec92c0b253f5d8ad2c5fc3a6c437c0cdabc67716b99ae81f0d773ae77/clearml-1.9.2rc2-py2.py3-none-any.whl
+[2023-06-12 14:11:24] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/25/dd/15b9cf73cab6520711467cdd930157f1915a312ba97e0c39d6701d193a4c/tablite-2023.6.dev2-py3-none-any.whl
+[2023-06-12 14:11:24] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/76/54/2117715d84b627474f3a1b20a68921b6e3016301d1504d4c9886357bfcb3/libmata-0.65.0.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/e9/5a/a1cec5678c7bcca81531e8e340b7ace580efc6d998e285970e6d0a94f7cd/nbox-0.9.9rc0.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-06-12 14:11:24] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230612/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-06-12 14:11:24] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2023-06-12 14:11:24] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20230612/m/mailslurp-client/8.7.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-12 14:11:24] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/02/7e/90a6d58cb08feefc4999f5598a41d0e08088da6fff3fc68286a36428ce93/JBPhD-2.2.8.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/7b/d8/3a8a9c93806b638b6b50eec6ca9a469127e90e8984179a77c4d7ea51736b/tablite-2023.6.dev3-py3-none-any.whl
+[2023-06-12 14:11:24] INFO root fetch - processPackages [wbpOutput]: Downloading https://files.pythonhosted.org/packages/48/7f/abdda49e3f082f0ede7cda44f38b53f04efbea06c10d745dc9abc2f674ae/wbpOutput-0.2.0.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [UzbekLemmatizer]: Downloading https://files.pythonhosted.org/packages/ef/4f/86ef7672dfedd02cc17ab29ee5e69bdbc30cb674269490f92fc40d75767e/UzbekLemmatizer-1.0.4.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [telepath]: Downloading https://files.pythonhosted.org/packages/65/58/5de8765687d6f9dfcbb72c89251036c3b901126404f872b936b13377a3fe/telepath-0.3.1.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [kedro-neptune]: Downloading https://files.pythonhosted.org/packages/b7/27/7567d41c29380097b24397b57c16756038d5787ddad5ce909a1f8f0b9d3f/kedro_neptune-0.2.0.tar.gz
+[2023-06-12 14:11:24] INFO root fetch - processPackages [wbpOutput]: executing diffoscope
+[2023-06-12 14:11:24] INFO root fetch - processPackages [wbpOutput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpOutput-0.1.9.tar.gz tmp/wbpOutput-0.2.0.tar.gz --markdown 20230612/w/wbpOutput/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 14:11:24] INFO root fetch - processPackages [telepath]: executing diffoscope
+[2023-06-12 14:11:24] INFO root fetch - processPackages [kedro-neptune]: executing diffoscope
+[2023-06-12 14:11:24] INFO root fetch - processPackages [telepath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telepath-0.3.tar.gz tmp/telepath-0.3.1.tar.gz --markdown 20230612/t/telepath/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-06-12 14:11:24] INFO root fetch - processPackages [kedro-neptune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_neptune-0.1.6.tar.gz tmp/kedro_neptune-0.2.0.tar.gz --markdown 20230612/k/kedro-neptune/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 14:11:24] INFO root fetch - processPackages [UzbekLemmatizer]: executing diffoscope
+[2023-06-12 14:11:24] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-06-12 14:11:24] INFO root fetch - processPackages [UzbekLemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzbekLemmatizer-1.0.3.tar.gz tmp/UzbekLemmatizer-1.0.4.tar.gz --markdown 20230612/U/UzbekLemmatizer/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 14:11:24] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.2.7.tar.gz tmp/JBPhD-2.2.8.tar.gz --markdown 20230612/J/JBPhD/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-06-12 14:11:24] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2023-06-12 14:11:24] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.6.dev2-py3-none-any.whl.zip tmp/tablite-2023.6.dev3-py3-none-any.whl.zip --markdown 20230612/t/tablite/2023.6.dev2-2023.6.dev3/diff.md --exclude *.pyd
+[2023-06-12 14:11:25] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/4c/1a/a37787412116f8c25ba5c29ffa1231f562c2c9b255f84b797426482bc7d3/libmata-0.66.0.tar.gz
+[2023-06-12 14:11:25] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/ce/e8/0c335873c6ef72310890be41a2b4b804f0390e3b0c1a507bcbc4300d4229/clearml-1.9.3-py2.py3-none-any.whl
+[2023-06-12 14:11:25] INFO root fetch - processPackages [clearml]: executing diffoscope
+[2023-06-12 14:11:25] INFO root fetch - processPackages [clearml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip tmp/clearml-1.9.3-py2.py3-none-any.whl.zip --markdown 20230612/c/clearml/1.9.2rc2-1.9.3/diff.md --exclude *.pyd
+[2023-06-12 14:11:25] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-06-12 14:11:25] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.65.0.tar.gz tmp/libmata-0.66.0.tar.gz --markdown 20230612/l/libmata/0.65.0-0.66.0/diff.md --exclude *.pyd
+[2023-06-12 14:11:27] INFO root fetch - processPackages [telepath]: Remove: archive file [/home/abi/fetcher/tmp/telepath-0.3.tar.gz]
+[2023-06-12 14:11:27] INFO root fetch - processPackages [telepath]: Remove: archive file [/home/abi/fetcher/tmp/telepath-0.3.1.tar.gz]
+[2023-06-12 14:11:27] INFO root fetch - processPackages [telepath]: Start processing: nonebot-plugin-whateat-pic
+[2023-06-12 14:11:27] INFO root fetch - main [MainThread]: End processing [telepath]: success
+[2023-06-12 14:11:27] INFO root fetch - processPackages [nonebot-plugin-whateat-pic]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-12 14:11:27] INFO root fetch - processPackages [wbpOutput]: Remove: archive file [/home/abi/fetcher/tmp/wbpOutput-0.1.9.tar.gz]
+[2023-06-12 14:11:27] INFO root fetch - processPackages [wbpOutput]: Remove: archive file [/home/abi/fetcher/tmp/wbpOutput-0.2.0.tar.gz]
+[2023-06-12 14:11:27] INFO root fetch - processPackages [wbpOutput]: Start processing: gitaudit
+[2023-06-12 14:11:27] INFO root fetch - main [MainThread]: End processing [wbpOutput]: success
+[2023-06-12 14:11:27] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-12 14:11:27] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-06-12 14:11:27] INFO root fetch - processPackages [nonebot-plugin-whateat-pic]: Downloading https://files.pythonhosted.org/packages/4d/f9/3d8fc8cd9fca8725b59116906b05732d923aca34d2a4b6108a3b57a7ae3e/nonebot_plugin_whateat_pic-1.1.4.tar.gz
+[2023-06-12 14:11:28] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-06-12 14:11:28] WARNING root fetch - processPackages [nonebot-plugin-whateat-pic]: Skipping package: exceeds size limit 10828584>=10485760
+[2023-06-12 14:11:28] INFO root fetch - processPackages [nonebot-plugin-whateat-pic]: Start processing: dtorch
+[2023-06-12 14:11:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-whateat-pic] error
+[2023-06-12 14:11:28] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-06-12 14:11:28] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230612/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 14:11:28] INFO root fetch - processPackages [kedro-neptune]: Remove: archive file [/home/abi/fetcher/tmp/kedro_neptune-0.1.6.tar.gz]
+[2023-06-12 14:11:28] INFO root fetch - processPackages [kedro-neptune]: Remove: archive file [/home/abi/fetcher/tmp/kedro_neptune-0.2.0.tar.gz]
+[2023-06-12 14:11:28] INFO root fetch - processPackages [kedro-neptune]: Start processing: omnata-plugin-devkit
+[2023-06-12 14:11:28] INFO root fetch - main [MainThread]: End processing [kedro-neptune]: success
+[2023-06-12 14:11:28] INFO root fetch - processPackages [dtorch]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 14:11:28] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 14:11:28] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev2-py3-none-any.whl.zip]
+[2023-06-12 14:11:28] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev3-py3-none-any.whl.zip]
+[2023-06-12 14:11:28] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2023-06-12 14:11:28] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-12 14:11:28] INFO root fetch - processPackages [UzbekLemmatizer]: Remove: archive file [/home/abi/fetcher/tmp/UzbekLemmatizer-1.0.3.tar.gz]
+[2023-06-12 14:11:28] INFO root fetch - processPackages [UzbekLemmatizer]: Remove: archive file [/home/abi/fetcher/tmp/UzbekLemmatizer-1.0.4.tar.gz]
+[2023-06-12 14:11:28] INFO root fetch - main [MainThread]: End processing [UzbekLemmatizer]: success
+[2023-06-12 14:11:28] INFO root fetch - processPackages [dtorch]: Downloading https://files.pythonhosted.org/packages/aa/6d/ad827cc991c960178c0cde4d61d8faf2d08d88311bfa0e705ec49a0ae8ae/dtorch-0.0.3.tar.gz
+[2023-06-12 14:11:28] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-12 14:11:28] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-12 14:11:28] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230612/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 14:11:28] INFO root fetch - processPackages [dtorch]: Downloading https://files.pythonhosted.org/packages/2e/2a/f3e866b5b0e6acf2e467141fb8cc3f888bdbc6075bf6e2d180c92266a10c/dtorch-0.0.4.tar.gz
+[2023-06-12 14:11:28] INFO root fetch - processPackages [dtorch]: executing diffoscope
+[2023-06-12 14:11:28] INFO root fetch - processPackages [dtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtorch-0.0.3.tar.gz tmp/dtorch-0.0.4.tar.gz --markdown 20230612/d/dtorch/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 14:11:29] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9.tar.gz]
+[2023-06-12 14:11:29] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9rc0.tar.gz]
+[2023-06-12 14:11:29] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-06-12 14:11:30] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-06-12 14:11:30] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-06-12 14:11:30] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-06-12 14:11:30] INFO root fetch - processPackages [dtorch]: Remove: archive file [/home/abi/fetcher/tmp/dtorch-0.0.3.tar.gz]
+[2023-06-12 14:11:30] INFO root fetch - processPackages [dtorch]: Remove: archive file [/home/abi/fetcher/tmp/dtorch-0.0.4.tar.gz]
+[2023-06-12 14:11:30] INFO root fetch - main [MainThread]: End processing [dtorch]: success
+[2023-06-12 14:11:30] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-12 14:11:30] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-12 14:11:30] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-12 14:11:31] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip]
+[2023-06-12 14:11:31] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.3-py2.py3-none-any.whl.zip]
+[2023-06-12 14:11:31] INFO root fetch - main [MainThread]: End processing [clearml]: success
+[2023-06-12 14:11:32] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.7.tar.gz]
+[2023-06-12 14:11:32] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.8.tar.gz]
+[2023-06-12 14:11:32] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-06-12 14:11:33] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2023-06-12 14:11:33] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2023-06-12 14:11:33] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2023-06-12 14:11:37] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.65.0.tar.gz]
+[2023-06-12 14:11:37] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.66.0.tar.gz]
+[2023-06-12 14:11:37] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-06-12 14:11:37] INFO root fetch - main [MainThread]: Store serial: [18468460]
