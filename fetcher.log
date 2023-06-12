@@ -20731,3 +20731,187 @@ EOFError: EOF read where object expected
 [2023-06-12 16:28:31] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.7.tar.gz]
 [2023-06-12 16:28:31] INFO root fetch - main [MainThread]: End processing [multipie]: success
 [2023-06-12 16:28:31] INFO root fetch - main [MainThread]: Store serial: [18469927]
+[2023-06-12 16:33:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469927]
+[2023-06-12 16:33:40] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mxcubeweb
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-notifications-sdk-preview
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: confluent-kafka-stubs
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-maintenance
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qufit
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scikit-recommender
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-http-middleware
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dwiqc
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mxcubeweb
+[2023-06-12 16:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OpenFisca-France-Fiscalite-Miniere
+[2023-06-12 16:33:40] WARNING root fetch - processPackages [confluent-kafka-stubs]: Skipping, unable to determine old version
+[2023-06-12 16:33:40] INFO root fetch - processPackages [confluent-kafka-stubs]: Start processing: testinfra-bdd
+[2023-06-12 16:33:40] INFO root fetch - main [MainThread]: End processing [confluent-kafka-stubs] error
+[2023-06-12 16:33:40] INFO root fetch - processPackages [OpenFisca-France-Fiscalite-Miniere]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [mxcubeweb]: New version: [1.39.0] Old Version: [1.38.0]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [dwiqc]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [flask-http-middleware]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [scikit-recommender]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [mxcubeweb]: New version: [1.39.0] Old Version: [1.38.0]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [testinfra-bdd]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.738] Old Version: [0.1.732]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 16:33:40] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/44/c8/1f6fbb19bd94ab539deb0138f090098235290d7f81d0704e049ec0644e5c/dwiqc-0.4.1-py2.py3-none-any.whl
+[2023-06-12 16:33:40] INFO root fetch - processPackages [flask-http-middleware]: Downloading https://files.pythonhosted.org/packages/13/84/06c551bfb576e4e0eb8db64a0755dac9e9e3a6cc1463b97bbb29a60d3085/flask-http-middleware-0.3.0.tar.gz
+[2023-06-12 16:33:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 16:33:40] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/c3/b8/1737fcb6a828d4bf93e73a4e742072bcceb6f0be257ff755dfc9dc3e746e/mxcubeweb-1.38.0.tar.gz
+[2023-06-12 16:33:40] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/c3/b8/1737fcb6a828d4bf93e73a4e742072bcceb6f0be257ff755dfc9dc3e746e/mxcubeweb-1.38.0.tar.gz
+[2023-06-12 16:33:40] INFO root fetch - processPackages [OpenFisca-France-Fiscalite-Miniere]: Downloading https://files.pythonhosted.org/packages/1c/11/bfddaf01fb96631ffaa9af39b65a2ff309a54e3f6989372a9d91b77750fa/OpenFisca_France_Fiscalite_Miniere-5.0.0-py3-none-any.whl
+[2023-06-12 16:33:40] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-06-12 16:33:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 16:33:40] INFO root fetch - processPackages [scikit-recommender]: Downloading https://files.pythonhosted.org/packages/5d/95/186c7a8d8b40678bb5641322d636005249cfc4d8aecfd383d21363b97d20/scikit_recommender-0.0.3-cp39-cp39-win_amd64.whl
+[2023-06-12 16:33:40] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c6/b2/b00ab3fb8b967421ffe641183915eccc509672ddac87a5be7e5bfe4e45d3/lusid-notifications-sdk-preview-0.1.732.tar.gz
+[2023-06-12 16:33:40] INFO root fetch - processPackages [testinfra-bdd]: Downloading https://files.pythonhosted.org/packages/fb/3f/d60f806125bd8a05911851e53f7342fe71dfabf469db84b880cd86599e28/testinfra-bdd-2.2.5.tar.gz
+[2023-06-12 16:33:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 16:33:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 16:33:40] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/32/78/fde1bf988a51beb8ff1f0c47d9eca63aaaa94f535ca70afca18200112d88/dwiqc-0.4.2-py2.py3-none-any.whl
+[2023-06-12 16:33:40] INFO root fetch - processPackages [flask-http-middleware]: Downloading https://files.pythonhosted.org/packages/10/c4/627512b98122dc428c149f97157ff79289269a1755792dcb931fc53aa085/flask-http-middleware-0.3.1.tar.gz
+[2023-06-12 16:33:41] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-12 16:33:41] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.1-py2.py3-none-any.whl.zip tmp/dwiqc-0.4.2-py2.py3-none-any.whl.zip --markdown 20230612/d/dwiqc/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-12 16:33:41] INFO root fetch - processPackages [flask-http-middleware]: executing diffoscope
+[2023-06-12 16:33:41] INFO root fetch - processPackages [flask-http-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-http-middleware-0.3.0.tar.gz tmp/flask-http-middleware-0.3.1.tar.gz --markdown 20230612/f/flask-http-middleware/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-12 16:33:41] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/4d/68/d7087de4545de52f6061ca6168e3f15fe3288c827fe76a23b40840b4a060/mxcubeweb-1.39.0.tar.gz
+[2023-06-12 16:33:41] INFO root fetch - processPackages [OpenFisca-France-Fiscalite-Miniere]: Downloading https://files.pythonhosted.org/packages/7e/34/7afdc93418cd2d645b73f1576e28637fbc6c34b82ee4bd7d5f022cd9fcfc/OpenFisca_France_Fiscalite_Miniere-5.1.0-py3-none-any.whl
+[2023-06-12 16:33:41] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/4d/68/d7087de4545de52f6061ca6168e3f15fe3288c827fe76a23b40840b4a060/mxcubeweb-1.39.0.tar.gz
+[2023-06-12 16:33:41] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f8/1e/729ed43f68a76a1546e75c155a6cec16d226336933ed206884b484c2f708/lusid-notifications-sdk-preview-0.1.738.tar.gz
+[2023-06-12 16:33:41] INFO root fetch - processPackages [testinfra-bdd]: Downloading https://files.pythonhosted.org/packages/b0/86/69afcd84c678fecfe6750c24e3fa2ce88d622ade1bc0b171b01d701af2d4/testinfra-bdd-2.2.6.tar.gz
+[2023-06-12 16:33:41] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-06-12 16:33:41] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-12 16:33:41] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.38.0.tar.gz tmp/mxcubeweb-1.39.0.tar.gz --markdown 20230612/m/mxcubeweb/1.38.0-1.39.0/diff.md --exclude *.pyd
+[2023-06-12 16:33:41] INFO root fetch - processPackages [scikit-recommender]: Downloading https://files.pythonhosted.org/packages/71/d1/8541c623d304aebc40093c66f8dba06fc4e2c092d1e7e9fe9897aa984319/scikit_recommender-0.0.4-cp39-cp39-win_amd64.whl
+[2023-06-12 16:33:41] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-12 16:33:41] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.38.0.tar.gz tmp/mxcubeweb-1.39.0.tar.gz --markdown 20230612/m/mxcubeweb/1.38.0-1.39.0/diff.md --exclude *.pyd
+[2023-06-12 16:33:41] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-06-12 16:33:41] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.732.tar.gz tmp/lusid-notifications-sdk-preview-0.1.738.tar.gz --markdown 20230612/l/lusid-notifications-sdk-preview/0.1.732-0.1.738/diff.md --exclude *.pyd
+[2023-06-12 16:33:41] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-06-12 16:33:41] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230612/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-12 16:33:41] INFO root fetch - processPackages [testinfra-bdd]: executing diffoscope
+[2023-06-12 16:33:41] INFO root fetch - processPackages [testinfra-bdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testinfra-bdd-2.2.5.tar.gz tmp/testinfra-bdd-2.2.6.tar.gz --markdown 20230612/t/testinfra-bdd/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-06-12 16:33:41] INFO root fetch - processPackages [OpenFisca-France-Fiscalite-Miniere]: executing diffoscope
+[2023-06-12 16:33:41] INFO root fetch - processPackages [OpenFisca-France-Fiscalite-Miniere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France_Fiscalite_Miniere-5.0.0-py3-none-any.whl.zip tmp/OpenFisca_France_Fiscalite_Miniere-5.1.0-py3-none-any.whl.zip --markdown 20230612/O/OpenFisca-France-Fiscalite-Miniere/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-06-12 16:33:41] INFO root fetch - processPackages [scikit-recommender]: executing diffoscope
+[2023-06-12 16:33:41] INFO root fetch - processPackages [scikit-recommender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_recommender-0.0.3-cp39-cp39-win_amd64.whl.zip tmp/scikit_recommender-0.0.4-cp39-cp39-win_amd64.whl.zip --markdown 20230612/s/scikit-recommender/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 16:33:42] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.1-py2.py3-none-any.whl.zip]
+[2023-06-12 16:33:42] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.2-py2.py3-none-any.whl.zip]
+[2023-06-12 16:33:42] INFO root fetch - processPackages [dwiqc]: Start processing: OTSun
+[2023-06-12 16:33:42] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-12 16:33:42] INFO root fetch - processPackages [OTSun]: New version: [2.9.2] Old Version: [2.8.7]
+[2023-06-12 16:33:42] INFO root fetch - processPackages [flask-http-middleware]: Remove: archive file [/home/abi/fetcher/tmp/flask-http-middleware-0.3.0.tar.gz]
+[2023-06-12 16:33:42] INFO root fetch - processPackages [flask-http-middleware]: Remove: archive file [/home/abi/fetcher/tmp/flask-http-middleware-0.3.1.tar.gz]
+[2023-06-12 16:33:42] INFO root fetch - processPackages [flask-http-middleware]: Start processing: henipipe
+[2023-06-12 16:33:42] INFO root fetch - main [MainThread]: End processing [flask-http-middleware]: success
+[2023-06-12 16:33:42] INFO root fetch - processPackages [henipipe]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-12 16:33:42] INFO root fetch - processPackages [OTSun]: Downloading https://files.pythonhosted.org/packages/12/17/243437f1f38852f210d74771753c5a4e69d7c715f1413c77db0a14b9670b/OTSun-2.8.7.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/1a/3c/a7772f6d85e24a88b6588662449af6e89f6e47cad7932500da296e608c92/henipipe-2.4.8.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: dh-potluck
+[2023-06-12 16:33:43] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 16:33:43] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/6c/85/d5529ba47bcfff2278b73467b2003491ff930a8916ec90ab6d347fbd037b/dh-potluck-1.9.0.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [testinfra-bdd]: Remove: archive file [/home/abi/fetcher/tmp/testinfra-bdd-2.2.5.tar.gz]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [testinfra-bdd]: Remove: archive file [/home/abi/fetcher/tmp/testinfra-bdd-2.2.6.tar.gz]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [testinfra-bdd]: Start processing: treesmoothing
+[2023-06-12 16:33:43] INFO root fetch - main [MainThread]: End processing [testinfra-bdd]: success
+[2023-06-12 16:33:43] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [qufit]: Start processing: py-lav
+[2023-06-12 16:33:43] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-06-12 16:33:43] INFO root fetch - processPackages [treesmoothing]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [py-lav]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [henipipe]: Downloading https://files.pythonhosted.org/packages/31/ce/52f83823b639987d43cd65ee88905a8aa6c034d3d30c6059f832a13e388a/henipipe-2.4.9.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [henipipe]: executing diffoscope
+[2023-06-12 16:33:43] INFO root fetch - processPackages [henipipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henipipe-2.4.8.tar.gz tmp/henipipe-2.4.9.tar.gz --markdown 20230612/h/henipipe/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-12 16:33:43] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/5d/ea/c5f6e8c82d824dad4198a98dfb092cefc1dfdd950baaf6168a964441a559/dh-potluck-1.9.1.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [treesmoothing]: Downloading https://files.pythonhosted.org/packages/3e/c7/26d5d04e828cfeb208a68770afbb905d96feca6fca7e7c9a2a655a78e865/treesmoothing-0.0.1.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [py-lav]: Downloading https://files.pythonhosted.org/packages/e9/64/08d96df3ebb41b75149551173aa15872b9c758f4b12d5c36eba8f2dbf30d/py_lav-1.9.0.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-06-12 16:33:43] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230612/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-12 16:33:43] INFO root fetch - processPackages [OTSun]: Downloading https://files.pythonhosted.org/packages/ff/1a/6c15cdd40bb6c1d21d40dd923bb3caa2406c3c147d5dd9c35311257581f5/OTSun-2.9.2.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.38.0.tar.gz]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.39.0.tar.gz]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [mxcubeweb]: Start processing: fabric-orchestrator-client
+[2023-06-12 16:33:43] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-12 16:33:43] INFO root fetch - processPackages [treesmoothing]: Downloading https://files.pythonhosted.org/packages/a6/a1/300bdd43c92f09e22b20aca176b77c4943bb134cdb2de54f387729cab0d7/treesmoothing-0.0.2.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [mxcubeweb]: Start processing: pyepkg
+[2023-06-12 16:33:43] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-12 16:33:43] INFO root fetch - processPackages [OTSun]: executing diffoscope
+[2023-06-12 16:33:43] INFO root fetch - processPackages [OTSun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OTSun-2.8.7.tar.gz tmp/OTSun-2.9.2.tar.gz --markdown 20230612/O/OTSun/2.8.7-2.9.2/diff.md --exclude *.pyd
+[2023-06-12 16:33:43] INFO root fetch - processPackages [scikit-recommender]: Remove: archive file [/home/abi/fetcher/tmp/scikit_recommender-0.0.3-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [pyepkg]: New version: [4.4.4] Old Version: [2.2.2]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [scikit-recommender]: Remove: archive file [/home/abi/fetcher/tmp/scikit_recommender-0.0.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [scikit-recommender]: Start processing: hazelcast-python-client
+[2023-06-12 16:33:43] INFO root fetch - main [MainThread]: End processing [scikit-recommender]: success
+[2023-06-12 16:33:43] INFO root fetch - processPackages [hazelcast-python-client]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-06-12 16:33:43] INFO root fetch - processPackages [pyepkg]: Downloading https://files.pythonhosted.org/packages/8a/c2/2976f9c903985c3a394f46d691fa764e2dac758218d1a546a96e00f54870/pyepkg-2.2.2-py3-none-any.whl
+[2023-06-12 16:33:43] INFO root fetch - processPackages [py-lav]: Downloading https://files.pythonhosted.org/packages/65/96/7b1f7affb973d7ebaa76b7dc9887f38e2967631eb75a6676334cb300c3c5/py_lav-1.9.1.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [treesmoothing]: executing diffoscope
+[2023-06-12 16:33:43] INFO root fetch - processPackages [treesmoothing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treesmoothing-0.0.1.tar.gz tmp/treesmoothing-0.0.2.tar.gz --markdown 20230612/t/treesmoothing/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 16:33:43] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/90/5b/f8cacc1a349d7f9ab24930fa027dc292e8aa3d21da2b6050b8796f8ac093/fabric-orchestrator-client-1.5.0rc1.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [hazelcast-python-client]: Downloading https://files.pythonhosted.org/packages/b3/c2/2aa87a77c2157f2a01bb00c34dace0de8c061a885c3e6f2215ab0902ab03/hazelcast-python-client-5.2.0.tar.gz
+[2023-06-12 16:33:43] INFO root fetch - processPackages [py-lav]: executing diffoscope
+[2023-06-12 16:33:43] INFO root fetch - processPackages [py-lav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_lav-1.9.0.tar.gz tmp/py_lav-1.9.1.tar.gz --markdown 20230612/p/py-lav/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-12 16:33:43] INFO root fetch - processPackages [pyepkg]: Downloading https://files.pythonhosted.org/packages/cb/39/13e1df5426629060b45fbf2beeac70b898f283d1cf3b63f7b3b9d9182aab/pyepkg-4.4.4-py3-none-any.whl
+[2023-06-12 16:33:44] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/ca/bf/670ab420e66ec0da1d71d4d9fcf8d0c013c4c47c5817bc81579a7973b976/fabric-orchestrator-client-1.5.0rc2.tar.gz
+[2023-06-12 16:33:44] INFO root fetch - processPackages [pyepkg]: executing diffoscope
+[2023-06-12 16:33:44] INFO root fetch - processPackages [pyepkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepkg-2.2.2-py3-none-any.whl.zip tmp/pyepkg-4.4.4-py3-none-any.whl.zip --markdown 20230612/p/pyepkg/2.2.2-4.4.4/diff.md --exclude *.pyd
+[2023-06-12 16:33:44] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-06-12 16:33:44] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz --markdown 20230612/f/fabric-orchestrator-client/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-12 16:33:44] INFO root fetch - processPackages [hazelcast-python-client]: Downloading https://files.pythonhosted.org/packages/76/50/1ca295b2a9c8ba695cf7c4bf83c36dfa2d9313a2d6260823fc605f705326/hazelcast-python-client-5.3.0.tar.gz
+[2023-06-12 16:33:44] INFO root fetch - processPackages [hazelcast-python-client]: executing diffoscope
+[2023-06-12 16:33:44] INFO root fetch - processPackages [hazelcast-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazelcast-python-client-5.2.0.tar.gz tmp/hazelcast-python-client-5.3.0.tar.gz --markdown 20230612/h/hazelcast-python-client/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2023-06-12 16:33:44] INFO root fetch - processPackages [OpenFisca-France-Fiscalite-Miniere]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France_Fiscalite_Miniere-5.0.0-py3-none-any.whl.zip]
+[2023-06-12 16:33:44] INFO root fetch - processPackages [OpenFisca-France-Fiscalite-Miniere]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France_Fiscalite_Miniere-5.1.0-py3-none-any.whl.zip]
+[2023-06-12 16:33:44] INFO root fetch - processPackages [OpenFisca-France-Fiscalite-Miniere]: Start processing: minecraft-forgePY
+[2023-06-12 16:33:44] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Fiscalite-Miniere]: success
+[2023-06-12 16:33:44] INFO root fetch - processPackages [minecraft-forgePY]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-06-12 16:33:44] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.8.tar.gz]
+[2023-06-12 16:33:44] INFO root fetch - processPackages [henipipe]: Remove: archive file [/home/abi/fetcher/tmp/henipipe-2.4.9.tar.gz]
+[2023-06-12 16:33:44] INFO root fetch - processPackages [henipipe]: Start processing: PyNumeca
+[2023-06-12 16:33:44] INFO root fetch - main [MainThread]: End processing [henipipe]: success
+[2023-06-12 16:33:44] INFO root fetch - processPackages [PyNumeca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 16:33:45] INFO root fetch - processPackages [minecraft-forgePY]: Downloading https://files.pythonhosted.org/packages/97/e4/de79560ee820f339648438fb0a5ad53ab4ec55bcec9c9999395f6e4c6ddc/minecraft-forgePY-1.0.1.tar.gz
+[2023-06-12 16:33:45] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/89/fb/5d31105c58a43eb63084420ac7fa65e3e3085361c4a479b698eaf25c8549/PyNumeca-v0.0.8.tar.gz
+[2023-06-12 16:33:45] INFO root fetch - processPackages [treesmoothing]: Remove: archive file [/home/abi/fetcher/tmp/treesmoothing-0.0.1.tar.gz]
+[2023-06-12 16:33:45] INFO root fetch - processPackages [treesmoothing]: Remove: archive file [/home/abi/fetcher/tmp/treesmoothing-0.0.2.tar.gz]
+[2023-06-12 16:33:45] INFO root fetch - main [MainThread]: End processing [treesmoothing]: success
+[2023-06-12 16:33:45] INFO root fetch - processPackages [minecraft-forgePY]: Downloading https://files.pythonhosted.org/packages/e6/78/a1301c0bc735eb002f695091a41c6d016b4cf1335a153940502869c62d80/minecraft-forgePY-1.0.3.tar.gz
+[2023-06-12 16:33:45] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.732.tar.gz]
+[2023-06-12 16:33:45] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.738.tar.gz]
+[2023-06-12 16:33:45] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-06-12 16:33:45] INFO root fetch - processPackages [pyepkg]: Remove: archive file [/home/abi/fetcher/tmp/pyepkg-2.2.2-py3-none-any.whl.zip]
+[2023-06-12 16:33:45] INFO root fetch - processPackages [pyepkg]: Remove: archive file [/home/abi/fetcher/tmp/pyepkg-4.4.4-py3-none-any.whl.zip]
+[2023-06-12 16:33:45] INFO root fetch - main [MainThread]: End processing [pyepkg]: success
+[2023-06-12 16:33:45] INFO root fetch - processPackages [minecraft-forgePY]: executing diffoscope
+[2023-06-12 16:33:45] INFO root fetch - processPackages [minecraft-forgePY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-forgePY-1.0.1.tar.gz tmp/minecraft-forgePY-1.0.3.tar.gz --markdown 20230612/m/minecraft-forgePY/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-06-12 16:33:45] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.0.tar.gz]
+[2023-06-12 16:33:45] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.1.tar.gz]
+[2023-06-12 16:33:45] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-06-12 16:33:45] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/cb/4d/71bb3aa775b0b7b13bf2bbd7a68930a1eecebedea249b0604b0c4535c3b1/PyNumeca-v0.0.9.tar.gz
+[2023-06-12 16:33:45] INFO root fetch - processPackages [OTSun]: Remove: archive file [/home/abi/fetcher/tmp/OTSun-2.8.7.tar.gz]
+[2023-06-12 16:33:45] INFO root fetch - processPackages [OTSun]: Remove: archive file [/home/abi/fetcher/tmp/OTSun-2.9.2.tar.gz]
+[2023-06-12 16:33:45] INFO root fetch - main [MainThread]: End processing [OTSun]: success
+[2023-06-12 16:33:45] INFO root fetch - processPackages [PyNumeca]: executing diffoscope
+[2023-06-12 16:33:45] INFO root fetch - processPackages [PyNumeca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNumeca-v0.0.8.tar.gz tmp/PyNumeca-v0.0.9.tar.gz --markdown 20230612/P/PyNumeca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 16:33:46] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz]
+[2023-06-12 16:33:46] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz]
+[2023-06-12 16:33:46] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-06-12 16:33:46] INFO root fetch - processPackages [minecraft-forgePY]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-forgePY-1.0.1.tar.gz]
+[2023-06-12 16:33:46] INFO root fetch - processPackages [minecraft-forgePY]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-forgePY-1.0.3.tar.gz]
+[2023-06-12 16:33:46] INFO root fetch - main [MainThread]: End processing [minecraft-forgePY]: success
+[2023-06-12 16:33:46] INFO root fetch - processPackages [PyNumeca]: Remove: archive file [/home/abi/fetcher/tmp/PyNumeca-v0.0.8.tar.gz]
+[2023-06-12 16:33:46] INFO root fetch - processPackages [PyNumeca]: Remove: archive file [/home/abi/fetcher/tmp/PyNumeca-v0.0.9.tar.gz]
+[2023-06-12 16:33:46] INFO root fetch - main [MainThread]: End processing [PyNumeca]: success
+[2023-06-12 16:33:50] INFO root fetch - processPackages [hazelcast-python-client]: Remove: archive file [/home/abi/fetcher/tmp/hazelcast-python-client-5.2.0.tar.gz]
+[2023-06-12 16:33:50] INFO root fetch - processPackages [hazelcast-python-client]: Remove: archive file [/home/abi/fetcher/tmp/hazelcast-python-client-5.3.0.tar.gz]
+[2023-06-12 16:33:50] INFO root fetch - main [MainThread]: End processing [hazelcast-python-client]: success
+[2023-06-12 16:34:32] INFO root fetch - processPackages [py-lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.0.tar.gz]
+[2023-06-12 16:34:32] INFO root fetch - processPackages [py-lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
+[2023-06-12 16:34:32] INFO root fetch - main [MainThread]: End processing [py-lav]: success
+[2023-06-12 16:34:32] INFO root fetch - main [MainThread]: Store serial: [18470008]
