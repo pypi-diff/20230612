@@ -3221,3 +3221,152 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 03:39:30] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-06-12 03:39:30] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-06-12 03:39:30] INFO root fetch - main [MainThread]: Store serial: [18462620]
+[2023-06-12 03:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462620]
+[2023-06-12 03:44:42] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dart-tools
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reddit2pdf
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pytorch
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ziyan-cli
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mario-airflow-utils
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hcv-api
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bkapi-plugins-py
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-scipy
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proactive
+[2023-06-12 03:44:42] INFO root fetch - processPackages [reddit2pdf]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-12 03:44:42] INFO root fetch - processPackages [dart-tools]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-12 03:44:42] WARNING root fetch - processPackages [ziyan-cli]: Skipping, unable to determine old version
+[2023-06-12 03:44:42] INFO root fetch - processPackages [ziyan-cli]: Start processing: une-ai
+[2023-06-12 03:44:42] INFO root fetch - main [MainThread]: End processing [ziyan-cli] error
+[2023-06-12 03:44:42] INFO root fetch - processPackages [hcv-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 03:44:42] INFO root fetch - processPackages [mario-airflow-utils]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-06-12 03:44:42] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.612] Old Version: [0.609]
+[2023-06-12 03:44:42] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:44:42] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-12 03:44:42] INFO root fetch - processPackages [une-ai]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-12 03:44:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-12 03:44:42] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:44:42] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-12 03:44:42] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-12 03:44:42] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/02/6d/67fe6a42b23555c71d4f010fb795a313e3a5c04c6f78a2f3589352dd3807/dart-tools-0.3.4.tar.gz
+[2023-06-12 03:44:42] INFO root fetch - processPackages [reddit2pdf]: Downloading https://files.pythonhosted.org/packages/06/41/69c2af95d7403b7be0e8e3193b04c5ad423726a6c62cb2451752f08fce46/reddit2pdf-1.0.0.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [hcv-api]: Downloading https://files.pythonhosted.org/packages/cc/9b/047d87a1c161f701143c2587a211ae02f87e0d8bdfd67deb9cc20aa11014/hcv_api-0.0.3-py3-none-any.whl
+[2023-06-12 03:44:43] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-12 03:44:43] INFO root fetch - processPackages [proactive]: Start processing: proactive-jupyter-kernel
+[2023-06-12 03:44:43] INFO root fetch - processPackages [mario-airflow-utils]: Downloading https://files.pythonhosted.org/packages/8d/21/71d664659f1e3c5d7e974e2d8aa73e919dcaea9d8ca4800f0da575876436/mario_airflow_utils-0.6.4.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-12 03:44:43] INFO root fetch - processPackages [une-ai]: Downloading https://files.pythonhosted.org/packages/b4/a3/e1b65e5f9eb68d21b36bc26a887444c334b626e5bb9c5ff227108810ddb4/une_ai-0.1.0.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/dc/8f/486cd6eaef95557c0c37161a107407f9a9a99e3b500d2365bf66178fa6bd/bkapi-plugins-py-0.609.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-12 03:44:43] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-12 03:44:43] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230612/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:44:43] INFO root fetch - processPackages [reddit2pdf]: Downloading https://files.pythonhosted.org/packages/f3/ae/20fdaf96696f8a37517f4ace768090076cab592dc232705833baf9569810/reddit2pdf-1.1.0.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [hcv-api]: Downloading https://files.pythonhosted.org/packages/c1/b2/9a837e3250acb3688c935db04429c392d0cf3e45560d2d69c72fbb08ebe6/hcv_api-0.0.4-py3-none-any.whl
+[2023-06-12 03:44:43] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/15/50/50a9074b57679a4dca80e0c60ba11a115a13181f4fe0fcac0f794a27d628/bkapi-plugins-py-0.612.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/68/d9/682d6c333a6c47c2fa1511f239992699666b16da778ccf2be50072262843/dart-tools-0.3.5.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [reddit2pdf]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [reddit2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit2pdf-1.0.0.tar.gz tmp/reddit2pdf-1.1.0.tar.gz --markdown 20230612/r/reddit2pdf/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 03:44:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-12 03:44:43] INFO root fetch - processPackages [hcv-api]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [hcv-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcv_api-0.0.3-py3-none-any.whl.zip tmp/hcv_api-0.0.4-py3-none-any.whl.zip --markdown 20230612/h/hcv-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 03:44:43] INFO root fetch - processPackages [mario-airflow-utils]: Downloading https://files.pythonhosted.org/packages/fe/2b/6cddf471c07e8b1c58dabaf5ff7ec1d46da9884410e8a56ea90b19124612/mario_airflow_utils-0.7.0.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [dart-tools]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [dart-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dart-tools-0.3.4.tar.gz tmp/dart-tools-0.3.5.tar.gz --markdown 20230612/d/dart-tools/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-12 03:44:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230612/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-12 03:44:43] INFO root fetch - processPackages [une-ai]: Downloading https://files.pythonhosted.org/packages/b2/74/94d7803677481eaee01a5c4d02b4f6863c39cecb00c0467a9d48ea56ff81/une_ai-1.0.0.tar.gz
+[2023-06-12 03:44:43] INFO root fetch - processPackages [mario-airflow-utils]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [mario-airflow-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mario_airflow_utils-0.6.4.tar.gz tmp/mario_airflow_utils-0.7.0.tar.gz --markdown 20230612/m/mario-airflow-utils/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-06-12 03:44:43] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230612/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-12 03:44:43] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.609.tar.gz tmp/bkapi-plugins-py-0.612.tar.gz --markdown 20230612/b/bkapi-plugins-py/0.609-0.612/diff.md --exclude *.pyd
+[2023-06-12 03:44:43] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230612/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:44:43] INFO root fetch - processPackages [une-ai]: executing diffoscope
+[2023-06-12 03:44:43] INFO root fetch - processPackages [une-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/une_ai-0.1.0.tar.gz tmp/une_ai-1.0.0.tar.gz --markdown 20230612/u/une-ai/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 03:44:44] INFO root fetch - processPackages [hcv-api]: Remove: archive file [/home/abi/fetcher/tmp/hcv_api-0.0.3-py3-none-any.whl.zip]
+[2023-06-12 03:44:44] INFO root fetch - processPackages [hcv-api]: Remove: archive file [/home/abi/fetcher/tmp/hcv_api-0.0.4-py3-none-any.whl.zip]
+[2023-06-12 03:44:44] INFO root fetch - processPackages [hcv-api]: Start processing: nbdev-sphinx
+[2023-06-12 03:44:44] INFO root fetch - main [MainThread]: End processing [hcv-api]: success
+[2023-06-12 03:44:44] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:44:44] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-12 03:44:44] INFO root fetch - processPackages [dart-tools]: Remove: archive file [/home/abi/fetcher/tmp/dart-tools-0.3.4.tar.gz]
+[2023-06-12 03:44:44] INFO root fetch - processPackages [dart-tools]: Remove: archive file [/home/abi/fetcher/tmp/dart-tools-0.3.5.tar.gz]
+[2023-06-12 03:44:44] INFO root fetch - processPackages [dart-tools]: Start processing: spPersist
+[2023-06-12 03:44:44] INFO root fetch - main [MainThread]: End processing [dart-tools]: success
+[2023-06-12 03:44:44] INFO root fetch - processPackages [spPersist]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-12 03:44:45] INFO root fetch - processPackages [mario-airflow-utils]: Remove: archive file [/home/abi/fetcher/tmp/mario_airflow_utils-0.6.4.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [mario-airflow-utils]: Remove: archive file [/home/abi/fetcher/tmp/mario_airflow_utils-0.7.0.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [mario-airflow-utils]: Start processing: micropython-bmp581
+[2023-06-12 03:44:45] INFO root fetch - main [MainThread]: End processing [mario-airflow-utils]: success
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230612/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:44:45] WARNING root fetch - processPackages [micropython-bmp581]: Skipping, unable to determine old version
+[2023-06-12 03:44:45] INFO root fetch - processPackages [micropython-bmp581]: Start processing: nbdev-django
+[2023-06-12 03:44:45] INFO root fetch - main [MainThread]: End processing [micropython-bmp581] error
+[2023-06-12 03:44:45] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/81/3b/4ae300eb8a1d44df49c640dff3c857f6eebdac13cc84da58944f1ae48956/spPersist-0.4.1.tar.gz
+[2023-06-12 03:44:45] INFO root fetch - processPackages [reddit2pdf]: Remove: archive file [/home/abi/fetcher/tmp/reddit2pdf-1.0.0.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [reddit2pdf]: Remove: archive file [/home/abi/fetcher/tmp/reddit2pdf-1.1.0.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [reddit2pdf]: Start processing: nbdev-apl
+[2023-06-12 03:44:45] INFO root fetch - main [MainThread]: End processing [reddit2pdf]: success
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.609.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: reddit2pdf
+[2023-06-12 03:44:45] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-12 03:44:45] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.612.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.829] Old Version: [0.0.828]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [reddit2pdf]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-12 03:44:45] INFO root fetch - processPackages [reddit2pdf]: Downloading https://files.pythonhosted.org/packages/f3/ae/20fdaf96696f8a37517f4ace768090076cab592dc232705833baf9569810/reddit2pdf-1.1.0.tar.gz
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/35/76/a421c46fb3fe6ceac9a468c5b8ed644b5cdb6006d05fca4d8a0e7e134333/nbdev-apl-0.0.828.tar.gz
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-12 03:44:45] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-12 03:44:45] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c7/90/fc0c05413e1f05c979ef1a7619a8f688ad24d6da3dcc71ee3b8f9d15588a/spPersist-0.4.2.tar.gz
+[2023-06-12 03:44:45] INFO root fetch - processPackages [une-ai]: Remove: archive file [/home/abi/fetcher/tmp/une_ai-0.1.0.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - processPackages [une-ai]: Remove: archive file [/home/abi/fetcher/tmp/une_ai-1.0.0.tar.gz]
+[2023-06-12 03:44:45] INFO root fetch - main [MainThread]: End processing [une-ai]: success
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230612/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:44:45] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 03:44:45] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.4.1.tar.gz tmp/spPersist-0.4.2.tar.gz --markdown 20230612/s/spPersist/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/88/be/b4a288bcf07d237224aa849e03762164755b3f7ec54e7040af6a0274098d/nbdev-apl-0.0.829.tar.gz
+[2023-06-12 03:44:45] INFO root fetch - processPackages [reddit2pdf]: Downloading https://files.pythonhosted.org/packages/55/16/f0d00f28e58bb207bb1819f41bbb6224315d544549402c3a9d66129b19a7/reddit2pdf-1.1.1.tar.gz
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-12 03:44:45] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.828.tar.gz tmp/nbdev-apl-0.0.829.tar.gz --markdown 20230612/n/nbdev-apl/0.0.828-0.0.829/diff.md --exclude *.pyd
+[2023-06-12 03:44:45] INFO root fetch - processPackages [reddit2pdf]: executing diffoscope
+[2023-06-12 03:44:45] INFO root fetch - processPackages [reddit2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit2pdf-1.1.0.tar.gz tmp/reddit2pdf-1.1.1.tar.gz --markdown 20230612/r/reddit2pdf/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-12 03:44:46] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-12 03:44:46] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.1.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.2.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 03:44:46] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-12 03:44:46] INFO root fetch - processPackages [reddit2pdf]: Remove: archive file [/home/abi/fetcher/tmp/reddit2pdf-1.1.0.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - processPackages [reddit2pdf]: Remove: archive file [/home/abi/fetcher/tmp/reddit2pdf-1.1.1.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - main [MainThread]: End processing [reddit2pdf]: success
+[2023-06-12 03:44:46] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.828.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.829.tar.gz]
+[2023-06-12 03:44:46] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-12 03:44:47] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-12 03:44:47] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-12 03:44:47] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-12 03:44:47] INFO root fetch - main [MainThread]: Store serial: [18462680]
