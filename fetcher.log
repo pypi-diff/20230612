@@ -22423,3 +22423,181 @@ EOFError: EOF read where object expected
 [2023-06-12 17:34:41] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2069.0.tar.gz]
 [2023-06-12 17:34:41] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
 [2023-06-12 17:34:41] INFO root fetch - main [MainThread]: Store serial: [18470750]
+[2023-06-12 17:39:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470750]
+[2023-06-12 17:39:53] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doodleverse-utils
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychrochart
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vedro-httpx
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiobiketrax
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsm-django-masterdata
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: configdict
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfii
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: veetility
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: helios-opentelemetry-sdk
+[2023-06-12 17:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mongorunway
+[2023-06-12 17:39:53] WARNING root fetch - processPackages [vedro-httpx]: Skipping, unable to determine old version
+[2023-06-12 17:39:53] INFO root fetch - processPackages [vedro-httpx]: Start processing: dsm-django-masterdata
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 17:39:53] INFO root fetch - main [MainThread]: End processing [vedro-httpx] error
+[2023-06-12 17:39:53] INFO root fetch - processPackages [configdict]: New version: [2.7.0] Old Version: [2.6.2]
+[2023-06-12 17:39:53] INFO root fetch - processPackages [pyfii]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-12 17:39:53] INFO root fetch - processPackages [aiobiketrax]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-06-12 17:39:53] INFO root fetch - processPackages [doodleverse-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 17:39:53] INFO root fetch - processPackages [psychrochart]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 17:39:53] INFO root fetch - processPackages [mongorunway]: New version: [1.0.3a0] Old Version: [1.0.2a0]
+[2023-06-12 17:39:53] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.87]
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 17:39:53] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.92] Old Version: [1.0.91]
+[2023-06-12 17:39:53] INFO root fetch - processPackages [pyfii]: Downloading https://files.pythonhosted.org/packages/6b/09/f2d0fa21f6f7cf158e56dd72d0b2836d7a1abe35a56cc938263e920ece30/pyfii-1.2.0.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [aiobiketrax]: Downloading https://files.pythonhosted.org/packages/4c/e8/3927e588f15c013836978ddd5ea4fde8571a10506def9eedfd275728e3aa/aiobiketrax-0.5.0.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: Downloading https://files.pythonhosted.org/packages/f5/a1/086343e0938c94ed8e71005986675d973cc4a0ae24b7aa8c746c22b55ceb/dsm_django_masterdata-0.0.1.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: Downloading https://files.pythonhosted.org/packages/f5/a1/086343e0938c94ed8e71005986675d973cc4a0ae24b7aa8c746c22b55ceb/dsm_django_masterdata-0.0.1.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [configdict]: Downloading https://files.pythonhosted.org/packages/76/0f/92a7299e32cb5f80e5fe10309bce2630e24f88f4aec6f16c834b5998dac7/configdict-2.6.2-py3-none-any.whl
+[2023-06-12 17:39:53] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/30/d3013067e0b1cb0d82fca50c2f3336bdaae79d092b56f7613534a519509d/veetility-0.1.87.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [doodleverse-utils]: Downloading https://files.pythonhosted.org/packages/3d/a2/fb512b646c69853e26e8b32c8493ed87fa0d3cb0c4156e2ef2f881108896/doodleverse-utils-0.0.8.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/81/66/2b1daa746dc95b021868d179935eb693d9f041262f7e9065d89d1ec7144b/psychrochart-0.8.0.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/da/ac/cf42645476cbb63930f26cf1f305bc78bb75cbe6ac539d165c65816a0b07/helios-opentelemetry-sdk-1.0.91.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [mongorunway]: Downloading https://files.pythonhosted.org/packages/72/80/d5da56070456a70b62c2bc4bb7c5667c0d6b16b25e06f2afada6de55d2fa/mongorunway-1.0.2a0.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [pyfii]: Downloading https://files.pythonhosted.org/packages/7f/3f/4c6faca70fad0f159390729ec47a3e8dabb81b1d744b7b151662e516718c/pyfii-1.3.0.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e4/27/6bf604a25bb2458a80de6e113a5e7478938a23d9c7100bad80dac3b5e3c8/veetility-0.1.9.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: Downloading https://files.pythonhosted.org/packages/8e/f8/d4714bc335a2ebaca4b63a1fb5d26f30be2de9870abd281b2c4dccc13b6d/dsm_django_masterdata-0.0.2.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: Downloading https://files.pythonhosted.org/packages/8e/f8/d4714bc335a2ebaca4b63a1fb5d26f30be2de9870abd281b2c4dccc13b6d/dsm_django_masterdata-0.0.2.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [pyfii]: executing diffoscope
+[2023-06-12 17:39:53] INFO root fetch - processPackages [pyfii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfii-1.2.0.tar.gz tmp/pyfii-1.3.0.tar.gz --markdown 20230612/p/pyfii/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-12 17:39:53] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-06-12 17:39:53] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.87.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230612/v/veetility/0.1.87-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: executing diffoscope
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: executing diffoscope
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm_django_masterdata-0.0.1.tar.gz tmp/dsm_django_masterdata-0.0.2.tar.gz --markdown 20230612/d/dsm-django-masterdata/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 17:39:53] INFO root fetch - processPackages [dsm-django-masterdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm_django_masterdata-0.0.1.tar.gz tmp/dsm_django_masterdata-0.0.2.tar.gz --markdown 20230612/d/dsm-django-masterdata/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 17:39:53] INFO root fetch - processPackages [aiobiketrax]: Downloading https://files.pythonhosted.org/packages/ca/5b/3d6914908f6b3622c20a55f6311790f9326bdecbb5713549183b68461e68/aiobiketrax-1.0.0.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [configdict]: Downloading https://files.pythonhosted.org/packages/6c/db/9b2c381874ac828826105bd73fd6d7c0141c00d0c25a31bfb0a5f702878d/configdict-2.7.0-py3-none-any.whl
+[2023-06-12 17:39:53] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/cb/3a/a7360a4be058725d0ea64dc1914a97441a2b05ab2982f005ebbac3e08719/psychrochart-0.9.0.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [aiobiketrax]: executing diffoscope
+[2023-06-12 17:39:53] INFO root fetch - processPackages [aiobiketrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobiketrax-0.5.0.tar.gz tmp/aiobiketrax-1.0.0.tar.gz --markdown 20230612/a/aiobiketrax/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 17:39:53] INFO root fetch - processPackages [configdict]: executing diffoscope
+[2023-06-12 17:39:53] INFO root fetch - processPackages [configdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configdict-2.6.2-py3-none-any.whl.zip tmp/configdict-2.7.0-py3-none-any.whl.zip --markdown 20230612/c/configdict/2.6.2-2.7.0/diff.md --exclude *.pyd
+[2023-06-12 17:39:53] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/f6/fc/776cf3fbfbc07fc918d87b3b978fa7f2686e675a36a4adeb07c62fb3ff48/helios-opentelemetry-sdk-1.0.92.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [psychrochart]: executing diffoscope
+[2023-06-12 17:39:53] INFO root fetch - processPackages [psychrochart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychrochart-0.8.0.tar.gz tmp/psychrochart-0.9.0.tar.gz --markdown 20230612/p/psychrochart/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 17:39:53] INFO root fetch - processPackages [doodleverse-utils]: Downloading https://files.pythonhosted.org/packages/4e/f5/6ed72cbccecf6cb77775fa0a8352ddf2477d69b4f96f8bc00c415f7e350e/doodleverse-utils-0.0.9.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [mongorunway]: Downloading https://files.pythonhosted.org/packages/66/da/ac20478f77cbe69bbfaaa388fe8c3d06c17f677cfc995b000db51517c9ed/mongorunway-1.0.3a0.tar.gz
+[2023-06-12 17:39:53] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-06-12 17:39:53] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.91.tar.gz tmp/helios-opentelemetry-sdk-1.0.92.tar.gz --markdown 20230612/h/helios-opentelemetry-sdk/1.0.91-1.0.92/diff.md --exclude *.pyd
+[2023-06-12 17:39:54] INFO root fetch - processPackages [doodleverse-utils]: executing diffoscope
+[2023-06-12 17:39:54] INFO root fetch - processPackages [doodleverse-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doodleverse-utils-0.0.8.tar.gz tmp/doodleverse-utils-0.0.9.tar.gz --markdown 20230612/d/doodleverse-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 17:39:54] INFO root fetch - processPackages [mongorunway]: executing diffoscope
+[2023-06-12 17:39:54] INFO root fetch - processPackages [mongorunway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongorunway-1.0.2a0.tar.gz tmp/mongorunway-1.0.3a0.tar.gz --markdown 20230612/m/mongorunway/1.0.2a0-1.0.3a0/diff.md --exclude *.pyd
+[2023-06-12 17:39:55] INFO root fetch - processPackages [pyfii]: Remove: archive file [/home/abi/fetcher/tmp/pyfii-1.2.0.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [pyfii]: Remove: archive file [/home/abi/fetcher/tmp/pyfii-1.3.0.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [pyfii]: Start processing: stadiamaps
+[2023-06-12 17:39:55] INFO root fetch - main [MainThread]: End processing [pyfii]: success
+[2023-06-12 17:39:55] INFO root fetch - processPackages [dsm-django-masterdata]: Remove: archive file [/home/abi/fetcher/tmp/dsm_django_masterdata-0.0.1.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [dsm-django-masterdata]: Remove: archive file [/home/abi/fetcher/tmp/dsm_django_masterdata-0.0.2.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [dsm-django-masterdata]: Start processing: powerbot-client
+[2023-06-12 17:39:55] INFO root fetch - main [MainThread]: End processing [dsm-django-masterdata]: success
+[2023-06-12 17:39:55] INFO root fetch - processPackages [stadiamaps]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [powerbot-client]: New version: [2.9.1] Old Version: [2.8.0]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.87.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.9.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [veetility]: Start processing: ipsuite
+[2023-06-12 17:39:55] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-06-12 17:39:55] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/db/89/8fffbcb1dc60f767d06521bcea345758cc8fe0f58d533f82b5edfd5a24f7/stadiamaps-0.5.0.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [ipsuite]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [dsm-django-masterdata]: Start processing: MLandPattern
+[2023-06-12 17:39:55] INFO root fetch - main [MainThread]: End processing [dsm-django-masterdata]: success
+[2023-06-12 17:39:55] INFO root fetch - processPackages [powerbot-client]: Downloading https://files.pythonhosted.org/packages/32/0b/e724132d00d7dcaa6865ec126d020d48e84348bb765ffda472b5da5475cf/powerbot_client-2.8.0.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [MLandPattern]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [aiobiketrax]: Remove: archive file [/home/abi/fetcher/tmp/aiobiketrax-0.5.0.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [aiobiketrax]: Remove: archive file [/home/abi/fetcher/tmp/aiobiketrax-1.0.0.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [aiobiketrax]: Start processing: ijson
+[2023-06-12 17:39:55] INFO root fetch - main [MainThread]: End processing [aiobiketrax]: success
+[2023-06-12 17:39:55] INFO root fetch - processPackages [ipsuite]: Downloading https://files.pythonhosted.org/packages/57/6b/0045a964ca9d0236a39c18a3d5ff710b4bdfaa0c0af5cf4660a66aab6f46/ipsuite-0.1.0a2.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [ijson]: New version: [3.2.1] Old Version: [3.2.0.post0]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [configdict]: Remove: archive file [/home/abi/fetcher/tmp/configdict-2.6.2-py3-none-any.whl.zip]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [configdict]: Remove: archive file [/home/abi/fetcher/tmp/configdict-2.7.0-py3-none-any.whl.zip]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [configdict]: Start processing: finbourne-access-sdk
+[2023-06-12 17:39:55] INFO root fetch - main [MainThread]: End processing [configdict]: success
+[2023-06-12 17:39:55] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/8a/59/2f61384e000b9f78f8bf26080a86717b11977fbcfb471be93568a5ecc21d/stadiamaps-1.0.0.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [stadiamaps]: executing diffoscope
+[2023-06-12 17:39:55] INFO root fetch - processPackages [stadiamaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadiamaps-0.5.0.tar.gz tmp/stadiamaps-1.0.0.tar.gz --markdown 20230612/s/stadiamaps/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 17:39:55] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/7b/22/ecfa331b2b5c2009844482496861aebaff54379f7ccb935d1c3307a994bb/MLandPattern-0.2.0.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [powerbot-client]: Downloading https://files.pythonhosted.org/packages/82/75/9b094fdd141fe048cb289df1515428db6840dd73c3d193df177a5935c755/powerbot_client-2.9.1.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [ijson]: Downloading https://files.pythonhosted.org/packages/fe/98/b9c6ef09ec7704f7a5bd55ac56fcd06dd598998a1019c2442df7dd1f9a97/ijson-3.2.0.post0.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-12 17:39:55] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230612/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-12 17:39:55] INFO root fetch - processPackages [ipsuite]: Downloading https://files.pythonhosted.org/packages/bb/cf/667c063034d9f2553c3620125bf3096973c58f4e473e1d676695c2a327f7/ipsuite-0.1.0a3.tar.gz
+[2023-06-12 17:39:55] INFO root fetch - processPackages [mongorunway]: Remove: archive file [/home/abi/fetcher/tmp/mongorunway-1.0.2a0.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [mongorunway]: Remove: archive file [/home/abi/fetcher/tmp/mongorunway-1.0.3a0.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [mongorunway]: Start processing: ddgmail
+[2023-06-12 17:39:55] INFO root fetch - main [MainThread]: End processing [mongorunway]: success
+[2023-06-12 17:39:55] WARNING root fetch - processPackages [ddgmail]: Skipping, unable to determine old version
+[2023-06-12 17:39:55] INFO root fetch - processPackages [ddgmail]: Start processing: powerbot-asyncio-client
+[2023-06-12 17:39:55] INFO root fetch - main [MainThread]: End processing [ddgmail] error
+[2023-06-12 17:39:55] INFO root fetch - processPackages [powerbot-client]: executing diffoscope
+[2023-06-12 17:39:55] INFO root fetch - processPackages [powerbot-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbot_client-2.8.0.tar.gz tmp/powerbot_client-2.9.1.tar.gz --markdown 20230612/p/powerbot-client/2.8.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-12 17:39:55] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.91.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.92.tar.gz]
+[2023-06-12 17:39:55] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Start processing: PyNumeca
+[2023-06-12 17:39:55] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-06-12 17:39:55] INFO root fetch - processPackages [PyNumeca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 17:39:56] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/be/d4/8824b21061cc9dbb0375e1d95c8e2b2577568fc271eca9caff5fea3f3bf1/MLandPattern-0.2.1.tar.gz
+[2023-06-12 17:39:56] INFO root fetch - processPackages [powerbot-asyncio-client]: New version: [2.9.1] Old Version: [2.8.0]
+[2023-06-12 17:39:56] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/89/fb/5d31105c58a43eb63084420ac7fa65e3e3085361c4a479b698eaf25c8549/PyNumeca-v0.0.8.tar.gz
+[2023-06-12 17:39:56] INFO root fetch - processPackages [ipsuite]: executing diffoscope
+[2023-06-12 17:39:56] INFO root fetch - processPackages [ipsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipsuite-0.1.0a2.tar.gz tmp/ipsuite-0.1.0a3.tar.gz --markdown 20230612/i/ipsuite/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-06-12 17:39:56] INFO root fetch - processPackages [ijson]: Downloading https://files.pythonhosted.org/packages/6e/e9/7e8bf1c2399a66e8a59ba92d4575884e1f7c8af168138ca379d99b9e0370/ijson-3.2.1-pp37-pypy37_pp73-macosx_10_9_x86_64.whl
+[2023-06-12 17:39:56] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/cb/4d/71bb3aa775b0b7b13bf2bbd7a68930a1eecebedea249b0604b0c4535c3b1/PyNumeca-v0.0.9.tar.gz
+[2023-06-12 17:39:56] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-06-12 17:39:56] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.2.0.tar.gz tmp/MLandPattern-0.2.1.tar.gz --markdown 20230612/M/MLandPattern/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 17:39:56] INFO root fetch - processPackages [PyNumeca]: executing diffoscope
+[2023-06-12 17:39:56] INFO root fetch - processPackages [PyNumeca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNumeca-v0.0.8.tar.gz tmp/PyNumeca-v0.0.9.tar.gz --markdown 20230612/P/PyNumeca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 17:39:56] INFO root fetch - processPackages [powerbot-asyncio-client]: Downloading https://files.pythonhosted.org/packages/be/ee/d18c92cbe80828136006cfd56931afb15dcecc61e2204baded7f758edc42/powerbot_asyncio_client-2.8.0.tar.gz
+[2023-06-12 17:39:56] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.8.0.tar.gz]
+[2023-06-12 17:39:56] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.9.0.tar.gz]
+[2023-06-12 17:39:56] INFO root fetch - processPackages [psychrochart]: Start processing: ckanext-relationship
+[2023-06-12 17:39:56] INFO root fetch - main [MainThread]: End processing [psychrochart]: success
+[2023-06-12 17:39:56] INFO root fetch - processPackages [ckanext-relationship]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-12 17:39:56] INFO root fetch - processPackages [powerbot-asyncio-client]: Downloading https://files.pythonhosted.org/packages/ea/a5/4a2a32dee1aa1590d7405f12127a4969448a2e2c66809804c76dd8a48fa0/powerbot_asyncio_client-2.9.1.tar.gz
+[2023-06-12 17:39:56] INFO root fetch - processPackages [powerbot-asyncio-client]: executing diffoscope
+[2023-06-12 17:39:56] INFO root fetch - processPackages [powerbot-asyncio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbot_asyncio_client-2.8.0.tar.gz tmp/powerbot_asyncio_client-2.9.1.tar.gz --markdown 20230612/p/powerbot-asyncio-client/2.8.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-12 17:39:56] INFO root fetch - processPackages [ckanext-relationship]: Downloading https://files.pythonhosted.org/packages/b4/37/1b3612b620cc7aa2443cf1d80d643f8afdf9cd18b6c5db545606be960092/ckanext-relationship-0.2.2.tar.gz
+[2023-06-12 17:39:56] INFO root fetch - processPackages [ijson]: executing diffoscope
+[2023-06-12 17:39:56] INFO root fetch - processPackages [ijson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ijson-3.2.0.post0.tar.gz tmp/ijson-3.2.1-pp37-pypy37_pp73-macosx_10_9_x86_64.whl.zip --markdown 20230612/i/ijson/3.2.0.post0-3.2.1/diff.md --exclude *.pyd
+[2023-06-12 17:39:56] INFO root fetch - processPackages [ckanext-relationship]: Downloading https://files.pythonhosted.org/packages/0a/54/76fbe3200959fc7cccbe660218c213f7b9ce9a7eb9ef4d5784b71335ccb9/ckanext-relationship-0.2.3.tar.gz
+[2023-06-12 17:39:57] INFO root fetch - processPackages [ckanext-relationship]: executing diffoscope
+[2023-06-12 17:39:57] INFO root fetch - processPackages [ckanext-relationship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-relationship-0.2.2.tar.gz tmp/ckanext-relationship-0.2.3.tar.gz --markdown 20230612/c/ckanext-relationship/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-12 17:39:57] INFO root fetch - processPackages [doodleverse-utils]: Remove: archive file [/home/abi/fetcher/tmp/doodleverse-utils-0.0.8.tar.gz]
+[2023-06-12 17:39:57] INFO root fetch - processPackages [doodleverse-utils]: Remove: archive file [/home/abi/fetcher/tmp/doodleverse-utils-0.0.9.tar.gz]
+[2023-06-12 17:39:57] INFO root fetch - main [MainThread]: End processing [doodleverse-utils]: success
+[2023-06-12 17:39:57] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.0.tar.gz]
+[2023-06-12 17:39:57] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.1.tar.gz]
+[2023-06-12 17:39:57] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-06-12 17:39:57] INFO root fetch - processPackages [PyNumeca]: Remove: archive file [/home/abi/fetcher/tmp/PyNumeca-v0.0.8.tar.gz]
+[2023-06-12 17:39:57] INFO root fetch - processPackages [PyNumeca]: Remove: archive file [/home/abi/fetcher/tmp/PyNumeca-v0.0.9.tar.gz]
+[2023-06-12 17:39:57] INFO root fetch - main [MainThread]: End processing [PyNumeca]: success
+[2023-06-12 17:39:58] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-12 17:39:58] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-12 17:39:58] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-12 17:39:58] INFO root fetch - processPackages [ckanext-relationship]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-relationship-0.2.2.tar.gz]
+[2023-06-12 17:39:58] INFO root fetch - processPackages [ckanext-relationship]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-relationship-0.2.3.tar.gz]
+[2023-06-12 17:39:58] INFO root fetch - main [MainThread]: End processing [ckanext-relationship]: success
+[2023-06-12 17:39:58] INFO root fetch - processPackages [ipsuite]: Remove: archive file [/home/abi/fetcher/tmp/ipsuite-0.1.0a2.tar.gz]
+[2023-06-12 17:39:58] INFO root fetch - processPackages [ipsuite]: Remove: archive file [/home/abi/fetcher/tmp/ipsuite-0.1.0a3.tar.gz]
+[2023-06-12 17:39:58] INFO root fetch - main [MainThread]: End processing [ipsuite]: success
+[2023-06-12 17:39:58] INFO root fetch - processPackages [ijson]: Remove: archive file [/home/abi/fetcher/tmp/ijson-3.2.0.post0.tar.gz]
+[2023-06-12 17:39:58] INFO root fetch - processPackages [ijson]: Remove: archive file [/home/abi/fetcher/tmp/ijson-3.2.1-pp37-pypy37_pp73-macosx_10_9_x86_64.whl.zip]
+[2023-06-12 17:39:58] INFO root fetch - main [MainThread]: End processing [ijson]: success
+[2023-06-12 17:39:59] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-0.5.0.tar.gz]
+[2023-06-12 17:39:59] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.0.tar.gz]
+[2023-06-12 17:39:59] INFO root fetch - main [MainThread]: End processing [stadiamaps]: success
+[2023-06-12 17:39:59] INFO root fetch - processPackages [powerbot-client]: Remove: archive file [/home/abi/fetcher/tmp/powerbot_client-2.8.0.tar.gz]
+[2023-06-12 17:39:59] INFO root fetch - processPackages [powerbot-client]: Remove: archive file [/home/abi/fetcher/tmp/powerbot_client-2.9.1.tar.gz]
+[2023-06-12 17:39:59] INFO root fetch - main [MainThread]: End processing [powerbot-client]: success
+[2023-06-12 17:40:00] INFO root fetch - processPackages [powerbot-asyncio-client]: Remove: archive file [/home/abi/fetcher/tmp/powerbot_asyncio_client-2.8.0.tar.gz]
+[2023-06-12 17:40:00] INFO root fetch - processPackages [powerbot-asyncio-client]: Remove: archive file [/home/abi/fetcher/tmp/powerbot_asyncio_client-2.9.1.tar.gz]
+[2023-06-12 17:40:00] INFO root fetch - main [MainThread]: End processing [powerbot-asyncio-client]: success
+[2023-06-12 17:40:00] INFO root fetch - main [MainThread]: Store serial: [18470872]
