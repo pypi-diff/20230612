@@ -14088,3 +14088,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 11:57:54] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.9.tar.gz]
 [2023-06-12 11:57:54] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-06-12 11:57:54] INFO root fetch - main [MainThread]: Store serial: [18467199]
+[2023-06-12 12:02:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467199]
+[2023-06-12 12:03:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adapta
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geolibs
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fps-jupytercad
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupytercad
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vatis-asr-commons
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clayrs
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gabarit
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: litner
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EdgeGPT
+[2023-06-12 12:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qdrant-tools
+[2023-06-12 12:03:03] INFO root fetch - processPackages [adapta]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-12 12:03:03] INFO root fetch - processPackages [fps-jupytercad]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-06-12 12:03:03] INFO root fetch - processPackages [jupytercad]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-12 12:03:03] INFO root fetch - processPackages [qdrant-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 12:03:03] INFO root fetch - processPackages [geolibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 12:03:03] INFO root fetch - processPackages [vatis-asr-commons]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-12 12:03:03] INFO root fetch - processPackages [gabarit]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-12 12:03:03] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-12 12:03:03] WARNING root fetch - processPackages [litner]: Skipping, unable to determine old version
+[2023-06-12 12:03:03] INFO root fetch - processPackages [litner]: Start processing: tivan-custom-ser
+[2023-06-12 12:03:03] INFO root fetch - main [MainThread]: End processing [litner] error
+[2023-06-12 12:03:03] INFO root fetch - processPackages [clayrs]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-12 12:03:03] WARNING root fetch - processPackages [tivan-custom-ser]: Skipping, unable to determine old version
+[2023-06-12 12:03:03] INFO root fetch - processPackages [tivan-custom-ser]: Start processing: unified-planning
+[2023-06-12 12:03:03] INFO root fetch - main [MainThread]: End processing [tivan-custom-ser] error
+[2023-06-12 12:03:03] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/b3/85/4559f0cb12668234ce61f3bb2a12b219eb5088d5459d301d74f3debcdbac/adapta-2.2.8.tar.gz
+[2023-06-12 12:03:03] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/c6/6c/24a43fc52a0a1932185f92c1abd67aa331ee1a719a6df450bd493bb0342d/geolibs-0.0.7.tar.gz
+[2023-06-12 12:03:03] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-12 12:03:03] INFO root fetch - processPackages [vatis-asr-commons]: Downloading https://files.pythonhosted.org/packages/56/b4/ca3ec40d780d5cfec076064088342e7341294b21c7dd8ed8f24a6f0cae97/vatis_asr_commons-2.0.1.tar.gz
+[2023-06-12 12:03:03] INFO root fetch - processPackages [fps-jupytercad]: Downloading https://files.pythonhosted.org/packages/dd/14/74851540b4e13a7e8cf4064e4eaab2b34fe1e2adfb94ba9539098da1db60/fps_jupytercad-0.1.0.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [jupytercad]: Downloading https://files.pythonhosted.org/packages/27/4b/6f15d4f15197e3c17483bda9d39acb2ffb41b647218a9074dab560de907f/jupytercad-0.2.3.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/a0/85/4c693147e4e3db31fd0e219334cdc985b0c0b65f4d40b5e1f5fda7fc9944/geolibs-0.0.8.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [qdrant-tools]: Downloading https://files.pythonhosted.org/packages/60/ce/7b7dcbce177c20aea136442b34014505e89a009be147ff277426f724736a/qdrant_tools-0.0.2.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/e8/a0/4b931f604283ab5133299737083c8836b4d46008353579e44a3c668cbb38/adapta-2.2.9.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [gabarit]: Downloading https://files.pythonhosted.org/packages/05/23/953c5d343820d7e7c022d9d31606c37a92467137beae82f0f061b95fa84c/gabarit-1.3.1.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [clayrs]: Downloading https://files.pythonhosted.org/packages/c8/20/aeb05f314d581af284b74db33efe863d738b5794ad57ce6ff7741ee7817a/clayrs-0.4.0.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/d7/29/f3e955f076747e360e385767e052138c8bbb1b5b8564bb0a8e3ac80aa517/EdgeGPT-0.9.1.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-06-12 12:03:04] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.2.8.tar.gz tmp/adapta-2.2.9.tar.gz --markdown 20230612/a/adapta/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-12 12:03:04] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-06-12 12:03:04] INFO root fetch - processPackages [vatis-asr-commons]: Downloading https://files.pythonhosted.org/packages/40/60/6d5126c4f018f5a39a7b2701323c9f63acf981cd0b7e63394f0463cdd819/vatis_asr_commons-2.0.2.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.7.tar.gz tmp/geolibs-0.0.8.tar.gz --markdown 20230612/g/geolibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 12:03:04] INFO root fetch - processPackages [fps-jupytercad]: Downloading https://files.pythonhosted.org/packages/30/17/7e798ad399da045ed1d65e5135b6b8acbfbc54d434a82c34c06e3bc65041/fps_jupytercad-0.3.0.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [qdrant-tools]: Downloading https://files.pythonhosted.org/packages/81/6e/da5dfcf7c70318ce864fd49593454557093f3f573efccc55efe9cf7f34dc/qdrant_tools-0.0.3.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [vatis-asr-commons]: executing diffoscope
+[2023-06-12 12:03:04] INFO root fetch - processPackages [vatis-asr-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vatis_asr_commons-2.0.1.tar.gz tmp/vatis_asr_commons-2.0.2.tar.gz --markdown 20230612/v/vatis-asr-commons/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-12 12:03:04] INFO root fetch - processPackages [clayrs]: Downloading https://files.pythonhosted.org/packages/a4/1a/1b6310906ab457ea671466663ac6a11ffa5e6c0dac125296548f0112c66f/clayrs-0.4.1.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [jupytercad]: Downloading https://files.pythonhosted.org/packages/4b/2e/7e0c0b7cb8716bd983527e9b8f88dd98229f2307bcf529e867f6ed524b96/jupytercad-0.3.0.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [fps-jupytercad]: executing diffoscope
+[2023-06-12 12:03:04] INFO root fetch - processPackages [fps-jupytercad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_jupytercad-0.1.0.tar.gz tmp/fps_jupytercad-0.3.0.tar.gz --markdown 20230612/f/fps-jupytercad/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-12 12:03:04] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/cd/5b/21684fc9845465c26158f409058121cb077ae7db9cd74c4027491d8a2a42/EdgeGPT-0.9.2.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [qdrant-tools]: executing diffoscope
+[2023-06-12 12:03:04] INFO root fetch - processPackages [qdrant-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_tools-0.0.2.tar.gz tmp/qdrant_tools-0.0.3.tar.gz --markdown 20230612/q/qdrant-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 12:03:04] WARNING root fetch - processPackages [jupytercad]: Skipping package: exceeds size limit 29281496>=10485760
+[2023-06-12 12:03:04] INFO root fetch - processPackages [jupytercad]: Start processing: localstack-core
+[2023-06-12 12:03:04] INFO root fetch - main [MainThread]: End processing [jupytercad] error
+[2023-06-12 12:03:04] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230612100140] Old Version: [2.1.1.dev20230612095058]
+[2023-06-12 12:03:04] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-12 12:03:04] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.9.1.tar.gz tmp/EdgeGPT-0.9.2.tar.gz --markdown 20230612/E/EdgeGPT/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-12 12:03:04] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d0/bf/eb7660b29c5e6f54a68627b3fc4e351e34e0edd6b99c696ff76822d03df6/localstack-core-2.1.1.dev20230612095058.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [clayrs]: executing diffoscope
+[2023-06-12 12:03:04] INFO root fetch - processPackages [clayrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clayrs-0.4.0.tar.gz tmp/clayrs-0.4.1.tar.gz --markdown 20230612/c/clayrs/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-12 12:03:04] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/57/78/08e621b2dc84d718c288d2777ab610be71b1543212d7d938aac0de16f717/localstack-core-2.1.1.dev20230612100140.tar.gz
+[2023-06-12 12:03:04] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-12 12:03:04] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230612/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-12 12:03:05] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-12 12:03:05] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230612095058.tar.gz tmp/localstack-core-2.1.1.dev20230612100140.tar.gz --markdown 20230612/l/localstack-core/2.1.1.dev20230612095058-2.1.1.dev20230612100140/diff.md --exclude *.pyd
+[2023-06-12 12:03:05] INFO root fetch - processPackages [gabarit]: Downloading https://files.pythonhosted.org/packages/78/ee/224b6fb61de5685f8182a2026fe0c53f426d7f970de361889b659cb815bb/gabarit-1.3.2.tar.gz
+[2023-06-12 12:03:05] INFO root fetch - processPackages [gabarit]: executing diffoscope
+[2023-06-12 12:03:05] INFO root fetch - processPackages [gabarit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gabarit-1.3.1.tar.gz tmp/gabarit-1.3.2.tar.gz --markdown 20230612/g/gabarit/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-12 12:03:05] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.7.tar.gz]
+[2023-06-12 12:03:05] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.8.tar.gz]
+[2023-06-12 12:03:05] INFO root fetch - processPackages [geolibs]: Start processing: netbox-cisco-maintenance
+[2023-06-12 12:03:05] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-06-12 12:03:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 12:03:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 12:03:05] INFO root fetch - processPackages [qdrant-tools]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_tools-0.0.2.tar.gz]
+[2023-06-12 12:03:05] INFO root fetch - processPackages [qdrant-tools]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_tools-0.0.3.tar.gz]
+[2023-06-12 12:03:05] INFO root fetch - processPackages [qdrant-tools]: Start processing: certora-cli-alpha-master
+[2023-06-12 12:03:05] INFO root fetch - main [MainThread]: End processing [qdrant-tools]: success
+[2023-06-12 12:03:05] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230611.23.29.536223] Old Version: [20230611.22.43.477630]
+[2023-06-12 12:03:05] INFO root fetch - processPackages [fps-jupytercad]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupytercad-0.1.0.tar.gz]
+[2023-06-12 12:03:05] INFO root fetch - processPackages [fps-jupytercad]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupytercad-0.3.0.tar.gz]
+[2023-06-12 12:03:05] INFO root fetch - processPackages [fps-jupytercad]: Start processing: remotemanager
+[2023-06-12 12:03:05] INFO root fetch - main [MainThread]: End processing [fps-jupytercad]: success
+[2023-06-12 12:03:05] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/31/c6/c9f83fa7a9b0294c15062c78283fda9ef04dc9fb4b9386ef897039ad64fa/certora-cli-alpha-master-20230611.22.43.477630.tar.gz
+[2023-06-12 12:03:05] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39378129>=10485760
+[2023-06-12 12:03:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-12 12:03:05] INFO root fetch - processPackages [remotemanager]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-12 12:03:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 12:03:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 12:03:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 12:03:06] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/ef/7b/31576710bf6f105a58db1005e44bbd9215167705edd826bc8ed280752429/remotemanager-0.6.2.tar.gz
+[2023-06-12 12:03:06] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.1.tar.gz]
+[2023-06-12 12:03:06] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
+[2023-06-12 12:03:06] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-12 12:03:06] INFO root fetch - processPackages [vatis-asr-commons]: Remove: archive file [/home/abi/fetcher/tmp/vatis_asr_commons-2.0.1.tar.gz]
+[2023-06-12 12:03:06] INFO root fetch - processPackages [vatis-asr-commons]: Remove: archive file [/home/abi/fetcher/tmp/vatis_asr_commons-2.0.2.tar.gz]
+[2023-06-12 12:03:06] INFO root fetch - main [MainThread]: End processing [vatis-asr-commons]: success
+[2023-06-12 12:03:06] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/45/7e/560f65b5d2ed59ff82eb45ae60ff0286966616ed5c376104f141467317ab/remotemanager-0.6.3.tar.gz
+[2023-06-12 12:03:06] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-06-12 12:03:06] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.6.2.tar.gz tmp/remotemanager-0.6.3.tar.gz --markdown 20230612/r/remotemanager/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-12 12:03:07] INFO root fetch - processPackages [clayrs]: Remove: archive file [/home/abi/fetcher/tmp/clayrs-0.4.0.tar.gz]
+[2023-06-12 12:03:07] INFO root fetch - processPackages [clayrs]: Remove: archive file [/home/abi/fetcher/tmp/clayrs-0.4.1.tar.gz]
+[2023-06-12 12:03:07] INFO root fetch - main [MainThread]: End processing [clayrs]: success
+[2023-06-12 12:03:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 12:03:07] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 12:03:07] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 12:03:07] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.2.8.tar.gz]
+[2023-06-12 12:03:07] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.2.9.tar.gz]
+[2023-06-12 12:03:07] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-06-12 12:03:08] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-12 12:03:08] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-12 12:03:08] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-12 12:03:09] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.6.2.tar.gz]
+[2023-06-12 12:03:09] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.6.3.tar.gz]
+[2023-06-12 12:03:09] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-06-12 12:03:11] INFO root fetch - processPackages [gabarit]: Remove: archive file [/home/abi/fetcher/tmp/gabarit-1.3.1.tar.gz]
+[2023-06-12 12:03:11] INFO root fetch - processPackages [gabarit]: Remove: archive file [/home/abi/fetcher/tmp/gabarit-1.3.2.tar.gz]
+[2023-06-12 12:03:11] INFO root fetch - main [MainThread]: End processing [gabarit]: success
+[2023-06-12 12:03:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230612095058.tar.gz]
+[2023-06-12 12:03:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230612100140.tar.gz]
+[2023-06-12 12:03:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-12 12:03:13] INFO root fetch - main [MainThread]: Store serial: [18467247]
