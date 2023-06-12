@@ -15834,3 +15834,146 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:21:54] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-06-12 13:21:54] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-06-12 13:21:54] INFO root fetch - main [MainThread]: Store serial: [18467957]
+[2023-06-12 13:26:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467957]
+[2023-06-12 13:27:04] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: insightconnect-integrations-validators
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mailslurp-client
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacy-transformers
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitaudit
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: a2
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chanjo2
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litesqlite
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: authomize-rest-api-client
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphinxcontrib-matlabdomain
+[2023-06-12 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-access-sdk
+[2023-06-12 13:27:04] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.2.6] Old Version: [4.1.6]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [insightconnect-integrations-validators]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [chanjo2]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [litesqlite]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [a2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [spacy-transformers]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-12 13:27:04] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/10/c4/4d15ff29912d32ea52cd9aacfbad1b8a30dbf09c6e3efb3b84695fc25537/a2-0.3.8.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/bb/ba/66c497d8f1ec734cb133f34367c7906217e0f868766de19f4de8ab24f3f5/litesqlite-2.6.2.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [chanjo2]: Downloading https://files.pythonhosted.org/packages/c9/53/457528b5de1b7adb18b242de340e6d701fa041c9b1c943528c9afe095db3/chanjo2-0.1.0.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [insightconnect-integrations-validators]: Downloading https://files.pythonhosted.org/packages/69/df/fa717367d2ca5ef007c30937ea95e64a26b39871c5c01a1a835ffdef8c19/insightconnect_integrations_validators-2.8.1.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/27/9f/400da890f1d17b5a3eadcb477d83d44b79ab59e95ac28b04e1f8019c30f2/sphinxcontrib-matlabdomain-0.7.1.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/57/e9/33a73f59552ec8d2831141a78aa359970995a90299bccb52fde65f341d0c/authomize-rest-api-client-4.1.6.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [spacy-transformers]: Downloading https://files.pythonhosted.org/packages/6d/7c/29ad941337944b99c696e009ef1fc58cd9c96c4bfb53e2826681201ab512/spacy-transformers-1.2.4.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-06-12 13:27:04] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230612/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 13:27:04] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/63/1d/8f25b3ca4849a9d9a6ff2d753cfe68b2796556e51e4b48b02b1f1e369d80/litesqlite-2.6.3.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/c5/ea/30a5aa65f221d2fa836f68cf1ba1dcc4e374a8abad48e522a4030a3604b0/a2-0.3.9.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [litesqlite]: executing diffoscope
+[2023-06-12 13:27:04] INFO root fetch - processPackages [litesqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litesqlite-2.6.2.tar.gz tmp/litesqlite-2.6.3.tar.gz --markdown 20230612/l/litesqlite/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-06-12 13:27:04] INFO root fetch - processPackages [chanjo2]: Downloading https://files.pythonhosted.org/packages/1e/56/013b323dce8f384c93a970e382d8edcaf1431917e1566e1c9fc3eff1739d/chanjo2-1.0.0.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [insightconnect-integrations-validators]: Downloading https://files.pythonhosted.org/packages/e0/31/ce762175e05a461cdddb39bd0551ef73fb7de0dfe397b5d71c1060abf5d5/insightconnect_integrations_validators-2.9.0.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [a2]: executing diffoscope
+[2023-06-12 13:27:04] INFO root fetch - processPackages [a2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2-0.3.8.tar.gz tmp/a2-0.3.9.tar.gz --markdown 20230612/a/a2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 13:27:04] INFO root fetch - processPackages [chanjo2]: executing diffoscope
+[2023-06-12 13:27:04] INFO root fetch - processPackages [chanjo2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanjo2-0.1.0.tar.gz tmp/chanjo2-1.0.0.tar.gz --markdown 20230612/c/chanjo2/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 13:27:04] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/89/0c/c268ee8626e52410865a1ea9ef9a7109d9d3ee796aa96ef4e89ce5acd723/authomize-rest-api-client-4.2.6.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [spacy-transformers]: Downloading https://files.pythonhosted.org/packages/ed/b1/78c88ad9508572140a50adf574fbde435a9558f26d4430bcdd606f958738/spacy-transformers-1.2.5.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/02/17/576fe56ac8622a964e69f7f314c46c1235b2a8447151a3df20102e5b45bc/sphinxcontrib-matlabdomain-0.8.0.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-06-12 13:27:04] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.1.6.tar.gz tmp/authomize-rest-api-client-4.2.6.tar.gz --markdown 20230612/a/authomize-rest-api-client/4.1.6-4.2.6/diff.md --exclude *.pyd
+[2023-06-12 13:27:04] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2023-06-12 13:27:04] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-12 13:27:04] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230612/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-12 13:27:04] INFO root fetch - processPackages [spacy-transformers]: executing diffoscope
+[2023-06-12 13:27:04] INFO root fetch - processPackages [spacy-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-transformers-1.2.4.tar.gz tmp/spacy-transformers-1.2.5.tar.gz --markdown 20230612/s/spacy-transformers/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-12 13:27:04] INFO root fetch - processPackages [insightconnect-integrations-validators]: executing diffoscope
+[2023-06-12 13:27:04] INFO root fetch - processPackages [insightconnect-integrations-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insightconnect_integrations_validators-2.8.1.tar.gz tmp/insightconnect_integrations_validators-2.9.0.tar.gz --markdown 20230612/i/insightconnect-integrations-validators/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-12 13:27:04] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: executing diffoscope
+[2023-06-12 13:27:04] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz --markdown 20230612/s/sphinxcontrib-matlabdomain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-12 13:27:05] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2023-06-12 13:27:05] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20230612/m/mailslurp-client/8.7.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-12 13:27:06] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.6.2.tar.gz]
+[2023-06-12 13:27:06] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.6.3.tar.gz]
+[2023-06-12 13:27:06] INFO root fetch - processPackages [litesqlite]: Start processing: pybiolib
+[2023-06-12 13:27:06] INFO root fetch - main [MainThread]: End processing [litesqlite]: success
+[2023-06-12 13:27:06] INFO root fetch - processPackages [pybiolib]: New version: [1.1.988] Old Version: [1.1.976]
+[2023-06-12 13:27:06] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/28/c0/4f632a98a7c45a6744fee3ec431699a64e5092d2208e6b9550766aace892/pybiolib-1.1.976.tar.gz
+[2023-06-12 13:27:06] INFO root fetch - processPackages [spacy-transformers]: Remove: archive file [/home/abi/fetcher/tmp/spacy-transformers-1.2.4.tar.gz]
+[2023-06-12 13:27:06] INFO root fetch - processPackages [spacy-transformers]: Remove: archive file [/home/abi/fetcher/tmp/spacy-transformers-1.2.5.tar.gz]
+[2023-06-12 13:27:06] INFO root fetch - processPackages [spacy-transformers]: Start processing: torchserve-nightly
+[2023-06-12 13:27:06] INFO root fetch - main [MainThread]: End processing [spacy-transformers]: success
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-12 13:27:07] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/ea/74/eb4ed29871336f7344be8cb4c2abe6b3dc25f0929199ca6be9d59c2b9afe/pybiolib-1.1.988.tar.gz
+[2023-06-12 13:27:07] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [gitaudit]: Start processing: sdkit
+[2023-06-12 13:27:07] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-06-12 13:27:07] INFO root fetch - processPackages [insightconnect-integrations-validators]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect_integrations_validators-2.8.1.tar.gz]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [insightconnect-integrations-validators]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect_integrations_validators-2.9.0.tar.gz]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [insightconnect-integrations-validators]: Start processing: rain-orm
+[2023-06-12 13:27:07] INFO root fetch - main [MainThread]: End processing [insightconnect-integrations-validators]: success
+[2023-06-12 13:27:07] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [rain-orm]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 13:27:07] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2023-06-12 13:27:07] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-12 13:27:07] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-06-12 13:27:07] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.976.tar.gz tmp/pybiolib-1.1.988.tar.gz --markdown 20230612/p/pybiolib/1.1.976-1.1.988/diff.md --exclude *.pyd
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-12 13:27:07] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/10/6a/269c2113340ac29d543eeaddd59f1626509e78eaf3851d5d74da5ef330e2/rain_orm-1.0.3.tar.gz
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230612/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-12 13:27:07] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-06-12 13:27:07] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Start processing: torch-workflow-archiver-nightly
+[2023-06-12 13:27:07] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
+[2023-06-12 13:27:07] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/8f/17/bba938d9bef9b709fcd9c4348d5f486a0ae4560f229a929f99714be958dc/rain_orm-1.0.4.tar.gz
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [chanjo2]: Remove: archive file [/home/abi/fetcher/tmp/chanjo2-0.1.0.tar.gz]
+[2023-06-12 13:27:07] INFO root fetch - processPackages [chanjo2]: Remove: archive file [/home/abi/fetcher/tmp/chanjo2-1.0.0.tar.gz]
+[2023-06-12 13:27:07] INFO root fetch - main [MainThread]: End processing [chanjo2]: success
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-12 13:27:07] INFO root fetch - processPackages [rain-orm]: executing diffoscope
+[2023-06-12 13:27:07] INFO root fetch - processPackages [rain-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rain_orm-1.0.3.tar.gz tmp/rain_orm-1.0.4.tar.gz --markdown 20230612/r/rain-orm/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 13:27:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-12 13:27:08] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-06-12 13:27:08] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.1.6.tar.gz]
+[2023-06-12 13:27:08] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.2.6.tar.gz]
+[2023-06-12 13:27:08] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-06-12 13:27:08] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-12 13:27:08] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230612/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-12 13:27:08] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-06-12 13:27:08] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230612/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-12 13:27:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-12 13:27:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-12 13:27:09] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-12 13:27:09] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.976.tar.gz]
+[2023-06-12 13:27:09] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.988.tar.gz]
+[2023-06-12 13:27:09] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-06-12 13:27:09] INFO root fetch - processPackages [rain-orm]: Remove: archive file [/home/abi/fetcher/tmp/rain_orm-1.0.3.tar.gz]
+[2023-06-12 13:27:09] INFO root fetch - processPackages [rain-orm]: Remove: archive file [/home/abi/fetcher/tmp/rain_orm-1.0.4.tar.gz]
+[2023-06-12 13:27:09] INFO root fetch - main [MainThread]: End processing [rain-orm]: success
+[2023-06-12 13:27:09] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-12 13:27:09] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-12 13:27:09] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-12 13:27:10] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-06-12 13:27:10] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-06-12 13:27:10] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-06-12 13:27:10] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-12 13:27:10] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-12 13:27:10] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-12 13:27:11] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2023-06-12 13:27:11] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2023-06-12 13:27:11] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2023-06-12 13:27:57] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.8.tar.gz]
+[2023-06-12 13:27:57] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.9.tar.gz]
+[2023-06-12 13:27:57] INFO root fetch - main [MainThread]: End processing [a2]: success
+[2023-06-12 13:27:57] INFO root fetch - main [MainThread]: Store serial: [18468027]
