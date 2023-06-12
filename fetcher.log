@@ -12404,3 +12404,134 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:55:16] INFO root fetch - processPackages [idf-build-apps]: Remove: archive file [/home/abi/fetcher/tmp/idf_build_apps-1.0.1.tar.gz]
 [2023-06-12 10:55:16] INFO root fetch - main [MainThread]: End processing [idf-build-apps]: success
 [2023-06-12 10:55:16] INFO root fetch - main [MainThread]: Store serial: [18466499]
+[2023-06-12 11:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466499]
+[2023-06-12 11:00:25] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySupercell
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scdeepinsight
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Marl-Factory-Grid
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: txr
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isetool
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumiverse-exoscale
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libsgfdata
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-translatemessages
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spacy-partial-tagger
+[2023-06-12 11:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localcosmos-server
+[2023-06-12 11:00:25] INFO root fetch - processPackages [scdeepinsight]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-12 11:00:25] INFO root fetch - processPackages [localcosmos-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-12 11:00:25] INFO root fetch - processPackages [isetool]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 11:00:25] WARNING root fetch - processPackages [Marl-Factory-Grid]: Skipping, unable to determine old version
+[2023-06-12 11:00:25] INFO root fetch - processPackages [Marl-Factory-Grid]: Start processing: kikicocoTest
+[2023-06-12 11:00:25] INFO root fetch - main [MainThread]: End processing [Marl-Factory-Grid] error
+[2023-06-12 11:00:25] INFO root fetch - processPackages [libsgfdata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 11:00:25] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 11:00:25] INFO root fetch - processPackages [pulumiverse-exoscale]: New version: [0.49.0] Old Version: [0.48.0]
+[2023-06-12 11:00:25] INFO root fetch - processPackages [txr]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-12 11:00:25] INFO root fetch - processPackages [spacy-partial-tagger]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-12 11:00:25] INFO root fetch - processPackages [django-translatemessages]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 11:00:25] WARNING root fetch - processPackages [kikicocoTest]: Skipping, unable to determine old version
+[2023-06-12 11:00:25] INFO root fetch - processPackages [kikicocoTest]: Start processing: taichu-dataflow
+[2023-06-12 11:00:25] INFO root fetch - main [MainThread]: End processing [kikicocoTest] error
+[2023-06-12 11:00:25] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-12 11:00:25] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/a3/48/3c50cf9674e4705370e0e6c536d65f755b6caa0f21b2d1bd22a8b4af4dbf/taichu-dataflow-1.0.6.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [txr]: Downloading https://files.pythonhosted.org/packages/bb/1d/6ec5e695e6104d047f1ab0542504c836be390b4971e2f8845080672ed2cd/txr-2.0.0-py3-none-any.whl
+[2023-06-12 11:00:25] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/61/00/ab654a56ccee649ce5ffc92e70830470f4b118aba44f5448791ded818adf/localcosmos_server-0.9.3.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/5f/f7/4c47d932c8d6acb5821fe2ded764ded51f94e7508df7c26940e82aad0e2e/scdeepinsight-2.3.0.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [isetool]: Downloading https://files.pythonhosted.org/packages/57/bd/253a82846806e789e86d1e9a75af576431623184bf277198efaa070ceaf0/isetool-1.0.1.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-12 11:00:25] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230612/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:00:25] INFO root fetch - processPackages [django-translatemessages]: Downloading https://files.pythonhosted.org/packages/c2/e3/276d69d2b19f7bbe5a836b35187ab2f478340a678982c1df71d3642e5726/django-translatemessages-0.0.1.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/a7/55/5dad27941e7e712171f00fcff9282670db978481812e3d65314f44803bb0/pulumiverse_exoscale-0.48.0.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [libsgfdata]: Downloading https://files.pythonhosted.org/packages/ed/1e/c383ae7cc436d1849393aacdac62492bf9e94fde58ff030a2332ca44eeaf/libsgfdata-0.0.8.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [spacy-partial-tagger]: Downloading https://files.pythonhosted.org/packages/26/a2/d2c993ac5dbe7491072834d8e2a7c8f13342a1479bef774d4e7d481155f9/spacy_partial_tagger-0.9.3.tar.gz
+[2023-06-12 11:00:25] WARNING root fetch - processPackages [scdeepinsight]: Skipping package: exceeds size limit 41349347>=10485760
+[2023-06-12 11:00:25] INFO root fetch - processPackages [scdeepinsight]: Start processing: daktari
+[2023-06-12 11:00:25] INFO root fetch - main [MainThread]: End processing [scdeepinsight] error
+[2023-06-12 11:00:25] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/81/dd/e3d5b3a55c3654ec66d572cdf43ac839e88c57e6e832e3aa6c937b397b73/taichu-dataflow-1.0.7.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [txr]: Downloading https://files.pythonhosted.org/packages/79/c2/6d9b140ca9ceb1210ffc6f8173214dbba2d2ed4f1231140e7d821b9de458/txr-2.0.1-py3-none-any.whl
+[2023-06-12 11:00:25] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 11:00:25] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-12 11:00:25] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.6.tar.gz tmp/taichu-dataflow-1.0.7.tar.gz --markdown 20230612/t/taichu-dataflow/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-12 11:00:25] INFO root fetch - processPackages [txr]: executing diffoscope
+[2023-06-12 11:00:25] INFO root fetch - processPackages [txr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txr-2.0.0-py3-none-any.whl.zip tmp/txr-2.0.1-py3-none-any.whl.zip --markdown 20230612/t/txr/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-12 11:00:25] INFO root fetch - processPackages [django-translatemessages]: Downloading https://files.pythonhosted.org/packages/73/ab/f957a994fc87939de0ae086b8e81d04cd2106b995be5652e6108a7b6ddc5/django-translatemessages-0.0.2.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [isetool]: Downloading https://files.pythonhosted.org/packages/3f/36/b25516ca11263ea879cbd20fbdc5b7241da96b3fcca6f47a89f159b0cd81/isetool-1.0.2.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [django-translatemessages]: executing diffoscope
+[2023-06-12 11:00:25] INFO root fetch - processPackages [django-translatemessages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-translatemessages-0.0.1.tar.gz tmp/django-translatemessages-0.0.2.tar.gz --markdown 20230612/d/django-translatemessages/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 11:00:25] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [spacy-partial-tagger]: Downloading https://files.pythonhosted.org/packages/43/84/6e6226915e369f471cac4ebd7f252c6c93871af3c7248a3133b43366f8df/spacy_partial_tagger-0.9.4.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [libsgfdata]: Downloading https://files.pythonhosted.org/packages/1a/d6/7bb58039af08cc234eff24c81187b53d0bb61d184e6899dbf7192d2efc2c/libsgfdata-0.0.9.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/e3/e1/ee5011760d0dd54dfe7741565d77441021c3fe8b7ffce804219ea01d80b4/pulumiverse_exoscale-0.49.0.tar.gz
+[2023-06-12 11:00:25] INFO root fetch - processPackages [isetool]: executing diffoscope
+[2023-06-12 11:00:25] INFO root fetch - processPackages [isetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isetool-1.0.1.tar.gz tmp/isetool-1.0.2.tar.gz --markdown 20230612/i/isetool/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 11:00:25] INFO root fetch - processPackages [spacy-partial-tagger]: executing diffoscope
+[2023-06-12 11:00:25] INFO root fetch - processPackages [spacy-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy_partial_tagger-0.9.3.tar.gz tmp/spacy_partial_tagger-0.9.4.tar.gz --markdown 20230612/s/spacy-partial-tagger/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 11:00:25] INFO root fetch - processPackages [libsgfdata]: executing diffoscope
+[2023-06-12 11:00:25] INFO root fetch - processPackages [libsgfdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsgfdata-0.0.8.tar.gz tmp/libsgfdata-0.0.9.tar.gz --markdown 20230612/l/libsgfdata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:00:25] INFO root fetch - processPackages [pulumiverse-exoscale]: executing diffoscope
+[2023-06-12 11:00:25] INFO root fetch - processPackages [pulumiverse-exoscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_exoscale-0.48.0.tar.gz tmp/pulumiverse_exoscale-0.49.0.tar.gz --markdown 20230612/p/pulumiverse-exoscale/0.48.0-0.49.0/diff.md --exclude *.pyd
+[2023-06-12 11:00:26] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-06-12 11:00:26] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-06-12 11:00:26] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230612/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 11:00:26] INFO root fetch - processPackages [txr]: Remove: archive file [/home/abi/fetcher/tmp/txr-2.0.0-py3-none-any.whl.zip]
+[2023-06-12 11:00:26] INFO root fetch - processPackages [txr]: Remove: archive file [/home/abi/fetcher/tmp/txr-2.0.1-py3-none-any.whl.zip]
+[2023-06-12 11:00:26] INFO root fetch - processPackages [txr]: Start processing: smaplib
+[2023-06-12 11:00:26] INFO root fetch - main [MainThread]: End processing [txr]: success
+[2023-06-12 11:00:26] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/5d/b5/0c97a340dd47c39e15214419963c0d28f5e1c89f1340833bc42fc71f32e2/localcosmos_server-0.9.4.tar.gz
+[2023-06-12 11:00:26] INFO root fetch - processPackages [smaplib]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-06-12 11:00:26] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.6.tar.gz]
+[2023-06-12 11:00:26] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.7.tar.gz]
+[2023-06-12 11:00:26] INFO root fetch - processPackages [taichu-dataflow]: Start processing: oda-integral-wrapper
+[2023-06-12 11:00:26] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-12 11:00:26] INFO root fetch - processPackages [oda-integral-wrapper]: New version: [1.4.46] Old Version: [1.4.45]
+[2023-06-12 11:00:27] INFO root fetch - processPackages [django-translatemessages]: Remove: archive file [/home/abi/fetcher/tmp/django-translatemessages-0.0.1.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - processPackages [django-translatemessages]: Remove: archive file [/home/abi/fetcher/tmp/django-translatemessages-0.0.2.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - processPackages [django-translatemessages]: Start processing: snagboot
+[2023-06-12 11:00:27] INFO root fetch - main [MainThread]: End processing [django-translatemessages]: success
+[2023-06-12 11:00:27] INFO root fetch - processPackages [smaplib]: Downloading https://files.pythonhosted.org/packages/7a/b8/5f01c7542a082240a5840baffebaca832a36c568877ffe5d6cd54bde0c6c/smaplib-1.0.1-py3-none-any.whl
+[2023-06-12 11:00:27] INFO root fetch - processPackages [snagboot]: New version: [1.1] Old Version: [1.0]
+[2023-06-12 11:00:27] INFO root fetch - processPackages [oda-integral-wrapper]: Downloading https://files.pythonhosted.org/packages/f9/e2/9d3736ea6cc7a820f37d90acc220b114950654bfd04bcac8a885befc890d/oda_integral_wrapper-1.4.45.tar.gz
+[2023-06-12 11:00:27] INFO root fetch - processPackages [isetool]: Remove: archive file [/home/abi/fetcher/tmp/isetool-1.0.1.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - processPackages [isetool]: Remove: archive file [/home/abi/fetcher/tmp/isetool-1.0.2.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - main [MainThread]: End processing [isetool]: success
+[2023-06-12 11:00:27] INFO root fetch - processPackages [libsgfdata]: Remove: archive file [/home/abi/fetcher/tmp/libsgfdata-0.0.8.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - processPackages [libsgfdata]: Remove: archive file [/home/abi/fetcher/tmp/libsgfdata-0.0.9.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - main [MainThread]: End processing [libsgfdata]: success
+[2023-06-12 11:00:27] INFO root fetch - processPackages [snagboot]: Downloading https://files.pythonhosted.org/packages/72/38/45c7b942daa72e791cee6cd89a8b031ba1dbe7e669484d4e641609b5f361/snagboot-1.0.tar.gz
+[2023-06-12 11:00:27] INFO root fetch - processPackages [spacy-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/spacy_partial_tagger-0.9.3.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - processPackages [spacy-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/spacy_partial_tagger-0.9.4.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - main [MainThread]: End processing [spacy-partial-tagger]: success
+[2023-06-12 11:00:27] INFO root fetch - processPackages [smaplib]: Downloading https://files.pythonhosted.org/packages/98/e8/42d7670cf2044ec29a8fa4a8eb9e41cbbb59bf5834c04eb6c9ee1de91426/smaplib-1.0.3-py2.py3-none-any.whl
+[2023-06-12 11:00:27] INFO root fetch - processPackages [smaplib]: executing diffoscope
+[2023-06-12 11:00:27] INFO root fetch - processPackages [smaplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaplib-1.0.1-py3-none-any.whl.zip tmp/smaplib-1.0.3-py2.py3-none-any.whl.zip --markdown 20230612/s/smaplib/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-06-12 11:00:27] INFO root fetch - processPackages [oda-integral-wrapper]: Downloading https://files.pythonhosted.org/packages/69/23/74c90b4b9bb372bc191a884459576341c75835ca4abcc4a2ee2366885c55/oda_integral_wrapper-1.4.46.tar.gz
+[2023-06-12 11:00:27] INFO root fetch - processPackages [oda-integral-wrapper]: executing diffoscope
+[2023-06-12 11:00:27] INFO root fetch - processPackages [oda-integral-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oda_integral_wrapper-1.4.45.tar.gz tmp/oda_integral_wrapper-1.4.46.tar.gz --markdown 20230612/o/oda-integral-wrapper/1.4.45-1.4.46/diff.md --exclude *.pyd
+[2023-06-12 11:00:27] INFO root fetch - processPackages [snagboot]: Downloading https://files.pythonhosted.org/packages/91/97/492f06d0a3e26faea0fe9bd9d78131ea60e2e322aa3b70d9cabcad8d9906/snagboot-1.1.tar.gz
+[2023-06-12 11:00:27] INFO root fetch - processPackages [snagboot]: executing diffoscope
+[2023-06-12 11:00:27] INFO root fetch - processPackages [snagboot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snagboot-1.0.tar.gz tmp/snagboot-1.1.tar.gz --markdown 20230612/s/snagboot/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-12 11:00:27] INFO root fetch - processPackages [pulumiverse-exoscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_exoscale-0.48.0.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - processPackages [pulumiverse-exoscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_exoscale-0.49.0.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - main [MainThread]: End processing [pulumiverse-exoscale]: success
+[2023-06-12 11:00:27] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-12 11:00:27] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-12 11:00:27] INFO root fetch - processPackages [localcosmos-server]: executing diffoscope
+[2023-06-12 11:00:27] INFO root fetch - processPackages [localcosmos-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_server-0.9.3.tar.gz tmp/localcosmos_server-0.9.4.tar.gz --markdown 20230612/l/localcosmos-server/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 11:00:28] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-06-12 11:00:28] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-06-12 11:00:28] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-06-12 11:00:28] INFO root fetch - processPackages [oda-integral-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/oda_integral_wrapper-1.4.45.tar.gz]
+[2023-06-12 11:00:28] INFO root fetch - processPackages [oda-integral-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/oda_integral_wrapper-1.4.46.tar.gz]
+[2023-06-12 11:00:28] INFO root fetch - main [MainThread]: End processing [oda-integral-wrapper]: success
+[2023-06-12 11:00:28] INFO root fetch - processPackages [smaplib]: Remove: archive file [/home/abi/fetcher/tmp/smaplib-1.0.1-py3-none-any.whl.zip]
+[2023-06-12 11:00:28] INFO root fetch - processPackages [smaplib]: Remove: archive file [/home/abi/fetcher/tmp/smaplib-1.0.3-py2.py3-none-any.whl.zip]
+[2023-06-12 11:00:28] INFO root fetch - main [MainThread]: End processing [smaplib]: success
+[2023-06-12 11:00:28] INFO root fetch - processPackages [snagboot]: Remove: archive file [/home/abi/fetcher/tmp/snagboot-1.0.tar.gz]
+[2023-06-12 11:00:28] INFO root fetch - processPackages [snagboot]: Remove: archive file [/home/abi/fetcher/tmp/snagboot-1.1.tar.gz]
+[2023-06-12 11:00:28] INFO root fetch - main [MainThread]: End processing [snagboot]: success
+[2023-06-12 11:00:47] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.3.tar.gz]
+[2023-06-12 11:00:47] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.4.tar.gz]
+[2023-06-12 11:00:47] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
+[2023-06-12 11:00:47] INFO root fetch - main [MainThread]: Store serial: [18466555]
