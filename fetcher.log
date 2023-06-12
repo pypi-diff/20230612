@@ -17497,3 +17497,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 14:38:56] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
 [2023-06-12 14:38:56] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-06-12 14:38:56] INFO root fetch - main [MainThread]: Store serial: [18468709]
+[2023-06-12 14:44:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468709]
+[2023-06-12 14:44:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redturtle.prenotazioni
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luminesce-sdk-preview
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: querysource
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Operetta-tool
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgd-counterfactuals
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omjlcomps
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: solidityscan
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorcircuit-nightly
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycse
+[2023-06-12 14:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stripe-api-client
+[2023-06-12 14:44:05] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.0.0.dev0] Old Version: [1.7.1]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [Operetta-tool]: New version: [1.4.0] Old Version: [1.2.7]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [vgd-counterfactuals]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [solidityscan]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [stripe-api-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [omjlcomps]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [pycse]: New version: [2.2.3] Old Version: [2.2.0]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [vgd-counterfactuals]: Downloading https://files.pythonhosted.org/packages/18/3c/0d771ec728d04c7ab1976f79095a50d2fcb9db7e60ce7e6ae99ad472c3ba/vgd_counterfactuals-0.3.0.tar.gz
+[2023-06-12 14:44:05] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-12 14:44:05] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 14:44:05] INFO root fetch - processPackages [solidityscan]: Downloading https://files.pythonhosted.org/packages/8b/d4/125d89581abe1ad8407f9131c94671f570460dd16936d463c43864271a58/solidityscan-0.1.4.tar.gz
+[2023-06-12 14:44:05] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-12 14:44:05] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/37/84/c32487a57e14740f3c285df8b2b54e1c3cb6609af16a6dc44fe49ed1a69f/redturtle.prenotazioni-1.7.1.tar.gz
+[2023-06-12 14:44:05] INFO root fetch - processPackages [omjlcomps]: Downloading https://files.pythonhosted.org/packages/d7/27/cf71e5301d60b768189fbe7d8dcbc35868cad94b846e537a5cae8541ba89/omjlcomps-0.2.0.tar.gz
+[2023-06-12 14:44:05] INFO root fetch - processPackages [Operetta-tool]: Downloading https://files.pythonhosted.org/packages/09/6b/bd368bddda17280639ddd0c4d7ae6977ac5edb4511d88b4999a3028ac06c/Operetta_tool-1.2.7.tar.gz
+[2023-06-12 14:44:05] INFO root fetch - processPackages [pycse]: Downloading https://files.pythonhosted.org/packages/41/53/f4982fdf958796052679176cf5ffe654032500aa676d12040fb429bf09b3/pycse-2.2.0.tar.gz
+[2023-06-12 14:44:05] INFO root fetch - processPackages [stripe-api-client]: Downloading https://files.pythonhosted.org/packages/82/4e/6966050cf80426299b5bccdae329800f6fb0978cd7a97a93a7c021134dfd/stripe_api_client-0.1.2.tar.gz
+[2023-06-12 14:44:05] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-12 14:44:05] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-12 14:44:06] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 14:44:06] INFO root fetch - processPackages [solidityscan]: Downloading https://files.pythonhosted.org/packages/e8/03/0028c34a1570c9eb061580d023249377b1b4958a390b700fc4a15ce80e31/solidityscan-0.1.6.tar.gz
+[2023-06-12 14:44:06] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230612/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-12 14:44:06] INFO root fetch - processPackages [vgd-counterfactuals]: Downloading https://files.pythonhosted.org/packages/da/8c/9a90d3497182921e9a7fea19e49ca7aff3932cf115b5cb1af3fbb2265f2a/vgd_counterfactuals-0.3.1.tar.gz
+[2023-06-12 14:44:06] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/84/d4/969d3028678b87b42b2e0aeb5a4156010ccb8bd90212007a3033de588a0c/redturtle.prenotazioni-2.0.0.dev0.tar.gz
+[2023-06-12 14:44:06] INFO root fetch - processPackages [solidityscan]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [solidityscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidityscan-0.1.4.tar.gz tmp/solidityscan-0.1.6.tar.gz --markdown 20230612/s/solidityscan/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-06-12 14:44:06] INFO root fetch - processPackages [pycse]: Downloading https://files.pythonhosted.org/packages/dd/dc/c143cff88175de0813b4f0fedab971f48cbe3fe57e5e83db85d045e22509/pycse-2.2.3.tar.gz
+[2023-06-12 14:44:06] INFO root fetch - processPackages [stripe-api-client]: Downloading https://files.pythonhosted.org/packages/a4/a3/c582b8369a9588a10477f1d73d1e81a90fb28a596588ced576d7e743b85d/stripe_api_client-0.1.3.tar.gz
+[2023-06-12 14:44:06] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230612/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-12 14:44:06] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-12 14:44:06] INFO root fetch - processPackages [vgd-counterfactuals]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [vgd-counterfactuals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgd_counterfactuals-0.3.0.tar.gz tmp/vgd_counterfactuals-0.3.1.tar.gz --markdown 20230612/v/vgd-counterfactuals/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-12 14:44:06] INFO root fetch - processPackages [omjlcomps]: Downloading https://files.pythonhosted.org/packages/f7/0e/0044b5d9497de9c8fb6a6c61fef484ee9eb3634659f569a0fb8ab46e2c80/omjlcomps-0.2.1.tar.gz
+[2023-06-12 14:44:06] INFO root fetch - processPackages [stripe-api-client]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [stripe-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe_api_client-0.1.2.tar.gz tmp/stripe_api_client-0.1.3.tar.gz --markdown 20230612/s/stripe-api-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 14:44:06] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [pycse]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-1.7.1.tar.gz tmp/redturtle.prenotazioni-2.0.0.dev0.tar.gz --markdown 20230612/r/redturtle.prenotazioni/1.7.1-2.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-12 14:44:06] INFO root fetch - processPackages [pycse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycse-2.2.0.tar.gz tmp/pycse-2.2.3.tar.gz --markdown 20230612/p/pycse/2.2.0-2.2.3/diff.md --exclude *.pyd
+[2023-06-12 14:44:06] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230612/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-12 14:44:06] INFO root fetch - processPackages [Operetta-tool]: Downloading https://files.pythonhosted.org/packages/4b/6a/675a1747715925bcc66c93339e8d58a4cfd92ccb6ba9cde542b7366112cb/Operetta_tool-1.4.0.tar.gz
+[2023-06-12 14:44:06] INFO root fetch - processPackages [omjlcomps]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [omjlcomps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omjlcomps-0.2.0.tar.gz tmp/omjlcomps-0.2.1.tar.gz --markdown 20230612/o/omjlcomps/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 14:44:06] INFO root fetch - processPackages [Operetta-tool]: executing diffoscope
+[2023-06-12 14:44:06] INFO root fetch - processPackages [Operetta-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Operetta_tool-1.2.7.tar.gz tmp/Operetta_tool-1.4.0.tar.gz --markdown 20230612/O/Operetta-tool/1.2.7-1.4.0/diff.md --exclude *.pyd
+[2023-06-12 14:44:07] INFO root fetch - processPackages [stripe-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stripe_api_client-0.1.2.tar.gz]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [stripe-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stripe_api_client-0.1.3.tar.gz]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [stripe-api-client]: Start processing: hlatypingtools
+[2023-06-12 14:44:07] INFO root fetch - main [MainThread]: End processing [stripe-api-client]: success
+[2023-06-12 14:44:07] INFO root fetch - processPackages [solidityscan]: Remove: archive file [/home/abi/fetcher/tmp/solidityscan-0.1.4.tar.gz]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [solidityscan]: Remove: archive file [/home/abi/fetcher/tmp/solidityscan-0.1.6.tar.gz]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [solidityscan]: Start processing: dkist
+[2023-06-12 14:44:07] INFO root fetch - main [MainThread]: End processing [solidityscan]: success
+[2023-06-12 14:44:07] INFO root fetch - processPackages [hlatypingtools]: New version: [1.0.7.2] Old Version: [1.0.7.1]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [dkist]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [pycse]: Remove: archive file [/home/abi/fetcher/tmp/pycse-2.2.0.tar.gz]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [pycse]: Remove: archive file [/home/abi/fetcher/tmp/pycse-2.2.3.tar.gz]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [pycse]: Start processing: assisted-service-client
+[2023-06-12 14:44:07] INFO root fetch - main [MainThread]: End processing [pycse]: success
+[2023-06-12 14:44:07] INFO root fetch - processPackages [Operetta-tool]: Remove: archive file [/home/abi/fetcher/tmp/Operetta_tool-1.2.7.tar.gz]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [Operetta-tool]: Remove: archive file [/home/abi/fetcher/tmp/Operetta_tool-1.4.0.tar.gz]
+[2023-06-12 14:44:07] INFO root fetch - processPackages [Operetta-tool]: Start processing: spanda
+[2023-06-12 14:44:07] INFO root fetch - main [MainThread]: End processing [Operetta-tool]: success
+[2023-06-12 14:44:08] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-12 14:44:08] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-12 14:44:08] INFO root fetch - processPackages [hlatypingtools]: Downloading https://files.pythonhosted.org/packages/74/14/fbe5bb2e7ab10baf7419886ebacbb11fe470f4cfd2c4da5b2e5f4879e4c8/hlatypingtools-1.0.7.1.tar.gz
+[2023-06-12 14:44:08] INFO root fetch - processPackages [spanda]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 14:44:08] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/a6/3e/abef3a824a906bd915094170d3244d872371aa824b8f096da7517c9f87bf/dkist-1.0.0b8.tar.gz
+[2023-06-12 14:44:08] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-12 14:44:08] INFO root fetch - processPackages [spanda]: Downloading https://files.pythonhosted.org/packages/f9/1c/224f2a2844ff544cba61066bbbc6eac17089005c1cc1100c368cf8be5aea/spanda-0.0.8.tar.gz
+[2023-06-12 14:44:08] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-12 14:44:08] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230612/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-12 14:44:08] INFO root fetch - processPackages [omjlcomps]: Remove: archive file [/home/abi/fetcher/tmp/omjlcomps-0.2.0.tar.gz]
+[2023-06-12 14:44:08] INFO root fetch - processPackages [omjlcomps]: Remove: archive file [/home/abi/fetcher/tmp/omjlcomps-0.2.1.tar.gz]
+[2023-06-12 14:44:08] INFO root fetch - processPackages [omjlcomps]: Start processing: mailslurp-client
+[2023-06-12 14:44:08] INFO root fetch - main [MainThread]: End processing [omjlcomps]: success
+[2023-06-12 14:44:08] INFO root fetch - processPackages [hlatypingtools]: Downloading https://files.pythonhosted.org/packages/77/44/16cb79c9d1ab80671c67a3fcf40c32b36709ed191a255b9423e406f5fde0/hlatypingtools-1.0.7.2.tar.gz
+[2023-06-12 14:44:08] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2023-06-12 14:44:08] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2023-06-12 14:44:08] INFO root fetch - processPackages [hlatypingtools]: executing diffoscope
+[2023-06-12 14:44:08] INFO root fetch - processPackages [hlatypingtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hlatypingtools-1.0.7.1.tar.gz tmp/hlatypingtools-1.0.7.2.tar.gz --markdown 20230612/h/hlatypingtools/1.0.7.1-1.0.7.2/diff.md --exclude *.pyd
+[2023-06-12 14:44:08] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/23/9d/e4ab50b6e34caa093cf1d311f12a1c41dc8cbaefabf74f5641df2f9fa65a/dkist-1.0.0b9.tar.gz
+[2023-06-12 14:44:08] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2023-06-12 14:44:08] INFO root fetch - processPackages [spanda]: Downloading https://files.pythonhosted.org/packages/3f/ee/2a6ac7824ab34f67be3c79be0283b2c16749354722e45300bcd2ff6258e2/spanda-0.0.9.tar.gz
+[2023-06-12 14:44:08] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2023-06-12 14:44:08] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20230612/m/mailslurp-client/8.7.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-12 14:44:08] INFO root fetch - processPackages [spanda]: executing diffoscope
+[2023-06-12 14:44:08] INFO root fetch - processPackages [spanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanda-0.0.8.tar.gz tmp/spanda-0.0.9.tar.gz --markdown 20230612/s/spanda/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 14:44:09] INFO root fetch - processPackages [hlatypingtools]: Remove: archive file [/home/abi/fetcher/tmp/hlatypingtools-1.0.7.1.tar.gz]
+[2023-06-12 14:44:09] INFO root fetch - processPackages [hlatypingtools]: Remove: archive file [/home/abi/fetcher/tmp/hlatypingtools-1.0.7.2.tar.gz]
+[2023-06-12 14:44:09] INFO root fetch - main [MainThread]: End processing [hlatypingtools]: success
+[2023-06-12 14:44:09] INFO root fetch - processPackages [dkist]: executing diffoscope
+[2023-06-12 14:44:09] INFO root fetch - processPackages [dkist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-1.0.0b8.tar.gz tmp/dkist-1.0.0b9.tar.gz --markdown 20230612/d/dkist/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-06-12 14:44:09] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-12 14:44:09] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-12 14:44:09] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-12 14:44:09] INFO root fetch - processPackages [vgd-counterfactuals]: Remove: archive file [/home/abi/fetcher/tmp/vgd_counterfactuals-0.3.0.tar.gz]
+[2023-06-12 14:44:09] INFO root fetch - processPackages [vgd-counterfactuals]: Remove: archive file [/home/abi/fetcher/tmp/vgd_counterfactuals-0.3.1.tar.gz]
+[2023-06-12 14:44:09] INFO root fetch - main [MainThread]: End processing [vgd-counterfactuals]: success
+[2023-06-12 14:44:09] INFO root fetch - processPackages [spanda]: Remove: archive file [/home/abi/fetcher/tmp/spanda-0.0.8.tar.gz]
+[2023-06-12 14:44:09] INFO root fetch - processPackages [spanda]: Remove: archive file [/home/abi/fetcher/tmp/spanda-0.0.9.tar.gz]
+[2023-06-12 14:44:09] INFO root fetch - main [MainThread]: End processing [spanda]: success
+[2023-06-12 14:44:11] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 14:44:11] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 14:44:11] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-12 14:44:11] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-1.7.1.tar.gz]
+[2023-06-12 14:44:11] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.0.0.dev0.tar.gz]
+[2023-06-12 14:44:11] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2023-06-12 14:44:11] INFO root fetch - processPackages [dkist]: Remove: archive file [/home/abi/fetcher/tmp/dkist-1.0.0b8.tar.gz]
+[2023-06-12 14:44:11] INFO root fetch - processPackages [dkist]: Remove: archive file [/home/abi/fetcher/tmp/dkist-1.0.0b9.tar.gz]
+[2023-06-12 14:44:11] INFO root fetch - main [MainThread]: End processing [dkist]: success
+[2023-06-12 14:44:12] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-12 14:44:12] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-12 14:44:12] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-12 14:44:14] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2023-06-12 14:44:14] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2023-06-12 14:44:14] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2023-06-12 14:45:04] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-12 14:45:04] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-12 14:45:04] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-12 14:45:04] INFO root fetch - main [MainThread]: Store serial: [18468766]
