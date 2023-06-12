@@ -8126,3 +8126,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 06:35:41] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
 [2023-06-12 06:35:41] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-06-12 06:35:41] INFO root fetch - main [MainThread]: Store serial: [18464624]
+[2023-06-12 06:40:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464624]
+[2023-06-12 06:40:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 06:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-macos
+[2023-06-12 06:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: backupp
+[2023-06-12 06:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: co2ncientes
+[2023-06-12 06:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-tui
+[2023-06-12 06:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sc-editor
+[2023-06-12 06:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neural-amp-modeler
+[2023-06-12 06:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nqnq
+[2023-06-12 06:40:50] INFO root fetch - processPackages [pytest-tui]: New version: [2.0.0] Old Version: [1.9.2]
+[2023-06-12 06:40:50] INFO root fetch - processPackages [sc-editor]: New version: [0.85] Old Version: [0.84]
+[2023-06-12 06:40:50] WARNING root fetch - processPackages [co2ncientes]: Skipping, unable to determine old version
+[2023-06-12 06:40:50] INFO root fetch - main [MainThread]: End processing [co2ncientes] error
+[2023-06-12 06:40:50] INFO root fetch - processPackages [backupp]: New version: [0.0.9rc1] Old Version: [0.0.9]
+[2023-06-12 06:40:50] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230610] Old Version: [2.14.0.dev20230609]
+[2023-06-12 06:40:50] INFO root fetch - processPackages [neural-amp-modeler]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-12 06:40:50] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/3f/76/ff0914deb281d2b844977a89532e4e76c5558dfb825db728646dec581d9c/backupp-0.0.9-py2.py3-none-any.whl
+[2023-06-12 06:40:50] INFO root fetch - processPackages [nqnq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 06:40:50] INFO root fetch - processPackages [pytest-tui]: Downloading https://files.pythonhosted.org/packages/b4/cc/6036b95e9166d630a449007d511a0a99c9c66ef595c206b4c54470042e9b/pytest-tui-1.9.2.tar.gz
+[2023-06-12 06:40:50] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/ef/18/0f0d2f1fc5edfc15de8807e97583e4183b08f06c3d288e4cc7304727510c/sc-editor-0.84.tar.gz
+[2023-06-12 06:40:50] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/c0/12/04af5ae766512376ce104815515a05fc60baef777a1e09b0ac3dc11e784d/backupp-0.0.9rc1-py2.py3-none-any.whl
+[2023-06-12 06:40:50] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/f4/46/88f2d1205d2af670f1c69580519c5dcee8c93c0a60e66dfae8f4d223ece6/neural-amp-modeler-0.5.2.tar.gz
+[2023-06-12 06:40:50] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/01/cb/71e2f8f1584fca5114bc0b80db247fdbf52996a7384eb022621db9c50e4d/tf_nightly_macos-2.14.0.dev20230609-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-12 06:40:51] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 198390847>=10485760
+[2023-06-12 06:40:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-12 06:40:51] INFO root fetch - processPackages [nqnq]: Downloading https://files.pythonhosted.org/packages/98/89/8f0f5a0e0e2cafa34616101ab01efa94c07ba1c271d3a13a9fd856a64d01/nqnq-0.1.8.tar.gz
+[2023-06-12 06:40:51] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-12 06:40:51] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.9-py2.py3-none-any.whl.zip tmp/backupp-0.0.9rc1-py2.py3-none-any.whl.zip --markdown 20230612/b/backupp/0.0.9-0.0.9rc1/diff.md --exclude *.pyd
+[2023-06-12 06:40:51] INFO root fetch - processPackages [pytest-tui]: Downloading https://files.pythonhosted.org/packages/93/f3/101928dc01eb8a76753e0b78922fcbe1b7207a9ef10771dac64792666f6d/pytest-tui-2.0.0.tar.gz
+[2023-06-12 06:40:51] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/52/0b/a8eae2e471c5913a01a8da5652a5cc0b4fdb3c6fd5f7b820454450bfc1c9/neural-amp-modeler-0.6.0.tar.gz
+[2023-06-12 06:40:51] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/c1/98/d1eaa5b1caa3e561ae168f2192ae75058f6d7b5d72c960408d747320982f/sc-editor-0.85.tar.gz
+[2023-06-12 06:40:51] INFO root fetch - processPackages [pytest-tui]: executing diffoscope
+[2023-06-12 06:40:51] INFO root fetch - processPackages [pytest-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-tui-1.9.2.tar.gz tmp/pytest-tui-2.0.0.tar.gz --markdown 20230612/p/pytest-tui/1.9.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-12 06:40:51] INFO root fetch - processPackages [nqnq]: Downloading https://files.pythonhosted.org/packages/c9/e4/727379fefccbaf375b33400f285ad2659e126dffbbab841fb68add5fbf03/nqnq-0.1.9.tar.gz
+[2023-06-12 06:40:51] INFO root fetch - processPackages [neural-amp-modeler]: executing diffoscope
+[2023-06-12 06:40:51] INFO root fetch - processPackages [neural-amp-modeler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-amp-modeler-0.5.2.tar.gz tmp/neural-amp-modeler-0.6.0.tar.gz --markdown 20230612/n/neural-amp-modeler/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-12 06:40:51] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 06:40:51] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.84.tar.gz tmp/sc-editor-0.85.tar.gz --markdown 20230612/s/sc-editor/0.84-0.85/diff.md --exclude *.pyd
+[2023-06-12 06:40:51] INFO root fetch - processPackages [nqnq]: executing diffoscope
+[2023-06-12 06:40:51] INFO root fetch - processPackages [nqnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nqnq-0.1.8.tar.gz tmp/nqnq-0.1.9.tar.gz --markdown 20230612/n/nqnq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 06:40:52] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.9-py2.py3-none-any.whl.zip]
+[2023-06-12 06:40:52] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.9rc1-py2.py3-none-any.whl.zip]
+[2023-06-12 06:40:52] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-12 06:40:52] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural-amp-modeler-0.5.2.tar.gz]
+[2023-06-12 06:40:52] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural-amp-modeler-0.6.0.tar.gz]
+[2023-06-12 06:40:52] INFO root fetch - main [MainThread]: End processing [neural-amp-modeler]: success
+[2023-06-12 06:40:52] INFO root fetch - processPackages [nqnq]: Remove: archive file [/home/abi/fetcher/tmp/nqnq-0.1.8.tar.gz]
+[2023-06-12 06:40:52] INFO root fetch - processPackages [nqnq]: Remove: archive file [/home/abi/fetcher/tmp/nqnq-0.1.9.tar.gz]
+[2023-06-12 06:40:52] INFO root fetch - main [MainThread]: End processing [nqnq]: success
+[2023-06-12 06:40:52] INFO root fetch - processPackages [pytest-tui]: Remove: archive file [/home/abi/fetcher/tmp/pytest-tui-1.9.2.tar.gz]
+[2023-06-12 06:40:52] INFO root fetch - processPackages [pytest-tui]: Remove: archive file [/home/abi/fetcher/tmp/pytest-tui-2.0.0.tar.gz]
+[2023-06-12 06:40:52] INFO root fetch - main [MainThread]: End processing [pytest-tui]: success
+[2023-06-12 06:40:52] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.84.tar.gz]
+[2023-06-12 06:40:52] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.85.tar.gz]
+[2023-06-12 06:40:52] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 06:40:52] INFO root fetch - main [MainThread]: Store serial: [18464650]
