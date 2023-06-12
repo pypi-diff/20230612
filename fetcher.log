@@ -14553,3 +14553,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 12:20:53] INFO root fetch - processPackages [eveparse]: Remove: archive file [/home/abi/fetcher/tmp/eveparse-1.0.0.tar.gz]
 [2023-06-12 12:20:53] INFO root fetch - main [MainThread]: End processing [eveparse]: success
 [2023-06-12 12:20:53] INFO root fetch - main [MainThread]: Store serial: [18467429]
+[2023-06-12 12:25:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467429]
+[2023-06-12 12:26:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Python-piSPM
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ma-notification-center
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: searchlogit
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysigma-backend-loki
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SAMYOL
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muheqa
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codat-bankfeeds
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codat-accounting
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codat-commerce
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codat-common
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ma-notification-center]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [Python-piSPM]: New version: [7.7.0.1] Old Version: [7.7.0]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [codat-bankfeeds]: New version: [0.8.5] Old Version: [0.6.4]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [muheqa]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [SAMYOL]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [pysigma-backend-loki]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [codat-accounting]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [codat-common]: New version: [0.8.1] Old Version: [0.6.5]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [codat-commerce]: New version: [0.9.6] Old Version: [0.7.0]
+[2023-06-12 12:26:04] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/a3/3b/a700ec26dcd6fcfdba3f428633b16a4954a77f57369bd57b148f7741dd09/SAMYOL-1.0.5.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/2c/3b/146445b416f97868fde4e1e81268065069d4e36a092fab4a5e394204eacd/ma_notification_center-1.0.1.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/df/40/694dc4fa8e23a2f98427546be4467e8051fa74cbcb1fdf59dbf7292b6c85/muheqa-0.0.5.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [codat-bankfeeds]: Downloading https://files.pythonhosted.org/packages/3b/b3/b325da43bc3be0b5b312d96832957604d3a6e30b3022fb041cd0d5f65e63/codat-bankfeeds-0.6.4.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [Python-piSPM]: Downloading https://files.pythonhosted.org/packages/85/58/6669cd4ce454bf56048dbbed9dc0823cb81c376701fd5fc94ab181b6a661/Python-piSPM-7.7.0.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/bf/47/f4cdb75c867c024099ef9160e409fd058e88bdab11b26ab1203dca2ef1f2/codat-accounting-0.5.1.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/05/49/5c4c0f58598c30d249e6376187c9789b457efa196a03378adb8e8fcc50c2/pysigma_backend_loki-0.8.0.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [codat-common]: Downloading https://files.pythonhosted.org/packages/ce/e4/56d482565ff5a242c0614bcacccf0e233c98a5ebbe3ba3c8fb0e613ef4a7/codat-common-0.6.5.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/17/71/80ee93ad7c334b21943ae188461c7718568ca37a0de152c61ad4f7df5859/SAMYOL-1.0.6.tar.gz
+[2023-06-12 12:26:04] INFO root fetch - processPackages [codat-commerce]: Downloading https://files.pythonhosted.org/packages/5e/0b/158bc3bfc7f7601b8daa3c8949d75e8a2e5dea3221f16b6ecaafe43dbca3/codat-commerce-0.7.0.tar.gz
+[2023-06-12 12:26:05] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/7d/ab/e6853bab18914e9acf1eb29e580aa1d5a2b925b36c9aa8c82507b41ca71b/ma_notification_center-1.0.2.tar.gz
+[2023-06-12 12:26:05] INFO root fetch - processPackages [SAMYOL]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [SAMYOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAMYOL-1.0.5.tar.gz tmp/SAMYOL-1.0.6.tar.gz --markdown 20230612/S/SAMYOL/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-12 12:26:05] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230612/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 12:26:05] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/42/53/23cd69bb405b223d03028880bc46f418121f6bb5a3479bec1c1317953abd/muheqa-0.0.6.tar.gz
+[2023-06-12 12:26:05] INFO root fetch - processPackages [ma-notification-center]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [ma-notification-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ma_notification_center-1.0.1.tar.gz tmp/ma_notification_center-1.0.2.tar.gz --markdown 20230612/m/ma-notification-center/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 12:26:05] INFO root fetch - processPackages [Python-piSPM]: Downloading https://files.pythonhosted.org/packages/28/f6/e036aeb9d72b9c54a7c1d73bce9d3033016bbcb1715fa8f0122488e7727c/Python-piSPM-7.7.0.1.tar.gz
+[2023-06-12 12:26:05] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/bb/f7/e14e2282ec896beb15cd67b1c316aba9ad27eaedf2edafab2e2cc5527662/pysigma_backend_loki-0.9.0.tar.gz
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-bankfeeds]: Downloading https://files.pythonhosted.org/packages/7f/1b/912a0d77891dbd5050af859f0e367b0c052b2ba8196dffd37004bc420bb4/codat-bankfeeds-0.8.5.tar.gz
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/5b/d6/7816e15411df42a3927b96e719b12df2b452f71167af865f1128d44bf77b/codat-accounting-0.9.6.tar.gz
+[2023-06-12 12:26:05] INFO root fetch - processPackages [Python-piSPM]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [Python-piSPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python-piSPM-7.7.0.tar.gz tmp/Python-piSPM-7.7.0.1.tar.gz --markdown 20230612/P/Python-piSPM/7.7.0-7.7.0.1/diff.md --exclude *.pyd
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-common]: Downloading https://files.pythonhosted.org/packages/f7/31/effc45061ad6b0aaedae73860803c39dc10db206cbd327e78a25ef4a8e64/codat-common-0.8.1.tar.gz
+[2023-06-12 12:26:05] INFO root fetch - processPackages [muheqa]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [pysigma-backend-loki]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [muheqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muheqa-0.0.5.tar.gz tmp/muheqa-0.0.6.tar.gz --markdown 20230612/m/muheqa/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-12 12:26:05] INFO root fetch - processPackages [pysigma-backend-loki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_loki-0.8.0.tar.gz tmp/pysigma_backend_loki-0.9.0.tar.gz --markdown 20230612/p/pysigma-backend-loki/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-accounting]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-accounting-0.5.1.tar.gz tmp/codat-accounting-0.9.6.tar.gz --markdown 20230612/c/codat-accounting/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-commerce]: Downloading https://files.pythonhosted.org/packages/71/8e/245363a88da4d674a28d917f5ea7d96ac815727f03b88dc4ed8e0ae9416b/codat-commerce-0.9.6.tar.gz
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-common]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-common-0.6.5.tar.gz tmp/codat-common-0.8.1.tar.gz --markdown 20230612/c/codat-common/0.6.5-0.8.1/diff.md --exclude *.pyd
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-commerce]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-commerce-0.7.0.tar.gz tmp/codat-commerce-0.9.6.tar.gz --markdown 20230612/c/codat-commerce/0.7.0-0.9.6/diff.md --exclude *.pyd
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-bankfeeds]: executing diffoscope
+[2023-06-12 12:26:05] INFO root fetch - processPackages [codat-bankfeeds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-bankfeeds-0.6.4.tar.gz tmp/codat-bankfeeds-0.8.5.tar.gz --markdown 20230612/c/codat-bankfeeds/0.6.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-12 12:26:07] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-1.0.1.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-1.0.2.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [ma-notification-center]: Start processing: codat-sync-for-expenses
+[2023-06-12 12:26:07] INFO root fetch - main [MainThread]: End processing [ma-notification-center]: success
+[2023-06-12 12:26:07] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.5.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.6.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [SAMYOL]: Start processing: codat-assess
+[2023-06-12 12:26:07] INFO root fetch - main [MainThread]: End processing [SAMYOL]: success
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-sync-for-expenses]: New version: [0.25.2] Old Version: [0.23.1]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [searchlogit]: Start processing: codat-sync-for-commerce
+[2023-06-12 12:26:07] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-12 12:26:07] INFO root fetch - processPackages [pysigma-backend-loki]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_loki-0.8.0.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [pysigma-backend-loki]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_loki-0.9.0.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [pysigma-backend-loki]: Start processing: codat-banking
+[2023-06-12 12:26:07] INFO root fetch - main [MainThread]: End processing [pysigma-backend-loki]: success
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-assess]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [Python-piSPM]: Remove: archive file [/home/abi/fetcher/tmp/Python-piSPM-7.7.0.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [Python-piSPM]: Remove: archive file [/home/abi/fetcher/tmp/Python-piSPM-7.7.0.1.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [Python-piSPM]: Start processing: codat-files
+[2023-06-12 12:26:07] INFO root fetch - main [MainThread]: End processing [Python-piSPM]: success
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-banking]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-sync-for-commerce]: New version: [0.9.0] Old Version: [0.22.2]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-sync-for-expenses]: Downloading https://files.pythonhosted.org/packages/66/7d/78e031942ac9258a73cfccacdd10329dce015352bc7685ca5e5c8abd57c6/codat-sync-for-expenses-0.23.1.tar.gz
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-files]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.5.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.6.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [muheqa]: Start processing: b21scripts
+[2023-06-12 12:26:07] INFO root fetch - main [MainThread]: End processing [muheqa]: success
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/5d/5d/ccb02812cf4612cbc83dfcef4407d3a273c4dd18c62d3a4ea911297d49b2/codat-assess-0.5.1.tar.gz
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-commerce-0.7.0.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-commerce-0.9.6.tar.gz]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-commerce]: Start processing: basetrainer
+[2023-06-12 12:26:07] INFO root fetch - main [MainThread]: End processing [codat-commerce]: success
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-sync-for-commerce]: Downloading https://files.pythonhosted.org/packages/55/26/f7fdaf7335a54095af98a5db9a3174c2151e95e6c7cd379a8a566327f674/codat-sync-for-commerce-0.22.2.tar.gz
+[2023-06-12 12:26:07] INFO root fetch - processPackages [basetrainer]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/b2/67/b084d283648809692d3c8041847804abd7f84339ae948ce7f6da7a32b680/codat-banking-0.5.1.tar.gz
+[2023-06-12 12:26:07] INFO root fetch - processPackages [b21scripts]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-06-12 12:26:07] INFO root fetch - processPackages [basetrainer]: Downloading https://files.pythonhosted.org/packages/57/b0/542be7a2451e8b6b2a181abe33b8851ab88c9f91392132e37d105a35e205/basetrainer-0.7.1.tar.gz
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/b0/fe/a53b4b765043b4fe93829f81e707b8a4bb74754c9af05dff9090b876395a/codat-files-0.5.1.tar.gz
+[2023-06-12 12:26:07] INFO root fetch - processPackages [codat-sync-for-expenses]: Downloading https://files.pythonhosted.org/packages/2c/4f/efa8463d077fddb6d6ae6549f896e7ccc602d9442e7ada859b4bf4eeea18/codat-sync-for-expenses-0.25.2.tar.gz
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-bankfeeds]: Remove: archive file [/home/abi/fetcher/tmp/codat-bankfeeds-0.6.4.tar.gz]
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-bankfeeds]: Remove: archive file [/home/abi/fetcher/tmp/codat-bankfeeds-0.8.5.tar.gz]
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-bankfeeds]: Start processing: chatlocal
+[2023-06-12 12:26:08] INFO root fetch - main [MainThread]: End processing [codat-bankfeeds]: success
+[2023-06-12 12:26:08] INFO root fetch - processPackages [b21scripts]: Downloading https://files.pythonhosted.org/packages/8d/4f/f80cc20ded28ab9d9dff0758cbffd3a9bff361e30fca1c0c35e7af1b2f99/b21scripts-1.0.7.tar.gz
+[2023-06-12 12:26:08] WARNING root fetch - processPackages [chatlocal]: Skipping, unable to determine old version
+[2023-06-12 12:26:08] INFO root fetch - main [MainThread]: End processing [chatlocal] error
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-sync-for-expenses]: executing diffoscope
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-sync-for-expenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-expenses-0.23.1.tar.gz tmp/codat-sync-for-expenses-0.25.2.tar.gz --markdown 20230612/c/codat-sync-for-expenses/0.23.1-0.25.2/diff.md --exclude *.pyd
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/f6/02/f5dc6ed7ee14f66ceee9aaed1c91a300250841109670580c9d80a62fdd94/codat-assess-0.9.6.tar.gz
+[2023-06-12 12:26:08] INFO root fetch - processPackages [basetrainer]: Downloading https://files.pythonhosted.org/packages/af/99/4348da222d55b07951c9768ded9273b96629a5939857301edaaadafb8d6f/basetrainer-0.7.3.tar.gz
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-sync-for-commerce]: Downloading https://files.pythonhosted.org/packages/00/d0/4f4225a3f91360f9b631b97ec3846d9d0497b91bf7c038bfa8fce2db75ac/codat-sync-for-commerce-0.9.0.tar.gz
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/03/e8/014083e796ec06673a05a666a7990cbb928cd2ff12ff970fbd141ed4b9e3/codat-banking-0.8.4.tar.gz
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-assess]: executing diffoscope
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-assess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-assess-0.5.1.tar.gz tmp/codat-assess-0.9.6.tar.gz --markdown 20230612/c/codat-assess/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-06-12 12:26:08] INFO root fetch - processPackages [basetrainer]: executing diffoscope
+[2023-06-12 12:26:08] INFO root fetch - processPackages [basetrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basetrainer-0.7.1.tar.gz tmp/basetrainer-0.7.3.tar.gz --markdown 20230612/b/basetrainer/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-sync-for-commerce]: executing diffoscope
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-sync-for-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-commerce-0.22.2.tar.gz tmp/codat-sync-for-commerce-0.9.0.tar.gz --markdown 20230612/c/codat-sync-for-commerce/0.22.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 12:26:08] INFO root fetch - processPackages [b21scripts]: Downloading https://files.pythonhosted.org/packages/c7/88/8dec53948179570c1fd1d6274f4118b6c4d2e8a40a1eaa731418b520db4c/b21scripts-1.1.0.tar.gz
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-banking]: executing diffoscope
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-banking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-banking-0.5.1.tar.gz tmp/codat-banking-0.8.4.tar.gz --markdown 20230612/c/codat-banking/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/f7/59/40db2426b2418665047a57166d68c373463f3fc2be5dc4b9b82f056e35e5/codat-files-0.8.4.tar.gz
+[2023-06-12 12:26:08] INFO root fetch - processPackages [b21scripts]: executing diffoscope
+[2023-06-12 12:26:08] INFO root fetch - processPackages [b21scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b21scripts-1.0.7.tar.gz tmp/b21scripts-1.1.0.tar.gz --markdown 20230612/b/b21scripts/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-files]: executing diffoscope
+[2023-06-12 12:26:08] INFO root fetch - processPackages [codat-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-files-0.5.1.tar.gz tmp/codat-files-0.8.4.tar.gz --markdown 20230612/c/codat-files/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-06-12 12:26:10] INFO root fetch - processPackages [b21scripts]: Remove: archive file [/home/abi/fetcher/tmp/b21scripts-1.0.7.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - processPackages [b21scripts]: Remove: archive file [/home/abi/fetcher/tmp/b21scripts-1.1.0.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - main [MainThread]: End processing [b21scripts]: success
+[2023-06-12 12:26:10] INFO root fetch - processPackages [codat-common]: Remove: archive file [/home/abi/fetcher/tmp/codat-common-0.6.5.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - processPackages [codat-common]: Remove: archive file [/home/abi/fetcher/tmp/codat-common-0.8.1.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - main [MainThread]: End processing [codat-common]: success
+[2023-06-12 12:26:10] INFO root fetch - processPackages [codat-files]: Remove: archive file [/home/abi/fetcher/tmp/codat-files-0.5.1.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - processPackages [codat-files]: Remove: archive file [/home/abi/fetcher/tmp/codat-files-0.8.4.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - main [MainThread]: End processing [codat-files]: success
+[2023-06-12 12:26:10] INFO root fetch - processPackages [codat-sync-for-expenses]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-expenses-0.23.1.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - processPackages [codat-sync-for-expenses]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-expenses-0.25.2.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - main [MainThread]: End processing [codat-sync-for-expenses]: success
+[2023-06-12 12:26:10] INFO root fetch - processPackages [codat-banking]: Remove: archive file [/home/abi/fetcher/tmp/codat-banking-0.5.1.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - processPackages [codat-banking]: Remove: archive file [/home/abi/fetcher/tmp/codat-banking-0.8.4.tar.gz]
+[2023-06-12 12:26:10] INFO root fetch - main [MainThread]: End processing [codat-banking]: success
+[2023-06-12 12:26:11] INFO root fetch - processPackages [codat-assess]: Remove: archive file [/home/abi/fetcher/tmp/codat-assess-0.5.1.tar.gz]
+[2023-06-12 12:26:11] INFO root fetch - processPackages [codat-assess]: Remove: archive file [/home/abi/fetcher/tmp/codat-assess-0.9.6.tar.gz]
+[2023-06-12 12:26:11] INFO root fetch - main [MainThread]: End processing [codat-assess]: success
+[2023-06-12 12:26:11] INFO root fetch - processPackages [basetrainer]: Remove: archive file [/home/abi/fetcher/tmp/basetrainer-0.7.1.tar.gz]
+[2023-06-12 12:26:11] INFO root fetch - processPackages [basetrainer]: Remove: archive file [/home/abi/fetcher/tmp/basetrainer-0.7.3.tar.gz]
+[2023-06-12 12:26:11] INFO root fetch - main [MainThread]: End processing [basetrainer]: success
+[2023-06-12 12:26:11] INFO root fetch - processPackages [codat-sync-for-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-commerce-0.22.2.tar.gz]
+[2023-06-12 12:26:11] INFO root fetch - processPackages [codat-sync-for-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-commerce-0.9.0.tar.gz]
+[2023-06-12 12:26:11] INFO root fetch - main [MainThread]: End processing [codat-sync-for-commerce]: success
+[2023-06-12 12:26:12] INFO root fetch - processPackages [codat-accounting]: Remove: archive file [/home/abi/fetcher/tmp/codat-accounting-0.5.1.tar.gz]
+[2023-06-12 12:26:12] INFO root fetch - processPackages [codat-accounting]: Remove: archive file [/home/abi/fetcher/tmp/codat-accounting-0.9.6.tar.gz]
+[2023-06-12 12:26:12] INFO root fetch - main [MainThread]: End processing [codat-accounting]: success
+[2023-06-12 12:26:12] INFO root fetch - main [MainThread]: Store serial: [18467493]
