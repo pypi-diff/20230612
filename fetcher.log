@@ -15036,3 +15036,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 12:44:03] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-06-12 12:44:03] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-06-12 12:44:03] INFO root fetch - main [MainThread]: Store serial: [18467635]
+[2023-06-12 12:49:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467635]
+[2023-06-12 12:49:15] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telekinesis
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: business-profile-facebook-local
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usdm
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kili
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vollseg
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scdeepinsight
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: floating-window-framework
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: VMedNLP
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: server-chat69
+[2023-06-12 12:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: const-cython-lib
+[2023-06-12 12:49:15] INFO root fetch - processPackages [telekinesis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 12:49:15] INFO root fetch - processPackages [scdeepinsight]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-12 12:49:15] INFO root fetch - processPackages [floating-window-framework]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 12:49:15] WARNING root fetch - processPackages [business-profile-facebook-local]: Skipping, unable to determine old version
+[2023-06-12 12:49:15] INFO root fetch - processPackages [business-profile-facebook-local]: Start processing: fhir-kindling
+[2023-06-12 12:49:15] WARNING root fetch - processPackages [VMedNLP]: Skipping, unable to determine old version
+[2023-06-12 12:49:15] INFO root fetch - main [MainThread]: End processing [business-profile-facebook-local] error
+[2023-06-12 12:49:15] INFO root fetch - processPackages [const-cython-lib]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 12:49:15] INFO root fetch - processPackages [VMedNLP]: Start processing: yeref
+[2023-06-12 12:49:15] INFO root fetch - processPackages [usdm]: New version: [0.28.0] Old Version: [0.27.0]
+[2023-06-12 12:49:15] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-06-12 12:49:15] INFO root fetch - main [MainThread]: End processing [VMedNLP] error
+[2023-06-12 12:49:15] WARNING root fetch - processPackages [server-chat69]: Skipping, unable to determine old version
+[2023-06-12 12:49:15] INFO root fetch - processPackages [server-chat69]: Start processing: scdeepinsight
+[2023-06-12 12:49:15] INFO root fetch - main [MainThread]: End processing [server-chat69] error
+[2023-06-12 12:49:15] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-12 12:49:15] INFO root fetch - processPackages [fhir-kindling]: New version: [1.0.0a8] Old Version: [1.0.0a7]
+[2023-06-12 12:49:15] INFO root fetch - processPackages [scdeepinsight]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-12 12:49:16] INFO root fetch - processPackages [yeref]: New version: [0.1.89] Old Version: [0.1.88]
+[2023-06-12 12:49:16] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/55/14/20714e13cf01305feee716c47aabc1943bfd4e0a621ba5a3c2a55cbc1814/yeref-0.1.88.tar.gz
+[2023-06-12 12:49:16] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-12 12:49:16] INFO root fetch - processPackages [vollseg]: Start processing: jax-xc
+[2023-06-12 12:49:16] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-12 12:49:16] INFO root fetch - processPackages [floating-window-framework]: Downloading https://files.pythonhosted.org/packages/5a/d5/a7068d331c0acc9f062a76506ad2bd2e21ded2000f72cab158ba24e53f2b/floating-window-framework-0.0.1.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [jax-xc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 12:49:16] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/aa/86/dc450aedaaf8947a852c0e97eb72fab6a33f1598db334aec327eb3da9f14/telekinesis-0.1.8.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/9e/8f/c41a6143977bd87dc15290339a26ec71b5cecb61986ff010c4e74415c53a/scdeepinsight-2.3.1.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/9e/8f/c41a6143977bd87dc15290339a26ec71b5cecb61986ff010c4e74415c53a/scdeepinsight-2.3.1.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/e2/27/7ed3d126b5147dea2141dc0d1fc79e45325b4f5164927abeeb02d24b8e88/const_cython_lib-0.0.6.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [usdm]: Downloading https://files.pythonhosted.org/packages/dc/97/b486610530e6903c741a8e71c761e78a659e306414b4de4126e22cd07978/usdm-0.27.0.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-06-12 12:49:16] WARNING root fetch - processPackages [scdeepinsight]: Skipping package: exceeds size limit 41349516>=10485760
+[2023-06-12 12:49:16] INFO root fetch - processPackages [scdeepinsight]: Start processing: const-cython-lib
+[2023-06-12 12:49:16] INFO root fetch - main [MainThread]: End processing [scdeepinsight] error
+[2023-06-12 12:49:16] WARNING root fetch - processPackages [scdeepinsight]: Skipping package: exceeds size limit 41349516>=10485760
+[2023-06-12 12:49:16] INFO root fetch - processPackages [scdeepinsight]: Start processing: SAMYOL
+[2023-06-12 12:49:16] INFO root fetch - main [MainThread]: End processing [scdeepinsight] error
+[2023-06-12 12:49:16] INFO root fetch - processPackages [fhir-kindling]: Downloading https://files.pythonhosted.org/packages/cf/f8/730e8fe7c6046bf8adea7a46ee8a1286bb1176a6cb4c967bf9787ce9b6f5/fhir_kindling-1.0.0a7.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [SAMYOL]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-12 12:49:16] INFO root fetch - processPackages [const-cython-lib]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 12:49:16] INFO root fetch - processPackages [jax-xc]: Downloading https://files.pythonhosted.org/packages/1f/ed/b554143aa002d3b648ee82d921794f5a170c4f8844ce05fca291ac885bcd/jax_xc-0.0.4-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-06-12 12:49:16] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/17/71/80ee93ad7c334b21943ae188461c7718568ca37a0de152c61ad4f7df5859/SAMYOL-1.0.6.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ef/84/e8a81fa102b323d20af24ac90f5258d6774bd95efdfe0e16d0155b3d8e8e/yeref-0.1.89.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [floating-window-framework]: Downloading https://files.pythonhosted.org/packages/08/31/26e647714fe7e8beaec397a22fcd24b0aa04d1d47f4fd1fd410f735c6f4f/floating-window-framework-0.0.2.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/e8/a4/6332f9385204dc6ca265268f2c222ce143c5c5fda26b92b88e2963e3bb8b/const_cython_lib-0.0.7.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/e8/a4/6332f9385204dc6ca265268f2c222ce143c5c5fda26b92b88e2963e3bb8b/const_cython_lib-0.0.7.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [usdm]: Downloading https://files.pythonhosted.org/packages/3e/09/3f2d86af06392e273bfc09137c15fe2c621418c7cded2861b32056120feb/usdm-0.28.0.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-12 12:49:16] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/f6/9c/89ce5106a8ef79bcf2ca3ac0083d2e3ef7e12a58b957c054cb8962d6ca34/telekinesis-0.1.9.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.88.tar.gz tmp/yeref-0.1.89.tar.gz --markdown 20230612/y/yeref/0.1.88-0.1.89/diff.md --exclude *.pyd
+[2023-06-12 12:49:16] INFO root fetch - processPackages [floating-window-framework]: executing diffoscope
+[2023-06-12 12:49:16] INFO root fetch - processPackages [floating-window-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/floating-window-framework-0.0.1.tar.gz tmp/floating-window-framework-0.0.2.tar.gz --markdown 20230612/f/floating-window-framework/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 12:49:16] INFO root fetch - processPackages [fhir-kindling]: Downloading https://files.pythonhosted.org/packages/04/55/af2585afe99d029a1656331e56292f6a97c099cc58dfbe08ac22530f8209/fhir_kindling-1.0.0a8.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 12:49:16] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.0.6.tar.gz tmp/const_cython_lib-0.0.7.tar.gz --markdown 20230612/c/const-cython-lib/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 12:49:16] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 12:49:16] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.0.6.tar.gz tmp/const_cython_lib-0.0.7.tar.gz --markdown 20230612/c/const-cython-lib/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 12:49:16] INFO root fetch - processPackages [usdm]: executing diffoscope
+[2023-06-12 12:49:16] INFO root fetch - processPackages [usdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usdm-0.27.0.tar.gz tmp/usdm-0.28.0.tar.gz --markdown 20230612/u/usdm/0.27.0-0.28.0/diff.md --exclude *.pyd
+[2023-06-12 12:49:16] INFO root fetch - processPackages [fhir-kindling]: executing diffoscope
+[2023-06-12 12:49:16] INFO root fetch - processPackages [fhir-kindling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhir_kindling-1.0.0a7.tar.gz tmp/fhir_kindling-1.0.0a8.tar.gz --markdown 20230612/f/fhir-kindling/1.0.0a7-1.0.0a8/diff.md --exclude *.pyd
+[2023-06-12 12:49:16] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/82/c8/000005ff2116df78d8e4f9d51a3e3d1dccf176c79c342dafe859fe1b5d73/SAMYOL-1.0.7.tar.gz
+[2023-06-12 12:49:16] INFO root fetch - processPackages [telekinesis]: executing diffoscope
+[2023-06-12 12:49:16] INFO root fetch - processPackages [telekinesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telekinesis-0.1.8.tar.gz tmp/telekinesis-0.1.9.tar.gz --markdown 20230612/t/telekinesis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 12:49:16] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-06-12 12:49:16] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230612/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-06-12 12:49:16] INFO root fetch - processPackages [SAMYOL]: executing diffoscope
+[2023-06-12 12:49:16] INFO root fetch - processPackages [SAMYOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAMYOL-1.0.6.tar.gz tmp/SAMYOL-1.0.7.tar.gz --markdown 20230612/S/SAMYOL/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-12 12:49:17] INFO root fetch - processPackages [jax-xc]: Downloading https://files.pythonhosted.org/packages/87/1f/11619df37db968ae4745e176645bd3139a12b1af792a4dc0253a6b44eecf/jax_xc-0.0.5-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-06-12 12:49:17] INFO root fetch - processPackages [jax-xc]: executing diffoscope
+[2023-06-12 12:49:17] INFO root fetch - processPackages [jax-xc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_xc-0.0.4-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/jax_xc-0.0.5-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230612/j/jax-xc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 12:49:18] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.0.6.tar.gz]
+[2023-06-12 12:49:18] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.0.7.tar.gz]
+[2023-06-12 12:49:18] INFO root fetch - processPackages [const-cython-lib]: Start processing: perftester
+[2023-06-12 12:49:18] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 12:49:18] INFO root fetch - processPackages [perftester]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-12 12:49:18] INFO root fetch - processPackages [floating-window-framework]: Remove: archive file [/home/abi/fetcher/tmp/floating-window-framework-0.0.1.tar.gz]
+[2023-06-12 12:49:18] INFO root fetch - processPackages [floating-window-framework]: Remove: archive file [/home/abi/fetcher/tmp/floating-window-framework-0.0.2.tar.gz]
+[2023-06-12 12:49:18] INFO root fetch - processPackages [floating-window-framework]: Start processing: sensors-connectivity
+[2023-06-12 12:49:18] INFO root fetch - main [MainThread]: End processing [floating-window-framework]: success
+[2023-06-12 12:49:18] INFO root fetch - processPackages [sensors-connectivity]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-12 12:49:18] INFO root fetch - processPackages [perftester]: Downloading https://files.pythonhosted.org/packages/7b/25/2d777b01dbeb8544d1f506f35efb107a73627499682daed853f857338e8c/perftester-0.6.2.tar.gz
+[2023-06-12 12:49:18] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.6.tar.gz]
+[2023-06-12 12:49:18] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.7.tar.gz]
+[2023-06-12 12:49:18] INFO root fetch - processPackages [SAMYOL]: Start processing: pysimflow
+[2023-06-12 12:49:18] INFO root fetch - main [MainThread]: End processing [SAMYOL]: success
+[2023-06-12 12:49:18] INFO root fetch - processPackages [pysimflow]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-06-12 12:49:18] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 12:49:18] INFO root fetch - processPackages [sensors-connectivity]: Downloading https://files.pythonhosted.org/packages/46/ee/6a588b31d9f28984472bd2a27ed111a1f392c319a9f5d10e942c63cc1b80/sensors_connectivity-1.4.1.tar.gz
+[2023-06-12 12:49:19] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/81/b4/9acc373849ce4301752d0ab214284afbc4bd3dea59e971808774250d5396/pysimflow-0.0.79.tar.gz
+[2023-06-12 12:49:19] INFO root fetch - processPackages [perftester]: Downloading https://files.pythonhosted.org/packages/63/51/852027c7b69401330317b5ea227b1479467950f7a2b280fd5ba5dfc1b2f6/perftester-0.6.3.tar.gz
+[2023-06-12 12:49:19] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72517285>=10485760
+[2023-06-12 12:49:19] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 12:49:19] INFO root fetch - processPackages [perftester]: executing diffoscope
+[2023-06-12 12:49:19] INFO root fetch - processPackages [perftester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perftester-0.6.2.tar.gz tmp/perftester-0.6.3.tar.gz --markdown 20230612/p/perftester/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-12 12:49:19] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.8.tar.gz]
+[2023-06-12 12:49:19] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.9.tar.gz]
+[2023-06-12 12:49:19] INFO root fetch - main [MainThread]: End processing [telekinesis]: success
+[2023-06-12 12:49:19] INFO root fetch - processPackages [sensors-connectivity]: Downloading https://files.pythonhosted.org/packages/24/50/e49c98097c1e540d2dd2c5fb4ecf5166d924c9ad41c9bb82170868b2ed83/sensors_connectivity-1.4.2.tar.gz
+[2023-06-12 12:49:19] INFO root fetch - processPackages [sensors-connectivity]: executing diffoscope
+[2023-06-12 12:49:19] INFO root fetch - processPackages [sensors-connectivity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensors_connectivity-1.4.1.tar.gz tmp/sensors_connectivity-1.4.2.tar.gz --markdown 20230612/s/sensors-connectivity/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-12 12:49:19] INFO root fetch - processPackages [fhir-kindling]: Remove: archive file [/home/abi/fetcher/tmp/fhir_kindling-1.0.0a7.tar.gz]
+[2023-06-12 12:49:19] INFO root fetch - processPackages [fhir-kindling]: Remove: archive file [/home/abi/fetcher/tmp/fhir_kindling-1.0.0a8.tar.gz]
+[2023-06-12 12:49:19] INFO root fetch - main [MainThread]: End processing [fhir-kindling]: success
+[2023-06-12 12:49:19] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2023-06-12 12:49:19] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2023-06-12 12:49:19] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-06-12 12:49:20] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.88.tar.gz]
+[2023-06-12 12:49:20] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.89.tar.gz]
+[2023-06-12 12:49:20] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-12 12:49:20] INFO root fetch - processPackages [usdm]: Remove: archive file [/home/abi/fetcher/tmp/usdm-0.27.0.tar.gz]
+[2023-06-12 12:49:20] INFO root fetch - processPackages [usdm]: Remove: archive file [/home/abi/fetcher/tmp/usdm-0.28.0.tar.gz]
+[2023-06-12 12:49:20] INFO root fetch - main [MainThread]: End processing [usdm]: success
+[2023-06-12 12:49:20] INFO root fetch - processPackages [perftester]: Remove: archive file [/home/abi/fetcher/tmp/perftester-0.6.2.tar.gz]
+[2023-06-12 12:49:20] INFO root fetch - processPackages [perftester]: Remove: archive file [/home/abi/fetcher/tmp/perftester-0.6.3.tar.gz]
+[2023-06-12 12:49:20] INFO root fetch - main [MainThread]: End processing [perftester]: success
+[2023-06-12 12:49:20] INFO root fetch - processPackages [sensors-connectivity]: Remove: archive file [/home/abi/fetcher/tmp/sensors_connectivity-1.4.1.tar.gz]
+[2023-06-12 12:49:20] INFO root fetch - processPackages [sensors-connectivity]: Remove: archive file [/home/abi/fetcher/tmp/sensors_connectivity-1.4.2.tar.gz]
+[2023-06-12 12:49:20] INFO root fetch - main [MainThread]: End processing [sensors-connectivity]: success
+[2023-06-12 12:50:12] INFO root fetch - processPackages [jax-xc]: Remove: archive file [/home/abi/fetcher/tmp/jax_xc-0.0.4-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2023-06-12 12:50:12] INFO root fetch - processPackages [jax-xc]: Remove: archive file [/home/abi/fetcher/tmp/jax_xc-0.0.5-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2023-06-12 12:50:12] INFO root fetch - main [MainThread]: End processing [jax-xc]: success
+[2023-06-12 12:50:12] INFO root fetch - main [MainThread]: Store serial: [18467702]
