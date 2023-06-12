@@ -2297,3 +2297,195 @@
 [2023-06-12 02:48:40] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202306110046-py3-none-any.whl.zip]
 [2023-06-12 02:48:40] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-12 02:48:40] INFO root fetch - main [MainThread]: Store serial: [18462302]
+[2023-06-12 02:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462302]
+[2023-06-12 02:53:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 02:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doyoung-ops
+[2023-06-12 02:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foc
+[2023-06-12 02:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-blog-lotus
+[2023-06-12 02:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lab-partner
+[2023-06-12 02:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-06-12 02:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: doyoung-ops
+[2023-06-12 02:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doyoung-ops
+[2023-06-12 02:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyntelope
+[2023-06-12 02:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparksnake
+[2023-06-12 02:53:48] INFO root fetch - processPackages [foc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 02:53:48] INFO root fetch - processPackages [django-blog-lotus]: New version: [0.6.0] Old Version: [0.5.2.1]
+[2023-06-12 02:53:48] INFO root fetch - processPackages [doyoung-ops]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-12 02:53:48] INFO root fetch - processPackages [doyoung-ops]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-12 02:53:48] INFO root fetch - processPackages [lab-partner]: New version: [0.7.51] Old Version: [0.7.45]
+[2023-06-12 02:53:48] INFO root fetch - processPackages [doyoung-ops]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-12 02:53:48] INFO root fetch - processPackages [pyntelope]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-12 02:53:48] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 02:53:48] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-12 02:53:48] INFO root fetch - processPackages [sparksnake]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 02:53:48] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-12 02:53:48] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-12 02:53:48] INFO root fetch - processPackages [doyoung-ops]: Downloading https://files.pythonhosted.org/packages/b2/e5/8e65e10cbc6adfe77609fd45e6e84850b9872f87cb0b2457a6c092bec65c/doyoung_ops-0.0.0.2-py2-none-any.whl
+[2023-06-12 02:53:48] INFO root fetch - processPackages [doyoung-ops]: Downloading https://files.pythonhosted.org/packages/b2/e5/8e65e10cbc6adfe77609fd45e6e84850b9872f87cb0b2457a6c092bec65c/doyoung_ops-0.0.0.2-py2-none-any.whl
+[2023-06-12 02:53:48] INFO root fetch - processPackages [doyoung-ops]: Downloading https://files.pythonhosted.org/packages/b2/e5/8e65e10cbc6adfe77609fd45e6e84850b9872f87cb0b2457a6c092bec65c/doyoung_ops-0.0.0.2-py2-none-any.whl
+[2023-06-12 02:53:48] INFO root fetch - processPackages [foc]: Downloading https://files.pythonhosted.org/packages/aa/12/735d8c548af8f764d0f27534cad33cd18dc65a75d75fce400eedc1487d83/foc-0.1.1.tar.gz
+[2023-06-12 02:53:48] INFO root fetch - processPackages [pyntelope]: Downloading https://files.pythonhosted.org/packages/5b/c0/a5217bc6879126d6392f0d6d7fd83f2526de27b59636e188d829aef715bf/pyntelope-0.8.5.tar.gz
+[2023-06-12 02:53:48] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/56/73/2257b64c3334d0f80ac720639d4b109c95739bdd0db6a35243fe5ef01e0f/lab-partner-0.7.45.tar.gz
+[2023-06-12 02:53:49] INFO root fetch - processPackages [django-blog-lotus]: Downloading https://files.pythonhosted.org/packages/8a/0d/6736314d3184dfc6ba3df1209f42ffcbbd130744e1dbc5a9fe96a6e182c7/django-blog-lotus-0.5.2.1.tar.gz
+[2023-06-12 02:53:49] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/07/82/b61aa887aa1d5119b80feb0143d565e3cf5c7acca393fe99c8acf9712b7f/sparksnake-0.1.8.tar.gz
+[2023-06-12 02:53:49] INFO root fetch - processPackages [doyoung-ops]: Downloading https://files.pythonhosted.org/packages/8c/fb/d5ce84ef0ea94ed82b8b58e703c1d15b2010adb38c819f1981c2ca157cb6/doyoung_ops-0.0.0.3-py2-none-any.whl
+[2023-06-12 02:53:49] INFO root fetch - processPackages [doyoung-ops]: Downloading https://files.pythonhosted.org/packages/8c/fb/d5ce84ef0ea94ed82b8b58e703c1d15b2010adb38c819f1981c2ca157cb6/doyoung_ops-0.0.0.3-py2-none-any.whl
+[2023-06-12 02:53:49] INFO root fetch - processPackages [doyoung-ops]: Downloading https://files.pythonhosted.org/packages/8c/fb/d5ce84ef0ea94ed82b8b58e703c1d15b2010adb38c819f1981c2ca157cb6/doyoung_ops-0.0.0.3-py2-none-any.whl
+[2023-06-12 02:53:49] INFO root fetch - processPackages [foc]: Downloading https://files.pythonhosted.org/packages/f7/e8/887d12b170d6153f867e8b93828fdd01c8f29618fa5abaa374d33708d883/foc-0.1.2.tar.gz
+[2023-06-12 02:53:49] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/da/71/fd6afcb23521dbe19e8d6cdfaa5691cb9c2e3ce20071295863542adad0db/lab-partner-0.7.51.tar.gz
+[2023-06-12 02:53:49] INFO root fetch - processPackages [pyntelope]: Downloading https://files.pythonhosted.org/packages/1c/7a/5cd3560b94e49a93b035d6b35c7d0815ad128c16566636648ef4195b5342/pyntelope-0.8.6.tar.gz
+[2023-06-12 02:53:49] INFO root fetch - processPackages [django-blog-lotus]: Downloading https://files.pythonhosted.org/packages/5f/9b/16993a665519a6e16d8f9fd9c6d0a3c0f1ece9b0abb4eac8af58ae9c303b/django-blog-lotus-0.6.0.tar.gz
+[2023-06-12 02:53:49] INFO root fetch - processPackages [foc]: executing diffoscope
+[2023-06-12 02:53:49] INFO root fetch - processPackages [foc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foc-0.1.1.tar.gz tmp/foc-0.1.2.tar.gz --markdown 20230612/f/foc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 02:53:49] INFO root fetch - processPackages [lab-partner]: executing diffoscope
+[2023-06-12 02:53:49] INFO root fetch - processPackages [lab-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-0.7.45.tar.gz tmp/lab-partner-0.7.51.tar.gz --markdown 20230612/l/lab-partner/0.7.45-0.7.51/diff.md --exclude *.pyd
+[2023-06-12 02:53:49] INFO root fetch - processPackages [pyntelope]: executing diffoscope
+[2023-06-12 02:53:49] INFO root fetch - processPackages [pyntelope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntelope-0.8.5.tar.gz tmp/pyntelope-0.8.6.tar.gz --markdown 20230612/p/pyntelope/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-12 02:53:49] INFO root fetch - processPackages [doyoung-ops]: executing diffoscope
+[2023-06-12 02:53:49] INFO root fetch - processPackages [doyoung-ops]: executing diffoscope
+[2023-06-12 02:53:49] INFO root fetch - processPackages [doyoung-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doyoung_ops-0.0.0.2-py2-none-any.whl.zip tmp/doyoung_ops-0.0.0.3-py2-none-any.whl.zip --markdown 20230612/d/doyoung-ops/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-12 02:53:49] INFO root fetch - processPackages [doyoung-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doyoung_ops-0.0.0.2-py2-none-any.whl.zip tmp/doyoung_ops-0.0.0.3-py2-none-any.whl.zip --markdown 20230612/d/doyoung-ops/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-12 02:53:49] INFO root fetch - processPackages [doyoung-ops]: executing diffoscope
+[2023-06-12 02:53:49] INFO root fetch - processPackages [doyoung-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doyoung_ops-0.0.0.2-py2-none-any.whl.zip tmp/doyoung_ops-0.0.0.3-py2-none-any.whl.zip --markdown 20230612/d/doyoung-ops/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-12 02:53:49] INFO root fetch - processPackages [django-blog-lotus]: executing diffoscope
+[2023-06-12 02:53:49] INFO root fetch - processPackages [django-blog-lotus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-blog-lotus-0.5.2.1.tar.gz tmp/django-blog-lotus-0.6.0.tar.gz --markdown 20230612/d/django-blog-lotus/0.5.2.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-12 02:53:49] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/96/eb/78a26281cfc4ee84b9572f8495ca91db74d482a3c9752fba1c7b2faa0466/sparksnake-0.1.9.tar.gz
+[2023-06-12 02:53:49] INFO root fetch - processPackages [sparksnake]: executing diffoscope
+[2023-06-12 02:53:49] INFO root fetch - processPackages [sparksnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparksnake-0.1.8.tar.gz tmp/sparksnake-0.1.9.tar.gz --markdown 20230612/s/sparksnake/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 02:53:50] INFO root fetch - processPackages [doyoung-ops]: Remove: archive file [/home/abi/fetcher/tmp/doyoung_ops-0.0.0.2-py2-none-any.whl.zip]
+[2023-06-12 02:53:50] INFO root fetch - processPackages [doyoung-ops]: Remove: archive file [/home/abi/fetcher/tmp/doyoung_ops-0.0.0.3-py2-none-any.whl.zip]
+[2023-06-12 02:53:50] INFO root fetch - main [MainThread]: End processing [doyoung-ops]: success
+[2023-06-12 02:53:50] INFO root fetch - processPackages [foc]: Remove: archive file [/home/abi/fetcher/tmp/foc-0.1.1.tar.gz]
+[2023-06-12 02:53:50] INFO root fetch - processPackages [foc]: Remove: archive file [/home/abi/fetcher/tmp/foc-0.1.2.tar.gz]
+[2023-06-12 02:53:50] INFO root fetch - main [MainThread]: End processing [foc]: success
+[2023-06-12 02:53:50] INFO root fetch - main [MainThread]: End processing [doyoung-ops]: success
+[2023-06-12 02:53:50] ERROR root fetch - processPackages [doyoung-ops]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipinfo -v {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 128, in zipinfo_differences
+    verbose = Difference.from_operation(ZipinfoVerbose, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipinfo -v {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-12 02:53:50] INFO root fetch - main [MainThread]: End processing [doyoung-ops] error
+[2023-06-12 02:53:50] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.45.tar.gz]
+[2023-06-12 02:53:50] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.51.tar.gz]
+[2023-06-12 02:53:50] INFO root fetch - main [MainThread]: End processing [lab-partner]: success
+[2023-06-12 02:53:51] INFO root fetch - processPackages [pyntelope]: Remove: archive file [/home/abi/fetcher/tmp/pyntelope-0.8.5.tar.gz]
+[2023-06-12 02:53:51] INFO root fetch - processPackages [pyntelope]: Remove: archive file [/home/abi/fetcher/tmp/pyntelope-0.8.6.tar.gz]
+[2023-06-12 02:53:51] INFO root fetch - main [MainThread]: End processing [pyntelope]: success
+[2023-06-12 02:53:51] INFO root fetch - processPackages [django-blog-lotus]: Remove: archive file [/home/abi/fetcher/tmp/django-blog-lotus-0.5.2.1.tar.gz]
+[2023-06-12 02:53:51] INFO root fetch - processPackages [django-blog-lotus]: Remove: archive file [/home/abi/fetcher/tmp/django-blog-lotus-0.6.0.tar.gz]
+[2023-06-12 02:53:51] INFO root fetch - main [MainThread]: End processing [django-blog-lotus]: success
+[2023-06-12 02:53:51] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.1.8.tar.gz]
+[2023-06-12 02:53:51] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.1.9.tar.gz]
+[2023-06-12 02:53:51] INFO root fetch - main [MainThread]: End processing [sparksnake]: success
+[2023-06-12 02:53:51] INFO root fetch - main [MainThread]: Store serial: [18462328]
