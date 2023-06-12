@@ -18516,3 +18516,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 15:17:53] INFO root fetch - processPackages [ESMValCore]: Remove: archive file [/home/abi/fetcher/tmp/ESMValCore-2.9.0rc1.tar.gz]
 [2023-06-12 15:17:53] INFO root fetch - main [MainThread]: End processing [ESMValCore]: success
 [2023-06-12 15:17:53] INFO root fetch - main [MainThread]: Store serial: [18469084]
+[2023-06-12 15:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469084]
+[2023-06-12 15:23:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-12 15:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autosubmitconfigparser
+[2023-06-12 15:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bert-schemas
+[2023-06-12 15:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: novumapiclient
+[2023-06-12 15:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openttd-helpers
+[2023-06-12 15:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mariqt-widgets
+[2023-06-12 15:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KapoorLabs-Lightning
+[2023-06-12 15:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hot-fair-utilities
+[2023-06-12 15:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-splash
+[2023-06-12 15:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: make-playlist
+[2023-06-12 15:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fbgemm-gpu-nightly
+[2023-06-12 15:23:03] INFO root fetch - processPackages [novumapiclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [openttd-helpers]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [mariqt-widgets]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [make-playlist]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [KapoorLabs-Lightning]: New version: [5.2.8] Old Version: [5.2.7]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [django-splash]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [bert-schemas]: New version: [1.18.3] Old Version: [1.18.2]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.37] Old Version: [1.0.36]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [openttd-helpers]: Downloading https://files.pythonhosted.org/packages/a5/7c/8eca802c9b4920380c25f1eed5c559a7947ef7aee805e32d00ce2befd476/openttd-helpers-1.3.0.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/3f/0c/459f7c0417396aaf8e63bcde1b66ca8acc6a21f0084c477b205b330e9338/KapoorLabs-Lightning-5.2.7.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [hot-fair-utilities]: New version: [1.0.50] Old Version: [1.0.49]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/a7/22/399d970b849524a56452e68c3709e1bf080d73b8e95510fef0c1873fdea3/NovumApiClient-0.0.8.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [make-playlist]: Downloading https://files.pythonhosted.org/packages/29/8a/e7a0b5d7880b61d0eb6f69ffd94ace9b707d0c9d97ab670ed41e863b133c/make_playlist-1.6.0.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/46/83/06edd4c49b09bf511877a136fd3755ea196092ec868fd594938321347ae3/mariqt_widgets-0.2.0-py2.py3-none-any.whl
+[2023-06-12 15:23:03] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/b5/d5/935b9f8491408dbcfe01bc06ffc6de08675a361df3dce1207d2897885c31/fbgemm_gpu_nightly-2023.6.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-12 15:23:03] INFO root fetch - processPackages [bert-schemas]: Downloading https://files.pythonhosted.org/packages/ab/09/f1f408da221146393e036c49d1682ecfc1eb29c7e9349983597cb5537dd1/bert_schemas-1.18.2.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [django-splash]: Downloading https://files.pythonhosted.org/packages/03/05/5d298872f13c743da8e9af94935ea93c0126293d0918a3d08f7c9dca00d1/django-splash-1.2.1.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/ec/e4/2a70ca98424a2634deb0bc3ce7f22fd916602ad0767e91420c8fa0d1f61a/autosubmitconfigparser-1.0.36.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/58/01/ed1a654cf54dc62d31c3a46be8d82eec12e487c0e907ff1f618f29dbd036/hot-fair-utilities-1.0.49.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/fa/7a/3e19097bf8f861645bfb643f02224d33ed6c788d41925f3f35d191d97722/KapoorLabs-Lightning-5.2.8.tar.gz
+[2023-06-12 15:23:03] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 247770278>=10485760
+[2023-06-12 15:23:03] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: pyramid-oereb
+[2023-06-12 15:23:03] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-06-12 15:23:03] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/3d/0c/5c5842111fb6972aa310efdcf176bc4d80b59f6b28f36d17483472d6a79d/novumapiclient-0.0.9.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [KapoorLabs-Lightning]: executing diffoscope
+[2023-06-12 15:23:03] INFO root fetch - processPackages [KapoorLabs-Lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KapoorLabs-Lightning-5.2.7.tar.gz tmp/KapoorLabs-Lightning-5.2.8.tar.gz --markdown 20230612/K/KapoorLabs-Lightning/5.2.7-5.2.8/diff.md --exclude *.pyd
+[2023-06-12 15:23:03] INFO root fetch - processPackages [openttd-helpers]: Downloading https://files.pythonhosted.org/packages/34/a2/f0ed7162835265523d76f4459fa07a73f3a655227a54aba7e5e49c642ad1/openttd-helpers-1.4.0.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [pyramid-oereb]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-06-12 15:23:03] INFO root fetch - processPackages [bert-schemas]: Downloading https://files.pythonhosted.org/packages/b0/bb/6fc44bb37aa6c2d1e4adf86fb1c76e69d90558b0e8eec3b9e0db7e2c0090/bert_schemas-1.18.3.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [novumapiclient]: executing diffoscope
+[2023-06-12 15:23:03] INFO root fetch - processPackages [make-playlist]: Downloading https://files.pythonhosted.org/packages/a6/8d/0c8346b89fcd8c811006ca05797b67ed031f189740ea631b7a59153d823e/make_playlist-1.7.0.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [novumapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NovumApiClient-0.0.8.tar.gz tmp/novumapiclient-0.0.9.tar.gz --markdown 20230612/n/novumapiclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 15:23:03] INFO root fetch - processPackages [django-splash]: Downloading https://files.pythonhosted.org/packages/f5/c5/18b670abf12670bb4189dc202368dbef67ba5c20c5cee87c622f4fc514c5/django-splash-1.3.0.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/67/44/8c93d45cea4972595572dcb152b739629a5653a2068ad3c710036b98f518/autosubmitconfigparser-1.0.37.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [bert-schemas]: executing diffoscope
+[2023-06-12 15:23:03] INFO root fetch - processPackages [bert-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert_schemas-1.18.2.tar.gz tmp/bert_schemas-1.18.3.tar.gz --markdown 20230612/b/bert-schemas/1.18.2-1.18.3/diff.md --exclude *.pyd
+[2023-06-12 15:23:03] INFO root fetch - processPackages [make-playlist]: executing diffoscope
+[2023-06-12 15:23:03] INFO root fetch - processPackages [make-playlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/make_playlist-1.6.0.tar.gz tmp/make_playlist-1.7.0.tar.gz --markdown 20230612/m/make-playlist/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-06-12 15:23:03] INFO root fetch - processPackages [django-splash]: executing diffoscope
+[2023-06-12 15:23:03] INFO root fetch - processPackages [django-splash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-splash-1.2.1.tar.gz tmp/django-splash-1.3.0.tar.gz --markdown 20230612/d/django-splash/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-12 15:23:03] INFO root fetch - processPackages [mariqt-widgets]: Downloading https://files.pythonhosted.org/packages/70/9a/b05184db581bc141b60e71c1db2de98e6ba183dbcd3254fed4ebf7130689/mariqt_widgets-0.2.1-py2.py3-none-any.whl
+[2023-06-12 15:23:03] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-06-12 15:23:03] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.36.tar.gz tmp/autosubmitconfigparser-1.0.37.tar.gz --markdown 20230612/a/autosubmitconfigparser/1.0.36-1.0.37/diff.md --exclude *.pyd
+[2023-06-12 15:23:03] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/a8/f2/e4c0c3502a2bc0561fd8c326012fab4425addb33949fc82d4bcfd3f4dfee/hot-fair-utilities-1.0.50.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [openttd-helpers]: executing diffoscope
+[2023-06-12 15:23:03] INFO root fetch - processPackages [openttd-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttd-helpers-1.3.0.tar.gz tmp/openttd-helpers-1.4.0.tar.gz --markdown 20230612/o/openttd-helpers/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-12 15:23:03] INFO root fetch - processPackages [mariqt-widgets]: executing diffoscope
+[2023-06-12 15:23:03] INFO root fetch - processPackages [mariqt-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt_widgets-0.2.0-py2.py3-none-any.whl.zip tmp/mariqt_widgets-0.2.1-py2.py3-none-any.whl.zip --markdown 20230612/m/mariqt-widgets/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 15:23:03] INFO root fetch - processPackages [pyramid-oereb]: Downloading https://files.pythonhosted.org/packages/1e/b1/aa585130ddf235dd18c423e1f1707b17189b8f16ac5166a5bf2694221b5d/pyramid_oereb-2.4.3.tar.gz
+[2023-06-12 15:23:03] INFO root fetch - processPackages [hot-fair-utilities]: executing diffoscope
+[2023-06-12 15:23:03] INFO root fetch - processPackages [hot-fair-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hot-fair-utilities-1.0.49.tar.gz tmp/hot-fair-utilities-1.0.50.tar.gz --markdown 20230612/h/hot-fair-utilities/1.0.49-1.0.50/diff.md --exclude *.pyd
+[2023-06-12 15:23:04] INFO root fetch - processPackages [pyramid-oereb]: Downloading https://files.pythonhosted.org/packages/a3/03/8c32d62268e99b0ad084539a668697ea7f5d9128e4e19a7bb118bf0cbbfc/pyramid_oereb-2.4.4.tar.gz
+[2023-06-12 15:23:04] INFO root fetch - processPackages [pyramid-oereb]: executing diffoscope
+[2023-06-12 15:23:04] INFO root fetch - processPackages [pyramid-oereb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramid_oereb-2.4.3.tar.gz tmp/pyramid_oereb-2.4.4.tar.gz --markdown 20230612/p/pyramid-oereb/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-06-12 15:23:05] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/NovumApiClient-0.0.8.tar.gz]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/novumapiclient-0.0.9.tar.gz]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [novumapiclient]: Start processing: textual-select
+[2023-06-12 15:23:05] INFO root fetch - main [MainThread]: End processing [novumapiclient]: success
+[2023-06-12 15:23:05] INFO root fetch - processPackages [textual-select]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [textual-select]: Downloading https://files.pythonhosted.org/packages/f1/46/7ca01b46eae3ff6fc043b0487a3526598702d6e28c783681a37eabb47bf9/textual_select-0.3.3.tar.gz
+[2023-06-12 15:23:05] INFO root fetch - processPackages [django-splash]: Remove: archive file [/home/abi/fetcher/tmp/django-splash-1.2.1.tar.gz]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [django-splash]: Remove: archive file [/home/abi/fetcher/tmp/django-splash-1.3.0.tar.gz]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [django-splash]: Start processing: pepperize.cdk-route53-health-check
+[2023-06-12 15:23:05] INFO root fetch - main [MainThread]: End processing [django-splash]: success
+[2023-06-12 15:23:05] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.2.0-py2.py3-none-any.whl.zip]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [mariqt-widgets]: Remove: archive file [/home/abi/fetcher/tmp/mariqt_widgets-0.2.1-py2.py3-none-any.whl.zip]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [mariqt-widgets]: Start processing: rfactor
+[2023-06-12 15:23:05] INFO root fetch - main [MainThread]: End processing [mariqt-widgets]: success
+[2023-06-12 15:23:05] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [rfactor]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-06-12 15:23:05] INFO root fetch - processPackages [textual-select]: Downloading https://files.pythonhosted.org/packages/23/48/4c1ad7e5190908f7b8083584e78534a79cb538d9ce38486a5c69e514b221/textual_select-0.3.4.tar.gz
+[2023-06-12 15:23:05] INFO root fetch - processPackages [rfactor]: Downloading https://files.pythonhosted.org/packages/3c/59/33375544e971153d75eb1a5e49c979571ea01e70de292f978d2852b0f311/rfactor-0.1.1.tar.gz
+[2023-06-12 15:23:05] INFO root fetch - processPackages [openttd-helpers]: Remove: archive file [/home/abi/fetcher/tmp/openttd-helpers-1.3.0.tar.gz]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [openttd-helpers]: Remove: archive file [/home/abi/fetcher/tmp/openttd-helpers-1.4.0.tar.gz]
+[2023-06-12 15:23:05] INFO root fetch - processPackages [openttd-helpers]: Start processing: hashflow-taker-sdk
+[2023-06-12 15:23:05] INFO root fetch - main [MainThread]: End processing [openttd-helpers]: success
+[2023-06-12 15:23:05] WARNING root fetch - processPackages [hashflow-taker-sdk]: Skipping, unable to determine old version
+[2023-06-12 15:23:05] INFO root fetch - main [MainThread]: End processing [hashflow-taker-sdk] error
+[2023-06-12 15:23:05] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-06-12 15:23:06] INFO root fetch - processPackages [textual-select]: executing diffoscope
+[2023-06-12 15:23:06] INFO root fetch - processPackages [textual-select]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_select-0.3.3.tar.gz tmp/textual_select-0.3.4.tar.gz --markdown 20230612/t/textual-select/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-12 15:23:06] INFO root fetch - processPackages [make-playlist]: Remove: archive file [/home/abi/fetcher/tmp/make_playlist-1.6.0.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - processPackages [make-playlist]: Remove: archive file [/home/abi/fetcher/tmp/make_playlist-1.7.0.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - main [MainThread]: End processing [make-playlist]: success
+[2023-06-12 15:23:06] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.36.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.37.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-06-12 15:23:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-06-12 15:23:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230612/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 15:23:06] INFO root fetch - processPackages [rfactor]: Downloading https://files.pythonhosted.org/packages/05/aa/6ce91b5ceb8e3ff73b59f72841fb1ffeea4fa048c61cfffebbf25d248fc5/rfactor-0.1.2.tar.gz
+[2023-06-12 15:23:06] INFO root fetch - processPackages [rfactor]: executing diffoscope
+[2023-06-12 15:23:06] INFO root fetch - processPackages [rfactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfactor-0.1.1.tar.gz tmp/rfactor-0.1.2.tar.gz --markdown 20230612/r/rfactor/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 15:23:06] INFO root fetch - processPackages [bert-schemas]: Remove: archive file [/home/abi/fetcher/tmp/bert_schemas-1.18.2.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - processPackages [bert-schemas]: Remove: archive file [/home/abi/fetcher/tmp/bert_schemas-1.18.3.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - main [MainThread]: End processing [bert-schemas]: success
+[2023-06-12 15:23:06] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.2.7.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.2.8.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - main [MainThread]: End processing [KapoorLabs-Lightning]: success
+[2023-06-12 15:23:06] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.0.49.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.0.50.tar.gz]
+[2023-06-12 15:23:06] INFO root fetch - main [MainThread]: End processing [hot-fair-utilities]: success
+[2023-06-12 15:23:07] INFO root fetch - processPackages [pyramid-oereb]: Remove: archive file [/home/abi/fetcher/tmp/pyramid_oereb-2.4.3.tar.gz]
+[2023-06-12 15:23:07] INFO root fetch - processPackages [pyramid-oereb]: Remove: archive file [/home/abi/fetcher/tmp/pyramid_oereb-2.4.4.tar.gz]
+[2023-06-12 15:23:07] INFO root fetch - main [MainThread]: End processing [pyramid-oereb]: success
+[2023-06-12 15:23:07] INFO root fetch - processPackages [textual-select]: Remove: archive file [/home/abi/fetcher/tmp/textual_select-0.3.3.tar.gz]
+[2023-06-12 15:23:07] INFO root fetch - processPackages [textual-select]: Remove: archive file [/home/abi/fetcher/tmp/textual_select-0.3.4.tar.gz]
+[2023-06-12 15:23:07] INFO root fetch - main [MainThread]: End processing [textual-select]: success
+[2023-06-12 15:23:08] INFO root fetch - processPackages [rfactor]: Remove: archive file [/home/abi/fetcher/tmp/rfactor-0.1.1.tar.gz]
+[2023-06-12 15:23:08] INFO root fetch - processPackages [rfactor]: Remove: archive file [/home/abi/fetcher/tmp/rfactor-0.1.2.tar.gz]
+[2023-06-12 15:23:08] INFO root fetch - main [MainThread]: End processing [rfactor]: success
+[2023-06-12 15:23:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-06-12 15:23:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-06-12 15:23:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-06-12 15:23:09] INFO root fetch - main [MainThread]: Store serial: [18469129]
