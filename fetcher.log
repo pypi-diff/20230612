@@ -3450,3 +3450,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 03:49:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
 [2023-06-12 03:49:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
 [2023-06-12 03:49:59] INFO root fetch - main [MainThread]: Store serial: [18462760]
+[2023-06-12 03:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462760]
+[2023-06-12 03:55:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-12 03:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spPersist
+[2023-06-12 03:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-06-12 03:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-wordpress
+[2023-06-12 03:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveramp-automation-framework
+[2023-06-12 03:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dockery
+[2023-06-12 03:55:07] INFO root fetch - processPackages [dockery]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-12 03:55:07] INFO root fetch - processPackages [spPersist]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-12 03:55:07] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-12 03:55:08] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:55:08] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/2d/52/aab0b0b9aae35c9f3eaba74997719eee2a55dfb9a46b50a651f66920370c/dockery-0.1.1.tar.gz
+[2023-06-12 03:55:08] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [1.0] Old Version: [0.0.1]
+[2023-06-12 03:55:08] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c7/90/fc0c05413e1f05c979ef1a7619a8f688ad24d6da3dcc71ee3b8f9d15588a/spPersist-0.4.2.tar.gz
+[2023-06-12 03:55:08] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-12 03:55:08] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-12 03:55:08] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/e8/78/09ae8c59725ffcb2aa493635f10fd539669cbad65875152a305da743e73e/liveramp_automation_framework-0.0.1-py3-none-any.whl
+[2023-06-12 03:55:08] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/ab/15/4211ed680642725f582e43b5d50fdd2d74ba2cd73a2abed79041466dcbb2/dockery-0.2.0.tar.gz
+[2023-06-12 03:55:08] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-12 03:55:08] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-12 03:55:08] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/4d/45/07eb8fd2eab6f759bc86e48bc81fc498d09e8ce199a5a77ee4074cd076eb/spPersist-0.4.3.tar.gz
+[2023-06-12 03:55:08] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-06-12 03:55:08] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.1.1.tar.gz tmp/dockery-0.2.0.tar.gz --markdown 20230612/d/dockery/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 03:55:08] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-12 03:55:08] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230612/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:55:08] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-12 03:55:08] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230612/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-12 03:55:08] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 03:55:08] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.4.2.tar.gz tmp/spPersist-0.4.3.tar.gz --markdown 20230612/s/spPersist/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-12 03:55:08] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/34/f4/c5cff8fed67bd0fb0b098f4b3122e1fc12ede4969a37041f2934f54f0263/liveramp_automation_framework-1.0.tar.gz
+[2023-06-12 03:55:08] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-12 03:55:08] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.0.1-py3-none-any.whl.zip tmp/liveramp_automation_framework-1.0.tar.gz --markdown 20230612/l/liveramp-automation-framework/0.0.1-1.0/diff.md --exclude *.pyd
+[2023-06-12 03:55:09] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-12 03:55:09] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-12 03:55:09] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-12 03:55:09] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.1.1.tar.gz]
+[2023-06-12 03:55:09] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.2.0.tar.gz]
+[2023-06-12 03:55:09] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-06-12 03:55:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-12 03:55:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-12 03:55:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-12 03:55:09] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.0.1-py3-none-any.whl.zip]
+[2023-06-12 03:55:09] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-1.0.tar.gz]
+[2023-06-12 03:55:09] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-12 03:55:09] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.2.tar.gz]
+[2023-06-12 03:55:09] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.3.tar.gz]
+[2023-06-12 03:55:09] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 03:55:09] INFO root fetch - main [MainThread]: Store serial: [18462776]
