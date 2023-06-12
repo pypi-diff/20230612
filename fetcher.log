@@ -2998,3 +2998,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 03:21:52] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
 [2023-06-12 03:21:52] INFO root fetch - main [MainThread]: End processing [pipenv]: success
 [2023-06-12 03:21:52] INFO root fetch - main [MainThread]: Store serial: [18462514]
+[2023-06-12 03:26:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462514]
+[2023-06-12 03:27:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 03:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voicevox-client
+[2023-06-12 03:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SmoobuExtractorFormatter
+[2023-06-12 03:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sops-secrets
+[2023-06-12 03:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloud-tts-tool
+[2023-06-12 03:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: commandeft
+[2023-06-12 03:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lab-partner-utils
+[2023-06-12 03:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SmoobuExtractorFormatter
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-12 03:27:01] INFO root fetch - processPackages [commandeft]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 03:27:01] INFO root fetch - processPackages [voicevox-client]: New version: [0.2.0rc0] Old Version: [0.2.0a2]
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-12 03:27:01] INFO root fetch - processPackages [lab-partner-utils]: New version: [0.7.54] Old Version: [0.7.53]
+[2023-06-12 03:27:01] WARNING root fetch - processPackages [cloud-tts-tool]: Skipping, unable to determine old version
+[2023-06-12 03:27:01] INFO root fetch - main [MainThread]: End processing [cloud-tts-tool] error
+[2023-06-12 03:27:01] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-12 03:27:01] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/cd/d5/e779ee160d7d04657fb30f15208fbc8a18cc3bb1090279225fdd43980b18/lab-partner-utils-0.7.53.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/9a/ac/7e779d8c7c871cacd0540a0608aa2ef560731bcc0fa45d1919b56427a7a7/SmoobuExtractorFormatter-1.2.3.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/9a/ac/7e779d8c7c871cacd0540a0608aa2ef560731bcc0fa45d1919b56427a7a7/SmoobuExtractorFormatter-1.2.3.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/17/d7/177a026792c1f58f98ea36ecf5fc8ef11ff956aa42da6249fad37bb41bbe/commandeft-0.1.0.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [voicevox-client]: Downloading https://files.pythonhosted.org/packages/a2/fc/0e49786896ff6f0fa4e101cf78af0b23e2db08a28500de7091c1a515a293/voicevox-client-0.2.0a2.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/05/55/0c8f5b2fddbbfd474f9a97ed987470791582d51ba0b1ca5bdbf382844b0c/lab-partner-utils-0.7.54.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [lab-partner-utils]: executing diffoscope
+[2023-06-12 03:27:01] INFO root fetch - processPackages [lab-partner-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-utils-0.7.53.tar.gz tmp/lab-partner-utils-0.7.54.tar.gz --markdown 20230612/l/lab-partner-utils/0.7.53-0.7.54/diff.md --exclude *.pyd
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/88/84/849089e8fc11e9bd0a85e1702b8326133acc1df460ecfcebfb16a64d831d/SmoobuExtractorFormatter-1.2.4.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/88/84/849089e8fc11e9bd0a85e1702b8326133acc1df460ecfcebfb16a64d831d/SmoobuExtractorFormatter-1.2.4.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/d0/3f/e21205abdfcf71134d0e37036a126b9509da2d54bd404a0f74776643e2eb/commandeft-0.1.1-py3-none-any.whl
+[2023-06-12 03:27:01] INFO root fetch - processPackages [voicevox-client]: Downloading https://files.pythonhosted.org/packages/fe/4f/359a5f0e32c6131cc307a7482ad287dfb66bdfa2a414277da3711ab42866/voicevox-client-0.2.0rc0.tar.gz
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: executing diffoscope
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmoobuExtractorFormatter-1.2.3.tar.gz tmp/SmoobuExtractorFormatter-1.2.4.tar.gz --markdown 20230612/S/SmoobuExtractorFormatter/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-12 03:27:01] INFO root fetch - processPackages [commandeft]: executing diffoscope
+[2023-06-12 03:27:01] INFO root fetch - processPackages [commandeft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandeft-0.1.0.tar.gz tmp/commandeft-0.1.1-py3-none-any.whl.zip --markdown 20230612/c/commandeft/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: executing diffoscope
+[2023-06-12 03:27:01] INFO root fetch - processPackages [SmoobuExtractorFormatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmoobuExtractorFormatter-1.2.3.tar.gz tmp/SmoobuExtractorFormatter-1.2.4.tar.gz --markdown 20230612/S/SmoobuExtractorFormatter/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-12 03:27:02] INFO root fetch - processPackages [voicevox-client]: executing diffoscope
+[2023-06-12 03:27:02] INFO root fetch - processPackages [voicevox-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicevox-client-0.2.0a2.tar.gz tmp/voicevox-client-0.2.0rc0.tar.gz --markdown 20230612/v/voicevox-client/0.2.0a2-0.2.0rc0/diff.md --exclude *.pyd
+[2023-06-12 03:27:02] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-12 03:27:02] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-12 03:27:02] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230612/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-12 03:27:02] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.1.0.tar.gz]
+[2023-06-12 03:27:02] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.1.1-py3-none-any.whl.zip]
+[2023-06-12 03:27:02] INFO root fetch - main [MainThread]: End processing [commandeft]: success
+[2023-06-12 03:27:03] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.53.tar.gz]
+[2023-06-12 03:27:03] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.54.tar.gz]
+[2023-06-12 03:27:03] INFO root fetch - main [MainThread]: End processing [lab-partner-utils]: success
+[2023-06-12 03:27:03] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.3.tar.gz]
+[2023-06-12 03:27:03] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.2.4.tar.gz]
+[2023-06-12 03:27:03] INFO root fetch - main [MainThread]: End processing [SmoobuExtractorFormatter]: success
+[2023-06-12 03:27:03] INFO root fetch - main [MainThread]: End processing [SmoobuExtractorFormatter]: success
+[2023-06-12 03:27:03] INFO root fetch - processPackages [voicevox-client]: Remove: archive file [/home/abi/fetcher/tmp/voicevox-client-0.2.0a2.tar.gz]
+[2023-06-12 03:27:03] INFO root fetch - processPackages [voicevox-client]: Remove: archive file [/home/abi/fetcher/tmp/voicevox-client-0.2.0rc0.tar.gz]
+[2023-06-12 03:27:03] INFO root fetch - main [MainThread]: End processing [voicevox-client]: success
+[2023-06-12 03:27:03] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-12 03:27:03] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-12 03:27:03] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-12 03:27:03] INFO root fetch - main [MainThread]: Store serial: [18462534]
