@@ -2219,3 +2219,42 @@
 [2023-06-12 02:38:02] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
 [2023-06-12 02:38:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-06-12 02:38:02] INFO root fetch - main [MainThread]: Store serial: [18462278]
+[2023-06-12 02:43:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462278]
+[2023-06-12 02:43:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-12 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-fn
+[2023-06-12 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-12 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-monitoring-constructs
+[2023-06-12 02:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lab-partner-utils
+[2023-06-12 02:43:11] INFO root fetch - processPackages [lab-partner-utils]: New version: [0.7.45] Old Version: [0.7.44]
+[2023-06-12 02:43:11] INFO root fetch - processPackages [gpt-fn]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 02:43:11] INFO root fetch - processPackages [cdk-monitoring-constructs]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-06-12 02:43:11] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 02:43:11] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/01/87/b4e2a9c8c93a990fbbd53f20733282316e18273dd6e7085aa050addbcacb/lab-partner-utils-0.7.44.tar.gz
+[2023-06-12 02:43:11] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-12 02:43:11] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/5b/28/3b3301d03b70dba9e1d1ae5ec53cf3f1b3fec6e19fbabce7c5a6092eeae6/lab-partner-utils-0.7.45.tar.gz
+[2023-06-12 02:43:11] INFO root fetch - processPackages [cdk-monitoring-constructs]: Downloading https://files.pythonhosted.org/packages/a1/f8/d45f77b7aa81c8e4aaaf5f04e8b72e6d46dec8e439c9c5644638d8497ded/cdk-monitoring-constructs-5.1.1.tar.gz
+[2023-06-12 02:43:11] INFO root fetch - processPackages [lab-partner-utils]: executing diffoscope
+[2023-06-12 02:43:11] INFO root fetch - processPackages [lab-partner-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-utils-0.7.44.tar.gz tmp/lab-partner-utils-0.7.45.tar.gz --markdown 20230612/l/lab-partner-utils/0.7.44-0.7.45/diff.md --exclude *.pyd
+[2023-06-12 02:43:11] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/61/44/8f5c510e41ab90a83494c5cbc5c3f0b51108737265f831d870bc6b267cdb/gpt_fn-0.0.3.tar.gz
+[2023-06-12 02:43:11] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/c0/04/9850485abe9b8aebf9374a87b76566a1053c2dc6457a2930d9002667c916/gpt_fn-0.0.4.tar.gz
+[2023-06-12 02:43:11] INFO root fetch - processPackages [cdk-monitoring-constructs]: Downloading https://files.pythonhosted.org/packages/6a/73/a6d09f377a7acf6ad3e3e5e214d9ac5b464a308e655acc0018323bfba403/cdk-monitoring-constructs-5.1.2.tar.gz
+[2023-06-12 02:43:11] INFO root fetch - processPackages [gpt-fn]: executing diffoscope
+[2023-06-12 02:43:11] INFO root fetch - processPackages [gpt-fn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_fn-0.0.3.tar.gz tmp/gpt_fn-0.0.4.tar.gz --markdown 20230612/g/gpt-fn/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 02:43:12] INFO root fetch - processPackages [cdk-monitoring-constructs]: executing diffoscope
+[2023-06-12 02:43:12] INFO root fetch - processPackages [cdk-monitoring-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-monitoring-constructs-5.1.1.tar.gz tmp/cdk-monitoring-constructs-5.1.2.tar.gz --markdown 20230612/c/cdk-monitoring-constructs/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-06-12 02:43:12] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.44.tar.gz]
+[2023-06-12 02:43:12] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.45.tar.gz]
+[2023-06-12 02:43:12] INFO root fetch - main [MainThread]: End processing [lab-partner-utils]: success
+[2023-06-12 02:43:12] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.3.tar.gz]
+[2023-06-12 02:43:12] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.4.tar.gz]
+[2023-06-12 02:43:12] INFO root fetch - main [MainThread]: End processing [gpt-fn]: success
+[2023-06-12 02:43:13] INFO root fetch - processPackages [cdk-monitoring-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk-monitoring-constructs-5.1.1.tar.gz]
+[2023-06-12 02:43:13] INFO root fetch - processPackages [cdk-monitoring-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk-monitoring-constructs-5.1.2.tar.gz]
+[2023-06-12 02:43:13] INFO root fetch - main [MainThread]: End processing [cdk-monitoring-constructs]: success
+[2023-06-12 02:43:14] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-12 02:43:16] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-12 02:43:16] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230612/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 02:43:18] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-12 02:43:18] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-12 02:43:18] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-12 02:43:18] INFO root fetch - main [MainThread]: Store serial: [18462290]
