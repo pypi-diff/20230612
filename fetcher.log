@@ -11221,3 +11221,184 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:00:44] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.9.tar.gz]
 [2023-06-12 10:00:44] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-06-12 10:00:44] INFO root fetch - main [MainThread]: Store serial: [18465946]
+[2023-06-12 10:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465946]
+[2023-06-12 10:05:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qoqo
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bk-plugin-framework
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easydags
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rongdavbaaddins
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bindata
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: carwatch
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otel-tracer
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rongdavbaaddins
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multireg
+[2023-06-12 10:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: propdes
+[2023-06-12 10:05:54] INFO root fetch - processPackages [carwatch]: New version: [0.3.0] Old Version: [0.1.1]
+[2023-06-12 10:05:54] INFO root fetch - processPackages [multireg]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 10:05:54] INFO root fetch - processPackages [easydags]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-06-12 10:05:54] WARNING root fetch - processPackages [otel-tracer]: Skipping, unable to determine old version
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-06-12 10:05:54] INFO root fetch - processPackages [otel-tracer]: Start processing: robotframework-openapidriver
+[2023-06-12 10:05:54] INFO root fetch - processPackages [propdes]: New version: [0.3.17] Old Version: [0.3.16]
+[2023-06-12 10:05:54] INFO root fetch - main [MainThread]: End processing [otel-tracer] error
+[2023-06-12 10:05:54] INFO root fetch - processPackages [bk-plugin-framework]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-12 10:05:54] INFO root fetch - processPackages [bindata]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-12 10:05:54] INFO root fetch - processPackages [qoqo]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-12 10:05:54] INFO root fetch - processPackages [robotframework-openapidriver]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-06-12 10:05:54] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/6f/ed/219952a64e7227cac69c7f1b8d738b805d7ad2e5600d1d334c83a6e4d56e/multireg-0.0.7.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [carwatch]: Downloading https://files.pythonhosted.org/packages/90/a4/51c14799a353f5578ae2edaa60c719d5f3a26d49b95b91e7e0bfed21c3d0/carwatch-0.1.1.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [propdes]: Downloading https://files.pythonhosted.org/packages/75/c9/60c878f322018a2fdb8588fdb760ebb732b22652a4381c76b1d484fd4ab1/propdes-0.3.16.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/74/d5/0adc3de143ecc9caf75f7062cad5ed5745ea6e2d2c0fcbf1be6ec4631110/rongdavbaaddins-0.0.1.6.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/ca/86/839aca3e30a1f2c833016f37e6b8b756515b806112781cab21b72becb4f2/bk-plugin-framework-2.0.1.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/74/d5/0adc3de143ecc9caf75f7062cad5ed5745ea6e2d2c0fcbf1be6ec4631110/rongdavbaaddins-0.0.1.6.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/4c/0a/6e6255600ba20c9b3646fc33eba1f23625d9a9a5f3e1fd654c91ab33681f/easydags-0.0.7.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/6c/bd/ff2abaca655a6921d8379969bbdb3671618f8af381bbd317ef23cc8f50c3/bindata-0.9.5.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [robotframework-openapidriver]: Downloading https://files.pythonhosted.org/packages/ef/3d/558212bd38616ce3fbb4ce66a1053bf86d76faf42e750904528751411d8e/robotframework_openapidriver-4.0.0.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/11/2d/1b0b939f1f3bd0a2a2887977a27f4e5f57c43d8d6e59854a36d2d8002806/qoqo-1.4.0.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [multireg]: Downloading https://files.pythonhosted.org/packages/d1/11/cd7ccb6cb83f7f63c18937a27a8f85832130dc502173eb6eef8007621d19/multireg-0.0.8.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [propdes]: Downloading https://files.pythonhosted.org/packages/34/43/58a728b1f1422458e58e439f3f5e5e82a7ff2bda17b33ffb933acb712424/propdes-0.3.17.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/30/24/09be03f37acfb0c5095e9b93a74e065e70bc189b0dcd6886e3495c2b0d0c/rongdavbaaddins-0.0.1.7.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/30/24/09be03f37acfb0c5095e9b93a74e065e70bc189b0dcd6886e3495c2b0d0c/rongdavbaaddins-0.0.1.7.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [multireg]: executing diffoscope
+[2023-06-12 10:05:54] INFO root fetch - processPackages [carwatch]: Downloading https://files.pythonhosted.org/packages/14/ac/3d05e4a4bd12e50cf8bb269888c04d646e134e9edd47c23f67aa2c4eea93/carwatch-0.3.0.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [multireg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multireg-0.0.7.tar.gz tmp/multireg-0.0.8.tar.gz --markdown 20230612/m/multireg/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 10:05:54] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/15/ef/7c78d278ec28631b3bd1c1dd3ec06dddbd7d8418347b140023c60b5741fc/easydags-0.1.0.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/8e/ae/2a449f181dd3a1aa448f39e087f6708091d4d91e7cb527b097fc77f05c1b/bk-plugin-framework-2.0.2.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [propdes]: executing diffoscope
+[2023-06-12 10:05:54] INFO root fetch - processPackages [propdes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propdes-0.3.16.tar.gz tmp/propdes-0.3.17.tar.gz --markdown 20230612/p/propdes/0.3.16-0.3.17/diff.md --exclude *.pyd
+[2023-06-12 10:05:54] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/fd/1c/c2fa8ae3b6c3385c0c0d9b24475509788ed3af22bd4e840635bdfd4ad736/bindata-0.9.6.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/6e/99/fbf9553045a8c4b57491bcd8fa254d133a9b40fe37bfb3accc5607ccf287/qoqo-1.5.0.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [robotframework-openapidriver]: Downloading https://files.pythonhosted.org/packages/d1/0e/a941a96fc3de5967e7f7d2e68bba022b86bfb6ad18c04b0efc7dbb7ac8bf/robotframework_openapidriver-4.1.0.tar.gz
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.1.6.tar.gz tmp/rongdavbaaddins-0.0.1.7.tar.gz --markdown 20230612/r/rongdavbaaddins/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-12 10:05:54] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.1.6.tar.gz tmp/rongdavbaaddins-0.0.1.7.tar.gz --markdown 20230612/r/rongdavbaaddins/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-06-12 10:05:54] INFO root fetch - processPackages [easydags]: executing diffoscope
+[2023-06-12 10:05:54] INFO root fetch - processPackages [easydags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easydags-0.0.7.tar.gz tmp/easydags-0.1.0.tar.gz --markdown 20230612/e/easydags/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 10:05:54] INFO root fetch - processPackages [carwatch]: executing diffoscope
+[2023-06-12 10:05:55] INFO root fetch - processPackages [carwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carwatch-0.1.1.tar.gz tmp/carwatch-0.3.0.tar.gz --markdown 20230612/c/carwatch/0.1.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-12 10:05:55] INFO root fetch - processPackages [bk-plugin-framework]: executing diffoscope
+[2023-06-12 10:05:55] INFO root fetch - processPackages [bk-plugin-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-plugin-framework-2.0.1.tar.gz tmp/bk-plugin-framework-2.0.2.tar.gz --markdown 20230612/b/bk-plugin-framework/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-12 10:05:55] INFO root fetch - processPackages [bindata]: executing diffoscope
+[2023-06-12 10:05:55] INFO root fetch - processPackages [bindata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bindata-0.9.5.tar.gz tmp/bindata-0.9.6.tar.gz --markdown 20230612/b/bindata/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-12 10:05:55] INFO root fetch - processPackages [qoqo]: executing diffoscope
+[2023-06-12 10:05:55] INFO root fetch - processPackages [qoqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo-1.4.0.tar.gz tmp/qoqo-1.5.0.tar.gz --markdown 20230612/q/qoqo/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-12 10:05:55] INFO root fetch - processPackages [robotframework-openapidriver]: executing diffoscope
+[2023-06-12 10:05:55] INFO root fetch - processPackages [robotframework-openapidriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_openapidriver-4.0.0.tar.gz tmp/robotframework_openapidriver-4.1.0.tar.gz --markdown 20230612/r/robotframework-openapidriver/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-06-12 10:05:57] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.7.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - processPackages [multireg]: Remove: archive file [/home/abi/fetcher/tmp/multireg-0.0.8.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - main [MainThread]: End processing [multireg]: success
+[2023-06-12 10:05:57] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.6.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.7.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-12 10:05:57] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-0.0.7.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-0.1.0.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - main [MainThread]: End processing [easydags]: success
+[2023-06-12 10:05:57] INFO root fetch - processPackages [propdes]: Remove: archive file [/home/abi/fetcher/tmp/propdes-0.3.16.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - processPackages [propdes]: Remove: archive file [/home/abi/fetcher/tmp/propdes-0.3.17.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - main [MainThread]: End processing [propdes]: success
+[2023-06-12 10:05:57] INFO root fetch - processPackages [carwatch]: Remove: archive file [/home/abi/fetcher/tmp/carwatch-0.1.1.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - processPackages [carwatch]: Remove: archive file [/home/abi/fetcher/tmp/carwatch-0.3.0.tar.gz]
+[2023-06-12 10:05:57] INFO root fetch - main [MainThread]: End processing [carwatch]: success
+[2023-06-12 10:05:58] INFO root fetch - processPackages [robotframework-openapidriver]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_openapidriver-4.0.0.tar.gz]
+[2023-06-12 10:05:58] INFO root fetch - processPackages [robotframework-openapidriver]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_openapidriver-4.1.0.tar.gz]
+[2023-06-12 10:05:58] INFO root fetch - main [MainThread]: End processing [robotframework-openapidriver]: success
+[2023-06-12 10:05:58] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.5.tar.gz]
+[2023-06-12 10:05:58] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.6.tar.gz]
+[2023-06-12 10:05:58] INFO root fetch - main [MainThread]: End processing [bindata]: success
+[2023-06-12 10:05:58] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.0.1.tar.gz]
+[2023-06-12 10:05:58] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.0.2.tar.gz]
+[2023-06-12 10:05:58] INFO root fetch - main [MainThread]: End processing [bk-plugin-framework]: success
+[2023-06-12 10:05:58] ERROR root fetch - processPackages [rongdavbaaddins]: Diffoscope failed: gzip: tmp/rongdavbaaddins-0.0.1.7.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/rongdavbaaddins-0.0.1.7.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-12 10:05:58] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins] error
+[2023-06-12 10:05:59] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.4.0.tar.gz]
+[2023-06-12 10:05:59] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.5.0.tar.gz]
+[2023-06-12 10:05:59] INFO root fetch - main [MainThread]: End processing [qoqo]: success
+[2023-06-12 10:05:59] INFO root fetch - main [MainThread]: Store serial: [18466002]
