@@ -7944,3 +7944,100 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 06:25:15] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.83.tar.gz]
 [2023-06-12 06:25:15] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
 [2023-06-12 06:25:15] INFO root fetch - main [MainThread]: Store serial: [18464534]
+[2023-06-12 06:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464534]
+[2023-06-12 06:30:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nmap-query-tool
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epubs
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapperr
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydaikin
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs.tagset
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agixt
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PRauto
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: p-ttauto-crawler
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ChatGPT-Cloud
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epubs
+[2023-06-12 06:30:24] INFO root fetch - processPackages [mapperr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [nmap-query-tool]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [agixt]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [pydaikin]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ChatGPT-Cloud]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [epubs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [epubs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [PRauto]: New version: [0.212] Old Version: [0.211]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [cs.tagset]: New version: [20230612] Old Version: [20230407]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 06:30:24] INFO root fetch - processPackages [nmap-query-tool]: Downloading https://files.pythonhosted.org/packages/23/a5/0355ce77cdb42bb5a3ff5767ea721d5c63be06fdd71e49e58131b368b8de/nmap_query_tool-1.1.6.tar.gz
+[2023-06-12 06:30:24] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/e2/88/0631f9d803cd3199e583608206108a145ee541fc58b4920077e9353df088/pydaikin-2.9.0.tar.gz
+[2023-06-12 06:30:24] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/5c/ff/1e29087ec761a278a8007c8fbdbf4b9e1762cea8a34af91e877fb1de6876/agixt-1.2.5.tar.gz
+[2023-06-12 06:30:24] INFO root fetch - processPackages [epubs]: Downloading https://files.pythonhosted.org/packages/5a/a7/7ca64a49535b27295bd42d3c117a970b990cc8f3cc5901a1b7a94843c2e0/epubs-0.0.1.tar.gz
+[2023-06-12 06:30:24] INFO root fetch - processPackages [epubs]: Downloading https://files.pythonhosted.org/packages/5a/a7/7ca64a49535b27295bd42d3c117a970b990cc8f3cc5901a1b7a94843c2e0/epubs-0.0.1.tar.gz
+[2023-06-12 06:30:24] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/9b/5b/2522a7c837f7bd5f6936f06368c8c694ee2306d9f3e632839ffa7c5192c0/mapperr-0.1.0.tar.gz
+[2023-06-12 06:30:24] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/4d/f4/e37c2b5031af7a2be26f10c8a6523b982a52bbf0a9745fd86c33d98a75bb/ChatGPT-Cloud-0.5.8.tar.gz
+[2023-06-12 06:30:24] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/c4/a5/04a2c545b6da0f2692335c39cd3a01ce563b9eacd60a976d2764725deca5/p-ttauto-crawler-0.0.8.tar.gz
+[2023-06-12 06:30:24] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/11/75/71ee15ed9add9c67dc66a1137787cfd2e80335565f7adf39838fbb18b6dd/PRauto-0.211.tar.gz
+[2023-06-12 06:30:24] INFO root fetch - processPackages [cs.tagset]: Downloading https://files.pythonhosted.org/packages/03/7e/746b1a97b8437b406ab366cdfc753cd9f88ba150679afdd6561a4e2f4993/cs.tagset-20230407.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/d7/9a/48b5098f0b08ea5787259050de846b8dbff99f1e2255d548aaf42bf9e4bb/pydaikin-2.9.1.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [nmap-query-tool]: Downloading https://files.pythonhosted.org/packages/34/16/82f38ca9ea599576a7aae46fb72f5f7d532e87e2dc3a9a8eaad5f41a8053/nmap_query_tool-1.1.7.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/b1/7f/a2c560af35fdfac8e3f2b1598f7cce988d0bdc9abd77acb9a0b8729bf270/agixt-1.2.6.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [epubs]: Downloading https://files.pythonhosted.org/packages/6f/da/6e81ca60c7ca15a6562970c9493fe0096d966b5dffb698f1c0646e3d6819/epubs-0.0.2.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [nmap-query-tool]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [nmap-query-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmap_query_tool-1.1.6.tar.gz tmp/nmap_query_tool-1.1.7.tar.gz --markdown 20230612/n/nmap-query-tool/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-12 06:30:25] INFO root fetch - processPackages [pydaikin]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [epubs]: Downloading https://files.pythonhosted.org/packages/6f/da/6e81ca60c7ca15a6562970c9493fe0096d966b5dffb698f1c0646e3d6819/epubs-0.0.2.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [pydaikin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaikin-2.9.0.tar.gz tmp/pydaikin-2.9.1.tar.gz --markdown 20230612/p/pydaikin/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-12 06:30:25] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/fe/4e/5f9858ed974e64a1fefb109d48b28cb7152aa202b159d334e268cdbbf1bc/mapperr-0.1.1.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/9f/07/cccdbfafd2e4d6013c18afa312e9e4332592e7a39c1efffd090c1a5afd82/PRauto-0.212.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/b4/f7/5bb1b0eca90eafbd5c9d828d6d1b59db3270a417f6544d298391274b8f03/p-ttauto-crawler-0.0.9.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [epubs]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [epubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epubs-0.0.1.tar.gz tmp/epubs-0.0.2.tar.gz --markdown 20230612/e/epubs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 06:30:25] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.5.tar.gz tmp/agixt-1.2.6.tar.gz --markdown 20230612/a/agixt/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-12 06:30:25] INFO root fetch - processPackages [epubs]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [epubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epubs-0.0.1.tar.gz tmp/epubs-0.0.2.tar.gz --markdown 20230612/e/epubs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 06:30:25] INFO root fetch - processPackages [mapperr]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [mapperr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapperr-0.1.0.tar.gz tmp/mapperr-0.1.1.tar.gz --markdown 20230612/m/mapperr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 06:30:25] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/5d/bd/cd4f2aec7998d4df679fadfbd18f1c709e91360fd716f4bd392da3218041/ChatGPT-Cloud-0.5.9.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [cs.tagset]: Downloading https://files.pythonhosted.org/packages/36/ac/89ca76be76f37e973d92ac46ece1cd009f71f66570b19ca4fbba73d0a136/cs.tagset-20230612.tar.gz
+[2023-06-12 06:30:25] INFO root fetch - processPackages [PRauto]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [PRauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PRauto-0.211.tar.gz tmp/PRauto-0.212.tar.gz --markdown 20230612/P/PRauto/0.211-0.212/diff.md --exclude *.pyd
+[2023-06-12 06:30:25] INFO root fetch - processPackages [ChatGPT-Cloud]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [ChatGPT-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPT-Cloud-0.5.8.tar.gz tmp/ChatGPT-Cloud-0.5.9.tar.gz --markdown 20230612/C/ChatGPT-Cloud/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-12 06:30:25] INFO root fetch - processPackages [cs.tagset]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [cs.tagset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.tagset-20230407.tar.gz tmp/cs.tagset-20230612.tar.gz --markdown 20230612/c/cs.tagset/20230407-20230612/diff.md --exclude *.pyd
+[2023-06-12 06:30:25] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-12 06:30:25] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230612/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 06:30:26] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.0.tar.gz]
+[2023-06-12 06:30:26] INFO root fetch - processPackages [epubs]: Remove: archive file [/home/abi/fetcher/tmp/epubs-0.0.1.tar.gz]
+[2023-06-12 06:30:26] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.1.tar.gz]
+[2023-06-12 06:30:26] INFO root fetch - processPackages [epubs]: Remove: archive file [/home/abi/fetcher/tmp/epubs-0.0.2.tar.gz]
+[2023-06-12 06:30:26] INFO root fetch - processPackages [pydaikin]: Start processing: spark-datax-tools
+[2023-06-12 06:30:26] INFO root fetch - processPackages [epubs]: Start processing: sqlean.py
+[2023-06-12 06:30:26] INFO root fetch - main [MainThread]: End processing [pydaikin]: success
+[2023-06-12 06:30:26] INFO root fetch - main [MainThread]: End processing [epubs]: success
+[2023-06-12 06:30:26] WARNING root fetch - processPackages [spark-datax-tools]: Skipping, unable to determine old version
+[2023-06-12 06:30:26] INFO root fetch - main [MainThread]: End processing [spark-datax-tools] error
+[2023-06-12 06:30:26] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.1.0.tar.gz]
+[2023-06-12 06:30:26] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.1.1.tar.gz]
+[2023-06-12 06:30:26] INFO root fetch - main [MainThread]: End processing [mapperr]: success
+[2023-06-12 06:30:27] WARNING root fetch - processPackages [sqlean.py]: Skipping, unable to determine old version
+[2023-06-12 06:30:27] INFO root fetch - main [MainThread]: End processing [sqlean.py] error
+[2023-06-12 06:30:27] INFO root fetch - processPackages [nmap-query-tool]: Remove: archive file [/home/abi/fetcher/tmp/nmap_query_tool-1.1.6.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - processPackages [nmap-query-tool]: Remove: archive file [/home/abi/fetcher/tmp/nmap_query_tool-1.1.7.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - main [MainThread]: End processing [nmap-query-tool]: success
+[2023-06-12 06:30:27] INFO root fetch - processPackages [PRauto]: Remove: archive file [/home/abi/fetcher/tmp/PRauto-0.211.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - processPackages [PRauto]: Remove: archive file [/home/abi/fetcher/tmp/PRauto-0.212.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - main [MainThread]: End processing [PRauto]: success
+[2023-06-12 06:30:27] INFO root fetch - main [MainThread]: End processing [epubs]: success
+[2023-06-12 06:30:27] INFO root fetch - processPackages [cs.tagset]: Remove: archive file [/home/abi/fetcher/tmp/cs.tagset-20230407.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - processPackages [cs.tagset]: Remove: archive file [/home/abi/fetcher/tmp/cs.tagset-20230612.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - main [MainThread]: End processing [cs.tagset]: success
+[2023-06-12 06:30:27] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.0.8.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.0.9.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-12 06:30:27] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.5.8.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.5.9.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
+[2023-06-12 06:30:27] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.5.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.6.tar.gz]
+[2023-06-12 06:30:27] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-12 06:30:27] INFO root fetch - main [MainThread]: Store serial: [18464583]
