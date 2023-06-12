@@ -17209,3 +17209,124 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 14:22:58] INFO root fetch - processPackages [hubspot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-client-8.0.0b6.tar.gz]
 [2023-06-12 14:22:58] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
 [2023-06-12 14:22:58] INFO root fetch - main [MainThread]: Store serial: [18468576]
+[2023-06-12 14:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468576]
+[2023-06-12 14:28:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanoqnt
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protloc-mex1
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superinvoke
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-cisco-maintenance
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pisensors
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otrs-somconnexio
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyswap
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: boosty
+[2023-06-12 14:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: getmodelspec
+[2023-06-12 14:28:15] INFO root fetch - processPackages [superinvoke]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 14:28:15] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 14:28:15] INFO root fetch - processPackages [nanoqnt]: New version: [0.2.0rc1] Old Version: [0.2.0]
+[2023-06-12 14:28:15] INFO root fetch - processPackages [pisensors]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-12 14:28:15] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.36] Old Version: [1.0.351]
+[2023-06-12 14:28:15] INFO root fetch - processPackages [hyswap]: New version: [0.0.1] Old Version: [0.0.0a0]
+[2023-06-12 14:28:15] INFO root fetch - processPackages [boosty]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 14:28:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 14:28:15] INFO root fetch - processPackages [otrs-somconnexio]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-12 14:28:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 14:28:16] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/49/8b/bd7cddee7cd278ab81fa3a3c17ba8aed9260ad57d6f66e57357ad52af798/getmodelspec-1.0.351.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [boosty]: Downloading https://files.pythonhosted.org/packages/4d/63/bd615c7903f671439466cef4b392e8f4259485eb88dbdd802dcc8d0b39c5/boosty-0.0.7.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [superinvoke]: Downloading https://files.pythonhosted.org/packages/39/01/680cb10ad712e16918a9e54055646616acfe2356aa19551a79a237460af5/superinvoke-1.0.1.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [pisensors]: Downloading https://files.pythonhosted.org/packages/1a/fc/01a2e4417804788713d815ef216306dd12f23425ab58232821980750a2f4/pisensors-0.4.4.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [nanoqnt]: Downloading https://files.pythonhosted.org/packages/0a/a9/b63bdc3a38404f9d7209ea6757be25d61775373d0bd9326710d9770a3551/nanoqnt-0.2.0.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/78/f6/3f580cd2d74a813327ce02d923598e33fd04cad11f9b1fc9daf423569f69/protloc_mex1-0.0.6.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/24/61/f12a7af09c175dfc8830738eef0b0f2e7248bc680d1b4d319dacd61b1c4b/otrs_somconnexio-0.4.8.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [hyswap]: Downloading https://files.pythonhosted.org/packages/60/4b/66b664132a05610fbc34694a9a6dbf8d966486d1beb006973d1e57dbfff0/hyswap-0.0.0a0.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [superinvoke]: Downloading https://files.pythonhosted.org/packages/eb/f6/c31265e45ffc502e5d50296dc31faa3512663f1fdd6c761df5a064235e59/superinvoke-1.0.2.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [superinvoke]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [superinvoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superinvoke-1.0.1.tar.gz tmp/superinvoke-1.0.2.tar.gz --markdown 20230612/s/superinvoke/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 14:28:16] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/12/12/a0766a48accb48b351be1b2a606347c06c7af90d7e6e010a21caa5d223fd/getmodelspec-1.0.36.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [nanoqnt]: Downloading https://files.pythonhosted.org/packages/f7/c2/39d08304441bd1f2db0d90ba8b30d50fd486ac761832c5c50590595bd447/nanoqnt-0.2.0rc1.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [boosty]: Downloading https://files.pythonhosted.org/packages/07/3e/cdaa67102010d3fbf84414fa8d2c76e4c9a852657ff25ba1b56d46186b10/boosty-0.0.8.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/3d/36/6bca499219d8d1f180030029b7364f9b18f4784e1411d54f945bac3c5db4/protloc_mex1-0.0.7.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [hyswap]: Downloading https://files.pythonhosted.org/packages/fa/05/c8c6cf62e5033ed1b3495b7649011cbed87168e2f0fb19ac8160f5320ed8/hyswap-0.0.1.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [pisensors]: Downloading https://files.pythonhosted.org/packages/94/4f/d14bb9d6d4f912780f5595afc39d6d58e2c4eddfc5f785e0eb97c685f52d/pisensors-0.4.5.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 14:28:16] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/e5/91/0ea2de8ef72bee6e5e7ad4882d4afa735692fe75764c546ea0a7f8b2bee1/otrs_somconnexio-0.4.9.tar.gz
+[2023-06-12 14:28:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 14:28:16] INFO root fetch - processPackages [pisensors]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [hyswap]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [pisensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisensors-0.4.4.tar.gz tmp/pisensors-0.4.5.tar.gz --markdown 20230612/p/pisensors/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-12 14:28:16] INFO root fetch - processPackages [hyswap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyswap-0.0.0a0.tar.gz tmp/hyswap-0.0.1.tar.gz --markdown 20230612/h/hyswap/0.0.0a0-0.0.1/diff.md --exclude *.pyd
+[2023-06-12 14:28:16] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.6.tar.gz tmp/protloc_mex1-0.0.7.tar.gz --markdown 20230612/p/protloc-mex1/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 14:28:16] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.351.tar.gz tmp/getmodelspec-1.0.36.tar.gz --markdown 20230612/g/getmodelspec/1.0.351-1.0.36/diff.md --exclude *.pyd
+[2023-06-12 14:28:16] INFO root fetch - processPackages [nanoqnt]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [nanoqnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoqnt-0.2.0.tar.gz tmp/nanoqnt-0.2.0rc1.tar.gz --markdown 20230612/n/nanoqnt/0.2.0-0.2.0rc1/diff.md --exclude *.pyd
+[2023-06-12 14:28:16] INFO root fetch - processPackages [boosty]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [boosty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boosty-0.0.7.tar.gz tmp/boosty-0.0.8.tar.gz --markdown 20230612/b/boosty/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 14:28:16] INFO root fetch - processPackages [otrs-somconnexio]: executing diffoscope
+[2023-06-12 14:28:16] INFO root fetch - processPackages [otrs-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otrs_somconnexio-0.4.8.tar.gz tmp/otrs_somconnexio-0.4.9.tar.gz --markdown 20230612/o/otrs-somconnexio/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-12 14:28:20] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.6.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.7.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [protloc-mex1]: Start processing: poetry-issue-test
+[2023-06-12 14:28:20] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-06-12 14:28:20] WARNING root fetch - processPackages [poetry-issue-test]: Skipping, unable to determine old version
+[2023-06-12 14:28:20] INFO root fetch - processPackages [poetry-issue-test]: Start processing: recognize
+[2023-06-12 14:28:20] INFO root fetch - main [MainThread]: End processing [poetry-issue-test] error
+[2023-06-12 14:28:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: mailslurp-client
+[2023-06-12 14:28:20] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 14:28:20] INFO root fetch - processPackages [recognize]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [superinvoke]: Remove: archive file [/home/abi/fetcher/tmp/superinvoke-1.0.1.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [superinvoke]: Remove: archive file [/home/abi/fetcher/tmp/superinvoke-1.0.2.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [superinvoke]: Start processing: ms-salesforce-api
+[2023-06-12 14:28:20] INFO root fetch - main [MainThread]: End processing [superinvoke]: success
+[2023-06-12 14:28:20] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.351.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.36.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-12 14:28:20] INFO root fetch - processPackages [pisensors]: Remove: archive file [/home/abi/fetcher/tmp/pisensors-0.4.4.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [pisensors]: Remove: archive file [/home/abi/fetcher/tmp/pisensors-0.4.5.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - main [MainThread]: End processing [pisensors]: success
+[2023-06-12 14:28:20] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2023-06-12 14:28:20] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 14:28:20] INFO root fetch - processPackages [ms-salesforce-api]: New version: [1.0.0] Old Version: [0.0.44]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2023-06-12 14:28:20] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2023-06-12 14:28:20] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20230612/m/mailslurp-client/8.7.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-12 14:28:20] INFO root fetch - processPackages [boosty]: Remove: archive file [/home/abi/fetcher/tmp/boosty-0.0.7.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [boosty]: Remove: archive file [/home/abi/fetcher/tmp/boosty-0.0.8.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - main [MainThread]: End processing [boosty]: success
+[2023-06-12 14:28:20] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/40/75/963960f9236ff152d95ce8541330a5c1c55a1023a23c60d5e6d8cadd5cbb/recognize-0.1.8.tar.gz
+[2023-06-12 14:28:20] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/36/49/cb9c790ecae260c57a18e39a270e2b1fadb7d760a2ece87afd6b257de8f6/ms_salesforce_api-0.0.44.tar.gz
+[2023-06-12 14:28:20] INFO root fetch - processPackages [hyswap]: Remove: archive file [/home/abi/fetcher/tmp/hyswap-0.0.0a0.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - processPackages [hyswap]: Remove: archive file [/home/abi/fetcher/tmp/hyswap-0.0.1.tar.gz]
+[2023-06-12 14:28:20] INFO root fetch - main [MainThread]: End processing [hyswap]: success
+[2023-06-12 14:28:21] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/90/11/44165d25dc6f6929091933caec158f7e7a1da9f6e2594a3b2c9180d8d7e3/recognize-0.1.9.tar.gz
+[2023-06-12 14:28:21] INFO root fetch - processPackages [recognize]: executing diffoscope
+[2023-06-12 14:28:21] INFO root fetch - processPackages [recognize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognize-0.1.8.tar.gz tmp/recognize-0.1.9.tar.gz --markdown 20230612/r/recognize/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 14:28:21] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/a0/7e/ded60ca81df63b236917d97f583f06d8a58eb735100623e06b87172c6932/ms_salesforce_api-1.0.0.tar.gz
+[2023-06-12 14:28:21] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-06-12 14:28:21] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-0.0.44.tar.gz tmp/ms_salesforce_api-1.0.0.tar.gz --markdown 20230612/m/ms-salesforce-api/0.0.44-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 14:28:21] INFO root fetch - processPackages [otrs-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/otrs_somconnexio-0.4.8.tar.gz]
+[2023-06-12 14:28:21] INFO root fetch - processPackages [otrs-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/otrs_somconnexio-0.4.9.tar.gz]
+[2023-06-12 14:28:21] INFO root fetch - main [MainThread]: End processing [otrs-somconnexio]: success
+[2023-06-12 14:28:22] INFO root fetch - processPackages [nanoqnt]: Remove: archive file [/home/abi/fetcher/tmp/nanoqnt-0.2.0.tar.gz]
+[2023-06-12 14:28:22] INFO root fetch - processPackages [nanoqnt]: Remove: archive file [/home/abi/fetcher/tmp/nanoqnt-0.2.0rc1.tar.gz]
+[2023-06-12 14:28:22] INFO root fetch - main [MainThread]: End processing [nanoqnt]: success
+[2023-06-12 14:28:22] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.8.tar.gz]
+[2023-06-12 14:28:22] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.9.tar.gz]
+[2023-06-12 14:28:22] INFO root fetch - main [MainThread]: End processing [recognize]: success
+[2023-06-12 14:28:23] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.44.tar.gz]
+[2023-06-12 14:28:23] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.0.0.tar.gz]
+[2023-06-12 14:28:23] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-06-12 14:28:25] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2023-06-12 14:28:25] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2023-06-12 14:28:25] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2023-06-12 14:28:25] INFO root fetch - main [MainThread]: Store serial: [18468629]
