@@ -9454,3 +9454,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 08:38:56] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.4.tar.gz]
 [2023-06-12 08:38:56] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-06-12 08:38:56] INFO root fetch - main [MainThread]: Store serial: [18465199]
+[2023-06-12 08:44:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465199]
+[2023-06-12 08:44:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-12 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySide2-Fluent-Widgets
+[2023-06-12 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-encode
+[2023-06-12 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revolution.py
+[2023-06-12 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yvflask
+[2023-06-12 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fractal-client
+[2023-06-12 08:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sc-editor
+[2023-06-12 08:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stim
+[2023-06-12 08:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qsm-forward
+[2023-06-12 08:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gh-subdir
+[2023-06-12 08:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stimcirq
+[2023-06-12 08:44:07] INFO root fetch - processPackages [ansar-encode]: New version: [0.1.78] Old Version: [0.1.77]
+[2023-06-12 08:44:07] WARNING root fetch - processPackages [qsm-forward]: Skipping, unable to determine old version
+[2023-06-12 08:44:07] INFO root fetch - processPackages [qsm-forward]: Start processing: revolution.py
+[2023-06-12 08:44:07] INFO root fetch - main [MainThread]: End processing [qsm-forward] error
+[2023-06-12 08:44:07] INFO root fetch - processPackages [yvflask]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 08:44:07] INFO root fetch - processPackages [sc-editor]: New version: [1.2] Old Version: [0.991]
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: New version: [5.0.0.6] Old Version: [5.0.0.5]
+[2023-06-12 08:44:07] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.9.4] Old Version: [0.9.3.1]
+[2023-06-12 08:44:07] INFO root fetch - processPackages [gh-subdir]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 08:44:07] INFO root fetch - processPackages [fractal-client]: New version: [1.3.0a1] Old Version: [1.3.0a0]
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: New version: [5.0.0.6] Old Version: [5.0.0.5]
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 08:44:07] INFO root fetch - processPackages [yvflask]: Downloading https://files.pythonhosted.org/packages/59/8d/8792464391dc7a8e307cadbe5fecfc4a5ba4782cbbfe4f8a1183706406e5/yvflask-1.0.1.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/9e/17/25fb899d0ab30bff122ff0baf7b2e30cebc0a0c8c406db52f6cca79602c9/revolution.py-5.0.0.5.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/06/54/be85e7d8a4fa4f8160bc142a5a815f191e3c61c7468b653f785b5e1070a3/gh_subdir-0.1.1.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/9e/17/25fb899d0ab30bff122ff0baf7b2e30cebc0a0c8c406db52f6cca79602c9/revolution.py-5.0.0.5.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/ff/53/b17a15b7b0f77f4a28742f09c8023bd2b3235ab92a1fd034791afa1d1bf0/sc-editor-0.991.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/de/d3/0e2de224fd86b7a4b1ae9ff15d4dc4657edb76693413ca394254990a64ea/ansar-encode-0.1.77.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/db/b3/6b135f56b183ee0b410a88620209cf7bccfd9fa66b82ddd84c8045587d0f/fractal_client-1.3.0a0.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/f9/be/99d00041ddbf74b4777f0204f8d5b46029694c9a51e4f02ae0178cdcac5c/gh_subdir-0.1.2.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/07/d4/b29449eab239ae0916163287336086aa4e4f6b3bc708101a1ed2cb14b651/PySide2-Fluent-Widgets-0.9.3.1.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [gh-subdir]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [gh-subdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_subdir-0.1.1.tar.gz tmp/gh_subdir-0.1.2.tar.gz --markdown 20230612/g/gh-subdir/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230612/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 08:44:07] INFO root fetch - processPackages [yvflask]: Downloading https://files.pythonhosted.org/packages/72/15/2be1e2cc9cec1c53010e2b72700cdb4d5e9210e0e432b44c3ad00b96005d/yvflask-1.0.2.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [yvflask]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [yvflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvflask-1.0.1.tar.gz tmp/yvflask-1.0.2.tar.gz --markdown 20230612/y/yvflask/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/fa/01/bd559ca27d2129f70fe2d02d7410cb30b88078e995c50baea1afedf489b4/revolution.py-5.0.0.6.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/67/eb/05b222246d7a0c2ba7b10f1ed1a154c015c56e85cb03d34437bcb4439ecb/sc-editor-1.2.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/fa/01/bd559ca27d2129f70fe2d02d7410cb30b88078e995c50baea1afedf489b4/revolution.py-5.0.0.6.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.0.5.tar.gz tmp/revolution.py-5.0.0.6.tar.gz --markdown 20230612/r/revolution.py/5.0.0.5-5.0.0.6/diff.md --exclude *.pyd
+[2023-06-12 08:44:07] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.991.tar.gz tmp/sc-editor-1.2.tar.gz --markdown 20230612/s/sc-editor/0.991-1.2/diff.md --exclude *.pyd
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.0.5.tar.gz tmp/revolution.py-5.0.0.6.tar.gz --markdown 20230612/r/revolution.py/5.0.0.5-5.0.0.6/diff.md --exclude *.pyd
+[2023-06-12 08:44:07] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/13/7b/44942ca645b1bdd1aaed142bd2caff20a65f2b6a97929f43901371b08d7c/ansar-encode-0.1.78.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/ae/b8/7ed3d3adb28c304384d6502785d37cfaddeeb4aa56ac8ee91f1705e3341a/fractal_client-1.3.0a1.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [ansar-encode]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [ansar-encode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-encode-0.1.77.tar.gz tmp/ansar-encode-0.1.78.tar.gz --markdown 20230612/a/ansar-encode/0.1.77-0.1.78/diff.md --exclude *.pyd
+[2023-06-12 08:44:07] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/68/0f/a6201e226b8abd22a96d1f584a39e6367a9dc664ae9da9ddd6e7be1d60ac/PySide2-Fluent-Widgets-0.9.4.tar.gz
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230612/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 08:44:07] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.9.3.1.tar.gz tmp/PySide2-Fluent-Widgets-0.9.4.tar.gz --markdown 20230612/P/PySide2-Fluent-Widgets/0.9.3.1-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 08:44:07] INFO root fetch - processPackages [fractal-client]: executing diffoscope
+[2023-06-12 08:44:07] INFO root fetch - processPackages [fractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_client-1.3.0a0.tar.gz tmp/fractal_client-1.3.0a1.tar.gz --markdown 20230612/f/fractal-client/1.3.0a0-1.3.0a1/diff.md --exclude *.pyd
+[2023-06-12 08:44:08] INFO root fetch - processPackages [yvflask]: Remove: archive file [/home/abi/fetcher/tmp/yvflask-1.0.1.tar.gz]
+[2023-06-12 08:44:08] INFO root fetch - processPackages [yvflask]: Remove: archive file [/home/abi/fetcher/tmp/yvflask-1.0.2.tar.gz]
+[2023-06-12 08:44:08] INFO root fetch - processPackages [yvflask]: Start processing: sinter
+[2023-06-12 08:44:08] INFO root fetch - main [MainThread]: End processing [yvflask]: success
+[2023-06-12 08:44:08] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.1.tar.gz]
+[2023-06-12 08:44:08] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.2.tar.gz]
+[2023-06-12 08:44:08] INFO root fetch - processPackages [gh-subdir]: Start processing: qetrader
+[2023-06-12 08:44:08] INFO root fetch - main [MainThread]: End processing [gh-subdir]: success
+[2023-06-12 08:44:08] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-12 08:44:08] INFO root fetch - processPackages [qetrader]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 08:44:08] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-12 08:44:09] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/8d/76/412285766440f29addd68f1ad79e9dc15243a5adbd376024a598747d4943/qetrader-1.0.8.tar.gz
+[2023-06-12 08:44:09] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-12 08:44:09] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.5.tar.gz]
+[2023-06-12 08:44:09] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.6.tar.gz]
+[2023-06-12 08:44:09] INFO root fetch - processPackages [revolution.py]: Start processing: dss-python-backend
+[2023-06-12 08:44:09] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-06-12 08:44:09] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-06-12 08:44:09] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-12 08:44:09] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230612/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-12 08:44:09] INFO root fetch - processPackages [dss-python-backend]: New version: [0.13.3rc2] Old Version: [0.13.3rc1]
+[2023-06-12 08:44:09] INFO root fetch - processPackages [dss-python-backend]: Downloading https://files.pythonhosted.org/packages/1c/71/74c406c2d2222c1681c8853f8a04c1275d408c1a6865deb970dd073ff0cc/dss_python_backend-0.13.3rc1-cp37-abi3-win_amd64.whl
+[2023-06-12 08:44:09] WARNING root fetch - processPackages [dss-python-backend]: Skipping package: exceeds size limit 16965991>=10485760
+[2023-06-12 08:44:09] INFO root fetch - main [MainThread]: End processing [dss-python-backend] error
+[2023-06-12 08:44:09] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-12 08:44:09] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-12 08:44:09] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-12 08:44:09] INFO root fetch - processPackages [ansar-encode]: Remove: archive file [/home/abi/fetcher/tmp/ansar-encode-0.1.77.tar.gz]
+[2023-06-12 08:44:09] INFO root fetch - processPackages [ansar-encode]: Remove: archive file [/home/abi/fetcher/tmp/ansar-encode-0.1.78.tar.gz]
+[2023-06-12 08:44:09] INFO root fetch - main [MainThread]: End processing [ansar-encode]: success
+[2023-06-12 08:44:09] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/ef/df/91b4c73fed70f7bb496ae740924588ff56c86483b7ed58987a240c11af52/qetrader-1.0.9.tar.gz
+[2023-06-12 08:44:09] INFO root fetch - processPackages [qetrader]: executing diffoscope
+[2023-06-12 08:44:09] INFO root fetch - processPackages [qetrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qetrader-1.0.8.tar.gz tmp/qetrader-1.0.9.tar.gz --markdown 20230612/q/qetrader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 08:44:09] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.991.tar.gz]
+[2023-06-12 08:44:09] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-1.2.tar.gz]
+[2023-06-12 08:44:09] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 08:44:10] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.3.0a0.tar.gz]
+[2023-06-12 08:44:10] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.3.0a1.tar.gz]
+[2023-06-12 08:44:10] INFO root fetch - main [MainThread]: End processing [fractal-client]: success
+[2023-06-12 08:44:10] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.8.tar.gz]
+[2023-06-12 08:44:10] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
+[2023-06-12 08:44:10] INFO root fetch - main [MainThread]: End processing [qetrader]: success
+[2023-06-12 08:44:10] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-12 08:44:10] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-12 08:44:10] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-12 08:44:12] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-12 08:44:12] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-12 08:44:12] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-12 08:44:14] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.3.1.tar.gz]
+[2023-06-12 08:44:14] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.4.tar.gz]
+[2023-06-12 08:44:14] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-06-12 08:44:14] INFO root fetch - main [MainThread]: Store serial: [18465269]
