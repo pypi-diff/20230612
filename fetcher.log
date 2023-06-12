@@ -1458,3 +1458,144 @@
 [2023-06-12 02:05:13] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
 [2023-06-12 02:05:13] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-12 02:05:13] INFO root fetch - main [MainThread]: Store serial: [18461996]
+[2023-06-12 02:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461996]
+[2023-06-12 02:10:21] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: forganiser
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nutorious
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: captif-cpx-db
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HTTP-PyServer
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KTensors
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cssutils
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxutils-nightly
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lab-partner-utils
+[2023-06-12 02:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyXAB
+[2023-06-12 02:10:21] INFO root fetch - processPackages [HTTP-PyServer]: New version: [0.1.4.3] Old Version: [0.1.4.2.1]
+[2023-06-12 02:10:21] WARNING root fetch - processPackages [forganiser]: Skipping, unable to determine old version
+[2023-06-12 02:10:21] INFO root fetch - processPackages [forganiser]: Start processing: torchlayers-nightly
+[2023-06-12 02:10:21] INFO root fetch - main [MainThread]: End processing [forganiser] error
+[2023-06-12 02:10:21] INFO root fetch - processPackages [nutorious]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-12 02:10:21] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230611] Old Version: [0.0.8.dev20230610]
+[2023-06-12 02:10:21] INFO root fetch - processPackages [captif-cpx-db]: New version: [0.7] Old Version: [0.6]
+[2023-06-12 02:10:21] INFO root fetch - processPackages [lab-partner-utils]: New version: [0.7.45] Old Version: [0.7.44]
+[2023-06-12 02:10:21] INFO root fetch - processPackages [KTensors]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-12 02:10:22] INFO root fetch - processPackages [cssutils]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-06-12 02:10:22] INFO root fetch - processPackages [PyXAB]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-12 02:10:22] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/c9/d5/292e8edb0eaf936350dae69a927b94c22b5d7c3e2181fd43bf97414e5344/nutorious-0.1.6.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/e0/44/489afdbbab2a7c32976bff719283d3b8630d8fe9d94f14cc84c79ebc1e36/HTTP-PyServer-0.1.4.2.1.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1686442077] Old Version: [1686355634]
+[2023-06-12 02:10:22] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-12 02:10:22] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/8c/d5/7c6aba446d6b3dbb2f0def08dc4bff4e355ad3cb996dd735cd9caa2e5ce5/jaxutils-nightly-0.0.8.dev20230610.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/51/c1/87d696e1b55072d0ea2bc6204b46b976e80dea9a02e832841ead3ce0c6cf/torchlayers-nightly-1686355634.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/f2/db/598645609438c94a3a5da361f20b6701b060b35862a003bcfa9361c88332/captif_cpx_db-0.6.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/4b/14/7097633d4a1906ad4733e1ad1c9aa3cebf044ee136689a6cc7d515584c5d/KTensors-0.0.9.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [cssutils]: Downloading https://files.pythonhosted.org/packages/fa/7c/d825929c7349ea76cef78dac7a54e58f12e4ceb24b6bd48e6e092892adc5/cssutils-2.7.0.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/01/87/b4e2a9c8c93a990fbbd53f20733282316e18273dd6e7085aa050addbcacb/lab-partner-utils-0.7.44.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [PyXAB]: Downloading https://files.pythonhosted.org/packages/a6/20/d196e4bf434b3bfece3a2e9bc612a960d0c9f18b5517ed090c251972464a/PyXAB-0.2.3.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/02/98/669070d7ee62739f3a07e396008664b73cb10e2a4149ac1407f7dbcb75aa/HTTP-PyServer-0.1.4.3.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [HTTP-PyServer]: executing diffoscope
+[2023-06-12 02:10:22] INFO root fetch - processPackages [HTTP-PyServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTTP-PyServer-0.1.4.2.1.tar.gz tmp/HTTP-PyServer-0.1.4.3.tar.gz --markdown 20230612/H/HTTP-PyServer/0.1.4.2.1-0.1.4.3/diff.md --exclude *.pyd
+[2023-06-12 02:10:22] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [nutorious]: Downloading https://files.pythonhosted.org/packages/f6/ea/68c478ce3432d30ff997909a99f9236771302ea2431147ef5785e5bd3d58/nutorious-0.1.7.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/68/f1/a208c04e6a51f2337360ade23c9ecbff76e364e05593732167cc6e3c1558/jaxutils-nightly-0.0.8.dev20230611.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/30/45/71fb24f224af0b87063b556697251ae46b5def43c80f9d63dd50f877edaa/KTensors-0.1.0.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [nutorious]: executing diffoscope
+[2023-06-12 02:10:22] INFO root fetch - processPackages [nutorious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutorious-0.1.6.tar.gz tmp/nutorious-0.1.7.tar.gz --markdown 20230612/n/nutorious/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-12 02:10:22] INFO root fetch - processPackages [cssutils]: Downloading https://files.pythonhosted.org/packages/5e/f1/4d63cad25fc56065692e0740ffcab67737ed4ccc63dd0d8b83fac564cebc/cssutils-2.7.1.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/78/44/021a2fe4ab3723dd3d0fdbbd1471c031dfcc2709d60a7656df3cc5e37d58/captif_cpx_db-0.7.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/3e/0e/7636569c2b1f490507b52321fbb76f611e47f012c519bc3c8a2e2a6b8a73/torchlayers-nightly-1686442077.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-12 02:10:22] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.0.9.tar.gz tmp/KTensors-0.1.0.tar.gz --markdown 20230612/K/KTensors/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 02:10:22] INFO root fetch - processPackages [cssutils]: executing diffoscope
+[2023-06-12 02:10:22] INFO root fetch - processPackages [cssutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cssutils-2.7.0.tar.gz tmp/cssutils-2.7.1.tar.gz --markdown 20230612/c/cssutils/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-06-12 02:10:22] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-06-12 02:10:22] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.6.tar.gz tmp/captif_cpx_db-0.7.tar.gz --markdown 20230612/c/captif-cpx-db/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-12 02:10:22] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-12 02:10:22] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230610.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230611.tar.gz --markdown 20230612/j/jaxutils-nightly/0.0.8.dev20230610-0.0.8.dev20230611/diff.md --exclude *.pyd
+[2023-06-12 02:10:22] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/5b/28/3b3301d03b70dba9e1d1ae5ec53cf3f1b3fec6e19fbabce7c5a6092eeae6/lab-partner-utils-0.7.45.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [PyXAB]: Downloading https://files.pythonhosted.org/packages/56/c7/74e1e6045ce4c5c7413c0ba0d7ffffbe3e2f3403131664e166b519dc76a7/PyXAB-0.2.4.tar.gz
+[2023-06-12 02:10:22] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-12 02:10:22] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1686355634.tar.gz tmp/torchlayers-nightly-1686442077.tar.gz --markdown 20230612/t/torchlayers-nightly/1686355634-1686442077/diff.md --exclude *.pyd
+[2023-06-12 02:10:22] INFO root fetch - processPackages [lab-partner-utils]: executing diffoscope
+[2023-06-12 02:10:22] INFO root fetch - processPackages [lab-partner-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-utils-0.7.44.tar.gz tmp/lab-partner-utils-0.7.45.tar.gz --markdown 20230612/l/lab-partner-utils/0.7.44-0.7.45/diff.md --exclude *.pyd
+[2023-06-12 02:10:22] INFO root fetch - processPackages [PyXAB]: executing diffoscope
+[2023-06-12 02:10:22] INFO root fetch - processPackages [PyXAB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyXAB-0.2.3.tar.gz tmp/PyXAB-0.2.4.tar.gz --markdown 20230612/P/PyXAB/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-12 02:10:22] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-12 02:10:23] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-12 02:10:23] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230612/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-12 02:10:23] INFO root fetch - processPackages [HTTP-PyServer]: Remove: archive file [/home/abi/fetcher/tmp/HTTP-PyServer-0.1.4.2.1.tar.gz]
+[2023-06-12 02:10:23] INFO root fetch - processPackages [HTTP-PyServer]: Remove: archive file [/home/abi/fetcher/tmp/HTTP-PyServer-0.1.4.3.tar.gz]
+[2023-06-12 02:10:23] INFO root fetch - processPackages [HTTP-PyServer]: Start processing: dss-python
+[2023-06-12 02:10:23] INFO root fetch - main [MainThread]: End processing [HTTP-PyServer]: success
+[2023-06-12 02:10:23] INFO root fetch - processPackages [dss-python]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-12 02:10:23] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.0.9.tar.gz]
+[2023-06-12 02:10:23] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.1.0.tar.gz]
+[2023-06-12 02:10:23] INFO root fetch - processPackages [KTensors]: Start processing: captif-cpx-config
+[2023-06-12 02:10:23] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-12 02:10:23] INFO root fetch - processPackages [captif-cpx-config]: New version: [0.6] Old Version: [0.5]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.6.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [nutorious]: Remove: archive file [/home/abi/fetcher/tmp/nutorious-0.1.7.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [nutorious]: Start processing: core-models
+[2023-06-12 02:10:24] INFO root fetch - main [MainThread]: End processing [nutorious]: success
+[2023-06-12 02:10:24] INFO root fetch - processPackages [core-models]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/ba/cf/a5abece290b5d45a750b25f6d114e5b1462f4576dc2639d8c1f557b61d72/dss_python-0.9.7-cp36-cp36m-win_amd64.whl
+[2023-06-12 02:10:24] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.6.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.7.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [captif-cpx-db]: Start processing: cdk-common
+[2023-06-12 02:10:24] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-06-12 02:10:24] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [captif-cpx-config]: Downloading https://files.pythonhosted.org/packages/9f/34/a3141e25ba79dbca6c8a10e2864061c570d0d67c117c62f96c34d26c75c6/captif_cpx_config-0.5.tar.gz
+[2023-06-12 02:10:24] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-12 02:10:24] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/c6/81/3035ffe625b66923f244b7c9379499589197262ef8dc1f25594fdf0047b7/core_models-0.0.6.tar.gz
+[2023-06-12 02:10:24] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230610.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230611.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: cdk-aws-discord-notifiers
+[2023-06-12 02:10:24] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-12 02:10:24] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [captif-cpx-config]: Downloading https://files.pythonhosted.org/packages/eb/b3/812c93102dc2f7953f2be68d9e4fd2ac991b7907792946fa30e5660466c4/captif_cpx_config-0.6.tar.gz
+[2023-06-12 02:10:24] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-12 02:10:24] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.44.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.45.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - main [MainThread]: End processing [lab-partner-utils]: success
+[2023-06-12 02:10:24] INFO root fetch - processPackages [captif-cpx-config]: executing diffoscope
+[2023-06-12 02:10:24] INFO root fetch - processPackages [captif-cpx-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_config-0.5.tar.gz tmp/captif_cpx_config-0.6.tar.gz --markdown 20230612/c/captif-cpx-config/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-12 02:10:24] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-12 02:10:24] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230612/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 02:10:24] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/08/18/a568ec830298c244a5da3cb83c0bdcb553c90268e5e298f1d152752f779d/core_models-0.0.7.tar.gz
+[2023-06-12 02:10:24] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-06-12 02:10:24] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.0.6.tar.gz tmp/core_models-0.0.7.tar.gz --markdown 20230612/c/core-models/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 02:10:24] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686355634.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686442077.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-12 02:10:24] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/b2/a4/1cefac417fbd9ea319642dc8cb75a3126fb7e1e1e60034d5a2d7a01c31ef/cdk-aws-discord-notifiers-0.0.92.tar.gz
+[2023-06-12 02:10:24] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-12 02:10:24] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-12 02:10:25] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/01/44/9b7b908415f0e3ecbc413ebf6895b4465ca04c24d15d974ddac812e6cf2b/dss_python-0.9.8-cp37-cp37m-win_amd64.whl
+[2023-06-12 02:10:25] INFO root fetch - processPackages [PyXAB]: Remove: archive file [/home/abi/fetcher/tmp/PyXAB-0.2.3.tar.gz]
+[2023-06-12 02:10:25] INFO root fetch - processPackages [PyXAB]: Remove: archive file [/home/abi/fetcher/tmp/PyXAB-0.2.4.tar.gz]
+[2023-06-12 02:10:25] INFO root fetch - main [MainThread]: End processing [PyXAB]: success
+[2023-06-12 02:10:25] INFO root fetch - processPackages [dss-python]: executing diffoscope
+[2023-06-12 02:10:25] INFO root fetch - processPackages [dss-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip --markdown 20230612/d/dss-python/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-12 02:10:25] INFO root fetch - processPackages [captif-cpx-config]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_config-0.5.tar.gz]
+[2023-06-12 02:10:25] INFO root fetch - processPackages [captif-cpx-config]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_config-0.6.tar.gz]
+[2023-06-12 02:10:25] INFO root fetch - main [MainThread]: End processing [captif-cpx-config]: success
+[2023-06-12 02:10:25] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/d5/03/031aaa229795a1ced0c25ca39772fa5a9f1fd670938eec21d885ac24be49/cdk-aws-discord-notifiers-0.0.93.tar.gz
+[2023-06-12 02:10:25] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.0.6.tar.gz]
+[2023-06-12 02:10:25] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.0.7.tar.gz]
+[2023-06-12 02:10:25] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-06-12 02:10:25] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-12 02:10:25] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.92.tar.gz tmp/cdk-aws-discord-notifiers-0.0.93.tar.gz --markdown 20230612/c/cdk-aws-discord-notifiers/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-06-12 02:10:26] INFO root fetch - processPackages [cssutils]: Remove: archive file [/home/abi/fetcher/tmp/cssutils-2.7.0.tar.gz]
+[2023-06-12 02:10:26] INFO root fetch - processPackages [cssutils]: Remove: archive file [/home/abi/fetcher/tmp/cssutils-2.7.1.tar.gz]
+[2023-06-12 02:10:26] INFO root fetch - main [MainThread]: End processing [cssutils]: success
+[2023-06-12 02:10:26] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.92.tar.gz]
+[2023-06-12 02:10:26] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.93.tar.gz]
+[2023-06-12 02:10:26] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-12 02:10:28] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-12 02:10:28] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-12 02:10:28] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-12 02:10:47] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip]
+[2023-06-12 02:10:47] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip]
+[2023-06-12 02:10:47] INFO root fetch - main [MainThread]: End processing [dss-python]: success
+[2023-06-12 02:10:47] INFO root fetch - main [MainThread]: Store serial: [18462043]
