@@ -15317,3 +15317,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 12:55:33] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
 [2023-06-12 12:55:33] INFO root fetch - main [MainThread]: End processing [opower]: success
 [2023-06-12 12:55:33] INFO root fetch - main [MainThread]: Store serial: [18467762]
+[2023-06-12 13:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467762]
+[2023-06-12 13:00:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getmodelspec
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysimflow
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anypytools
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funasr
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Pandora-ChatGPT
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: telescope-sdk
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: veetility
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: koji-fedoramessaging-messages
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysimflow
+[2023-06-12 13:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mykit
+[2023-06-12 13:00:45] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [funasr]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [anypytools]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.3453] Old Version: [1.0.3452]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [pysimflow]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [koji-fedoramessaging-messages]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-12 13:00:45] WARNING root fetch - processPackages [mykit]: Skipping, unable to determine old version
+[2023-06-12 13:00:45] INFO root fetch - processPackages [mykit]: Start processing: wbpFilebrowser
+[2023-06-12 13:00:45] INFO root fetch - main [MainThread]: End processing [mykit] error
+[2023-06-12 13:00:45] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/47/59/13535fd76ba70393c88a85c92754254b83e3c9affcd1079f04f9b3b6259a/Pandora-ChatGPT-1.1.9.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [telescope-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [pysimflow]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Downloading https://files.pythonhosted.org/packages/d1/fd/1887d4c5d50295ce9a630ecc2995a022e5951940231455d8b59f27ab56e0/koji-fedoramessaging-messages-1.2.0.tar.gz
+[2023-06-12 13:00:45] ERROR root fetch - processPackages [getmodelspec]: Unable to fetch info: No such project/version 'getmodelspec' 1.0.3452
+[2023-06-12 13:00:45] INFO root fetch - processPackages [getmodelspec]: Start processing: floating-window-framework
+[2023-06-12 13:00:45] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-12 13:00:45] INFO root fetch - processPackages [floating-window-framework]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [wbpFilebrowser]: New version: [0.2.1] Old Version: [0.1.6]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/f3/3a/c157222175e08dec17f8f4d3d2779db7e052aa00ffc29be943ceaf648b3d/veetility-0.1.85.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [floating-window-framework]: Downloading https://files.pythonhosted.org/packages/5a/d5/a7068d331c0acc9f062a76506ad2bd2e21ded2000f72cab158ba24e53f2b/floating-window-framework-0.0.1.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [anypytools]: Downloading https://files.pythonhosted.org/packages/95/a7/ecad43d160436696e197e484af77f398858ddf641dfaf178fca777eb02d2/AnyPyTools-1.9.0.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/4d/39/c781c800e438916398e84a281ce7f392fd24a535fba145178bef8324fb43/funasr-0.5.8.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [telescope-sdk]: Downloading https://files.pythonhosted.org/packages/54/a7/775080f9207b9b2addc9ec2bad02d9935f1341c8f2a1e5872ce9322753cc/telescope_sdk-0.1.8.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/de/49/2a1a51631d6c0bbc379ae2c8dbe22c4bfb657f88ea016df807d6bd2be7d4/pysimflow-0.0.85.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/de/49/2a1a51631d6c0bbc379ae2c8dbe22c4bfb657f88ea016df807d6bd2be7d4/pysimflow-0.0.85.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [wbpFilebrowser]: Downloading https://files.pythonhosted.org/packages/e4/12/edc675829c864aab8b163fd852c6bbe3e57caffa40da522f95829c0ad771/wbpFilebrowser-0.1.6.tar.gz
+[2023-06-12 13:00:45] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72359083>=10485760
+[2023-06-12 13:00:45] INFO root fetch - processPackages [pysimflow]: Start processing: idoctorai
+[2023-06-12 13:00:45] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 13:00:45] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72359083>=10485760
+[2023-06-12 13:00:45] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 13:00:45] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Downloading https://files.pythonhosted.org/packages/60/8d/2891939ac1b82d6dd15310e2d879540b4ebcdfe04f5edf1359ff4aeb633c/koji-fedoramessaging-messages-1.2.1.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e4/27/6bf604a25bb2458a80de6e113a5e7478938a23d9c7100bad80dac3b5e3c8/veetility-0.1.9.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/dd/0c/673ebdc3243098f51a65b56b9a7a42d1243c30a8001abd41da4615bc5dff/Pandora-ChatGPT-1.2.0.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [floating-window-framework]: Downloading https://files.pythonhosted.org/packages/08/31/26e647714fe7e8beaec397a22fcd24b0aa04d1d47f4fd1fd410f735c6f4f/floating-window-framework-0.0.2.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [idoctorai]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-12 13:00:45] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-06-12 13:00:45] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.85.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230612/v/veetility/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 13:00:45] INFO root fetch - processPackages [koji-fedoramessaging-messages]: executing diffoscope
+[2023-06-12 13:00:45] INFO root fetch - processPackages [koji-fedoramessaging-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koji-fedoramessaging-messages-1.2.0.tar.gz tmp/koji-fedoramessaging-messages-1.2.1.tar.gz --markdown 20230612/k/koji-fedoramessaging-messages/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-12 13:00:45] INFO root fetch - processPackages [floating-window-framework]: executing diffoscope
+[2023-06-12 13:00:45] INFO root fetch - processPackages [floating-window-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/floating-window-framework-0.0.1.tar.gz tmp/floating-window-framework-0.0.2.tar.gz --markdown 20230612/f/floating-window-framework/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 13:00:45] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-12 13:00:45] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.9.tar.gz tmp/Pandora-ChatGPT-1.2.0.tar.gz --markdown 20230612/P/Pandora-ChatGPT/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-12 13:00:45] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/cc/40/eb6cdbf0ed235c5df176b460ab34727f8872249bca16c8117efd5e15ba75/funasr-0.6.0.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [telescope-sdk]: Downloading https://files.pythonhosted.org/packages/0a/bb/38861a90d251e67f2517742bb238c8e3c1fcddda5f965901c92e3e9a1b3d/telescope_sdk-0.1.9.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [anypytools]: Downloading https://files.pythonhosted.org/packages/c7/3e/8d821aab9378370dec1a1fc84c5f13a6ee0f760c2ab8e249fe73b493e6d8/anypytools-1.9.1.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [wbpFilebrowser]: Downloading https://files.pythonhosted.org/packages/d2/2a/714eb7f3f1c192bf77d11b0200b8558dbce26c4aab34f1502d73ddaad6f2/wbpFilebrowser-0.2.1.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/dd/c8/5688c76b8aabe41d552c574dde1f179906dba33c5156ba5a987833230091/idoctorai-0.3.2.tar.gz
+[2023-06-12 13:00:45] INFO root fetch - processPackages [telescope-sdk]: executing diffoscope
+[2023-06-12 13:00:45] INFO root fetch - processPackages [telescope-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telescope_sdk-0.1.8.tar.gz tmp/telescope_sdk-0.1.9.tar.gz --markdown 20230612/t/telescope-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 13:00:45] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-06-12 13:00:45] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.5.8.tar.gz tmp/funasr-0.6.0.tar.gz --markdown 20230612/f/funasr/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-06-12 13:00:45] INFO root fetch - processPackages [wbpFilebrowser]: executing diffoscope
+[2023-06-12 13:00:45] INFO root fetch - processPackages [wbpFilebrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpFilebrowser-0.1.6.tar.gz tmp/wbpFilebrowser-0.2.1.tar.gz --markdown 20230612/w/wbpFilebrowser/0.1.6-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 13:00:45] INFO root fetch - processPackages [anypytools]: executing diffoscope
+[2023-06-12 13:00:45] INFO root fetch - processPackages [anypytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnyPyTools-1.9.0.tar.gz tmp/anypytools-1.9.1.tar.gz --markdown 20230612/a/anypytools/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-12 13:00:46] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/e8/be/3abfe83e01062ad4b7142358369e23323dd5e10ebe4a5e549d205466fe19/idoctorai-0.3.3.tar.gz
+[2023-06-12 13:00:46] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-12 13:00:46] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.3.2.tar.gz tmp/idoctorai-0.3.3.tar.gz --markdown 20230612/i/idoctorai/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-12 13:00:47] INFO root fetch - processPackages [wbpFilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/wbpFilebrowser-0.1.6.tar.gz]
+[2023-06-12 13:00:47] INFO root fetch - processPackages [wbpFilebrowser]: Remove: archive file [/home/abi/fetcher/tmp/wbpFilebrowser-0.2.1.tar.gz]
+[2023-06-12 13:00:47] INFO root fetch - main [MainThread]: End processing [wbpFilebrowser]: success
+[2023-06-12 13:00:47] INFO root fetch - processPackages [telescope-sdk]: Remove: archive file [/home/abi/fetcher/tmp/telescope_sdk-0.1.8.tar.gz]
+[2023-06-12 13:00:47] INFO root fetch - processPackages [telescope-sdk]: Remove: archive file [/home/abi/fetcher/tmp/telescope_sdk-0.1.9.tar.gz]
+[2023-06-12 13:00:47] INFO root fetch - main [MainThread]: End processing [telescope-sdk]: success
+[2023-06-12 13:00:47] INFO root fetch - processPackages [floating-window-framework]: Remove: archive file [/home/abi/fetcher/tmp/floating-window-framework-0.0.1.tar.gz]
+[2023-06-12 13:00:47] INFO root fetch - processPackages [floating-window-framework]: Remove: archive file [/home/abi/fetcher/tmp/floating-window-framework-0.0.2.tar.gz]
+[2023-06-12 13:00:47] INFO root fetch - main [MainThread]: End processing [floating-window-framework]: success
+[2023-06-12 13:00:48] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Remove: archive file [/home/abi/fetcher/tmp/koji-fedoramessaging-messages-1.2.0.tar.gz]
+[2023-06-12 13:00:48] INFO root fetch - processPackages [koji-fedoramessaging-messages]: Remove: archive file [/home/abi/fetcher/tmp/koji-fedoramessaging-messages-1.2.1.tar.gz]
+[2023-06-12 13:00:48] INFO root fetch - main [MainThread]: End processing [koji-fedoramessaging-messages]: success
+[2023-06-12 13:00:48] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.85.tar.gz]
+[2023-06-12 13:00:48] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.9.tar.gz]
+[2023-06-12 13:00:48] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-06-12 13:00:48] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.3.2.tar.gz]
+[2023-06-12 13:00:48] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.3.3.tar.gz]
+[2023-06-12 13:00:48] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-12 13:00:49] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.9.tar.gz]
+[2023-06-12 13:00:49] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.0.tar.gz]
+[2023-06-12 13:00:49] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-12 13:00:50] INFO root fetch - processPackages [anypytools]: Remove: archive file [/home/abi/fetcher/tmp/AnyPyTools-1.9.0.tar.gz]
+[2023-06-12 13:00:50] INFO root fetch - processPackages [anypytools]: Remove: archive file [/home/abi/fetcher/tmp/anypytools-1.9.1.tar.gz]
+[2023-06-12 13:00:50] INFO root fetch - main [MainThread]: End processing [anypytools]: success
+[2023-06-12 13:00:51] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.5.8.tar.gz]
+[2023-06-12 13:00:51] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.0.tar.gz]
+[2023-06-12 13:00:51] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-06-12 13:00:51] INFO root fetch - main [MainThread]: Store serial: [18467801]
