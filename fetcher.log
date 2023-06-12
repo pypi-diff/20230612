@@ -20027,3 +20027,147 @@ EOFError: EOF read where object expected
 [2023-06-12 16:06:58] INFO root fetch - processPackages [hikvision-isapi-cli]: Remove: archive file [/home/abi/fetcher/tmp/hikvision_isapi_cli-1.2.1.tar.gz]
 [2023-06-12 16:06:58] INFO root fetch - main [MainThread]: End processing [hikvision-isapi-cli]: success
 [2023-06-12 16:06:58] INFO root fetch - main [MainThread]: Store serial: [18469688]
+[2023-06-12 16:12:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469688]
+[2023-06-12 16:12:08] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prestashop
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedriver-py-auto
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-api-sherlock
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Zevon
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: example-package-joaopcnogueira
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wbpUItools
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: const-cython-lib
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autoconf
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogalaxy
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autofit
+[2023-06-12 16:12:08] WARNING root fetch - processPackages [prestashop]: Skipping, unable to determine old version
+[2023-06-12 16:12:08] INFO root fetch - processPackages [prestashop]: Start processing: autoarray
+[2023-06-12 16:12:08] INFO root fetch - main [MainThread]: End processing [prestashop] error
+[2023-06-12 16:12:08] WARNING root fetch - processPackages [example-package-joaopcnogueira]: Skipping, unable to determine old version
+[2023-06-12 16:12:08] INFO root fetch - processPackages [example-package-joaopcnogueira]: Start processing: autolens
+[2023-06-12 16:12:08] INFO root fetch - main [MainThread]: End processing [example-package-joaopcnogueira] error
+[2023-06-12 16:12:08] INFO root fetch - processPackages [ansys-api-sherlock]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-06-12 16:12:08] INFO root fetch - processPackages [Zevon]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-12 16:12:08] INFO root fetch - processPackages [wbpUItools]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-12 16:12:08] INFO root fetch - processPackages [chromedriver-py-auto]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-12 16:12:08] INFO root fetch - processPackages [const-cython-lib]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-12 16:12:08] INFO root fetch - processPackages [autoconf]: New version: [2023.6.12.5] Old Version: [2023.6.12.4]
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autogalaxy]: New version: [2023.6.12.5] Old Version: [2023.6.12.4]
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autofit]: New version: [2023.6.12.5] Old Version: [2023.6.12.4]
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autoarray]: New version: [2023.6.12.5] Old Version: [2023.6.12.4]
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autolens]: New version: [2023.6.12.5] Old Version: [2023.6.12.4]
+[2023-06-12 16:12:09] INFO root fetch - processPackages [chromedriver-py-auto]: Downloading https://files.pythonhosted.org/packages/98/19/5939f6458cd440ce3df4a69015aed9edd4d16b751f5e29b94b702816c96e/chromedriver-py-auto-0.2.3.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [wbpUItools]: Downloading https://files.pythonhosted.org/packages/29/16/600dcac3892b85817f19fefdbe7bd56de6b562200f7d2c7ff533955f8104/wbpUItools-0.1.9.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/a7/3f/177e1b957a1d94d6b78a1a457cf80fec2811cf8cb0902d7c71f69de26cc3/autoconf-2023.6.12.4.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [Zevon]: Downloading https://files.pythonhosted.org/packages/90/f5/a760d3650ff151fc134c7d1d7395ab42e82d8a322db25962b8aaa91f6da9/Zevon-0.4.0.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [ansys-api-sherlock]: Downloading https://files.pythonhosted.org/packages/c5/d7/7770f919b89c0dc99453e779610c3a474310ca8ba246cbe084f20dd7e42c/ansys-api-sherlock-0.1.13.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/de/86/b5be55f0939146b18e8b0e0bc6f9cd0c4d9fec245ff83900bdd2d5699b4b/const_cython_lib-0.3.0.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/52/71/e39ceba79bab868ead75382cbbf12f3d5acbdac7633d2760c9765f997ee2/autofit-2023.6.12.4.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/1d/78/e35d0ef1e40724eead17e25f5a15b0f215186aee93deb30a4ac71469995f/autoarray-2023.6.12.4.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/f3/b6/2d364a6598128d63fa33df141fd8fa1b1033eec9a449c399ac3f634da9c2/autogalaxy-2023.6.12.4.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/d2/a5/c853deb64d06ce50963e60980aa0d695ef3b85308153e38c1e3d6405b24b/autolens-2023.6.12.4.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [chromedriver-py-auto]: Downloading https://files.pythonhosted.org/packages/3b/ee/dbdc2efe31ea0805b08f5eeae192b8d2c32e77310f25f62091124f902745/chromedriver-py-auto-0.2.4.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [wbpUItools]: Downloading https://files.pythonhosted.org/packages/93/a4/6e92eae18cebf1ec143f823c4de8a3424bf6a3f34807a292623d39f79b1f/wbpUItools-0.2.0.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [chromedriver-py-auto]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [chromedriver-py-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-py-auto-0.2.3.tar.gz tmp/chromedriver-py-auto-0.2.4.tar.gz --markdown 20230612/c/chromedriver-py-auto/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-12 16:12:09] INFO root fetch - processPackages [Zevon]: Downloading https://files.pythonhosted.org/packages/28/c3/cbd5b29a9a69ca5b046572300ba1db9865e1e6467515cec4f0c4b19799b2/Zevon-0.5.0.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/1f/b4/74415beb152fdd0b2071afc3ed3a33654c165f02d91fe8897d3fd5bd4600/autoconf-2023.6.12.5.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/aa/64/ed7bd00bba9a217a0b0afc4402cb1a8e485442efab9157ec9e4081cd9ab0/autoarray-2023.6.12.5.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [wbpUItools]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [wbpUItools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpUItools-0.1.9.tar.gz tmp/wbpUItools-0.2.0.tar.gz --markdown 20230612/w/wbpUItools/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/dd/98/6509b3dd61fa9fbe2b2f7b74deeaf4d160d08fefdd4ebd3e0df176f39ed0/autofit-2023.6.12.5.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/bd/65/b4ebe28cb67bca80d1adfce5570d86c2b3e3ef023d258b3f7000a0985981/autolens-2023.6.12.5.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [Zevon]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [Zevon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zevon-0.4.0.tar.gz tmp/Zevon-0.5.0.tar.gz --markdown 20230612/Z/Zevon/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-12 16:12:09] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/27/f3/8dcc01e577a11aede09ec4e1fd5e94d64283387952e0d6c3d2a34c1e951a/const_cython_lib-0.3.1.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/08/bc/aba6cbcb89dad52eb3845cd6a15f2589ca31e2e9a5d4686173a4b0cc4941/autogalaxy-2023.6.12.5.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [ansys-api-sherlock]: Downloading https://files.pythonhosted.org/packages/e1/e7/0a7c9a1fe98f923a4f7b03317c55a22ee2db39531c41c2e44a9ce0c610ec/ansys-api-sherlock-0.1.14.tar.gz
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autoconf]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-2023.6.12.4.tar.gz tmp/autoconf-2023.6.12.5.tar.gz --markdown 20230612/a/autoconf/2023.6.12.4-2023.6.12.5/diff.md --exclude *.pyd
+[2023-06-12 16:12:09] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.3.0.tar.gz tmp/const_cython_lib-0.3.1.tar.gz --markdown 20230612/c/const-cython-lib/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-12 16:12:09] INFO root fetch - processPackages [ansys-api-sherlock]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [ansys-api-sherlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-sherlock-0.1.13.tar.gz tmp/ansys-api-sherlock-0.1.14.tar.gz --markdown 20230612/a/ansys-api-sherlock/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autolens]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autolens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autolens-2023.6.12.4.tar.gz tmp/autolens-2023.6.12.5.tar.gz --markdown 20230612/a/autolens/2023.6.12.4-2023.6.12.5/diff.md --exclude *.pyd
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autoarray]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autoarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoarray-2023.6.12.4.tar.gz tmp/autoarray-2023.6.12.5.tar.gz --markdown 20230612/a/autoarray/2023.6.12.4-2023.6.12.5/diff.md --exclude *.pyd
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autofit]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofit-2023.6.12.4.tar.gz tmp/autofit-2023.6.12.5.tar.gz --markdown 20230612/a/autofit/2023.6.12.4-2023.6.12.5/diff.md --exclude *.pyd
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autogalaxy]: executing diffoscope
+[2023-06-12 16:12:09] INFO root fetch - processPackages [autogalaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogalaxy-2023.6.12.4.tar.gz tmp/autogalaxy-2023.6.12.5.tar.gz --markdown 20230612/a/autogalaxy/2023.6.12.4-2023.6.12.5/diff.md --exclude *.pyd
+[2023-06-12 16:12:11] INFO root fetch - processPackages [chromedriver-py-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-py-auto-0.2.3.tar.gz]
+[2023-06-12 16:12:11] INFO root fetch - processPackages [chromedriver-py-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-py-auto-0.2.4.tar.gz]
+[2023-06-12 16:12:11] INFO root fetch - processPackages [chromedriver-py-auto]: Start processing: autocti
+[2023-06-12 16:12:11] INFO root fetch - main [MainThread]: End processing [chromedriver-py-auto]: success
+[2023-06-12 16:12:11] INFO root fetch - processPackages [autocti]: New version: [2023.6.12.5] Old Version: [2023.6.12.4]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [Zevon]: Remove: archive file [/home/abi/fetcher/tmp/Zevon-0.4.0.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [Zevon]: Remove: archive file [/home/abi/fetcher/tmp/Zevon-0.5.0.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [Zevon]: Start processing: civicutils
+[2023-06-12 16:12:12] INFO root fetch - main [MainThread]: End processing [Zevon]: success
+[2023-06-12 16:12:12] INFO root fetch - processPackages [civicutils]: New version: [1.0.2.post1] Old Version: [1.0.2]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [civicutils]: Downloading https://files.pythonhosted.org/packages/dc/77/9b1e2a6471ad7de3ca5c8966efde621e8d2a862c4b7534d9d68dae96e194/civicutils-1.0.2.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/7f/ac/3e6a80df01b20a50ca1210c9bcf501395a83173899fd4ece58a1172cc661/autocti-2023.6.12.4.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [wbpUItools]: Remove: archive file [/home/abi/fetcher/tmp/wbpUItools-0.1.9.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [wbpUItools]: Remove: archive file [/home/abi/fetcher/tmp/wbpUItools-0.2.0.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [wbpUItools]: Start processing: oexp
+[2023-06-12 16:12:12] INFO root fetch - main [MainThread]: End processing [wbpUItools]: success
+[2023-06-12 16:12:12] INFO root fetch - processPackages [oexp]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.3.0.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.3.1.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [const-cython-lib]: Start processing: const-cython-lib
+[2023-06-12 16:12:12] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 16:12:12] INFO root fetch - processPackages [const-cython-lib]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/d5/cd/fe10e7cd405ea172fcd38d9a6f059becf700e586d19843ecfc32d06ec026/oexp-0.7.2.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/de/86/b5be55f0939146b18e8b0e0bc6f9cd0c4d9fec245ff83900bdd2d5699b4b/const_cython_lib-0.3.0.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/4b/57/70b18311d4d7dfea9e6932388c4815a91299abbcd620725b3f15afc47688/autocti-2023.6.12.5.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.6.12.4.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.6.12.5.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [autoconf]: Start processing: core-models
+[2023-06-12 16:12:12] INFO root fetch - main [MainThread]: End processing [autoconf]: success
+[2023-06-12 16:12:12] INFO root fetch - processPackages [civicutils]: Downloading https://files.pythonhosted.org/packages/30/e1/2ff726d75023ea63905bac14354539a5caf906ae09016a3814c36c7e47d3/civicutils-1.0.2.post1.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [core-models]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [ansys-api-sherlock]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-sherlock-0.1.13.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - processPackages [ansys-api-sherlock]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-sherlock-0.1.14.tar.gz]
+[2023-06-12 16:12:12] INFO root fetch - main [MainThread]: End processing [ansys-api-sherlock]: success
+[2023-06-12 16:12:12] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/27/f3/8dcc01e577a11aede09ec4e1fd5e94d64283387952e0d6c3d2a34c1e951a/const_cython_lib-0.3.1.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/c6/81/3035ffe625b66923f244b7c9379499589197262ef8dc1f25594fdf0047b7/core_models-0.0.6.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/c2/e2/5778352fac19d26f80208692a110ea6419cb74fc037542f35e4d8915ad8d/oexp-0.7.3.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [autocti]: executing diffoscope
+[2023-06-12 16:12:12] INFO root fetch - processPackages [autocti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocti-2023.6.12.4.tar.gz tmp/autocti-2023.6.12.5.tar.gz --markdown 20230612/a/autocti/2023.6.12.4-2023.6.12.5/diff.md --exclude *.pyd
+[2023-06-12 16:12:12] INFO root fetch - processPackages [civicutils]: executing diffoscope
+[2023-06-12 16:12:12] INFO root fetch - processPackages [civicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civicutils-1.0.2.tar.gz tmp/civicutils-1.0.2.post1.tar.gz --markdown 20230612/c/civicutils/1.0.2-1.0.2.post1/diff.md --exclude *.pyd
+[2023-06-12 16:12:12] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 16:12:12] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.3.0.tar.gz tmp/const_cython_lib-0.3.1.tar.gz --markdown 20230612/c/const-cython-lib/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-12 16:12:12] INFO root fetch - processPackages [oexp]: executing diffoscope
+[2023-06-12 16:12:12] INFO root fetch - processPackages [oexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oexp-0.7.2.tar.gz tmp/oexp-0.7.3.tar.gz --markdown 20230612/o/oexp/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-12 16:12:12] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/08/18/a568ec830298c244a5da3cb83c0bdcb553c90268e5e298f1d152752f779d/core_models-0.0.7.tar.gz
+[2023-06-12 16:12:12] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-06-12 16:12:12] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.0.6.tar.gz tmp/core_models-0.0.7.tar.gz --markdown 20230612/c/core-models/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 16:12:14] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.6.12.4.tar.gz]
+[2023-06-12 16:12:14] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.6.12.5.tar.gz]
+[2023-06-12 16:12:14] INFO root fetch - main [MainThread]: End processing [autolens]: success
+[2023-06-12 16:12:14] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.6.12.4.tar.gz]
+[2023-06-12 16:12:14] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.6.12.5.tar.gz]
+[2023-06-12 16:12:14] INFO root fetch - main [MainThread]: End processing [autoarray]: success
+[2023-06-12 16:12:14] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.3.0.tar.gz]
+[2023-06-12 16:12:14] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.3.1.tar.gz]
+[2023-06-12 16:12:14] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 16:12:14] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.0.6.tar.gz]
+[2023-06-12 16:12:14] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.0.7.tar.gz]
+[2023-06-12 16:12:14] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-06-12 16:12:15] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.7.2.tar.gz]
+[2023-06-12 16:12:15] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.7.3.tar.gz]
+[2023-06-12 16:12:15] INFO root fetch - main [MainThread]: End processing [oexp]: success
+[2023-06-12 16:12:16] INFO root fetch - processPackages [civicutils]: Remove: archive file [/home/abi/fetcher/tmp/civicutils-1.0.2.tar.gz]
+[2023-06-12 16:12:16] INFO root fetch - processPackages [civicutils]: Remove: archive file [/home/abi/fetcher/tmp/civicutils-1.0.2.post1.tar.gz]
+[2023-06-12 16:12:16] INFO root fetch - main [MainThread]: End processing [civicutils]: success
+[2023-06-12 16:12:16] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.6.12.4.tar.gz]
+[2023-06-12 16:12:16] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.6.12.5.tar.gz]
+[2023-06-12 16:12:16] INFO root fetch - main [MainThread]: End processing [autocti]: success
+[2023-06-12 16:12:17] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.6.12.4.tar.gz]
+[2023-06-12 16:12:17] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.6.12.5.tar.gz]
+[2023-06-12 16:12:17] INFO root fetch - main [MainThread]: End processing [autofit]: success
+[2023-06-12 16:12:18] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.6.12.4.tar.gz]
+[2023-06-12 16:12:18] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.6.12.5.tar.gz]
+[2023-06-12 16:12:18] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
+[2023-06-12 16:12:18] INFO root fetch - main [MainThread]: Store serial: [18469741]
