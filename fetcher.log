@@ -15173,3 +15173,147 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 12:50:12] INFO root fetch - processPackages [jax-xc]: Remove: archive file [/home/abi/fetcher/tmp/jax_xc-0.0.5-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
 [2023-06-12 12:50:12] INFO root fetch - main [MainThread]: End processing [jax-xc]: success
 [2023-06-12 12:50:12] INFO root fetch - main [MainThread]: Store serial: [18467702]
+[2023-06-12 12:55:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467702]
+[2023-06-12 12:55:28] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqt5-utils
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asklora-portal
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CLEMENT-DNA
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omero-demo-cleanup
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysimflow
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idspy-toolkit
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhipuai
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notification-center-ma
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysimflow
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pyqt5-utils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-12 12:55:28] WARNING root fetch - processPackages [notification-center-ma]: Skipping, unable to determine old version
+[2023-06-12 12:55:28] INFO root fetch - processPackages [notification-center-ma]: Start processing: fspy
+[2023-06-12 12:55:28] INFO root fetch - main [MainThread]: End processing [notification-center-ma] error
+[2023-06-12 12:55:28] INFO root fetch - processPackages [zhipuai]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-12 12:55:28] INFO root fetch - processPackages [omero-demo-cleanup]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-12 12:55:28] WARNING root fetch - processPackages [CLEMENT-DNA]: Skipping, unable to determine old version
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pysimflow]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-06-12 12:55:28] INFO root fetch - processPackages [CLEMENT-DNA]: Start processing: aliyun-python-sdk-polardb
+[2023-06-12 12:55:28] INFO root fetch - main [MainThread]: End processing [CLEMENT-DNA] error
+[2023-06-12 12:55:28] INFO root fetch - processPackages [idspy-toolkit]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-12 12:55:28] INFO root fetch - processPackages [asklora-portal]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pysimflow]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-06-12 12:55:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 12:55:28] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-12 12:55:28] INFO root fetch - processPackages [fspy]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-12 12:55:28] INFO root fetch - processPackages [omero-demo-cleanup]: Downloading https://files.pythonhosted.org/packages/e9/3c/b8bed7091255e7d8e9da365c06775d4bae58d2b5d2e591d306259b24568a/omero-demo-cleanup-0.2.0.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pyqt5-utils]: Downloading https://files.pythonhosted.org/packages/86/5b/5fbf49d6160d6773f07f0498b359c4dafb81cefca68f26a3dfaf9618f5a1/pyqt5-utils-1.0.2.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/74/ee/cc2d1191d68d5e0ba5788f81b82169226e85b7542244479b94cdfb33128a/pysimflow-0.0.82-py3-none-any.whl
+[2023-06-12 12:55:28] INFO root fetch - processPackages [fspy]: Downloading https://files.pythonhosted.org/packages/97/02/ad44d3686f8dde46cea4edc450400c62aa0b7c709f809eaae5cfb56a7319/fspy-0.1.0-py2.py3-none-any.whl
+[2023-06-12 12:55:28] INFO root fetch - processPackages [idspy-toolkit]: Downloading https://files.pythonhosted.org/packages/2b/cf/07459e729c1f99370756657684175824a7f2c4ade425797861cb5ea7d261/idspy_toolkit-0.4.0.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/be/fb/8bc33fd98fbd687b156300b0cbc856ff963291391458ada50713c576b5b7/zhipuai-1.0.4.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [asklora-portal]: Downloading https://files.pythonhosted.org/packages/da/fc/5bcbddce725592aba68b4dc76a3c94f3911d1c56efef9c7f2f09642f5cc0/asklora_portal-1.1.8.tar.gz
+[2023-06-12 12:55:28] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72659247>=10485760
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pysimflow]: Start processing: pyqt5-utils
+[2023-06-12 12:55:28] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/74/ee/cc2d1191d68d5e0ba5788f81b82169226e85b7542244479b94cdfb33128a/pysimflow-0.0.82-py3-none-any.whl
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pyqt5-utils]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 12:55:28] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72659247>=10485760
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pysimflow]: Start processing: ensmallen
+[2023-06-12 12:55:28] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 12:55:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pyqt5-utils]: Downloading https://files.pythonhosted.org/packages/3d/a3/c4079caa92953572f22f25715df89812d1ced52dc883d3fb39eab858a39a/pyqt5-utils-1.0.3.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [omero-demo-cleanup]: Downloading https://files.pythonhosted.org/packages/d6/84/db9ea95aa90f14e16f7f4e208c9302023e3bb460b295d9e4b3521f5a25f1/omero-demo-cleanup-0.2.1.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [fspy]: Downloading https://files.pythonhosted.org/packages/2c/f1/0b152322f6782a75e9cd98f03d98c351edfd69e825a45f268fd7f6862bdf/fspy-0.2.0-py2.py3-none-any.whl
+[2023-06-12 12:55:28] INFO root fetch - processPackages [pyqt5-utils]: Downloading https://files.pythonhosted.org/packages/3d/a3/c4079caa92953572f22f25715df89812d1ced52dc883d3fb39eab858a39a/pyqt5-utils-1.0.3.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [idspy-toolkit]: Downloading https://files.pythonhosted.org/packages/6b/eb/48b12e0e4df1a7b9df394649a68615c6621c27136e0828c154b7922042ec/idspy_toolkit-0.4.1.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/c7/0c/e5707a0f5f107eb17f2006aeef30bc1d132981529f213df0447b31322ae7/zhipuai-1.0.5.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [asklora-portal]: Downloading https://files.pythonhosted.org/packages/1b/cc/a80dcbdcef7a4513791ede743e8992507b1a2e7d5412cf0afa99f9876109/asklora_portal-1.1.9.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-12 12:55:28] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-06-12 12:55:28] INFO root fetch - processPackages [omero-demo-cleanup]: executing diffoscope
+[2023-06-12 12:55:28] INFO root fetch - processPackages [omero-demo-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-demo-cleanup-0.2.0.tar.gz tmp/omero-demo-cleanup-0.2.1.tar.gz --markdown 20230612/o/omero-demo-cleanup/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 12:55:28] INFO root fetch - processPackages [fspy]: executing diffoscope
+[2023-06-12 12:55:28] INFO root fetch - processPackages [fspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fspy-0.1.0-py2.py3-none-any.whl.zip tmp/fspy-0.2.0-py2.py3-none-any.whl.zip --markdown 20230612/f/fspy/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 12:55:28] INFO root fetch - processPackages [zhipuai]: executing diffoscope
+[2023-06-12 12:55:28] INFO root fetch - processPackages [zhipuai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhipuai-1.0.4.tar.gz tmp/zhipuai-1.0.5.tar.gz --markdown 20230612/z/zhipuai/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-12 12:55:28] INFO root fetch - processPackages [idspy-toolkit]: executing diffoscope
+[2023-06-12 12:55:28] INFO root fetch - processPackages [idspy-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idspy_toolkit-0.4.0.tar.gz tmp/idspy_toolkit-0.4.1.tar.gz --markdown 20230612/i/idspy-toolkit/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-12 12:55:29] INFO root fetch - processPackages [pyqt5-utils]: executing diffoscope
+[2023-06-12 12:55:29] INFO root fetch - processPackages [pyqt5-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt5-utils-1.0.2.tar.gz tmp/pyqt5-utils-1.0.3.tar.gz --markdown 20230612/p/pyqt5-utils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-12 12:55:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 12:55:29] INFO root fetch - processPackages [asklora-portal]: executing diffoscope
+[2023-06-12 12:55:29] INFO root fetch - processPackages [asklora-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asklora_portal-1.1.8.tar.gz tmp/asklora_portal-1.1.9.tar.gz --markdown 20230612/a/asklora-portal/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-12 12:55:29] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-06-12 12:55:29] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230612/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-12 12:55:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 12:55:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 12:55:29] INFO root fetch - processPackages [pyqt5-utils]: Downloading https://files.pythonhosted.org/packages/45/77/f583460129a461f3da7eab6ec3bdb7c5108b152b5aaa7e9dff6ef1ef4f4a/pyqt5-utils-1.0.4.tar.gz
+[2023-06-12 12:55:29] INFO root fetch - processPackages [pyqt5-utils]: executing diffoscope
+[2023-06-12 12:55:29] INFO root fetch - processPackages [pyqt5-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt5-utils-1.0.3.tar.gz tmp/pyqt5-utils-1.0.4.tar.gz --markdown 20230612/p/pyqt5-utils/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 12:55:29] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-06-12 12:55:29] INFO root fetch - processPackages [ensmallen]: Start processing: power-grid-model
+[2023-06-12 12:55:29] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-06-12 12:55:29] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9174911844893] Old Version: [1.5.0rc9171103440397]
+[2023-06-12 12:55:29] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/b4/f3/369df5403348f16d94ba7f2fc9a7bec94dd47c3a1f172ef1ca136a3b4b44/power_grid_model-1.5.0rc9171103440397-py3-none-macosx_10_9_x86_64.whl
+[2023-06-12 12:55:30] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/3d/67/0ecba185ee8a924b442dd239c5d356f03b0a7d93ac51620b0171bc272b08/power-grid-model-1.5.0rc9174911844893.tar.gz
+[2023-06-12 12:55:30] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-12 12:55:30] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9171103440397-py3-none-macosx_10_9_x86_64.whl.zip tmp/power-grid-model-1.5.0rc9174911844893.tar.gz --markdown 20230612/p/power-grid-model/1.5.0rc9171103440397-1.5.0rc9174911844893/diff.md --exclude *.pyd
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyqt5-utils-1.0.2.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyqt5-utils-1.0.3.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: Start processing: fspy
+[2023-06-12 12:55:31] INFO root fetch - main [MainThread]: End processing [pyqt5-utils]: success
+[2023-06-12 12:55:31] INFO root fetch - processPackages [fspy]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyqt5-utils-1.0.4.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: Start processing: opower
+[2023-06-12 12:55:31] INFO root fetch - main [MainThread]: End processing [pyqt5-utils]: success
+[2023-06-12 12:55:31] INFO root fetch - processPackages [fspy]: Remove: archive file [/home/abi/fetcher/tmp/fspy-0.1.0-py2.py3-none-any.whl.zip]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [fspy]: Remove: archive file [/home/abi/fetcher/tmp/fspy-0.2.0-py2.py3-none-any.whl.zip]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [fspy]: Start processing: pysimflow
+[2023-06-12 12:55:31] INFO root fetch - main [MainThread]: End processing [fspy]: success
+[2023-06-12 12:55:31] INFO root fetch - processPackages [fspy]: Downloading https://files.pythonhosted.org/packages/2c/f1/0b152322f6782a75e9cd98f03d98c351edfd69e825a45f268fd7f6862bdf/fspy-0.2.0-py2.py3-none-any.whl
+[2023-06-12 12:55:31] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pysimflow]: New version: [0.0.84] Old Version: [0.0.83]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: pyqt5-utils
+[2023-06-12 12:55:31] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 12:55:31] INFO root fetch - processPackages [fspy]: executing diffoscope
+[2023-06-12 12:55:31] INFO root fetch - processPackages [fspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fspy-0.1.0-py2.py3-none-any.whl.zip tmp/fspy-0.2.0-py2.py3-none-any.whl.zip --markdown 20230612/f/fspy/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: Downloading https://files.pythonhosted.org/packages/3d/a3/c4079caa92953572f22f25715df89812d1ced52dc883d3fb39eab858a39a/pyqt5-utils-1.0.3.tar.gz
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/dc/63/5e248f176cae03d3a2ba83b10b1aada516aceddd2565caf0db8f71655611/pysimflow-0.0.83.tar.gz
+[2023-06-12 12:55:31] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-1.0.4.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-1.0.5.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - main [MainThread]: End processing [zhipuai]: success
+[2023-06-12 12:55:31] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-06-12 12:55:31] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72359261>=10485760
+[2023-06-12 12:55:31] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 12:55:31] INFO root fetch - processPackages [idspy-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/idspy_toolkit-0.4.0.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [idspy-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/idspy_toolkit-0.4.1.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - main [MainThread]: End processing [idspy-toolkit]: success
+[2023-06-12 12:55:31] INFO root fetch - processPackages [omero-demo-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/omero-demo-cleanup-0.2.0.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [omero-demo-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/omero-demo-cleanup-0.2.1.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - main [MainThread]: End processing [omero-demo-cleanup]: success
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: Downloading https://files.pythonhosted.org/packages/45/77/f583460129a461f3da7eab6ec3bdb7c5108b152b5aaa7e9dff6ef1ef4f4a/pyqt5-utils-1.0.4.tar.gz
+[2023-06-12 12:55:31] INFO root fetch - processPackages [asklora-portal]: Remove: archive file [/home/abi/fetcher/tmp/asklora_portal-1.1.8.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - processPackages [asklora-portal]: Remove: archive file [/home/abi/fetcher/tmp/asklora_portal-1.1.9.tar.gz]
+[2023-06-12 12:55:31] INFO root fetch - main [MainThread]: End processing [asklora-portal]: success
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: executing diffoscope
+[2023-06-12 12:55:31] INFO root fetch - processPackages [pyqt5-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt5-utils-1.0.3.tar.gz tmp/pyqt5-utils-1.0.4.tar.gz --markdown 20230612/p/pyqt5-utils/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 12:55:31] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-06-12 12:55:32] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-06-12 12:55:32] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230612/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 12:55:32] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model-1.5.0rc9171103440397-py3-none-macosx_10_9_x86_64.whl.zip]
+[2023-06-12 12:55:32] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9174911844893.tar.gz]
+[2023-06-12 12:55:32] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-12 12:55:32] ERROR root fetch - processPackages [fspy]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/fspy-0.1.0-py2.py3-none-any.whl.zip: No such file or directory
+
+[2023-06-12 12:55:32] INFO root fetch - main [MainThread]: End processing [fspy] error
+[2023-06-12 12:55:32] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz]
+[2023-06-12 12:55:32] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
+[2023-06-12 12:55:32] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-06-12 12:55:33] INFO root fetch - processPackages [pyqt5-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyqt5-utils-1.0.3.tar.gz]
+[2023-06-12 12:55:33] INFO root fetch - processPackages [pyqt5-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyqt5-utils-1.0.4.tar.gz]
+[2023-06-12 12:55:33] INFO root fetch - main [MainThread]: End processing [pyqt5-utils]: success
+[2023-06-12 12:55:33] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-06-12 12:55:33] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-06-12 12:55:33] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-06-12 12:55:33] INFO root fetch - main [MainThread]: Store serial: [18467762]
