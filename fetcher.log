@@ -11608,3 +11608,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:16:41] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.1.tar.gz]
 [2023-06-12 10:16:41] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
 [2023-06-12 10:16:41] INFO root fetch - main [MainThread]: Store serial: [18466099]
+[2023-06-12 10:21:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466099]
+[2023-06-12 10:21:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-cisco-maintenance
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-ipv4-tools
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: comdexpy
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: borgbackup
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydflow
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sync-pack-sdk
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vnpy-xex
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LHCbDIRAC
+[2023-06-12 10:21:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyPhotometry
+[2023-06-12 10:21:51] INFO root fetch - processPackages [netbox-ipv4-tools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-12 10:21:51] WARNING root fetch - processPackages [comdexpy]: Skipping, unable to determine old version
+[2023-06-12 10:21:51] INFO root fetch - processPackages [comdexpy]: Start processing: Fharvester
+[2023-06-12 10:21:51] INFO root fetch - main [MainThread]: End processing [comdexpy] error
+[2023-06-12 10:21:51] WARNING root fetch - processPackages [PyPhotometry]: Skipping, unable to determine old version
+[2023-06-12 10:21:51] INFO root fetch - processPackages [borgbackup]: New version: [2.0.0b6] Old Version: [2.0.0b5]
+[2023-06-12 10:21:51] WARNING root fetch - processPackages [sync-pack-sdk]: Skipping, unable to determine old version
+[2023-06-12 10:21:51] INFO root fetch - main [MainThread]: End processing [PyPhotometry] error
+[2023-06-12 10:21:51] WARNING root fetch - processPackages [Fharvester]: Skipping, unable to determine old version
+[2023-06-12 10:21:51] INFO root fetch - main [MainThread]: End processing [sync-pack-sdk] error
+[2023-06-12 10:21:51] INFO root fetch - main [MainThread]: End processing [Fharvester] error
+[2023-06-12 10:21:51] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.6.9.4] Old Version: [2023.6.9.3]
+[2023-06-12 10:21:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 10:21:51] INFO root fetch - processPackages [LHCbDIRAC]: New version: [11.1.0a1] Old Version: [11.0.9]
+[2023-06-12 10:21:51] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-06-12 10:21:51] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/10/6b/df1f7aba05b8d9e83c53a3f96d27f0fb9e01d47756b18658b8047ae4495c/vnpy_xex-2023.6.9.3.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [netbox-ipv4-tools]: Downloading https://files.pythonhosted.org/packages/9d/d7/2788e91e9de653507a3ba3d23f01011f8d9a2d6d416c62e6b115b0e582dc/netbox-ipv4-tools-1.0.2.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230612] Old Version: [2.14.0.dev20230611]
+[2023-06-12 10:21:51] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/c6/42/d4b1986a307020d3007742d6f25422e7aebd391ade1cb451d28a4865e7d2/pydflow-1.6.98.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [borgbackup]: Downloading https://files.pythonhosted.org/packages/e0/fe/4ea365de07c6bbb2d6bf4844c0730f59d529baca412c285c97cb73a9124b/borgbackup-2.0.0b5.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/82/a1/05449c2079660bb9e11f5cc09e8208f48d85f3a966bb6bc6da6e39e06f0f/LHCbDIRAC-11.0.9.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/7e/4b/99845d4299aeeb575ce97db43258bdcc83af27bbd5546004f96bd39c2e92/vnpy_xex-2023.6.9.4.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f0/2d/fd23d94d88c504cd1be5bee0e191538d06dc5a3f53f390d459fa15cc340f/tf_nightly-2.14.0.dev20230611-cp39-cp39-win_amd64.whl
+[2023-06-12 10:21:51] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/86/ec/1d1f51e2ef9a626c2621695ed39210c378d699e371457fcd1efe70b1c890/pydflow-1.6.99.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [netbox-ipv4-tools]: Downloading https://files.pythonhosted.org/packages/89/0c/5e0fa7e4ea2c0fee15b00edf5660bc190daca6ee90f9c0c3770d9a5b09f3/netbox-ipv4-tools-1.0.3.tar.gz
+[2023-06-12 10:21:51] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-06-12 10:21:51] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.6.9.3.tar.gz tmp/vnpy_xex-2023.6.9.4.tar.gz --markdown 20230612/v/vnpy-xex/2023.6.9.3-2023.6.9.4/diff.md --exclude *.pyd
+[2023-06-12 10:21:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 10:21:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 10:21:51] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-12 10:21:51] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230612/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-06-12 10:21:52] INFO root fetch - processPackages [netbox-ipv4-tools]: executing diffoscope
+[2023-06-12 10:21:52] INFO root fetch - processPackages [netbox-ipv4-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-ipv4-tools-1.0.2.tar.gz tmp/netbox-ipv4-tools-1.0.3.tar.gz --markdown 20230612/n/netbox-ipv4-tools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-12 10:21:52] INFO root fetch - processPackages [borgbackup]: Downloading https://files.pythonhosted.org/packages/76/c6/912b3ff1d1b7fbff51c8b204e7ef314c22c4fc317da8eb56d9d55dd18ebd/borgbackup-2.0.0b6.tar.gz
+[2023-06-12 10:21:52] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/a6/f7/fcb5a04f15d1b4db1f8584fcb85ebce41737b6ade413c348d75b476a0876/tf_nightly-2.14.0.dev20230612-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 10:21:52] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/2d/36/668ff5f5ebec9665852faf372694cb9a68fd05b6f3248d7104700635210e/LHCbDIRAC-11.1.0a1.tar.gz
+[2023-06-12 10:21:52] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 490778916>=10485760
+[2023-06-12 10:21:52] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-12 10:21:52] INFO root fetch - processPackages [borgbackup]: executing diffoscope
+[2023-06-12 10:21:52] INFO root fetch - processPackages [borgbackup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borgbackup-2.0.0b5.tar.gz tmp/borgbackup-2.0.0b6.tar.gz --markdown 20230612/b/borgbackup/2.0.0b5-2.0.0b6/diff.md --exclude *.pyd
+[2023-06-12 10:21:52] INFO root fetch - processPackages [LHCbDIRAC]: executing diffoscope
+[2023-06-12 10:21:52] INFO root fetch - processPackages [LHCbDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LHCbDIRAC-11.0.9.tar.gz tmp/LHCbDIRAC-11.1.0a1.tar.gz --markdown 20230612/L/LHCbDIRAC/11.0.9-11.1.0a1/diff.md --exclude *.pyd
+[2023-06-12 10:21:53] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.3.tar.gz]
+[2023-06-12 10:21:53] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.4.tar.gz]
+[2023-06-12 10:21:53] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-06-12 10:21:54] INFO root fetch - processPackages [netbox-ipv4-tools]: Remove: archive file [/home/abi/fetcher/tmp/netbox-ipv4-tools-1.0.2.tar.gz]
+[2023-06-12 10:21:54] INFO root fetch - processPackages [netbox-ipv4-tools]: Remove: archive file [/home/abi/fetcher/tmp/netbox-ipv4-tools-1.0.3.tar.gz]
+[2023-06-12 10:21:54] INFO root fetch - main [MainThread]: End processing [netbox-ipv4-tools]: success
+[2023-06-12 10:21:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 10:21:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 10:21:54] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 10:21:55] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.6.98.tar.gz]
+[2023-06-12 10:21:55] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.6.99.tar.gz]
+[2023-06-12 10:21:55] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-12 10:21:58] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-11.0.9.tar.gz]
+[2023-06-12 10:21:58] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-11.1.0a1.tar.gz]
+[2023-06-12 10:21:58] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
+[2023-06-12 10:22:02] INFO root fetch - processPackages [borgbackup]: Remove: archive file [/home/abi/fetcher/tmp/borgbackup-2.0.0b5.tar.gz]
+[2023-06-12 10:22:02] INFO root fetch - processPackages [borgbackup]: Remove: archive file [/home/abi/fetcher/tmp/borgbackup-2.0.0b6.tar.gz]
+[2023-06-12 10:22:02] INFO root fetch - main [MainThread]: End processing [borgbackup]: success
+[2023-06-12 10:22:02] INFO root fetch - main [MainThread]: Store serial: [18466139]
