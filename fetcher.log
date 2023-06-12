@@ -14276,3 +14276,152 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 12:09:22] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyGuardPoint-0.9.5.tar.gz]
 [2023-06-12 12:09:22] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
 [2023-06-12 12:09:22] INFO root fetch - main [MainThread]: Store serial: [18467293]
+[2023-06-12 12:14:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467293]
+[2023-06-12 12:14:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brightsky
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eden-kernel
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudnetpy
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdata
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unified-planning
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dm-reverb-nightly
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-maintenance
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ma-notification-center
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EdgeGPT
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cardo-python-utils
+[2023-06-12 12:14:31] INFO root fetch - processPackages [brightsky]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [eden-kernel]: New version: [0.3.1350] Old Version: [0.3.1348]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [mdata]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 12:14:31] WARNING root fetch - processPackages [ma-notification-center]: Skipping, unable to determine old version
+[2023-06-12 12:14:31] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [ma-notification-center]: Start processing: xt-st-common
+[2023-06-12 12:14:31] INFO root fetch - main [MainThread]: End processing [ma-notification-center] error
+[2023-06-12 12:14:31] INFO root fetch - processPackages [cardo-python-utils]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [xt-st-common]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/59/70/db0802b9942ffec4d664d74421a1d622572a72415a669d95924b0cd917ce/brightsky-2.0.4.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-12 12:14:31] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/d7/29/f3e955f076747e360e385767e052138c8bbb1b5b8564bb0a8e3ac80aa517/EdgeGPT-0.9.1.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [eden-kernel]: Downloading https://files.pythonhosted.org/packages/a7/1d/3f77b2cfcc8fb46767e5fe4a3aa44a3428c3bfdfe2a355aa715e8d0d4aa8/eden-kernel-0.3.1348.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [mdata]: Downloading https://files.pythonhosted.org/packages/45/0e/a154c50f61bfe26a104a32cfbf74b934ff7001280e96e83411c3836a4585/mdata-0.1.0.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [cardo-python-utils]: Downloading https://files.pythonhosted.org/packages/64/7c/ad4df4ed115f60f9fb662ebadec41967271086c52df5b7e9b54de04fb33c/cardo-python-utils-0.2.1.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/0e/a3/ed7e2ed0555a0b0e61efbabac566a50806aafda17cb7fb1b2bef7ccb0067/xt_st_common-0.8.2.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/cd/5b/21684fc9845465c26158f409058121cb077ae7db9cd74c4027491d8a2a42/EdgeGPT-0.9.2.tar.gz
+[2023-06-12 12:14:31] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-06-12 12:14:31] INFO root fetch - processPackages [cloudnetpy]: Start processing: langchain-serve
+[2023-06-12 12:14:31] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-06-12 12:14:31] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-12 12:14:31] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-12 12:14:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-12 12:14:31] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.9.1.tar.gz tmp/EdgeGPT-0.9.2.tar.gz --markdown 20230612/E/EdgeGPT/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-12 12:14:31] INFO root fetch - processPackages [mdata]: Downloading https://files.pythonhosted.org/packages/08/60/dce9ddb9276552ca81100c7279d11dfbf3fe96ba39da67f7d1d20b735887/mdata-0.1.1.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [cardo-python-utils]: Downloading https://files.pythonhosted.org/packages/7c/49/6e0af563d5a712cd9bc7779cf4f91f1044263a1170ce47436923feece79d/cardo-python-utils-0.2.2.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [eden-kernel]: Downloading https://files.pythonhosted.org/packages/94/3a/1ea6c69f5ab80b55c28dee2a2a27b78a3174a603d8b1ce23c666897b8420/eden-kernel-0.3.1350.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 12:14:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 12:14:31] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-12 12:14:31] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230612/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-12 12:14:31] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/42/64/8f9fcb06cfc3ee55b2f68b3980d75e5988c7c14e8d06b628d321706acd73/brightsky-2.0.5.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [cardo-python-utils]: executing diffoscope
+[2023-06-12 12:14:31] INFO root fetch - processPackages [cardo-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardo-python-utils-0.2.1.tar.gz tmp/cardo-python-utils-0.2.2.tar.gz --markdown 20230612/c/cardo-python-utils/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 12:14:31] INFO root fetch - processPackages [mdata]: executing diffoscope
+[2023-06-12 12:14:31] INFO root fetch - processPackages [mdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdata-0.1.0.tar.gz tmp/mdata-0.1.1.tar.gz --markdown 20230612/m/mdata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 12:14:31] INFO root fetch - processPackages [eden-kernel]: executing diffoscope
+[2023-06-12 12:14:31] INFO root fetch - processPackages [eden-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eden-kernel-0.3.1348.tar.gz tmp/eden-kernel-0.3.1350.tar.gz --markdown 20230612/e/eden-kernel/0.3.1348-0.3.1350/diff.md --exclude *.pyd
+[2023-06-12 12:14:31] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-12 12:14:31] INFO root fetch - processPackages [brightsky]: executing diffoscope
+[2023-06-12 12:14:31] INFO root fetch - processPackages [brightsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightsky-2.0.4.tar.gz tmp/brightsky-2.0.5.tar.gz --markdown 20230612/b/brightsky/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-12 12:14:32] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-12 12:14:32] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/f3/bd/042c699a310eb4c7d6fde0a39c91ac82443fcc92bb68f4974c47af5bd856/xt_st_common-0.8.3.tar.gz
+[2023-06-12 12:14:32] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-12 12:14:32] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230612/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-12 12:14:32] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-12 12:14:32] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230612/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-12 12:14:32] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-06-12 12:14:32] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.8.2.tar.gz tmp/xt_st_common-0.8.3.tar.gz --markdown 20230612/x/xt-st-common/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-12 12:14:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: american-options
+[2023-06-12 12:14:34] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 12:14:34] INFO root fetch - processPackages [american-options]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/63/70/0cd1b3f2fa21f510db0a9fc2654ae51aafdec69a148a4ed011f71d191d28/american_options-0.1.1.tar.gz
+[2023-06-12 12:14:34] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.0.4.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.0.5.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [brightsky]: Start processing: windmill-api
+[2023-06-12 12:14:34] INFO root fetch - main [MainThread]: End processing [brightsky]: success
+[2023-06-12 12:14:34] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.1.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-06-12 12:14:34] INFO root fetch - processPackages [EdgeGPT]: Start processing: wmill
+[2023-06-12 12:14:34] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-12 12:14:34] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-06-12 12:14:34] INFO root fetch - processPackages [cardo-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/cardo-python-utils-0.2.1.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [cardo-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/cardo-python-utils-0.2.2.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [cardo-python-utils]: Start processing: open-gpt-torch
+[2023-06-12 12:14:34] INFO root fetch - main [MainThread]: End processing [cardo-python-utils]: success
+[2023-06-12 12:14:34] INFO root fetch - processPackages [mdata]: Remove: archive file [/home/abi/fetcher/tmp/mdata-0.1.0.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [mdata]: Remove: archive file [/home/abi/fetcher/tmp/mdata-0.1.1.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [mdata]: Start processing: wmill-pg
+[2023-06-12 12:14:34] INFO root fetch - main [MainThread]: End processing [mdata]: success
+[2023-06-12 12:14:34] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/68/78/2dddd8b54afad92d6393704c256f6fbafe94523702e6f7aab26625fdf5c5/american_options-0.1.2.tar.gz
+[2023-06-12 12:14:34] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-06-12 12:14:34] INFO root fetch - processPackages [american-options]: executing diffoscope
+[2023-06-12 12:14:34] INFO root fetch - processPackages [american-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/american_options-0.1.1.tar.gz tmp/american_options-0.1.2.tar.gz --markdown 20230612/a/american-options/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 12:14:34] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-06-12 12:14:34] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-06-12 12:14:34] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-12 12:14:34] INFO root fetch - processPackages [langchain-serve]: Start processing: pyqt5-utils
+[2023-06-12 12:14:34] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-12 12:14:34] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-06-12 12:14:34] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230612/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-12 12:14:34] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-06-12 12:14:34] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230612/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-12 12:14:34] WARNING root fetch - processPackages [pyqt5-utils]: Skipping, unable to determine old version
+[2023-06-12 12:14:34] INFO root fetch - main [MainThread]: End processing [pyqt5-utils] error
+[2023-06-12 12:14:34] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-06-12 12:14:35] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/a6/10/3698410fcfadef50a4e4f219c771485d9e4216306a18cec8d0fe9a201560/open_gpt_torch-0.0.4.tar.gz
+[2023-06-12 12:14:35] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-06-12 12:14:35] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230612/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-12 12:14:35] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/04/46/e9318f12835b37ab1e8c3706e766b853c2b3c8379a3c02d3a3bf69e4feb8/open_gpt_torch-0.0.5.tar.gz
+[2023-06-12 12:14:35] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-06-12 12:14:35] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.4.tar.gz tmp/open_gpt_torch-0.0.5.tar.gz --markdown 20230612/o/open-gpt-torch/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 12:14:35] INFO root fetch - processPackages [eden-kernel]: Remove: archive file [/home/abi/fetcher/tmp/eden-kernel-0.3.1348.tar.gz]
+[2023-06-12 12:14:35] INFO root fetch - processPackages [eden-kernel]: Remove: archive file [/home/abi/fetcher/tmp/eden-kernel-0.3.1350.tar.gz]
+[2023-06-12 12:14:35] INFO root fetch - main [MainThread]: End processing [eden-kernel]: success
+[2023-06-12 12:14:36] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.1.1.tar.gz]
+[2023-06-12 12:14:36] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.1.2.tar.gz]
+[2023-06-12 12:14:36] INFO root fetch - main [MainThread]: End processing [american-options]: success
+[2023-06-12 12:14:36] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-06-12 12:14:36] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-06-12 12:14:36] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-06-12 12:14:36] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-06-12 12:14:36] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-06-12 12:14:36] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-06-12 12:14:37] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.4.tar.gz]
+[2023-06-12 12:14:37] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.5.tar.gz]
+[2023-06-12 12:14:37] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-06-12 12:14:39] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.8.2.tar.gz]
+[2023-06-12 12:14:39] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.8.3.tar.gz]
+[2023-06-12 12:14:39] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-06-12 12:14:41] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-12 12:14:41] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-12 12:14:41] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-12 12:15:00] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-06-12 12:15:00] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-06-12 12:15:00] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-06-12 12:15:35] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-12 12:15:35] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-12 12:15:35] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-12 12:15:35] INFO root fetch - main [MainThread]: Store serial: [18467368]
