@@ -11534,3 +11534,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:11:18] INFO root fetch - processPackages [FairDynamicRec]: Remove: archive file [/home/abi/fetcher/tmp/FairDynamicRec-0.0.99.tar.gz]
 [2023-06-12 10:11:18] INFO root fetch - main [MainThread]: End processing [FairDynamicRec]: success
 [2023-06-12 10:11:18] INFO root fetch - main [MainThread]: Store serial: [18466059]
+[2023-06-12 10:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466059]
+[2023-06-12 10:16:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ryang-test
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easydags
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cairocffi
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezbeq
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thipster
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zyppnotify
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: muheqa
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: encomp
+[2023-06-12 10:16:28] WARNING root fetch - processPackages [ryang-test]: Skipping, unable to determine old version
+[2023-06-12 10:16:28] INFO root fetch - main [MainThread]: End processing [ryang-test] error
+[2023-06-12 10:16:28] INFO root fetch - processPackages [cairocffi]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-12 10:16:28] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-12 10:16:28] INFO root fetch - processPackages [muheqa]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 10:16:28] INFO root fetch - processPackages [encomp]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-12 10:16:28] INFO root fetch - processPackages [zyppnotify]: New version: [0.5.1] Old Version: [0.5.0rc2]
+[2023-06-12 10:16:28] INFO root fetch - processPackages [easydags]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 10:16:28] INFO root fetch - processPackages [thipster]: New version: [0.16.2] Old Version: [0.16.1]
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ezbeq]: New version: [1.0.1] Old Version: [1.0.0b9]
+[2023-06-12 10:16:28] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/01/2c/eb8009743c7049f955b3b3ffb989398ca1433d2be1f0bf9848674fa1e2f9/ezbeq-1.0.0b9.tar.gz
+[2023-06-12 10:16:28] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-12 10:16:28] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/15/ef/7c78d278ec28631b3bd1c1dd3ec06dddbd7d8418347b140023c60b5741fc/easydags-0.1.0.tar.gz
+[2023-06-12 10:16:28] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/a6/ea/31724aa3d8f20af34efb20d05e4ed7047a36b73d90d74b8440dac81bdd9d/thipster-0.16.1.tar.gz
+[2023-06-12 10:16:29] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-12 10:16:29] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-12 10:16:29] INFO root fetch - processPackages [cairocffi]: Downloading https://files.pythonhosted.org/packages/9f/d1/b26207d3a93dbdbee3b1492d59668f88953e9f28b74853e376a7a4f04e83/cairocffi-1.5.1.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/44/56/ca77f014471ee8416e2e2b94da02ce66711694c66d3a70d098ef4538643d/muheqa-0.0.2.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [encomp]: Downloading https://files.pythonhosted.org/packages/3a/12/5d476118fc9bdd78efb17b1a4f524a565fcfd464ee5a4b4d1baa2502591d/encomp-0.9.4.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [zyppnotify]: Downloading https://files.pythonhosted.org/packages/90/ec/aaff3338de88e6311d7bd3533158e149e602e3f7ebf531f424e15825f940/zyppnotify-0.5.0rc2.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/9c/82/46c265e541c9f28e33a4fdab58fc08ef6a87921fbe34118daae2f9a8f6a3/thipster-0.16.2.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/2b/56/aca09f3d33c2ad9d38d2cb54703fd8ae328f8006f888629cd24cab9d6ef9/ezbeq-1.0.1.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/84/5e/27c01cb75c2f8b40396162e46a7b31320bad5c54d78922934256110c4bf8/easydags-0.1.1.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-12 10:16:29] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.16.1.tar.gz tmp/thipster-0.16.2.tar.gz --markdown 20230612/t/thipster/0.16.1-0.16.2/diff.md --exclude *.pyd
+[2023-06-12 10:16:29] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-06-12 10:16:29] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.0b9.tar.gz tmp/ezbeq-1.0.1.tar.gz --markdown 20230612/e/ezbeq/1.0.0b9-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 10:16:29] INFO root fetch - processPackages [easydags]: executing diffoscope
+[2023-06-12 10:16:29] INFO root fetch - processPackages [easydags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easydags-0.1.0.tar.gz tmp/easydags-0.1.1.tar.gz --markdown 20230612/e/easydags/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 10:16:29] INFO root fetch - processPackages [cairocffi]: Downloading https://files.pythonhosted.org/packages/02/8d/75ebb7a2f6a835e2bc125ce4c667dccc8e40b92507923dfaf8f079c892a5/cairocffi-1.6.0.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [cairocffi]: executing diffoscope
+[2023-06-12 10:16:29] INFO root fetch - processPackages [cairocffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cairocffi-1.5.1.tar.gz tmp/cairocffi-1.6.0.tar.gz --markdown 20230612/c/cairocffi/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-12 10:16:29] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/70/33/466eebc169f74dd60f37b67ed9c29e38f38aba1cfdbf32f4a9c64de741a4/muheqa-0.0.3.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [zyppnotify]: Downloading https://files.pythonhosted.org/packages/e5/5c/52e1dd232b2ec25cbdd14e9d8cfb66133c77302386e92ecad406a06d4e50/zyppnotify-0.5.1.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [encomp]: Downloading https://files.pythonhosted.org/packages/64/9b/7ea7f0a19e2cf8367cd678d05be85b97117b3e60edaafe7b2124720bc5f4/encomp-0.9.5.tar.gz
+[2023-06-12 10:16:29] INFO root fetch - processPackages [zyppnotify]: executing diffoscope
+[2023-06-12 10:16:29] INFO root fetch - processPackages [zyppnotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyppnotify-0.5.0rc2.tar.gz tmp/zyppnotify-0.5.1.tar.gz --markdown 20230612/z/zyppnotify/0.5.0rc2-0.5.1/diff.md --exclude *.pyd
+[2023-06-12 10:16:29] INFO root fetch - processPackages [muheqa]: executing diffoscope
+[2023-06-12 10:16:29] INFO root fetch - processPackages [muheqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muheqa-0.0.2.tar.gz tmp/muheqa-0.0.3.tar.gz --markdown 20230612/m/muheqa/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 10:16:29] INFO root fetch - processPackages [encomp]: executing diffoscope
+[2023-06-12 10:16:29] INFO root fetch - processPackages [encomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encomp-0.9.4.tar.gz tmp/encomp-0.9.5.tar.gz --markdown 20230612/e/encomp/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-12 10:16:30] INFO root fetch - processPackages [cairocffi]: Remove: archive file [/home/abi/fetcher/tmp/cairocffi-1.5.1.tar.gz]
+[2023-06-12 10:16:30] INFO root fetch - processPackages [cairocffi]: Remove: archive file [/home/abi/fetcher/tmp/cairocffi-1.6.0.tar.gz]
+[2023-06-12 10:16:30] INFO root fetch - main [MainThread]: End processing [cairocffi]: success
+[2023-06-12 10:16:31] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.1.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.2.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-12 10:16:31] INFO root fetch - processPackages [zyppnotify]: Remove: archive file [/home/abi/fetcher/tmp/zyppnotify-0.5.0rc2.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - processPackages [zyppnotify]: Remove: archive file [/home/abi/fetcher/tmp/zyppnotify-0.5.1.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - main [MainThread]: End processing [zyppnotify]: success
+[2023-06-12 10:16:31] INFO root fetch - processPackages [encomp]: Remove: archive file [/home/abi/fetcher/tmp/encomp-0.9.4.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - processPackages [encomp]: Remove: archive file [/home/abi/fetcher/tmp/encomp-0.9.5.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - main [MainThread]: End processing [encomp]: success
+[2023-06-12 10:16:31] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.2.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.3.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - main [MainThread]: End processing [muheqa]: success
+[2023-06-12 10:16:31] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-0.1.0.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-0.1.1.tar.gz]
+[2023-06-12 10:16:31] INFO root fetch - main [MainThread]: End processing [easydags]: success
+[2023-06-12 10:16:41] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.0b9.tar.gz]
+[2023-06-12 10:16:41] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.1.tar.gz]
+[2023-06-12 10:16:41] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-06-12 10:16:41] INFO root fetch - main [MainThread]: Store serial: [18466099]
