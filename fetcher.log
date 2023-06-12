@@ -10301,3 +10301,183 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 09:22:26] INFO root fetch - processPackages [dace]: Remove: archive file [/home/abi/fetcher/tmp/dace-0.9.5.tar.gz]
 [2023-06-12 09:22:26] INFO root fetch - main [MainThread]: End processing [dace]: success
 [2023-06-12 09:22:26] INFO root fetch - main [MainThread]: Store serial: [18465572]
+[2023-06-12 09:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465572]
+[2023-06-12 09:27:35] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jet-bridge-base
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oblv-ctl
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jet-bridge
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jet-django
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-runtime-yoyo
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alltime-athletics-python
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zipline-tej
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: propeller-design-tools
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: terraform-backend-s3-bucket
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: squad-gunicorn
+[2023-06-12 09:27:35] INFO root fetch - processPackages [oblv-ctl]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-12 09:27:35] INFO root fetch - processPackages [pytest-runtime-yoyo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 09:27:35] INFO root fetch - processPackages [alltime-athletics-python]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-12 09:27:35] INFO root fetch - processPackages [jet-bridge]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-06-12 09:27:35] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 09:27:35] WARNING root fetch - processPackages [squad-gunicorn]: Skipping, unable to determine old version
+[2023-06-12 09:27:35] INFO root fetch - processPackages [squad-gunicorn]: Start processing: ipol
+[2023-06-12 09:27:35] INFO root fetch - main [MainThread]: End processing [squad-gunicorn] error
+[2023-06-12 09:27:35] INFO root fetch - processPackages [jet-bridge-base]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-06-12 09:27:35] INFO root fetch - processPackages [jet-django]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-06-12 09:27:35] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-12 09:27:35] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 09:27:35] WARNING root fetch - processPackages [ipol]: Skipping, unable to determine old version
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ipol]: Start processing: ExpoSeq
+[2023-06-12 09:27:35] INFO root fetch - main [MainThread]: End processing [ipol] error
+[2023-06-12 09:27:35] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-06-12 09:27:35] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/77/ec/984e729b116b97310eaf4ce632a9b6b30e461b346e2c7f78d38fb48abf7c/jet-bridge-1.7.5.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/e4/8f/151d2f916df3a32087f72e7e38a96b4af91a7e955c3404412df316b6a9ed/alltime_athletics_python-0.7.0.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [oblv-ctl]: Downloading https://files.pythonhosted.org/packages/4f/95/fc33ada4a2fd3e986f26fc7e1a469b8488009740c388dcb0f20bdb68809e/oblv_ctl-0.3.1.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [pytest-runtime-yoyo]: Downloading https://files.pythonhosted.org/packages/fc/11/6afc0e4a8a28f101fe4a5c534861e9557ad705d13a058e0ea49e66064656/pytest-runtime-yoyo-1.0.0.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/00/b5/509ab1f4ae5bcb5ffc1b2403b51288e330bc9a9a3517eb810fd16fd76f6f/jet-django-1.7.5.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/6a/6f/050b6c68483efe4b9313afaba0dfc180a77b6e249f84cbcc1bbe01627b57/jet-bridge-base-1.7.5.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/56/22/06d4928933418ac98fe90533591cc164426aae15633528c3e1b3666e3fc0/ExpoSeq-1.0.5.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/d6/89/ae45406781ac69b450b78b80c8cdb0d4845e94ae7dab954287ec9ee3ef73/propeller_design_tools-0.3.4.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/42/80/df3c3623a84364e8cf953a044a965bd67eb9c8155161e35e34d139f4b87d/propeller_design_tools-0.3.5.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230612/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 09:27:36] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.3.4.tar.gz tmp/propeller_design_tools-0.3.5.tar.gz --markdown 20230612/p/propeller-design-tools/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-12 09:27:36] INFO root fetch - processPackages [oblv-ctl]: Downloading https://files.pythonhosted.org/packages/55/1e/7afd8e958fff8873cb3ea708d9f4ab88355ee1f92f20722e32a19295f3a3/oblv-ctl-0.4.0.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [pytest-runtime-yoyo]: Downloading https://files.pythonhosted.org/packages/e4/c3/637a0210a7cd7f9b134ea718314470058b51ec9fa6e82bc3507161b8b5a2/pytest-runtime-yoyo-1.0.1.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/5b/4b/714381e9d087c652b9bb8f031fe2214d3ccd553cfbdeb98ff62bdbc8735d/jet-bridge-1.7.9.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/08/e6/7e8dd2616167a3399a0159d7db428ea9a981f9504492887ede064d6b2cb2/ExpoSeq-1.1.0.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/19/3a/27015a02fe285deaea532b07d26c5a2818d47772d17dba56a841d687b76a/alltime_athletics_python-0.8.0.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/95/e2/605beb8cd0fb1a160ddc0bd28151cc8d3510e8df5db0f63089d6b59777ef/jet-bridge-base-1.7.9.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/62/88/814c0029b2e35f343f1f1e3ed6a963523255a4cb150364247feeb6cf892c/jet-django-1.7.9.tar.gz
+[2023-06-12 09:27:36] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-0.7.0.tar.gz tmp/alltime_athletics_python-0.8.0.tar.gz --markdown 20230612/a/alltime-athletics-python/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-12 09:27:36] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230612/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 09:27:36] INFO root fetch - processPackages [pytest-runtime-yoyo]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [pytest-runtime-yoyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-runtime-yoyo-1.0.0.tar.gz tmp/pytest-runtime-yoyo-1.0.1.tar.gz --markdown 20230612/p/pytest-runtime-yoyo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-bridge]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-1.7.5.tar.gz tmp/jet-bridge-1.7.9.tar.gz --markdown 20230612/j/jet-bridge/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-06-12 09:27:36] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.0.5.tar.gz tmp/ExpoSeq-1.1.0.tar.gz --markdown 20230612/E/ExpoSeq/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-django]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-django-1.7.5.tar.gz tmp/jet-django-1.7.9.tar.gz --markdown 20230612/j/jet-django/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-bridge-base]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [jet-bridge-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-base-1.7.5.tar.gz tmp/jet-bridge-base-1.7.9.tar.gz --markdown 20230612/j/jet-bridge-base/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-06-12 09:27:36] INFO root fetch - processPackages [oblv-ctl]: executing diffoscope
+[2023-06-12 09:27:36] INFO root fetch - processPackages [oblv-ctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oblv_ctl-0.3.1.tar.gz tmp/oblv-ctl-0.4.0.tar.gz --markdown 20230612/o/oblv-ctl/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-12 09:27:38] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-0.7.0.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-0.8.0.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [alltime-athletics-python]: Start processing: automation-file-dev
+[2023-06-12 09:27:38] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-12 09:27:38] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [pytest-runtime-yoyo]: Remove: archive file [/home/abi/fetcher/tmp/pytest-runtime-yoyo-1.0.0.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [pytest-runtime-yoyo]: Remove: archive file [/home/abi/fetcher/tmp/pytest-runtime-yoyo-1.0.1.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [pytest-runtime-yoyo]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-12 09:27:38] INFO root fetch - main [MainThread]: End processing [pytest-runtime-yoyo]: success
+[2023-06-12 09:27:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-12 09:27:38] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/99/8c/6d36c5db75857ddb2aa36ddc9e1706c332f646a878d0e9fefcd5047244ff/automation_file_dev-0.0.7.tar.gz
+[2023-06-12 09:27:38] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Start processing: odoo14-addon-sale-fixed-discount
+[2023-06-12 09:27:38] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-06-12 09:27:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-12 09:27:38] WARNING root fetch - processPackages [odoo14-addon-sale-fixed-discount]: Skipping, unable to determine old version
+[2023-06-12 09:27:38] INFO root fetch - processPackages [odoo14-addon-sale-fixed-discount]: Start processing: banks
+[2023-06-12 09:27:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-fixed-discount] error
+[2023-06-12 09:27:38] INFO root fetch - processPackages [banks]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-12 09:27:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230612/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 09:27:38] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-06-12 09:27:38] INFO root fetch - processPackages [jet-django]: Remove: archive file [/home/abi/fetcher/tmp/jet-django-1.7.5.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [jet-django]: Remove: archive file [/home/abi/fetcher/tmp/jet-django-1.7.9.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [jet-django]: Start processing: datajunction-reflection
+[2023-06-12 09:27:38] INFO root fetch - main [MainThread]: End processing [jet-django]: success
+[2023-06-12 09:27:38] WARNING root fetch - processPackages [datajunction-reflection]: Skipping, unable to determine old version
+[2023-06-12 09:27:38] INFO root fetch - processPackages [datajunction-reflection]: Start processing: spPersist
+[2023-06-12 09:27:38] INFO root fetch - main [MainThread]: End processing [datajunction-reflection] error
+[2023-06-12 09:27:38] INFO root fetch - processPackages [spPersist]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 09:27:38] ERROR root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Diffoscope failed: Error: error creating container storage: the container name "hopeful_sanderson" is already in use by "b7b63504d6cc83d857150d411d8f225c17483e4456c4521766d1ce64c61d3b5c". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-12 09:27:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: djrs
+[2023-06-12 09:27:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui] error
+[2023-06-12 09:27:38] INFO root fetch - processPackages [banks]: Downloading https://files.pythonhosted.org/packages/bb/c6/a17edc1f5b8255db9c47e795070c6c1b2237b2e4e68d73a5ca7b61084137/banks-0.0.3.tar.gz
+[2023-06-12 09:27:38] WARNING root fetch - processPackages [djrs]: Skipping, unable to determine old version
+[2023-06-12 09:27:38] INFO root fetch - processPackages [djrs]: Start processing: easyprofile
+[2023-06-12 09:27:38] INFO root fetch - main [MainThread]: End processing [djrs] error
+[2023-06-12 09:27:38] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-06-12 09:27:38] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.7.tar.gz tmp/automation_file_dev-0.0.8.tar.gz --markdown 20230612/a/automation-file-dev/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 09:27:38] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/f7/5d/816afb6f88a7825df1f213dd17d86977d8c27fcb38ff9121c6f97d5ff6db/spPersist-1.0.1.tar.gz
+[2023-06-12 09:27:38] INFO root fetch - processPackages [easyprofile]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.0.5.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.0.tar.gz]
+[2023-06-12 09:27:38] INFO root fetch - processPackages [ExpoSeq]: Start processing: yellowdog-sdk
+[2023-06-12 09:27:38] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-06-12 09:27:39] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/f4/28/0e13466d43b621b5ad3aaf03efc8b985cefff6f3d1c78b78c2efed8ec98c/spPersist-1.0.2.tar.gz
+[2023-06-12 09:27:39] INFO root fetch - processPackages [yellowdog-sdk]: New version: [7.0.0] Old Version: [6.2.0]
+[2023-06-12 09:27:39] INFO root fetch - processPackages [banks]: Downloading https://files.pythonhosted.org/packages/aa/aa/2898d69b2b77918b5d666c499b2df1a4c717dfbfab2901c933175988743f/banks-0.1.0.tar.gz
+[2023-06-12 09:27:39] INFO root fetch - processPackages [easyprofile]: Downloading https://files.pythonhosted.org/packages/e6/d5/31b47330e34e5ea8013a26d83d8bee2b62a19aa3a9ea6c9a32db23ca3982/easyprofile-0.1.0.tar.gz
+[2023-06-12 09:27:39] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 09:27:39] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-1.0.1.tar.gz tmp/spPersist-1.0.2.tar.gz --markdown 20230612/s/spPersist/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 09:27:39] INFO root fetch - processPackages [yellowdog-sdk]: Downloading https://files.pythonhosted.org/packages/bf/76/65c153c27cec373f2c8f2d7f3e3cf34c7c4b6e40828a8bcd260385ff164c/yellowdog_sdk-6.2.0-py3-none-any.whl
+[2023-06-12 09:27:39] INFO root fetch - processPackages [banks]: executing diffoscope
+[2023-06-12 09:27:39] INFO root fetch - processPackages [banks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banks-0.0.3.tar.gz tmp/banks-0.1.0.tar.gz --markdown 20230612/b/banks/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 09:27:39] INFO root fetch - processPackages [easyprofile]: Downloading https://files.pythonhosted.org/packages/05/30/884f14b7c34a6997f811dfb55261697eae6e574938a2caff335f2a1fc443/easyprofile-0.1.3.tar.gz
+[2023-06-12 09:27:39] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.4.tar.gz]
+[2023-06-12 09:27:39] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.5.tar.gz]
+[2023-06-12 09:27:39] INFO root fetch - processPackages [propeller-design-tools]: Start processing: pybart-nlp
+[2023-06-12 09:27:39] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-12 09:27:39] INFO root fetch - processPackages [pybart-nlp]: New version: [3.4.8] Old Version: [3.4.7]
+[2023-06-12 09:27:39] INFO root fetch - processPackages [yellowdog-sdk]: Downloading https://files.pythonhosted.org/packages/e1/e4/09c24a444c93c41f0676b005d9e287e34bf9b03f3d8f0e7dfe1edb76657f/yellowdog_sdk-7.0.0-py3-none-any.whl
+[2023-06-12 09:27:39] INFO root fetch - processPackages [easyprofile]: executing diffoscope
+[2023-06-12 09:27:39] INFO root fetch - processPackages [easyprofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyprofile-0.1.0.tar.gz tmp/easyprofile-0.1.3.tar.gz --markdown 20230612/e/easyprofile/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 09:27:39] INFO root fetch - processPackages [yellowdog-sdk]: executing diffoscope
+[2023-06-12 09:27:39] INFO root fetch - processPackages [yellowdog-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog_sdk-6.2.0-py3-none-any.whl.zip tmp/yellowdog_sdk-7.0.0-py3-none-any.whl.zip --markdown 20230612/y/yellowdog-sdk/6.2.0-7.0.0/diff.md --exclude *.pyd
+[2023-06-12 09:27:39] INFO root fetch - processPackages [pybart-nlp]: Downloading https://files.pythonhosted.org/packages/8c/21/5ea409160f2516adbfd27f5b6418094dc9f4a49e1c7071592be1eb3d3dd7/pybart-nlp-3.4.7.tar.gz
+[2023-06-12 09:27:40] INFO root fetch - processPackages [pybart-nlp]: Downloading https://files.pythonhosted.org/packages/3e/d9/2af4644ef5efe5d55d15e91f3c1a73f28ff0aff99a8b4fddb1c9fdb2bac5/pybart-nlp-3.4.8.tar.gz
+[2023-06-12 09:27:40] INFO root fetch - processPackages [pybart-nlp]: executing diffoscope
+[2023-06-12 09:27:40] INFO root fetch - processPackages [pybart-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybart-nlp-3.4.7.tar.gz tmp/pybart-nlp-3.4.8.tar.gz --markdown 20230612/p/pybart-nlp/3.4.7-3.4.8/diff.md --exclude *.pyd
+[2023-06-12 09:27:40] INFO root fetch - processPackages [jet-bridge]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-1.7.5.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - processPackages [jet-bridge]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-1.7.9.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - processPackages [jet-bridge]: Start processing: propeller-design-tools
+[2023-06-12 09:27:40] INFO root fetch - main [MainThread]: End processing [jet-bridge]: success
+[2023-06-12 09:27:40] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.7.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-06-12 09:27:40] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-12 09:27:40] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/d6/89/ae45406781ac69b450b78b80c8cdb0d4845e94ae7dab954287ec9ee3ef73/propeller_design_tools-0.3.4.tar.gz
+[2023-06-12 09:27:40] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.1.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.2.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 09:27:40] INFO root fetch - processPackages [banks]: Remove: archive file [/home/abi/fetcher/tmp/banks-0.0.3.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - processPackages [banks]: Remove: archive file [/home/abi/fetcher/tmp/banks-0.1.0.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - main [MainThread]: End processing [banks]: success
+[2023-06-12 09:27:40] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/42/80/df3c3623a84364e8cf953a044a965bd67eb9c8155161e35e34d139f4b87d/propeller_design_tools-0.3.5.tar.gz
+[2023-06-12 09:27:40] INFO root fetch - processPackages [easyprofile]: Remove: archive file [/home/abi/fetcher/tmp/easyprofile-0.1.0.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - processPackages [easyprofile]: Remove: archive file [/home/abi/fetcher/tmp/easyprofile-0.1.3.tar.gz]
+[2023-06-12 09:27:40] INFO root fetch - main [MainThread]: End processing [easyprofile]: success
+[2023-06-12 09:27:40] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-12 09:27:40] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.3.4.tar.gz tmp/propeller_design_tools-0.3.5.tar.gz --markdown 20230612/p/propeller-design-tools/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-12 09:27:41] INFO root fetch - processPackages [oblv-ctl]: Remove: archive file [/home/abi/fetcher/tmp/oblv_ctl-0.3.1.tar.gz]
+[2023-06-12 09:27:41] INFO root fetch - processPackages [oblv-ctl]: Remove: archive file [/home/abi/fetcher/tmp/oblv-ctl-0.4.0.tar.gz]
+[2023-06-12 09:27:41] INFO root fetch - main [MainThread]: End processing [oblv-ctl]: success
+[2023-06-12 09:27:41] INFO root fetch - processPackages [jet-bridge-base]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-base-1.7.5.tar.gz]
+[2023-06-12 09:27:41] INFO root fetch - processPackages [jet-bridge-base]: Remove: archive file [/home/abi/fetcher/tmp/jet-bridge-base-1.7.9.tar.gz]
+[2023-06-12 09:27:41] INFO root fetch - main [MainThread]: End processing [jet-bridge-base]: success
+[2023-06-12 09:27:42] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.4.tar.gz]
+[2023-06-12 09:27:42] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.5.tar.gz]
+[2023-06-12 09:27:42] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-12 09:27:43] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-12 09:27:43] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-12 09:27:43] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-12 09:27:43] INFO root fetch - processPackages [pybart-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pybart-nlp-3.4.7.tar.gz]
+[2023-06-12 09:27:43] INFO root fetch - processPackages [pybart-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pybart-nlp-3.4.8.tar.gz]
+[2023-06-12 09:27:43] INFO root fetch - main [MainThread]: End processing [pybart-nlp]: success
+[2023-06-12 09:27:44] INFO root fetch - processPackages [yellowdog-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_sdk-6.2.0-py3-none-any.whl.zip]
+[2023-06-12 09:27:44] INFO root fetch - processPackages [yellowdog-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_sdk-7.0.0-py3-none-any.whl.zip]
+[2023-06-12 09:27:44] INFO root fetch - main [MainThread]: End processing [yellowdog-sdk]: success
+[2023-06-12 09:27:44] INFO root fetch - main [MainThread]: Store serial: [18465650]
