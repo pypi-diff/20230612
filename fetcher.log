@@ -8182,3 +8182,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 06:40:52] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.85.tar.gz]
 [2023-06-12 06:40:52] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
 [2023-06-12 06:40:52] INFO root fetch - main [MainThread]: Store serial: [18464650]
+[2023-06-12 06:45:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464650]
+[2023-06-12 06:46:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-12 06:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyautosrt
+[2023-06-12 06:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gtempco2
+[2023-06-12 06:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioPII
+[2023-06-12 06:46:03] INFO root fetch - processPackages [pyautosrt]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-12 06:46:03] INFO root fetch - processPackages [gtempco2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 06:46:03] INFO root fetch - processPackages [BioPII]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 06:46:03] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/d0/fd/5fc13177479a5e1e3b449fafc2eef64a30862885859db910fb2643777fe3/gtempco2-0.0.1.tar.gz
+[2023-06-12 06:46:03] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/7d/1d/6fad9a1f75720f5861c9f2bd712d831392bdafc436802bf70c77163c7227/pyautosrt-0.2.0.tar.gz
+[2023-06-12 06:46:03] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/94/0f/6075dca69b1f8e6174bfa2e29b48a63bccc36b44c2c447d91db0f7b593a3/BioPII-0.1.0-py3-none-any.whl
+[2023-06-12 06:46:03] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/bb/37/f7a0363909ed7f0dfcae58cf53010dbeab02d3d0aa8e922abe472dc0ab56/gtempco2-0.0.2.tar.gz
+[2023-06-12 06:46:03] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/8e/48/adaa98db49c59ecdeb7450f85e3e2c9836140841d6aa86b0c281bde5f71a/pyautosrt-0.2.1.tar.gz
+[2023-06-12 06:46:03] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/86/fe/6186df05024797a67a696d18aadd3e77ebb270ec61a46852e117b2349a3e/BioPII-0.1.1.tar.gz
+[2023-06-12 06:46:03] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-06-12 06:46:03] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.2.0.tar.gz tmp/pyautosrt-0.2.1.tar.gz --markdown 20230612/p/pyautosrt/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 06:46:03] INFO root fetch - processPackages [gtempco2]: executing diffoscope
+[2023-06-12 06:46:03] INFO root fetch - processPackages [gtempco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtempco2-0.0.1.tar.gz tmp/gtempco2-0.0.2.tar.gz --markdown 20230612/g/gtempco2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 06:46:03] INFO root fetch - processPackages [BioPII]: executing diffoscope
+[2023-06-12 06:46:03] INFO root fetch - processPackages [BioPII]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioPII-0.1.0-py3-none-any.whl.zip tmp/BioPII-0.1.1.tar.gz --markdown 20230612/B/BioPII/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 06:46:04] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.1.tar.gz]
+[2023-06-12 06:46:04] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.2.tar.gz]
+[2023-06-12 06:46:04] INFO root fetch - main [MainThread]: End processing [gtempco2]: success
+[2023-06-12 06:46:04] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.0-py3-none-any.whl.zip]
+[2023-06-12 06:46:04] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.1.tar.gz]
+[2023-06-12 06:46:04] INFO root fetch - main [MainThread]: End processing [BioPII]: success
+[2023-06-12 06:46:04] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.0.tar.gz]
+[2023-06-12 06:46:04] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.1.tar.gz]
+[2023-06-12 06:46:04] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-06-12 06:46:04] INFO root fetch - main [MainThread]: Store serial: [18464664]
