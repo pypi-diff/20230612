@@ -9611,3 +9611,191 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 08:49:28] INFO root fetch - processPackages [cd2t]: Remove: archive file [/home/abi/fetcher/tmp/cd2t-2.0.2.tar.gz]
 [2023-06-12 08:49:28] INFO root fetch - main [MainThread]: End processing [cd2t]: success
 [2023-06-12 08:49:28] INFO root fetch - main [MainThread]: Store serial: [18465289]
+[2023-06-12 08:54:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465289]
+[2023-06-12 08:54:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sc-editor
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fastapi
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gh-subdir
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sc-editor
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-common-objects
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avro.py
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notebook
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhousf-lib
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spPersist
+[2023-06-12 08:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rapthor
+[2023-06-12 08:54:37] INFO root fetch - processPackages [sc-editor]: New version: [1.4] Old Version: [1.3]
+[2023-06-12 08:54:37] INFO root fetch - processPackages [sc-editor]: New version: [1.4] Old Version: [1.3]
+[2023-06-12 08:54:37] INFO root fetch - processPackages [avro.py]: New version: [2023.6.12] Old Version: [2023.4.3]
+[2023-06-12 08:54:37] INFO root fetch - processPackages [notebook]: New version: [7.0.0b4] Old Version: [7.0.0b3]
+[2023-06-12 08:54:37] INFO root fetch - processPackages [django-common-objects]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-12 08:54:37] INFO root fetch - processPackages [zhousf-lib]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-12 08:54:37] INFO root fetch - processPackages [spPersist]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 08:54:37] INFO root fetch - processPackages [odoo-addon-fastapi]: New version: [16.0.0.0.1.31] Old Version: [16.0.0.0.1.30]
+[2023-06-12 08:54:37] INFO root fetch - processPackages [gh-subdir]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-12 08:54:37] WARNING root fetch - processPackages [rapthor]: Skipping, unable to determine old version
+[2023-06-12 08:54:37] INFO root fetch - processPackages [rapthor]: Start processing: gh-subdir
+[2023-06-12 08:54:37] INFO root fetch - main [MainThread]: End processing [rapthor] error
+[2023-06-12 08:54:37] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/d1/7a/bb78ccbc52b806e638750bd0e3acc080cb3f847e2f590b7372a09aee3cbf/zhousf-lib-0.6.8.tar.gz
+[2023-06-12 08:54:37] INFO root fetch - processPackages [gh-subdir]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-12 08:54:37] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/0d/ff/8008d9de8aee10702a102a4452eb78eef511733d4e27797882255f218406/sc-editor-1.3.tar.gz
+[2023-06-12 08:54:37] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/6d/a7/b3d9967d425e92f98596393fede653921c9de3bca59eab7dfc996630c184/avro.py-2023.4.3.tar.gz
+[2023-06-12 08:54:37] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/0d/ff/8008d9de8aee10702a102a4452eb78eef511733d4e27797882255f218406/sc-editor-1.3.tar.gz
+[2023-06-12 08:54:37] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/82/ce/913aedfb92fa6ce52b3f4d897fa5298aaecf7d21bde119808e5fc1748cb3/spPersist-1.0.0.tar.gz
+[2023-06-12 08:54:37] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/40/1e/eb7fbc67bb5f457be702d87c10554d1800ab59c209bc678285dd70e1664c/notebook-7.0.0b3.tar.gz
+[2023-06-12 08:54:37] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/e7/5e/921933b250d3befd091cd9d2ec482b33ed5c6b2cbaabb35e9b9b0c0f3e6b/odoo_addon_fastapi-16.0.0.0.1.30-py3-none-any.whl
+[2023-06-12 08:54:37] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/fd/03/4e05e7ea30cb2cbc255595ec27d5fa31403ea50996d89a277f34fe63629d/gh_subdir-0.1.4.tar.gz
+[2023-06-12 08:54:37] INFO root fetch - processPackages [django-common-objects]: Downloading https://files.pythonhosted.org/packages/3e/12/1e1257e1a0fd6296618973adc4d48c336cb7e21e2ba330a518dfdf7f1ea5/django-common-objects-1.0.7.tar.gz
+[2023-06-12 08:54:37] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/fd/03/4e05e7ea30cb2cbc255595ec27d5fa31403ea50996d89a277f34fe63629d/gh_subdir-0.1.4.tar.gz
+[2023-06-12 08:54:38] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/d0/a5/7dabdc8abb658117e5a53af9e348a8dc6acb864acc78dd3948b9ab4f3d19/avro.py-2023.6.12.tar.gz
+[2023-06-12 08:54:38] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/fe/74/60b02156d238447a15aeab17bbe4e788bdccd5e18dcfaf88a5d07e56b811/sc-editor-1.4.tar.gz
+[2023-06-12 08:54:38] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/f7/5d/816afb6f88a7825df1f213dd17d86977d8c27fcb38ff9121c6f97d5ff6db/spPersist-1.0.1.tar.gz
+[2023-06-12 08:54:38] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/fe/74/60b02156d238447a15aeab17bbe4e788bdccd5e18dcfaf88a5d07e56b811/sc-editor-1.4.tar.gz
+[2023-06-12 08:54:38] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/38/51/c28dc43ceccf0844bb960217bd35498a41da65ed78208f9d739d0c553cb6/gh_subdir-0.1.5.tar.gz
+[2023-06-12 08:54:38] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/38/51/c28dc43ceccf0844bb960217bd35498a41da65ed78208f9d739d0c553cb6/gh_subdir-0.1.5.tar.gz
+[2023-06-12 08:54:38] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/e0/23/5fe59aeac366e1e951e386382986f102e7b294b410517cf7a4deb06edc91/odoo_addon_fastapi-16.0.0.0.1.31-py3-none-any.whl
+[2023-06-12 08:54:38] INFO root fetch - processPackages [django-common-objects]: Downloading https://files.pythonhosted.org/packages/3f/e8/3b9c172c91c0a3da66d7516ce34b0cd6de61ca2da3596686abd591a73f49/django-common-objects-1.0.8.tar.gz
+[2023-06-12 08:54:38] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 08:54:38] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-1.3.tar.gz tmp/sc-editor-1.4.tar.gz --markdown 20230612/s/sc-editor/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-12 08:54:38] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-12 08:54:38] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-1.0.0.tar.gz tmp/spPersist-1.0.1.tar.gz --markdown 20230612/s/spPersist/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 08:54:38] INFO root fetch - processPackages [avro.py]: executing diffoscope
+[2023-06-12 08:54:38] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 08:54:38] INFO root fetch - processPackages [avro.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro.py-2023.4.3.tar.gz tmp/avro.py-2023.6.12.tar.gz --markdown 20230612/a/avro.py/2023.4.3-2023.6.12/diff.md --exclude *.pyd
+[2023-06-12 08:54:38] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-1.3.tar.gz tmp/sc-editor-1.4.tar.gz --markdown 20230612/s/sc-editor/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-12 08:54:38] INFO root fetch - processPackages [gh-subdir]: executing diffoscope
+[2023-06-12 08:54:38] INFO root fetch - processPackages [gh-subdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_subdir-0.1.4.tar.gz tmp/gh_subdir-0.1.5.tar.gz --markdown 20230612/g/gh-subdir/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-12 08:54:38] INFO root fetch - processPackages [gh-subdir]: executing diffoscope
+[2023-06-12 08:54:38] INFO root fetch - processPackages [gh-subdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_subdir-0.1.4.tar.gz tmp/gh_subdir-0.1.5.tar.gz --markdown 20230612/g/gh-subdir/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-12 08:54:38] INFO root fetch - processPackages [odoo-addon-fastapi]: executing diffoscope
+[2023-06-12 08:54:38] INFO root fetch - processPackages [odoo-addon-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fastapi-16.0.0.0.1.30-py3-none-any.whl.zip tmp/odoo_addon_fastapi-16.0.0.0.1.31-py3-none-any.whl.zip --markdown 20230612/o/odoo-addon-fastapi/16.0.0.0.1.30-16.0.0.0.1.31/diff.md --exclude *.pyd
+[2023-06-12 08:54:38] INFO root fetch - processPackages [django-common-objects]: executing diffoscope
+[2023-06-12 08:54:38] INFO root fetch - processPackages [django-common-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-objects-1.0.7.tar.gz tmp/django-common-objects-1.0.8.tar.gz --markdown 20230612/d/django-common-objects/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-12 08:54:39] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/7d/74/07511a691f98ba42d27a199e74c81bcbda41b9220c48f678fb15f51b1b24/notebook-7.0.0b4.tar.gz
+[2023-06-12 08:54:39] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/1a/31/f3b5950c2d0aef872cb627fd22e8ec21defca0af68143a37029074006b50/zhousf-lib-0.6.9.tar.gz
+[2023-06-12 08:54:39] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-12 08:54:39] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.6.8.tar.gz tmp/zhousf-lib-0.6.9.tar.gz --markdown 20230612/z/zhousf-lib/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-12 08:54:39] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.0.tar.gz]
+[2023-06-12 08:54:39] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-1.0.1.tar.gz]
+[2023-06-12 08:54:39] INFO root fetch - processPackages [spPersist]: Start processing: dvc-data
+[2023-06-12 08:54:39] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-12 08:54:39] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.4.tar.gz]
+[2023-06-12 08:54:39] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.5.tar.gz]
+[2023-06-12 08:54:39] INFO root fetch - main [MainThread]: End processing [gh-subdir]: success
+[2023-06-12 08:54:39] INFO root fetch - main [MainThread]: End processing [gh-subdir]: success
+[2023-06-12 08:54:39] INFO root fetch - processPackages [django-common-objects]: Remove: archive file [/home/abi/fetcher/tmp/django-common-objects-1.0.7.tar.gz]
+[2023-06-12 08:54:39] INFO root fetch - processPackages [django-common-objects]: Remove: archive file [/home/abi/fetcher/tmp/django-common-objects-1.0.8.tar.gz]
+[2023-06-12 08:54:39] INFO root fetch - main [MainThread]: End processing [django-common-objects]: success
+[2023-06-12 08:54:40] INFO root fetch - processPackages [dvc-data]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-06-12 08:54:40] INFO root fetch - processPackages [avro.py]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-2023.4.3.tar.gz]
+[2023-06-12 08:54:40] INFO root fetch - processPackages [avro.py]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-2023.6.12.tar.gz]
+[2023-06-12 08:54:40] INFO root fetch - main [MainThread]: End processing [avro.py]: success
+[2023-06-12 08:54:40] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-1.3.tar.gz]
+[2023-06-12 08:54:40] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-1.4.tar.gz]
+[2023-06-12 08:54:40] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 08:54:40] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2023-06-12 08:54:40] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.0.0b3.tar.gz tmp/notebook-7.0.0b4.tar.gz --markdown 20230612/n/notebook/7.0.0b3-7.0.0b4/diff.md --exclude *.pyd
+[2023-06-12 08:54:40] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/ce/b4/fd642230076a40b4af6630acb15fbd90ce321bcebdcbb33702c0c052b15d/dvc-data-1.6.1.tar.gz
+[2023-06-12 08:54:40] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.0.0.1.30-py3-none-any.whl.zip]
+[2023-06-12 08:54:40] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.0.0.1.31-py3-none-any.whl.zip]
+[2023-06-12 08:54:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-fastapi]: success
+[2023-06-12 08:54:40] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/25/d3/3206094ca4b0737c88ca97d3f7a744871f43a14b9db7eeee93c5fbd6c86d/dvc-data-1.7.0.tar.gz
+[2023-06-12 08:54:41] ERROR root fetch - processPackages [sc-editor]: Diffoscope failed: gzip: tmp/sc-editor-1.4.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/sc-editor-1.4.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-12 08:54:41] INFO root fetch - main [MainThread]: End processing [sc-editor] error
+[2023-06-12 08:54:41] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-12 08:54:41] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.6.1.tar.gz tmp/dvc-data-1.7.0.tar.gz --markdown 20230612/d/dvc-data/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-06-12 08:54:42] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.6.8.tar.gz]
+[2023-06-12 08:54:42] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.6.9.tar.gz]
+[2023-06-12 08:54:42] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-12 08:54:42] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.6.1.tar.gz]
+[2023-06-12 08:54:42] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.7.0.tar.gz]
+[2023-06-12 08:54:42] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-12 08:55:59] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0b3.tar.gz]
+[2023-06-12 08:55:59] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0b4.tar.gz]
+[2023-06-12 08:55:59] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2023-06-12 08:55:59] INFO root fetch - main [MainThread]: Store serial: [18465328]
