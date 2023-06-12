@@ -10481,3 +10481,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 09:27:44] INFO root fetch - processPackages [yellowdog-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_sdk-7.0.0-py3-none-any.whl.zip]
 [2023-06-12 09:27:44] INFO root fetch - main [MainThread]: End processing [yellowdog-sdk]: success
 [2023-06-12 09:27:44] INFO root fetch - main [MainThread]: Store serial: [18465650]
+[2023-06-12 09:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465650]
+[2023-06-12 09:32:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-12 09:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: giefstat
+[2023-06-12 09:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-deckgl
+[2023-06-12 09:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jionlp
+[2023-06-12 09:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: memorix-client-redis
+[2023-06-12 09:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-calculator-58375026
+[2023-06-12 09:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gh-subdir
+[2023-06-12 09:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taichu-dataflow
+[2023-06-12 09:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbox
+[2023-06-12 09:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: propeller-design-tools
+[2023-06-12 09:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt4-api
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gh-subdir]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [streamlit-deckgl]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-12 09:32:54] WARNING root fetch - processPackages [test-calculator-58375026]: Skipping, unable to determine old version
+[2023-06-12 09:32:54] INFO root fetch - processPackages [test-calculator-58375026]: Start processing: dipex
+[2023-06-12 09:32:54] INFO root fetch - main [MainThread]: End processing [test-calculator-58375026] error
+[2023-06-12 09:32:54] INFO root fetch - processPackages [giefstat]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gpt4-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [jionlp]: New version: [1.4.7] Old Version: [1.4.41]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [memorix-client-redis]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/7c/c7/9eee7363b201a8bc310fe6d9d546a142a11b726758475343a0813c6a87be/taichu_dataflow-1.0.3-py3-none-any.whl
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/17/17/f7dc2ac9b3473db8b7d4dec660c57235714bec386a6e7d28e0ef5c19f1e7/gh_subdir-0.1.8.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [memorix-client-redis]: Downloading https://files.pythonhosted.org/packages/5c/18/e286ec518d29a3efcb00f8c27a32d9a876b2863e5b9147a9e35a9a00389d/memorix_client_redis-1.4.5.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/3d/74/98cb97a2dc0cd9f45292cd8ded3d3da9318b1bede8a34420822679c48c34/nbox-0.9.9.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [giefstat]: Downloading https://files.pythonhosted.org/packages/70/ed/fa4fc72e31300a0d377098c678859f5215f9587c7d05a46e65fb72b86c49/giefstat-0.0.8.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/d6/89/ae45406781ac69b450b78b80c8cdb0d4845e94ae7dab954287ec9ee3ef73/propeller_design_tools-0.3.4.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/67/38/d38ede433134784c19963f7f08b7ab34880f4779aef103ce42b6b614e420/streamlit-deckgl-0.4.1.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [jionlp]: Downloading https://files.pythonhosted.org/packages/ac/7c/d24a40d78111c57167246d3b67f74d323b792fc6ccbb2d10c4109898dcfe/jionlp-1.4.41-py2.py3-none-any.whl
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/49/1d/40baccd55fa2035a9a931d2fabac0ea77b2e3456cc91c1353503e986ff47/gpt4-api-0.1.8.tar.gz
+[2023-06-12 09:32:54] WARNING root fetch - processPackages [jionlp]: Skipping package: exceeds size limit 19056677>=10485760
+[2023-06-12 09:32:54] INFO root fetch - processPackages [jionlp]: Start processing: dcrx-api
+[2023-06-12 09:32:54] INFO root fetch - main [MainThread]: End processing [jionlp] error
+[2023-06-12 09:32:54] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/e9/5a/a1cec5678c7bcca81531e8e340b7ace580efc6d998e285970e6d0a94f7cd/nbox-0.9.9rc0.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dcrx-api]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-06-12 09:32:54] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/30/fd/9600a8b6ff7be4ba3dea23241d2b1e5d524e40f8e37bd7c3326dc475b249/taichu-dataflow-1.0.4.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/66/58/763dec68b26a95c4ddd791bbfd038ee8476720289ca718fd6b8a3f55f58b/gh_subdir-0.1.9.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [giefstat]: Downloading https://files.pythonhosted.org/packages/48/c4/d16e0a6a606e0144193dedc393c7ed772caee3836f93a472b33f8fdff6fd/giefstat-0.0.9.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [memorix-client-redis]: Downloading https://files.pythonhosted.org/packages/2d/2c/ef18a838f25cd47c44630b34e7a2d6f7682ed852e07b58417726db8a4bc8/memorix_client_redis-1.4.6.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/42/80/df3c3623a84364e8cf953a044a965bd67eb9c8155161e35e34d139f4b87d/propeller_design_tools-0.3.5.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/05/33/a2ab6073722a5057e0488421a81485b6270c0544ab84e01a7c0cfe7f62a2/dcrx-api-0.2.8.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu_dataflow-1.0.3-py3-none-any.whl.zip tmp/taichu-dataflow-1.0.4.tar.gz --markdown 20230612/t/taichu-dataflow/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 09:32:54] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/42/ff/4123f5136f5e9530eeaf9178320d2074c816783b998f7bff9aebfb7df142/streamlit-deckgl-0.5.0.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/b7/1f/c6e1230e32813c4c54d25d84cb57659667b9b79965d8135d10714589d106/gpt4-api-0.1.9.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [giefstat]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [giefstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giefstat-0.0.8.tar.gz tmp/giefstat-0.0.9.tar.gz --markdown 20230612/g/giefstat/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 09:32:54] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.3.4.tar.gz tmp/propeller_design_tools-0.3.5.tar.gz --markdown 20230612/p/propeller-design-tools/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gh-subdir]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gh-subdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_subdir-0.1.8.tar.gz tmp/gh_subdir-0.1.9.tar.gz --markdown 20230612/g/gh-subdir/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 09:32:54] INFO root fetch - processPackages [memorix-client-redis]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [memorix-client-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memorix_client_redis-1.4.5.tar.gz tmp/memorix_client_redis-1.4.6.tar.gz --markdown 20230612/m/memorix-client-redis/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-06-12 09:32:54] INFO root fetch - processPackages [streamlit-deckgl]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [streamlit-deckgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-deckgl-0.4.1.tar.gz tmp/streamlit-deckgl-0.5.0.tar.gz --markdown 20230612/s/streamlit-deckgl/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.1.8.tar.gz tmp/gpt4-api-0.1.9.tar.gz --markdown 20230612/g/gpt4-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230612/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/25/6b/fa1e2d2da119547a95a54fcf9b2f7c085b8926b57b4b111791b1ea6ccac9/dcrx-api-0.3.0.tar.gz
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230612/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-12 09:32:54] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.2.8.tar.gz tmp/dcrx-api-0.3.0.tar.gz --markdown 20230612/d/dcrx-api/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-06-12 09:32:57] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu_dataflow-1.0.3-py3-none-any.whl.zip]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.4.tar.gz]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [taichu-dataflow]: Start processing: cyclonedx-editor-validator
+[2023-06-12 09:32:57] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-12 09:32:57] INFO root fetch - processPackages [cyclonedx-editor-validator]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [cyclonedx-editor-validator]: Downloading https://files.pythonhosted.org/packages/b3/a6/992dd14de93447c3cd22883cc3a7f641789945e0eb99268a4fe8c9b51057/cyclonedx_editor_validator-0.6.0.tar.gz
+[2023-06-12 09:32:57] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.8.tar.gz]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.9.tar.gz]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [gh-subdir]: Start processing: netbox-cisco-maintenance
+[2023-06-12 09:32:57] INFO root fetch - main [MainThread]: End processing [gh-subdir]: success
+[2023-06-12 09:32:57] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.1.8.tar.gz]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.1.9.tar.gz]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [gpt4-api]: Start processing: shopee-food-service-client-sdk
+[2023-06-12 09:32:57] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-06-12 09:32:57] INFO root fetch - processPackages [memorix-client-redis]: Remove: archive file [/home/abi/fetcher/tmp/memorix_client_redis-1.4.5.tar.gz]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [memorix-client-redis]: Remove: archive file [/home/abi/fetcher/tmp/memorix_client_redis-1.4.6.tar.gz]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [memorix-client-redis]: Start processing: rongdavbaaddins
+[2023-06-12 09:32:57] INFO root fetch - main [MainThread]: End processing [memorix-client-redis]: success
+[2023-06-12 09:32:57] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [cyclonedx-editor-validator]: Downloading https://files.pythonhosted.org/packages/e8/a5/ff4acb85ca2b4c09e9456a4487d78485548cc9515ce78f1fe9d8baced426/cyclonedx_editor_validator-0.6.1.tar.gz
+[2023-06-12 09:32:57] ERROR root fetch - processPackages [shopee-food-service-client-sdk]: Unable to get metadata: No such project 'shopee-food-service-client-sdk'
+[2023-06-12 09:32:57] INFO root fetch - processPackages [shopee-food-service-client-sdk]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-12 09:32:57] INFO root fetch - main [MainThread]: End processing [shopee-food-service-client-sdk] error
+[2023-06-12 09:32:57] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-12 09:32:57] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 09:32:57] INFO root fetch - processPackages [cyclonedx-editor-validator]: executing diffoscope
+[2023-06-12 09:32:57] INFO root fetch - processPackages [cyclonedx-editor-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_editor_validator-0.6.0.tar.gz tmp/cyclonedx_editor_validator-0.6.1.tar.gz --markdown 20230612/c/cyclonedx-editor-validator/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-12 09:32:57] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/ad/49/5951c9c10de0461dfc843f89c88ed6e7c1f5d5e1fc4edee4bda643e19b4d/rongdavbaaddins-0.0.1.2.tar.gz
+[2023-06-12 09:32:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-12 09:32:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230612/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 09:32:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 09:32:58] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.4.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.5.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-12 09:32:58] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/bf/32/4de6b2eb58f95d26f6cb7d964fd670d4f38c38bae0208cd7bc582d10aac2/rongdavbaaddins-0.0.1.3.tar.gz
+[2023-06-12 09:32:58] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9rc0.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-06-12 09:32:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 09:32:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 09:32:58] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-12 09:32:58] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.1.2.tar.gz tmp/rongdavbaaddins-0.0.1.3.tar.gz --markdown 20230612/r/rongdavbaaddins/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-06-12 09:32:58] INFO root fetch - processPackages [giefstat]: Remove: archive file [/home/abi/fetcher/tmp/giefstat-0.0.8.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - processPackages [giefstat]: Remove: archive file [/home/abi/fetcher/tmp/giefstat-0.0.9.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - main [MainThread]: End processing [giefstat]: success
+[2023-06-12 09:32:58] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.8.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.3.0.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-12 09:32:58] INFO root fetch - processPackages [streamlit-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-deckgl-0.4.1.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - processPackages [streamlit-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-deckgl-0.5.0.tar.gz]
+[2023-06-12 09:32:58] INFO root fetch - main [MainThread]: End processing [streamlit-deckgl]: success
+[2023-06-12 09:32:59] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.2.tar.gz]
+[2023-06-12 09:32:59] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.3.tar.gz]
+[2023-06-12 09:32:59] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-12 09:32:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-12 09:32:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-12 09:32:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-12 09:33:00] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-12 09:33:00] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-12 09:33:00] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-12 09:33:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 09:33:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 09:33:00] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 09:33:00] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.6.0.tar.gz]
+[2023-06-12 09:33:00] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.6.1.tar.gz]
+[2023-06-12 09:33:00] INFO root fetch - main [MainThread]: End processing [cyclonedx-editor-validator]: success
+[2023-06-12 09:33:00] INFO root fetch - main [MainThread]: Store serial: [18465703]
