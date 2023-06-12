@@ -8939,3 +8939,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 08:07:07] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-12 08:07:07] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
 [2023-06-12 08:07:07] INFO root fetch - main [MainThread]: Store serial: [18465014]
+[2023-06-12 08:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465014]
+[2023-06-12 08:12:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-12 08:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: verstack
+[2023-06-12 08:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sk-variable-handler
+[2023-06-12 08:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: propeller-design-tools
+[2023-06-12 08:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baseImage
+[2023-06-12 08:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sc-editor
+[2023-06-12 08:12:17] INFO root fetch - processPackages [sc-editor]: New version: [1.0] Old Version: [0.991]
+[2023-06-12 08:12:17] INFO root fetch - processPackages [baseImage]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-12 08:12:17] WARNING root fetch - processPackages [sk-variable-handler]: Skipping, unable to determine old version
+[2023-06-12 08:12:17] INFO root fetch - main [MainThread]: End processing [sk-variable-handler] error
+[2023-06-12 08:12:17] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-12 08:12:17] INFO root fetch - processPackages [verstack]: New version: [3.8.0] Old Version: [3.7.1]
+[2023-06-12 08:12:17] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/ff/53/b17a15b7b0f77f4a28742f09c8023bd2b3235ab92a1fd034791afa1d1bf0/sc-editor-0.991.tar.gz
+[2023-06-12 08:12:17] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/61/ba/796c0c4806d6f22e5ddb3cece6755c2d7de3ca4c62ad2071b4ccf5838676/propeller_design_tools-0.3.3.tar.gz
+[2023-06-12 08:12:18] INFO root fetch - processPackages [verstack]: Downloading https://files.pythonhosted.org/packages/84/3d/b97175b475607c0c0c238f06c7e3b75d0ffd5e1b6f3ad048522d6d767822/verstack-3.7.1.tar.gz
+[2023-06-12 08:12:18] INFO root fetch - processPackages [baseImage]: Downloading https://files.pythonhosted.org/packages/17/d6/85ae6983e2dc7e062724a45ff15207f222f21b25165ffec50abe156635f4/baseImage-2.1.3.tar.gz
+[2023-06-12 08:12:18] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/4f/3a/3788051bc105d9c7c568705b5f50314c2dab72eafc360eff6d3ff076546e/sc-editor-1.0.tar.gz
+[2023-06-12 08:12:18] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-12 08:12:18] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-0.991.tar.gz tmp/sc-editor-1.0.tar.gz --markdown 20230612/s/sc-editor/0.991-1.0/diff.md --exclude *.pyd
+[2023-06-12 08:12:18] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/d6/89/ae45406781ac69b450b78b80c8cdb0d4845e94ae7dab954287ec9ee3ef73/propeller_design_tools-0.3.4.tar.gz
+[2023-06-12 08:12:18] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-12 08:12:18] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.3.3.tar.gz tmp/propeller_design_tools-0.3.4.tar.gz --markdown 20230612/p/propeller-design-tools/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-12 08:12:18] INFO root fetch - processPackages [baseImage]: Downloading https://files.pythonhosted.org/packages/31/19/6193ad203f7aba39c92845b16eba52cb2763efc03bddc88043c8cbbea260/baseImage-2.1.4.tar.gz
+[2023-06-12 08:12:18] INFO root fetch - processPackages [baseImage]: executing diffoscope
+[2023-06-12 08:12:18] INFO root fetch - processPackages [baseImage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseImage-2.1.3.tar.gz tmp/baseImage-2.1.4.tar.gz --markdown 20230612/b/baseImage/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-12 08:12:19] INFO root fetch - processPackages [baseImage]: Remove: archive file [/home/abi/fetcher/tmp/baseImage-2.1.3.tar.gz]
+[2023-06-12 08:12:19] INFO root fetch - processPackages [baseImage]: Remove: archive file [/home/abi/fetcher/tmp/baseImage-2.1.4.tar.gz]
+[2023-06-12 08:12:19] INFO root fetch - main [MainThread]: End processing [baseImage]: success
+[2023-06-12 08:12:19] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-0.991.tar.gz]
+[2023-06-12 08:12:19] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-1.0.tar.gz]
+[2023-06-12 08:12:19] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-12 08:12:19] INFO root fetch - processPackages [verstack]: Downloading https://files.pythonhosted.org/packages/36/67/23df160d5ec6483f27b05d74dcc57558d8bf804a3df50cc3ea394f691e3c/verstack-3.8.0.tar.gz
+[2023-06-12 08:12:19] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.3.tar.gz]
+[2023-06-12 08:12:19] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.4.tar.gz]
+[2023-06-12 08:12:19] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-12 08:12:20] INFO root fetch - processPackages [verstack]: executing diffoscope
+[2023-06-12 08:12:20] INFO root fetch - processPackages [verstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verstack-3.7.1.tar.gz tmp/verstack-3.8.0.tar.gz --markdown 20230612/v/verstack/3.7.1-3.8.0/diff.md --exclude *.pyd
+[2023-06-12 08:12:27] INFO root fetch - processPackages [verstack]: Remove: archive file [/home/abi/fetcher/tmp/verstack-3.7.1.tar.gz]
+[2023-06-12 08:12:27] INFO root fetch - processPackages [verstack]: Remove: archive file [/home/abi/fetcher/tmp/verstack-3.8.0.tar.gz]
+[2023-06-12 08:12:27] INFO root fetch - main [MainThread]: End processing [verstack]: success
+[2023-06-12 08:12:27] INFO root fetch - main [MainThread]: Store serial: [18465029]
