@@ -9799,3 +9799,97 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 08:55:59] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0b4.tar.gz]
 [2023-06-12 08:55:59] INFO root fetch - main [MainThread]: End processing [notebook]: success
 [2023-06-12 08:55:59] INFO root fetch - main [MainThread]: Store serial: [18465328]
+[2023-06-12 09:01:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465328]
+[2023-06-12 09:01:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imesh
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotify-lyrics-scraper
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databend
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vnpy-xex
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mads-datasets
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amiyabot
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bl-hector
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybind11-stubgen
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-purchase-security
+[2023-06-12 09:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eegain
+[2023-06-12 09:01:10] INFO root fetch - processPackages [mads-datasets]: New version: [0.1.5.1] Old Version: [0.1.5]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.6.9.4] Old Version: [2023.6.9.3]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [databend]: New version: [1.1.56] Old Version: [1.1.55]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [spotify-lyrics-scraper]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [bl-hector]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [eegain]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [amiyabot]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [odoo-addon-purchase-security]: New version: [16.0.1.0.0.2] Old Version: [15.0.2.0.0]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [pybind11-stubgen]: New version: [0.9.1] Old Version: [0.9]
+[2023-06-12 09:01:10] INFO root fetch - processPackages [pybind11-stubgen]: Downloading https://files.pythonhosted.org/packages/e2/bc/2cc2cac0872743f263ea6bf0c8bda1ea1cbfb5bc21466bc053004302cdae/pybind11-stubgen-0.9.tar.gz
+[2023-06-12 09:01:10] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-06-12 09:01:10] INFO root fetch - processPackages [spotify-lyrics-scraper]: Downloading https://files.pythonhosted.org/packages/c1/c9/7e05152ceb5571c3dd6766841e254649361dd2686811de7db09da3be3698/spotify_lyrics_scraper-1.0.1.tar.gz
+[2023-06-12 09:01:10] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/05/ae/e742cac6b6de8fd41eceb93aaf5025968dc7696e9dcd6a7f0c379ac46d17/mads_datasets-0.1.5.tar.gz
+[2023-06-12 09:01:10] INFO root fetch - processPackages [eegain]: Downloading https://files.pythonhosted.org/packages/c8/1e/09546a5fc08d08d32ab965e5d7254f74d158f62353beb0c04f818576e59f/eegain-0.0.1.tar.gz
+[2023-06-12 09:01:10] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/10/6b/df1f7aba05b8d9e83c53a3f96d27f0fb9e01d47756b18658b8047ae4495c/vnpy_xex-2023.6.9.3.tar.gz
+[2023-06-12 09:01:10] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/b4/87/e7bae8cea07e063c47f52ec064465f2fb2f7551b6f9b5693e872fcaa0516/amiyabot-1.5.0-py3-none-any.whl
+[2023-06-12 09:01:10] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/20/c3/f5efc5cd37fe81d0131bf2f35cb5ce69b3cf64145c24ec01dd0c4a221d33/databend-1.1.55-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 09:01:10] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/93/eb/46b90e80d8dee7c0d2735e7ba784edf3a5a201d614c80a88f2d0e4dfed3a/bl_hector-0.1.0a3.tar.gz
+[2023-06-12 09:01:10] INFO root fetch - processPackages [odoo-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/7b/9c/1fa629e07e16a2db08b2da38b0d37d72e8768414e1ef4b275d004d49c33b/odoo_addon_purchase_security-15.0.2.0.0-py3-none-any.whl
+[2023-06-12 09:01:10] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 28991080>=10485760
+[2023-06-12 09:01:10] INFO root fetch - processPackages [databend]: Start processing: qsm-forward
+[2023-06-12 09:01:10] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-06-12 09:01:10] INFO root fetch - processPackages [qsm-forward]: New version: [0.2.post1] Old Version: [0.2]
+[2023-06-12 09:01:11] INFO root fetch - processPackages [spotify-lyrics-scraper]: Downloading https://files.pythonhosted.org/packages/bb/2b/aa8f335085f09e2d2f9e1be22879bd387fd139c2cf484caac90caddf85cc/spotify_lyrics_scraper-1.0.2.tar.gz
+[2023-06-12 09:01:11] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-06-12 09:01:11] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/8f/da/d6b824d41170d4589a796d46baabe09b56eaa25e5f359c96cb717f5f59bc/mads_datasets-0.1.5.1.tar.gz
+[2023-06-12 09:01:11] INFO root fetch - processPackages [pybind11-stubgen]: Downloading https://files.pythonhosted.org/packages/f4/9b/d0f675d4def448b35c0758489f9b956d04b1e249ba508b69af697a36326f/pybind11-stubgen-0.9.1.tar.gz
+[2023-06-12 09:01:11] INFO root fetch - processPackages [eegain]: Downloading https://files.pythonhosted.org/packages/62/44/4fdb1a88d57e98cda90a9ff81508af44840ef68308a8f516e3f080b5aa5d/eegain-0.0.2.tar.gz
+[2023-06-12 09:01:11] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-06-12 09:01:11] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230612/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 09:01:11] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/52/a9/b28e0e28a6f2e765d8d7adff45d684eb9733f4e0b03fa86b634bc0028825/bl_hector-0.1.0a4.tar.gz
+[2023-06-12 09:01:11] INFO root fetch - processPackages [odoo-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/d9/2c/8d830b5f160efce2354c084274a3493d470d760cf02270ad7947f7ee3227/odoo_addon_purchase_security-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-12 09:01:11] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11299414>=10485760
+[2023-06-12 09:01:11] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-06-12 09:01:11] INFO root fetch - processPackages [mads-datasets]: executing diffoscope
+[2023-06-12 09:01:11] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/7e/4b/99845d4299aeeb575ce97db43258bdcc83af27bbd5546004f96bd39c2e92/vnpy_xex-2023.6.9.4.tar.gz
+[2023-06-12 09:01:11] INFO root fetch - processPackages [mads-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mads_datasets-0.1.5.tar.gz tmp/mads_datasets-0.1.5.1.tar.gz --markdown 20230612/m/mads-datasets/0.1.5-0.1.5.1/diff.md --exclude *.pyd
+[2023-06-12 09:01:11] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/bf/2a/96ae43575e37a28a0aaf36c85c4e0ea35bcf4619c33bc8c4c345e9e8abd6/qsm_forward-0.2.tar.gz
+[2023-06-12 09:01:11] INFO root fetch - processPackages [spotify-lyrics-scraper]: executing diffoscope
+[2023-06-12 09:01:11] INFO root fetch - processPackages [spotify-lyrics-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_lyrics_scraper-1.0.1.tar.gz tmp/spotify_lyrics_scraper-1.0.2.tar.gz --markdown 20230612/s/spotify-lyrics-scraper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 09:01:11] INFO root fetch - processPackages [eegain]: executing diffoscope
+[2023-06-12 09:01:11] INFO root fetch - processPackages [eegain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eegain-0.0.1.tar.gz tmp/eegain-0.0.2.tar.gz --markdown 20230612/e/eegain/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 09:01:11] INFO root fetch - processPackages [pybind11-stubgen]: executing diffoscope
+[2023-06-12 09:01:11] INFO root fetch - processPackages [pybind11-stubgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybind11-stubgen-0.9.tar.gz tmp/pybind11-stubgen-0.9.1.tar.gz --markdown 20230612/p/pybind11-stubgen/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-06-12 09:01:11] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-06-12 09:01:11] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.6.9.3.tar.gz tmp/vnpy_xex-2023.6.9.4.tar.gz --markdown 20230612/v/vnpy-xex/2023.6.9.3-2023.6.9.4/diff.md --exclude *.pyd
+[2023-06-12 09:01:11] INFO root fetch - processPackages [odoo-addon-purchase-security]: executing diffoscope
+[2023-06-12 09:01:11] INFO root fetch - processPackages [odoo-addon-purchase-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_security-15.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_purchase_security-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230612/o/odoo-addon-purchase-security/15.0.2.0.0-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-12 09:01:11] INFO root fetch - processPackages [bl-hector]: executing diffoscope
+[2023-06-12 09:01:11] INFO root fetch - processPackages [bl-hector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_hector-0.1.0a3.tar.gz tmp/bl_hector-0.1.0a4.tar.gz --markdown 20230612/b/bl-hector/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-06-12 09:01:11] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/19/e4/d6425e13fa68ef75a37179e0af914909136bfd692b64ff7e62103db955da/qsm_forward-0.2.post1.tar.gz
+[2023-06-12 09:01:11] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-06-12 09:01:11] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm_forward-0.2.tar.gz tmp/qsm_forward-0.2.post1.tar.gz --markdown 20230612/q/qsm-forward/0.2-0.2.post1/diff.md --exclude *.pyd
+[2023-06-12 09:01:12] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.5.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.5.1.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - main [MainThread]: End processing [mads-datasets]: success
+[2023-06-12 09:01:12] INFO root fetch - processPackages [eegain]: Remove: archive file [/home/abi/fetcher/tmp/eegain-0.0.1.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - processPackages [eegain]: Remove: archive file [/home/abi/fetcher/tmp/eegain-0.0.2.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - main [MainThread]: End processing [eegain]: success
+[2023-06-12 09:01:12] INFO root fetch - processPackages [spotify-lyrics-scraper]: Remove: archive file [/home/abi/fetcher/tmp/spotify_lyrics_scraper-1.0.1.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - processPackages [spotify-lyrics-scraper]: Remove: archive file [/home/abi/fetcher/tmp/spotify_lyrics_scraper-1.0.2.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - main [MainThread]: End processing [spotify-lyrics-scraper]: success
+[2023-06-12 09:01:12] INFO root fetch - processPackages [pybind11-stubgen]: Remove: archive file [/home/abi/fetcher/tmp/pybind11-stubgen-0.9.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - processPackages [pybind11-stubgen]: Remove: archive file [/home/abi/fetcher/tmp/pybind11-stubgen-0.9.1.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - main [MainThread]: End processing [pybind11-stubgen]: success
+[2023-06-12 09:01:12] INFO root fetch - processPackages [odoo-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_security-15.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-12 09:01:12] INFO root fetch - processPackages [odoo-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_security-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-12 09:01:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-security]: success
+[2023-06-12 09:01:12] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.3.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.4.tar.gz]
+[2023-06-12 09:01:12] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-06-12 09:01:13] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm_forward-0.2.tar.gz]
+[2023-06-12 09:01:13] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm_forward-0.2.post1.tar.gz]
+[2023-06-12 09:01:13] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-06-12 09:01:13] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.0a3.tar.gz]
+[2023-06-12 09:01:13] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.0a4.tar.gz]
+[2023-06-12 09:01:13] INFO root fetch - main [MainThread]: End processing [bl-hector]: success
+[2023-06-12 09:01:15] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-06-12 09:01:15] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-06-12 09:01:15] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-06-12 09:01:15] INFO root fetch - main [MainThread]: Store serial: [18465362]
