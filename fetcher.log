@@ -12297,3 +12297,110 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:50:01] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.5.0.tar.gz]
 [2023-06-12 10:50:01] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-06-12 10:50:01] INFO root fetch - main [MainThread]: Store serial: [18466449]
+[2023-06-12 10:55:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466449]
+[2023-06-12 10:55:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: std.algorithm
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alltime-athletics-python
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eodc-faas-sen2like
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prometheus-summary
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dmvimlemfodfTest
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inject
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: txr
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-print-site-plugin
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tigerblog
+[2023-06-12 10:55:11] INFO root fetch - processPackages [inject]: New version: [5.0.0] Old Version: [4.3.1]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [std.algorithm]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [prometheus-summary]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [dmvimlemfodfTest]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 10:55:11] WARNING root fetch - processPackages [txr]: Skipping, unable to determine old version
+[2023-06-12 10:55:11] INFO root fetch - processPackages [alltime-athletics-python]: New version: [1.20230612.1] Old Version: [1.0.20230612]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [txr]: Start processing: harfang
+[2023-06-12 10:55:11] INFO root fetch - main [MainThread]: End processing [txr] error
+[2023-06-12 10:55:11] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.1rc0] Old Version: [2023.5.0rc9]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [mkdocs-print-site-plugin]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [harfang]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [dmvimlemfodfTest]: Downloading https://files.pythonhosted.org/packages/59/d9/e4fa11d39d9aa365c3689d42e89253e3125b771362a53078d237d6b4c3d5/dmvimlemfodfTest-0.0.0.1-py3-none-any.whl
+[2023-06-12 10:55:11] INFO root fetch - processPackages [inject]: Downloading https://files.pythonhosted.org/packages/23/e2/04673185baadf9f4e175de51212fd2966eed2fca3236fdcfb7e732e4d09e/Inject-4.3.1.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/fc/7a/a6fcd22000250c144d35d210bdfcc996f5c8a34f1cf80a1b4599e01b89b1/std.algorithm-1.1.4.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/58/95/b2585eeef6663b34a62cf4e9d008446c0a9c4cb9bf6b60a217088bb74d1a/alltime_athletics_python-1.0.20230612.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/b6/1f/99d7e75f9b78c86b5f90c83a64054f3b34b5ed82c7a78bf51fd86095cdba/tigerblog-0.1.8.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [prometheus-summary]: Downloading https://files.pythonhosted.org/packages/aa/99/174b71400c045d86e4d73b49b58cf467544545416a2a04c0a8fba34610e8/prometheus-summary-0.0.1.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [mkdocs-print-site-plugin]: Downloading https://files.pythonhosted.org/packages/38/a9/7247ca8846172e9b86c2e0e254c324106bae6801781dcca01c0123069950/mkdocs-print-site-plugin-2.3.4.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/c8/b6/6c4840a096d42c0bb6a21eeb711f7f34d7a41ed6a998032a17efe3e0570a/eodc_faas_sen2like-2023.5.0rc9.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [harfang]: Downloading https://files.pythonhosted.org/packages/fe/4f/5a204bd936c0d494dce8a2572777ee3d2e920e452458ed764d042d6d838e/harfang-3.2.5.tar.gz
+[2023-06-12 10:55:11] WARNING root fetch - processPackages [harfang]: Skipping package: exceeds size limit 49113371>=10485760
+[2023-06-12 10:55:11] INFO root fetch - processPackages [harfang]: Start processing: idf-build-apps
+[2023-06-12 10:55:11] INFO root fetch - main [MainThread]: End processing [harfang] error
+[2023-06-12 10:55:11] INFO root fetch - processPackages [idf-build-apps]: New version: [1.0.1] Old Version: [1.0.0rc0]
+[2023-06-12 10:55:11] INFO root fetch - processPackages [inject]: Downloading https://files.pythonhosted.org/packages/dc/dc/597968297390be69173210cec92f6c4862e98bb1ea5b734aa41a1f4af494/inject-5.0.0.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/33/8e/81c2ef26a1cfb1bf10f864c2b4e20cdc20bd2112b3f68b043f6953e08db1/std.algorithm-1.1.5.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [prometheus-summary]: Downloading https://files.pythonhosted.org/packages/cb/3c/dbcc13cc25ea728cd3db849e541858656bd029aac07a0633313abde04458/prometheus-summary-0.1.0.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [dmvimlemfodfTest]: Downloading https://files.pythonhosted.org/packages/47/d3/ff205ce1b7aa7c432a2aadb0a7d1dc97436459b367aaab1d630b5bdb8d18/dmvimlemfodfTest-0.0.0.2-py3-none-any.whl
+[2023-06-12 10:55:11] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/49/37/e7569353d13c13cc94cb3bd4e996e534546f5d885b26776b469e3f96b1a9/alltime_athletics_python-1.20230612.1.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [mkdocs-print-site-plugin]: Downloading https://files.pythonhosted.org/packages/64/79/83eebfaa74eccdcec53c6cce01bd5a02a61645eaab7963f9515c890e82c4/mkdocs-print-site-plugin-2.3.5.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/a5/db/cace3d305e26e9336ed2e4c3f9569874a02fcfef60125509b9883eb3ee71/eodc_faas_sen2like-2023.5.1rc0.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [dmvimlemfodfTest]: executing diffoscope
+[2023-06-12 10:55:11] INFO root fetch - processPackages [dmvimlemfodfTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmvimlemfodfTest-0.0.0.1-py3-none-any.whl.zip tmp/dmvimlemfodfTest-0.0.0.2-py3-none-any.whl.zip --markdown 20230612/d/dmvimlemfodfTest/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-12 10:55:11] INFO root fetch - processPackages [prometheus-summary]: executing diffoscope
+[2023-06-12 10:55:11] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [prometheus-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus-summary-0.0.1.tar.gz tmp/prometheus-summary-0.1.0.tar.gz --markdown 20230612/p/prometheus-summary/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 10:55:11] INFO root fetch - processPackages [inject]: executing diffoscope
+[2023-06-12 10:55:11] INFO root fetch - processPackages [inject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Inject-4.3.1.tar.gz tmp/inject-5.0.0.tar.gz --markdown 20230612/i/inject/4.3.1-5.0.0/diff.md --exclude *.pyd
+[2023-06-12 10:55:11] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-12 10:55:11] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-1.0.20230612.tar.gz tmp/alltime_athletics_python-1.20230612.1.tar.gz --markdown 20230612/a/alltime-athletics-python/1.0.20230612-1.20230612.1/diff.md --exclude *.pyd
+[2023-06-12 10:55:11] INFO root fetch - processPackages [mkdocs-print-site-plugin]: executing diffoscope
+[2023-06-12 10:55:11] INFO root fetch - processPackages [mkdocs-print-site-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-print-site-plugin-2.3.4.tar.gz tmp/mkdocs-print-site-plugin-2.3.5.tar.gz --markdown 20230612/m/mkdocs-print-site-plugin/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-06-12 10:55:11] INFO root fetch - processPackages [std.algorithm]: executing diffoscope
+[2023-06-12 10:55:11] INFO root fetch - processPackages [std.algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std.algorithm-1.1.4.tar.gz tmp/std.algorithm-1.1.5.tar.gz --markdown 20230612/s/std.algorithm/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-12 10:55:11] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/1b/be/6cd1f547d4eb2fbc86c9955cdfba161b8a26075c742449ed2529a9d3472f/idf_build_apps-1.0.0rc0.tar.gz
+[2023-06-12 10:55:11] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/23/0f/6a0fec4b0cafdb4c1a9f42e93a456ba31cc0b1f03240d001db6df1ee282d/tigerblog-0.1.9.tar.gz
+[2023-06-12 10:55:12] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-12 10:55:12] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz tmp/eodc_faas_sen2like-2023.5.1rc0.tar.gz --markdown 20230612/e/eodc-faas-sen2like/2023.5.0rc9-2023.5.1rc0/diff.md --exclude *.pyd
+[2023-06-12 10:55:12] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-12 10:55:12] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230612/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-12 10:55:12] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-06-12 10:55:12] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230612/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 10:55:12] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/15/2e/5e0395eb41311ad8fa81184eb33fc4403e572500c9334c9e06c4acdd0be7/idf_build_apps-1.0.1.tar.gz
+[2023-06-12 10:55:12] INFO root fetch - processPackages [idf-build-apps]: executing diffoscope
+[2023-06-12 10:55:12] INFO root fetch - processPackages [idf-build-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf_build_apps-1.0.0rc0.tar.gz tmp/idf_build_apps-1.0.1.tar.gz --markdown 20230612/i/idf-build-apps/1.0.0rc0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 10:55:14] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-1.0.20230612.tar.gz]
+[2023-06-12 10:55:14] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-1.20230612.1.tar.gz]
+[2023-06-12 10:55:14] INFO root fetch - processPackages [alltime-athletics-python]: Start processing: ctidb
+[2023-06-12 10:55:14] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-12 10:55:14] WARNING root fetch - processPackages [ctidb]: Skipping, unable to determine old version
+[2023-06-12 10:55:14] INFO root fetch - processPackages [dmvimlemfodfTest]: Remove: archive file [/home/abi/fetcher/tmp/dmvimlemfodfTest-0.0.0.1-py3-none-any.whl.zip]
+[2023-06-12 10:55:14] INFO root fetch - processPackages [ctidb]: Start processing: mykit
+[2023-06-12 10:55:14] INFO root fetch - main [MainThread]: End processing [ctidb] error
+[2023-06-12 10:55:14] INFO root fetch - processPackages [dmvimlemfodfTest]: Remove: archive file [/home/abi/fetcher/tmp/dmvimlemfodfTest-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-12 10:55:14] INFO root fetch - main [MainThread]: End processing [dmvimlemfodfTest]: success
+[2023-06-12 10:55:14] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz]
+[2023-06-12 10:55:14] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.1rc0.tar.gz]
+[2023-06-12 10:55:14] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-12 10:55:14] WARNING root fetch - processPackages [mykit]: Skipping, unable to determine old version
+[2023-06-12 10:55:14] INFO root fetch - main [MainThread]: End processing [mykit] error
+[2023-06-12 10:55:14] INFO root fetch - processPackages [prometheus-summary]: Remove: archive file [/home/abi/fetcher/tmp/prometheus-summary-0.0.1.tar.gz]
+[2023-06-12 10:55:14] INFO root fetch - processPackages [prometheus-summary]: Remove: archive file [/home/abi/fetcher/tmp/prometheus-summary-0.1.0.tar.gz]
+[2023-06-12 10:55:14] INFO root fetch - main [MainThread]: End processing [prometheus-summary]: success
+[2023-06-12 10:55:15] INFO root fetch - processPackages [mkdocs-print-site-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-print-site-plugin-2.3.4.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - processPackages [mkdocs-print-site-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-print-site-plugin-2.3.5.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - main [MainThread]: End processing [mkdocs-print-site-plugin]: success
+[2023-06-12 10:55:15] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.8.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.9.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-06-12 10:55:15] INFO root fetch - processPackages [inject]: Remove: archive file [/home/abi/fetcher/tmp/Inject-4.3.1.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - processPackages [inject]: Remove: archive file [/home/abi/fetcher/tmp/inject-5.0.0.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - main [MainThread]: End processing [inject]: success
+[2023-06-12 10:55:15] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-12 10:55:15] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.4.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.5.tar.gz]
+[2023-06-12 10:55:15] INFO root fetch - main [MainThread]: End processing [std.algorithm]: success
+[2023-06-12 10:55:16] INFO root fetch - processPackages [idf-build-apps]: Remove: archive file [/home/abi/fetcher/tmp/idf_build_apps-1.0.0rc0.tar.gz]
+[2023-06-12 10:55:16] INFO root fetch - processPackages [idf-build-apps]: Remove: archive file [/home/abi/fetcher/tmp/idf_build_apps-1.0.1.tar.gz]
+[2023-06-12 10:55:16] INFO root fetch - main [MainThread]: End processing [idf-build-apps]: success
+[2023-06-12 10:55:16] INFO root fetch - main [MainThread]: Store serial: [18466499]
