@@ -15777,3 +15777,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:16:39] INFO root fetch - processPackages [visual-graph-datasets]: Remove: archive file [/home/abi/fetcher/tmp/visual_graph_datasets-0.9.0.tar.gz]
 [2023-06-12 13:16:39] INFO root fetch - main [MainThread]: End processing [visual-graph-datasets]: success
 [2023-06-12 13:16:39] INFO root fetch - main [MainThread]: Store serial: [18467941]
+[2023-06-12 13:21:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467941]
+[2023-06-12 13:21:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-12 13:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-multicompany-easy-creation
+[2023-06-12 13:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piptools-sync
+[2023-06-12 13:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygfx
+[2023-06-12 13:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tb-nightly
+[2023-06-12 13:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftrack-ams
+[2023-06-12 13:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matlab-proxy
+[2023-06-12 13:21:48] INFO root fetch - processPackages [pygfx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 13:21:48] INFO root fetch - processPackages [piptools-sync]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-12 13:21:48] INFO root fetch - processPackages [odoo-addon-account-multicompany-easy-creation]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-06-12 13:21:48] INFO root fetch - processPackages [ftrack-ams]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-12 13:21:48] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-12 13:21:48] INFO root fetch - processPackages [matlab-proxy]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-12 13:21:48] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-12 13:21:48] INFO root fetch - processPackages [pygfx]: Downloading https://files.pythonhosted.org/packages/87/0d/f73d6698b9530e58cf570d41fc5cd330c97c410c825679211e3c3914a017/pygfx-0.1.8.tar.gz
+[2023-06-12 13:21:48] INFO root fetch - processPackages [piptools-sync]: Downloading https://files.pythonhosted.org/packages/86/40/4b3534bb05f8717de4d26c88f352493580b3faa1a518b572901e767af05f/piptools_sync-1.0.3.tar.gz
+[2023-06-12 13:21:48] INFO root fetch - processPackages [odoo-addon-account-multicompany-easy-creation]: Downloading https://files.pythonhosted.org/packages/36/2b/99da372fbdcc762945605dfa64358d793c5d3afacd88d46d256508bd8c87/odoo_addon_account_multicompany_easy_creation-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-12 13:21:48] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/0a/f1/88ecdca7a2eb946490f33d967638f4af338c82aa3d988dbcad4a500446b9/ftrack-ams-2.0.8.tar.gz
+[2023-06-12 13:21:49] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/21/d3/a49582370cfc62790db903278ed87cb684821c4f8deb8c4a1b1556494298/matlab-proxy-0.5.9.tar.gz
+[2023-06-12 13:21:49] INFO root fetch - processPackages [piptools-sync]: Downloading https://files.pythonhosted.org/packages/3f/08/98f72c3444c30913c89b6a0de6da62c82030bedf47196941adecab57167f/piptools_sync-1.0.4.tar.gz
+[2023-06-12 13:21:49] INFO root fetch - processPackages [pygfx]: Downloading https://files.pythonhosted.org/packages/44/13/beb5bbb77dd5d689dff8ef54e49647e4aa5582f23a27060bac5548f0e02f/pygfx-0.1.9.tar.gz
+[2023-06-12 13:21:49] INFO root fetch - processPackages [piptools-sync]: executing diffoscope
+[2023-06-12 13:21:49] INFO root fetch - processPackages [piptools-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piptools_sync-1.0.3.tar.gz tmp/piptools_sync-1.0.4.tar.gz --markdown 20230612/p/piptools-sync/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-12 13:21:49] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/34/ea/861e042065368474af4e1dd5aae5c75b15e4457811a6fd86d4bc977e16fe/ftrack-ams-2.0.9.tar.gz
+[2023-06-12 13:21:49] INFO root fetch - processPackages [odoo-addon-account-multicompany-easy-creation]: Downloading https://files.pythonhosted.org/packages/45/d2/e41dc878313e31deef26cd87ded1427f5ccad34a0559402a081a07bcc833/odoo_addon_account_multicompany_easy_creation-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-12 13:21:49] INFO root fetch - processPackages [odoo-addon-account-multicompany-easy-creation]: executing diffoscope
+[2023-06-12 13:21:49] INFO root fetch - processPackages [odoo-addon-account-multicompany-easy-creation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_multicompany_easy_creation-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_multicompany_easy_creation-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230612/o/odoo-addon-account-multicompany-easy-creation/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-12 13:21:49] INFO root fetch - processPackages [ftrack-ams]: executing diffoscope
+[2023-06-12 13:21:49] INFO root fetch - processPackages [ftrack-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack-ams-2.0.8.tar.gz tmp/ftrack-ams-2.0.9.tar.gz --markdown 20230612/f/ftrack-ams/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-12 13:21:49] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/6c/dd/ba9e6772a5895d9f5dabbc5be7467b8f2867fcf93f401a4af003ab05c3c9/matlab-proxy-0.6.0.tar.gz
+[2023-06-12 13:21:49] INFO root fetch - processPackages [pygfx]: executing diffoscope
+[2023-06-12 13:21:49] INFO root fetch - processPackages [pygfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygfx-0.1.8.tar.gz tmp/pygfx-0.1.9.tar.gz --markdown 20230612/p/pygfx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 13:21:50] INFO root fetch - processPackages [matlab-proxy]: executing diffoscope
+[2023-06-12 13:21:50] INFO root fetch - processPackages [matlab-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlab-proxy-0.5.9.tar.gz tmp/matlab-proxy-0.6.0.tar.gz --markdown 20230612/m/matlab-proxy/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-12 13:21:50] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-12 13:21:50] INFO root fetch - processPackages [ftrack-ams]: Remove: archive file [/home/abi/fetcher/tmp/ftrack-ams-2.0.8.tar.gz]
+[2023-06-12 13:21:50] INFO root fetch - processPackages [ftrack-ams]: Remove: archive file [/home/abi/fetcher/tmp/ftrack-ams-2.0.9.tar.gz]
+[2023-06-12 13:21:50] INFO root fetch - main [MainThread]: End processing [ftrack-ams]: success
+[2023-06-12 13:21:50] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-12 13:21:50] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230612/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-12 13:21:50] INFO root fetch - processPackages [piptools-sync]: Remove: archive file [/home/abi/fetcher/tmp/piptools_sync-1.0.3.tar.gz]
+[2023-06-12 13:21:50] INFO root fetch - processPackages [piptools-sync]: Remove: archive file [/home/abi/fetcher/tmp/piptools_sync-1.0.4.tar.gz]
+[2023-06-12 13:21:50] INFO root fetch - main [MainThread]: End processing [piptools-sync]: success
+[2023-06-12 13:21:51] INFO root fetch - processPackages [odoo-addon-account-multicompany-easy-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_multicompany_easy_creation-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-12 13:21:51] INFO root fetch - processPackages [odoo-addon-account-multicompany-easy-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_multicompany_easy_creation-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-12 13:21:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-multicompany-easy-creation]: success
+[2023-06-12 13:21:52] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.5.9.tar.gz]
+[2023-06-12 13:21:52] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.6.0.tar.gz]
+[2023-06-12 13:21:52] INFO root fetch - main [MainThread]: End processing [matlab-proxy]: success
+[2023-06-12 13:21:53] INFO root fetch - processPackages [pygfx]: Remove: archive file [/home/abi/fetcher/tmp/pygfx-0.1.8.tar.gz]
+[2023-06-12 13:21:53] INFO root fetch - processPackages [pygfx]: Remove: archive file [/home/abi/fetcher/tmp/pygfx-0.1.9.tar.gz]
+[2023-06-12 13:21:53] INFO root fetch - main [MainThread]: End processing [pygfx]: success
+[2023-06-12 13:21:54] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-12 13:21:54] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-12 13:21:54] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-12 13:21:54] INFO root fetch - main [MainThread]: Store serial: [18467957]
