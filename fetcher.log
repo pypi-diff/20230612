@@ -16538,3 +16538,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:55:20] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
 [2023-06-12 13:55:20] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
 [2023-06-12 13:55:20] INFO root fetch - main [MainThread]: Store serial: [18468324]
+[2023-06-12 14:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468324]
+[2023-06-12 14:00:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ExpoSeq
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailslurp-client
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: federa
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oda-data
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: normflows
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unihan-etl
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wbpNamespace
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ANBUtils
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: urllib3-ext-hface
+[2023-06-12 14:00:29] INFO root fetch - processPackages [wbpNamespace]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [federa]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ANBUtils]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [unihan-etl]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [yeref]: New version: [0.1.90] Old Version: [0.1.89]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [urllib3-ext-hface]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [normflows]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [oda-data]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2023-06-12 14:00:29] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/e6/f2/ad475612c1951852fbf186e9c2ffac59296b278605657be60b58b4699358/unihan-etl-0.9.4.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ef/84/e8a81fa102b323d20af24ac90f5258d6774bd95efdfe0e16d0155b3d8e8e/yeref-0.1.89.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/f9/ed/018dc2d2ca2e2c1b8e9423bb1c7a5fc75354e507fa16a580b84df0ee3d95/ExpoSeq-1.1.1.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [wbpNamespace]: Downloading https://files.pythonhosted.org/packages/05/68/86e4ec34721764a026ffc0af47d32a512c99de01c18013933443fba86418/wbpNamespace-0.1.9.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [normflows]: Downloading https://files.pythonhosted.org/packages/92/9c/5513bfc3d4229b67edd6d92cda54024361364cd4221c5485a8c06aca8678/normflows-1.6.2.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [federa]: Downloading https://files.pythonhosted.org/packages/bd/1d/1cf86508161873d7a39eaca04986d1eb84025b15c7a92c0153aa41a7c94b/federa-0.0.4.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/d8/de/3d9897770b4f0eafb171ba960ce769fa5034edcb5ffc2b3c0538635c5b63/unihan-etl-0.9.5.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [urllib3-ext-hface]: Downloading https://files.pythonhosted.org/packages/47/ff/38cb10fbd53b7cefdadcd3165851a58d3eec3e1b3ac939b6bfdf179875bf/urllib3_ext_hface-0.3.1.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/b1/0a/520ed20372ad1649a158f72200a90718aa7bec10c38169b037385a27d0da/ANBUtils-1.5.3.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [oda-data]: Downloading https://files.pythonhosted.org/packages/76/64/10be434ec67ae43eb35ef6adcdd9b6f2debe5f29f712f5204584aadd6401/oda_data-1.0.1.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [unihan-etl]: executing diffoscope
+[2023-06-12 14:00:29] INFO root fetch - processPackages [unihan-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan-etl-0.9.4.tar.gz tmp/unihan-etl-0.9.5.tar.gz --markdown 20230612/u/unihan-etl/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/fa/a7/8d7e5e9151655b85504391b3f6d020135e715e8be3c0db8a9351d5eed1ef/ExpoSeq-1.1.2.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2023-06-12 14:00:29] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20230612/m/mailslurp-client/8.7.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.1.tar.gz tmp/ExpoSeq-1.1.2.tar.gz --markdown 20230612/E/ExpoSeq/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-12 14:00:29] INFO root fetch - processPackages [normflows]: Downloading https://files.pythonhosted.org/packages/51/1d/2cb54a8402b7ce1418ff284eb633da2a53e256266aba563d875d2a28f77e/normflows-1.7.0.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [federa]: Downloading https://files.pythonhosted.org/packages/c5/a1/b80b8c3e87378c5d1fcdf1669d8c2e576b2b71ae4143065f736b1e2d59b9/federa-1.0.0.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/65/bc/8c47eeeddf595217316625b0e0ee3c4b1fff74a77ae5e21d1bbb1e57ba82/yeref-0.1.90.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [normflows]: executing diffoscope
+[2023-06-12 14:00:29] INFO root fetch - processPackages [normflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normflows-1.6.2.tar.gz tmp/normflows-1.7.0.tar.gz --markdown 20230612/n/normflows/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-06-12 14:00:29] INFO root fetch - processPackages [wbpNamespace]: Downloading https://files.pythonhosted.org/packages/9a/d6/4ce365938b4753cd22b38d5fc0011aecfd8367bf0e46b12b50c52382c6e2/wbpNamespace-0.2.0.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [urllib3-ext-hface]: Downloading https://files.pythonhosted.org/packages/20/f7/98f95142f63ba0203860d6048ab15fcfd7ec6f686a88cc698a392f31714b/urllib3_ext_hface-0.3.2.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [federa]: executing diffoscope
+[2023-06-12 14:00:29] INFO root fetch - processPackages [federa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/federa-0.0.4.tar.gz tmp/federa-1.0.0.tar.gz --markdown 20230612/f/federa/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 14:00:29] INFO root fetch - processPackages [wbpNamespace]: executing diffoscope
+[2023-06-12 14:00:29] INFO root fetch - processPackages [wbpNamespace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpNamespace-0.1.9.tar.gz tmp/wbpNamespace-0.2.0.tar.gz --markdown 20230612/w/wbpNamespace/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 14:00:29] INFO root fetch - processPackages [oda-data]: Downloading https://files.pythonhosted.org/packages/b3/3f/64807748424639a4f160b20214a2ef0de18fa6f9805edfb02fe858045266/oda_data-1.0.2.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [urllib3-ext-hface]: executing diffoscope
+[2023-06-12 14:00:29] INFO root fetch - processPackages [urllib3-ext-hface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_ext_hface-0.3.1.tar.gz tmp/urllib3_ext_hface-0.3.2.tar.gz --markdown 20230612/u/urllib3-ext-hface/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-12 14:00:29] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/98/d4/ada51b2d9ef6ea21180a1684820db750bfa1c41d2217082d31e1a382744d/ANBUtils-1.5.4.tar.gz
+[2023-06-12 14:00:29] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-12 14:00:29] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.89.tar.gz tmp/yeref-0.1.90.tar.gz --markdown 20230612/y/yeref/0.1.89-0.1.90/diff.md --exclude *.pyd
+[2023-06-12 14:00:30] INFO root fetch - processPackages [oda-data]: executing diffoscope
+[2023-06-12 14:00:30] INFO root fetch - processPackages [oda-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oda_data-1.0.1.tar.gz tmp/oda_data-1.0.2.tar.gz --markdown 20230612/o/oda-data/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 14:00:30] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2023-06-12 14:00:30] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.5.3.tar.gz tmp/ANBUtils-1.5.4.tar.gz --markdown 20230612/A/ANBUtils/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-12 14:00:32] INFO root fetch - processPackages [wbpNamespace]: Remove: archive file [/home/abi/fetcher/tmp/wbpNamespace-0.1.9.tar.gz]
+[2023-06-12 14:00:32] INFO root fetch - processPackages [wbpNamespace]: Remove: archive file [/home/abi/fetcher/tmp/wbpNamespace-0.2.0.tar.gz]
+[2023-06-12 14:00:32] INFO root fetch - main [MainThread]: End processing [wbpNamespace]: success
+[2023-06-12 14:00:32] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.4.tar.gz]
+[2023-06-12 14:00:32] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.5.tar.gz]
+[2023-06-12 14:00:32] INFO root fetch - main [MainThread]: End processing [unihan-etl]: success
+[2023-06-12 14:00:32] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.3.tar.gz]
+[2023-06-12 14:00:32] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.4.tar.gz]
+[2023-06-12 14:00:32] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2023-06-12 14:00:33] INFO root fetch - processPackages [urllib3-ext-hface]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_ext_hface-0.3.1.tar.gz]
+[2023-06-12 14:00:33] INFO root fetch - processPackages [urllib3-ext-hface]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_ext_hface-0.3.2.tar.gz]
+[2023-06-12 14:00:33] INFO root fetch - main [MainThread]: End processing [urllib3-ext-hface]: success
+[2023-06-12 14:00:33] INFO root fetch - processPackages [federa]: Remove: archive file [/home/abi/fetcher/tmp/federa-0.0.4.tar.gz]
+[2023-06-12 14:00:33] INFO root fetch - processPackages [federa]: Remove: archive file [/home/abi/fetcher/tmp/federa-1.0.0.tar.gz]
+[2023-06-12 14:00:33] INFO root fetch - main [MainThread]: End processing [federa]: success
+[2023-06-12 14:00:33] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.89.tar.gz]
+[2023-06-12 14:00:33] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.90.tar.gz]
+[2023-06-12 14:00:33] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-12 14:00:33] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.1.tar.gz]
+[2023-06-12 14:00:33] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.2.tar.gz]
+[2023-06-12 14:00:33] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-06-12 14:00:34] INFO root fetch - processPackages [normflows]: Remove: archive file [/home/abi/fetcher/tmp/normflows-1.6.2.tar.gz]
+[2023-06-12 14:00:34] INFO root fetch - processPackages [normflows]: Remove: archive file [/home/abi/fetcher/tmp/normflows-1.7.0.tar.gz]
+[2023-06-12 14:00:34] INFO root fetch - main [MainThread]: End processing [normflows]: success
+[2023-06-12 14:00:34] INFO root fetch - processPackages [oda-data]: Remove: archive file [/home/abi/fetcher/tmp/oda_data-1.0.1.tar.gz]
+[2023-06-12 14:00:34] INFO root fetch - processPackages [oda-data]: Remove: archive file [/home/abi/fetcher/tmp/oda_data-1.0.2.tar.gz]
+[2023-06-12 14:00:34] INFO root fetch - main [MainThread]: End processing [oda-data]: success
+[2023-06-12 14:00:35] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2023-06-12 14:00:35] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2023-06-12 14:00:35] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2023-06-12 14:00:35] INFO root fetch - main [MainThread]: Store serial: [18468357]
