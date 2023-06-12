@@ -2808,3 +2808,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-12 03:10:26] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.9.tar.gz]
 [2023-06-12 03:10:26] INFO root fetch - main [MainThread]: End processing [qtb-plot]: success
 [2023-06-12 03:10:26] INFO root fetch - main [MainThread]: Store serial: [18462437]
+[2023-06-12 03:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462437]
+[2023-06-12 03:15:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sixth-sense
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lab-partner-utils
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crackerjack
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelbase
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fajrGPT
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-supporter
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: super-ec2
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prodigyopt
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyproject-pre-commit
+[2023-06-12 03:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lab-partner
+[2023-06-12 03:15:35] INFO root fetch - processPackages [crackerjack]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-12 03:15:35] WARNING root fetch - processPackages [prodigyopt]: Skipping, unable to determine old version
+[2023-06-12 03:15:35] INFO root fetch - processPackages [lab-partner-utils]: New version: [0.7.53] Old Version: [0.7.51]
+[2023-06-12 03:15:35] INFO root fetch - processPackages [prodigyopt]: Start processing: fajrGPT
+[2023-06-12 03:15:35] INFO root fetch - main [MainThread]: End processing [prodigyopt] error
+[2023-06-12 03:15:35] INFO root fetch - processPackages [selenium-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 03:15:35] INFO root fetch - processPackages [fajrGPT]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-12 03:15:35] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-06-12 03:15:35] INFO root fetch - processPackages [sixth-sense]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 03:15:35] INFO root fetch - processPackages [pyproject-pre-commit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 03:15:35] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/fe/d5/2a6dd667c54453a0ae4e4250c1bde8e4fe906696122ec5146aab54806847/crackerjack-0.2.7.tar.gz
+[2023-06-12 03:15:35] INFO root fetch - processPackages [lab-partner]: New version: [0.7.53] Old Version: [0.7.52]
+[2023-06-12 03:15:36] INFO root fetch - processPackages [fajrGPT]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-12 03:15:36] INFO root fetch - processPackages [super-ec2]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 03:15:36] INFO root fetch - processPackages [selenium-supporter]: Downloading https://files.pythonhosted.org/packages/47/92/b039f9430f2d544d8bea31a52755411095eea2c5bfa49dcac1b0b8e36fa0/selenium-supporter-0.0.8.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/0e/38/6969670280048c78fb939d15441fa4549796c686a30f15540b983a64d505/lab-partner-0.7.52.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [sixth-sense]: Downloading https://files.pythonhosted.org/packages/fa/9f/a0b7c04c701843a87c17f3f7be37e428160e9598ff8d93673eb55114c7ee/sixth-sense-0.0.1.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/2b/92/7537ded4d87ef150fde60014912dfb952da4b9004634657e239479b2707a/fajrGPT-1.1.3.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/f8/c2/7ec6f73098b2d5eecffdd8bdb695c3313e9f0033103b6567716cfbfe6bcd/lab-partner-utils-0.7.51.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/89/9e/e7135de38637d0509e72fd08e0baa3c9cb241b454ffbb7a338af3394d094/crackerjack-0.2.8.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/2b/92/7537ded4d87ef150fde60014912dfb952da4b9004634657e239479b2707a/fajrGPT-1.1.3.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/d6/37/7cefb7736c79bd5242b5d80c67ec2b5db58939b1af783cdd3f30f5054a0b/pyproject_pre_commit-0.0.8.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/6f/5b/1c4410f9cdec4b306292deb7eabba0c5195fdc9ed51343c6561f7b7ae28a/super-ec2-0.0.98.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-12 03:15:36] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.2.7.tar.gz tmp/crackerjack-0.2.8.tar.gz --markdown 20230612/c/crackerjack/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-12 03:15:36] INFO root fetch - processPackages [selenium-supporter]: Downloading https://files.pythonhosted.org/packages/f9/33/1d05c962793776e6444348c2c457f3308e36ce8b5d5688297c892b81b26b/selenium-supporter-0.0.9.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/86/bb/3b62574d93fadbdef698d61bfe60640d68e6c38248e605683337c1a4ee1f/lab-partner-0.7.53.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [lab-partner-utils]: Downloading https://files.pythonhosted.org/packages/cd/d5/e779ee160d7d04657fb30f15208fbc8a18cc3bb1090279225fdd43980b18/lab-partner-utils-0.7.53.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [selenium-supporter]: executing diffoscope
+[2023-06-12 03:15:36] INFO root fetch - processPackages [selenium-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-supporter-0.0.8.tar.gz tmp/selenium-supporter-0.0.9.tar.gz --markdown 20230612/s/selenium-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 03:15:36] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/40/27/969d5332790d3b129576b8ad44532ef7a9c91882a8694d3e0cf6afcf3426/fajrGPT-1.1.4.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [sixth-sense]: Downloading https://files.pythonhosted.org/packages/84/52/94f34e7b3d08e687b5f7fe8b476fd4c5af62d433ef61db19478ef3f3759a/sixth-sense-0.0.2.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/40/27/969d5332790d3b129576b8ad44532ef7a9c91882a8694d3e0cf6afcf3426/fajrGPT-1.1.4.tar.gz
+[2023-06-12 03:15:36] INFO root fetch - processPackages [lab-partner]: executing diffoscope
+[2023-06-12 03:15:36] INFO root fetch - processPackages [lab-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-0.7.52.tar.gz tmp/lab-partner-0.7.53.tar.gz --markdown 20230612/l/lab-partner/0.7.52-0.7.53/diff.md --exclude *.pyd
+[2023-06-12 03:15:36] INFO root fetch - processPackages [sixth-sense]: executing diffoscope
+[2023-06-12 03:15:36] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-06-12 03:15:36] INFO root fetch - processPackages [sixth-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sixth-sense-0.0.1.tar.gz tmp/sixth-sense-0.0.2.tar.gz --markdown 20230612/s/sixth-sense/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 03:15:36] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.1.3.tar.gz tmp/fajrGPT-1.1.4.tar.gz --markdown 20230612/f/fajrGPT/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-12 03:15:36] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-06-12 03:15:36] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.1.3.tar.gz tmp/fajrGPT-1.1.4.tar.gz --markdown 20230612/f/fajrGPT/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-12 03:15:36] INFO root fetch - processPackages [lab-partner-utils]: executing diffoscope
+[2023-06-12 03:15:36] INFO root fetch - processPackages [lab-partner-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-utils-0.7.51.tar.gz tmp/lab-partner-utils-0.7.53.tar.gz --markdown 20230612/l/lab-partner-utils/0.7.51-0.7.53/diff.md --exclude *.pyd
+[2023-06-12 03:15:36] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-06-12 03:15:37] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/b4/05/ef39c872bbf4bec813b234e1b5bd2d0e72f0e12de11497ac672a94846e55/pyproject_pre_commit-0.0.9.tar.gz
+[2023-06-12 03:15:37] INFO root fetch - processPackages [pyproject-pre-commit]: executing diffoscope
+[2023-06-12 03:15:37] INFO root fetch - processPackages [pyproject-pre-commit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_pre_commit-0.0.8.tar.gz tmp/pyproject_pre_commit-0.0.9.tar.gz --markdown 20230612/p/pyproject-pre-commit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 03:15:37] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-06-12 03:15:37] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230612/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-06-12 03:15:37] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.7.tar.gz]
+[2023-06-12 03:15:37] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.2.8.tar.gz]
+[2023-06-12 03:15:37] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-06-12 03:15:37] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/0d/d0/5bf70ee0146094b68ecc7932c6443c5d3dbdfff94a43de975f62bdb1caca/super-ec2-0.0.99.tar.gz
+[2023-06-12 03:15:37] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.1.3.tar.gz]
+[2023-06-12 03:15:37] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.1.4.tar.gz]
+[2023-06-12 03:15:37] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-06-12 03:15:37] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-06-12 03:15:38] INFO root fetch - processPackages [selenium-supporter]: Remove: archive file [/home/abi/fetcher/tmp/selenium-supporter-0.0.8.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - processPackages [selenium-supporter]: Remove: archive file [/home/abi/fetcher/tmp/selenium-supporter-0.0.9.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - main [MainThread]: End processing [selenium-supporter]: success
+[2023-06-12 03:15:38] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.52.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.53.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - main [MainThread]: End processing [lab-partner]: success
+[2023-06-12 03:15:38] INFO root fetch - processPackages [sixth-sense]: Remove: archive file [/home/abi/fetcher/tmp/sixth-sense-0.0.1.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - processPackages [sixth-sense]: Remove: archive file [/home/abi/fetcher/tmp/sixth-sense-0.0.2.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - main [MainThread]: End processing [sixth-sense]: success
+[2023-06-12 03:15:38] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.51.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.53.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - main [MainThread]: End processing [lab-partner-utils]: success
+[2023-06-12 03:15:38] INFO root fetch - processPackages [pyproject-pre-commit]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_pre_commit-0.0.8.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - processPackages [pyproject-pre-commit]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_pre_commit-0.0.9.tar.gz]
+[2023-06-12 03:15:38] INFO root fetch - main [MainThread]: End processing [pyproject-pre-commit]: success
+[2023-06-12 03:15:38] INFO root fetch - processPackages [super-ec2]: executing diffoscope
+[2023-06-12 03:15:38] INFO root fetch - processPackages [super-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super-ec2-0.0.98.tar.gz tmp/super-ec2-0.0.99.tar.gz --markdown 20230612/s/super-ec2/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 03:15:39] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2023-06-12 03:15:39] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2023-06-12 03:15:39] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-06-12 03:16:35] INFO root fetch - processPackages [super-ec2]: Remove: archive file [/home/abi/fetcher/tmp/super-ec2-0.0.98.tar.gz]
+[2023-06-12 03:16:35] INFO root fetch - processPackages [super-ec2]: Remove: archive file [/home/abi/fetcher/tmp/super-ec2-0.0.99.tar.gz]
+[2023-06-12 03:16:35] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
+[2023-06-12 03:16:35] INFO root fetch - main [MainThread]: Store serial: [18462472]
