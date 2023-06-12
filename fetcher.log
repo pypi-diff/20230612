@@ -9309,3 +9309,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-06-12 08:28:22] INFO root fetch - main [MainThread]: End processing [ykdraco] error
 [2023-06-12 08:28:22] INFO root fetch - main [MainThread]: Store serial: [18465135]
+[2023-06-12 08:33:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465135]
+[2023-06-12 08:33:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radvis
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pcalf
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gh-subdir
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: me-setups
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bp3
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyQt6-Fluent-Widgets
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-twitter
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bp3
+[2023-06-12 08:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: revolution.py
+[2023-06-12 08:33:32] INFO root fetch - processPackages [gh-subdir]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [me-setups]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [radvis]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [bp3]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [bp3]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [revolution.py]: New version: [5.0.0.3] Old Version: [5.0.0.2]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [pcalf]: New version: [1.1.0] Old Version: [0.0.3]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-12 08:33:32] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/06/54/be85e7d8a4fa4f8160bc142a5a815f191e3c61c7468b653f785b5e1070a3/gh_subdir-0.1.1.tar.gz
+[2023-06-12 08:33:32] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/c5/e2/83359df4f3e17dfa5d2fbdcdf9a505d0a336c76731779167ade54fb0444d/revolution.py-5.0.0.2.tar.gz
+[2023-06-12 08:33:32] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/ca/b5/668b13ac3a84b72e5f8443d6951264ffa4037bc785bf970ddec43026bf14/nonebot-plugin-twitter-0.1.6.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [radvis]: Downloading https://files.pythonhosted.org/packages/15/74/942fc91d05360b15203ff4f1e454699fabb84b6a17514572341e1a0cfec0/radvis-0.2.4.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/d3/58/e495bc08b57a0cbfa2885f37b5541c5982af270e10f9250e10bc8b883bfd/me_setups-1.8.1.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/89/d8/d4b5f328d09de31b9204c823397097e71a5ddc7373be68f40848808dab8d/PyQt6-Fluent-Widgets-0.9.3.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/6b/ca/a6f95763b226037822f35fd29e0c663a1e0917260be5e3299a5b0cd7f86f/revolution.py-5.0.0.3.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/bd/64/54701e84d50946eea7d30df7e282663f7709ed6dbd20cde3d322d50330b4/bp3-0.0.8.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/bd/64/54701e84d50946eea7d30df7e282663f7709ed6dbd20cde3d322d50330b4/bp3-0.0.8.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-12 08:33:33] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-06-12 08:33:33] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.0.2.tar.gz tmp/revolution.py-5.0.0.3.tar.gz --markdown 20230612/r/revolution.py/5.0.0.2-5.0.0.3/diff.md --exclude *.pyd
+[2023-06-12 08:33:33] INFO root fetch - processPackages [pcalf]: Downloading https://files.pythonhosted.org/packages/3e/ec/9fe971a7a020c1a7725a9dbb32227f4af84de3e054b7421c7644253f8976/pcalf-0.0.3.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/a7/9b/d5ad385b8669c416fddbfdaacbbc6b874f4b6f7ea1642849ef8c5d9ebb84/nonebot-plugin-twitter-0.1.7.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/f9/be/99d00041ddbf74b4777f0204f8d5b46029694c9a51e4f02ae0178cdcac5c/gh_subdir-0.1.2.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [radvis]: Downloading https://files.pythonhosted.org/packages/f2/64/233774524fe136a78befe7e7867e528e8f0bf7a0258e00f9e704c4450769/radvis-0.2.5.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-06-12 08:33:33] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.1.6.tar.gz tmp/nonebot-plugin-twitter-0.1.7.tar.gz --markdown 20230612/n/nonebot-plugin-twitter/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-12 08:33:33] INFO root fetch - processPackages [gh-subdir]: executing diffoscope
+[2023-06-12 08:33:33] INFO root fetch - processPackages [gh-subdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_subdir-0.1.1.tar.gz tmp/gh_subdir-0.1.2.tar.gz --markdown 20230612/g/gh-subdir/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 08:33:33] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/0e/6b/321522de9bd206c7b6576576baf75d4f8bae9680d7939c9bf5aa873b2d9d/me_setups-1.8.2.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [radvis]: executing diffoscope
+[2023-06-12 08:33:33] INFO root fetch - processPackages [radvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radvis-0.2.4.tar.gz tmp/radvis-0.2.5.tar.gz --markdown 20230612/r/radvis/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-12 08:33:33] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-12 08:33:33] INFO root fetch - processPackages [pcalf]: Downloading https://files.pythonhosted.org/packages/5a/a3/ffce7efa1cf54d6b56b3280ad4c8bcfd57f3c1191dcee469f9e819997a36/pcalf-1.1.0.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/95/13/4e3fdd5c31fc0b994f7e85fb66d1ac8796d6fee0f6d2be754a0bb5696ff9/PyQt6-Fluent-Widgets-0.9.4.tar.gz
+[2023-06-12 08:33:33] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-12 08:33:33] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230612/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-12 08:33:33] INFO root fetch - processPackages [me-setups]: executing diffoscope
+[2023-06-12 08:33:33] INFO root fetch - processPackages [me-setups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_setups-1.8.1.tar.gz tmp/me_setups-1.8.2.tar.gz --markdown 20230612/m/me-setups/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-12 08:33:33] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-06-12 08:33:33] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.3.tar.gz tmp/PyQt6-Fluent-Widgets-0.9.4.tar.gz --markdown 20230612/P/PyQt6-Fluent-Widgets/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 08:33:34] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.2.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.3.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-06-12 08:33:34] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.1.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.2.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - main [MainThread]: End processing [gh-subdir]: success
+[2023-06-12 08:33:34] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.6.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.7.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-06-12 08:33:34] INFO root fetch - processPackages [pcalf]: executing diffoscope
+[2023-06-12 08:33:34] INFO root fetch - processPackages [pcalf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcalf-0.0.3.tar.gz tmp/pcalf-1.1.0.tar.gz --markdown 20230612/p/pcalf/0.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 08:33:34] INFO root fetch - processPackages [radvis]: Remove: archive file [/home/abi/fetcher/tmp/radvis-0.2.4.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - processPackages [radvis]: Remove: archive file [/home/abi/fetcher/tmp/radvis-0.2.5.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - main [MainThread]: End processing [radvis]: success
+[2023-06-12 08:33:34] INFO root fetch - processPackages [me-setups]: Remove: archive file [/home/abi/fetcher/tmp/me_setups-1.8.1.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - processPackages [me-setups]: Remove: archive file [/home/abi/fetcher/tmp/me_setups-1.8.2.tar.gz]
+[2023-06-12 08:33:34] INFO root fetch - main [MainThread]: End processing [me-setups]: success
+[2023-06-12 08:33:35] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/78/6b/c5dd7efd1c872bb45c539b39098f314847aeb7daa2d995764145980c95b4/bp3-0.0.9-py2.py3-none-any.whl
+[2023-06-12 08:33:35] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/78/6b/c5dd7efd1c872bb45c539b39098f314847aeb7daa2d995764145980c95b4/bp3-0.0.9-py2.py3-none-any.whl
+[2023-06-12 08:33:36] INFO root fetch - processPackages [pcalf]: Remove: archive file [/home/abi/fetcher/tmp/pcalf-0.0.3.tar.gz]
+[2023-06-12 08:33:36] INFO root fetch - processPackages [pcalf]: Remove: archive file [/home/abi/fetcher/tmp/pcalf-1.1.0.tar.gz]
+[2023-06-12 08:33:36] INFO root fetch - main [MainThread]: End processing [pcalf]: success
+[2023-06-12 08:33:38] INFO root fetch - processPackages [bp3]: executing diffoscope
+[2023-06-12 08:33:38] INFO root fetch - processPackages [bp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp3-0.0.8.tar.gz tmp/bp3-0.0.9-py2.py3-none-any.whl.zip --markdown 20230612/b/bp3/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 08:33:38] INFO root fetch - processPackages [bp3]: executing diffoscope
+[2023-06-12 08:33:38] INFO root fetch - processPackages [bp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp3-0.0.8.tar.gz tmp/bp3-0.0.9-py2.py3-none-any.whl.zip --markdown 20230612/b/bp3/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 08:33:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-12 08:33:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-12 08:33:39] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-12 08:33:39] INFO root fetch - processPackages [bp3]: Remove: archive file [/home/abi/fetcher/tmp/bp3-0.0.8.tar.gz]
+[2023-06-12 08:33:39] INFO root fetch - processPackages [bp3]: Remove: archive file [/home/abi/fetcher/tmp/bp3-0.0.9-py2.py3-none-any.whl.zip]
+[2023-06-12 08:33:39] INFO root fetch - main [MainThread]: End processing [bp3]: success
+[2023-06-12 08:33:39] INFO root fetch - main [MainThread]: End processing [bp3]: success
+[2023-06-12 08:33:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.3.tar.gz]
+[2023-06-12 08:33:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.4.tar.gz]
+[2023-06-12 08:33:40] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-06-12 08:33:40] INFO root fetch - main [MainThread]: Store serial: [18465171]
