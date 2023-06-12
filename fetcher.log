@@ -8454,3 +8454,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 07:15:02] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-12 07:15:02] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-12 07:15:02] INFO root fetch - main [MainThread]: Store serial: [18464778]
+[2023-06-12 07:20:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18464778]
+[2023-06-12 07:20:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 07:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PRauto
+[2023-06-12 07:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visuallayer
+[2023-06-12 07:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioPII
+[2023-06-12 07:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poplar-logging
+[2023-06-12 07:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-06-12 07:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iosense-connect
+[2023-06-12 07:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BioPII
+[2023-06-12 07:20:10] INFO root fetch - processPackages [PRauto]: New version: [0.213] Old Version: [0.212]
+[2023-06-12 07:20:10] INFO root fetch - processPackages [visuallayer]: New version: [0.0.2] Old Version: [0.0.13]
+[2023-06-12 07:20:10] WARNING root fetch - processPackages [poplar-logging]: Skipping, unable to determine old version
+[2023-06-12 07:20:10] INFO root fetch - main [MainThread]: End processing [poplar-logging] error
+[2023-06-12 07:20:10] INFO root fetch - processPackages [iosense-connect]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-12 07:20:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 07:20:10] INFO root fetch - processPackages [BioPII]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 07:20:10] INFO root fetch - processPackages [BioPII]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 07:20:10] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/0a/45/ea1ff9ca229eeba9cb1ac64fac2d9ac2eba75ed5cc28888ebbaba43cc501/BioPII-0.1.3.tar.gz
+[2023-06-12 07:20:10] INFO root fetch - processPackages [visuallayer]: Downloading https://files.pythonhosted.org/packages/dd/17/f449030c3c8cde9423f7bb05b9d447b09f901f5b1bedc6d72fb8a7123bed/visuallayer-0.0.13-py3.9-none-any.whl
+[2023-06-12 07:20:10] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/9f/07/cccdbfafd2e4d6013c18afa312e9e4332592e7a39c1efffd090c1a5afd82/PRauto-0.212.tar.gz
+[2023-06-12 07:20:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/89/1f/482c05a2d98c231cd04802b1145385030edbc89bc263251c0ba72ef59c43/nonebot_plugin_stable_diffusion_diao-0.2.1.tar.gz
+[2023-06-12 07:20:10] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/b9/75/e4403a0caf3850ad8679d704e83e37eae131c3e5cee48fe27668bd14ae07/iosense_connect-3.0.2.tar.gz
+[2023-06-12 07:20:10] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/62/c6/fbace247603299b9e75827c714abb85f942cda190ba2411621e12e2ede25/BioPII-0.1.4.tar.gz
+[2023-06-12 07:20:10] INFO root fetch - processPackages [BioPII]: Downloading https://files.pythonhosted.org/packages/62/c6/fbace247603299b9e75827c714abb85f942cda190ba2411621e12e2ede25/BioPII-0.1.4.tar.gz
+[2023-06-12 07:20:11] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/50/e1/4f09e061e4c8d2c43dcd7795cbb22fc9e6090cafa102012ff4813b9fdf0c/PRauto-0.213.tar.gz
+[2023-06-12 07:20:11] INFO root fetch - processPackages [visuallayer]: Downloading https://files.pythonhosted.org/packages/13/03/8c97f1d05df3c9f08812bd7bd037086a6e781138f9531414aa091222a005/visuallayer-0.0.2-py3-none-any.whl
+[2023-06-12 07:20:11] INFO root fetch - processPackages [BioPII]: executing diffoscope
+[2023-06-12 07:20:11] INFO root fetch - processPackages [BioPII]: executing diffoscope
+[2023-06-12 07:20:11] INFO root fetch - processPackages [BioPII]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioPII-0.1.3.tar.gz tmp/BioPII-0.1.4.tar.gz --markdown 20230612/B/BioPII/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 07:20:11] INFO root fetch - processPackages [BioPII]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioPII-0.1.3.tar.gz tmp/BioPII-0.1.4.tar.gz --markdown 20230612/B/BioPII/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 07:20:11] INFO root fetch - processPackages [PRauto]: executing diffoscope
+[2023-06-12 07:20:11] INFO root fetch - processPackages [PRauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PRauto-0.212.tar.gz tmp/PRauto-0.213.tar.gz --markdown 20230612/P/PRauto/0.212-0.213/diff.md --exclude *.pyd
+[2023-06-12 07:20:11] INFO root fetch - processPackages [visuallayer]: executing diffoscope
+[2023-06-12 07:20:11] INFO root fetch - processPackages [visuallayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visuallayer-0.0.13-py3.9-none-any.whl.zip tmp/visuallayer-0.0.2-py3-none-any.whl.zip --markdown 20230612/v/visuallayer/0.0.13-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 07:20:11] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/7d/22/72a6cc3cf5e8df3b32d8ce2d08000e83ff657688106f6b716e5958a16d45/nonebot_plugin_stable_diffusion_diao-0.2.2.tar.gz
+[2023-06-12 07:20:11] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/dc/dd/1861669662b057fff23a9855853dc3a2aa07748320f92bf45ee8c70bd5f5/iosense_connect-3.0.3.tar.gz
+[2023-06-12 07:20:11] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-06-12 07:20:11] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-3.0.2.tar.gz tmp/iosense_connect-3.0.3.tar.gz --markdown 20230612/i/iosense-connect/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-12 07:20:11] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-06-12 07:20:11] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.2.1.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.2.2.tar.gz --markdown 20230612/n/nonebot-plugin-stable-diffusion-diao/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 07:20:12] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.3.tar.gz]
+[2023-06-12 07:20:12] INFO root fetch - processPackages [BioPII]: Remove: archive file [/home/abi/fetcher/tmp/BioPII-0.1.4.tar.gz]
+[2023-06-12 07:20:12] INFO root fetch - main [MainThread]: End processing [BioPII]: success
+[2023-06-12 07:20:12] INFO root fetch - processPackages [PRauto]: Remove: archive file [/home/abi/fetcher/tmp/PRauto-0.212.tar.gz]
+[2023-06-12 07:20:12] INFO root fetch - processPackages [PRauto]: Remove: archive file [/home/abi/fetcher/tmp/PRauto-0.213.tar.gz]
+[2023-06-12 07:20:12] INFO root fetch - main [MainThread]: End processing [PRauto]: success
+[2023-06-12 07:20:12] INFO root fetch - main [MainThread]: End processing [BioPII]: success
+[2023-06-12 07:20:12] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-3.0.2.tar.gz]
+[2023-06-12 07:20:12] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-3.0.3.tar.gz]
+[2023-06-12 07:20:12] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-06-12 07:20:12] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.2.1.tar.gz]
+[2023-06-12 07:20:12] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.2.2.tar.gz]
+[2023-06-12 07:20:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-06-12 07:20:12] INFO root fetch - processPackages [visuallayer]: Remove: archive file [/home/abi/fetcher/tmp/visuallayer-0.0.13-py3.9-none-any.whl.zip]
+[2023-06-12 07:20:12] INFO root fetch - processPackages [visuallayer]: Remove: archive file [/home/abi/fetcher/tmp/visuallayer-0.0.2-py3-none-any.whl.zip]
+[2023-06-12 07:20:12] INFO root fetch - main [MainThread]: End processing [visuallayer]: success
+[2023-06-12 07:20:12] INFO root fetch - main [MainThread]: Store serial: [18464802]
