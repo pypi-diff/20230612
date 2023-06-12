@@ -21525,3 +21525,108 @@ EOFError: EOF read where object expected
 [2023-06-12 16:59:27] INFO root fetch - processPackages [projectaria-tools-dev]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools_dev-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-12 16:59:27] INFO root fetch - main [MainThread]: End processing [projectaria-tools-dev]: success
 [2023-06-12 16:59:27] INFO root fetch - main [MainThread]: Store serial: [18470261]
+[2023-06-12 17:04:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470261]
+[2023-06-12 17:04:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-maimai
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fabric_fss_utils
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 3DFin
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotify-lyrics-scraper
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mapillary-tools
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text2story
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autosar-e2e
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selenium-simplified
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tapescript
+[2023-06-12 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spotify-lyrics-scraper
+[2023-06-12 17:04:43] INFO root fetch - processPackages [spotify-lyrics-scraper]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [spotify-lyrics-scraper]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [tapescript]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [selenium-simplified]: New version: [1.2] Old Version: [1.1]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [3DFin]: New version: [0.2.0rc1] Old Version: [0.2.0rc0]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [nonebot-plugin-maimai]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [mapillary-tools]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [fabric_fss_utils]: New version: [1.5.0rc1] Old Version: [1.5.0]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [text2story]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [autosar-e2e]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-12 17:04:43] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/c8/ed/fa14e27a1560b1c4b9ace11769dc39e46a3f331c96fa585b317b9a8552f1/tapescript-0.1.2.tar.gz
+[2023-06-12 17:04:43] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/ce/de/ab02054d320db078ba0b7f3ba9d62781c6d6beb2ad3df16ad8a3b69a033b/selenium_simplified-1.1.tar.gz
+[2023-06-12 17:04:43] INFO root fetch - processPackages [spotify-lyrics-scraper]: Downloading https://files.pythonhosted.org/packages/fe/5a/4153e14f7a9b323bfa9868d84f72430fd5eb3d2ae140f760d627319b9b6f/spotify_lyrics_scraper-1.0.4.tar.gz
+[2023-06-12 17:04:43] INFO root fetch - processPackages [spotify-lyrics-scraper]: Downloading https://files.pythonhosted.org/packages/fe/5a/4153e14f7a9b323bfa9868d84f72430fd5eb3d2ae140f760d627319b9b6f/spotify_lyrics_scraper-1.0.4.tar.gz
+[2023-06-12 17:04:43] INFO root fetch - processPackages [fabric_fss_utils]: Downloading https://files.pythonhosted.org/packages/6a/1f/a241333a9fdc70228812b95b5233b575be7e92a73f3e5df7f9ff6fc12869/fabric_fss_utils-1.5.0.tar.gz
+[2023-06-12 17:04:43] INFO root fetch - processPackages [nonebot-plugin-maimai]: Downloading https://files.pythonhosted.org/packages/e0/fd/9689909f1709244a7062255f2509bb9cfa6617f91c81b2f2f49716461edd/nonebot_plugin_maimai-0.1.3.tar.gz
+[2023-06-12 17:04:43] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/43/71/5cba29d2563aba26e184d44b50d990513416069a0f9412afdc4aa7a3dd70/3dfin-0.2.0rc0.tar.gz
+[2023-06-12 17:04:43] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/fc/49/451a32155f632660f5c43be5e6d9d2525da351b3161149988c451970c7c6/mapillary_tools-0.9.4.tar.gz
+[2023-06-12 17:04:43] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/80/ee/71ce7141a2b56fa418ede7482d975ec1beb769879025d512aad6a0745478/text2story-1.2.9.tar.gz
+[2023-06-12 17:04:43] INFO root fetch - processPackages [autosar-e2e]: Downloading https://files.pythonhosted.org/packages/dc/ba/834d3188d6bcec21a7641977e201bcb1ff56baa20496de450e3f4aa506df/autosar-e2e-0.3.0.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [selenium-simplified]: Downloading https://files.pythonhosted.org/packages/af/0c/a55bf577e837d11167e5d5327f5e742982d7e6b6993e039baa8d3f041d2f/selenium_simplified-1.2.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [selenium-simplified]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [selenium-simplified]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_simplified-1.1.tar.gz tmp/selenium_simplified-1.2.tar.gz --markdown 20230612/s/selenium-simplified/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-12 17:04:44] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/08/62/93780fd7396e83a3d32ce90988a2ef0e48f6d327d981b1b9e4a244dbd3cb/tapescript-0.1.3.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [spotify-lyrics-scraper]: Downloading https://files.pythonhosted.org/packages/b7/c9/051f7ed8f8fcc3e515ac0f6f84a492bb0c805d01f8e7d65d6d046b7ec8e0/spotify_lyrics_scraper-1.1.0.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [spotify-lyrics-scraper]: Downloading https://files.pythonhosted.org/packages/b7/c9/051f7ed8f8fcc3e515ac0f6f84a492bb0c805d01f8e7d65d6d046b7ec8e0/spotify_lyrics_scraper-1.1.0.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [nonebot-plugin-maimai]: Downloading https://files.pythonhosted.org/packages/98/c5/f286a79f4daab827cb32e16b04570564a220ce9e61abb5e323a01e57f972/nonebot_plugin_maimai-0.2.0.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [fabric_fss_utils]: Downloading https://files.pythonhosted.org/packages/e9/01/4b97e64a2b727f5d45e4ba9dff1c87241437996595c0dfba6a26162f3974/fabric_fss_utils-1.5.0rc1.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/13/d1/6d2b6d71d9a16196d7126a68b93dcc260ef08edf9af85727a1961e843532/text2story-1.3.0.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/a4/c0/b826dcff9984753f67d1018c65d12330ab545a9aa31806dd9dc86c12f6be/3dfin-0.2.0rc1.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/30/a4/54bc60e884aef3991fab6e751163320713cad33cbf99cd57c46836c39655/mapillary_tools-0.9.5.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [nonebot-plugin-maimai]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [nonebot-plugin-maimai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_maimai-0.1.3.tar.gz tmp/nonebot_plugin_maimai-0.2.0.tar.gz --markdown 20230612/n/nonebot-plugin-maimai/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 17:04:44] INFO root fetch - processPackages [fabric_fss_utils]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [fabric_fss_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_fss_utils-1.5.0.tar.gz tmp/fabric_fss_utils-1.5.0rc1.tar.gz --markdown 20230612/f/fabric_fss_utils/1.5.0-1.5.0rc1/diff.md --exclude *.pyd
+[2023-06-12 17:04:44] INFO root fetch - processPackages [autosar-e2e]: Downloading https://files.pythonhosted.org/packages/5d/ca/eacecff31796dbf64a8484df39c0d3fa72c5a5320ee9b0f390ebe2ff3fec/autosar-e2e-0.4.0.tar.gz
+[2023-06-12 17:04:44] INFO root fetch - processPackages [tapescript]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [tapescript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapescript-0.1.2.tar.gz tmp/tapescript-0.1.3.tar.gz --markdown 20230612/t/tapescript/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 17:04:44] INFO root fetch - processPackages [spotify-lyrics-scraper]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [spotify-lyrics-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_lyrics_scraper-1.0.4.tar.gz tmp/spotify_lyrics_scraper-1.1.0.tar.gz --markdown 20230612/s/spotify-lyrics-scraper/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 17:04:44] INFO root fetch - processPackages [spotify-lyrics-scraper]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [spotify-lyrics-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_lyrics_scraper-1.0.4.tar.gz tmp/spotify_lyrics_scraper-1.1.0.tar.gz --markdown 20230612/s/spotify-lyrics-scraper/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 17:04:44] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.9.tar.gz tmp/text2story-1.3.0.tar.gz --markdown 20230612/t/text2story/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-12 17:04:44] INFO root fetch - processPackages [3DFin]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [3DFin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3dfin-0.2.0rc0.tar.gz tmp/3dfin-0.2.0rc1.tar.gz --markdown 20230612/3/3DFin/0.2.0rc0-0.2.0rc1/diff.md --exclude *.pyd
+[2023-06-12 17:04:44] INFO root fetch - processPackages [mapillary-tools]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [mapillary-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapillary_tools-0.9.4.tar.gz tmp/mapillary_tools-0.9.5.tar.gz --markdown 20230612/m/mapillary-tools/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-12 17:04:44] INFO root fetch - processPackages [autosar-e2e]: executing diffoscope
+[2023-06-12 17:04:44] INFO root fetch - processPackages [autosar-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosar-e2e-0.3.0.tar.gz tmp/autosar-e2e-0.4.0.tar.gz --markdown 20230612/a/autosar-e2e/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-12 17:04:46] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium_simplified-1.1.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - processPackages [selenium-simplified]: Remove: archive file [/home/abi/fetcher/tmp/selenium_simplified-1.2.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - processPackages [selenium-simplified]: Start processing: w3multicall
+[2023-06-12 17:04:46] INFO root fetch - main [MainThread]: End processing [selenium-simplified]: success
+[2023-06-12 17:04:46] WARNING root fetch - processPackages [w3multicall]: Skipping, unable to determine old version
+[2023-06-12 17:04:46] INFO root fetch - processPackages [w3multicall]: Start processing: spotify-lyrics-scraper
+[2023-06-12 17:04:46] INFO root fetch - main [MainThread]: End processing [w3multicall] error
+[2023-06-12 17:04:46] INFO root fetch - processPackages [spotify-lyrics-scraper]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-06-12 17:04:46] INFO root fetch - processPackages [spotify-lyrics-scraper]: executing diffoscope
+[2023-06-12 17:04:46] INFO root fetch - processPackages [spotify-lyrics-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_lyrics_scraper-1.0.4.tar.gz tmp/spotify_lyrics_scraper-1.1.0.tar.gz --markdown 20230612/s/spotify-lyrics-scraper/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-06-12 17:04:46] INFO root fetch - processPackages [spotify-lyrics-scraper]: Remove: archive file [/home/abi/fetcher/tmp/spotify_lyrics_scraper-1.0.4.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - processPackages [spotify-lyrics-scraper]: Remove: archive file [/home/abi/fetcher/tmp/spotify_lyrics_scraper-1.1.0.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - processPackages [spotify-lyrics-scraper]: Start processing: daggen
+[2023-06-12 17:04:46] INFO root fetch - main [MainThread]: End processing [spotify-lyrics-scraper]: success
+[2023-06-12 17:04:46] WARNING root fetch - processPackages [daggen]: Skipping, unable to determine old version
+[2023-06-12 17:04:46] INFO root fetch - main [MainThread]: End processing [daggen] error
+[2023-06-12 17:04:46] INFO root fetch - processPackages [fabric_fss_utils]: Remove: archive file [/home/abi/fetcher/tmp/fabric_fss_utils-1.5.0.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - processPackages [fabric_fss_utils]: Remove: archive file [/home/abi/fetcher/tmp/fabric_fss_utils-1.5.0rc1.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - main [MainThread]: End processing [fabric_fss_utils]: success
+[2023-06-12 17:04:46] INFO root fetch - processPackages [nonebot-plugin-maimai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_maimai-0.1.3.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - processPackages [nonebot-plugin-maimai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_maimai-0.2.0.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-maimai]: success
+[2023-06-12 17:04:46] INFO root fetch - main [MainThread]: End processing [spotify-lyrics-scraper]: success
+[2023-06-12 17:04:46] INFO root fetch - processPackages [autosar-e2e]: Remove: archive file [/home/abi/fetcher/tmp/autosar-e2e-0.3.0.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - processPackages [autosar-e2e]: Remove: archive file [/home/abi/fetcher/tmp/autosar-e2e-0.4.0.tar.gz]
+[2023-06-12 17:04:46] INFO root fetch - main [MainThread]: End processing [autosar-e2e]: success
+[2023-06-12 17:04:47] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.4.tar.gz]
+[2023-06-12 17:04:47] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.5.tar.gz]
+[2023-06-12 17:04:47] INFO root fetch - main [MainThread]: End processing [mapillary-tools]: success
+[2023-06-12 17:04:47] ERROR root fetch - processPackages [spotify-lyrics-scraper]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/spotify_lyrics_scraper-1.0.4.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/spotify_lyrics_scraper-1.1.0.tar.gz: No such file or directory
+
+[2023-06-12 17:04:47] INFO root fetch - main [MainThread]: End processing [spotify-lyrics-scraper] error
+[2023-06-12 17:04:47] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc0.tar.gz]
+[2023-06-12 17:04:47] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc1.tar.gz]
+[2023-06-12 17:04:47] INFO root fetch - main [MainThread]: End processing [3DFin]: success
+[2023-06-12 17:04:50] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.2.9.tar.gz]
+[2023-06-12 17:04:50] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.3.0.tar.gz]
+[2023-06-12 17:04:50] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-06-12 17:04:57] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.1.2.tar.gz]
+[2023-06-12 17:04:57] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.1.3.tar.gz]
+[2023-06-12 17:04:57] INFO root fetch - main [MainThread]: End processing [tapescript]: success
+[2023-06-12 17:04:57] INFO root fetch - main [MainThread]: Store serial: [18470347]
