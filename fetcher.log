@@ -18644,3 +18644,156 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 15:23:09] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
 [2023-06-12 15:23:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
 [2023-06-12 15:23:09] INFO root fetch - main [MainThread]: Store serial: [18469129]
+[2023-06-12 15:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469129]
+[2023-06-12 15:28:20] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: const-cython-lib
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weaviate-client
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ximu3csv
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aa-inactivity
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dvc-data
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argo-workflow-tools
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: junkpy
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ripandtear
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wedeliver-core-plus
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airunner
+[2023-06-12 15:28:20] INFO root fetch - processPackages [const-cython-lib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [junkpy]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [weaviate-client]: New version: [3.9.0b0] Old Version: [3.9.0.dev2]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [wedeliver-core-plus]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [aa-inactivity]: New version: [1.0.0b1] Old Version: [0.1.0a7]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [argo-workflow-tools]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ripandtear]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [dvc-data]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/2c/f3/43638a223c6f10c616bb47ef002fae28efb23437b272b531a8027e24e54f/ripandtear-0.9.7.tar.gz
+[2023-06-12 15:28:20] WARNING root fetch - processPackages [ximu3csv]: Skipping, unable to determine old version
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ximu3csv]: Start processing: PowDeRUL
+[2023-06-12 15:28:20] INFO root fetch - main [MainThread]: End processing [ximu3csv] error
+[2023-06-12 15:28:20] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/25/d3/3206094ca4b0737c88ca97d3f7a744871f43a14b9db7eeee93c5fbd6c86d/dvc-data-1.7.0.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-12 15:28:20] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/7d/c8/c6153ccb3c4ebf4abe49c094b3e5ee2cd6b4974207925ac980ee3043a4d0/const_cython_lib-0.2.0.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/a8/cb/8ca3061906481a9a6997baefa6ecc800dcaed0f08e1c84c55c609182fe2b/weaviate-client-3.9.0.dev2.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [junkpy]: Downloading https://files.pythonhosted.org/packages/e8/d1/24264ef01c167a2205a8d3e8bca5c5dfd0df58b2b7e9440bbd8b85125d44/junkpy-0.0.3.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [aa-inactivity]: Downloading https://files.pythonhosted.org/packages/3f/a0/f95613b490a9a490dab5e2535768cad1450893d880b2b08c02324942c118/aa-inactivity-0.1.0a7.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/0d/b8/f4451a882fc3b48ba2f967e1666644dbe00356a8a9a6ba6bec467ded9812/wedeliver_core_plus-0.0.2.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [argo-workflow-tools]: Downloading https://files.pythonhosted.org/packages/e7/77/91abfc4d418c47eb3462c66e8a042e901d96a80a393b0994f21a881c6947/argo-workflow-tools-0.9.7.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/bb/33/c3d19a2184a3997ddbec798a026fd98fd336119a50b23ebe1c0233e31aea/ripandtear-0.9.9.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [PowDeRUL]: Downloading https://files.pythonhosted.org/packages/d0/fa/9a0cfb390411ed9f793beb20cc437ac0e4fbe79cda3074cd2f0bcf0c7d73/PowDeRUL-1.0.4.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ripandtear]: executing diffoscope
+[2023-06-12 15:28:20] INFO root fetch - processPackages [ripandtear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripandtear-0.9.7.tar.gz tmp/ripandtear-0.9.9.tar.gz --markdown 20230612/r/ripandtear/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 15:28:20] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/f9/03/acf4a93a8e7c78f24a0ae34877c2f09900f4ebfdbb71a97b324bf6588047/dvc-data-1.8.0.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/9b/4c/a8e66ba40c04dc729774e8a8f2458458645d31741a0e33f85fd228f9d8cf/const_cython_lib-0.2.1.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [junkpy]: Downloading https://files.pythonhosted.org/packages/56/5f/61472b178b97c20b237b88c3f04344d11cdd3dccbb7187f1086fd4c4b060/junkpy-0.1.0.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/9b/56/c8f7360cc03554c9cc68ccdf404612fcb147ef523b8693fbcd9994cea2df/wedeliver_core_plus-0.0.3.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [aa-inactivity]: Downloading https://files.pythonhosted.org/packages/52/31/9365ae5d4ad73cf299d260ed82d42f435c7620469868e3d9596bf1b85fc3/aa_inactivity-1.0.0b1.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [argo-workflow-tools]: Downloading https://files.pythonhosted.org/packages/f8/c1/27f67092252b85d8c0fcad88a7b20bd4eba7b208cfc43ff772e6c775c9ce/argo-workflow-tools-0.9.9.tar.gz
+[2023-06-12 15:28:20] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 15:28:20] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.2.0.tar.gz tmp/const_cython_lib-0.2.1.tar.gz --markdown 20230612/c/const-cython-lib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 15:28:21] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-06-12 15:28:21] INFO root fetch - processPackages [junkpy]: executing diffoscope
+[2023-06-12 15:28:21] INFO root fetch - processPackages [junkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junkpy-0.0.3.tar.gz tmp/junkpy-0.1.0.tar.gz --markdown 20230612/j/junkpy/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 15:28:21] INFO root fetch - processPackages [wedeliver-core-plus]: executing diffoscope
+[2023-06-12 15:28:21] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/10/6b/0e242b95dd9ee12ed89f4af97e7bd0c82317c708e5a1de27406f7832d4e2/weaviate-client-3.9.0b0.tar.gz
+[2023-06-12 15:28:21] INFO root fetch - processPackages [wedeliver-core-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedeliver_core_plus-0.0.2.tar.gz tmp/wedeliver_core_plus-0.0.3.tar.gz --markdown 20230612/w/wedeliver-core-plus/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 15:28:21] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-12 15:28:21] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.7.0.tar.gz tmp/dvc-data-1.8.0.tar.gz --markdown 20230612/d/dvc-data/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-12 15:28:21] INFO root fetch - processPackages [aa-inactivity]: executing diffoscope
+[2023-06-12 15:28:21] INFO root fetch - processPackages [aa-inactivity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-inactivity-0.1.0a7.tar.gz tmp/aa_inactivity-1.0.0b1.tar.gz --markdown 20230612/a/aa-inactivity/0.1.0a7-1.0.0b1/diff.md --exclude *.pyd
+[2023-06-12 15:28:21] INFO root fetch - processPackages [argo-workflow-tools]: executing diffoscope
+[2023-06-12 15:28:21] INFO root fetch - processPackages [argo-workflow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argo-workflow-tools-0.9.7.tar.gz tmp/argo-workflow-tools-0.9.9.tar.gz --markdown 20230612/a/argo-workflow-tools/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 15:28:21] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-06-12 15:28:21] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230612/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-12 15:28:21] INFO root fetch - processPackages [PowDeRUL]: Downloading https://files.pythonhosted.org/packages/f5/32/33577615d5a9da6831e71c7f4fe9fbc1a3535764e1a89b9d853445b0eed2/PowDeRUL-1.0.5.tar.gz
+[2023-06-12 15:28:21] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-12 15:28:21] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.4.tar.gz tmp/PowDeRUL-1.0.5.tar.gz --markdown 20230612/P/PowDeRUL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-12 15:28:21] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2023-06-12 15:28:21] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-3.9.0.dev2.tar.gz tmp/weaviate-client-3.9.0b0.tar.gz --markdown 20230612/w/weaviate-client/3.9.0.dev2-3.9.0b0/diff.md --exclude *.pyd
+[2023-06-12 15:28:23] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.2.0.tar.gz]
+[2023-06-12 15:28:23] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.2.1.tar.gz]
+[2023-06-12 15:28:23] INFO root fetch - processPackages [const-cython-lib]: Start processing: mapdata
+[2023-06-12 15:28:23] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 15:28:23] INFO root fetch - processPackages [mapdata]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-12 15:28:23] INFO root fetch - processPackages [PowDeRUL]: Remove: archive file [/home/abi/fetcher/tmp/PowDeRUL-1.0.4.tar.gz]
+[2023-06-12 15:28:23] INFO root fetch - processPackages [PowDeRUL]: Remove: archive file [/home/abi/fetcher/tmp/PowDeRUL-1.0.5.tar.gz]
+[2023-06-12 15:28:23] INFO root fetch - processPackages [PowDeRUL]: Start processing: zarrita
+[2023-06-12 15:28:23] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-12 15:28:23] INFO root fetch - processPackages [zarrita]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-12 15:28:23] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/12/3e/950b5cd97ac88b0397a6aed7300a0b1c44f29208600ca1db1e0f7a4e9565/zarrita-0.1.0a6.tar.gz
+[2023-06-12 15:28:23] INFO root fetch - processPackages [junkpy]: Remove: archive file [/home/abi/fetcher/tmp/junkpy-0.0.3.tar.gz]
+[2023-06-12 15:28:23] INFO root fetch - processPackages [junkpy]: Remove: archive file [/home/abi/fetcher/tmp/junkpy-0.1.0.tar.gz]
+[2023-06-12 15:28:23] INFO root fetch - processPackages [junkpy]: Start processing: fullask-rest-framework
+[2023-06-12 15:28:23] INFO root fetch - main [MainThread]: End processing [junkpy]: success
+[2023-06-12 15:28:23] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 15:28:23] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/c0/33/70252459a2115172eeacb9992968b0ac14388af42082e71abacb4681b40e/mapdata-1.8.1.tar.gz
+[2023-06-12 15:28:23] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/60/34/bffcf3219beb8871f076f6d02e643d31544df78bc572b095fa35a71dbb10/fullask-rest-framework-0.1.2.tar.gz
+[2023-06-12 15:28:23] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/2d/50/a474c432b54e5a2c1012606de19ead695bc54884bd13bbb56db8d43109c4/zarrita-0.1.0a7.tar.gz
+[2023-06-12 15:28:24] INFO root fetch - processPackages [zarrita]: executing diffoscope
+[2023-06-12 15:28:24] INFO root fetch - processPackages [zarrita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarrita-0.1.0a6.tar.gz tmp/zarrita-0.1.0a7.tar.gz --markdown 20230612/z/zarrita/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-12 15:28:24] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/6e/cb/86211fd8e4643e4269cb2c699fe8ebdf14e32724fb936871c9ec8606058d/mapdata-1.8.2.tar.gz
+[2023-06-12 15:28:24] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/8a/50/ac0dcd84475ca74b8390130e8a0551088c9fb246a7754a6471839ab6208e/fullask-rest-framework-0.1.3.tar.gz
+[2023-06-12 15:28:24] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.0.2.tar.gz]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.0.3.tar.gz]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [wedeliver-core-plus]: Start processing: hatchling
+[2023-06-12 15:28:24] INFO root fetch - main [MainThread]: End processing [wedeliver-core-plus]: success
+[2023-06-12 15:28:24] INFO root fetch - processPackages [hatchling]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-06-12 15:28:24] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-1.8.1.tar.gz tmp/mapdata-1.8.2.tar.gz --markdown 20230612/m/mapdata/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-12 15:28:24] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-12 15:28:24] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.1.2.tar.gz tmp/fullask-rest-framework-0.1.3.tar.gz --markdown 20230612/f/fullask-rest-framework/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 15:28:24] INFO root fetch - processPackages [aa-inactivity]: Remove: archive file [/home/abi/fetcher/tmp/aa-inactivity-0.1.0a7.tar.gz]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [aa-inactivity]: Remove: archive file [/home/abi/fetcher/tmp/aa_inactivity-1.0.0b1.tar.gz]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [aa-inactivity]: Start processing: hydra-submitit-extension
+[2023-06-12 15:28:24] INFO root fetch - main [MainThread]: End processing [aa-inactivity]: success
+[2023-06-12 15:28:24] WARNING root fetch - processPackages [hydra-submitit-extension]: Skipping, unable to determine old version
+[2023-06-12 15:28:24] INFO root fetch - processPackages [hydra-submitit-extension]: Start processing: pactsdk
+[2023-06-12 15:28:24] INFO root fetch - main [MainThread]: End processing [hydra-submitit-extension] error
+[2023-06-12 15:28:24] INFO root fetch - processPackages [hatchling]: Downloading https://files.pythonhosted.org/packages/a1/e0/e22e343e7e5853b1d10c5f6fb5072ca3d38aa05e51c9920bb373d393e40c/hatchling-1.8.1.tar.gz
+[2023-06-12 15:28:24] INFO root fetch - processPackages [pactsdk]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [pactsdk]: Downloading https://files.pythonhosted.org/packages/6b/57/e7c70e2e3c88996c9c277512cba59f1d20601fafe6232b1bd14297146dbb/pactsdk-0.6.1.tar.gz
+[2023-06-12 15:28:24] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.4.tar.gz]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [airunner]: Start processing: qgate-perf
+[2023-06-12 15:28:24] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-06-12 15:28:24] INFO root fetch - processPackages [qgate-perf]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [hatchling]: Downloading https://files.pythonhosted.org/packages/0e/7a/bc6679c4c8814b8f09957d255825e75a09220660c272f95719c512538811/hatchling-1.9.0.tar.gz
+[2023-06-12 15:28:24] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.7.tar.gz]
+[2023-06-12 15:28:24] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.9.tar.gz]
+[2023-06-12 15:28:24] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
+[2023-06-12 15:28:25] INFO root fetch - processPackages [hatchling]: executing diffoscope
+[2023-06-12 15:28:25] INFO root fetch - processPackages [hatchling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatchling-1.8.1.tar.gz tmp/hatchling-1.9.0.tar.gz --markdown 20230612/h/hatchling/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-12 15:28:25] INFO root fetch - processPackages [pactsdk]: Downloading https://files.pythonhosted.org/packages/da/a8/b0419d3fd754b4c46166fc854166f816d3a82dcc8e2257a7a5cbb2da1d36/pactsdk-0.7.0.tar.gz
+[2023-06-12 15:28:25] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/7e/5b/93bcee21631986eda88158bce058c00bcefce27d5345cb07f04645d193d9/qgate_perf-0.3.1-py3-none-any.whl
+[2023-06-12 15:28:25] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.7.0.tar.gz]
+[2023-06-12 15:28:25] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.8.0.tar.gz]
+[2023-06-12 15:28:25] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-12 15:28:25] INFO root fetch - processPackages [pactsdk]: executing diffoscope
+[2023-06-12 15:28:25] INFO root fetch - processPackages [pactsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pactsdk-0.6.1.tar.gz tmp/pactsdk-0.7.0.tar.gz --markdown 20230612/p/pactsdk/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-12 15:28:25] INFO root fetch - processPackages [qgate-perf]: Downloading https://files.pythonhosted.org/packages/53/00/932db21201f8fb1d67b39816de29e95e6d38351b9c55afdf9fb123635bba/qgate_perf-0.3.2-py3-none-any.whl
+[2023-06-12 15:28:25] INFO root fetch - processPackages [argo-workflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/argo-workflow-tools-0.9.7.tar.gz]
+[2023-06-12 15:28:25] INFO root fetch - processPackages [argo-workflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/argo-workflow-tools-0.9.9.tar.gz]
+[2023-06-12 15:28:25] INFO root fetch - main [MainThread]: End processing [argo-workflow-tools]: success
+[2023-06-12 15:28:25] INFO root fetch - processPackages [qgate-perf]: executing diffoscope
+[2023-06-12 15:28:25] INFO root fetch - processPackages [qgate-perf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_perf-0.3.1-py3-none-any.whl.zip tmp/qgate_perf-0.3.2-py3-none-any.whl.zip --markdown 20230612/q/qgate-perf/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-12 15:28:25] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0.dev2.tar.gz]
+[2023-06-12 15:28:25] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0b0.tar.gz]
+[2023-06-12 15:28:25] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2023-06-12 15:28:26] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-1.8.1.tar.gz]
+[2023-06-12 15:28:26] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-1.8.2.tar.gz]
+[2023-06-12 15:28:26] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-06-12 15:28:26] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a6.tar.gz]
+[2023-06-12 15:28:26] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a7.tar.gz]
+[2023-06-12 15:28:26] INFO root fetch - main [MainThread]: End processing [zarrita]: success
+[2023-06-12 15:28:26] INFO root fetch - processPackages [qgate-perf]: Remove: archive file [/home/abi/fetcher/tmp/qgate_perf-0.3.1-py3-none-any.whl.zip]
+[2023-06-12 15:28:26] INFO root fetch - processPackages [qgate-perf]: Remove: archive file [/home/abi/fetcher/tmp/qgate_perf-0.3.2-py3-none-any.whl.zip]
+[2023-06-12 15:28:26] INFO root fetch - main [MainThread]: End processing [qgate-perf]: success
+[2023-06-12 15:28:27] INFO root fetch - processPackages [pactsdk]: Remove: archive file [/home/abi/fetcher/tmp/pactsdk-0.6.1.tar.gz]
+[2023-06-12 15:28:27] INFO root fetch - processPackages [pactsdk]: Remove: archive file [/home/abi/fetcher/tmp/pactsdk-0.7.0.tar.gz]
+[2023-06-12 15:28:27] INFO root fetch - main [MainThread]: End processing [pactsdk]: success
+[2023-06-12 15:28:27] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.2.tar.gz]
+[2023-06-12 15:28:27] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.3.tar.gz]
+[2023-06-12 15:28:27] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-12 15:28:27] INFO root fetch - processPackages [hatchling]: Remove: archive file [/home/abi/fetcher/tmp/hatchling-1.8.1.tar.gz]
+[2023-06-12 15:28:27] INFO root fetch - processPackages [hatchling]: Remove: archive file [/home/abi/fetcher/tmp/hatchling-1.9.0.tar.gz]
+[2023-06-12 15:28:27] INFO root fetch - main [MainThread]: End processing [hatchling]: success
+[2023-06-12 15:28:27] INFO root fetch - main [MainThread]: Store serial: [18469185]
