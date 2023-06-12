@@ -12948,3 +12948,146 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 11:12:17] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc5.tar.gz]
 [2023-06-12 11:12:17] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
 [2023-06-12 11:12:17] INFO root fetch - main [MainThread]: Store serial: [18466720]
+[2023-06-12 11:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466720]
+[2023-06-12 11:17:27] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: layerx-sdk-beta
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SensorsAnalyticsSDK
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rurlemTest
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dolibs
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HDGTest
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-api
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serializer-bahamolau
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inhandtest
+[2023-06-12 11:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: common-utils-pkg
+[2023-06-12 11:17:27] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-12 11:17:27] WARNING root fetch - processPackages [rurlemTest]: Skipping, unable to determine old version
+[2023-06-12 11:17:27] INFO root fetch - processPackages [rurlemTest]: Start processing: netbox-cisco-maintenance
+[2023-06-12 11:17:27] INFO root fetch - processPackages [inhandtest]: New version: [0.0.55] Old Version: [0.0.54]
+[2023-06-12 11:17:27] INFO root fetch - main [MainThread]: End processing [rurlemTest] error
+[2023-06-12 11:17:27] WARNING root fetch - processPackages [serializer-bahamolau]: Skipping, unable to determine old version
+[2023-06-12 11:17:27] INFO root fetch - processPackages [serializer-bahamolau]: Start processing: types-psutil
+[2023-06-12 11:17:27] INFO root fetch - main [MainThread]: End processing [serializer-bahamolau] error
+[2023-06-12 11:17:27] WARNING root fetch - processPackages [HDGTest]: Skipping, unable to determine old version
+[2023-06-12 11:17:27] INFO root fetch - processPackages [HDGTest]: Start processing: eegain
+[2023-06-12 11:17:27] INFO root fetch - main [MainThread]: End processing [HDGTest] error
+[2023-06-12 11:17:27] INFO root fetch - processPackages [SensorsAnalyticsSDK]: New version: [1.7.5] Old Version: [1.7.1]
+[2023-06-12 11:17:27] INFO root fetch - processPackages [dolibs]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-12 11:17:27] INFO root fetch - processPackages [common-utils-pkg]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 11:17:27] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-12 11:17:27] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-06-12 11:17:27] INFO root fetch - processPackages [types-psutil]: New version: [5.9.5.9] Old Version: [5.9.5.8]
+[2023-06-12 11:17:27] WARNING root fetch - processPackages [eegain]: Skipping, unable to determine old version
+[2023-06-12 11:17:27] INFO root fetch - processPackages [eegain]: Start processing: kindenty-base
+[2023-06-12 11:17:27] INFO root fetch - main [MainThread]: End processing [eegain] error
+[2023-06-12 11:17:27] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 11:17:27] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/7d/4e/204d4658b764a5f24152c98302ac745fc5be5da691c566f2bb630de5d926/inhandtest-0.0.54.tar.gz
+[2023-06-12 11:17:27] INFO root fetch - processPackages [common-utils-pkg]: Downloading https://files.pythonhosted.org/packages/9d/4f/9cda85b97f7112a16260ab09df4084d4544685e7779c6b03a236fd6bc54f/common_utils_pkg-0.1.1.tar.gz
+[2023-06-12 11:17:27] INFO root fetch - processPackages [kindenty-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 11:17:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-06-12 11:17:28] INFO root fetch - processPackages [SensorsAnalyticsSDK]: Downloading https://files.pythonhosted.org/packages/54/0c/73e52c0709e1887cfbbe11bc251d6f82e9d6c89a5aa456f04dcb6a8c246b/SensorsAnalyticsSDK-1.7.1.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/80/5a/9c74621dac0e8576522348dac6d61a43913103caff81521ffa70d1310482/types-psutil-5.9.5.8.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [dolibs]: Downloading https://files.pythonhosted.org/packages/b9/2b/6892873fd6d65821484edd8e68dbbed98092eb53bf5e48f01cff492b1132/dolibs-0.1.7.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-06-12 11:17:28] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/3a/32/d6bf93344335b60c250c32bd82396293bf57da1eab7989ea7bbeb492709d/inhandtest-0.0.55.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230612/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-12 11:17:28] INFO root fetch - processPackages [common-utils-pkg]: Downloading https://files.pythonhosted.org/packages/1b/65/aa1aef92622bdc2009ed4e4488f49b7ac7df8ebb1ee37922893d64abed8c/common_utils_pkg-0.1.2.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [kindenty-base]: Downloading https://files.pythonhosted.org/packages/d8/f1/25fd412ec34280da66e11935b1afdf4a96d789bb145544262bc9541d69e2/kindenty_base-0.1.8.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.54.tar.gz tmp/inhandtest-0.0.55.tar.gz --markdown 20230612/i/inhandtest/0.0.54-0.0.55/diff.md --exclude *.pyd
+[2023-06-12 11:17:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 11:17:28] INFO root fetch - processPackages [common-utils-pkg]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [common-utils-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_utils_pkg-0.1.1.tar.gz tmp/common_utils_pkg-0.1.2.tar.gz --markdown 20230612/c/common-utils-pkg/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 11:17:28] INFO root fetch - processPackages [SensorsAnalyticsSDK]: Downloading https://files.pythonhosted.org/packages/61/a2/812d9d8911a8de337958b201431500052bcb287430f6aa9a4475beda81b0/SensorsAnalyticsSDK-1.7.5.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [dolibs]: Downloading https://files.pythonhosted.org/packages/e5/65/fc00ea633f13612a7a077218479035789f5e8720183dd4f18b92f1fb81b2/dolibs-0.1.8.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/48/17/84ab868524425e5f0553f1916898b2a5ec0bf8d3c330d854eb5fabd35aec/types-psutil-5.9.5.9.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230612/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-12 11:17:28] INFO root fetch - processPackages [dolibs]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [dolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolibs-0.1.7.tar.gz tmp/dolibs-0.1.8.tar.gz --markdown 20230612/d/dolibs/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-12 11:17:28] INFO root fetch - processPackages [kindenty-base]: Downloading https://files.pythonhosted.org/packages/7e/3a/fbcbd1cbd8d43f51b059906b8c8f55792fd62ddb6409cc657177f32ac622/kindenty_base-0.1.9.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-12 11:17:28] INFO root fetch - processPackages [SensorsAnalyticsSDK]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [SensorsAnalyticsSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SensorsAnalyticsSDK-1.7.1.tar.gz tmp/SensorsAnalyticsSDK-1.7.5.tar.gz --markdown 20230612/S/SensorsAnalyticsSDK/1.7.1-1.7.5/diff.md --exclude *.pyd
+[2023-06-12 11:17:28] INFO root fetch - processPackages [types-psutil]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [types-psutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-psutil-5.9.5.8.tar.gz tmp/types-psutil-5.9.5.9.tar.gz --markdown 20230612/t/types-psutil/5.9.5.8-5.9.5.9/diff.md --exclude *.pyd
+[2023-06-12 11:17:28] INFO root fetch - processPackages [kindenty-base]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [kindenty-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kindenty_base-0.1.8.tar.gz tmp/kindenty_base-0.1.9.tar.gz --markdown 20230612/k/kindenty-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 11:17:28] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-12 11:17:28] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230612/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-12 11:17:29] INFO root fetch - processPackages [common-utils-pkg]: Remove: archive file [/home/abi/fetcher/tmp/common_utils_pkg-0.1.1.tar.gz]
+[2023-06-12 11:17:29] INFO root fetch - processPackages [common-utils-pkg]: Remove: archive file [/home/abi/fetcher/tmp/common_utils_pkg-0.1.2.tar.gz]
+[2023-06-12 11:17:29] INFO root fetch - processPackages [common-utils-pkg]: Start processing: layerx-sdk-beta
+[2023-06-12 11:17:29] INFO root fetch - main [MainThread]: End processing [common-utils-pkg]: success
+[2023-06-12 11:17:29] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-12 11:17:29] INFO root fetch - processPackages [dolibs]: Remove: archive file [/home/abi/fetcher/tmp/dolibs-0.1.7.tar.gz]
+[2023-06-12 11:17:29] INFO root fetch - processPackages [dolibs]: Remove: archive file [/home/abi/fetcher/tmp/dolibs-0.1.8.tar.gz]
+[2023-06-12 11:17:29] INFO root fetch - processPackages [dolibs]: Start processing: league-client
+[2023-06-12 11:17:29] INFO root fetch - main [MainThread]: End processing [dolibs]: success
+[2023-06-12 11:17:29] INFO root fetch - processPackages [SensorsAnalyticsSDK]: Remove: archive file [/home/abi/fetcher/tmp/SensorsAnalyticsSDK-1.7.1.tar.gz]
+[2023-06-12 11:17:29] INFO root fetch - processPackages [SensorsAnalyticsSDK]: Remove: archive file [/home/abi/fetcher/tmp/SensorsAnalyticsSDK-1.7.5.tar.gz]
+[2023-06-12 11:17:29] INFO root fetch - processPackages [SensorsAnalyticsSDK]: Start processing: mybar
+[2023-06-12 11:17:29] INFO root fetch - main [MainThread]: End processing [SensorsAnalyticsSDK]: success
+[2023-06-12 11:17:29] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-12 11:17:29] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230612/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-12 11:17:29] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 11:17:29] INFO root fetch - processPackages [mybar]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-12 11:17:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: langdash
+[2023-06-12 11:17:30] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 11:17:30] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - processPackages [layerx-sdk-beta]: Start processing: python-agency
+[2023-06-12 11:17:30] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-12 11:17:30] INFO root fetch - processPackages [langdash]: New version: [1.3.2b1] Old Version: [1.3.2b0]
+[2023-06-12 11:17:30] WARNING root fetch - processPackages [python-agency]: Skipping, unable to determine old version
+[2023-06-12 11:17:30] INFO root fetch - main [MainThread]: End processing [python-agency] error
+[2023-06-12 11:17:30] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/4b/25/5f7cacb6226242fbda12160d60e2a7659c07c88b50a6360a910b90cb9af6/mybar-0.7.1.tar.gz
+[2023-06-12 11:17:30] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/e9/9c/7b2b0814b0fa625404b11468dc023b9d7fee1495e13fdf8f793e8b43a204/langdash-1.3.2b0.tar.gz
+[2023-06-12 11:17:30] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-06-12 11:17:30] INFO root fetch - processPackages [types-psutil]: Remove: archive file [/home/abi/fetcher/tmp/types-psutil-5.9.5.8.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - processPackages [types-psutil]: Remove: archive file [/home/abi/fetcher/tmp/types-psutil-5.9.5.9.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - main [MainThread]: End processing [types-psutil]: success
+[2023-06-12 11:17:30] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.54.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.55.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-06-12 11:17:30] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/11/e1/5dcd7880453e9ebead445af9b637ed66239296ac1988bdda614c2e17804c/mybar-0.7.2.tar.gz
+[2023-06-12 11:17:30] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/c1/67/c7833c53476b437b9b51cc5d3219642b69b3e32c073c3eec6478e0f8a9c8/langdash-1.3.2b1.tar.gz
+[2023-06-12 11:17:30] INFO root fetch - processPackages [mybar]: executing diffoscope
+[2023-06-12 11:17:30] INFO root fetch - processPackages [mybar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybar-0.7.1.tar.gz tmp/mybar-0.7.2.tar.gz --markdown 20230612/m/mybar/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-12 11:17:30] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-06-12 11:17:30] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-06-12 11:17:30] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230612/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 11:17:30] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-12 11:17:30] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.3.2b0.tar.gz tmp/langdash-1.3.2b1.tar.gz --markdown 20230612/l/langdash/1.3.2b0-1.3.2b1/diff.md --exclude *.pyd
+[2023-06-12 11:17:30] INFO root fetch - processPackages [kindenty-base]: Remove: archive file [/home/abi/fetcher/tmp/kindenty_base-0.1.8.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - processPackages [kindenty-base]: Remove: archive file [/home/abi/fetcher/tmp/kindenty_base-0.1.9.tar.gz]
+[2023-06-12 11:17:30] INFO root fetch - main [MainThread]: End processing [kindenty-base]: success
+[2023-06-12 11:17:30] ERROR root fetch - processPackages [layerx-sdk-beta]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/layerx-sdk-beta-1.0.9b1.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/layerx-sdk-beta-1.0.9b2.tar.gz: No such file or directory
+
+[2023-06-12 11:17:30] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta] error
+[2023-06-12 11:17:31] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-12 11:17:31] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-12 11:17:31] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-12 11:17:31] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-06-12 11:17:31] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-06-12 11:17:31] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-06-12 11:17:31] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.2b0.tar.gz]
+[2023-06-12 11:17:31] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.2b1.tar.gz]
+[2023-06-12 11:17:31] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-12 11:17:31] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip]
+[2023-06-12 11:17:31] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-12 11:17:31] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-06-12 11:18:24] INFO root fetch - processPackages [mybar]: Remove: archive file [/home/abi/fetcher/tmp/mybar-0.7.1.tar.gz]
+[2023-06-12 11:18:24] INFO root fetch - processPackages [mybar]: Remove: archive file [/home/abi/fetcher/tmp/mybar-0.7.2.tar.gz]
+[2023-06-12 11:18:24] INFO root fetch - main [MainThread]: End processing [mybar]: success
+[2023-06-12 11:18:24] INFO root fetch - main [MainThread]: Store serial: [18466792]
