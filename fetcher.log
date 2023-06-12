@@ -17330,3 +17330,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 14:28:25] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
 [2023-06-12 14:28:25] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
 [2023-06-12 14:28:25] INFO root fetch - main [MainThread]: Store serial: [18468629]
+[2023-06-12 14:33:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468629]
+[2023-06-12 14:33:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sports2d
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dtfield
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-psutil
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanoqnt
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molgraph
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RecordKeeper-Client
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: network-diffusion
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inboard
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-db-design
+[2023-06-12 14:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: usellm
+[2023-06-12 14:33:36] INFO root fetch - processPackages [dtfield]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [molgraph]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [nanoqnt]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [sports2d]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [types-psutil]: New version: [5.9.5.9] Old Version: [5.9.5.8]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [RecordKeeper-Client]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [network-diffusion]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [inboard]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/80/5a/9c74621dac0e8576522348dac6d61a43913103caff81521ffa70d1310482/types-psutil-5.9.5.8.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [usellm]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [nanoqnt]: Downloading https://files.pythonhosted.org/packages/f7/c2/39d08304441bd1f2db0d90ba8b30d50fd486ac761832c5c50590595bd447/nanoqnt-0.2.0rc1.tar.gz
+[2023-06-12 14:33:36] WARNING root fetch - processPackages [openai-db-design]: Skipping, unable to determine old version
+[2023-06-12 14:33:36] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/c2/e5/6c670850737bf219249a8e4574e0e6be5f6e0af816126b08ab54344cc5ba/dtfield-0.1.6.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [openai-db-design]: Start processing: projen
+[2023-06-12 14:33:36] INFO root fetch - main [MainThread]: End processing [openai-db-design] error
+[2023-06-12 14:33:36] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/92/2b/30d7a0249511789df075e1da7e22d83a820f728e39b58c0853c93c028600/sports2d-0.2.3.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/2d/04/d8a8d97e3c94ad0464959e95501ed6f1a8b2cb54bf4bfdd63c9ce8ed149f/inboard-0.9.4.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [projen]: New version: [0.71.90] Old Version: [0.71.9]
+[2023-06-12 14:33:36] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/40/82/472343bf56788b3be370911297016f98055d90101de85ae5c2653fb38c10/molgraph-0.3.8.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/31/07/8b415bbd0cce5d8c54f10ca2e9441fdbff6d9e3ce91e58f44843f41d2335/network_diffusion-0.8.0.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [RecordKeeper-Client]: Downloading https://files.pythonhosted.org/packages/7c/ab/8bacfc95ebb44135ef381dce9b9855fa165e5de6a1202a1cdd3cf3fa5cdf/RecordKeeper_Client-3.2.0.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/ce/49/8d0875fd46d32b42ce93e5014d26cffc8a31bf69b96a163c695d1d9c84d7/projen-0.71.9.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/48/17/84ab868524425e5f0553f1916898b2a5ec0bf8d3c330d854eb5fabd35aec/types-psutil-5.9.5.9.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [usellm]: Downloading https://files.pythonhosted.org/packages/8c/2a/4f7b45b194406acad05d83f8da3b83ee0ac90aa4afe06529b8b03078a6d6/usellm-0.0.5.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/bd/3c/4f127e9b555a0dd390f7b8fdd4358631b1782a5681df4c0281fd2e433489/inboard-0.9.5.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/18/a3/40d4c959b83f8072599ec5bf04f89efef9d6cb1f9b51d6c889982b196650/dtfield-0.1.7.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [nanoqnt]: Downloading https://files.pythonhosted.org/packages/94/9b/a0218065a4389487c0ba4439b72752c174b25dcca9ce77843cd03827cc24/nanoqnt-0.2.0rc2.tar.gz
+[2023-06-12 14:33:36] INFO root fetch - processPackages [types-psutil]: executing diffoscope
+[2023-06-12 14:33:36] INFO root fetch - processPackages [types-psutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-psutil-5.9.5.8.tar.gz tmp/types-psutil-5.9.5.9.tar.gz --markdown 20230612/t/types-psutil/5.9.5.8-5.9.5.9/diff.md --exclude *.pyd
+[2023-06-12 14:33:36] INFO root fetch - processPackages [inboard]: executing diffoscope
+[2023-06-12 14:33:36] INFO root fetch - processPackages [inboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inboard-0.9.4.tar.gz tmp/inboard-0.9.5.tar.gz --markdown 20230612/i/inboard/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-12 14:33:36] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/f4/cd/dc82ecee2742a8df20432a0c8ea507c1bd1ac9122bb1e532902be4a01974/sports2d-0.2.4.tar.gz
+[2023-06-12 14:33:37] INFO root fetch - processPackages [dtfield]: executing diffoscope
+[2023-06-12 14:33:37] INFO root fetch - processPackages [dtfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfield-0.1.6.tar.gz tmp/dtfield-0.1.7.tar.gz --markdown 20230612/d/dtfield/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-12 14:33:37] INFO root fetch - processPackages [nanoqnt]: executing diffoscope
+[2023-06-12 14:33:37] INFO root fetch - processPackages [nanoqnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoqnt-0.2.0rc1.tar.gz tmp/nanoqnt-0.2.0rc2.tar.gz --markdown 20230612/n/nanoqnt/0.2.0rc1-0.2.0rc2/diff.md --exclude *.pyd
+[2023-06-12 14:33:37] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/4a/06/4747764c076eca58d91362250c7d751139b430316d597348b991ecb090cc/molgraph-0.3.9.tar.gz
+[2023-06-12 14:33:37] INFO root fetch - processPackages [usellm]: Downloading https://files.pythonhosted.org/packages/72/06/c4ddbca7e7fa193a3c276fa2409c0004cb65a50763daa1961dccc1d0251a/usellm-0.0.6.tar.gz
+[2023-06-12 14:33:37] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a8/3c/ddded309412670a13c7f2f81f9d85b86a87669955a1a5d81084616fbd7ac/projen-0.71.90.tar.gz
+[2023-06-12 14:33:37] INFO root fetch - processPackages [sports2d]: executing diffoscope
+[2023-06-12 14:33:37] INFO root fetch - processPackages [sports2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sports2d-0.2.3.tar.gz tmp/sports2d-0.2.4.tar.gz --markdown 20230612/s/sports2d/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-12 14:33:37] INFO root fetch - processPackages [RecordKeeper-Client]: Downloading https://files.pythonhosted.org/packages/c1/59/7b1cd0ccfab14e91ce84da8ea77c3f1d13e7f362f9467821e4df0d3b2f26/RecordKeeper_Client-3.2.1.tar.gz
+[2023-06-12 14:33:37] INFO root fetch - processPackages [molgraph]: executing diffoscope
+[2023-06-12 14:33:37] INFO root fetch - processPackages [molgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgraph-0.3.8.tar.gz tmp/molgraph-0.3.9.tar.gz --markdown 20230612/m/molgraph/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 14:33:37] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/81/1a/b6692ce2d9c366a1672e75b7adbd512df91035714fadccd1a9f35515bd8e/network_diffusion-0.9.0.tar.gz
+[2023-06-12 14:33:37] INFO root fetch - processPackages [usellm]: executing diffoscope
+[2023-06-12 14:33:37] INFO root fetch - processPackages [usellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usellm-0.0.5.tar.gz tmp/usellm-0.0.6.tar.gz --markdown 20230612/u/usellm/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-12 14:33:37] INFO root fetch - processPackages [RecordKeeper-Client]: executing diffoscope
+[2023-06-12 14:33:37] INFO root fetch - processPackages [RecordKeeper-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RecordKeeper_Client-3.2.0.tar.gz tmp/RecordKeeper_Client-3.2.1.tar.gz --markdown 20230612/R/RecordKeeper-Client/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-06-12 14:33:37] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-12 14:33:37] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.9.tar.gz tmp/projen-0.71.90.tar.gz --markdown 20230612/p/projen/0.71.9-0.71.90/diff.md --exclude *.pyd
+[2023-06-12 14:33:37] INFO root fetch - processPackages [network-diffusion]: executing diffoscope
+[2023-06-12 14:33:37] INFO root fetch - processPackages [network-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_diffusion-0.8.0.tar.gz tmp/network_diffusion-0.9.0.tar.gz --markdown 20230612/n/network-diffusion/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 14:33:39] INFO root fetch - processPackages [usellm]: Remove: archive file [/home/abi/fetcher/tmp/usellm-0.0.5.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - processPackages [usellm]: Remove: archive file [/home/abi/fetcher/tmp/usellm-0.0.6.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - processPackages [usellm]: Start processing: openttd-helpers
+[2023-06-12 14:33:39] INFO root fetch - main [MainThread]: End processing [usellm]: success
+[2023-06-12 14:33:39] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.6.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.7.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - main [MainThread]: End processing [dtfield]: success
+[2023-06-12 14:33:39] INFO root fetch - processPackages [openttd-helpers]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-12 14:33:39] INFO root fetch - processPackages [types-psutil]: Remove: archive file [/home/abi/fetcher/tmp/types-psutil-5.9.5.8.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - processPackages [types-psutil]: Remove: archive file [/home/abi/fetcher/tmp/types-psutil-5.9.5.9.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - main [MainThread]: End processing [types-psutil]: success
+[2023-06-12 14:33:39] INFO root fetch - processPackages [openttd-helpers]: Downloading https://files.pythonhosted.org/packages/7b/d1/9c7e232f1bcf3ec9a7f60954e6949fc5c77872b9b025bf0252aa0e8ffc0e/openttd-helpers-1.2.0.tar.gz
+[2023-06-12 14:33:39] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.4.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.5.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - main [MainThread]: End processing [inboard]: success
+[2023-06-12 14:33:39] INFO root fetch - processPackages [RecordKeeper-Client]: Remove: archive file [/home/abi/fetcher/tmp/RecordKeeper_Client-3.2.0.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - processPackages [RecordKeeper-Client]: Remove: archive file [/home/abi/fetcher/tmp/RecordKeeper_Client-3.2.1.tar.gz]
+[2023-06-12 14:33:39] INFO root fetch - main [MainThread]: End processing [RecordKeeper-Client]: success
+[2023-06-12 14:33:39] INFO root fetch - processPackages [openttd-helpers]: Downloading https://files.pythonhosted.org/packages/a5/7c/8eca802c9b4920380c25f1eed5c559a7947ef7aee805e32d00ce2befd476/openttd-helpers-1.3.0.tar.gz
+[2023-06-12 14:33:40] INFO root fetch - processPackages [network-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/network_diffusion-0.8.0.tar.gz]
+[2023-06-12 14:33:40] INFO root fetch - processPackages [network-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/network_diffusion-0.9.0.tar.gz]
+[2023-06-12 14:33:40] INFO root fetch - main [MainThread]: End processing [network-diffusion]: success
+[2023-06-12 14:33:40] INFO root fetch - processPackages [openttd-helpers]: executing diffoscope
+[2023-06-12 14:33:40] INFO root fetch - processPackages [openttd-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttd-helpers-1.2.0.tar.gz tmp/openttd-helpers-1.3.0.tar.gz --markdown 20230612/o/openttd-helpers/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-12 14:33:40] INFO root fetch - processPackages [nanoqnt]: Remove: archive file [/home/abi/fetcher/tmp/nanoqnt-0.2.0rc1.tar.gz]
+[2023-06-12 14:33:40] INFO root fetch - processPackages [nanoqnt]: Remove: archive file [/home/abi/fetcher/tmp/nanoqnt-0.2.0rc2.tar.gz]
+[2023-06-12 14:33:40] INFO root fetch - main [MainThread]: End processing [nanoqnt]: success
+[2023-06-12 14:33:41] INFO root fetch - processPackages [openttd-helpers]: Remove: archive file [/home/abi/fetcher/tmp/openttd-helpers-1.2.0.tar.gz]
+[2023-06-12 14:33:41] INFO root fetch - processPackages [openttd-helpers]: Remove: archive file [/home/abi/fetcher/tmp/openttd-helpers-1.3.0.tar.gz]
+[2023-06-12 14:33:41] INFO root fetch - main [MainThread]: End processing [openttd-helpers]: success
+[2023-06-12 14:33:42] INFO root fetch - processPackages [sports2d]: Remove: archive file [/home/abi/fetcher/tmp/sports2d-0.2.3.tar.gz]
+[2023-06-12 14:33:42] INFO root fetch - processPackages [sports2d]: Remove: archive file [/home/abi/fetcher/tmp/sports2d-0.2.4.tar.gz]
+[2023-06-12 14:33:42] INFO root fetch - main [MainThread]: End processing [sports2d]: success
+[2023-06-12 14:33:42] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.3.8.tar.gz]
+[2023-06-12 14:33:42] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.3.9.tar.gz]
+[2023-06-12 14:33:42] INFO root fetch - main [MainThread]: End processing [molgraph]: success
+[2023-06-12 14:33:44] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.9.tar.gz]
+[2023-06-12 14:33:44] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.90.tar.gz]
+[2023-06-12 14:33:44] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-12 14:33:44] INFO root fetch - main [MainThread]: Store serial: [18468673]
