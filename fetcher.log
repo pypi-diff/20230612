@@ -14007,3 +14007,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 11:51:59] INFO root fetch - processPackages [aspeak]: Remove: archive file [/home/abi/fetcher/tmp/aspeak-6.0.0a2-cp39-none-win_amd64.whl.zip]
 [2023-06-12 11:51:59] INFO root fetch - main [MainThread]: End processing [aspeak]: success
 [2023-06-12 11:51:59] INFO root fetch - main [MainThread]: Store serial: [18467164]
+[2023-06-12 11:57:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467164]
+[2023-06-12 11:57:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: formification
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cr-pre-commit-hooks
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CandyCrunch
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pgx
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyMuonSuite
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: a2
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qgis-plugin-manager
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: planobs
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: learn-python-ceg-test
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: muheqa
+[2023-06-12 11:57:19] INFO root fetch - processPackages [cr-pre-commit-hooks]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 11:57:19] INFO root fetch - processPackages [muheqa]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-12 11:57:19] INFO root fetch - processPackages [a2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 11:57:19] INFO root fetch - processPackages [formification]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-06-12 11:57:19] WARNING root fetch - processPackages [learn-python-ceg-test]: Skipping, unable to determine old version
+[2023-06-12 11:57:19] INFO root fetch - processPackages [learn-python-ceg-test]: Start processing: ua-banktools
+[2023-06-12 11:57:19] INFO root fetch - main [MainThread]: End processing [learn-python-ceg-test] error
+[2023-06-12 11:57:19] INFO root fetch - processPackages [CandyCrunch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 11:57:19] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/70/33/466eebc169f74dd60f37b67ed9c29e38f38aba1cfdbf32f4a9c64de741a4/muheqa-0.0.3.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/10/c4/4d15ff29912d32ea52cd9aacfbad1b8a30dbf09c6e3efb3b84695fc25537/a2-0.3.8.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [PyMuonSuite]: New version: [0.3.0.dev0] Old Version: [0.3.0]
+[2023-06-12 11:57:19] INFO root fetch - processPackages [pgx]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-12 11:57:19] INFO root fetch - processPackages [qgis-plugin-manager]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-06-12 11:57:19] INFO root fetch - processPackages [planobs]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ua-banktools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 11:57:19] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/19/07/68ee1256bdfddc9acda0a88ad87668f01a09e3bc0d727123c0f945fa2cdd/muheqa-0.0.4.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [cr-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/8d/41/de150671bc19e6b84eac1ec3358db5deceaf4f9a8c5474fb38160c5a6f83/cr_pre_commit_hooks-0.1.0.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [CandyCrunch]: Downloading https://files.pythonhosted.org/packages/1b/12/2638bf450b7c87eff697c0500ba7d006c8fe5103b09f3f8ea7acf0b6de28/CandyCrunch-0.1.0.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [muheqa]: executing diffoscope
+[2023-06-12 11:57:19] INFO root fetch - processPackages [muheqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muheqa-0.0.3.tar.gz tmp/muheqa-0.0.4.tar.gz --markdown 20230612/m/muheqa/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-12 11:57:19] INFO root fetch - processPackages [formification]: Downloading https://files.pythonhosted.org/packages/67/52/420348add7c4a41846adffcae64c0ff3cd90524023e5fb34bcd6c1997c76/formification-1.1.3.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [PyMuonSuite]: Downloading https://files.pythonhosted.org/packages/2f/c7/01b33067a56cdae8e6f850ef39cc36024dfa2af4deaac618ef5fbbf57d6d/PyMuonSuite-0.3.0.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/31/10/478bf40937f0edcb14868212bc5304155f19f9405dae99d57e10120ea036/pgx-0.8.0.tar.gz
+[2023-06-12 11:57:19] WARNING root fetch - processPackages [CandyCrunch]: Skipping package: exceeds size limit 45897133>=10485760
+[2023-06-12 11:57:19] INFO root fetch - main [MainThread]: End processing [CandyCrunch] error
+[2023-06-12 11:57:19] INFO root fetch - processPackages [qgis-plugin-manager]: Downloading https://files.pythonhosted.org/packages/d1/cb/c0c391277f728052533044ce0764d7e03c74b866d5ceffd6b11e8c1a1cd2/qgis-plugin-manager-1.5.0.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [ua-banktools]: Downloading https://files.pythonhosted.org/packages/82/3d/0bad81327bc78fe25ecdc21b04c489d901c93c35c10230ef79f9164086a1/ua_banktools-0.0.2.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [planobs]: Downloading https://files.pythonhosted.org/packages/3f/bd/f4490fb468640b2b1a14e58b037b97168d17d3cbe18c0b4fa0ecdd115383/planobs-0.7.1.tar.gz
+[2023-06-12 11:57:19] WARNING root fetch - processPackages [PyMuonSuite]: Skipping package: exceeds size limit 20239494>=10485760
+[2023-06-12 11:57:19] INFO root fetch - main [MainThread]: End processing [PyMuonSuite] error
+[2023-06-12 11:57:19] INFO root fetch - processPackages [cr-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/24/e3/f047074af300d220a16a2449b325adf32aa431a52c5a2c16e6841ea2811d/cr_pre_commit_hooks-0.1.1.tar.gz
+[2023-06-12 11:57:19] INFO root fetch - processPackages [cr-pre-commit-hooks]: executing diffoscope
+[2023-06-12 11:57:19] INFO root fetch - processPackages [cr-pre-commit-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cr_pre_commit_hooks-0.1.0.tar.gz tmp/cr_pre_commit_hooks-0.1.1.tar.gz --markdown 20230612/c/cr-pre-commit-hooks/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 11:57:19] WARNING root fetch - processPackages [planobs]: Skipping package: exceeds size limit 17902886>=10485760
+[2023-06-12 11:57:19] INFO root fetch - main [MainThread]: End processing [planobs] error
+[2023-06-12 11:57:20] INFO root fetch - processPackages [qgis-plugin-manager]: Downloading https://files.pythonhosted.org/packages/d6/86/7c04ec6651b107e49cb096c194fdde745e3a7aa1b3932f65cb16ad39f0c7/qgis-plugin-manager-1.6.0.tar.gz
+[2023-06-12 11:57:20] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/a7/e9/bdf551aafc4874059e787a55b1727f2c6e4ae27a4250ff9b07a9f103eec6/pgx-0.8.1.tar.gz
+[2023-06-12 11:57:20] INFO root fetch - processPackages [ua-banktools]: Downloading https://files.pythonhosted.org/packages/c6/6e/ac2519dfc5af1d7841b15d8396a36d925a0be043cf34d41e8eca77b65391/ua_banktools-0.0.3.tar.gz
+[2023-06-12 11:57:20] INFO root fetch - processPackages [formification]: Downloading https://files.pythonhosted.org/packages/71/29/b6b02496f43e193cd54dafad0637a50b06ee9c50f4a29b6806b5636aeaab/formification-1.2.0.tar.gz
+[2023-06-12 11:57:20] WARNING root fetch - processPackages [formification]: Skipping package: exceeds size limit 38221936>=10485760
+[2023-06-12 11:57:20] INFO root fetch - main [MainThread]: End processing [formification] error
+[2023-06-12 11:57:20] INFO root fetch - processPackages [qgis-plugin-manager]: executing diffoscope
+[2023-06-12 11:57:20] INFO root fetch - processPackages [qgis-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgis-plugin-manager-1.5.0.tar.gz tmp/qgis-plugin-manager-1.6.0.tar.gz --markdown 20230612/q/qgis-plugin-manager/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-06-12 11:57:20] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-06-12 11:57:20] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.8.0.tar.gz tmp/pgx-0.8.1.tar.gz --markdown 20230612/p/pgx/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-12 11:57:20] INFO root fetch - processPackages [ua-banktools]: executing diffoscope
+[2023-06-12 11:57:20] INFO root fetch - processPackages [ua-banktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ua_banktools-0.0.2.tar.gz tmp/ua_banktools-0.0.3.tar.gz --markdown 20230612/u/ua-banktools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 11:57:20] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/c5/ea/30a5aa65f221d2fa836f68cf1ba1dcc4e374a8abad48e522a4030a3604b0/a2-0.3.9.tar.gz
+[2023-06-12 11:57:20] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.3.tar.gz]
+[2023-06-12 11:57:20] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.4.tar.gz]
+[2023-06-12 11:57:20] INFO root fetch - main [MainThread]: End processing [muheqa]: success
+[2023-06-12 11:57:21] INFO root fetch - processPackages [cr-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/cr_pre_commit_hooks-0.1.0.tar.gz]
+[2023-06-12 11:57:21] INFO root fetch - processPackages [cr-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/cr_pre_commit_hooks-0.1.1.tar.gz]
+[2023-06-12 11:57:21] INFO root fetch - main [MainThread]: End processing [cr-pre-commit-hooks]: success
+[2023-06-12 11:57:21] INFO root fetch - processPackages [ua-banktools]: Remove: archive file [/home/abi/fetcher/tmp/ua_banktools-0.0.2.tar.gz]
+[2023-06-12 11:57:21] INFO root fetch - processPackages [ua-banktools]: Remove: archive file [/home/abi/fetcher/tmp/ua_banktools-0.0.3.tar.gz]
+[2023-06-12 11:57:21] INFO root fetch - main [MainThread]: End processing [ua-banktools]: success
+[2023-06-12 11:57:21] INFO root fetch - processPackages [qgis-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/qgis-plugin-manager-1.5.0.tar.gz]
+[2023-06-12 11:57:21] INFO root fetch - processPackages [qgis-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/qgis-plugin-manager-1.6.0.tar.gz]
+[2023-06-12 11:57:21] INFO root fetch - main [MainThread]: End processing [qgis-plugin-manager]: success
+[2023-06-12 11:57:21] INFO root fetch - processPackages [a2]: executing diffoscope
+[2023-06-12 11:57:21] INFO root fetch - processPackages [a2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2-0.3.8.tar.gz tmp/a2-0.3.9.tar.gz --markdown 20230612/a/a2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 11:57:22] INFO root fetch - processPackages [pgx]: Remove: archive file [/home/abi/fetcher/tmp/pgx-0.8.0.tar.gz]
+[2023-06-12 11:57:22] INFO root fetch - processPackages [pgx]: Remove: archive file [/home/abi/fetcher/tmp/pgx-0.8.1.tar.gz]
+[2023-06-12 11:57:22] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-06-12 11:57:54] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.8.tar.gz]
+[2023-06-12 11:57:54] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.9.tar.gz]
+[2023-06-12 11:57:54] INFO root fetch - main [MainThread]: End processing [a2]: success
+[2023-06-12 11:57:54] INFO root fetch - main [MainThread]: Store serial: [18467199]
