@@ -20915,3 +20915,146 @@ EOFError: EOF read where object expected
 [2023-06-12 16:34:32] INFO root fetch - processPackages [py-lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
 [2023-06-12 16:34:32] INFO root fetch - main [MainThread]: End processing [py-lav]: success
 [2023-06-12 16:34:32] INFO root fetch - main [MainThread]: Store serial: [18470008]
+[2023-06-12 16:39:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470008]
+[2023-06-12 16:39:42] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-zoomba
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CodeToCAD
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub-airflow-plugin
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonshell
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bquest
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wbpWidgetinspector
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fabric-orchestrator-client
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yaml-indent
+[2023-06-12 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: databudgie
+[2023-06-12 16:39:42] INFO root fetch - processPackages [wbpWidgetinspector]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-06-12 16:39:42] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1686580357]
+[2023-06-12 16:39:42] INFO root fetch - processPackages [bquest]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-12 16:39:42] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-12 16:39:42] WARNING root fetch - processPackages [jsonshell]: Skipping, unable to determine old version
+[2023-06-12 16:39:42] INFO root fetch - processPackages [jsonshell]: Start processing: pyfii-Kevin0412
+[2023-06-12 16:39:42] INFO root fetch - main [MainThread]: End processing [jsonshell] error
+[2023-06-12 16:39:42] INFO root fetch - processPackages [robotframework-zoomba]: New version: [3.5.0] Old Version: [3.4.6]
+[2023-06-12 16:39:42] INFO root fetch - processPackages [databudgie]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-06-12 16:39:42] INFO root fetch - processPackages [yaml-indent]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 16:39:42] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-12 16:39:42] WARNING root fetch - processPackages [pyfii-Kevin0412]: Skipping, unable to determine old version
+[2023-06-12 16:39:42] INFO root fetch - processPackages [pyfii-Kevin0412]: Start processing: jira2branch
+[2023-06-12 16:39:42] INFO root fetch - main [MainThread]: End processing [pyfii-Kevin0412] error
+[2023-06-12 16:39:42] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-12 16:39:42] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/90/5b/f8cacc1a349d7f9ab24930fa027dc292e8aa3d21da2b6050b8796f8ac093/fabric-orchestrator-client-1.5.0rc1.tar.gz
+[2023-06-12 16:39:42] INFO root fetch - processPackages [bquest]: Downloading https://files.pythonhosted.org/packages/c9/3e/c6072e2bf5df1c061abba33fa3faef8a9fbfc7893123596eb6ec9f94d2f0/bquest-0.1.0.tar.gz
+[2023-06-12 16:39:42] INFO root fetch - processPackages [jira2branch]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-12 16:39:42] INFO root fetch - processPackages [yaml-indent]: Downloading https://files.pythonhosted.org/packages/c3/91/37744a92253b4beb73ac0fef8bdff197729dd1028d3d7eca718f68df99b9/yaml_indent-0.1.3.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/3f/f9/01f0b6b07a559b172c10ce5bd2ebd4a2c3264e0f8aec30f7dd46090d1c7b/CodeToCAD-0.2.1686580357.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [wbpWidgetinspector]: Downloading https://files.pythonhosted.org/packages/69/d3/e5a3655b366f45c0dcd072a7b290e1d8d4dc1e3096bd79c08cd522ed4da0/wbpWidgetinspector-0.1.8.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [databudgie]: Downloading https://files.pythonhosted.org/packages/92/2d/b1f19d531eb2a8331ca14df72777878d3ca5005fb7e56fa9a21bce4a4bbd/databudgie-2.8.1.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [robotframework-zoomba]: Downloading https://files.pythonhosted.org/packages/45/e8/d316abec0d5b23d35a9914c412e62887e4094658d64f55f5ce61734ef06d/robotframework-zoomba-3.4.6.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/ca/bf/670ab420e66ec0da1d71d4d9fcf8d0c013c4c47c5817bc81579a7973b976/fabric-orchestrator-client-1.5.0rc2.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [jira2branch]: Downloading https://files.pythonhosted.org/packages/77/62/eebd113cac018efa034cf66f8dd990d7aa0419af6623cc4d6f82325d36fc/jira2branch-0.2.0.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [bquest]: Downloading https://files.pythonhosted.org/packages/73/95/5a90a45ff61a593176e1897da451d971e9305990adf5616dd718abc0f8f5/bquest-0.2.0.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [yaml-indent]: Downloading https://files.pythonhosted.org/packages/7e/5f/077dd7b1df7a4c67293f8e5a262e31e090d5b7db785ef4b61f364df03817/yaml_indent-0.1.4.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [wbpWidgetinspector]: Downloading https://files.pythonhosted.org/packages/9a/e5/53bb473b5ad686162bd9205d9600e7154230465a1ccc2721713394c6bb22/wbpWidgetinspector-0.2.0.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz --markdown 20230612/f/fabric-orchestrator-client/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-12 16:39:43] INFO root fetch - processPackages [bquest]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [bquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bquest-0.1.0.tar.gz tmp/bquest-0.2.0.tar.gz --markdown 20230612/b/bquest/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 16:39:43] INFO root fetch - processPackages [yaml-indent]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [yaml-indent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml_indent-0.1.3.tar.gz tmp/yaml_indent-0.1.4.tar.gz --markdown 20230612/y/yaml-indent/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 16:39:43] INFO root fetch - processPackages [wbpWidgetinspector]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [wbpWidgetinspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpWidgetinspector-0.1.8.tar.gz tmp/wbpWidgetinspector-0.2.0.tar.gz --markdown 20230612/w/wbpWidgetinspector/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 16:39:43] INFO root fetch - processPackages [databudgie]: Downloading https://files.pythonhosted.org/packages/db/67/05e159a012c1588459eae74c42ff34c1df7f371de6a4907640c6249168e6/databudgie-2.8.2.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [jira2branch]: Downloading https://files.pythonhosted.org/packages/75/ad/e11eddb6b429df23ece45b3b2f0842260afc3cffcd10b54605f0d6f56a5f/jira2branch-0.2.1.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [robotframework-zoomba]: Downloading https://files.pythonhosted.org/packages/72/90/a9903aaf78c23d8b9b6b8f539f1db5f5b2e6bbba5b08c9510769a65f1a96/robotframework-zoomba-3.5.0.tar.gz
+[2023-06-12 16:39:43] INFO root fetch - processPackages [databudgie]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [databudgie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databudgie-2.8.1.tar.gz tmp/databudgie-2.8.2.tar.gz --markdown 20230612/d/databudgie/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-06-12 16:39:43] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1686580357.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230612/C/CodeToCAD/0.2.1686580357-0.2.6/diff.md --exclude *.pyd
+[2023-06-12 16:39:43] INFO root fetch - processPackages [jira2branch]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [jira2branch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jira2branch-0.2.0.tar.gz tmp/jira2branch-0.2.1.tar.gz --markdown 20230612/j/jira2branch/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-12 16:39:43] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230612/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-12 16:39:43] INFO root fetch - processPackages [robotframework-zoomba]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [robotframework-zoomba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-zoomba-3.4.6.tar.gz tmp/robotframework-zoomba-3.5.0.tar.gz --markdown 20230612/r/robotframework-zoomba/3.4.6-3.5.0/diff.md --exclude *.pyd
+[2023-06-12 16:39:43] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-06-12 16:39:43] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230612/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-12 16:39:45] INFO root fetch - processPackages [robotframework-zoomba]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-zoomba-3.4.6.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [robotframework-zoomba]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-zoomba-3.5.0.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [robotframework-zoomba]: Start processing: wezel
+[2023-06-12 16:39:45] INFO root fetch - main [MainThread]: End processing [robotframework-zoomba]: success
+[2023-06-12 16:39:45] INFO root fetch - processPackages [wezel]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [wbpWidgetinspector]: Remove: archive file [/home/abi/fetcher/tmp/wbpWidgetinspector-0.1.8.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [wbpWidgetinspector]: Remove: archive file [/home/abi/fetcher/tmp/wbpWidgetinspector-0.2.0.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [wbpWidgetinspector]: Start processing: neuroevobench
+[2023-06-12 16:39:45] INFO root fetch - main [MainThread]: End processing [wbpWidgetinspector]: success
+[2023-06-12 16:39:45] WARNING root fetch - processPackages [neuroevobench]: Skipping, unable to determine old version
+[2023-06-12 16:39:45] INFO root fetch - processPackages [neuroevobench]: Start processing: govuk-frontend-django
+[2023-06-12 16:39:45] INFO root fetch - main [MainThread]: End processing [neuroevobench] error
+[2023-06-12 16:39:45] INFO root fetch - processPackages [govuk-frontend-django]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [yaml-indent]: Remove: archive file [/home/abi/fetcher/tmp/yaml_indent-0.1.3.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [yaml-indent]: Remove: archive file [/home/abi/fetcher/tmp/yaml_indent-0.1.4.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [yaml-indent]: Start processing: fabric-orchestrator-client
+[2023-06-12 16:39:45] INFO root fetch - main [MainThread]: End processing [yaml-indent]: success
+[2023-06-12 16:39:45] INFO root fetch - processPackages [jira2branch]: Remove: archive file [/home/abi/fetcher/tmp/jira2branch-0.2.0.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [jira2branch]: Remove: archive file [/home/abi/fetcher/tmp/jira2branch-0.2.1.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [jira2branch]: Start processing: ubkg-api
+[2023-06-12 16:39:45] INFO root fetch - main [MainThread]: End processing [jira2branch]: success
+[2023-06-12 16:39:45] INFO root fetch - processPackages [ubkg-api]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [wezel]: Downloading https://files.pythonhosted.org/packages/da/45/aab0585c058664ce5081df7a416a7ce255f7a406530e79375c2a8706346a/wezel-0.1.1.tar.gz
+[2023-06-12 16:39:45] INFO root fetch - processPackages [bquest]: Remove: archive file [/home/abi/fetcher/tmp/bquest-0.1.0.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [bquest]: Remove: archive file [/home/abi/fetcher/tmp/bquest-0.2.0.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [bquest]: Start processing: dwiqc
+[2023-06-12 16:39:45] INFO root fetch - main [MainThread]: End processing [bquest]: success
+[2023-06-12 16:39:45] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-06-12 16:39:45] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz --markdown 20230612/f/fabric-orchestrator-client/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-12 16:39:45] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/97/aa/a186723792f16a7dc50cbbed5e2e72bd4104956afc8d2e94e4b96c20890a/govuk_frontend_django-0.3.5.tar.gz
+[2023-06-12 16:39:45] INFO root fetch - processPackages [dwiqc]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [ubkg-api]: Downloading https://files.pythonhosted.org/packages/a7/e2/77bd07991487b4b2884670da2667cdd9044a7bf9440810330f43216cb72e/ubkg_api-1.3.0.tar.gz
+[2023-06-12 16:39:45] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-06-12 16:39:45] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/32/78/fde1bf988a51beb8ff1f0c47d9eca63aaaa94f535ca70afca18200112d88/dwiqc-0.4.2-py2.py3-none-any.whl
+[2023-06-12 16:39:45] INFO root fetch - processPackages [databudgie]: Remove: archive file [/home/abi/fetcher/tmp/databudgie-2.8.1.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [databudgie]: Remove: archive file [/home/abi/fetcher/tmp/databudgie-2.8.2.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - main [MainThread]: End processing [databudgie]: success
+[2023-06-12 16:39:45] INFO root fetch - processPackages [wezel]: Downloading https://files.pythonhosted.org/packages/c0/a6/d92788a867f40b2b579708a5e4a9f2c3a1a35f8bbe1e7e6619d377a288d7/wezel-0.1.2.tar.gz
+[2023-06-12 16:39:45] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/d9/b1/c5acaaced22643a72076e90d1c05bd01322b92a261ba69e43ed5588571c2/govuk_frontend_django-0.3.6.tar.gz
+[2023-06-12 16:39:45] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1686580357.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-06-12 16:39:45] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-06-12 16:39:45] INFO root fetch - processPackages [ubkg-api]: Downloading https://files.pythonhosted.org/packages/ff/69/04184dd3057b8730e71a7a044a858eb1b80361c64af372eb1d91f3e90f8b/ubkg_api-1.3.1.tar.gz
+[2023-06-12 16:39:45] INFO root fetch - processPackages [govuk-frontend-django]: executing diffoscope
+[2023-06-12 16:39:45] INFO root fetch - processPackages [govuk-frontend-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk_frontend_django-0.3.5.tar.gz tmp/govuk_frontend_django-0.3.6.tar.gz --markdown 20230612/g/govuk-frontend-django/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-12 16:39:45] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/1a/74/8698c7637cc6723cee50f3ee96f26de3845dffe61f131a13e95c4412941a/dwiqc-0.4.3-py2.py3-none-any.whl
+[2023-06-12 16:39:46] INFO root fetch - processPackages [ubkg-api]: executing diffoscope
+[2023-06-12 16:39:46] INFO root fetch - processPackages [ubkg-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubkg_api-1.3.0.tar.gz tmp/ubkg_api-1.3.1.tar.gz --markdown 20230612/u/ubkg-api/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-12 16:39:46] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-12 16:39:46] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.2-py2.py3-none-any.whl.zip tmp/dwiqc-0.4.3-py2.py3-none-any.whl.zip --markdown 20230612/d/dwiqc/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-12 16:39:46] INFO root fetch - processPackages [wezel]: executing diffoscope
+[2023-06-12 16:39:46] INFO root fetch - processPackages [wezel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wezel-0.1.1.tar.gz tmp/wezel-0.1.2.tar.gz --markdown 20230612/w/wezel/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 16:39:46] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz]
+[2023-06-12 16:39:46] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz]
+[2023-06-12 16:39:46] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-06-12 16:39:47] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-06-12 16:39:47] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.2-py2.py3-none-any.whl.zip]
+[2023-06-12 16:39:47] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.3-py2.py3-none-any.whl.zip]
+[2023-06-12 16:39:47] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-12 16:39:47] INFO root fetch - processPackages [govuk-frontend-django]: Remove: archive file [/home/abi/fetcher/tmp/govuk_frontend_django-0.3.5.tar.gz]
+[2023-06-12 16:39:47] INFO root fetch - processPackages [govuk-frontend-django]: Remove: archive file [/home/abi/fetcher/tmp/govuk_frontend_django-0.3.6.tar.gz]
+[2023-06-12 16:39:47] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
+[2023-06-12 16:39:48] INFO root fetch - processPackages [ubkg-api]: Remove: archive file [/home/abi/fetcher/tmp/ubkg_api-1.3.0.tar.gz]
+[2023-06-12 16:39:48] INFO root fetch - processPackages [ubkg-api]: Remove: archive file [/home/abi/fetcher/tmp/ubkg_api-1.3.1.tar.gz]
+[2023-06-12 16:39:48] INFO root fetch - main [MainThread]: End processing [ubkg-api]: success
+[2023-06-12 16:39:48] INFO root fetch - processPackages [wezel]: Remove: archive file [/home/abi/fetcher/tmp/wezel-0.1.1.tar.gz]
+[2023-06-12 16:39:48] INFO root fetch - processPackages [wezel]: Remove: archive file [/home/abi/fetcher/tmp/wezel-0.1.2.tar.gz]
+[2023-06-12 16:39:48] INFO root fetch - main [MainThread]: End processing [wezel]: success
+[2023-06-12 16:39:50] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-06-12 16:39:50] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-06-12 16:39:50] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-06-12 16:39:50] INFO root fetch - main [MainThread]: Store serial: [18470067]
