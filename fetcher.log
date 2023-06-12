@@ -18797,3 +18797,179 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 15:28:27] INFO root fetch - processPackages [hatchling]: Remove: archive file [/home/abi/fetcher/tmp/hatchling-1.9.0.tar.gz]
 [2023-06-12 15:28:27] INFO root fetch - main [MainThread]: End processing [hatchling]: success
 [2023-06-12 15:28:27] INFO root fetch - main [MainThread]: Store serial: [18469185]
+[2023-06-12 15:33:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469185]
+[2023-06-12 15:33:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zood
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gps-building-blocks
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getmodelspec
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ripandtear
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: guitk
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: novumapiclient
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: changedetection.io
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipsocgen
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threedi-schema
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: getmodelspec
+[2023-06-12 15:33:38] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [zood]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ripandtear]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.367] Old Version: [1.0.363]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [threedi-schema]: New version: [0.217.3] Old Version: [0.217.2]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [novumapiclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.367] Old Version: [1.0.363]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [guitk]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ipsocgen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [changedetection.io]: New version: [0.42.3] Old Version: [0.42.2]
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/2c/f3/43638a223c6f10c616bb47ef002fae28efb23437b272b531a8027e24e54f/ripandtear-0.9.7.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/a7/22/399d970b849524a56452e68c3709e1bf080d73b8e95510fef0c1873fdea3/NovumApiClient-0.0.8.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/7e/ae/ab7731f3ea5805588be346376eaa2baad52cfdba7b1ace81ea98a4b1157a/getmodelspec-1.0.363.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/7e/ae/ab7731f3ea5805588be346376eaa2baad52cfdba7b1ace81ea98a4b1157a/getmodelspec-1.0.363.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/5c/a7/cfb42c9f6699466a97f37f4d457ac6a7794ac7d557203d20153f1d7ce262/zood-0.7.5.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [guitk]: Downloading https://files.pythonhosted.org/packages/a6/0f/d675fee47d08e8edc6ca1ff7daea8078441c714a32aff36af1eead33e588/guitk-0.4.1.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/79/7e/3fd0c9b39c67bd2cd79537254e97a1f09f647fcd78f0031fd0cc8f13cd5e/threedi-schema-0.217.2.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ipsocgen]: Downloading https://files.pythonhosted.org/packages/11/54/e76ec133a215133bc0add89fbba0f3e5d9473aaf7a80771670485d2081b0/ipsocgen-0.1.8.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/bb/33/c3d19a2184a3997ddbec798a026fd98fd336119a50b23ebe1c0233e31aea/ripandtear-0.9.9.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/8d/04/4e1273e9d3f8424687cc511e0d0ed47bb7e5310e1125d0f05fdb8758eefa/changedetection.io-0.42.2-py3-none-any.whl
+[2023-06-12 15:33:38] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/3d/0c/5c5842111fb6972aa310efdcf176bc4d80b59f6b28f36d17483472d6a79d/novumapiclient-0.0.9.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ripandtear]: executing diffoscope
+[2023-06-12 15:33:38] INFO root fetch - processPackages [ripandtear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripandtear-0.9.7.tar.gz tmp/ripandtear-0.9.9.tar.gz --markdown 20230612/r/ripandtear/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 15:33:38] INFO root fetch - processPackages [novumapiclient]: executing diffoscope
+[2023-06-12 15:33:38] INFO root fetch - processPackages [novumapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NovumApiClient-0.0.8.tar.gz tmp/novumapiclient-0.0.9.tar.gz --markdown 20230612/n/novumapiclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 15:33:38] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/fb/72/87f9ff1d507bcac7c96f4a76c73e084eb22716ec6b24ee0917d5b10c9716/getmodelspec-1.0.367.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/fb/72/87f9ff1d507bcac7c96f4a76c73e084eb22716ec6b24ee0917d5b10c9716/getmodelspec-1.0.367.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [guitk]: Downloading https://files.pythonhosted.org/packages/11/98/22c936d209eff0a4c7d900c027305a9e585b837a80a54d3d7001126dd129/guitk-0.4.2.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/22/d5/3ebfbd59cdbbd7b055595f77ad36f06352b4bc9776f3de4823f4859c8912/threedi-schema-0.217.3.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-12 15:33:38] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/0c/04/d1291d54e709f4aaaf28720d8f053823070e815d298927c3ee8e724f6d1d/zood-0.7.6.tar.gz
+[2023-06-12 15:33:38] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.363.tar.gz tmp/getmodelspec-1.0.367.tar.gz --markdown 20230612/g/getmodelspec/1.0.363-1.0.367/diff.md --exclude *.pyd
+[2023-06-12 15:33:38] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-12 15:33:39] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.363.tar.gz tmp/getmodelspec-1.0.367.tar.gz --markdown 20230612/g/getmodelspec/1.0.363-1.0.367/diff.md --exclude *.pyd
+[2023-06-12 15:33:39] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2023-06-12 15:33:39] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20230612/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-12 15:33:39] INFO root fetch - processPackages [ipsocgen]: Downloading https://files.pythonhosted.org/packages/65/4b/20da524e91684573355257160a62b7f893d4175024d3f8ef3e478b720b50/ipsocgen-0.1.9.tar.gz
+[2023-06-12 15:33:39] INFO root fetch - processPackages [guitk]: executing diffoscope
+[2023-06-12 15:33:39] INFO root fetch - processPackages [guitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guitk-0.4.1.tar.gz tmp/guitk-0.4.2.tar.gz --markdown 20230612/g/guitk/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-12 15:33:39] INFO root fetch - processPackages [threedi-schema]: executing diffoscope
+[2023-06-12 15:33:39] INFO root fetch - processPackages [threedi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-schema-0.217.2.tar.gz tmp/threedi-schema-0.217.3.tar.gz --markdown 20230612/t/threedi-schema/0.217.2-0.217.3/diff.md --exclude *.pyd
+[2023-06-12 15:33:39] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/6c/c6/d91a2403bf5d1bde0b15cbde95be0dcb7a39f9b6d72f1a41355f5d4a0061/changedetection.io-0.42.3-py3-none-any.whl
+[2023-06-12 15:33:39] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-06-12 15:33:39] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.7.5.tar.gz tmp/zood-0.7.6.tar.gz --markdown 20230612/z/zood/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-06-12 15:33:39] INFO root fetch - processPackages [ipsocgen]: executing diffoscope
+[2023-06-12 15:33:39] INFO root fetch - processPackages [ipsocgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipsocgen-0.1.8.tar.gz tmp/ipsocgen-0.1.9.tar.gz --markdown 20230612/i/ipsocgen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 15:33:39] INFO root fetch - processPackages [changedetection.io]: executing diffoscope
+[2023-06-12 15:33:39] INFO root fetch - processPackages [changedetection.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changedetection.io-0.42.2-py3-none-any.whl.zip tmp/changedetection.io-0.42.3-py3-none-any.whl.zip --markdown 20230612/c/changedetection.io/0.42.2-0.42.3/diff.md --exclude *.pyd
+[2023-06-12 15:33:41] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/NovumApiClient-0.0.8.tar.gz]
+[2023-06-12 15:33:41] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/novumapiclient-0.0.9.tar.gz]
+[2023-06-12 15:33:41] INFO root fetch - processPackages [novumapiclient]: Start processing: autoarray
+[2023-06-12 15:33:41] INFO root fetch - main [MainThread]: End processing [novumapiclient]: success
+[2023-06-12 15:33:41] INFO root fetch - processPackages [autoarray]: New version: [2023.7.7.2] Old Version: [2023.7.7.1]
+[2023-06-12 15:33:41] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.363.tar.gz]
+[2023-06-12 15:33:41] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/92/33/aca1fcf0714efe4aaec61c0328766a3f5997918708647967bbcf93e2e8b7/autoarray-2023.7.7.1.tar.gz
+[2023-06-12 15:33:41] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.367.tar.gz]
+[2023-06-12 15:33:41] INFO root fetch - processPackages [getmodelspec]: Start processing: autogalaxy
+[2023-06-12 15:33:41] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-12 15:33:41] INFO root fetch - processPackages [getmodelspec]: Start processing: autoconf
+[2023-06-12 15:33:41] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-12 15:33:41] INFO root fetch - processPackages [autogalaxy]: New version: [2023.7.7.2] Old Version: [2023.7.7.1]
+[2023-06-12 15:33:41] INFO root fetch - processPackages [autoconf]: New version: [2023.7.7.2] Old Version: [2023.7.7.1]
+[2023-06-12 15:33:42] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/d5/b8/c66839a3ad8f2f83ea28a4271b4b271747b1927ce0649f29288c0fcd369e/autogalaxy-2023.7.7.1.tar.gz
+[2023-06-12 15:33:42] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/e3/83/1d337dea403d73260f0e83439c181e05b8691a5da496b5d86fd2069e15ba/autoarray-2023.7.7.2.tar.gz
+[2023-06-12 15:33:42] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/0b/2a/d1b028903f9df2c7f786a180f3680df3c23b969589e9c261146e2ffe7dc2/autoconf-2023.7.7.1.tar.gz
+[2023-06-12 15:33:42] INFO root fetch - processPackages [autoarray]: executing diffoscope
+[2023-06-12 15:33:42] INFO root fetch - processPackages [autoarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoarray-2023.7.7.1.tar.gz tmp/autoarray-2023.7.7.2.tar.gz --markdown 20230612/a/autoarray/2023.7.7.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-12 15:33:42] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/75/d7/960066d81d0bace3c99f77aa521bbef62616095f5f4f2b18d8d5812cae3c/autoconf-2023.7.7.2.tar.gz
+[2023-06-12 15:33:42] INFO root fetch - processPackages [autoconf]: executing diffoscope
+[2023-06-12 15:33:42] INFO root fetch - processPackages [autoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-2023.7.7.1.tar.gz tmp/autoconf-2023.7.7.2.tar.gz --markdown 20230612/a/autoconf/2023.7.7.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-12 15:33:42] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/3d/5e/6332ab784b31fb688ed3eeb9b60e506bda37143856c57428f7a9ff1fe600/autogalaxy-2023.7.7.2.tar.gz
+[2023-06-12 15:33:42] INFO root fetch - processPackages [ipsocgen]: Remove: archive file [/home/abi/fetcher/tmp/ipsocgen-0.1.8.tar.gz]
+[2023-06-12 15:33:42] INFO root fetch - processPackages [ipsocgen]: Remove: archive file [/home/abi/fetcher/tmp/ipsocgen-0.1.9.tar.gz]
+[2023-06-12 15:33:42] INFO root fetch - processPackages [ipsocgen]: Start processing: autofit
+[2023-06-12 15:33:42] INFO root fetch - main [MainThread]: End processing [ipsocgen]: success
+[2023-06-12 15:33:43] INFO root fetch - processPackages [guitk]: Remove: archive file [/home/abi/fetcher/tmp/guitk-0.4.1.tar.gz]
+[2023-06-12 15:33:43] INFO root fetch - processPackages [guitk]: Remove: archive file [/home/abi/fetcher/tmp/guitk-0.4.2.tar.gz]
+[2023-06-12 15:33:43] INFO root fetch - processPackages [guitk]: Start processing: autocti
+[2023-06-12 15:33:43] INFO root fetch - main [MainThread]: End processing [guitk]: success
+[2023-06-12 15:33:43] INFO root fetch - processPackages [autofit]: New version: [2023.7.7.2] Old Version: [2023.7.7.1]
+[2023-06-12 15:33:43] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-12 15:33:43] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2023-06-12 15:33:43] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.5.tar.gz]
+[2023-06-12 15:33:43] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.6.tar.gz]
+[2023-06-12 15:33:43] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-06-12 15:33:43] INFO root fetch - processPackages [autocti]: New version: [2023.7.7.3] Old Version: [2023.6.12.3]
+[2023-06-12 15:33:43] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.7.tar.gz]
+[2023-06-12 15:33:43] INFO root fetch - processPackages [ripandtear]: Remove: archive file [/home/abi/fetcher/tmp/ripandtear-0.9.9.tar.gz]
+[2023-06-12 15:33:43] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
+[2023-06-12 15:33:43] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/9c/60/64366deb8d5fb364907784deec7ddf312b65dc1f2ac59c5fb29187d5281c/autofit-2023.7.7.1.tar.gz
+[2023-06-12 15:33:43] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/6c/08/78e8f97535a776de7b319cf0c0569eb8149f49b3f5938cc84324c824b3ea/autocti-2023.6.12.3.tar.gz
+[2023-06-12 15:33:43] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.217.2.tar.gz]
+[2023-06-12 15:33:43] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.217.3.tar.gz]
+[2023-06-12 15:33:43] INFO root fetch - main [MainThread]: End processing [threedi-schema]: success
+[2023-06-12 15:33:43] INFO root fetch - processPackages [autogalaxy]: executing diffoscope
+[2023-06-12 15:33:43] INFO root fetch - processPackages [autogalaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogalaxy-2023.7.7.1.tar.gz tmp/autogalaxy-2023.7.7.2.tar.gz --markdown 20230612/a/autogalaxy/2023.7.7.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-12 15:33:43] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/3a/b9/113da64c93daf83d859befad5954a28f7bca1e2a74f94353cdfa6fbc04d1/autocti-2023.7.7.3.tar.gz
+[2023-06-12 15:33:44] INFO root fetch - processPackages [autocti]: executing diffoscope
+[2023-06-12 15:33:44] INFO root fetch - processPackages [autocti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocti-2023.6.12.3.tar.gz tmp/autocti-2023.7.7.3.tar.gz --markdown 20230612/a/autocti/2023.6.12.3-2023.7.7.3/diff.md --exclude *.pyd
+[2023-06-12 15:33:44] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/ad/fe/c7018064b948e4ad6b822d720d66b6b5858f155ed656b234c89e0b9494ec/autofit-2023.7.7.2.tar.gz
+[2023-06-12 15:33:45] INFO root fetch - processPackages [autofit]: executing diffoscope
+[2023-06-12 15:33:45] INFO root fetch - processPackages [autofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofit-2023.7.7.1.tar.gz tmp/autofit-2023.7.7.2.tar.gz --markdown 20230612/a/autofit/2023.7.7.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-12 15:33:45] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.42.2-py3-none-any.whl.zip]
+[2023-06-12 15:33:45] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.42.3-py3-none-any.whl.zip]
+[2023-06-12 15:33:45] INFO root fetch - main [MainThread]: End processing [changedetection.io]: success
+[2023-06-12 15:33:45] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.7.7.1.tar.gz]
+[2023-06-12 15:33:45] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.7.7.2.tar.gz]
+[2023-06-12 15:33:45] INFO root fetch - main [MainThread]: End processing [autoconf]: success
+[2023-06-12 15:33:47] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.6.12.3.tar.gz]
+[2023-06-12 15:33:47] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.7.7.3.tar.gz]
+[2023-06-12 15:33:47] INFO root fetch - main [MainThread]: End processing [autocti]: success
+[2023-06-12 15:33:48] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.7.7.1.tar.gz]
+[2023-06-12 15:33:48] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.7.7.2.tar.gz]
+[2023-06-12 15:33:48] INFO root fetch - main [MainThread]: End processing [autoarray]: success
+[2023-06-12 15:33:49] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.7.7.1.tar.gz]
+[2023-06-12 15:33:49] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.7.7.2.tar.gz]
+[2023-06-12 15:33:49] INFO root fetch - main [MainThread]: End processing [autofit]: success
+[2023-06-12 15:33:52] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.7.7.1.tar.gz]
+[2023-06-12 15:33:52] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.7.7.2.tar.gz]
+[2023-06-12 15:33:52] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
+[2023-06-12 15:33:52] INFO root fetch - main [MainThread]: Store serial: [18469225]
