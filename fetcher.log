@@ -18973,3 +18973,162 @@ EOFError: EOF read where object expected
 [2023-06-12 15:33:52] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.7.7.2.tar.gz]
 [2023-06-12 15:33:52] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
 [2023-06-12 15:33:52] INFO root fetch - main [MainThread]: Store serial: [18469225]
+[2023-06-12 15:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469225]
+[2023-06-12 15:39:01] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autocti
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autolens
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-datawatch
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nidcpower
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nidigital
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nidmm
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: niswitch
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nimodinst
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nifgen
+[2023-06-12 15:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: niscope
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidigital]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niswitch]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nifgen]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [django-datawatch]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [autocti]: New version: [2023.7.7.3] Old Version: [2023.6.12.3]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nimodinst]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidcpower]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidmm]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [autolens]: New version: [2023.7.7.2] Old Version: [2023.6.12.3]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niscope]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-12 15:39:02] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/6c/08/78e8f97535a776de7b319cf0c0569eb8149f49b3f5938cc84324c824b3ea/autocti-2023.6.12.3.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidigital]: Downloading https://files.pythonhosted.org/packages/ab/ab/f2a3139e28347069a644cd3e90db51f1fbdcf297077c0c36a8902f2e85a0/nidigital-1.4.4.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niswitch]: Downloading https://files.pythonhosted.org/packages/54/ab/26e9b08d6195e03281da413c1c057e014e695c1bf11843c4a108894418b0/niswitch-1.4.4.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/1b/21/2cec6f6bae301905b3ed1ac930d46f9f87dae0681ff957ba19d8f1179302/autolens-2023.6.12.3.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nifgen]: Downloading https://files.pythonhosted.org/packages/b0/bb/5ca9f009589e9b69f8d0cf6d0e36eb2566819cafc4a1f5aa536a073f329e/nifgen-1.4.4.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [django-datawatch]: Downloading https://files.pythonhosted.org/packages/75/7e/cfac81c5bdac4d3a7103de80ccb4bd4a0297bed2811d2f323bf15b833b67/django-datawatch-3.5.0.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nimodinst]: Downloading https://files.pythonhosted.org/packages/55/31/e507052f7f0443bd1dda82cdde14da6579cc1db84b3f4758446a139bfe98/nimodinst-1.4.4.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niscope]: Downloading https://files.pythonhosted.org/packages/e2/74/cfb57884cb373fe91577b457c79c5bc9262878f9917433f37d5788b48295/niscope-1.4.4.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidmm]: Downloading https://files.pythonhosted.org/packages/5a/94/a818f3da68fc9c138c6c053b73bd5ecb23e4abe0fed17c789b3d17930f15/nidmm-1.4.4.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidcpower]: Downloading https://files.pythonhosted.org/packages/10/4f/c498922d0208bd2c456b507d5eb5a9d41196f88fc0b6f59f9ca670c65940/nidcpower-1.4.4.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/3a/b9/113da64c93daf83d859befad5954a28f7bca1e2a74f94353cdfa6fbc04d1/autocti-2023.7.7.3.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niswitch]: Downloading https://files.pythonhosted.org/packages/7e/f5/43003fd690538758163df5673e32ac0f11094c7304e98a6b9e93556ca5fd/niswitch-1.4.5.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidigital]: Downloading https://files.pythonhosted.org/packages/97/87/4e2380226635d11c5190cc1eb2ad76369b1052e346e56ca608510c3a6eb7/nidigital-1.4.5.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [autocti]: executing diffoscope
+[2023-06-12 15:39:02] INFO root fetch - processPackages [autocti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocti-2023.6.12.3.tar.gz tmp/autocti-2023.7.7.3.tar.gz --markdown 20230612/a/autocti/2023.6.12.3-2023.7.7.3/diff.md --exclude *.pyd
+[2023-06-12 15:39:02] INFO root fetch - processPackages [django-datawatch]: Downloading https://files.pythonhosted.org/packages/0c/b0/8684a29ce51fa5b612762aa095d6a4e6c28b891d1f8bc5a1b6d87f600f42/django-datawatch-3.6.0.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niscope]: Downloading https://files.pythonhosted.org/packages/ed/33/02b8acad7b2362e987ca75117f344c07d5a59e45e3c0a2c9e4a0616400ea/niscope-1.4.5.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/b7/b7/2d3f84922685179c56eaa6ccbbc39cf52a3c6de7fe44d119ee1eb919894f/autolens-2023.7.7.2.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidmm]: Downloading https://files.pythonhosted.org/packages/e8/b9/27f7f00465a3973dad497cfc8a07d2654a6efbdbeeb19fe5b3dc5c5da2ef/nidmm-1.4.5.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nimodinst]: Downloading https://files.pythonhosted.org/packages/95/c4/f1ba7869eb258fc94e85fb955bb6b124fd7ac190da4976c3853a1b89da52/nimodinst-1.4.5.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niswitch]: executing diffoscope
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niswitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niswitch-1.4.4.tar.gz tmp/niswitch-1.4.5.tar.gz --markdown 20230612/n/niswitch/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidigital]: executing diffoscope
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidigital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidigital-1.4.4.tar.gz tmp/nidigital-1.4.5.tar.gz --markdown 20230612/n/nidigital/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nifgen]: Downloading https://files.pythonhosted.org/packages/41/55/9255590432e8443774649037992fffebea440200473fb9ac0735f9aab20f/nifgen-1.4.5.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niscope]: executing diffoscope
+[2023-06-12 15:39:02] INFO root fetch - processPackages [niscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niscope-1.4.4.tar.gz tmp/niscope-1.4.5.tar.gz --markdown 20230612/n/niscope/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:39:02] INFO root fetch - processPackages [django-datawatch]: executing diffoscope
+[2023-06-12 15:39:02] INFO root fetch - processPackages [django-datawatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-datawatch-3.5.0.tar.gz tmp/django-datawatch-3.6.0.tar.gz --markdown 20230612/d/django-datawatch/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidmm]: executing diffoscope
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidmm-1.4.4.tar.gz tmp/nidmm-1.4.5.tar.gz --markdown 20230612/n/nidmm/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidcpower]: Downloading https://files.pythonhosted.org/packages/ea/57/649bdf2d9ea25ca0495ab1eb55b401888628d58393f352fc9050513f253c/nidcpower-1.4.5.tar.gz
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nimodinst]: executing diffoscope
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nimodinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimodinst-1.4.4.tar.gz tmp/nimodinst-1.4.5.tar.gz --markdown 20230612/n/nimodinst/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidcpower]: executing diffoscope
+[2023-06-12 15:39:02] INFO root fetch - processPackages [nidcpower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidcpower-1.4.4.tar.gz tmp/nidcpower-1.4.5.tar.gz --markdown 20230612/n/nidcpower/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:39:03] INFO root fetch - processPackages [nifgen]: executing diffoscope
+[2023-06-12 15:39:03] INFO root fetch - processPackages [nifgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifgen-1.4.4.tar.gz tmp/nifgen-1.4.5.tar.gz --markdown 20230612/n/nifgen/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:39:03] ERROR root fetch - processPackages [nifgen]: Diffoscope failed: Error: error creating container storage: the container name "frosty_franklin" is already in use by "ec08b70a7cd92f0dc0d3e380c318e0301b777c2f59746def7274ad73c45bd435". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-12 15:39:03] INFO root fetch - processPackages [nifgen]: Start processing: nise
+[2023-06-12 15:39:03] INFO root fetch - main [MainThread]: End processing [nifgen] error
+[2023-06-12 15:39:03] INFO root fetch - processPackages [nise]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-12 15:39:03] INFO root fetch - processPackages [nise]: Downloading https://files.pythonhosted.org/packages/74/a5/11872eb58d39570665433dfed944ae14388cb49e7d79d16fb410c9eff425/nise-1.4.4.tar.gz
+[2023-06-12 15:39:03] INFO root fetch - processPackages [autolens]: executing diffoscope
+[2023-06-12 15:39:03] INFO root fetch - processPackages [autolens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autolens-2023.6.12.3.tar.gz tmp/autolens-2023.7.7.2.tar.gz --markdown 20230612/a/autolens/2023.6.12.3-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-12 15:39:03] INFO root fetch - processPackages [nise]: Downloading https://files.pythonhosted.org/packages/8b/4d/98689209d3f7c660ae824d7d8abc9b55765fbf717afd5319e68d452d5b6d/nise-1.4.5.tar.gz
+[2023-06-12 15:39:04] INFO root fetch - processPackages [nise]: executing diffoscope
+[2023-06-12 15:39:04] INFO root fetch - processPackages [nise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nise-1.4.4.tar.gz tmp/nise-1.4.5.tar.gz --markdown 20230612/n/nise/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:39:05] INFO root fetch - processPackages [niswitch]: Remove: archive file [/home/abi/fetcher/tmp/niswitch-1.4.4.tar.gz]
+[2023-06-12 15:39:05] INFO root fetch - processPackages [niswitch]: Remove: archive file [/home/abi/fetcher/tmp/niswitch-1.4.5.tar.gz]
+[2023-06-12 15:39:05] INFO root fetch - processPackages [niswitch]: Start processing: nitclk
+[2023-06-12 15:39:05] INFO root fetch - main [MainThread]: End processing [niswitch]: success
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nitclk]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nimodinst]: Remove: archive file [/home/abi/fetcher/tmp/nimodinst-1.4.4.tar.gz]
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nimodinst]: Remove: archive file [/home/abi/fetcher/tmp/nimodinst-1.4.5.tar.gz]
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nimodinst]: Start processing: netbox-cisco-maintenance
+[2023-06-12 15:39:05] INFO root fetch - main [MainThread]: End processing [nimodinst]: success
+[2023-06-12 15:39:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 15:39:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nitclk]: Downloading https://files.pythonhosted.org/packages/d8/70/94f96f747f3a91e6d9b4868a0982c0a479d772c9db6a343790816daa54d2/nitclk-1.4.4.tar.gz
+[2023-06-12 15:39:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nitclk]: Downloading https://files.pythonhosted.org/packages/f1/5d/ba96c1f3aa686fa281c378714d02c1dfc9e37396ac143a722afa217acea3/nitclk-1.4.5.tar.gz
+[2023-06-12 15:39:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-12 15:39:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230612/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nise]: Remove: archive file [/home/abi/fetcher/tmp/nise-1.4.4.tar.gz]
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nise]: Remove: archive file [/home/abi/fetcher/tmp/nise-1.4.5.tar.gz]
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nise]: Start processing: novumapiclient
+[2023-06-12 15:39:05] INFO root fetch - main [MainThread]: End processing [nise]: success
+[2023-06-12 15:39:05] INFO root fetch - processPackages [novumapiclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nitclk]: executing diffoscope
+[2023-06-12 15:39:05] INFO root fetch - processPackages [nitclk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitclk-1.4.4.tar.gz tmp/nitclk-1.4.5.tar.gz --markdown 20230612/n/nitclk/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:39:05] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/a7/22/399d970b849524a56452e68c3709e1bf080d73b8e95510fef0c1873fdea3/NovumApiClient-0.0.8.tar.gz
+[2023-06-12 15:39:06] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/3d/0c/5c5842111fb6972aa310efdcf176bc4d80b59f6b28f36d17483472d6a79d/novumapiclient-0.0.9.tar.gz
+[2023-06-12 15:39:06] INFO root fetch - processPackages [novumapiclient]: executing diffoscope
+[2023-06-12 15:39:06] INFO root fetch - processPackages [novumapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NovumApiClient-0.0.8.tar.gz tmp/novumapiclient-0.0.9.tar.gz --markdown 20230612/n/novumapiclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 15:39:06] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.6.12.3.tar.gz]
+[2023-06-12 15:39:06] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.7.7.3.tar.gz]
+[2023-06-12 15:39:06] INFO root fetch - processPackages [autocti]: Start processing: wiliot-core
+[2023-06-12 15:39:06] INFO root fetch - main [MainThread]: End processing [autocti]: success
+[2023-06-12 15:39:06] INFO root fetch - processPackages [wiliot-core]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-06-12 15:39:06] INFO root fetch - processPackages [django-datawatch]: Remove: archive file [/home/abi/fetcher/tmp/django-datawatch-3.5.0.tar.gz]
+[2023-06-12 15:39:06] INFO root fetch - processPackages [django-datawatch]: Remove: archive file [/home/abi/fetcher/tmp/django-datawatch-3.6.0.tar.gz]
+[2023-06-12 15:39:06] INFO root fetch - processPackages [django-datawatch]: Start processing: verysimplemodule-test
+[2023-06-12 15:39:06] INFO root fetch - main [MainThread]: End processing [django-datawatch]: success
+[2023-06-12 15:39:06] WARNING root fetch - processPackages [verysimplemodule-test]: Skipping, unable to determine old version
+[2023-06-12 15:39:06] INFO root fetch - processPackages [verysimplemodule-test]: Start processing: dopplrSDK
+[2023-06-12 15:39:06] INFO root fetch - main [MainThread]: End processing [verysimplemodule-test] error
+[2023-06-12 15:39:06] INFO root fetch - processPackages [dopplrSDK]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-12 15:39:06] INFO root fetch - processPackages [nidmm]: Remove: archive file [/home/abi/fetcher/tmp/nidmm-1.4.4.tar.gz]
+[2023-06-12 15:39:06] INFO root fetch - processPackages [nidmm]: Remove: archive file [/home/abi/fetcher/tmp/nidmm-1.4.5.tar.gz]
+[2023-06-12 15:39:06] INFO root fetch - processPackages [nidmm]: Start processing: label-noise-correction
+[2023-06-12 15:39:06] INFO root fetch - main [MainThread]: End processing [nidmm]: success
+[2023-06-12 15:39:06] INFO root fetch - processPackages [label-noise-correction]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 15:39:06] INFO root fetch - processPackages [wiliot-core]: Downloading https://files.pythonhosted.org/packages/11/39/1785165975b2bf6c12b7684c963812b4c2025462858b92c2b2b4b315cae7/wiliot-core-4.0.8.tar.gz
+[2023-06-12 15:39:06] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/31/5b/fcc6cf63c6a2b89c7737fc08aa2d63f23e63b43a969a7bc7451fa4daade5/dopplrSDK-1.8.0-py3-none-any.whl
+[2023-06-12 15:39:06] INFO root fetch - processPackages [label-noise-correction]: Downloading https://files.pythonhosted.org/packages/79/d6/7bddf13ddfdff0447b2803986041dc0d5e6457ed56077c967313480a05b7/label_noise_correction-0.0.2.tar.gz
+[2023-06-12 15:39:07] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/1c/be/1e543209bfd5c1bbd26be34153e492020dc40ba572e292b27415deb0fafd/dopplrSDK-1.9.0-py3-none-any.whl
+[2023-06-12 15:39:07] INFO root fetch - processPackages [wiliot-core]: Downloading https://files.pythonhosted.org/packages/54/1e/88e966d214079a48c7fb6f7c3882134873b2e60c12ee4796dbe718208977/wiliot-core-4.0.9.tar.gz
+[2023-06-12 15:39:07] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-06-12 15:39:07] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-1.8.0-py3-none-any.whl.zip tmp/dopplrSDK-1.9.0-py3-none-any.whl.zip --markdown 20230612/d/dopplrSDK/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-12 15:39:07] INFO root fetch - processPackages [label-noise-correction]: Downloading https://files.pythonhosted.org/packages/ce/d3/4df79145114c7a9034108fe9b17d74de6500d7230e6dc15195332d9a575e/label_noise_correction-0.0.3.tar.gz
+[2023-06-12 15:39:07] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.6.12.3.tar.gz]
+[2023-06-12 15:39:07] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.7.7.2.tar.gz]
+[2023-06-12 15:39:07] INFO root fetch - main [MainThread]: End processing [autolens]: success
+[2023-06-12 15:39:07] INFO root fetch - processPackages [wiliot-core]: executing diffoscope
+[2023-06-12 15:39:07] INFO root fetch - processPackages [wiliot-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-core-4.0.8.tar.gz tmp/wiliot-core-4.0.9.tar.gz --markdown 20230612/w/wiliot-core/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-06-12 15:39:07] INFO root fetch - processPackages [label-noise-correction]: executing diffoscope
+[2023-06-12 15:39:07] INFO root fetch - processPackages [label-noise-correction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label_noise_correction-0.0.2.tar.gz tmp/label_noise_correction-0.0.3.tar.gz --markdown 20230612/l/label-noise-correction/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 15:39:07] INFO root fetch - processPackages [niscope]: Remove: archive file [/home/abi/fetcher/tmp/niscope-1.4.4.tar.gz]
+[2023-06-12 15:39:07] INFO root fetch - processPackages [niscope]: Remove: archive file [/home/abi/fetcher/tmp/niscope-1.4.5.tar.gz]
+[2023-06-12 15:39:07] INFO root fetch - main [MainThread]: End processing [niscope]: success
+[2023-06-12 15:39:07] INFO root fetch - processPackages [nidigital]: Remove: archive file [/home/abi/fetcher/tmp/nidigital-1.4.4.tar.gz]
+[2023-06-12 15:39:07] INFO root fetch - processPackages [nidigital]: Remove: archive file [/home/abi/fetcher/tmp/nidigital-1.4.5.tar.gz]
+[2023-06-12 15:39:07] INFO root fetch - main [MainThread]: End processing [nidigital]: success
+[2023-06-12 15:39:08] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/NovumApiClient-0.0.8.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/novumapiclient-0.0.9.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - main [MainThread]: End processing [novumapiclient]: success
+[2023-06-12 15:39:08] INFO root fetch - processPackages [nitclk]: Remove: archive file [/home/abi/fetcher/tmp/nitclk-1.4.4.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - processPackages [nitclk]: Remove: archive file [/home/abi/fetcher/tmp/nitclk-1.4.5.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - main [MainThread]: End processing [nitclk]: success
+[2023-06-12 15:39:08] INFO root fetch - processPackages [nidcpower]: Remove: archive file [/home/abi/fetcher/tmp/nidcpower-1.4.4.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - processPackages [nidcpower]: Remove: archive file [/home/abi/fetcher/tmp/nidcpower-1.4.5.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - main [MainThread]: End processing [nidcpower]: success
+[2023-06-12 15:39:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-12 15:39:08] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-1.8.0-py3-none-any.whl.zip]
+[2023-06-12 15:39:08] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-1.9.0-py3-none-any.whl.zip]
+[2023-06-12 15:39:08] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-06-12 15:39:08] INFO root fetch - processPackages [label-noise-correction]: Remove: archive file [/home/abi/fetcher/tmp/label_noise_correction-0.0.2.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - processPackages [label-noise-correction]: Remove: archive file [/home/abi/fetcher/tmp/label_noise_correction-0.0.3.tar.gz]
+[2023-06-12 15:39:08] INFO root fetch - main [MainThread]: End processing [label-noise-correction]: success
+[2023-06-12 15:39:09] INFO root fetch - processPackages [wiliot-core]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-core-4.0.8.tar.gz]
+[2023-06-12 15:39:09] INFO root fetch - processPackages [wiliot-core]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-core-4.0.9.tar.gz]
+[2023-06-12 15:39:09] INFO root fetch - main [MainThread]: End processing [wiliot-core]: success
+[2023-06-12 15:39:09] INFO root fetch - main [MainThread]: Store serial: [18469283]
