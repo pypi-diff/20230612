@@ -11796,3 +11796,124 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 10:28:10] INFO root fetch - processPackages [simpleui-admin]: Remove: archive file [/home/abi/fetcher/tmp/simpleui-admin-2023.6.12.tar.gz]
 [2023-06-12 10:28:10] INFO root fetch - main [MainThread]: End processing [simpleui-admin]: success
 [2023-06-12 10:28:10] INFO root fetch - main [MainThread]: Store serial: [18466180]
+[2023-06-12 10:33:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18466180]
+[2023-06-12 10:33:19] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taichu-dataflow
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-genv
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightningdata-modules
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: project-Potato-Man
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napatrackmater
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brainflow
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: project404
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Fharvester
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nerotest
+[2023-06-12 10:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lyceanem
+[2023-06-12 10:33:19] WARNING root fetch - processPackages [Fharvester]: Skipping, unable to determine old version
+[2023-06-12 10:33:19] INFO root fetch - processPackages [Fharvester]: Start processing: pydoclint
+[2023-06-12 10:33:19] INFO root fetch - main [MainThread]: End processing [Fharvester] error
+[2023-06-12 10:33:19] WARNING root fetch - processPackages [project404]: Skipping, unable to determine old version
+[2023-06-12 10:33:19] INFO root fetch - processPackages [project404]: Start processing: nkkTest
+[2023-06-12 10:33:19] INFO root fetch - main [MainThread]: End processing [project404] error
+[2023-06-12 10:33:20] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-12 10:33:20] INFO root fetch - processPackages [lightningdata-modules]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-12 10:33:20] WARNING root fetch - processPackages [nkkTest]: Skipping, unable to determine old version
+[2023-06-12 10:33:20] WARNING root fetch - processPackages [nerotest]: Skipping, unable to determine old version
+[2023-06-12 10:33:20] WARNING root fetch - processPackages [project-Potato-Man]: Skipping, unable to determine old version
+[2023-06-12 10:33:20] INFO root fetch - processPackages [nkkTest]: Start processing: proj00
+[2023-06-12 10:33:20] INFO root fetch - processPackages [lyceanem]: New version: [0.post0.dev1] Old Version: [0.5]
+[2023-06-12 10:33:20] INFO root fetch - main [MainThread]: End processing [nkkTest] error
+[2023-06-12 10:33:20] INFO root fetch - processPackages [nerotest]: Start processing: otel-tracer
+[2023-06-12 10:33:20] INFO root fetch - processPackages [project-Potato-Man]: Start processing: tf-model-optimization-nightly
+[2023-06-12 10:33:20] INFO root fetch - main [MainThread]: End processing [nerotest] error
+[2023-06-12 10:33:20] INFO root fetch - processPackages [brainflow]: New version: [5.8.1] Old Version: [5.8.0]
+[2023-06-12 10:33:20] INFO root fetch - processPackages [jupyterlab-genv]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-12 10:33:20] INFO root fetch - main [MainThread]: End processing [project-Potato-Man] error
+[2023-06-12 10:33:20] INFO root fetch - processPackages [pydoclint]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 10:33:20] INFO root fetch - processPackages [napatrackmater]: New version: [3.7.0] Old Version: [3.6.9]
+[2023-06-12 10:33:20] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/44/5d/789acd52f9803d364cd90413c0ba748b243e4c3b86be85c3b1b319917714/taichu-dataflow-1.0.5.tar.gz
+[2023-06-12 10:33:20] WARNING root fetch - processPackages [proj00]: Skipping, unable to determine old version
+[2023-06-12 10:33:20] INFO root fetch - processPackages [proj00]: Start processing: xj-invoice
+[2023-06-12 10:33:20] INFO root fetch - main [MainThread]: End processing [proj00] error
+[2023-06-12 10:33:20] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230611] Old Version: [0.7.5.dev20230609]
+[2023-06-12 10:33:20] INFO root fetch - processPackages [otel-tracer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 10:33:20] INFO root fetch - processPackages [xj-invoice]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-06-12 10:33:20] INFO root fetch - processPackages [lyceanem]: Downloading https://files.pythonhosted.org/packages/9f/36/286c51f2f64bdc3b967c7195fb3b5d529e3eb997d67f98b717c2e983d29a/lyceanem-0.5.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [lightningdata-modules]: Downloading https://files.pythonhosted.org/packages/22/dc/64f2aaf233cddc57e3e906d3c7963c9bd539d4f3f637a5c912e913ffd487/lightningdata-modules-0.1.7.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [jupyterlab-genv]: Downloading https://files.pythonhosted.org/packages/d7/f2/5b16b323949a15482229e98449135bea69c2db0204f5a3ba36c1ec728de8/jupyterlab_genv-0.2.0.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [brainflow]: Downloading https://files.pythonhosted.org/packages/68/b1/59e97920d4b3b65b135f895fd3f0e9d5477bc16edab77584989d80de8d2e/brainflow-5.8.0-py3-none-any.whl
+[2023-06-12 10:33:20] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/89/79/e0db44ccd0a111b2f6a20c1af3d56950035a9d7f9abb773a0fd6c1c254cf/napatrackmater-3.6.9.tar.gz
+[2023-06-12 10:33:20] WARNING root fetch - processPackages [lyceanem]: Skipping package: exceeds size limit 23080864>=10485760
+[2023-06-12 10:33:20] INFO root fetch - processPackages [lyceanem]: Start processing: hmt-basemodels
+[2023-06-12 10:33:20] INFO root fetch - main [MainThread]: End processing [lyceanem] error
+[2023-06-12 10:33:20] INFO root fetch - processPackages [hmt-basemodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 10:33:20] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/88/64/f0f85cdb501e1d74fe72d7b3b306ad13f100598b427f8ff0e8568dc3a68f/pydoclint-0.0.8.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/4e/6c/7798e711468e640316ce0f214b94508428242879cef7b677fd2e8de770c6/tf_model_optimization_nightly-0.7.5.dev20230609-py2.py3-none-any.whl
+[2023-06-12 10:33:20] WARNING root fetch - processPackages [brainflow]: Skipping package: exceeds size limit 28597809>=10485760
+[2023-06-12 10:33:20] INFO root fetch - processPackages [brainflow]: Start processing: PyVolSuggester
+[2023-06-12 10:33:20] INFO root fetch - main [MainThread]: End processing [brainflow] error
+[2023-06-12 10:33:20] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/e6/12/a2b86793395d9dc4c03f8ec68aab595512a91c4f58cade9e7cbce98c31d2/otel_tracer-0.0.2-py3-none-any.whl
+[2023-06-12 10:33:20] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/a3/48/3c50cf9674e4705370e0e6c536d65f755b6caa0f21b2d1bd22a8b4af4dbf/taichu-dataflow-1.0.6.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/8f/a8/6ccf5ba58df70541e82764c6a8e664574509e720a9ebae521eb95658f7ef/xj_invoice-1.0.7.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/10/31/f8b501f8282f68f747942751c25a77878cef0fb175d4a3013e6696259392/hmt-basemodels-0.1.8.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-12 10:33:20] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.5.tar.gz tmp/taichu-dataflow-1.0.6.tar.gz --markdown 20230612/t/taichu-dataflow/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-12 10:33:20] INFO root fetch - processPackages [PyVolSuggester]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-12 10:33:20] INFO root fetch - processPackages [lightningdata-modules]: Downloading https://files.pythonhosted.org/packages/f2/24/4935735c7e8d7586ce986134cc1958cad510db21d0e5cb5408f58cbec12b/lightningdata-modules-0.1.8.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/8e/39/fcc223950100d535835aa60dbdeaf24dd762adc67a991ac2b8c31105d739/tf_model_optimization_nightly-0.7.5.dev20230611-py2.py3-none-any.whl
+[2023-06-12 10:33:20] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/06/52/1df9ed030b4df58371076738e6e24b0cacd371f5a6378a80da93ac42a297/napatrackmater-3.7.0.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/08/fc/a46479a39d8bd265031e3186beb56d28f720613929d6a32ec23a11b6798b/pydoclint-0.0.9.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [lightningdata-modules]: executing diffoscope
+[2023-06-12 10:33:20] INFO root fetch - processPackages [lightningdata-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningdata-modules-0.1.7.tar.gz tmp/lightningdata-modules-0.1.8.tar.gz --markdown 20230612/l/lightningdata-modules/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-12 10:33:20] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/a9/77/baae3fb8c2842e9ee7a0d5261ca27a183ef075f699c7e37397093b4062f2/xj_invoice-1.0.9.tar.gz
+[2023-06-12 10:33:20] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-12 10:33:20] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.6.9.tar.gz tmp/napatrackmater-3.7.0.tar.gz --markdown 20230612/n/napatrackmater/3.6.9-3.7.0/diff.md --exclude *.pyd
+[2023-06-12 10:33:20] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/e2/8b/8c62e183869f3a4f458e21056a2993b061a5c31ece7a9c52cf04e923a91e/otel_tracer-0.0.3-py3-none-any.whl
+[2023-06-12 10:33:21] INFO root fetch - processPackages [PyVolSuggester]: Downloading https://files.pythonhosted.org/packages/77/8d/4c2abe5c96665186e74f913861e6ed7a748f90f3d89a63658b5815f2720e/pyvolsuggester-0.0.6.tar.gz
+[2023-06-12 10:33:21] INFO root fetch - processPackages [jupyterlab-genv]: Downloading https://files.pythonhosted.org/packages/6b/ac/d2d91b4b59aba5923bb9ece5498eed5df5aa658d4b14c0588d084021bd55/jupyterlab_genv-0.3.0.tar.gz
+[2023-06-12 10:33:21] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-06-12 10:33:21] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.8.tar.gz tmp/pydoclint-0.0.9.tar.gz --markdown 20230612/p/pydoclint/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 10:33:21] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-12 10:33:21] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230609-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230611-py2.py3-none-any.whl.zip --markdown 20230612/t/tf-model-optimization-nightly/0.7.5.dev20230609-0.7.5.dev20230611/diff.md --exclude *.pyd
+[2023-06-12 10:33:21] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/52/46/c07ff8cdb540692ad450317ef569c21b7a59538f124732ee66f47344fb68/hmt-basemodels-0.1.9.tar.gz
+[2023-06-12 10:33:21] INFO root fetch - processPackages [jupyterlab-genv]: executing diffoscope
+[2023-06-12 10:33:21] INFO root fetch - processPackages [jupyterlab-genv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_genv-0.2.0.tar.gz tmp/jupyterlab_genv-0.3.0.tar.gz --markdown 20230612/j/jupyterlab-genv/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-12 10:33:21] INFO root fetch - processPackages [xj-invoice]: executing diffoscope
+[2023-06-12 10:33:21] INFO root fetch - processPackages [xj-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_invoice-1.0.7.tar.gz tmp/xj_invoice-1.0.9.tar.gz --markdown 20230612/x/xj-invoice/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 10:33:21] INFO root fetch - processPackages [otel-tracer]: executing diffoscope
+[2023-06-12 10:33:21] INFO root fetch - processPackages [otel-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otel_tracer-0.0.2-py3-none-any.whl.zip tmp/otel_tracer-0.0.3-py3-none-any.whl.zip --markdown 20230612/o/otel-tracer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 10:33:21] INFO root fetch - processPackages [hmt-basemodels]: executing diffoscope
+[2023-06-12 10:33:21] INFO root fetch - processPackages [hmt-basemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmt-basemodels-0.1.8.tar.gz tmp/hmt-basemodels-0.1.9.tar.gz --markdown 20230612/h/hmt-basemodels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 10:33:21] INFO root fetch - processPackages [PyVolSuggester]: Downloading https://files.pythonhosted.org/packages/c6/cb/7ce18e860fa0693c22c27f82f94eaa9301db65c4baa160769e555c78a0b1/pyvolsuggester-0.0.7-py3-none-any.whl
+[2023-06-12 10:33:21] INFO root fetch - processPackages [PyVolSuggester]: executing diffoscope
+[2023-06-12 10:33:21] INFO root fetch - processPackages [PyVolSuggester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvolsuggester-0.0.6.tar.gz tmp/pyvolsuggester-0.0.7-py3-none-any.whl.zip --markdown 20230612/P/PyVolSuggester/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 10:33:22] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.5.tar.gz]
+[2023-06-12 10:33:22] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.6.tar.gz]
+[2023-06-12 10:33:22] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-12 10:33:22] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.2-py3-none-any.whl.zip]
+[2023-06-12 10:33:22] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.3-py3-none-any.whl.zip]
+[2023-06-12 10:33:22] INFO root fetch - main [MainThread]: End processing [otel-tracer]: success
+[2023-06-12 10:33:22] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.7.tar.gz]
+[2023-06-12 10:33:22] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.9.tar.gz]
+[2023-06-12 10:33:22] INFO root fetch - main [MainThread]: End processing [xj-invoice]: success
+[2023-06-12 10:33:22] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.9.tar.gz]
+[2023-06-12 10:33:22] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.0.tar.gz]
+[2023-06-12 10:33:22] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-12 10:33:23] INFO root fetch - processPackages [hmt-basemodels]: Remove: archive file [/home/abi/fetcher/tmp/hmt-basemodels-0.1.8.tar.gz]
+[2023-06-12 10:33:23] INFO root fetch - processPackages [hmt-basemodels]: Remove: archive file [/home/abi/fetcher/tmp/hmt-basemodels-0.1.9.tar.gz]
+[2023-06-12 10:33:23] INFO root fetch - main [MainThread]: End processing [hmt-basemodels]: success
+[2023-06-12 10:33:23] INFO root fetch - processPackages [PyVolSuggester]: Remove: archive file [/home/abi/fetcher/tmp/pyvolsuggester-0.0.6.tar.gz]
+[2023-06-12 10:33:23] INFO root fetch - processPackages [PyVolSuggester]: Remove: archive file [/home/abi/fetcher/tmp/pyvolsuggester-0.0.7-py3-none-any.whl.zip]
+[2023-06-12 10:33:23] INFO root fetch - main [MainThread]: End processing [PyVolSuggester]: success
+[2023-06-12 10:33:23] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230609-py2.py3-none-any.whl.zip]
+[2023-06-12 10:33:23] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230611-py2.py3-none-any.whl.zip]
+[2023-06-12 10:33:23] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-06-12 10:33:23] INFO root fetch - processPackages [lightningdata-modules]: Remove: archive file [/home/abi/fetcher/tmp/lightningdata-modules-0.1.7.tar.gz]
+[2023-06-12 10:33:23] INFO root fetch - processPackages [lightningdata-modules]: Remove: archive file [/home/abi/fetcher/tmp/lightningdata-modules-0.1.8.tar.gz]
+[2023-06-12 10:33:23] INFO root fetch - main [MainThread]: End processing [lightningdata-modules]: success
+[2023-06-12 10:33:25] INFO root fetch - processPackages [jupyterlab-genv]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_genv-0.2.0.tar.gz]
+[2023-06-12 10:33:25] INFO root fetch - processPackages [jupyterlab-genv]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_genv-0.3.0.tar.gz]
+[2023-06-12 10:33:25] INFO root fetch - main [MainThread]: End processing [jupyterlab-genv]: success
+[2023-06-12 10:34:17] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.8.tar.gz]
+[2023-06-12 10:34:17] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
+[2023-06-12 10:34:17] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-06-12 10:34:17] INFO root fetch - main [MainThread]: Store serial: [18466240]
