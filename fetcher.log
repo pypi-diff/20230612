@@ -1599,3 +1599,154 @@
 [2023-06-12 02:10:47] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip]
 [2023-06-12 02:10:47] INFO root fetch - main [MainThread]: End processing [dss-python]: success
 [2023-06-12 02:10:47] INFO root fetch - main [MainThread]: Store serial: [18462043]
+[2023-06-12 02:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462043]
+[2023-06-12 02:16:02] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: constructs
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-grafana
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-iot-core-certificates
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpservice
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-quantizers-nightly
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KTensors
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-operator
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openbb-nightly
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-jenkins
+[2023-06-12 02:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-local-exec
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.0.0.8062023.post1051] Old Version: [1.0.0.7062023.post161221]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [KTensors]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.1.dev20230611] Old Version: [3.0.1.dev20230610]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/30/45/71fb24f224af0b87063b556697251ae46b5def43c80f9d63dd50f877edaa/KTensors-0.1.0.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/2d/db/523e31150a0e70555fbf0dda9335ce4ef0da653512967d3ace25ea79fc04/mct-quantizers-nightly-1.0.0.7062023.post161221.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/b6/d5/9db67e5018cbb315231f1cbe55a86e64898b9ce0809ed5cc5d4632fc5c5c/cdktf-local-exec-0.2.8.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/be/a4/576d04efbf5dd535f5ae9f3a2345f05071ddd1cad9f8a232f93b5251c2fe/openbb_nightly-3.0.1.dev20230610.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-06-12 02:16:03] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 21233059>=10485760
+[2023-06-12 02:16:03] INFO root fetch - processPackages [openbb-nightly]: Start processing: cdklabs.codepipeline-extensions
+[2023-06-12 02:16:03] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/ca/b5/49a5f1920fe5c94964a5e17e097c324e04e4f4e4ac087ccfa73274eb154b/mct-quantizers-nightly-1.0.0.8062023.post1051.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/19/02/83e6ceb8de9cca722ee3e14572dc8001d4f7c34c4de404e7ca645de74bc4/cdktf-local-exec-0.2.9.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/a7/0a/e9e5087cb225109c31377475879fbacc62e74fcc6f039f635b4e3688c692/KTensors-0.1.1.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/e6/c8/05cf61f36e0e0457efb63d90051ef801f55cf0db4e5f92c27a28a57c5501/constructs-3.4.98.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.2.8.tar.gz tmp/cdktf-local-exec-0.2.9.tar.gz --markdown 20230612/c/cdktf-local-exec/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.0.0.7062023.post161221.tar.gz tmp/mct-quantizers-nightly-1.0.0.8062023.post1051.tar.gz --markdown 20230612/m/mct-quantizers-nightly/1.0.0.7062023.post161221-1.0.0.8062023.post1051/diff.md --exclude *.pyd
+[2023-06-12 02:16:03] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.1.0.tar.gz tmp/KTensors-0.1.1.tar.gz --markdown 20230612/K/KTensors/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230612/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-12 02:16:03] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: cdk-events-notify
+[2023-06-12 02:16:03] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230612/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230612/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230612/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/0a/98/a9a1408d0c31908cc2c2129ea9ab047e19bc2d51b19406637848339f5c37/constructs-3.4.99.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230612/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-06-12 02:16:03] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230612/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-06-12 02:16:03] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230612/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 02:16:04] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.1.0.tar.gz]
+[2023-06-12 02:16:04] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.1.1.tar.gz]
+[2023-06-12 02:16:04] INFO root fetch - processPackages [KTensors]: Start processing: gleu
+[2023-06-12 02:16:04] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-12 02:16:05] WARNING root fetch - processPackages [gleu]: Skipping, unable to determine old version
+[2023-06-12 02:16:05] INFO root fetch - processPackages [gleu]: Start processing: cdk-skylight
+[2023-06-12 02:16:05] INFO root fetch - main [MainThread]: End processing [gleu] error
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: cdktf-gitlab-runner
+[2023-06-12 02:16:05] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.2.8.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.2.9.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdktf-local-exec]: Start processing: cdk-watchful
+[2023-06-12 02:16:05] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-watchful]: New version: [0.6.99] Old Version: [0.6.98]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk8s-grafana]: Start processing: pythonce
+[2023-06-12 02:16:05] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-watchful]: Downloading https://files.pythonhosted.org/packages/63/04/22034e5f4a6a78ec4b91dd73cac8c9dbe6e3a87354ee89a8eaae1037e53e/cdk-watchful-0.6.98.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [pythonce]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [mpservice]: Start processing: cdk-common
+[2023-06-12 02:16:05] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230612/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-12 02:16:05] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/45/65/26df3c4e3b6d074bd44718616e02d7d259cc9e7e09d0e7f2c9913447b4c2/pythonce-0.0.4.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230612/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-watchful]: Downloading https://files.pythonhosted.org/packages/f8/58/6ba4dd415db16707dd7ba3e1359b74a8b5c71b19be3ed91e3f6f87c6c960/cdk-watchful-0.6.99.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-06-12 02:16:05] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.98.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.99.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-watchful]: executing diffoscope
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-watchful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-watchful-0.6.98.tar.gz tmp/cdk-watchful-0.6.99.tar.gz --markdown 20230612/c/cdk-watchful/0.6.98-0.6.99/diff.md --exclude *.pyd
+[2023-06-12 02:16:05] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/98/2f/371735c261a66ae41ce59d962b247d77abc3c29aa663a0c34143053f148e/pythonce-0.0.5.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-12 02:16:05] INFO root fetch - processPackages [pythonce]: executing diffoscope
+[2023-06-12 02:16:05] INFO root fetch - processPackages [pythonce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonce-0.0.4.tar.gz tmp/pythonce-0.0.5.tar.gz --markdown 20230612/p/pythonce/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-06-12 02:16:05] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-12 02:16:05] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230612/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-12 02:16:06] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.0.0.7062023.post161221.tar.gz]
+[2023-06-12 02:16:06] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.0.0.8062023.post1051.tar.gz]
+[2023-06-12 02:16:06] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-06-12 02:16:06] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-06-12 02:16:06] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-06-12 02:16:06] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-06-12 02:16:06] INFO root fetch - processPackages [cdk-watchful]: Remove: archive file [/home/abi/fetcher/tmp/cdk-watchful-0.6.98.tar.gz]
+[2023-06-12 02:16:06] INFO root fetch - processPackages [cdk-watchful]: Remove: archive file [/home/abi/fetcher/tmp/cdk-watchful-0.6.99.tar.gz]
+[2023-06-12 02:16:06] INFO root fetch - main [MainThread]: End processing [cdk-watchful]: success
+[2023-06-12 02:16:07] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-12 02:16:07] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-12 02:16:07] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-12 02:16:07] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-06-12 02:16:07] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-06-12 02:16:07] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-06-12 02:16:17] INFO root fetch - processPackages [pythonce]: Remove: archive file [/home/abi/fetcher/tmp/pythonce-0.0.4.tar.gz]
+[2023-06-12 02:16:17] INFO root fetch - processPackages [pythonce]: Remove: archive file [/home/abi/fetcher/tmp/pythonce-0.0.5.tar.gz]
+[2023-06-12 02:16:17] INFO root fetch - main [MainThread]: End processing [pythonce]: success
+[2023-06-12 02:16:17] INFO root fetch - main [MainThread]: Store serial: [18462097]
