@@ -22213,3 +22213,213 @@ EOFError: EOF read where object expected
 [2023-06-12 17:28:37] INFO root fetch - processPackages [qsl]: Remove: archive file [/home/abi/fetcher/tmp/qsl-0.2.8-py2.py3-none-any.whl.zip]
 [2023-06-12 17:28:37] INFO root fetch - main [MainThread]: End processing [qsl]: success
 [2023-06-12 17:28:37] INFO root fetch - main [MainThread]: Store serial: [18470643]
+[2023-06-12 17:33:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470643]
+[2023-06-12 17:33:46] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metrics-layer
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Operetta-tool
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inet-nm
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nowcasting-datamodel
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymodaq-plugins-thorlabs
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantconnect-stubs
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: getmodelspec
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msgspec
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oexp
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: a2ml
+[2023-06-12 17:33:46] INFO root fetch - processPackages [inet-nm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-12 17:33:46] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-12 17:33:46] INFO root fetch - processPackages [getmodelspec]: Start processing: ltphotonics
+[2023-06-12 17:33:46] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-12 17:33:46] INFO root fetch - processPackages [Operetta-tool]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-12 17:33:46] INFO root fetch - processPackages [pymodaq-plugins-thorlabs]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 17:33:46] INFO root fetch - processPackages [oexp]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-12 17:33:46] WARNING root fetch - processPackages [ltphotonics]: Skipping, unable to determine old version
+[2023-06-12 17:33:46] INFO root fetch - processPackages [metrics-layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-12 17:33:46] INFO root fetch - processPackages [ltphotonics]: Start processing: easy-local-features
+[2023-06-12 17:33:46] INFO root fetch - main [MainThread]: End processing [ltphotonics] error
+[2023-06-12 17:33:47] INFO root fetch - processPackages [a2ml]: New version: [1.0.94] Old Version: [1.0.93]
+[2023-06-12 17:33:47] INFO root fetch - processPackages [msgspec]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-12 17:33:47] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-12 17:33:47] INFO root fetch - processPackages [easy-local-features]: New version: [0.2] Old Version: [0.1]
+[2023-06-12 17:33:47] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/c2/e2/5778352fac19d26f80208692a110ea6419cb74fc037542f35e4d8915ad8d/oexp-0.7.3.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [Operetta-tool]: Downloading https://files.pythonhosted.org/packages/b9/7d/318ee226c664fef2d04a731153f21ff6e13fd722bdf39ff527054d9f7a4d/Operetta_tool-1.4.1.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-12 17:33:47] INFO root fetch - processPackages [inet-nm]: Downloading https://files.pythonhosted.org/packages/c4/72/bda27eaccd572d5ff6c418d1d67feef425c841664fefaff1c44a9a2b78e7/inet-nm-0.0.4.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [pymodaq-plugins-thorlabs]: Downloading https://files.pythonhosted.org/packages/3c/f7/f580bef116cec0150cdf4ac0e9b181658c9c348c08f605386badc70d365f/pymodaq_plugins_thorlabs-1.0.0.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/0c/16/8e6ca5599de0e7e378dadc0534671c5049e0e554380f663aa6753a849347/nowcasting_datamodel-1.4.1.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [a2ml]: Downloading https://files.pythonhosted.org/packages/48/2c/9a35ffb091acb406715ed9a04e0c0761482edf3d70edb4d6a267d8e34a93/a2ml-1.0.93.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/b2/11/ec75058f046fa1792136bdaea4215dc4d57c0685e8b4ae89d06848500241/msgspec-0.9.0.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/02/a0/294b3895ee1f2832a937b8b7bee22fdd1bdcbf18cee724d2a1980eeea684/easy_local_features-0.1.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/49/ac/277553e3e4a64fca8071c4a582ae8f0ddcd9c61800d5660e235ae8ff7665/oexp-0.7.4.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [Operetta-tool]: Downloading https://files.pythonhosted.org/packages/d7/ea/74d87735658bb30c3d3e75104c169a75f5e349fc5cb89fd62a4082b12ce8/Operetta_tool-1.4.2.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [inet-nm]: Downloading https://files.pythonhosted.org/packages/e4/43/96bd1234d006819c9e35526df3678899d3e0bc3c733ce6887bfbb0955b55/inet-nm-0.0.5.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [pymodaq-plugins-thorlabs]: Downloading https://files.pythonhosted.org/packages/55/1f/9f65cb3734e95559d083acb0f0b8fe68dd0d800157e13ae883795fa1fa0e/pymodaq_plugins_thorlabs-1.0.1.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [oexp]: executing diffoscope
+[2023-06-12 17:33:47] INFO root fetch - processPackages [Operetta-tool]: executing diffoscope
+[2023-06-12 17:33:47] INFO root fetch - processPackages [oexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oexp-0.7.3.tar.gz tmp/oexp-0.7.4.tar.gz --markdown 20230612/o/oexp/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-12 17:33:47] INFO root fetch - processPackages [Operetta-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Operetta_tool-1.4.1.tar.gz tmp/Operetta_tool-1.4.2.tar.gz --markdown 20230612/O/Operetta-tool/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-12 17:33:47] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/82/fe/4d682dd7dd7273f14da89da260ded33775a04dc102a6e99c5e1707b7687a/nowcasting_datamodel-1.4.2.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [inet-nm]: executing diffoscope
+[2023-06-12 17:33:47] INFO root fetch - processPackages [inet-nm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inet-nm-0.0.4.tar.gz tmp/inet-nm-0.0.5.tar.gz --markdown 20230612/i/inet-nm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-12 17:33:47] INFO root fetch - processPackages [pymodaq-plugins-thorlabs]: executing diffoscope
+[2023-06-12 17:33:47] INFO root fetch - processPackages [a2ml]: Downloading https://files.pythonhosted.org/packages/0b/ef/a15c4cd70fe5e1418f1eeff46b3c5d08b3908a49557b103a9dfc73484817/a2ml-1.0.94.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [pymodaq-plugins-thorlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_thorlabs-1.0.0.tar.gz tmp/pymodaq_plugins_thorlabs-1.0.1.tar.gz --markdown 20230612/p/pymodaq-plugins-thorlabs/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 17:33:47] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/46/4a/86b834cc4b368ef7f76d74b50e523126b6df014ad0fe27472be1a6a76c75/msgspec-0.9.1.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/8c/bb/d982402f6ce56c510a7ab92b32c0bc4b37779187ca016a319bd778341401/easy_local_features-0.2.tar.gz
+[2023-06-12 17:33:47] INFO root fetch - processPackages [metrics-layer]: executing diffoscope
+[2023-06-12 17:33:47] INFO root fetch - processPackages [metrics-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20230612/m/metrics-layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-12 17:33:47] INFO root fetch - processPackages [a2ml]: executing diffoscope
+[2023-06-12 17:33:47] INFO root fetch - processPackages [a2ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2ml-1.0.93.tar.gz tmp/a2ml-1.0.94.tar.gz --markdown 20230612/a/a2ml/1.0.93-1.0.94/diff.md --exclude *.pyd
+[2023-06-12 17:33:47] INFO root fetch - processPackages [msgspec]: executing diffoscope
+[2023-06-12 17:33:47] INFO root fetch - processPackages [msgspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgspec-0.9.0.tar.gz tmp/msgspec-0.9.1.tar.gz --markdown 20230612/m/msgspec/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-12 17:33:47] INFO root fetch - processPackages [easy-local-features]: executing diffoscope
+[2023-06-12 17:33:47] INFO root fetch - processPackages [easy-local-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_local_features-0.1.tar.gz tmp/easy_local_features-0.2.tar.gz --markdown 20230612/e/easy-local-features/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-12 17:33:47] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-06-12 17:33:47] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.1.tar.gz tmp/nowcasting_datamodel-1.4.2.tar.gz --markdown 20230612/n/nowcasting-datamodel/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-12 17:33:48] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-12 17:33:48] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-12 17:33:48] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230612/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-12 17:33:49] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.7.3.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.7.4.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [oexp]: Start processing: pymodaq-plugins-newport
+[2023-06-12 17:33:49] INFO root fetch - main [MainThread]: End processing [oexp]: success
+[2023-06-12 17:33:49] INFO root fetch - processPackages [pymodaq-plugins-newport]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [metrics-layer]: Start processing: mozilla-nimbus-shared
+[2023-06-12 17:33:49] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
+[2023-06-12 17:33:49] INFO root fetch - processPackages [mozilla-nimbus-shared]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [pymodaq-plugins-newport]: Downloading https://files.pythonhosted.org/packages/ea/a2/ce5b92bedc12211948cad65ae89815111364f5ba619eb05c9f3c34604ba1/pymodaq_plugins_newport-1.0.1.tar.gz
+[2023-06-12 17:33:49] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.1.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.2.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [easy-local-features]: Start processing: task-processing
+[2023-06-12 17:33:49] INFO root fetch - main [MainThread]: End processing [easy-local-features]: success
+[2023-06-12 17:33:49] INFO root fetch - processPackages [task-processing]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [msgspec]: Remove: archive file [/home/abi/fetcher/tmp/msgspec-0.9.0.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [msgspec]: Remove: archive file [/home/abi/fetcher/tmp/msgspec-0.9.1.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [msgspec]: Start processing: gardener-cicd-base
+[2023-06-12 17:33:49] INFO root fetch - main [MainThread]: End processing [msgspec]: success
+[2023-06-12 17:33:49] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2069.0] Old Version: [1.2068.0]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [mozilla-nimbus-shared]: Downloading https://files.pythonhosted.org/packages/40/02/847fbaff6372a10515feaa03588f1af78ae2118f0aeed1cb1c7a5fc8d499/mozilla_nimbus_shared-2.3.0.tar.gz
+[2023-06-12 17:33:49] INFO root fetch - processPackages [pymodaq-plugins-thorlabs]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_thorlabs-1.0.0.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [pymodaq-plugins-thorlabs]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_thorlabs-1.0.1.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [pymodaq-plugins-thorlabs]: Start processing: gardener-cicd-cli
+[2023-06-12 17:33:49] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-thorlabs]: success
+[2023-06-12 17:33:49] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2069.0] Old Version: [1.2068.0]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [pymodaq-plugins-newport]: Downloading https://files.pythonhosted.org/packages/e1/4f/167e41b5937a21b2aa69914f9d8060762f4afb3840a61e2d68c01a890134/pymodaq_plugins_newport-1.0.2.tar.gz
+[2023-06-12 17:33:49] INFO root fetch - processPackages [task-processing]: Downloading https://files.pythonhosted.org/packages/cc/8a/4d27381995c9eccfa32a36c65e9ca5c320d532a9ebde66b700a561b0d9ef/task_processing-0.9.0.tar.gz
+[2023-06-12 17:33:49] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/4b/d9/86b54bff8a237f00b289a2d241e25faba33ac08c53ed16a2129b2c10c3b6/gardener-cicd-base-1.2068.0.tar.gz
+[2023-06-12 17:33:49] INFO root fetch - processPackages [pymodaq-plugins-newport]: executing diffoscope
+[2023-06-12 17:33:49] INFO root fetch - processPackages [pymodaq-plugins-newport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_newport-1.0.1.tar.gz tmp/pymodaq_plugins_newport-1.0.2.tar.gz --markdown 20230612/p/pymodaq-plugins-newport/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 17:33:49] INFO root fetch - processPackages [Operetta-tool]: Remove: archive file [/home/abi/fetcher/tmp/Operetta_tool-1.4.1.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [Operetta-tool]: Remove: archive file [/home/abi/fetcher/tmp/Operetta_tool-1.4.2.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [Operetta-tool]: Start processing: gardener-cicd-dso
+[2023-06-12 17:33:49] INFO root fetch - main [MainThread]: End processing [Operetta-tool]: success
+[2023-06-12 17:33:49] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2069.0] Old Version: [1.2068.0]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [inet-nm]: Remove: archive file [/home/abi/fetcher/tmp/inet-nm-0.0.4.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/c2/39/1c0f7cb50def4b793009387f38cfb7da7d41e79ad6036b9d10f5b4b003db/gardener-cicd-cli-1.2068.0.tar.gz
+[2023-06-12 17:33:49] INFO root fetch - processPackages [inet-nm]: Remove: archive file [/home/abi/fetcher/tmp/inet-nm-0.0.5.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [inet-nm]: Start processing: gardener-cicd-libs
+[2023-06-12 17:33:49] INFO root fetch - main [MainThread]: End processing [inet-nm]: success
+[2023-06-12 17:33:49] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2069.0] Old Version: [1.2068.0]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [mozilla-nimbus-shared]: Downloading https://files.pythonhosted.org/packages/33/a7/1c349a365548d504926b47c57fa0ed9335df8a8e72c28aba300946624e8e/mozilla_nimbus_shared-2.4.0.tar.gz
+[2023-06-12 17:33:49] INFO root fetch - processPackages [a2ml]: Remove: archive file [/home/abi/fetcher/tmp/a2ml-1.0.93.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [a2ml]: Remove: archive file [/home/abi/fetcher/tmp/a2ml-1.0.94.tar.gz]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [a2ml]: Start processing: gardener-cicd-whd
+[2023-06-12 17:33:49] INFO root fetch - main [MainThread]: End processing [a2ml]: success
+[2023-06-12 17:33:49] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2069.0] Old Version: [1.2068.0]
+[2023-06-12 17:33:49] INFO root fetch - processPackages [task-processing]: Downloading https://files.pythonhosted.org/packages/b5/85/317cca4d426dd0396c597c40ae426f52342d75a9b74135fdfc49d404f58d/task_processing-0.9.1.tar.gz
+[2023-06-12 17:33:49] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/12/f8/a6e04f98b9be260e8364749c8570c9b4f57cd8cacd2a2ebc78bc6b59422b/gardener-cicd-base-1.2069.0.tar.gz
+[2023-06-12 17:33:49] INFO root fetch - processPackages [mozilla-nimbus-shared]: executing diffoscope
+[2023-06-12 17:33:49] INFO root fetch - processPackages [mozilla-nimbus-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozilla_nimbus_shared-2.3.0.tar.gz tmp/mozilla_nimbus_shared-2.4.0.tar.gz --markdown 20230612/m/mozilla-nimbus-shared/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-06-12 17:33:49] INFO root fetch - processPackages [task-processing]: executing diffoscope
+[2023-06-12 17:33:49] INFO root fetch - processPackages [task-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_processing-0.9.0.tar.gz tmp/task_processing-0.9.1.tar.gz --markdown 20230612/t/task-processing/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/b3/0b/da4294bcd2a66ead8fe76ea22af2ea6e809203c41b47c85c0ba6588a3cbe/gardener-cicd-dso-1.2068.0.tar.gz
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2068.0.tar.gz tmp/gardener-cicd-base-1.2069.0.tar.gz --markdown 20230612/g/gardener-cicd-base/1.2068.0-1.2069.0/diff.md --exclude *.pyd
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/79/e4/b7dc4acafc2123a2e6877f20a7be51b9223a2fcc75f9638c6045d4805d32/gardener-cicd-libs-1.2068.0.tar.gz
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/ae/78/76cd03e79373459a829dfbc2b6a8ac3cfab42236e18a83f1874b08c485c0/gardener-cicd-cli-1.2069.0.tar.gz
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/56/23/bf42a2af138472f95d14dd887781d4ed2bb50a560b64874dd6a40af74877/gardener-cicd-whd-1.2068.0.tar.gz
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2068.0.tar.gz tmp/gardener-cicd-cli-1.2069.0.tar.gz --markdown 20230612/g/gardener-cicd-cli/1.2068.0-1.2069.0/diff.md --exclude *.pyd
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/f8/d6/5613c20b74659d6f6c2a4e67ed09c5082a03ac7b7bddba00ff17fd8ed295/gardener-cicd-dso-1.2069.0.tar.gz
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/42/76/2faf0175189e7d6c241b30ba0a5625e4c0cf6d23fa7f6cfe8bf0e7fad182/gardener-cicd-whd-1.2069.0.tar.gz
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/83/5f/2b14df61dac3083bd03b94ec985d9b185315ccbad622e252c525ac3128c6/gardener-cicd-libs-1.2069.0.tar.gz
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2068.0.tar.gz tmp/gardener-cicd-whd-1.2069.0.tar.gz --markdown 20230612/g/gardener-cicd-whd/1.2068.0-1.2069.0/diff.md --exclude *.pyd
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2068.0.tar.gz tmp/gardener-cicd-dso-1.2069.0.tar.gz --markdown 20230612/g/gardener-cicd-dso/1.2068.0-1.2069.0/diff.md --exclude *.pyd
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-12 17:33:50] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2068.0.tar.gz tmp/gardener-cicd-libs-1.2069.0.tar.gz --markdown 20230612/g/gardener-cicd-libs/1.2068.0-1.2069.0/diff.md --exclude *.pyd
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2068.0.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2069.0.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: mo-gymnasium
+[2023-06-12 17:33:51] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-12 17:33:51] INFO root fetch - processPackages [mo-gymnasium]: New version: [1.0.0] Old Version: [0.3.4]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [task-processing]: Remove: archive file [/home/abi/fetcher/tmp/task_processing-0.9.0.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [task-processing]: Remove: archive file [/home/abi/fetcher/tmp/task_processing-0.9.1.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [task-processing]: Start processing: text2story
+[2023-06-12 17:33:51] INFO root fetch - main [MainThread]: End processing [task-processing]: success
+[2023-06-12 17:33:51] INFO root fetch - processPackages [text2story]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/13/d1/6d2b6d71d9a16196d7126a68b93dcc260ef08edf9af85727a1961e843532/text2story-1.3.0.tar.gz
+[2023-06-12 17:33:51] INFO root fetch - processPackages [pymodaq-plugins-newport]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_newport-1.0.1.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [pymodaq-plugins-newport]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_newport-1.0.2.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [pymodaq-plugins-newport]: Start processing: gardener-oci
+[2023-06-12 17:33:51] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-newport]: success
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2068.0.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2069.0.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: five-card-draw
+[2023-06-12 17:33:51] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-12 17:33:51] INFO root fetch - processPackages [mo-gymnasium]: Downloading https://files.pythonhosted.org/packages/65/0f/9b8286a1cfec54253d9552527baa4c76719fbd711e51748cf017b4a935d7/mo-gymnasium-0.3.4.tar.gz
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2068.0.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2069.0.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: processors
+[2023-06-12 17:33:51] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-12 17:33:51] INFO root fetch - processPackages [five-card-draw]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-12 17:33:51] WARNING root fetch - processPackages [processors]: Skipping, unable to determine old version
+[2023-06-12 17:33:51] INFO root fetch - main [MainThread]: End processing [processors] error
+[2023-06-12 17:33:51] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.1.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.2.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-06-12 17:33:51] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/b5/b4/6a3584a840e361d7001addcb7dc3419e0b5eb2ebc1436b7b1c0d7004480a/five_card_draw-1.0.5.tar.gz
+[2023-06-12 17:33:51] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/05/60/7c02bbcc0f9c5c20cb30430adf852f586029c408138a892f529490c82772/text2story-1.3.1.tar.gz
+[2023-06-12 17:33:51] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-12 17:33:51] INFO root fetch - processPackages [mozilla-nimbus-shared]: Remove: archive file [/home/abi/fetcher/tmp/mozilla_nimbus_shared-2.3.0.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - processPackages [mozilla-nimbus-shared]: Remove: archive file [/home/abi/fetcher/tmp/mozilla_nimbus_shared-2.4.0.tar.gz]
+[2023-06-12 17:33:51] INFO root fetch - main [MainThread]: End processing [mozilla-nimbus-shared]: success
+[2023-06-12 17:33:51] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-06-12 17:33:51] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.3.0.tar.gz tmp/text2story-1.3.1.tar.gz --markdown 20230612/t/text2story/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-12 17:33:51] INFO root fetch - processPackages [mo-gymnasium]: Downloading https://files.pythonhosted.org/packages/b4/45/3b2b6f6d7c3bd03e589999fc7754628e0f9d025718008c5eee381bc8be7f/mo-gymnasium-1.0.0.tar.gz
+[2023-06-12 17:33:52] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/16/f3/018b57dc65f1fbb1fc0fc86c1329a90a8b8d5553ad24cf2ba42a47672463/five_card_draw-1.0.6.tar.gz
+[2023-06-12 17:33:52] INFO root fetch - processPackages [mo-gymnasium]: executing diffoscope
+[2023-06-12 17:33:52] INFO root fetch - processPackages [mo-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-gymnasium-0.3.4.tar.gz tmp/mo-gymnasium-1.0.0.tar.gz --markdown 20230612/m/mo-gymnasium/0.3.4-1.0.0/diff.md --exclude *.pyd
+[2023-06-12 17:33:52] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-12 17:33:52] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-12 17:33:52] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230612/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-12 17:33:52] INFO root fetch - processPackages [five-card-draw]: executing diffoscope
+[2023-06-12 17:33:52] INFO root fetch - processPackages [five-card-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_card_draw-1.0.5.tar.gz tmp/five_card_draw-1.0.6.tar.gz --markdown 20230612/f/five-card-draw/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-12 17:33:53] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.3.0.tar.gz]
+[2023-06-12 17:33:53] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.3.1.tar.gz]
+[2023-06-12 17:33:53] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-06-12 17:33:53] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-12 17:33:53] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-12 17:33:53] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-12 17:33:54] INFO root fetch - processPackages [mo-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/mo-gymnasium-0.3.4.tar.gz]
+[2023-06-12 17:33:54] INFO root fetch - processPackages [mo-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/mo-gymnasium-1.0.0.tar.gz]
+[2023-06-12 17:33:54] INFO root fetch - main [MainThread]: End processing [mo-gymnasium]: success
+[2023-06-12 17:33:56] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.5.tar.gz]
+[2023-06-12 17:33:56] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.6.tar.gz]
+[2023-06-12 17:33:56] INFO root fetch - main [MainThread]: End processing [five-card-draw]: success
+[2023-06-12 17:33:56] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2068.0.tar.gz]
+[2023-06-12 17:33:56] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2069.0.tar.gz]
+[2023-06-12 17:33:56] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-12 17:33:57] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-12 17:33:57] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-12 17:33:57] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-12 17:34:41] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2068.0.tar.gz]
+[2023-06-12 17:34:41] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2069.0.tar.gz]
+[2023-06-12 17:34:41] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-12 17:34:41] INFO root fetch - main [MainThread]: Store serial: [18470750]
