@@ -2258,3 +2258,42 @@
 [2023-06-12 02:43:18] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-12 02:43:18] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-12 02:43:18] INFO root fetch - main [MainThread]: Store serial: [18462290]
+[2023-06-12 02:48:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18462290]
+[2023-06-12 02:48:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-12 02:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2023-06-12 02:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-06-12 02:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvc-data
+[2023-06-12 02:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubric-nightly
+[2023-06-12 02:48:27] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-12 02:48:27] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-12 02:48:27] INFO root fetch - processPackages [dvc-data]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-12 02:48:27] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306110046] Old Version: [4.9.2.dev202306110045]
+[2023-06-12 02:48:27] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-12 02:48:27] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/eb/6b/15fef240dd956b0ce1e73397db5a9805861715b83c1a103800667ad27d9d/dvc-data-1.6.0.tar.gz
+[2023-06-12 02:48:27] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-12 02:48:27] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-12 02:48:27] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/56/40/c9c20d6cc0d6dcc6ea89eb014887f7bcc5f000138722563af0bbd2cd3dbe/tfds-nightly-4.9.2.dev202306110045.tar.gz
+[2023-06-12 02:48:27] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-12 02:48:27] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230612/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-12 02:48:27] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/ce/b4/fd642230076a40b4af6630acb15fbd90ce321bcebdcbb33702c0c052b15d/dvc-data-1.6.1.tar.gz
+[2023-06-12 02:48:27] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-12 02:48:27] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-12 02:48:27] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.6.0.tar.gz tmp/dvc-data-1.6.1.tar.gz --markdown 20230612/d/dvc-data/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-12 02:48:27] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-12 02:48:27] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230612/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-12 02:48:28] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/49/e2/61144dc45628fb52693b2fbbe109cbc79d60ff8b5502b111838d73a3a0dc/tfds_nightly-4.9.2.dev202306110046-py3-none-any.whl
+[2023-06-12 02:48:28] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-12 02:48:28] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306110045.tar.gz tmp/tfds_nightly-4.9.2.dev202306110046-py3-none-any.whl.zip --markdown 20230612/t/tfds-nightly/4.9.2.dev202306110045-4.9.2.dev202306110046/diff.md --exclude *.pyd
+[2023-06-12 02:48:28] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-12 02:48:28] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-12 02:48:28] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-12 02:48:28] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-12 02:48:28] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-12 02:48:28] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-12 02:48:29] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.6.0.tar.gz]
+[2023-06-12 02:48:29] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.6.1.tar.gz]
+[2023-06-12 02:48:29] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-12 02:48:40] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306110045.tar.gz]
+[2023-06-12 02:48:40] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202306110046-py3-none-any.whl.zip]
+[2023-06-12 02:48:40] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-12 02:48:40] INFO root fetch - main [MainThread]: Store serial: [18462302]
