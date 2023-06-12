@@ -9069,3 +9069,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 08:17:40] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.9.tar.gz]
 [2023-06-12 08:17:40] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
 [2023-06-12 08:17:40] INFO root fetch - main [MainThread]: Store serial: [18465065]
+[2023-06-12 08:22:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465065]
+[2023-06-12 08:22:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 08:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: revolution.py
+[2023-06-12 08:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hcai-datasets-nightly
+[2023-06-12 08:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretext
+[2023-06-12 08:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gh-subdir
+[2023-06-12 08:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radvis
+[2023-06-12 08:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hcai-datasets-nightly
+[2023-06-12 08:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-synkroni
+[2023-06-12 08:22:49] WARNING root fetch - processPackages [gh-subdir]: Skipping, unable to determine old version
+[2023-06-12 08:22:49] INFO root fetch - main [MainThread]: End processing [gh-subdir] error
+[2023-06-12 08:22:49] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230612] Old Version: [1.6.1.dev20230611]
+[2023-06-12 08:22:49] INFO root fetch - processPackages [radvis]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-12 08:22:49] INFO root fetch - processPackages [revolution.py]: New version: [5.0.0.3] Old Version: [5.0.0.2]
+[2023-06-12 08:22:49] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/d6/f6/adc4c07eb56cdab723b49f974c6b77adb563ce3c73c4b166e2a0707bf0f6/pretext-1.6.1.dev20230611.tar.gz
+[2023-06-12 08:22:49] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/c5/e2/83359df4f3e17dfa5d2fbdcdf9a505d0a336c76731779167ade54fb0444d/revolution.py-5.0.0.2.tar.gz
+[2023-06-12 08:22:49] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202306061220] Old Version: [0.1.9.dev202306021222]
+[2023-06-12 08:22:49] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202306061220] Old Version: [0.1.9.dev202306021222]
+[2023-06-12 08:22:49] INFO root fetch - processPackages [django-synkroni]: New version: [0.4.7] Old Version: [0.4.3]
+[2023-06-12 08:22:49] INFO root fetch - processPackages [radvis]: Downloading https://files.pythonhosted.org/packages/dc/62/a38c49b57ab2d4006022b8edb49b1f23deceb17fd58a8cfddbd9ac00013e/radvis-0.2.3.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/58/82/873eb312c837dd44bf46ea961e3f3c0f39ffc5d2f1be7226ebed41d2cc42/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/58/82/873eb312c837dd44bf46ea961e3f3c0f39ffc5d2f1be7226ebed41d2cc42/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/6b/ca/a6f95763b226037822f35fd29e0c663a1e0917260be5e3299a5b0cd7f86f/revolution.py-5.0.0.3.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [django-synkroni]: Downloading https://files.pythonhosted.org/packages/a1/40/2ddd1ea84f02bc7df54b5fbbdee9ba3ef5b1fd2ed4cb84157bf3d71322b1/django-synkroni-0.4.3.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-06-12 08:22:50] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.0.2.tar.gz tmp/revolution.py-5.0.0.3.tar.gz --markdown 20230612/r/revolution.py/5.0.0.2-5.0.0.3/diff.md --exclude *.pyd
+[2023-06-12 08:22:50] INFO root fetch - processPackages [radvis]: Downloading https://files.pythonhosted.org/packages/15/74/942fc91d05360b15203ff4f1e454699fabb84b6a17514572341e1a0cfec0/radvis-0.2.4.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [radvis]: executing diffoscope
+[2023-06-12 08:22:50] INFO root fetch - processPackages [radvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radvis-0.2.3.tar.gz tmp/radvis-0.2.4.tar.gz --markdown 20230612/r/radvis/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-12 08:22:50] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/8b/35/91665ab569b1c47ffa8dcc22829612c695da8975c35a4fc66a5d00795e6a/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/8b/35/91665ab569b1c47ffa8dcc22829612c695da8975c35a4fc66a5d00795e6a/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/5f/5e/bcc42263b78a28a11d60ed9082902e354ca89069772d2ab10c57cb9b4347/pretext-1.6.1.dev20230612.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [django-synkroni]: Downloading https://files.pythonhosted.org/packages/74/c3/c928190a4cb31217b514b945807c4ca287c5d70d02275e444cec333fb5f9/django-synkroni-0.4.7.tar.gz
+[2023-06-12 08:22:50] INFO root fetch - processPackages [django-synkroni]: executing diffoscope
+[2023-06-12 08:22:50] INFO root fetch - processPackages [django-synkroni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-synkroni-0.4.3.tar.gz tmp/django-synkroni-0.4.7.tar.gz --markdown 20230612/d/django-synkroni/0.4.3-0.4.7/diff.md --exclude *.pyd
+[2023-06-12 08:22:50] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-12 08:22:50] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230611.tar.gz tmp/pretext-1.6.1.dev20230612.tar.gz --markdown 20230612/p/pretext/1.6.1.dev20230611-1.6.1.dev20230612/diff.md --exclude *.pyd
+[2023-06-12 08:22:51] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-06-12 08:22:51] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz --markdown 20230612/h/hcai-datasets-nightly/0.1.9.dev202306021222-0.1.9.dev202306061220/diff.md --exclude *.pyd
+[2023-06-12 08:22:51] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-06-12 08:22:51] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz --markdown 20230612/h/hcai-datasets-nightly/0.1.9.dev202306021222-0.1.9.dev202306061220/diff.md --exclude *.pyd
+[2023-06-12 08:22:51] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.2.tar.gz]
+[2023-06-12 08:22:51] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.0.3.tar.gz]
+[2023-06-12 08:22:51] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-06-12 08:22:51] INFO root fetch - processPackages [radvis]: Remove: archive file [/home/abi/fetcher/tmp/radvis-0.2.3.tar.gz]
+[2023-06-12 08:22:51] INFO root fetch - processPackages [radvis]: Remove: archive file [/home/abi/fetcher/tmp/radvis-0.2.4.tar.gz]
+[2023-06-12 08:22:51] INFO root fetch - main [MainThread]: End processing [radvis]: success
+[2023-06-12 08:22:51] INFO root fetch - processPackages [django-synkroni]: Remove: archive file [/home/abi/fetcher/tmp/django-synkroni-0.4.3.tar.gz]
+[2023-06-12 08:22:51] INFO root fetch - processPackages [django-synkroni]: Remove: archive file [/home/abi/fetcher/tmp/django-synkroni-0.4.7.tar.gz]
+[2023-06-12 08:22:51] INFO root fetch - main [MainThread]: End processing [django-synkroni]: success
+[2023-06-12 08:22:52] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz]
+[2023-06-12 08:22:52] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz]
+[2023-06-12 08:22:52] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-06-12 08:22:52] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-06-12 08:22:56] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230611.tar.gz]
+[2023-06-12 08:22:56] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230612.tar.gz]
+[2023-06-12 08:22:56] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-12 08:22:56] INFO root fetch - main [MainThread]: Store serial: [18465091]
