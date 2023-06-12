@@ -1398,3 +1398,63 @@
 [2023-06-12 01:59:54] INFO root fetch - processPackages [notionizer]: Remove: archive file [/home/abi/fetcher/tmp/notionizer-0.0.5.tar.gz]
 [2023-06-12 01:59:54] INFO root fetch - main [MainThread]: End processing [notionizer]: success
 [2023-06-12 01:59:54] INFO root fetch - main [MainThread]: Store serial: [18461975]
+[2023-06-12 02:04:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461975]
+[2023-06-12 02:05:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-12 02:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-openai
+[2023-06-12 02:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brain-radiodensity-feature-extractor
+[2023-06-12 02:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qbfetcher
+[2023-06-12 02:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-06-12 02:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dyno-viewer
+[2023-06-12 02:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KTensors
+[2023-06-12 02:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mct-nightly
+[2023-06-12 02:05:02] INFO root fetch - processPackages [pydantic-openai]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-12 02:05:03] INFO root fetch - processPackages [brain-radiodensity-feature-extractor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 02:05:03] INFO root fetch - processPackages [KTensors]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-06-12 02:05:03] WARNING root fetch - processPackages [qbfetcher]: Skipping, unable to determine old version
+[2023-06-12 02:05:03] INFO root fetch - processPackages [dyno-viewer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-12 02:05:03] INFO root fetch - main [MainThread]: End processing [qbfetcher] error
+[2023-06-12 02:05:03] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1686441819] Old Version: [1686355400]
+[2023-06-12 02:05:03] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-12 02:05:03] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/d7/86/b01e3ec30c1cd408e72e50bde57a9bd6c2eb13be304aae9f3b5982736547/KTensors-0.0.6.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/90/52/3e138cb78aea451e95016699620155d99999ff652e6f0327b94b8fadc326/torchdatasets-nightly-1686355400.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [pydantic-openai]: Downloading https://files.pythonhosted.org/packages/53/54/df2850b3ba041d66a64178ae228df9d7a2740dc7f6236975289db4cd0b78/pydantic_openai-0.0.1.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [brain-radiodensity-feature-extractor]: Downloading https://files.pythonhosted.org/packages/84/fc/957e5e96ecc97e708e47077592e0e25c46209e5aa7043fd9066661fa30b2/brain-radiodensity-feature-extractor-0.1.0.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [dyno-viewer]: Downloading https://files.pythonhosted.org/packages/75/e2/01aed2bf39c1954a6cfc080e0ddae649b08517f722171d2c2df27f19e2d7/dyno_viewer-0.1.1.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/3e/cf/a8a4078230369453aaafa4d7caa4a8731ddde3cbba8158dbc3c89c5b0d29/KTensors-0.0.8.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/39/fa/63c23125514f4ccbde477ead4854e4d29c9cacdb45efe98739c07a78a9a1/mct-nightly-1.8.0.9052023.post348.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/45/ae/8f95c53c8b88c510bee7fa54319fa362be0c4bced4d1d02803a4a8e6c7c6/torchdatasets-nightly-1686441819.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-12 02:05:03] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.0.6.tar.gz tmp/KTensors-0.0.8.tar.gz --markdown 20230612/K/KTensors/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-06-12 02:05:03] INFO root fetch - processPackages [pydantic-openai]: Downloading https://files.pythonhosted.org/packages/49/d6/1de10c107db65c3c0b8255fe44f55bda25b1cfae906abee487de0907bb39/pydantic_openai-0.1.0.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [brain-radiodensity-feature-extractor]: Downloading https://files.pythonhosted.org/packages/61/7c/d51867622c0ea86665f8ab75e1539be8cee518f8edf50377459f10eb9c19/brain-radiodensity-feature-extractor-0.1.1.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-12 02:05:03] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230612/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-12 02:05:03] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-12 02:05:03] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1686355400.tar.gz tmp/torchdatasets-nightly-1686441819.tar.gz --markdown 20230612/t/torchdatasets-nightly/1686355400-1686441819/diff.md --exclude *.pyd
+[2023-06-12 02:05:03] INFO root fetch - processPackages [dyno-viewer]: Downloading https://files.pythonhosted.org/packages/fa/08/2acac044e983b5213d86a4b5c13941ccca5d721aa0bcfb51aaf12bfec6fe/dyno_viewer-0.1.2.tar.gz
+[2023-06-12 02:05:03] INFO root fetch - processPackages [pydantic-openai]: executing diffoscope
+[2023-06-12 02:05:03] INFO root fetch - processPackages [pydantic-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_openai-0.0.1.tar.gz tmp/pydantic_openai-0.1.0.tar.gz --markdown 20230612/p/pydantic-openai/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 02:05:03] INFO root fetch - processPackages [dyno-viewer]: executing diffoscope
+[2023-06-12 02:05:03] INFO root fetch - processPackages [dyno-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyno_viewer-0.1.1.tar.gz tmp/dyno_viewer-0.1.2.tar.gz --markdown 20230612/d/dyno-viewer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-12 02:05:03] INFO root fetch - processPackages [brain-radiodensity-feature-extractor]: executing diffoscope
+[2023-06-12 02:05:03] INFO root fetch - processPackages [brain-radiodensity-feature-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brain-radiodensity-feature-extractor-0.1.0.tar.gz tmp/brain-radiodensity-feature-extractor-0.1.1.tar.gz --markdown 20230612/b/brain-radiodensity-feature-extractor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 02:05:04] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.0.6.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.0.8.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-12 02:05:04] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686355400.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686441819.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-12 02:05:04] INFO root fetch - processPackages [pydantic-openai]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_openai-0.0.1.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - processPackages [pydantic-openai]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_openai-0.1.0.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - main [MainThread]: End processing [pydantic-openai]: success
+[2023-06-12 02:05:04] INFO root fetch - processPackages [dyno-viewer]: Remove: archive file [/home/abi/fetcher/tmp/dyno_viewer-0.1.1.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - processPackages [dyno-viewer]: Remove: archive file [/home/abi/fetcher/tmp/dyno_viewer-0.1.2.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - main [MainThread]: End processing [dyno-viewer]: success
+[2023-06-12 02:05:04] INFO root fetch - processPackages [brain-radiodensity-feature-extractor]: Remove: archive file [/home/abi/fetcher/tmp/brain-radiodensity-feature-extractor-0.1.0.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - processPackages [brain-radiodensity-feature-extractor]: Remove: archive file [/home/abi/fetcher/tmp/brain-radiodensity-feature-extractor-0.1.1.tar.gz]
+[2023-06-12 02:05:04] INFO root fetch - main [MainThread]: End processing [brain-radiodensity-feature-extractor]: success
+[2023-06-12 02:05:13] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9042023.post411.tar.gz]
+[2023-06-12 02:05:13] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
+[2023-06-12 02:05:13] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-12 02:05:13] INFO root fetch - main [MainThread]: Store serial: [18461996]
