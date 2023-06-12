@@ -9127,3 +9127,185 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 08:22:56] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230612.tar.gz]
 [2023-06-12 08:22:56] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-12 08:22:56] INFO root fetch - main [MainThread]: Store serial: [18465091]
+[2023-06-12 08:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18465091]
+[2023-06-12 08:28:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zipline-tej
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: propeller-design-tools
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiearth-deeplearning
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-synkroni
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irails
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gh-subdir
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ykdraco
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imesh
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: taichu-dataflow
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyQt-Fluent-Widgets
+[2023-06-12 08:28:06] INFO root fetch - processPackages [irails]: New version: [1.3.43] Old Version: [1.3.42]
+[2023-06-12 08:28:06] INFO root fetch - processPackages [django-synkroni]: New version: [0.5] Old Version: [0.4.9]
+[2023-06-12 08:28:06] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 08:28:06] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 08:28:06] INFO root fetch - processPackages [gh-subdir]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-12 08:28:06] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-12 08:28:06] INFO root fetch - processPackages [ykdraco]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-06-12 08:28:07] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-12 08:28:07] WARNING root fetch - processPackages [aiearth-deeplearning]: Skipping, unable to determine old version
+[2023-06-12 08:28:07] INFO root fetch - processPackages [aiearth-deeplearning]: Start processing: django-synkroni
+[2023-06-12 08:28:07] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 08:28:07] INFO root fetch - main [MainThread]: End processing [aiearth-deeplearning] error
+[2023-06-12 08:28:07] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [django-synkroni]: New version: [0.5] Old Version: [0.4.9]
+[2023-06-12 08:28:07] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/d6/89/ae45406781ac69b450b78b80c8cdb0d4845e94ae7dab954287ec9ee3ef73/propeller_design_tools-0.3.4.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [django-synkroni]: Downloading https://files.pythonhosted.org/packages/ba/75/414add4a6500267af80f34358a67714ccf46c2468907fcf7ddc5a692b8f1/django-synkroni-0.4.9.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [django-synkroni]: Downloading https://files.pythonhosted.org/packages/ba/75/414add4a6500267af80f34358a67714ccf46c2468907fcf7ddc5a692b8f1/django-synkroni-0.4.9.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/d1/27/e82a1ba3953051607ca4808ab792d48d4c38697416a4c4ea5e1d0a5be24d/irails-1.3.42.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/22/75/a9acac3c961025d9130ef7ecef197366f58cb3eaf67ce540c3ad989cf49b/gh_subdir-0.1.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/e3/94/d32dcf000e59a99ccdc7d9546e6e02d575c27c30effad145036db0b87526/PyQt-Fluent-Widgets-0.9.3.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/db/60/5db41a7583e54dbdcf2605dbbd222097aef1e6c4470265975774d8c55217/taichu-dataflow-1.0.1.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [ykdraco]: Downloading https://files.pythonhosted.org/packages/a3/d1/89de3124c96abd73f320d87eaf581f0ceec263c7d09e8eafb5cd432790cb/ykdraco-0.0.5-cp311-cp311-win_amd64.whl
+[2023-06-12 08:28:07] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-06-12 08:28:07] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230612/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 08:28:07] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/42/80/df3c3623a84364e8cf953a044a965bd67eb9c8155161e35e34d139f4b87d/propeller_design_tools-0.3.5.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [gh-subdir]: Downloading https://files.pythonhosted.org/packages/06/54/be85e7d8a4fa4f8160bc142a5a815f191e3c61c7468b653f785b5e1070a3/gh_subdir-0.1.1.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/2b/64/aef0dac18002c46ec2fa5478781cacd12efea16513b913e7ae9f1737959d/irails-1.3.43.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [gh-subdir]: executing diffoscope
+[2023-06-12 08:28:07] INFO root fetch - processPackages [gh-subdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_subdir-0.1.tar.gz tmp/gh_subdir-0.1.1.tar.gz --markdown 20230612/g/gh-subdir/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 08:28:07] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-12 08:28:07] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.3.4.tar.gz tmp/propeller_design_tools-0.3.5.tar.gz --markdown 20230612/p/propeller-design-tools/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-12 08:28:07] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/f3/44/a884740e11e1c50bdfa8d8d9636cce3edb777c55fcbe35751ceba3b8f249/taichu-dataflow-1.0.2.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [django-synkroni]: Downloading https://files.pythonhosted.org/packages/21/71/71b013fa7b1cf2c181261998387b8385c6f9d94dd02aeb6800f01c259081/django-synkroni-0.5.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [django-synkroni]: Downloading https://files.pythonhosted.org/packages/21/71/71b013fa7b1cf2c181261998387b8385c6f9d94dd02aeb6800f01c259081/django-synkroni-0.5.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-12 08:28:07] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230612/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 08:28:07] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-06-12 08:28:07] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.3.42.tar.gz tmp/irails-1.3.43.tar.gz --markdown 20230612/i/irails/1.3.42-1.3.43/diff.md --exclude *.pyd
+[2023-06-12 08:28:07] INFO root fetch - processPackages [django-synkroni]: executing diffoscope
+[2023-06-12 08:28:07] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-12 08:28:07] INFO root fetch - processPackages [django-synkroni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-synkroni-0.4.9.tar.gz tmp/django-synkroni-0.5.tar.gz --markdown 20230612/d/django-synkroni/0.4.9-0.5/diff.md --exclude *.pyd
+[2023-06-12 08:28:07] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.1.tar.gz tmp/taichu-dataflow-1.0.2.tar.gz --markdown 20230612/t/taichu-dataflow/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 08:28:07] INFO root fetch - processPackages [django-synkroni]: executing diffoscope
+[2023-06-12 08:28:07] INFO root fetch - processPackages [django-synkroni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-synkroni-0.4.9.tar.gz tmp/django-synkroni-0.5.tar.gz --markdown 20230612/d/django-synkroni/0.4.9-0.5/diff.md --exclude *.pyd
+[2023-06-12 08:28:07] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/de/1c/01841446a04d54fcb5de03d2ffdc007c0da3a188a1a63b0a0cf1710391e2/PyQt-Fluent-Widgets-0.9.4.tar.gz
+[2023-06-12 08:28:07] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-06-12 08:28:07] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.3.tar.gz tmp/PyQt-Fluent-Widgets-0.9.4.tar.gz --markdown 20230612/P/PyQt-Fluent-Widgets/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 08:28:08] INFO root fetch - processPackages [ykdraco]: Downloading https://files.pythonhosted.org/packages/ac/da/ff834ce4dc4f269c77a437a61b426df868d4e482d6addf926a1281150a92/ykdraco-0.0.7-cp311-cp311-win_amd64.whl
+[2023-06-12 08:28:08] INFO root fetch - processPackages [ykdraco]: executing diffoscope
+[2023-06-12 08:28:08] INFO root fetch - processPackages [ykdraco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykdraco-0.0.5-cp311-cp311-win_amd64.whl.zip tmp/ykdraco-0.0.7-cp311-cp311-win_amd64.whl.zip --markdown 20230612/y/ykdraco/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-06-12 08:28:08] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.tar.gz]
+[2023-06-12 08:28:08] INFO root fetch - processPackages [gh-subdir]: Remove: archive file [/home/abi/fetcher/tmp/gh_subdir-0.1.1.tar.gz]
+[2023-06-12 08:28:08] INFO root fetch - main [MainThread]: End processing [gh-subdir]: success
+[2023-06-12 08:28:09] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.1.tar.gz]
+[2023-06-12 08:28:09] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.2.tar.gz]
+[2023-06-12 08:28:09] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-12 08:28:09] INFO root fetch - processPackages [django-synkroni]: Remove: archive file [/home/abi/fetcher/tmp/django-synkroni-0.4.9.tar.gz]
+[2023-06-12 08:28:09] INFO root fetch - processPackages [django-synkroni]: Remove: archive file [/home/abi/fetcher/tmp/django-synkroni-0.5.tar.gz]
+[2023-06-12 08:28:09] INFO root fetch - main [MainThread]: End processing [django-synkroni]: success
+[2023-06-12 08:28:09] INFO root fetch - main [MainThread]: End processing [django-synkroni]: success
+[2023-06-12 08:28:09] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-06-12 08:28:09] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-06-12 08:28:09] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-06-12 08:28:10] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.4.tar.gz]
+[2023-06-12 08:28:10] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.5.tar.gz]
+[2023-06-12 08:28:10] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-12 08:28:11] INFO root fetch - processPackages [irails]: Remove: archive file [/home/abi/fetcher/tmp/irails-1.3.42.tar.gz]
+[2023-06-12 08:28:11] INFO root fetch - processPackages [irails]: Remove: archive file [/home/abi/fetcher/tmp/irails-1.3.43.tar.gz]
+[2023-06-12 08:28:11] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-06-12 08:28:12] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-12 08:28:12] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-12 08:28:12] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-12 08:28:16] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.3.tar.gz]
+[2023-06-12 08:28:16] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.4.tar.gz]
+[2023-06-12 08:28:16] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-06-12 08:28:22] ERROR root fetch - processPackages [ykdraco]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139948757884256)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139948892102048)
+
+[2023-06-12 08:28:22] INFO root fetch - main [MainThread]: End processing [ykdraco] error
+[2023-06-12 08:28:22] INFO root fetch - main [MainThread]: Store serial: [18465135]
