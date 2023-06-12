@@ -16125,3 +16125,128 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 13:33:13] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230611-py3-none-win_amd64.whl.zip]
 [2023-06-12 13:33:13] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
 [2023-06-12 13:33:13] INFO root fetch - main [MainThread]: Store serial: [18468113]
+[2023-06-12 13:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468113]
+[2023-06-12 13:38:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-serving
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: menousdb
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getmodelspec
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: veetility
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: philbot-voice
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speaknlisten
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyre-check-nightly
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: querysource
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cmsis-stream
+[2023-06-12 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyosudb
+[2023-06-12 13:38:23] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-12 13:38:23] INFO root fetch - processPackages [menousdb]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-12 13:38:23] INFO root fetch - processPackages [getmodelspec]: Start processing: otcextensions
+[2023-06-12 13:38:23] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-12 13:38:23] WARNING root fetch - processPackages [speaknlisten]: Skipping, unable to determine old version
+[2023-06-12 13:38:23] INFO root fetch - processPackages [speaknlisten]: Start processing: esrally
+[2023-06-12 13:38:23] INFO root fetch - main [MainThread]: End processing [speaknlisten] error
+[2023-06-12 13:38:23] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230612] Old Version: [2.4.0b20230611]
+[2023-06-12 13:38:23] INFO root fetch - processPackages [cmsis-stream]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-12 13:38:23] WARNING root fetch - processPackages [pyosudb]: Skipping, unable to determine old version
+[2023-06-12 13:38:23] INFO root fetch - processPackages [pyosudb]: Start processing: dartrig
+[2023-06-12 13:38:23] INFO root fetch - main [MainThread]: End processing [pyosudb] error
+[2023-06-12 13:38:23] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-12 13:38:23] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.86]
+[2023-06-12 13:38:23] INFO root fetch - processPackages [otcextensions]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-12 13:38:23] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-12 13:38:23] INFO root fetch - processPackages [esrally]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-06-12 13:38:23] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 13:38:23] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/49/91/8149e10c3767bf27d040e8c1876abfcd0ffc7c70bce3d019598413820a6c/philbot_voice-1.9.5.tar.gz
+[2023-06-12 13:38:23] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101686567971] Old Version: [0.0.101686481614]
+[2023-06-12 13:38:23] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/4b/1d/e7a8e0b5eef158029062f57f5f78c53c7df5bc15e3c1722f7580c1ea0ebd/bigdl_serving-2.4.0b20230611-py2.py3-none-any.whl
+[2023-06-12 13:38:23] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/85/3b/9cff0deefa02f32c8e6d2b2f54d35b1b1324d383a31619a1811af9eeb31d/veetility-0.1.86.tar.gz
+[2023-06-12 13:38:23] INFO root fetch - processPackages [menousdb]: Downloading https://files.pythonhosted.org/packages/55/be/4466e19daaedb833f7fa64a5c0e0f2ed338926f4cf315c71b3fb1cfe55d2/menousdb-0.1.2.tar.gz
+[2023-06-12 13:38:23] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/45/3c/08a96bd153a075c58195e1f419e5eb9c237e01f492915baf44cef550e198/cmsis_stream-1.3.0-py3-none-any.whl
+[2023-06-12 13:38:23] INFO root fetch - processPackages [otcextensions]: Downloading https://files.pythonhosted.org/packages/5a/e1/b37ce486fe5d81fbba91d826090926b06f34a2f1194f8334181fe0f740ae/otcextensions-0.9.0.tar.gz
+[2023-06-12 13:38:23] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 13:38:23] INFO root fetch - processPackages [esrally]: Downloading https://files.pythonhosted.org/packages/3c/83/78d8c4373297db3899d7790a029cc1ecb3e41dac59063aee10d9753fbd0d/esrally-2.7.1-py3-none-any.whl
+[2023-06-12 13:38:23] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-12 13:38:23] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/79/75/82dbf9b0ae9aa2acd1cab3c0180657d7617e51281efb1dbf47c6a9305cda/pyre-check-nightly-0.0.101686481614.tar.gz
+[2023-06-12 13:38:23] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/24/9b/78727f735bdcb289b42d6c815798a9bbaf1a18231c061e2e2efdf19c8836/philbot_voice-1.9.6.tar.gz
+[2023-06-12 13:38:23] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23501319>=10485760
+[2023-06-12 13:38:23] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: ariston
+[2023-06-12 13:38:23] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-12 13:38:23] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/c8/a4/eae1349cb1b8882e4752cac5041b36ae00fc7ade8e879c87798c286a1d80/bigdl_serving-2.4.0b20230612-py2.py3-none-any.whl
+[2023-06-12 13:38:23] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e4/27/6bf604a25bb2458a80de6e113a5e7478938a23d9c7100bad80dac3b5e3c8/veetility-0.1.9.tar.gz
+[2023-06-12 13:38:24] INFO root fetch - processPackages [ariston]: New version: [0.13.6] Old Version: [0.13.5]
+[2023-06-12 13:38:24] INFO root fetch - processPackages [menousdb]: Downloading https://files.pythonhosted.org/packages/96/20/4434b8c00b6ff266f976d7ce91b49352a5e4dda81829a5fb54c3bedeba40/menousdb-0.1.3.tar.gz
+[2023-06-12 13:38:24] INFO root fetch - processPackages [ariston]: Downloading https://files.pythonhosted.org/packages/79/4b/bff7dadf14bde1b146c63d556f4c2e33bbdddcfa1e8b2d598f685493dced/ariston-0.13.5.tar.gz
+[2023-06-12 13:38:24] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-06-12 13:38:24] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.86.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230612/v/veetility/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 13:38:24] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/69/8e/47c12fd1a5cdd04fc40395f2f98193867587031d284c2f4d1341a71961bb/cmsis_stream-1.4.0-py3-none-any.whl
+[2023-06-12 13:38:24] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-12 13:38:24] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.5.tar.gz tmp/philbot_voice-1.9.6.tar.gz --markdown 20230612/p/philbot-voice/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-12 13:38:24] INFO root fetch - processPackages [esrally]: Downloading https://files.pythonhosted.org/packages/84/32/7044e8c1c7e0d3ff0d88e6ec65ee44d5934e01ea2d1d3e06b79f21a22a7f/esrally-2.8.0-py3-none-any.whl
+[2023-06-12 13:38:24] INFO root fetch - processPackages [otcextensions]: Downloading https://files.pythonhosted.org/packages/ea/e5/80fc2d41bb151ca58bb2269ff2fa831f78c6bdc75a1f931bd1e85661a0b6/otcextensions-0.9.1.tar.gz
+[2023-06-12 13:38:24] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-12 13:38:24] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230611-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230612-py2.py3-none-any.whl.zip --markdown 20230612/b/bigdl-serving/2.4.0b20230611-2.4.0b20230612/diff.md --exclude *.pyd
+[2023-06-12 13:38:24] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-12 13:38:24] INFO root fetch - processPackages [menousdb]: executing diffoscope
+[2023-06-12 13:38:24] INFO root fetch - processPackages [menousdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/menousdb-0.1.2.tar.gz tmp/menousdb-0.1.3.tar.gz --markdown 20230612/m/menousdb/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-12 13:38:24] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2023-06-12 13:38:24] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.3.0-py3-none-any.whl.zip tmp/cmsis_stream-1.4.0-py3-none-any.whl.zip --markdown 20230612/c/cmsis-stream/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-12 13:38:24] INFO root fetch - processPackages [ariston]: Downloading https://files.pythonhosted.org/packages/53/07/279ca451976f5184763dd3edc3087ea4163f7807199de573533917920de2/ariston-0.13.6.tar.gz
+[2023-06-12 13:38:24] INFO root fetch - processPackages [esrally]: executing diffoscope
+[2023-06-12 13:38:24] INFO root fetch - processPackages [esrally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esrally-2.7.1-py3-none-any.whl.zip tmp/esrally-2.8.0-py3-none-any.whl.zip --markdown 20230612/e/esrally/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-06-12 13:38:24] INFO root fetch - processPackages [otcextensions]: executing diffoscope
+[2023-06-12 13:38:24] INFO root fetch - processPackages [otcextensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otcextensions-0.9.0.tar.gz tmp/otcextensions-0.9.1.tar.gz --markdown 20230612/o/otcextensions/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-12 13:38:24] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-12 13:38:24] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230612/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 13:38:24] INFO root fetch - processPackages [ariston]: executing diffoscope
+[2023-06-12 13:38:24] INFO root fetch - processPackages [ariston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ariston-0.13.5.tar.gz tmp/ariston-0.13.6.tar.gz --markdown 20230612/a/ariston/0.13.5-0.13.6/diff.md --exclude *.pyd
+[2023-06-12 13:38:24] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-12 13:38:25] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-12 13:38:25] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230612/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-12 13:38:25] INFO root fetch - processPackages [menousdb]: Remove: archive file [/home/abi/fetcher/tmp/menousdb-0.1.2.tar.gz]
+[2023-06-12 13:38:25] INFO root fetch - processPackages [menousdb]: Remove: archive file [/home/abi/fetcher/tmp/menousdb-0.1.3.tar.gz]
+[2023-06-12 13:38:25] INFO root fetch - processPackages [menousdb]: Start processing: adt-cache
+[2023-06-12 13:38:25] INFO root fetch - main [MainThread]: End processing [menousdb]: success
+[2023-06-12 13:38:25] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.5.tar.gz]
+[2023-06-12 13:38:25] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.6.tar.gz]
+[2023-06-12 13:38:25] INFO root fetch - processPackages [philbot-voice]: Start processing: pysui
+[2023-06-12 13:38:25] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-12 13:38:25] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230611-py2.py3-none-any.whl.zip]
+[2023-06-12 13:38:25] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230612-py2.py3-none-any.whl.zip]
+[2023-06-12 13:38:25] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-12 13:38:25] INFO root fetch - processPackages [adt-cache]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 13:38:25] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-12 13:38:25] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-12 13:38:25] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-12 13:38:26] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 13:38:26] INFO root fetch - processPackages [ariston]: Remove: archive file [/home/abi/fetcher/tmp/ariston-0.13.5.tar.gz]
+[2023-06-12 13:38:26] INFO root fetch - processPackages [ariston]: Remove: archive file [/home/abi/fetcher/tmp/ariston-0.13.6.tar.gz]
+[2023-06-12 13:38:26] INFO root fetch - main [MainThread]: End processing [ariston]: success
+[2023-06-12 13:38:26] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/6c/27/f41fb956d430208b9020fe1aa5ae3b1f53629e619a0f0eff81294e6d732c/adt_cache-0.0.8.tar.gz
+[2023-06-12 13:38:26] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-06-12 13:38:26] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.86.tar.gz]
+[2023-06-12 13:38:26] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.9.tar.gz]
+[2023-06-12 13:38:26] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-06-12 13:38:26] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.3.0-py3-none-any.whl.zip]
+[2023-06-12 13:38:26] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.4.0-py3-none-any.whl.zip]
+[2023-06-12 13:38:26] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2023-06-12 13:38:26] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/99/65/5a602bb0d00239122defb6a95cdc1bca7dfffa6ee25be4cc745c56596247/adt_cache-0.0.9.tar.gz
+[2023-06-12 13:38:26] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-06-12 13:38:26] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.8.tar.gz tmp/adt_cache-0.0.9.tar.gz --markdown 20230612/a/adt-cache/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 13:38:26] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-06-12 13:38:26] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-06-12 13:38:26] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230612/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 13:38:27] INFO root fetch - processPackages [adt-cache]: Remove: archive file [/home/abi/fetcher/tmp/adt_cache-0.0.8.tar.gz]
+[2023-06-12 13:38:27] INFO root fetch - processPackages [adt-cache]: Remove: archive file [/home/abi/fetcher/tmp/adt_cache-0.0.9.tar.gz]
+[2023-06-12 13:38:27] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-06-12 13:38:27] INFO root fetch - processPackages [esrally]: Remove: archive file [/home/abi/fetcher/tmp/esrally-2.7.1-py3-none-any.whl.zip]
+[2023-06-12 13:38:27] INFO root fetch - processPackages [esrally]: Remove: archive file [/home/abi/fetcher/tmp/esrally-2.8.0-py3-none-any.whl.zip]
+[2023-06-12 13:38:27] INFO root fetch - main [MainThread]: End processing [esrally]: success
+[2023-06-12 13:38:27] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-06-12 13:38:27] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-06-12 13:38:27] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-06-12 13:38:30] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 13:38:30] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-12 13:38:30] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-12 13:38:42] INFO root fetch - processPackages [otcextensions]: Remove: archive file [/home/abi/fetcher/tmp/otcextensions-0.9.0.tar.gz]
+[2023-06-12 13:38:42] INFO root fetch - processPackages [otcextensions]: Remove: archive file [/home/abi/fetcher/tmp/otcextensions-0.9.1.tar.gz]
+[2023-06-12 13:38:42] INFO root fetch - main [MainThread]: End processing [otcextensions]: success
+[2023-06-12 13:38:42] INFO root fetch - main [MainThread]: Store serial: [18468175]
