@@ -19512,3 +19512,193 @@ EOFError: EOF read where object expected
 [2023-06-12 15:50:15] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
 [2023-06-12 15:50:15] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-06-12 15:50:15] INFO root fetch - main [MainThread]: Store serial: [18469427]
+[2023-06-12 15:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18469427]
+[2023-06-12 15:55:24] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo-model-builder
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carrot-cdm-beta
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydra-submitit-extension
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wbpShell
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovn-octavia-provider
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytestifyx
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neutron-lib
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: octavia-tempest-plugin
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysimflow
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proconip
+[2023-06-12 15:55:24] INFO root fetch - processPackages [wbpShell]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-06-12 15:55:24] INFO root fetch - processPackages [hydra-submitit-extension]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 15:55:24] WARNING root fetch - processPackages [carrot-cdm-beta]: Skipping, unable to determine old version
+[2023-06-12 15:55:24] INFO root fetch - processPackages [carrot-cdm-beta]: Start processing: nonebot-plugin-game-collection
+[2023-06-12 15:55:24] INFO root fetch - main [MainThread]: End processing [carrot-cdm-beta] error
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ovn-octavia-provider]: New version: [4.0.1] Old Version: [4.0.0.0rc2]
+[2023-06-12 15:55:24] INFO root fetch - processPackages [pytestifyx]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-12 15:55:24] INFO root fetch - processPackages [octavia-tempest-plugin]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-06-12 15:55:24] INFO root fetch - processPackages [pysimflow]: New version: [0.0.91] Old Version: [0.0.88]
+[2023-06-12 15:55:24] INFO root fetch - processPackages [neutron-lib]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-06-12 15:55:24] INFO root fetch - processPackages [proconip]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-12 15:55:24] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-06-12 15:55:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-12 15:55:24] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/79/17/b9d6974fded8d1bcb06a6d3727f94d3c9400878c4e5457c82731fd47ec13/proconip-1.2.0.tar.gz
+[2023-06-12 15:55:24] INFO root fetch - processPackages [hydra-submitit-extension]: Downloading https://files.pythonhosted.org/packages/61/d8/f0edd9d5e86f15cb06e2a129bc0d4364c1c880598bffe533c1bf37340346/hydra_submitit_extension-0.0.1.tar.gz
+[2023-06-12 15:55:24] INFO root fetch - processPackages [wbpShell]: Downloading https://files.pythonhosted.org/packages/d9/ec/ab01cfe6a2bc34c51a67c4c004f15687ea4061733d43f4ee82a5d95e2bb7/wbpShell-0.1.7.tar.gz
+[2023-06-12 15:55:24] INFO root fetch - processPackages [ovn-octavia-provider]: Downloading https://files.pythonhosted.org/packages/46/dc/6f293b4e314856caa23d801648515cbb34351e82c92699c52ad76f3e3756/ovn-octavia-provider-4.0.0.0rc2.tar.gz
+[2023-06-12 15:55:24] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/dc/4e/8bbb9d2aebc786d1ea147e689f94ec896a19de625592b0a644e386e4d61e/pytestifyx-0.5.5-py2.py3-none-any.whl
+[2023-06-12 15:55:24] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/17/31/a751a90e6f59318cbaa46a11c52359950e2ec348ef5edabe894af868c450/pysimflow-0.0.88.tar.gz
+[2023-06-12 15:55:24] INFO root fetch - processPackages [neutron-lib]: Downloading https://files.pythonhosted.org/packages/67/7c/602c6e0b5a7a8a894c65174b22f8e28e9cde4cc06169b57c2f31ad810fc0/neutron-lib-3.6.0.tar.gz
+[2023-06-12 15:55:24] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-06-12 15:55:24] INFO root fetch - processPackages [octavia-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/79/4f/3e651beb759ebe0e47d75af48ab8060923c54313d45abbf210ec870e397f/octavia-tempest-plugin-2.3.0.tar.gz
+[2023-06-12 15:55:24] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/41/70/1865752e85b4d8b72772cdfee927d27fc8e6cf997edff1b49433739c9538/proconip-1.2.1.tar.gz
+[2023-06-12 15:55:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/f4/58/8a15540c38334bcd6c5c1cc93891f5a1bcb6e02b5c4a4fd34725c03f121e/nonebot_plugin_game_collection-2.1.8.tar.gz
+[2023-06-12 15:55:24] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72511117>=10485760
+[2023-06-12 15:55:24] INFO root fetch - processPackages [pysimflow]: Start processing: neutron
+[2023-06-12 15:55:24] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 15:55:25] INFO root fetch - processPackages [neutron]: New version: [23.0.0.0b2] Old Version: [23.0.0.0b1]
+[2023-06-12 15:55:25] INFO root fetch - processPackages [hydra-submitit-extension]: Downloading https://files.pythonhosted.org/packages/f2/17/f9dff0e4bbb770c23f1e761a196f9dbf00070956d72eb282ddf42fee3be6/hydra_submitit_extension-0.0.2.tar.gz
+[2023-06-12 15:55:25] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/8d/99/093c266d1e09bea32ed4aaa3eef661e913a43aa37a37a33d2fbdedfcdd1f/pytestifyx-0.5.6-py2.py3-none-any.whl
+[2023-06-12 15:55:25] INFO root fetch - processPackages [proconip]: executing diffoscope
+[2023-06-12 15:55:25] INFO root fetch - processPackages [proconip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proconip-1.2.0.tar.gz tmp/proconip-1.2.1.tar.gz --markdown 20230612/p/proconip/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-12 15:55:25] INFO root fetch - processPackages [hydra-submitit-extension]: executing diffoscope
+[2023-06-12 15:55:25] INFO root fetch - processPackages [hydra-submitit-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra_submitit_extension-0.0.1.tar.gz tmp/hydra_submitit_extension-0.0.2.tar.gz --markdown 20230612/h/hydra-submitit-extension/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 15:55:25] INFO root fetch - processPackages [wbpShell]: Downloading https://files.pythonhosted.org/packages/23/26/2539c47645a04732aaba2c8d43fd598b19b35ef97fa2b6d8e8d97af0f670/wbpShell-0.2.0.tar.gz
+[2023-06-12 15:55:25] INFO root fetch - processPackages [wbpShell]: executing diffoscope
+[2023-06-12 15:55:25] INFO root fetch - processPackages [wbpShell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpShell-0.1.7.tar.gz tmp/wbpShell-0.2.0.tar.gz --markdown 20230612/w/wbpShell/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-06-12 15:55:25] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-06-12 15:55:25] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-06-12 15:55:25] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230612/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-06-12 15:55:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/40/cf/c30d83f076e973f167bcff6080e47c06a5bee3c96e14111e663309004d8e/nonebot_plugin_game_collection-2.1.9.tar.gz
+[2023-06-12 15:55:25] INFO root fetch - processPackages [octavia-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/e5/33/22182e23c116612b8680aef645b4ce06088e9d2091a4b97beffc1e91f005/octavia-tempest-plugin-2.4.0.tar.gz
+[2023-06-12 15:55:25] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-06-12 15:55:25] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.5.5-py2.py3-none-any.whl.zip tmp/pytestifyx-0.5.6-py2.py3-none-any.whl.zip --markdown 20230612/p/pytestifyx/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-12 15:55:25] INFO root fetch - processPackages [ovn-octavia-provider]: Downloading https://files.pythonhosted.org/packages/af/2f/f3d59833506d79a61e483a39f3f5bb39b78f36a1f6983fb2ca461da1e8e1/ovn-octavia-provider-4.0.1.tar.gz
+[2023-06-12 15:55:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-12 15:55:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.1.8.tar.gz tmp/nonebot_plugin_game_collection-2.1.9.tar.gz --markdown 20230612/n/nonebot-plugin-game-collection/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-12 15:55:25] INFO root fetch - processPackages [octavia-tempest-plugin]: executing diffoscope
+[2023-06-12 15:55:25] INFO root fetch - processPackages [octavia-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octavia-tempest-plugin-2.3.0.tar.gz tmp/octavia-tempest-plugin-2.4.0.tar.gz --markdown 20230612/o/octavia-tempest-plugin/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-06-12 15:55:25] INFO root fetch - processPackages [ovn-octavia-provider]: executing diffoscope
+[2023-06-12 15:55:25] INFO root fetch - processPackages [ovn-octavia-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovn-octavia-provider-4.0.0.0rc2.tar.gz tmp/ovn-octavia-provider-4.0.1.tar.gz --markdown 20230612/o/ovn-octavia-provider/4.0.0.0rc2-4.0.1/diff.md --exclude *.pyd
+[2023-06-12 15:55:25] INFO root fetch - processPackages [neutron-lib]: Downloading https://files.pythonhosted.org/packages/e6/b0/f66a1810483a364dcd016f0d9f3e9eee34a4baac6b9b4a2d06690e1ddd35/neutron-lib-3.6.1.tar.gz
+[2023-06-12 15:55:25] INFO root fetch - processPackages [neutron-lib]: executing diffoscope
+[2023-06-12 15:55:25] INFO root fetch - processPackages [neutron-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neutron-lib-3.6.0.tar.gz tmp/neutron-lib-3.6.1.tar.gz --markdown 20230612/n/neutron-lib/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-06-12 15:55:25] INFO root fetch - processPackages [neutron]: Downloading https://files.pythonhosted.org/packages/15/9a/0521bc5d5042ebffba8fdca282db7a66d1f29a699138003af0dcc77d4ba1/neutron-23.0.0.0b1.tar.gz
+[2023-06-12 15:55:25] WARNING root fetch - processPackages [neutron]: Skipping package: exceeds size limit 14037048>=10485760
+[2023-06-12 15:55:25] INFO root fetch - processPackages [neutron]: Start processing: renats
+[2023-06-12 15:55:25] INFO root fetch - main [MainThread]: End processing [neutron] error
+[2023-06-12 15:55:25] INFO root fetch - processPackages [renats]: New version: [0.2.2a0] Old Version: [0.2.1a0]
+[2023-06-12 15:55:26] INFO root fetch - processPackages [renats]: Downloading https://files.pythonhosted.org/packages/41/74/e0e37367aceb8e07dfa67a1771f32bc50e82e7760bf2b019350cc4445199/renats-0.2.1a0.tar.gz
+[2023-06-12 15:55:26] INFO root fetch - processPackages [renats]: Downloading https://files.pythonhosted.org/packages/79/30/34af75f14a147fb21022241e8b68677fa82a34c0cdb9a2cf6ccbc63f4da1/renats-0.2.2a0.tar.gz
+[2023-06-12 15:55:26] INFO root fetch - processPackages [renats]: executing diffoscope
+[2023-06-12 15:55:26] INFO root fetch - processPackages [renats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renats-0.2.1a0.tar.gz tmp/renats-0.2.2a0.tar.gz --markdown 20230612/r/renats/0.2.1a0-0.2.2a0/diff.md --exclude *.pyd
+[2023-06-12 15:55:26] INFO root fetch - processPackages [wbpShell]: Remove: archive file [/home/abi/fetcher/tmp/wbpShell-0.1.7.tar.gz]
+[2023-06-12 15:55:26] INFO root fetch - processPackages [wbpShell]: Remove: archive file [/home/abi/fetcher/tmp/wbpShell-0.2.0.tar.gz]
+[2023-06-12 15:55:26] INFO root fetch - processPackages [wbpShell]: Start processing: localstack-core
+[2023-06-12 15:55:26] INFO root fetch - main [MainThread]: End processing [wbpShell]: success
+[2023-06-12 15:55:26] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230612135310] Old Version: [2.1.1.dev20230612100140]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/57/78/08e621b2dc84d718c288d2777ab610be71b1543212d7d938aac0de16f717/localstack-core-2.1.1.dev20230612100140.tar.gz
+[2023-06-12 15:55:27] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.0.tar.gz]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.1.tar.gz]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [proconip]: Start processing: ndx-miniscope
+[2023-06-12 15:55:27] INFO root fetch - main [MainThread]: End processing [proconip]: success
+[2023-06-12 15:55:27] INFO root fetch - processPackages [ndx-miniscope]: New version: [0.4.0] Old Version: [0.2.2]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [pytestifyx]: Remove: archive file [/home/abi/fetcher/tmp/pytestifyx-0.5.5-py2.py3-none-any.whl.zip]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [pytestifyx]: Remove: archive file [/home/abi/fetcher/tmp/pytestifyx-0.5.6-py2.py3-none-any.whl.zip]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [pytestifyx]: Start processing: craft-ai-sdk
+[2023-06-12 15:55:27] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-06-12 15:55:27] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [hydra-submitit-extension]: Remove: archive file [/home/abi/fetcher/tmp/hydra_submitit_extension-0.0.1.tar.gz]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [hydra-submitit-extension]: Remove: archive file [/home/abi/fetcher/tmp/hydra_submitit_extension-0.0.2.tar.gz]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [hydra-submitit-extension]: Start processing: fapi
+[2023-06-12 15:55:27] INFO root fetch - main [MainThread]: End processing [hydra-submitit-extension]: success
+[2023-06-12 15:55:27] INFO root fetch - processPackages [ndx-miniscope]: Downloading https://files.pythonhosted.org/packages/f7/49/15e4552e5792db4c0a2a3adee826e4879714c8c23f3fe1af528684243274/ndx-miniscope-0.2.2.tar.gz
+[2023-06-12 15:55:27] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b5/aa/aed8bab6c0a6eecd27e150422e237f968e2f28d076fde893472c409fccff/localstack-core-2.1.1.dev20230612135310.tar.gz
+[2023-06-12 15:55:27] WARNING root fetch - processPackages [fapi]: Skipping, unable to determine old version
+[2023-06-12 15:55:27] INFO root fetch - processPackages [fapi]: Start processing: structurefinder
+[2023-06-12 15:55:27] INFO root fetch - main [MainThread]: End processing [fapi] error
+[2023-06-12 15:55:27] INFO root fetch - processPackages [structurefinder]: New version: [74.1] Old Version: [74]
+[2023-06-12 15:55:27] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-06-12 15:55:27] INFO root fetch - processPackages [ndx-miniscope]: Downloading https://files.pythonhosted.org/packages/28/3f/95ae59884c1980dc2d53c2d97a1424838d3b99af6e75b20e177d6b347b1e/ndx-miniscope-0.4.0.tar.gz
+[2023-06-12 15:55:27] INFO root fetch - processPackages [structurefinder]: Downloading https://files.pythonhosted.org/packages/fe/f5/d5007b6495da7d52e523c7421d3fc8db9eafece021ae870cd296c801d9e7/structurefinder-74.tar.gz
+[2023-06-12 15:55:27] INFO root fetch - processPackages [ndx-miniscope]: executing diffoscope
+[2023-06-12 15:55:27] INFO root fetch - processPackages [ndx-miniscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndx-miniscope-0.2.2.tar.gz tmp/ndx-miniscope-0.4.0.tar.gz --markdown 20230612/n/ndx-miniscope/0.2.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-12 15:55:27] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-06-12 15:55:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.8.tar.gz]
+[2023-06-12 15:55:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.9.tar.gz]
+[2023-06-12 15:55:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Start processing: pytestifyx
+[2023-06-12 15:55:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-12 15:55:28] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-12 15:55:28] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230612100140.tar.gz tmp/localstack-core-2.1.1.dev20230612135310.tar.gz --markdown 20230612/l/localstack-core/2.1.1.dev20230612100140-2.1.1.dev20230612135310/diff.md --exclude *.pyd
+[2023-06-12 15:55:28] INFO root fetch - processPackages [pytestifyx]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-12 15:55:28] INFO root fetch - processPackages [renats]: Remove: archive file [/home/abi/fetcher/tmp/renats-0.2.1a0.tar.gz]
+[2023-06-12 15:55:28] INFO root fetch - processPackages [renats]: Remove: archive file [/home/abi/fetcher/tmp/renats-0.2.2a0.tar.gz]
+[2023-06-12 15:55:28] INFO root fetch - processPackages [renats]: Start processing: oexp
+[2023-06-12 15:55:28] INFO root fetch - main [MainThread]: End processing [renats]: success
+[2023-06-12 15:55:28] INFO root fetch - processPackages [oexp]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-12 15:55:28] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/dc/4e/8bbb9d2aebc786d1ea147e689f94ec896a19de625592b0a644e386e4d61e/pytestifyx-0.5.5-py2.py3-none-any.whl
+[2023-06-12 15:55:28] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/25/c6/9d926c4f942494f08d34262edfe9f82eedd9f3cc837f5b6636c9635018e4/oexp-0.6.0.tar.gz
+[2023-06-12 15:55:28] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/8d/99/093c266d1e09bea32ed4aaa3eef661e913a43aa37a37a33d2fbdedfcdd1f/pytestifyx-0.5.6-py2.py3-none-any.whl
+[2023-06-12 15:55:28] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-06-12 15:55:28] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230612/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-12 15:55:28] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-06-12 15:55:28] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.5.5-py2.py3-none-any.whl.zip tmp/pytestifyx-0.5.6-py2.py3-none-any.whl.zip --markdown 20230612/p/pytestifyx/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-12 15:55:28] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/74/1f/0da1afadb66219770cbca3f0fcaaed0dd60da28880cc9999f3a96d54dff7/oexp-0.7.0.tar.gz
+[2023-06-12 15:55:28] INFO root fetch - processPackages [oexp]: executing diffoscope
+[2023-06-12 15:55:28] INFO root fetch - processPackages [oexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oexp-0.6.0.tar.gz tmp/oexp-0.7.0.tar.gz --markdown 20230612/o/oexp/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-12 15:55:29] INFO root fetch - processPackages [structurefinder]: Downloading https://files.pythonhosted.org/packages/27/62/b4228439edba3ec49f86ff2b96203c8df5a2076f2d9061badce330ed29f8/structurefinder-74.1.tar.gz
+[2023-06-12 15:55:29] INFO root fetch - processPackages [structurefinder]: executing diffoscope
+[2023-06-12 15:55:29] INFO root fetch - processPackages [structurefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structurefinder-74.tar.gz tmp/structurefinder-74.1.tar.gz --markdown 20230612/s/structurefinder/74-74.1/diff.md --exclude *.pyd
+[2023-06-12 15:55:29] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.6.0.tar.gz]
+[2023-06-12 15:55:29] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.7.0.tar.gz]
+[2023-06-12 15:55:29] INFO root fetch - processPackages [oexp]: Start processing: gcsfs
+[2023-06-12 15:55:29] INFO root fetch - main [MainThread]: End processing [oexp]: success
+[2023-06-12 15:55:30] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2023-06-12 15:55:30] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2023-06-12 15:55:30] INFO root fetch - processPackages [craft-ai-sdk]: Start processing: voila-material-tuwien
+[2023-06-12 15:55:30] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-06-12 15:55:30] INFO root fetch - processPackages [voila-material-tuwien]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-12 15:55:30] INFO root fetch - processPackages [gcsfs]: New version: [2023.6.0] Old Version: [2023.5.0]
+[2023-06-12 15:55:30] INFO root fetch - processPackages [ndx-miniscope]: Remove: archive file [/home/abi/fetcher/tmp/ndx-miniscope-0.2.2.tar.gz]
+[2023-06-12 15:55:30] INFO root fetch - processPackages [ndx-miniscope]: Remove: archive file [/home/abi/fetcher/tmp/ndx-miniscope-0.4.0.tar.gz]
+[2023-06-12 15:55:30] INFO root fetch - processPackages [ndx-miniscope]: Start processing: rich
+[2023-06-12 15:55:30] INFO root fetch - main [MainThread]: End processing [ndx-miniscope]: success
+[2023-06-12 15:55:30] INFO root fetch - processPackages [rich]: New version: [9.9.0] Old Version: [9.8.2]
+[2023-06-12 15:55:30] INFO root fetch - processPackages [voila-material-tuwien]: Downloading https://files.pythonhosted.org/packages/3f/98/46cdc133cea504571966fbd38582b4010e887f14d6d1eeb68c78d1edfeeb/voila-material-tuwien-0.4.4.tar.gz
+[2023-06-12 15:55:30] INFO root fetch - processPackages [gcsfs]: Downloading https://files.pythonhosted.org/packages/7e/fd/286c393076e7a101af5a2ff621413800a0055c17f64975d5e185904c1400/gcsfs-2023.5.0.tar.gz
+[2023-06-12 15:55:30] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/fb/96/b268c7ac622597f8660e14e01d8b66b84a34fbbaed3b920bfca440f742fe/rich-9.8.2.tar.gz
+[2023-06-12 15:55:30] INFO root fetch - processPackages [pytestifyx]: Remove: archive file [/home/abi/fetcher/tmp/pytestifyx-0.5.5-py2.py3-none-any.whl.zip]
+[2023-06-12 15:55:30] INFO root fetch - processPackages [pytestifyx]: Remove: archive file [/home/abi/fetcher/tmp/pytestifyx-0.5.6-py2.py3-none-any.whl.zip]
+[2023-06-12 15:55:30] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-06-12 15:55:30] INFO root fetch - processPackages [ovn-octavia-provider]: Remove: archive file [/home/abi/fetcher/tmp/ovn-octavia-provider-4.0.0.0rc2.tar.gz]
+[2023-06-12 15:55:30] INFO root fetch - processPackages [ovn-octavia-provider]: Remove: archive file [/home/abi/fetcher/tmp/ovn-octavia-provider-4.0.1.tar.gz]
+[2023-06-12 15:55:30] INFO root fetch - main [MainThread]: End processing [ovn-octavia-provider]: success
+[2023-06-12 15:55:30] INFO root fetch - processPackages [voila-material-tuwien]: Downloading https://files.pythonhosted.org/packages/d8/37/2a8ad9e58046394226a3e41d71740df069dc773fe888985f13f32fa3fc39/voila-material-tuwien-0.4.5.tar.gz
+[2023-06-12 15:55:30] INFO root fetch - processPackages [gcsfs]: Downloading https://files.pythonhosted.org/packages/51/4a/6283a24fae13f1b3745572c443a7cb072076ccc3eefd3fcf84c078000ff8/gcsfs-2023.6.0.tar.gz
+[2023-06-12 15:55:30] INFO root fetch - processPackages [voila-material-tuwien]: executing diffoscope
+[2023-06-12 15:55:30] INFO root fetch - processPackages [voila-material-tuwien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-material-tuwien-0.4.4.tar.gz tmp/voila-material-tuwien-0.4.5.tar.gz --markdown 20230612/v/voila-material-tuwien/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-12 15:55:30] INFO root fetch - processPackages [rich]: Downloading https://files.pythonhosted.org/packages/5a/2d/5e92c69f971cb2a373a5203fe2ff0a06751b3eea918c709318e19f7caf62/rich-9.9.0.tar.gz
+[2023-06-12 15:55:30] INFO root fetch - processPackages [gcsfs]: executing diffoscope
+[2023-06-12 15:55:30] INFO root fetch - processPackages [gcsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcsfs-2023.5.0.tar.gz tmp/gcsfs-2023.6.0.tar.gz --markdown 20230612/g/gcsfs/2023.5.0-2023.6.0/diff.md --exclude *.pyd
+[2023-06-12 15:55:30] INFO root fetch - processPackages [rich]: executing diffoscope
+[2023-06-12 15:55:30] INFO root fetch - processPackages [rich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich-9.8.2.tar.gz tmp/rich-9.9.0.tar.gz --markdown 20230612/r/rich/9.8.2-9.9.0/diff.md --exclude *.pyd
+[2023-06-12 15:55:31] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-06-12 15:55:31] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-06-12 15:55:31] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-06-12 15:55:31] INFO root fetch - processPackages [octavia-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/octavia-tempest-plugin-2.3.0.tar.gz]
+[2023-06-12 15:55:31] INFO root fetch - processPackages [octavia-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/octavia-tempest-plugin-2.4.0.tar.gz]
+[2023-06-12 15:55:31] INFO root fetch - main [MainThread]: End processing [octavia-tempest-plugin]: success
+[2023-06-12 15:55:32] INFO root fetch - processPackages [voila-material-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-material-tuwien-0.4.4.tar.gz]
+[2023-06-12 15:55:32] INFO root fetch - processPackages [voila-material-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-material-tuwien-0.4.5.tar.gz]
+[2023-06-12 15:55:32] INFO root fetch - main [MainThread]: End processing [voila-material-tuwien]: success
+[2023-06-12 15:55:32] INFO root fetch - processPackages [rich]: Remove: archive file [/home/abi/fetcher/tmp/rich-9.8.2.tar.gz]
+[2023-06-12 15:55:32] INFO root fetch - processPackages [rich]: Remove: archive file [/home/abi/fetcher/tmp/rich-9.9.0.tar.gz]
+[2023-06-12 15:55:32] INFO root fetch - main [MainThread]: End processing [rich]: success
+[2023-06-12 15:55:33] INFO root fetch - processPackages [gcsfs]: Remove: archive file [/home/abi/fetcher/tmp/gcsfs-2023.5.0.tar.gz]
+[2023-06-12 15:55:33] INFO root fetch - processPackages [gcsfs]: Remove: archive file [/home/abi/fetcher/tmp/gcsfs-2023.6.0.tar.gz]
+[2023-06-12 15:55:33] INFO root fetch - main [MainThread]: End processing [gcsfs]: success
+[2023-06-12 15:55:33] INFO root fetch - processPackages [structurefinder]: Remove: archive file [/home/abi/fetcher/tmp/structurefinder-74.tar.gz]
+[2023-06-12 15:55:33] INFO root fetch - processPackages [structurefinder]: Remove: archive file [/home/abi/fetcher/tmp/structurefinder-74.1.tar.gz]
+[2023-06-12 15:55:33] INFO root fetch - main [MainThread]: End processing [structurefinder]: success
+[2023-06-12 15:55:39] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230612100140.tar.gz]
+[2023-06-12 15:55:39] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230612135310.tar.gz]
+[2023-06-12 15:55:39] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-12 15:55:48] INFO root fetch - processPackages [neutron-lib]: Remove: archive file [/home/abi/fetcher/tmp/neutron-lib-3.6.0.tar.gz]
+[2023-06-12 15:55:48] INFO root fetch - processPackages [neutron-lib]: Remove: archive file [/home/abi/fetcher/tmp/neutron-lib-3.6.1.tar.gz]
+[2023-06-12 15:55:48] INFO root fetch - main [MainThread]: End processing [neutron-lib]: success
+[2023-06-12 15:55:48] INFO root fetch - main [MainThread]: Store serial: [18469494]
