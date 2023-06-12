@@ -16959,3 +16959,146 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 14:11:37] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.66.0.tar.gz]
 [2023-06-12 14:11:37] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-06-12 14:11:37] INFO root fetch - main [MainThread]: Store serial: [18468460]
+[2023-06-12 14:16:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18468460]
+[2023-06-12 14:16:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-devkit
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: behave-reportportal
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kolibri-explore-plugin
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotsos
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pidcalib2
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visual-graph-datasets
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ExpoSeq
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: squad-gunicorn
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: troncos
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: diffusers
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [squad-gunicorn]: New version: [20.0.4] Old Version: [120.0.4]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [visual-graph-datasets]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.5.0] Old Version: [6.2.0]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [behave-reportportal]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [pidcalib2]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [diffusers]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [troncos]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/60/60/a59faa3485011a04cd5bcd36e66c8950e9092fb062e92cd15eee485fd616/ExpoSeq-1.1.3.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/8b/aa/c11553474bc6abcbf2c78890f6579b242ab68a2c302c40a668fd39cef3c9/visual_graph_datasets-0.8.0.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/8e/15/536f55bb49f2fbe7dfc07693eb02a82e397bd914368694d0c0d8a07d2fe1/troncos-4.0.0b8.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/de/2d/fdf0aaa2b1e07e6d91918c01be57d8f6a6e848e85ed670d75fe1d9b39cd5/hotsos-1.1.14.post8.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [squad-gunicorn]: Downloading https://files.pythonhosted.org/packages/e3/45/f5911b9f9c2dd7cfba1ae5f67d1b5be12fa33236e27464987ce2b7f6bf89/squad-gunicorn-120.0.4.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/51/f3/cc9573dc139666b10944e1804f3498f1c625cab32a4812339cf3359ff445/kolibri_explore_plugin-6.2.0-py2.py3-none-any.whl
+[2023-06-12 14:16:48] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/f7/24/21b8065eddaf1f2aebcb3c1ab99a567eafabd40743647beb7ef80955b8a8/visual_graph_datasets-0.9.0.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/74/74/a0ec518c84ad6b09c05621a50ddfe1997109619d228a21218152c34d8bc2/troncos-4.0.0b9.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-12 14:16:48] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230612/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 14:16:48] INFO root fetch - processPackages [behave-reportportal]: Downloading https://files.pythonhosted.org/packages/c5/db/bf00c439e2512ff0769c835db2f1de46ae250ac0a9136bb17844af16acc2/behave-reportportal-2.0.3.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [pidcalib2]: Downloading https://files.pythonhosted.org/packages/72/65/8917800a8902e345e816f687f0e781f5b9c4c75f3941e4bc4d56c9f39499/pidcalib2-1.1.1.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/da/c9/7eacdd09b8fe987d35c33395e293035c63b16ded1000aadb2bc49c6f7882/hotsos-1.1.14.post9.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [diffusers]: Downloading https://files.pythonhosted.org/packages/bc/a6/709af54ca1141f176d00b36f078693f9f9efe4ce2cfde8fbae3bf30f1537/diffusers-0.8.1.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-06-12 14:16:48] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-4.0.0b8.tar.gz tmp/troncos-4.0.0b9.tar.gz --markdown 20230612/t/troncos/4.0.0b8-4.0.0b9/diff.md --exclude *.pyd
+[2023-06-12 14:16:48] INFO root fetch - processPackages [visual-graph-datasets]: executing diffoscope
+[2023-06-12 14:16:48] INFO root fetch - processPackages [visual-graph-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_graph_datasets-0.8.0.tar.gz tmp/visual_graph_datasets-0.9.0.tar.gz --markdown 20230612/v/visual-graph-datasets/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 14:16:48] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-12 14:16:48] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230612/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-06-12 14:16:48] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17378371>=10485760
+[2023-06-12 14:16:48] INFO root fetch - processPackages [kolibri-explore-plugin]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-06-12 14:16:48] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-06-12 14:16:48] INFO root fetch - processPackages [squad-gunicorn]: Downloading https://files.pythonhosted.org/packages/e1/3b/bf96ba81637a96cf082a804ecaeea75fa3cdaa9dc833578d8e5423b61f04/squad-gunicorn-20.0.4.tar.gz
+[2023-06-12 14:16:48] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-12 14:16:48] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/52/49/9d18f1609d2b58b090f89b9a8cecccde327671643eacf964f57acab49c35/ExpoSeq-1.1.4.tar.gz
+[2023-06-12 14:16:49] INFO root fetch - processPackages [squad-gunicorn]: executing diffoscope
+[2023-06-12 14:16:49] INFO root fetch - processPackages [squad-gunicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad-gunicorn-120.0.4.tar.gz tmp/squad-gunicorn-20.0.4.tar.gz --markdown 20230612/s/squad-gunicorn/120.0.4-20.0.4/diff.md --exclude *.pyd
+[2023-06-12 14:16:49] INFO root fetch - processPackages [behave-reportportal]: Downloading https://files.pythonhosted.org/packages/08/f8/c20bea7d685fb75ccec3fee20716b103f68bb1dfe0cd05cfed4c8c1c6a6f/behave-reportportal-2.0.4.tar.gz
+[2023-06-12 14:16:49] INFO root fetch - processPackages [pidcalib2]: Downloading https://files.pythonhosted.org/packages/6d/68/f511f0eea4f492c85d76f3e9fe16036082db907db357355367303ad7ee82/pidcalib2-1.1.2.tar.gz
+[2023-06-12 14:16:49] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-06-12 14:16:49] INFO root fetch - processPackages [behave-reportportal]: executing diffoscope
+[2023-06-12 14:16:49] INFO root fetch - processPackages [behave-reportportal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behave-reportportal-2.0.3.tar.gz tmp/behave-reportportal-2.0.4.tar.gz --markdown 20230612/b/behave-reportportal/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-12 14:16:49] INFO root fetch - processPackages [pidcalib2]: executing diffoscope
+[2023-06-12 14:16:49] INFO root fetch - processPackages [pidcalib2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pidcalib2-1.1.1.tar.gz tmp/pidcalib2-1.1.2.tar.gz --markdown 20230612/p/pidcalib2/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-12 14:16:49] INFO root fetch - processPackages [diffusers]: Downloading https://files.pythonhosted.org/packages/7d/bf/3eee65a76bafb3954ae41137c790491a098e32902893dfa2997091a8f441/diffusers-0.9.0.tar.gz
+[2023-06-12 14:16:49] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-06-12 14:16:49] INFO root fetch - processPackages [diffusers]: executing diffoscope
+[2023-06-12 14:16:49] INFO root fetch - processPackages [diffusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusers-0.8.1.tar.gz tmp/diffusers-0.9.0.tar.gz --markdown 20230612/d/diffusers/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 14:16:49] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-06-12 14:16:49] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230612/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-12 14:16:49] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-06-12 14:16:49] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.3.tar.gz tmp/ExpoSeq-1.1.4.tar.gz --markdown 20230612/E/ExpoSeq/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-12 14:16:51] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-12 14:16:51] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-12 14:16:51] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: AutoCarver
+[2023-06-12 14:16:51] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-12 14:16:51] INFO root fetch - processPackages [AutoCarver]: New version: [4.4.1] Old Version: [4.4.0]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/43/4a/b8924ec55ac3ef3a5bf635de4b1360af85931925f9156f83a013a14d21e9/AutoCarver-4.4.0.tar.gz
+[2023-06-12 14:16:52] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: zhipuai
+[2023-06-12 14:16:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-06-12 14:16:52] INFO root fetch - processPackages [zhipuai]: New version: [1.0.7] Old Version: [1.0.4]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.0b8.tar.gz]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.0b9.tar.gz]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [troncos]: Start processing: particle
+[2023-06-12 14:16:52] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-06-12 14:16:52] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/be/fb/8bc33fd98fbd687b156300b0cbc856ff963291391458ada50713c576b5b7/zhipuai-1.0.4.tar.gz
+[2023-06-12 14:16:52] INFO root fetch - processPackages [particle]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [behave-reportportal]: Remove: archive file [/home/abi/fetcher/tmp/behave-reportportal-2.0.3.tar.gz]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [behave-reportportal]: Remove: archive file [/home/abi/fetcher/tmp/behave-reportportal-2.0.4.tar.gz]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [behave-reportportal]: Start processing: bayes-optim
+[2023-06-12 14:16:52] INFO root fetch - main [MainThread]: End processing [behave-reportportal]: success
+[2023-06-12 14:16:52] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/40/48/4a82227d31f8f31cced8e8f012166db390578be80c432d1115fc169bd2d7/AutoCarver-4.4.1.tar.gz
+[2023-06-12 14:16:52] INFO root fetch - processPackages [bayes-optim]: New version: [0.2.6] Old Version: [0.2.5.8]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-06-12 14:16:52] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-4.4.0.tar.gz tmp/AutoCarver-4.4.1.tar.gz --markdown 20230612/A/AutoCarver/4.4.0-4.4.1/diff.md --exclude *.pyd
+[2023-06-12 14:16:52] INFO root fetch - processPackages [particle]: Downloading https://files.pythonhosted.org/packages/29/31/031f59eb330ad043e6aadb616a84be3f6c279a491df00201b3fbc66a5505/Particle-0.9.1.tar.gz
+[2023-06-12 14:16:52] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/3d/13/77cd9b2f3cad0f2fe6baded20fc20a02c3e62f14487117c296fdd2abeec0/zhipuai-1.0.7.tar.gz
+[2023-06-12 14:16:52] INFO root fetch - processPackages [bayes-optim]: Downloading https://files.pythonhosted.org/packages/0a/dc/a935d3a302a02897cf05651cb20f68b30f70862c70aa1453903123f55e2e/bayes-optim-0.2.5.8.tar.gz
+[2023-06-12 14:16:52] INFO root fetch - processPackages [zhipuai]: executing diffoscope
+[2023-06-12 14:16:52] INFO root fetch - processPackages [zhipuai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhipuai-1.0.4.tar.gz tmp/zhipuai-1.0.7.tar.gz --markdown 20230612/z/zhipuai/1.0.4-1.0.7/diff.md --exclude *.pyd
+[2023-06-12 14:16:52] INFO root fetch - processPackages [pidcalib2]: Remove: archive file [/home/abi/fetcher/tmp/pidcalib2-1.1.1.tar.gz]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [pidcalib2]: Remove: archive file [/home/abi/fetcher/tmp/pidcalib2-1.1.2.tar.gz]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [pidcalib2]: Start processing: shortloop-python
+[2023-06-12 14:16:52] INFO root fetch - main [MainThread]: End processing [pidcalib2]: success
+[2023-06-12 14:16:52] INFO root fetch - processPackages [shortloop-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-12 14:16:52] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/3d/31/16794eafbf35d46f147f66551e311fb07471d8c6082efd355c12ae96113e/shortloop_python-0.1.0.tar.gz
+[2023-06-12 14:16:52] INFO root fetch - processPackages [bayes-optim]: Downloading https://files.pythonhosted.org/packages/a0/36/9665f88aba063959f25b367c1e8ffbb1202ca5829076ad797ec05e36d647/bayes-optim-0.2.6.tar.gz
+[2023-06-12 14:16:53] INFO root fetch - processPackages [bayes-optim]: executing diffoscope
+[2023-06-12 14:16:53] INFO root fetch - processPackages [bayes-optim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayes-optim-0.2.5.8.tar.gz tmp/bayes-optim-0.2.6.tar.gz --markdown 20230612/b/bayes-optim/0.2.5.8-0.2.6/diff.md --exclude *.pyd
+[2023-06-12 14:16:53] INFO root fetch - processPackages [visual-graph-datasets]: Remove: archive file [/home/abi/fetcher/tmp/visual_graph_datasets-0.8.0.tar.gz]
+[2023-06-12 14:16:53] INFO root fetch - processPackages [visual-graph-datasets]: Remove: archive file [/home/abi/fetcher/tmp/visual_graph_datasets-0.9.0.tar.gz]
+[2023-06-12 14:16:53] INFO root fetch - main [MainThread]: End processing [visual-graph-datasets]: success
+[2023-06-12 14:16:53] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/14/48/004cd7d36502de06b68449e331d01ce4e22301eabce548d682ae4a8c71df/shortloop_python-0.1.1.tar.gz
+[2023-06-12 14:16:53] INFO root fetch - processPackages [shortloop-python]: executing diffoscope
+[2023-06-12 14:16:53] INFO root fetch - processPackages [shortloop-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortloop_python-0.1.0.tar.gz tmp/shortloop_python-0.1.1.tar.gz --markdown 20230612/s/shortloop-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-12 14:16:53] INFO root fetch - processPackages [particle]: Downloading https://files.pythonhosted.org/packages/67/40/ae7be9e9a747b337e2a2226032a591aefe9a73d205dce11708834d00b83a/Particle-0.9.2.tar.gz
+[2023-06-12 14:16:53] INFO root fetch - processPackages [particle]: executing diffoscope
+[2023-06-12 14:16:53] INFO root fetch - processPackages [particle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Particle-0.9.1.tar.gz tmp/Particle-0.9.2.tar.gz --markdown 20230612/p/particle/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-12 14:16:54] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-4.4.0.tar.gz]
+[2023-06-12 14:16:54] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-4.4.1.tar.gz]
+[2023-06-12 14:16:54] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-06-12 14:16:55] INFO root fetch - processPackages [squad-gunicorn]: Remove: archive file [/home/abi/fetcher/tmp/squad-gunicorn-120.0.4.tar.gz]
+[2023-06-12 14:16:55] INFO root fetch - processPackages [squad-gunicorn]: Remove: archive file [/home/abi/fetcher/tmp/squad-gunicorn-20.0.4.tar.gz]
+[2023-06-12 14:16:55] INFO root fetch - main [MainThread]: End processing [squad-gunicorn]: success
+[2023-06-12 14:16:55] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-1.0.4.tar.gz]
+[2023-06-12 14:16:55] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-1.0.7.tar.gz]
+[2023-06-12 14:16:55] INFO root fetch - main [MainThread]: End processing [zhipuai]: success
+[2023-06-12 14:16:55] INFO root fetch - processPackages [diffusers]: Remove: archive file [/home/abi/fetcher/tmp/diffusers-0.8.1.tar.gz]
+[2023-06-12 14:16:55] INFO root fetch - processPackages [diffusers]: Remove: archive file [/home/abi/fetcher/tmp/diffusers-0.9.0.tar.gz]
+[2023-06-12 14:16:55] INFO root fetch - main [MainThread]: End processing [diffusers]: success
+[2023-06-12 14:16:56] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.0.tar.gz]
+[2023-06-12 14:16:56] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.1.tar.gz]
+[2023-06-12 14:16:56] INFO root fetch - main [MainThread]: End processing [shortloop-python]: success
+[2023-06-12 14:16:56] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.3.tar.gz]
+[2023-06-12 14:16:56] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.4.tar.gz]
+[2023-06-12 14:16:56] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-06-12 14:16:56] INFO root fetch - processPackages [bayes-optim]: Remove: archive file [/home/abi/fetcher/tmp/bayes-optim-0.2.5.8.tar.gz]
+[2023-06-12 14:16:56] INFO root fetch - processPackages [bayes-optim]: Remove: archive file [/home/abi/fetcher/tmp/bayes-optim-0.2.6.tar.gz]
+[2023-06-12 14:16:56] INFO root fetch - main [MainThread]: End processing [bayes-optim]: success
+[2023-06-12 14:16:57] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post8.tar.gz]
+[2023-06-12 14:16:57] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
+[2023-06-12 14:16:57] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-12 14:16:58] INFO root fetch - processPackages [particle]: Remove: archive file [/home/abi/fetcher/tmp/Particle-0.9.1.tar.gz]
+[2023-06-12 14:16:58] INFO root fetch - processPackages [particle]: Remove: archive file [/home/abi/fetcher/tmp/Particle-0.9.2.tar.gz]
+[2023-06-12 14:16:58] INFO root fetch - main [MainThread]: End processing [particle]: success
+[2023-06-12 14:16:58] INFO root fetch - main [MainThread]: Store serial: [18468530]
