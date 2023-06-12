@@ -23740,3 +23740,159 @@ EOFError: EOF read where object expected
 [2023-06-12 18:14:37] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.5.1.tar.gz]
 [2023-06-12 18:14:37] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-06-12 18:14:37] INFO root fetch - main [MainThread]: Store serial: [18471342]
+[2023-06-12 18:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18471342]
+[2023-06-12 18:20:01] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FoKL
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-local-features
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encode-utils-cli
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnschema_core
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moosez
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eudplib
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-device-controls
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stadiamaps
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: t4flib
+[2023-06-12 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wizata-dsapi
+[2023-06-12 18:20:01] INFO root fetch - processPackages [FoKL]: New version: [1.2.6] Old Version: [1.2.0]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [t4flib]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [encode-utils-cli]: New version: [1.0.0a1] Old Version: [0.0.4a1]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [neon-skill-device-controls]: New version: [0.3.1a1] Old Version: [0.3.0]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [stadiamaps]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [easy-local-features]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [moosez]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [eudplib]: New version: [0.75.0.dev3] Old Version: [0.75.0.dev2]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-06-12 18:20:01] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/05/cd/f1cf88879304fafd5f6f0b0f4bbbc4234a7ccb14da70f1a312f35493b22a/t4flib-0.3.8-py2.py3-none-any.whl
+[2023-06-12 18:20:01] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/8a/59/2f61384e000b9f78f8bf26080a86717b11977fbcfb471be93568a5ecc21d/stadiamaps-1.0.0.tar.gz
+[2023-06-12 18:20:01] INFO root fetch - processPackages [FoKL]: Downloading https://files.pythonhosted.org/packages/45/74/4541f51db664fd4976999f186317810427138b846dc14ac1b329a2f8e5f6/FoKL-1.2.0.tar.gz
+[2023-06-12 18:20:01] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/e6/36/1ad88fa487491ccbbccbd273352929f003c5de13a1bf609040419e49dc76/eudplib-0.75.0.dev2-py3-none-any.whl
+[2023-06-12 18:20:01] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/d0/b9/ef33c2c7df946b85569aa1bfe9e3a870f6b22d881e76ae14922133d83fa3/moosez-2.0.6.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/ba/18/27e3c1bd23262f7ac3a35f54434addb41939870cf8e7999c9b1ceb6f6aba/easy_local_features-0.2.1.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d8/ec/dae7290eea312f33e61dd7d14226becbd770bdde3e4d33e094123be99764/wizata-dsapi-0.1.85.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [encode-utils-cli]: Downloading https://files.pythonhosted.org/packages/76/0e/db24b5f6995a0da541dcee41462545fde03206aa38b9e77101ae8ad4a4a5/encode_utils_cli-0.0.4a1.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/a8/f6/ea3e7c9f2f82fe0279e198b13af7ddeb2446021ae49cd39c503f24e3adbc/t4flib-0.3.9-py2.py3-none-any.whl
+[2023-06-12 18:20:02] INFO root fetch - processPackages [neon-skill-device-controls]: Downloading https://files.pythonhosted.org/packages/ea/39/2ed46d30685ebe9da73503fbf26c9e649a558396803c4a50389398fb70e4/neon_skill_device_controls-0.3.0-py3-none-any.whl
+[2023-06-12 18:20:02] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-06-12 18:20:02] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.3.8-py2.py3-none-any.whl.zip tmp/t4flib-0.3.9-py2.py3-none-any.whl.zip --markdown 20230612/t/t4flib/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-12 18:20:02] INFO root fetch - processPackages [FoKL]: Downloading https://files.pythonhosted.org/packages/e9/3a/5ee3463017770bf7ce2b4b492b60146e239537725e5787d3085ded854501/FoKL-1.2.6.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/27/a0/20f03897fbeed4e3a86ad2d66e7876fb05e38cc99c5471d857f376004327/stadiamaps-1.0.1.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/e3/88/6e1ff5f99cc6df94e636cc2f498230309629c9dbe83a964646fa3235ae58/moosez-2.0.7.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/a7/35/b92df50fbb47716adca68071dce4bcbbfef200159d3130acdee71c8074c1/easy_local_features-0.2.2.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [FoKL]: executing diffoscope
+[2023-06-12 18:20:02] INFO root fetch - processPackages [FoKL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FoKL-1.2.0.tar.gz tmp/FoKL-1.2.6.tar.gz --markdown 20230612/F/FoKL/1.2.0-1.2.6/diff.md --exclude *.pyd
+[2023-06-12 18:20:02] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-12 18:20:02] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.85.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230612/w/wizata-dsapi/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 18:20:02] INFO root fetch - processPackages [stadiamaps]: executing diffoscope
+[2023-06-12 18:20:02] INFO root fetch - processPackages [stadiamaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadiamaps-1.0.0.tar.gz tmp/stadiamaps-1.0.1.tar.gz --markdown 20230612/s/stadiamaps/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 18:20:02] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-06-12 18:20:02] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.0.6.tar.gz tmp/moosez-2.0.7.tar.gz --markdown 20230612/m/moosez/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-12 18:20:02] INFO root fetch - processPackages [easy-local-features]: executing diffoscope
+[2023-06-12 18:20:02] INFO root fetch - processPackages [easy-local-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_local_features-0.2.1.tar.gz tmp/easy_local_features-0.2.2.tar.gz --markdown 20230612/e/easy-local-features/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-12 18:20:02] INFO root fetch - processPackages [encode-utils-cli]: Downloading https://files.pythonhosted.org/packages/11/66/26200dde75ec09591b4071480c079edaa0d2d02845937181103ee0cba395/encode_utils_cli-1.0.0a1.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [neon-skill-device-controls]: Downloading https://files.pythonhosted.org/packages/b7/75/12b9344450d481f8ae9125bd303aa338004f3674396d6bb285aec15b2419/neon_skill_device_controls-0.3.1a1-py3-none-any.whl
+[2023-06-12 18:20:02] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-12 18:20:02] INFO root fetch - processPackages [encode-utils-cli]: executing diffoscope
+[2023-06-12 18:20:02] INFO root fetch - processPackages [encode-utils-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encode_utils_cli-0.0.4a1.tar.gz tmp/encode_utils_cli-1.0.0a1.tar.gz --markdown 20230612/e/encode-utils-cli/0.0.4a1-1.0.0a1/diff.md --exclude *.pyd
+[2023-06-12 18:20:02] INFO root fetch - processPackages [neon-skill-device-controls]: executing diffoscope
+[2023-06-12 18:20:02] INFO root fetch - processPackages [neon-skill-device-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_device_controls-0.3.0-py3-none-any.whl.zip tmp/neon_skill_device_controls-0.3.1a1-py3-none-any.whl.zip --markdown 20230612/n/neon-skill-device-controls/0.3.0-0.3.1a1/diff.md --exclude *.pyd
+[2023-06-12 18:20:02] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-12 18:20:02] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230612/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-12 18:20:02] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/cc/07/eba44620d89e4c85187b01a9a0684504fda428599db92778f732dc91447c/eudplib-0.75.0.dev3-py3-none-any.whl
+[2023-06-12 18:20:03] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-12 18:20:03] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0.dev2-py3-none-any.whl.zip tmp/eudplib-0.75.0.dev3-py3-none-any.whl.zip --markdown 20230612/e/eudplib/0.75.0.dev2-0.75.0.dev3/diff.md --exclude *.pyd
+[2023-06-12 18:20:03] INFO root fetch - processPackages [t4flib]: Remove: archive file [/home/abi/fetcher/tmp/t4flib-0.3.8-py2.py3-none-any.whl.zip]
+[2023-06-12 18:20:03] INFO root fetch - processPackages [t4flib]: Remove: archive file [/home/abi/fetcher/tmp/t4flib-0.3.9-py2.py3-none-any.whl.zip]
+[2023-06-12 18:20:03] INFO root fetch - processPackages [t4flib]: Start processing: pyasic
+[2023-06-12 18:20:03] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-06-12 18:20:03] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-12 18:20:03] INFO root fetch - processPackages [FoKL]: Remove: archive file [/home/abi/fetcher/tmp/FoKL-1.2.0.tar.gz]
+[2023-06-12 18:20:03] INFO root fetch - processPackages [FoKL]: Remove: archive file [/home/abi/fetcher/tmp/FoKL-1.2.6.tar.gz]
+[2023-06-12 18:20:03] INFO root fetch - processPackages [FoKL]: Start processing: mykit
+[2023-06-12 18:20:03] INFO root fetch - main [MainThread]: End processing [FoKL]: success
+[2023-06-12 18:20:03] INFO root fetch - processPackages [mykit]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-12 18:20:03] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2023-06-12 18:20:03] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/8d/ce/40ce973f0de1801328c0848eeae2033c9cc48a2eaf42ea02e898e95dce3f/mykit-0.1.3.tar.gz
+[2023-06-12 18:20:04] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.85.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.9.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [wizata-dsapi]: Start processing: neon-skill-date-time
+[2023-06-12 18:20:04] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-date-time]: New version: [0.3.2a1] Old Version: [0.3.1a1]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [encode-utils-cli]: Remove: archive file [/home/abi/fetcher/tmp/encode_utils_cli-0.0.4a1.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [encode-utils-cli]: Remove: archive file [/home/abi/fetcher/tmp/encode_utils_cli-1.0.0a1.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [encode-utils-cli]: Start processing: neon-skill-demo
+[2023-06-12 18:20:04] INFO root fetch - main [MainThread]: End processing [encode-utils-cli]: success
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-demo]: New version: [0.3.1a1] Old Version: [0.3.0]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.6.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.7.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [moosez]: Start processing: lamindb_setup
+[2023-06-12 18:20:04] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lamindb_setup]: New version: [0.47.5] Old Version: [0.47.4]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/76/37/3566a6ea15a4c9a7812f9dfd6e9189baee4ae945bbdfce3b624ca82edd5a/neon_skill_date_time-0.3.1a1-py3-none-any.whl
+[2023-06-12 18:20:04] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2023-06-12 18:20:04] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/b7/5c/25623b6b310398f7102571af6c402ca4336198df2da23a680825eb6e76ad/mykit-0.1.4.tar.gz
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-device-controls]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_device_controls-0.3.0-py3-none-any.whl.zip]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-device-controls]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_device_controls-0.3.1a1-py3-none-any.whl.zip]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-device-controls]: Start processing: lattice-graph-manipulation
+[2023-06-12 18:20:04] INFO root fetch - main [MainThread]: End processing [neon-skill-device-controls]: success
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-demo]: Downloading https://files.pythonhosted.org/packages/4a/77/a01403bbd96519e8a2a5e3259f00708376e214de742d4f61a1f6908af37a/neon_skill_demo-0.3.0-py3-none-any.whl
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lattice-graph-manipulation]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/35/e4/e6eba1e97cc433cc23f495d8c3ef700db157112a257b995e39afa8f96f8b/lamindb_setup-0.47.4.tar.gz
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lnschema_core]: Start processing: recognize
+[2023-06-12 18:20:04] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-12 18:20:04] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-06-12 18:20:04] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230612/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-12 18:20:04] INFO root fetch - processPackages [recognize]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.2.1.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.2.2.tar.gz]
+[2023-06-12 18:20:04] INFO root fetch - main [MainThread]: End processing [easy-local-features]: success
+[2023-06-12 18:20:04] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/40/75/963960f9236ff152d95ce8541330a5c1c55a1023a23c60d5e6d8cadd5cbb/recognize-0.1.8.tar.gz
+[2023-06-12 18:20:04] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-06-12 18:20:04] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-0.1.3.tar.gz tmp/mykit-0.1.4.tar.gz --markdown 20230612/m/mykit/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lattice-graph-manipulation]: Downloading https://files.pythonhosted.org/packages/57/28/4bd0f75a3a9e457139ff4f96285c912117e625228c03056c065676384042/Lattice-Graph-Manipulation-1.3.0.tar.gz
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-demo]: Downloading https://files.pythonhosted.org/packages/81/f1/9715b5e35d9d4fd1b5e7528773fcb424055fc4fdd6bce32b0066897a7c1e/neon_skill_demo-0.3.1a1-py3-none-any.whl
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/a6/2d/4ef250be73a2fd9e85a7e28dfcbca69999befbb8b3f148b29da217c95779/lamindb_setup-0.47.5.tar.gz
+[2023-06-12 18:20:04] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/90/11/44165d25dc6f6929091933caec158f7e7a1da9f6e2594a3b2c9180d8d7e3/recognize-0.1.9.tar.gz
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-demo]: executing diffoscope
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_demo-0.3.0-py3-none-any.whl.zip tmp/neon_skill_demo-0.3.1a1-py3-none-any.whl.zip --markdown 20230612/n/neon-skill-demo/0.3.0-0.3.1a1/diff.md --exclude *.pyd
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.47.4.tar.gz tmp/lamindb_setup-0.47.5.tar.gz --markdown 20230612/l/lamindb_setup/0.47.4-0.47.5/diff.md --exclude *.pyd
+[2023-06-12 18:20:04] INFO root fetch - processPackages [recognize]: executing diffoscope
+[2023-06-12 18:20:04] INFO root fetch - processPackages [recognize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognize-0.1.8.tar.gz tmp/recognize-0.1.9.tar.gz --markdown 20230612/r/recognize/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/01/7b/e2ea9ebc920c69c3e2a599b0c616fac236dabc908994fb073923a6c32d92/neon_skill_date_time-0.3.2a1-py3-none-any.whl
+[2023-06-12 18:20:04] INFO root fetch - processPackages [lattice-graph-manipulation]: Downloading https://files.pythonhosted.org/packages/48/46/c60e87e66ab6ee4471985ba3ad16dcddd563c78907a2e4f58a940cc6bd5c/Lattice-Graph-Manipulation-1.3.1.tar.gz
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-date-time]: executing diffoscope
+[2023-06-12 18:20:04] INFO root fetch - processPackages [neon-skill-date-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_date_time-0.3.1a1-py3-none-any.whl.zip tmp/neon_skill_date_time-0.3.2a1-py3-none-any.whl.zip --markdown 20230612/n/neon-skill-date-time/0.3.1a1-0.3.2a1/diff.md --exclude *.pyd
+[2023-06-12 18:20:05] INFO root fetch - processPackages [lattice-graph-manipulation]: executing diffoscope
+[2023-06-12 18:20:05] INFO root fetch - processPackages [lattice-graph-manipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lattice-Graph-Manipulation-1.3.0.tar.gz tmp/Lattice-Graph-Manipulation-1.3.1.tar.gz --markdown 20230612/l/lattice-graph-manipulation/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-12 18:20:05] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.8.tar.gz]
+[2023-06-12 18:20:05] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.9.tar.gz]
+[2023-06-12 18:20:05] INFO root fetch - main [MainThread]: End processing [recognize]: success
+[2023-06-12 18:20:05] INFO root fetch - processPackages [neon-skill-demo]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_demo-0.3.0-py3-none-any.whl.zip]
+[2023-06-12 18:20:05] INFO root fetch - processPackages [neon-skill-demo]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_demo-0.3.1a1-py3-none-any.whl.zip]
+[2023-06-12 18:20:05] INFO root fetch - main [MainThread]: End processing [neon-skill-demo]: success
+[2023-06-12 18:20:06] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-0.1.3.tar.gz]
+[2023-06-12 18:20:06] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-0.1.4.tar.gz]
+[2023-06-12 18:20:06] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-06-12 18:20:06] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.4.tar.gz]
+[2023-06-12 18:20:06] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.5.tar.gz]
+[2023-06-12 18:20:06] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-06-12 18:20:06] INFO root fetch - processPackages [lattice-graph-manipulation]: Remove: archive file [/home/abi/fetcher/tmp/Lattice-Graph-Manipulation-1.3.0.tar.gz]
+[2023-06-12 18:20:06] INFO root fetch - processPackages [lattice-graph-manipulation]: Remove: archive file [/home/abi/fetcher/tmp/Lattice-Graph-Manipulation-1.3.1.tar.gz]
+[2023-06-12 18:20:06] INFO root fetch - main [MainThread]: End processing [lattice-graph-manipulation]: success
+[2023-06-12 18:20:07] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_date_time-0.3.1a1-py3-none-any.whl.zip]
+[2023-06-12 18:20:07] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_date_time-0.3.2a1-py3-none-any.whl.zip]
+[2023-06-12 18:20:07] INFO root fetch - main [MainThread]: End processing [neon-skill-date-time]: success
+[2023-06-12 18:20:07] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2023-06-12 18:20:07] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2023-06-12 18:20:07] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-06-12 18:20:07] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.0.tar.gz]
+[2023-06-12 18:20:07] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.1.tar.gz]
+[2023-06-12 18:20:07] INFO root fetch - main [MainThread]: End processing [stadiamaps]: success
+[2023-06-12 18:20:08] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0.dev2-py3-none-any.whl.zip]
+[2023-06-12 18:20:08] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0.dev3-py3-none-any.whl.zip]
+[2023-06-12 18:20:08] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-12 18:20:08] INFO root fetch - main [MainThread]: Store serial: [18471401]
