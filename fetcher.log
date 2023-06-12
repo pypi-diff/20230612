@@ -22816,3 +22816,129 @@ EOFError: EOF read where object expected
 [2023-06-12 17:45:18] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.1.8.tar.gz]
 [2023-06-12 17:45:18] INFO root fetch - main [MainThread]: End processing [dimples]: success
 [2023-06-12 17:45:18] INFO root fetch - main [MainThread]: Store serial: [18470973]
+[2023-06-12 17:50:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18470973]
+[2023-06-12 17:50:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: memoiz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: five-card-draw
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-signing
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salome-c3po
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prismacloud-cli
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: semsimian
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlglot
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wemp
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pylint-venv
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ltphotonics
+[2023-06-12 17:50:28] INFO root fetch - processPackages [memoiz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-12 17:50:28] WARNING root fetch - processPackages [flask-signing]: Skipping, unable to determine old version
+[2023-06-12 17:50:28] INFO root fetch - processPackages [flask-signing]: Start processing: fabric-credmgr-client
+[2023-06-12 17:50:28] INFO root fetch - main [MainThread]: End processing [flask-signing] error
+[2023-06-12 17:50:28] INFO root fetch - processPackages [salome-c3po]: New version: [2.2] Old Version: [2.1.1]
+[2023-06-12 17:50:28] INFO root fetch - processPackages [pylint-venv]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-12 17:50:28] INFO root fetch - processPackages [five-card-draw]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ltphotonics]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-12 17:50:28] INFO root fetch - processPackages [prismacloud-cli]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-12 17:50:28] INFO root fetch - processPackages [semsimian]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-06-12 17:50:28] WARNING root fetch - processPackages [wemp]: Skipping, unable to determine old version
+[2023-06-12 17:50:28] INFO root fetch - processPackages [wemp]: Start processing: splitit-web-python-sdk
+[2023-06-12 17:50:28] INFO root fetch - main [MainThread]: End processing [wemp] error
+[2023-06-12 17:50:28] INFO root fetch - processPackages [fabric-credmgr-client]: New version: [1.5.0rc1] Old Version: [1.5.0]
+[2023-06-12 17:50:28] INFO root fetch - processPackages [memoiz]: Downloading https://files.pythonhosted.org/packages/19/33/5c48736c8f1f397d2cfd1acfe1a4d629b08cdc7b84e1358c507d23419e91/memoiz-0.0.8.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-06-12 17:50:28] INFO root fetch - processPackages [splitit-web-python-sdk]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-12 17:50:28] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/16/f3/018b57dc65f1fbb1fc0fc86c1329a90a8b8d5553ad24cf2ba42a47672463/five_card_draw-1.0.6.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [salome-c3po]: Downloading https://files.pythonhosted.org/packages/9d/35/999f0aa802515da8533f847e430e781cc0be125e55ad09b511f042476872/salome-c3po-2.1.1.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [fabric-credmgr-client]: Downloading https://files.pythonhosted.org/packages/ab/a8/461c856ed7b10edc4ee17521e484c57ffefae1c062605ef679a9b1a68542/fabric-credmgr-client-1.5.0.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [pylint-venv]: Downloading https://files.pythonhosted.org/packages/c5/d9/13f35d78e9c0a023b32b63f6f685586decaf01cb6cec0a7bf0f8fb3f4795/pylint_venv-3.0.1.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [memoiz]: Downloading https://files.pythonhosted.org/packages/5a/7e/c377724838098bb3c1a1feda282b96569d4e64e21897ddb23e48c97436b2/memoiz-0.0.9.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/10/60/36cfec1b8b42bbd572ecb6e0dbd0ccec34e4de32923b122f1a19d5fe68d6/prismacloud-cli-0.6.8.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ltphotonics]: Downloading https://files.pythonhosted.org/packages/b6/d0/7b9699391032e76e6e8582bdc45f2586d3529bccae390f4f5f099d48a3aa/ltphotonics-1.1.1.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/9c/4e/c7fcb6825e0c43bcbc83939a6d8d49a8a4935bcce6d5b37c2a8dd1ccfae7/semsimian-0.1.14-cp39-none-win_amd64.whl
+[2023-06-12 17:50:28] INFO root fetch - processPackages [memoiz]: executing diffoscope
+[2023-06-12 17:50:28] INFO root fetch - processPackages [splitit-web-python-sdk]: Downloading https://files.pythonhosted.org/packages/c5/07/68d0d8142a9229081e1afb3e0ab62f33bbb8956e59f58224debb463c51e7/splitit_web_python_sdk-2.2.0.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [memoiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memoiz-0.0.8.tar.gz tmp/memoiz-0.0.9.tar.gz --markdown 20230612/m/memoiz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-12 17:50:28] INFO root fetch - processPackages [salome-c3po]: Downloading https://files.pythonhosted.org/packages/4b/63/b5adecc09625b7d6f68f54ea9ddf8508bdb58b9bc2c049972942fa7babbb/salome-c3po-2.2.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [pylint-venv]: Downloading https://files.pythonhosted.org/packages/ea/04/fa516038113abce53f817a8f749e8c80c5876463bdfa58458eb93e42776d/pylint_venv-3.0.2.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/c6/99/654fcbe4b1ce0b569551d8e406ce19b238a31d21ca9d1e4b0490c0679fa0/five_card_draw-1.0.7.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [salome-c3po]: executing diffoscope
+[2023-06-12 17:50:28] INFO root fetch - processPackages [salome-c3po]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salome-c3po-2.1.1.tar.gz tmp/salome-c3po-2.2.tar.gz --markdown 20230612/s/salome-c3po/2.1.1-2.2/diff.md --exclude *.pyd
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ltphotonics]: Downloading https://files.pythonhosted.org/packages/8a/a4/773072e4cfd5bb0d47aa54603e9060cb8008a9d00bbedc22c44c7da9ee14/ltphotonics-1.1.2.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [fabric-credmgr-client]: Downloading https://files.pythonhosted.org/packages/f4/79/03fd23de48b99d19b7f1b45e63feb176a34a5561ac679d89ae3ed664487a/fabric-credmgr-client-1.5.0rc1.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [pylint-venv]: executing diffoscope
+[2023-06-12 17:50:28] INFO root fetch - processPackages [pylint-venv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_venv-3.0.1.tar.gz tmp/pylint_venv-3.0.2.tar.gz --markdown 20230612/p/pylint-venv/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-12 17:50:28] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/c8/2d/43f573a6c3a50249df893de210d0473b7a296dbbd8ec7763e0c8c34ed8ed/semsimian-0.1.15-cp39-none-win_amd64.whl
+[2023-06-12 17:50:28] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/af/0e/fa72b8483f8c01e8575ef6f961e2b6c4d1cdcab84f520c6f82d9d0ece079/prismacloud-cli-0.6.9.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ltphotonics]: executing diffoscope
+[2023-06-12 17:50:28] INFO root fetch - processPackages [ltphotonics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltphotonics-1.1.1.tar.gz tmp/ltphotonics-1.1.2.tar.gz --markdown 20230612/l/ltphotonics/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-12 17:50:28] INFO root fetch - processPackages [five-card-draw]: executing diffoscope
+[2023-06-12 17:50:28] INFO root fetch - processPackages [five-card-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_card_draw-1.0.6.tar.gz tmp/five_card_draw-1.0.7.tar.gz --markdown 20230612/f/five-card-draw/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-12 17:50:28] INFO root fetch - processPackages [semsimian]: executing diffoscope
+[2023-06-12 17:50:28] INFO root fetch - processPackages [semsimian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semsimian-0.1.14-cp39-none-win_amd64.whl.zip tmp/semsimian-0.1.15-cp39-none-win_amd64.whl.zip --markdown 20230612/s/semsimian/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-06-12 17:50:28] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-06-12 17:50:28] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230612/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-06-12 17:50:28] INFO root fetch - processPackages [fabric-credmgr-client]: executing diffoscope
+[2023-06-12 17:50:28] INFO root fetch - processPackages [fabric-credmgr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-credmgr-client-1.5.0.tar.gz tmp/fabric-credmgr-client-1.5.0rc1.tar.gz --markdown 20230612/f/fabric-credmgr-client/1.5.0-1.5.0rc1/diff.md --exclude *.pyd
+[2023-06-12 17:50:28] INFO root fetch - processPackages [prismacloud-cli]: executing diffoscope
+[2023-06-12 17:50:28] INFO root fetch - processPackages [prismacloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismacloud-cli-0.6.8.tar.gz tmp/prismacloud-cli-0.6.9.tar.gz --markdown 20230612/p/prismacloud-cli/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-12 17:50:29] INFO root fetch - processPackages [splitit-web-python-sdk]: Downloading https://files.pythonhosted.org/packages/e0/18/d6813c904973922e6bcbbe0ff8420968001a6889485c4617c466a3649825/splitit_web_python_sdk-2.3.0.tar.gz
+[2023-06-12 17:50:29] INFO root fetch - processPackages [splitit-web-python-sdk]: executing diffoscope
+[2023-06-12 17:50:29] INFO root fetch - processPackages [splitit-web-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splitit_web_python_sdk-2.2.0.tar.gz tmp/splitit_web_python_sdk-2.3.0.tar.gz --markdown 20230612/s/splitit-web-python-sdk/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-12 17:50:29] INFO root fetch - processPackages [memoiz]: Remove: archive file [/home/abi/fetcher/tmp/memoiz-0.0.8.tar.gz]
+[2023-06-12 17:50:29] INFO root fetch - processPackages [memoiz]: Remove: archive file [/home/abi/fetcher/tmp/memoiz-0.0.9.tar.gz]
+[2023-06-12 17:50:29] INFO root fetch - processPackages [memoiz]: Start processing: dicom-csv
+[2023-06-12 17:50:29] INFO root fetch - main [MainThread]: End processing [memoiz]: success
+[2023-06-12 17:50:29] INFO root fetch - processPackages [dicom-csv]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [dicom-csv]: Downloading https://files.pythonhosted.org/packages/0b/49/6ff9433028df9f112017e32655045c941d6d090d9f1b2b0a995da6e2c8a1/dicom_csv-0.2.8.tar.gz
+[2023-06-12 17:50:30] INFO root fetch - processPackages [pylint-venv]: Remove: archive file [/home/abi/fetcher/tmp/pylint_venv-3.0.1.tar.gz]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [pylint-venv]: Remove: archive file [/home/abi/fetcher/tmp/pylint_venv-3.0.2.tar.gz]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [pylint-venv]: Start processing: LeoX
+[2023-06-12 17:50:30] INFO root fetch - main [MainThread]: End processing [pylint-venv]: success
+[2023-06-12 17:50:30] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.1.14-cp39-none-win_amd64.whl.zip]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [LeoX]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.1.15-cp39-none-win_amd64.whl.zip]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [semsimian]: Start processing: pyfii
+[2023-06-12 17:50:30] INFO root fetch - main [MainThread]: End processing [semsimian]: success
+[2023-06-12 17:50:30] INFO root fetch - processPackages [pyfii]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [pyfii]: Downloading https://files.pythonhosted.org/packages/6b/09/f2d0fa21f6f7cf158e56dd72d0b2836d7a1abe35a56cc938263e920ece30/pyfii-1.2.0.tar.gz
+[2023-06-12 17:50:30] INFO root fetch - processPackages [dicom-csv]: Downloading https://files.pythonhosted.org/packages/71/9d/bb076ee8e7691dc341690a47f220005d116bdca0a1c19e077b951d57e427/dicom_csv-0.2.9.tar.gz
+[2023-06-12 17:50:30] INFO root fetch - processPackages [ltphotonics]: Remove: archive file [/home/abi/fetcher/tmp/ltphotonics-1.1.1.tar.gz]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [ltphotonics]: Remove: archive file [/home/abi/fetcher/tmp/ltphotonics-1.1.2.tar.gz]
+[2023-06-12 17:50:30] INFO root fetch - main [MainThread]: End processing [ltphotonics]: success
+[2023-06-12 17:50:30] INFO root fetch - processPackages [dicom-csv]: executing diffoscope
+[2023-06-12 17:50:30] INFO root fetch - processPackages [dicom-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicom_csv-0.2.8.tar.gz tmp/dicom_csv-0.2.9.tar.gz --markdown 20230612/d/dicom-csv/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-12 17:50:30] INFO root fetch - processPackages [LeoX]: Downloading https://files.pythonhosted.org/packages/e6/7a/e77e15b6072d4f816e5f4db699ed490f1fe75b827da8ec44b602bd0ad49e/LeoX-0.4.0.tar.gz
+[2023-06-12 17:50:30] INFO root fetch - processPackages [pyfii]: Downloading https://files.pythonhosted.org/packages/7f/3f/4c6faca70fad0f159390729ec47a3e8dabb81b1d744b7b151662e516718c/pyfii-1.3.0.tar.gz
+[2023-06-12 17:50:30] INFO root fetch - processPackages [pyfii]: executing diffoscope
+[2023-06-12 17:50:30] INFO root fetch - processPackages [pyfii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfii-1.2.0.tar.gz tmp/pyfii-1.3.0.tar.gz --markdown 20230612/p/pyfii/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-12 17:50:30] INFO root fetch - processPackages [LeoX]: Downloading https://files.pythonhosted.org/packages/24/6f/1df94c62c75489a1d2209fb2801af562271eaead376e6f572fed1ebdc8ba/LeoX-0.5.0.tar.gz
+[2023-06-12 17:50:30] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.6.tar.gz]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.7.tar.gz]
+[2023-06-12 17:50:30] INFO root fetch - main [MainThread]: End processing [five-card-draw]: success
+[2023-06-12 17:50:30] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-06-12 17:50:30] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-06-12 17:50:30] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-06-12 17:50:31] INFO root fetch - processPackages [LeoX]: executing diffoscope
+[2023-06-12 17:50:31] INFO root fetch - processPackages [LeoX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LeoX-0.4.0.tar.gz tmp/LeoX-0.5.0.tar.gz --markdown 20230612/L/LeoX/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-12 17:50:31] INFO root fetch - processPackages [prismacloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/prismacloud-cli-0.6.8.tar.gz]
+[2023-06-12 17:50:31] INFO root fetch - processPackages [prismacloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/prismacloud-cli-0.6.9.tar.gz]
+[2023-06-12 17:50:31] INFO root fetch - main [MainThread]: End processing [prismacloud-cli]: success
+[2023-06-12 17:50:31] INFO root fetch - processPackages [fabric-credmgr-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-credmgr-client-1.5.0.tar.gz]
+[2023-06-12 17:50:31] INFO root fetch - processPackages [fabric-credmgr-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-credmgr-client-1.5.0rc1.tar.gz]
+[2023-06-12 17:50:31] INFO root fetch - main [MainThread]: End processing [fabric-credmgr-client]: success
+[2023-06-12 17:50:31] INFO root fetch - processPackages [dicom-csv]: Remove: archive file [/home/abi/fetcher/tmp/dicom_csv-0.2.8.tar.gz]
+[2023-06-12 17:50:31] INFO root fetch - processPackages [dicom-csv]: Remove: archive file [/home/abi/fetcher/tmp/dicom_csv-0.2.9.tar.gz]
+[2023-06-12 17:50:31] INFO root fetch - main [MainThread]: End processing [dicom-csv]: success
+[2023-06-12 17:50:31] INFO root fetch - processPackages [salome-c3po]: Remove: archive file [/home/abi/fetcher/tmp/salome-c3po-2.1.1.tar.gz]
+[2023-06-12 17:50:31] INFO root fetch - processPackages [salome-c3po]: Remove: archive file [/home/abi/fetcher/tmp/salome-c3po-2.2.tar.gz]
+[2023-06-12 17:50:31] INFO root fetch - main [MainThread]: End processing [salome-c3po]: success
+[2023-06-12 17:50:32] INFO root fetch - processPackages [LeoX]: Remove: archive file [/home/abi/fetcher/tmp/LeoX-0.4.0.tar.gz]
+[2023-06-12 17:50:32] INFO root fetch - processPackages [LeoX]: Remove: archive file [/home/abi/fetcher/tmp/LeoX-0.5.0.tar.gz]
+[2023-06-12 17:50:32] INFO root fetch - main [MainThread]: End processing [LeoX]: success
+[2023-06-12 17:50:35] INFO root fetch - processPackages [splitit-web-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/splitit_web_python_sdk-2.2.0.tar.gz]
+[2023-06-12 17:50:35] INFO root fetch - processPackages [splitit-web-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/splitit_web_python_sdk-2.3.0.tar.gz]
+[2023-06-12 17:50:35] INFO root fetch - main [MainThread]: End processing [splitit-web-python-sdk]: success
+[2023-06-12 17:51:23] INFO root fetch - processPackages [pyfii]: Remove: archive file [/home/abi/fetcher/tmp/pyfii-1.2.0.tar.gz]
+[2023-06-12 17:51:23] INFO root fetch - processPackages [pyfii]: Remove: archive file [/home/abi/fetcher/tmp/pyfii-1.3.0.tar.gz]
+[2023-06-12 17:51:23] INFO root fetch - main [MainThread]: End processing [pyfii]: success
+[2023-06-12 17:51:23] INFO root fetch - main [MainThread]: Store serial: [18471056]
