@@ -13875,3 +13875,135 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-12 11:46:15] INFO root fetch - processPackages [wbBase]: Remove: archive file [/home/abi/fetcher/tmp/wbBase-0.2.0.tar.gz]
 [2023-06-12 11:46:15] INFO root fetch - main [MainThread]: End processing [wbBase]: success
 [2023-06-12 11:46:15] INFO root fetch - main [MainThread]: Store serial: [18467111]
+[2023-06-12 11:51:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18467111]
+[2023-06-12 11:51:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-connect
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mayan-credentials
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FindJobsTW
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyuppaal
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyobs-core
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kssdtree
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: const-cython-lib
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mayan-importer
+[2023-06-12 11:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysimflow
+[2023-06-12 11:51:24] INFO root fetch - processPackages [FindJobsTW]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-12 11:51:24] WARNING root fetch - processPackages [kssdtree]: Skipping, unable to determine old version
+[2023-06-12 11:51:24] INFO root fetch - processPackages [kssdtree]: Start processing: aspeak
+[2023-06-12 11:51:24] INFO root fetch - main [MainThread]: End processing [kssdtree] error
+[2023-06-12 11:51:24] INFO root fetch - processPackages [pyuppaal]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-12 11:51:24] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.40] Old Version: [9.1.39]
+[2023-06-12 11:51:24] INFO root fetch - processPackages [const-cython-lib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-12 11:51:24] INFO root fetch - processPackages [mayan-importer]: New version: [2.3.1] Old Version: [2.3]
+[2023-06-12 11:51:24] INFO root fetch - processPackages [mayan-credentials]: New version: [1.4.1] Old Version: [1.4]
+[2023-06-12 11:51:24] INFO root fetch - processPackages [pysimflow]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-06-12 11:51:24] INFO root fetch - processPackages [pyobs-core]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/9d/18/ffd17347765d490da57f9e79983d446c8291fe91bf2a8672ccbd16858262/pysimflow-0.0.78.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-12 11:51:25] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72517236>=10485760
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pysimflow]: Start processing: fhirkit
+[2023-06-12 11:51:25] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-12 11:51:25] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/f5/e7/55f3051481ef84ba792d1a0b4d690cf5cee498ec6356e639448c02f37983/FindJobsTW-1.0.1.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [aspeak]: New version: [6.0.0a2] Old Version: [5.2.0]
+[2023-06-12 11:51:25] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pyuppaal]: Downloading https://files.pythonhosted.org/packages/39/06/a9b165d2f23f7c0b351a51a99d805cfb5457eee26a2ff0e5ac91de9ef07b/pyuppaal-1.0.0.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [fhirkit]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-12 11:51:25] INFO root fetch - processPackages [mayan-credentials]: Downloading https://files.pythonhosted.org/packages/0b/85/4819a4683f95fa183b9153db6b2ca79cc798e3391c50ab01e386c6f904c4/mayan-credentials-1.4.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [mayan-importer]: Downloading https://files.pythonhosted.org/packages/66/20/00d5e1b556f3755ed0f028f996411df4a5be7cb84d06abbc6fa598599104/mayan-importer-2.3.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pyobs-core]: Downloading https://files.pythonhosted.org/packages/11/a3/341bba29d4d301a5601103345935329ebbfa88f4bb4fef8f437704582d8f/pyobs_core-1.4.0.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/9c/43/94833aa1d4bf6b931892863791a5fc32d5236d9408b6b3c873f703a89af1/databricks-connect-9.1.39.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/bf/bb/e8ea071c0b41cc9124d2b5c22f9e506990f2c394115c88c8bfdcdaa7e989/const_cython_lib-0.0.1.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/2e/75/31dfa433b604d92a1f8643c64927c89cb62cfd41483ae76c86f4b59baa05/FindJobsTW-1.0.2.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/89/92/45879519e9ec59444a59e00979bda9fcccc6b35e8f6a04de6f50ae33916a/aspeak-5.2.0-cp39-none-win_amd64.whl
+[2023-06-12 11:51:25] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257220640>=10485760
+[2023-06-12 11:51:25] INFO root fetch - processPackages [databricks-connect]: Start processing: const-cython-lib
+[2023-06-12 11:51:25] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-06-12 11:51:25] INFO root fetch - processPackages [fhirkit]: Downloading https://files.pythonhosted.org/packages/4d/26/2c357af26641150069e5ea9a97d7eda159b61f1533911d9063bbdf9461d2/FHIRkit-0.0.9.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [const-cython-lib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pyuppaal]: Downloading https://files.pythonhosted.org/packages/4e/9e/e52d80dbad74d99ee11453f4963eae763b2214bb5a531c2e0610ab56e88b/pyuppaal-1.0.1.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [FindJobsTW]: executing diffoscope
+[2023-06-12 11:51:25] INFO root fetch - processPackages [FindJobsTW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindJobsTW-1.0.1.tar.gz tmp/FindJobsTW-1.0.2.tar.gz --markdown 20230612/F/FindJobsTW/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-12 11:51:25] INFO root fetch - processPackages [mayan-credentials]: Downloading https://files.pythonhosted.org/packages/4c/2c/da14904a35537d9a2b549d5ab12e0d274de01c454f9a87f93ef672a4bcb3/mayan-credentials-1.4.1.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [mayan-importer]: Downloading https://files.pythonhosted.org/packages/5c/bf/2fef098901122b854e0114eb8d602302565655240651d6da395dbe0e06e1/mayan-importer-2.3.1.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pyobs-core]: Downloading https://files.pythonhosted.org/packages/2a/44/b979f277591c5c518c71850329ef03b8bbf39c4539017a2252ab1a1d69e5/pyobs_core-1.4.1.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/c8/12/912e6f070c17542908a768f3823fe8427fbad1ad88656ae54011593cd26a/const_cython_lib-0.0.2.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/c8/12/912e6f070c17542908a768f3823fe8427fbad1ad88656ae54011593cd26a/const_cython_lib-0.0.2.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pyuppaal]: executing diffoscope
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pyuppaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuppaal-1.0.0.tar.gz tmp/pyuppaal-1.0.1.tar.gz --markdown 20230612/p/pyuppaal/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-12 11:51:25] INFO root fetch - processPackages [mayan-credentials]: executing diffoscope
+[2023-06-12 11:51:25] INFO root fetch - processPackages [mayan-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-credentials-1.4.tar.gz tmp/mayan-credentials-1.4.1.tar.gz --markdown 20230612/m/mayan-credentials/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pyobs-core]: executing diffoscope
+[2023-06-12 11:51:25] INFO root fetch - processPackages [pyobs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobs_core-1.4.0.tar.gz tmp/pyobs_core-1.4.1.tar.gz --markdown 20230612/p/pyobs-core/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-12 11:51:25] INFO root fetch - processPackages [fhirkit]: Downloading https://files.pythonhosted.org/packages/21/da/951414c5bba6cdc5c3baa7083bca4a0c0863797fdd67a24a1d32a5d230d4/fhirkit-0.1.0.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 11:51:25] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.0.1.tar.gz tmp/const_cython_lib-0.0.2.tar.gz --markdown 20230612/c/const-cython-lib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-12 11:51:25] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-12 11:51:25] INFO root fetch - processPackages [mayan-importer]: executing diffoscope
+[2023-06-12 11:51:25] INFO root fetch - processPackages [mayan-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-importer-2.3.tar.gz tmp/mayan-importer-2.3.1.tar.gz --markdown 20230612/m/mayan-importer/2.3-2.3.1/diff.md --exclude *.pyd
+[2023-06-12 11:51:26] INFO root fetch - processPackages [const-cython-lib]: Downloading https://files.pythonhosted.org/packages/57/82/52e51cefb519b37c9f90a2fc4fa19a5591463faf3c5956e2a0c05989c11f/const_cython_lib-0.0.3.tar.gz
+[2023-06-12 11:51:26] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-12 11:51:26] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230612/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-12 11:51:26] INFO root fetch - processPackages [const-cython-lib]: executing diffoscope
+[2023-06-12 11:51:26] INFO root fetch - processPackages [const-cython-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/const_cython_lib-0.0.2.tar.gz tmp/const_cython_lib-0.0.3.tar.gz --markdown 20230612/c/const-cython-lib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-12 11:51:26] INFO root fetch - processPackages [fhirkit]: executing diffoscope
+[2023-06-12 11:51:26] INFO root fetch - processPackages [fhirkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.9.tar.gz tmp/fhirkit-0.1.0.tar.gz --markdown 20230612/f/fhirkit/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-12 11:51:26] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/0f/c0/b2dab2f164fd54aa534bf1845f0c2f3ecf2908c881dcf26e9efefa124158/aspeak-6.0.0a2-cp39-none-win_amd64.whl
+[2023-06-12 11:51:28] INFO root fetch - processPackages [aspeak]: executing diffoscope
+[2023-06-12 11:51:28] INFO root fetch - processPackages [aspeak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspeak-5.2.0-cp39-none-win_amd64.whl.zip tmp/aspeak-6.0.0a2-cp39-none-win_amd64.whl.zip --markdown 20230612/a/aspeak/5.2.0-6.0.0a2/diff.md --exclude *.pyd
+[2023-06-12 11:51:28] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-1.0.1.tar.gz]
+[2023-06-12 11:51:28] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-1.0.2.tar.gz]
+[2023-06-12 11:51:28] INFO root fetch - processPackages [FindJobsTW]: Start processing: peewee-migrate
+[2023-06-12 11:51:28] INFO root fetch - main [MainThread]: End processing [FindJobsTW]: success
+[2023-06-12 11:51:28] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.0.1.tar.gz]
+[2023-06-12 11:51:28] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.0.2.tar.gz]
+[2023-06-12 11:51:28] INFO root fetch - processPackages [const-cython-lib]: Start processing: skysurvey
+[2023-06-12 11:51:28] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 11:51:28] INFO root fetch - processPackages [peewee-migrate]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-12 11:51:28] INFO root fetch - processPackages [skysurvey]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-06-12 11:51:28] INFO root fetch - processPackages [mayan-credentials]: Remove: archive file [/home/abi/fetcher/tmp/mayan-credentials-1.4.tar.gz]
+[2023-06-12 11:51:28] INFO root fetch - processPackages [mayan-credentials]: Remove: archive file [/home/abi/fetcher/tmp/mayan-credentials-1.4.1.tar.gz]
+[2023-06-12 11:51:28] INFO root fetch - processPackages [mayan-credentials]: Start processing: localstack-core
+[2023-06-12 11:51:28] INFO root fetch - main [MainThread]: End processing [mayan-credentials]: success
+[2023-06-12 11:51:28] INFO root fetch - processPackages [peewee-migrate]: Downloading https://files.pythonhosted.org/packages/a4/d1/2ae4ca189a8e8087c7ca786af7707e043114db516cc42fabc10f74838d0f/peewee_migrate-1.8.1.tar.gz
+[2023-06-12 11:51:28] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/bc/47/599b0fdce13653b5199aa48804ac394190b80eab431ccd78b468ce13a956/skysurvey-0.5.5.tar.gz
+[2023-06-12 11:51:28] INFO root fetch - processPackages [fhirkit]: Remove: archive file [/home/abi/fetcher/tmp/FHIRkit-0.0.9.tar.gz]
+[2023-06-12 11:51:28] INFO root fetch - processPackages [fhirkit]: Remove: archive file [/home/abi/fetcher/tmp/fhirkit-0.1.0.tar.gz]
+[2023-06-12 11:51:28] INFO root fetch - main [MainThread]: End processing [fhirkit]: success
+[2023-06-12 11:51:28] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230612095058] Old Version: [2.1.1.dev20230610141100]
+[2023-06-12 11:51:29] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/39/16/f021f33234ba2da6405978cb83750f420f6cc15556a57199d3f1dafa67be/skysurvey-0.6.0.tar.gz
+[2023-06-12 11:51:29] INFO root fetch - processPackages [peewee-migrate]: Downloading https://files.pythonhosted.org/packages/72/74/523b92e0e84be6a141a30637b529496ccbbb39632a0ba08ab332b540b5ab/peewee_migrate-1.9.0.tar.gz
+[2023-06-12 11:51:29] INFO root fetch - processPackages [skysurvey]: executing diffoscope
+[2023-06-12 11:51:29] INFO root fetch - processPackages [skysurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skysurvey-0.5.5.tar.gz tmp/skysurvey-0.6.0.tar.gz --markdown 20230612/s/skysurvey/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-06-12 11:51:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0f/d7/ffcba3dd247892b4727a42905f916bc4df867f229cf98bef7c36ec7d17c5/localstack-core-2.1.1.dev20230610141100.tar.gz
+[2023-06-12 11:51:29] INFO root fetch - processPackages [const-cython-lib]: Remove: archive file [/home/abi/fetcher/tmp/const_cython_lib-0.0.3.tar.gz]
+[2023-06-12 11:51:29] INFO root fetch - main [MainThread]: End processing [const-cython-lib]: success
+[2023-06-12 11:51:29] INFO root fetch - processPackages [peewee-migrate]: executing diffoscope
+[2023-06-12 11:51:29] INFO root fetch - processPackages [peewee-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_migrate-1.8.1.tar.gz tmp/peewee_migrate-1.9.0.tar.gz --markdown 20230612/p/peewee-migrate/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-12 11:51:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d0/bf/eb7660b29c5e6f54a68627b3fc4e351e34e0edd6b99c696ff76822d03df6/localstack-core-2.1.1.dev20230612095058.tar.gz
+[2023-06-12 11:51:29] INFO root fetch - processPackages [mayan-importer]: Remove: archive file [/home/abi/fetcher/tmp/mayan-importer-2.3.tar.gz]
+[2023-06-12 11:51:29] INFO root fetch - processPackages [mayan-importer]: Remove: archive file [/home/abi/fetcher/tmp/mayan-importer-2.3.1.tar.gz]
+[2023-06-12 11:51:29] INFO root fetch - main [MainThread]: End processing [mayan-importer]: success
+[2023-06-12 11:51:30] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-12 11:51:30] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230612:/home/abi/fetcher/20230612:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230610141100.tar.gz tmp/localstack-core-2.1.1.dev20230612095058.tar.gz --markdown 20230612/l/localstack-core/2.1.1.dev20230610141100-2.1.1.dev20230612095058/diff.md --exclude *.pyd
+[2023-06-12 11:51:31] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.0.tar.gz]
+[2023-06-12 11:51:31] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.1.tar.gz]
+[2023-06-12 11:51:31] INFO root fetch - main [MainThread]: End processing [pyobs-core]: success
+[2023-06-12 11:51:31] INFO root fetch - processPackages [pyuppaal]: Remove: archive file [/home/abi/fetcher/tmp/pyuppaal-1.0.0.tar.gz]
+[2023-06-12 11:51:31] INFO root fetch - processPackages [pyuppaal]: Remove: archive file [/home/abi/fetcher/tmp/pyuppaal-1.0.1.tar.gz]
+[2023-06-12 11:51:31] INFO root fetch - main [MainThread]: End processing [pyuppaal]: success
+[2023-06-12 11:51:31] INFO root fetch - processPackages [peewee-migrate]: Remove: archive file [/home/abi/fetcher/tmp/peewee_migrate-1.8.1.tar.gz]
+[2023-06-12 11:51:31] INFO root fetch - processPackages [peewee-migrate]: Remove: archive file [/home/abi/fetcher/tmp/peewee_migrate-1.9.0.tar.gz]
+[2023-06-12 11:51:31] INFO root fetch - main [MainThread]: End processing [peewee-migrate]: success
+[2023-06-12 11:51:31] INFO root fetch - processPackages [skysurvey]: Remove: archive file [/home/abi/fetcher/tmp/skysurvey-0.5.5.tar.gz]
+[2023-06-12 11:51:31] INFO root fetch - processPackages [skysurvey]: Remove: archive file [/home/abi/fetcher/tmp/skysurvey-0.6.0.tar.gz]
+[2023-06-12 11:51:31] INFO root fetch - main [MainThread]: End processing [skysurvey]: success
+[2023-06-12 11:51:37] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230610141100.tar.gz]
+[2023-06-12 11:51:37] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230612095058.tar.gz]
+[2023-06-12 11:51:37] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-12 11:51:37] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-12 11:51:37] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-12 11:51:37] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-12 11:51:59] INFO root fetch - processPackages [aspeak]: Remove: archive file [/home/abi/fetcher/tmp/aspeak-5.2.0-cp39-none-win_amd64.whl.zip]
+[2023-06-12 11:51:59] INFO root fetch - processPackages [aspeak]: Remove: archive file [/home/abi/fetcher/tmp/aspeak-6.0.0a2-cp39-none-win_amd64.whl.zip]
+[2023-06-12 11:51:59] INFO root fetch - main [MainThread]: End processing [aspeak]: success
+[2023-06-12 11:51:59] INFO root fetch - main [MainThread]: Store serial: [18467164]
